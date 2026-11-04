@@ -220,8 +220,15 @@ def mirror_entries(
 ) -> list[str]:
     wanted = set(only) if only is not None else None
     changed: list[str] = []
-    for entry_id, entry in load_entries(entries_dir).items():
+    entries = load_entries(entries_dir)
+    for missing in sorted((wanted or set()) - set(entries)):
+        print(f"{missing}: no such entry")
+    for entry_id, entry in entries.items():
         if wanted is not None and entry_id not in wanted:
+            continue
+        if "requires-registration" in (entry.get("flags") or []):
+            print(f"{entry_id}: skipped: requires-registration (a paid game; add a mirror source by hand, "
+                  "and only with the developer's approval)")
             continue
         dirty = False
         # Walk indexes high to low so insertions don't shift pending ones.
@@ -253,9 +260,12 @@ def mirror_entries(
 
 
 def main(argv: list[str] | None = None) -> int:
-    parser = argparse.ArgumentParser(prog="catalog-mirror", description="Mirror entry sources to R2.")
+    parser = argparse.ArgumentParser(
+        prog="catalog-mirror",
+        description="Preserve the named entries' files on the mirror (R2). Mirroring is a manual, "
+                    "per-entry decision for files at risk of disappearing; it never runs over the whole catalog.")
     parser.add_argument("--entries", type=Path, default=ROOT / "entries")
-    parser.add_argument("--only", nargs="+", metavar="ID")
+    parser.add_argument("--only", nargs="+", metavar="ID", required=True, help="entry ids to mirror")
     parser.add_argument("--download-dir", type=Path)
     parser.add_argument("--dry-run", action="store_true", help="use an in-memory uploader and write no files")
     args = parser.parse_args(argv)

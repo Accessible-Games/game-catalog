@@ -39,6 +39,13 @@ class SourceCheck:
     source: dict
     result: LinkResult
     size_changed: bool
+    has_mirror: bool = False  # the entry has a copy on the mirror to fall back to
+
+
+NO_MIRROR_NOTE = " - no mirror copy"
+NO_MIRROR_HELP = ("Links marked \"no mirror copy\" have nothing to fall back to: preserve the file with "
+                  "`gh workflow run mirror.yml -f entries=<id>` if it can still be downloaded, replace the "
+                  "link, or drop the entry.")
 
 
 def _size(response: requests.Response) -> int | None:
@@ -114,12 +121,18 @@ def check_entries(
         and not is_forbidden_url(source["url"])
     ]
 
+    from catalog.mirror import is_mirror_url  # local: mirror imports the shared http helpers too
+
+    mirrored = {eid for eid in selected
+                if any(isinstance(s, dict) and is_mirror_url(str(s.get("url", "")))
+                       for s in entries[eid].get("sources") or [])}
+
     def run(job: tuple[str, dict]) -> SourceCheck:
         eid, source = job
         result = check_url(source["url"], session)
         known = source.get("size")
         changed = known is not None and result.size is not None and known != result.size
-        return SourceCheck(eid, source, result, changed)
+        return SourceCheck(eid, source, result, changed, has_mirror=eid in mirrored)
 
     with ThreadPoolExecutor(max_workers=max(1, min(workers, MAX_WORKERS))) as pool:
         return list(pool.map(run, jobs))
@@ -142,8 +155,11 @@ def render_report(checks: list[SourceCheck], checked_at: str) -> str:
             what = c.result.detail
             if title == "Size changed":
                 what = f"size {c.source.get('size')} -> {c.result.size}"
-            lines.append(f"- {c.entry_id}: {c.source['url']} ({what})")
+            note = NO_MIRROR_NOTE if c.result.status in ("dead", "error") and not c.has_mirror else ""
+            lines.append(f"- {c.entry_id}: {c.source['url']} ({what}){note}")
         lines.append("")
+    if any(c.result.status in ("dead", "error") and not c.has_mirror for c in checks):
+        lines += [NO_MIRROR_HELP, ""]
 
     def count(status: str) -> int:
         return sum(c.result.status == status for c in checks)
