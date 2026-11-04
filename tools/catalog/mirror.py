@@ -150,6 +150,8 @@ def unmirrored_source_indexes(entry: dict) -> list[int]:
         for i, s in enumerate(entry.get("sources") or [])
         if isinstance(s, dict)
         and not is_mirror_url(str(s.get("url", "")))
+        and s.get("platform") != "web"
+        and (s.get("install") or {}).get("method") != "url"
         and (s.get("sha256") is None or s["sha256"] not in mirrored)
     ]
 

@@ -171,3 +171,16 @@ def test_r2_from_env_missing(monkeypatch):
     monkeypatch.delenv("R2_BUCKET")
     with pytest.raises(RuntimeError, match="R2_BUCKET"):
         R2Uploader.from_env()
+
+
+@responses.activate
+def test_web_and_url_sources_skipped(tmp_path):
+    web = {"label": "Site", "url": "https://example.com/play", "platform": "web", "install": {"method": "none"}}
+    url = {"label": "Page", "url": "https://example.com/page", "platform": "windows", "install": {"method": "url"}}
+    for src in (web, url):
+        assert unmirrored_source_indexes(make_entry(sources=[src])) == []
+    d = tmp_path / "entries"
+    d.mkdir()
+    write_entry(d, make_entry(sources=[web, url]))
+    assert mirror_entries(d, uploader=MemoryUploader(), session=make_session(), download_dir=tmp_path / "dl") == []
+    assert len(responses.calls) == 0
