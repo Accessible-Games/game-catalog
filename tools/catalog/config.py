@@ -3,14 +3,14 @@
 import os
 from urllib.parse import urlsplit
 
-REPO_URL = "https://github.com/olsonale/game-catalog"
+REPO_URL = "https://github.com/Accessible-Games/game-catalog"
 INDEX_BASE = "https://catalog.accessiblegames.net/"
 INDEX_DOMAIN = "catalog.accessiblegames.net"
 MIRROR_BASE = "https://files.accessiblegames.net/"
 FORBIDDEN_SOURCE_HOSTS = frozenset({"agarchive.net", "www.agarchive.net"})
 USER_AGENT = os.environ.get(
     "CATALOG_USER_AGENT",
-    "Mozilla/5.0 (compatible; game-catalog/0.1; +https://github.com/olsonale/game-catalog)",
+    "Mozilla/5.0 (compatible; game-catalog/0.1; +https://github.com/Accessible-Games/game-catalog)",
 )
 
 

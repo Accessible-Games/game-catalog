@@ -29,3 +29,9 @@ def test_forbidden(url):
 ])
 def test_allowed(url):
     assert not is_forbidden_url(url)
+
+
+def test_org_constants():
+    from catalog import config
+    assert config.REPO_URL == "https://github.com/Accessible-Games/game-catalog"
+    assert "+https://github.com/Accessible-Games/game-catalog)" in config.USER_AGENT

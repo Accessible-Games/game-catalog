@@ -32,9 +32,12 @@ def test_validate_runs_link_check():
     assert "fetch-depth: 0" in text
 
 
-def test_mirror_uses_secrets():
+def test_mirror_uses_secrets_and_bucket_variable():
     text = (WORKFLOWS / "mirror.yml").read_text(encoding="utf-8")
-    assert "secrets.R2_BUCKET" in text
+    assert "vars.R2_BUCKET" in text
+    assert "secrets.R2_BUCKET" not in text
+    for name in ("R2_ACCOUNT_ID", "R2_ACCESS_KEY_ID", "R2_SECRET_ACCESS_KEY"):
+        assert f"secrets.{name}" in text
     assert "catalog-mirror" in text
 
 
@@ -89,8 +92,8 @@ def test_setup_order():
         return text.index(s)
 
     merge = at("git merge --ff-only feat/catalog-tools")
-    create = at("gh repo create olsonale/game-catalog")
-    secrets = at("gh secret set R2_BUCKET")
+    create = at("gh repo create Accessible-Games/game-catalog")
+    secrets = at("gh variable set R2_BUCKET --body accessiblegames-files")
     labels = at("gh label create mirror")
     pages = at("build_type=workflow")
     perms = at("default_workflow_permissions=write")
@@ -105,3 +108,11 @@ def test_github_token_limitation_documented():
         text = (ROOT / name).read_text(encoding="utf-8")
         assert "GITHUB_TOKEN" in text, name
         assert "required check" in text, name
+
+
+def test_setup_org_and_bucket_variable():
+    text = (ROOT / "SETUP.md").read_text(encoding="utf-8")
+    assert "gh secret set R2_BUCKET" not in text
+    assert "accessible-games.github.io" in text
+    assert "Moving to an organization" not in text
+    assert "after closing, run `gh workflow run mirror.yml`" in text
