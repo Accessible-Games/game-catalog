@@ -16,7 +16,7 @@ import requests
 
 from catalog.config import is_forbidden_url
 from catalog.entries import ROOT, load_entries
-from catalog.http import make_session, normalize_url
+from catalog.http import ForbiddenRedirect, make_session, normalize_url
 
 LinkStatus = Literal["ok", "forbidden", "dead", "error"]
 
@@ -87,6 +87,8 @@ def check_url(url: str, session: requests.Session, timeout: float = TIMEOUT) -> 
             return _classify(url, response)
         finally:
             response.close()
+    except ForbiddenRedirect as exc:
+        return LinkResult(url, "error", None, None, str(exc))
     except Exception as exc:  # noqa: BLE001 - any failure is reported, not raised
         return LinkResult(url, "error", None, None, type(exc).__name__)
 

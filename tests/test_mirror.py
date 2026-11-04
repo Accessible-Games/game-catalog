@@ -313,3 +313,16 @@ def test_html_response_is_not_mirrored(tmp_path, capsys):
     assert (d / "g.json").read_text(encoding="utf-8") == before
     assert capsys.readouterr().out.count("not a file") == 2
     assert not [p for p in (tmp_path / "dl").rglob("*") if p.is_file()]
+
+
+@responses.activate
+def test_redirect_to_forbidden_host_is_a_download_failure(tmp_path, capsys):
+    d = setup_entries(tmp_path)
+    before = (d / "g.json").read_text(encoding="utf-8")
+    responses.add(responses.GET, URL, status=302, headers={"Location": "https://agarchive.net/x.7z"})
+    up = MemoryUploader()
+    assert mirror_entries(d, uploader=up, session=make_session(), download_dir=tmp_path / "dl") == []
+    assert (d / "g.json").read_text(encoding="utf-8") == before
+    assert up.objects == {}
+    assert "forbidden redirect" in capsys.readouterr().out
+    assert [c.request.url for c in responses.calls] == [URL]

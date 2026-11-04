@@ -190,3 +190,13 @@ def test_forbidden_hosts_never_contacted():
     checks = check_entries(entries, session=requests.Session())
     assert [c.entry_id for c in checks] == ["c"]
     assert [call.request.url for call in responses.calls] == ["https://a.test/c"]
+
+
+@responses.activate
+def test_redirect_to_forbidden_host_is_error_and_not_contacted():
+    from catalog.http import make_session
+    responses.add(responses.HEAD, URL, status=302, headers={"Location": "https://agarchive.net/x.7z"})
+    r = check_url(URL, make_session())
+    assert r.status == "error"
+    assert "forbidden redirect" in r.detail
+    assert [c.request.url for c in responses.calls] == [URL]
