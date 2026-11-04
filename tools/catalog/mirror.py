@@ -221,7 +221,13 @@ def mirror_entries(
             source = entry["sources"][i]
             try:
                 path, filename = _download(session, source["url"], download_dir)
-                m = mirror_file(path, filename, uploader)
+                sha256, size = hash_file(path)
+                recorded = source.get("sha256")
+                if recorded is not None and recorded != sha256:
+                    print(f"{entry_id}: warning: {source['url']} has sha256 {sha256}, but the entry "
+                          f"records {recorded}; not mirrored", file=sys.stderr)
+                    continue
+                m = _mirror_hashed(path, filename, sha256, size, uploader)
             except Exception as exc:
                 print(f"{entry_id}: {exc}")
                 continue

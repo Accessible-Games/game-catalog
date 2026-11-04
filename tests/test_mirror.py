@@ -259,3 +259,18 @@ def test_same_bytes_stored_once_under_first_name(tmp_path):
     second = mirror_file(b, "other-name.zip", up)
     assert second == first
     assert list(up.objects) == [mirror_key(first.sha256, "Game v1.zip")]
+
+
+@responses.activate
+def test_recorded_sha_mismatch_warns_and_skips(tmp_path, capsys):
+    d = tmp_path / "entries"
+    d.mkdir()
+    write_entry(d, make_entry(sources=[dev_source(sha256="f" * 64, size=len(DATA))]))
+    before = (d / "g.json").read_text(encoding="utf-8")
+    responses.add(responses.GET, URL, body=DATA)
+    up = MemoryUploader()
+    assert mirror_entries(d, uploader=up, session=make_session(), download_dir=tmp_path / "dl") == []
+    assert up.objects == {}
+    assert (d / "g.json").read_text(encoding="utf-8") == before
+    err = capsys.readouterr().err
+    assert "g: " in err and "sha256" in err and "f" * 64 in err
