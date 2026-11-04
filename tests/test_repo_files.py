@@ -156,4 +156,4 @@ def test_setup_org_and_bucket_variable():
     assert "https://catalog.accessiblegames.net/index-meta.json" in text
     assert "Moving to an organization" not in text
     assert "To try again after closing, run `gh workflow run mirror.yml -f entries=" in text
-    assert "requires-registration" in text  # paid games are never mirrored by the workflow
+    assert "Paid games are mirrored like any other entry" in text

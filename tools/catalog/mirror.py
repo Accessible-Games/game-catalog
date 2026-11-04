@@ -226,10 +226,6 @@ def mirror_entries(
     for entry_id, entry in entries.items():
         if wanted is not None and entry_id not in wanted:
             continue
-        if "requires-registration" in (entry.get("flags") or []):
-            print(f"{entry_id}: skipped: requires-registration (a paid game; add a mirror source by hand, "
-                  "and only with the developer's approval)")
-            continue
         dirty = False
         # Walk indexes high to low so insertions don't shift pending ones.
         for i in reversed(unmirrored_source_indexes(entry)):
