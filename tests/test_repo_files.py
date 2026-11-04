@@ -98,7 +98,8 @@ def test_setup_order():
     secrets = at("gh variable set R2_BUCKET --body accessiblegames-files")
     labels = at("gh label create mirror")
     pages = at("gh secret set CLOUDFLARE_API_TOKEN")
-    perms = at("default_workflow_permissions=write")
+    perms = at("can_approve_pull_request_reviews=true")
+    assert "default_workflow_permissions=write" not in text  # each workflow declares its own permissions
     push = at("git push -u origin main")
     runs = at("gh workflow run publish.yml")
     assert merge < create < min(secrets, labels, pages, perms) <= max(secrets, labels, pages, perms) < push < runs
