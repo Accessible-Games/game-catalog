@@ -106,7 +106,7 @@ def test_mirror_entries_inserts_after_original(tmp_path):
     changed = mirror_entries(d, uploader=up, session=make_session(), download_dir=tmp_path / "dl")
     assert changed == ["g"]
     # downloaded under the unquoted basename
-    assert (tmp_path / "dl" / "My Game.zip").exists()
+    assert (tmp_path / "dl" / "My_Game.zip").exists()
     entries = load_entries(d)
     src = entries["g"]["sources"]
     assert [s["label"] for s in src] == ["Dev", "Mirror"]
@@ -184,3 +184,19 @@ def test_web_and_url_sources_skipped(tmp_path):
     write_entry(d, make_entry(sources=[web, url]))
     assert mirror_entries(d, uploader=MemoryUploader(), session=make_session(), download_dir=tmp_path / "dl") == []
     assert len(responses.calls) == 0
+
+
+@responses.activate
+def test_download_name_cannot_escape_download_dir(tmp_path):
+    for n, tail in enumerate(["..%2F..%2Fevil.exe", "%5C..%5Cx.exe", "a%3Ab.exe"]):
+        url = f"https://example.com/dl/{tail}"
+        responses.add(responses.GET, url, body=DATA)
+        d = tmp_path / f"entries{n}"
+        d.mkdir()
+        write_entry(d, make_entry(sources=[dev_source(url=url)]))
+        dl = tmp_path / f"dl{n}" / "inner"
+        assert mirror_entries(d, uploader=MemoryUploader(), session=make_session(), download_dir=dl) == ["g"]
+        files = [p for p in tmp_path.rglob("*") if p.is_file() and p.suffix == ".exe"]
+        assert files and all(dl in p.parents for p in files if f"dl{n}" in p.parts)
+        assert not (tmp_path / f"dl{n}" / "evil.exe").exists()
+        assert not (tmp_path / "evil.exe").exists()
