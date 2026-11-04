@@ -14,6 +14,7 @@ from typing import Literal
 
 import requests
 
+from catalog.config import is_forbidden_url
 from catalog.entries import ROOT, load_entries
 from catalog.http import make_session, normalize_url
 
@@ -97,7 +98,10 @@ def check_entries(
     session: requests.Session | None = None,
     workers: int = MAX_WORKERS,
 ) -> list[SourceCheck]:
-    """Check every source of the selected entries (all entries if ids is None)."""
+    """Check every source of the selected entries (all entries if ids is None).
+
+    Sources on a forbidden host are skipped without contacting it; catalog-validate rejects them.
+    """
     session = session or make_session()
     selected = list(entries) if ids is None else [i for i in ids if i in entries]
     jobs = [
@@ -105,6 +109,7 @@ def check_entries(
         for eid in selected
         for source in entries[eid].get("sources") or []
         if isinstance(source, dict) and isinstance(source.get("url"), str)
+        and not is_forbidden_url(source["url"])
     ]
 
     def run(job: tuple[str, dict]) -> SourceCheck:

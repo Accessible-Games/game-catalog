@@ -7,12 +7,13 @@ import re
 import sys
 from dataclasses import dataclass
 from pathlib import Path
-from urllib.parse import urlsplit
+from urllib.parse import urlsplit, urlunsplit
 
 import jsonschema
 
-from catalog.config import FORBIDDEN_SOURCE_HOSTS, MIRROR_BASE
+from catalog.config import MIRROR_BASE, is_forbidden_url
 from catalog.entries import ROOT, EntryLoadError, load_entries, load_schema
+from catalog.mirror import is_mirror_url
 
 _MIRROR_PATH = re.compile(r"files/([0-9a-f]{64})/[^/]+")
 
@@ -30,15 +31,16 @@ def _check_sources(key: str, entry: dict, out: list[Problem]) -> None:
         where = f"sources[{i}]"
         url = source.get("url")
         if isinstance(url, str):
-            host = urlsplit(url).hostname
-            if host in FORBIDDEN_SOURCE_HOSTS:
+            if is_forbidden_url(url):
                 out.append(Problem(key, f"{where}: agarchive download URLs are forbidden ({url})"))
-            if url.startswith(MIRROR_BASE):
+            if is_mirror_url(url):
                 if "sha256" not in source:
                     out.append(Problem(key, f"{where}: mirror source requires sha256"))
                 if "size" not in source:
                     out.append(Problem(key, f"{where}: mirror source requires size"))
-                match = _MIRROR_PATH.fullmatch(url[len(MIRROR_BASE):])
+                parts = urlsplit(url)
+                rest = urlunsplit(("", "", parts.path, parts.query, parts.fragment))
+                match = _MIRROR_PATH.fullmatch(rest[len(urlsplit(MIRROR_BASE).path):])
                 if not match:
                     out.append(Problem(key, f"{where}: mirror URL must look like files/<sha256>/<filename>"))
                 elif source.get("sha256") is not None and match.group(1) != source["sha256"]:

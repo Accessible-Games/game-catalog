@@ -60,7 +60,15 @@ def mirror_url(key: str) -> str:
 
 
 def is_mirror_url(url: str) -> bool:
-    return url.startswith(config.MIRROR_BASE)
+    """True if url is on MIRROR_BASE (scheme and host compared case-insensitively)."""
+    base = urlsplit(config.MIRROR_BASE)
+    try:
+        parts = urlsplit(url)
+        host = (parts.hostname or "").rstrip(".")
+    except ValueError:
+        return False
+    return (parts.scheme.lower() == base.scheme and host == base.hostname and parts.port is None
+            and parts.path.startswith(base.path))
 
 
 class Uploader(Protocol):
@@ -150,6 +158,7 @@ def unmirrored_source_indexes(entry: dict) -> list[int]:
         for i, s in enumerate(entry.get("sources") or [])
         if isinstance(s, dict)
         and not is_mirror_url(str(s.get("url", "")))
+        and not config.is_forbidden_url(str(s.get("url", "")))
         and s.get("platform") != "web"
         and (s.get("install") or {}).get("method") != "url"
         and (s.get("sha256") is None or s["sha256"] not in mirrored)

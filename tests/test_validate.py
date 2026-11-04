@@ -133,7 +133,8 @@ def test_installer_block_only_for_installer_method():
 
 def test_agarchive_source_rejected():
     for url in ("https://agarchive.net/games/x.7z", "https://www.agarchive.net/games/x.7z",
-                "https://AGArchive.net/games/x.7z"):
+                "https://AGArchive.net/games/x.7z", "https://agarchive.net./games/x.7z",
+                "https://files.agarchive.net/x.7z", "HTTPS://WWW.AGARCHIVE.NET./x.7z"):
         problems = validate_entries(catalog(with_source(make("a"), url=url)))
         assert any("agarchive" in p.message for p in problems), url
 
@@ -177,3 +178,12 @@ def test_main_exit_codes(tmp_path, capsys):
     assert main(["--entries", str(tmp_path)]) == 1
     out = capsys.readouterr().out
     assert out.startswith("b: ") and "filename" in out
+
+
+def test_mirror_detection_ignores_host_case():
+    url = f"https://FILES.AccessibleGames.net/files/{SHA}/a.zip"
+    problems = validate_entries(catalog(with_source(make("a"), url=url)))
+    assert any("sha256" in p.message for p in problems)
+    bad = f"https://Files.accessiblegames.net/files/{'b' * 64}/a.zip"
+    problems = validate_entries(catalog(with_source(make("a"), url=bad, sha256=SHA, size=1)))
+    assert any("hash does not match" in p.message for p in problems)

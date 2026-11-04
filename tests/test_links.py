@@ -177,3 +177,16 @@ def test_changed_entry_ids(tmp_path):
     (d / "notes.txt").write_text("x", encoding="utf-8")
     git("add", "-A")
     assert links.changed_entry_ids("HEAD", d) == ["mod", "new"]
+
+
+@responses.activate
+def test_forbidden_hosts_never_contacted():
+    entries = {
+        "a": _entry("a", "https://agarchive.net./games/a.7z"),
+        "b": _entry("b", "https://Sub.AGARCHIVE.net/b.7z"),
+        "c": _entry("c", "https://a.test/c"),
+    }
+    responses.add(responses.HEAD, "https://a.test/c", status=200)
+    checks = check_entries(entries, session=requests.Session())
+    assert [c.entry_id for c in checks] == ["c"]
+    assert [call.request.url for call in responses.calls] == ["https://a.test/c"]

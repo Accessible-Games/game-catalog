@@ -200,3 +200,20 @@ def test_download_name_cannot_escape_download_dir(tmp_path):
         assert files and all(dl in p.parents for p in files if f"dl{n}" in p.parts)
         assert not (tmp_path / f"dl{n}" / "evil.exe").exists()
         assert not (tmp_path / "evil.exe").exists()
+
+
+@responses.activate
+def test_forbidden_sources_never_fetched(tmp_path):
+    bad = [dev_source(url=u) for u in ("https://agarchive.net./games/x.7z", "https://www.AGARCHIVE.net/g/y.zip",
+                                         "https://files.agarchive.net/z.zip")]
+    assert unmirrored_source_indexes(make_entry(sources=bad)) == []
+    d = tmp_path / "entries"
+    d.mkdir()
+    write_entry(d, make_entry(sources=bad))
+    assert mirror_entries(d, uploader=MemoryUploader(), session=make_session(), download_dir=tmp_path / "dl") == []
+    assert len(responses.calls) == 0
+
+
+def test_is_mirror_url_ignores_host_case():
+    assert is_mirror_url("https://FILES.accessiblegames.net/files/x/y.zip")
+    assert not is_mirror_url("https://files.accessiblegames.net.evil.test/files/x/y.zip")
