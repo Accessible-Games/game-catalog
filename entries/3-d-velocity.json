@@ -1,7 +1,7 @@
 {
-  "id": "3-d-velocity-compiled-package",
+  "id": "3-d-velocity",
   "kind": "game",
-  "title": "3-D Velocity: compiled package",
+  "title": "3-D Velocity",
   "developer": [
     "BPC Programs"
   ],
@@ -14,7 +14,7 @@
       "platform": "windows",
       "install": {
         "method": "7z",
-        "extract_dir": "Three-D-Velocity-Binaries"
+        "extract_dir": "Three-D-Velocity"
       },
       "label": "Mirror",
       "url": "https://files.accessiblegames.net/files/086509c8a914ae9b6d4d0904e08b1b34a61b239fa4bf2559b807707469f906db/tdv-compiled.7z",
