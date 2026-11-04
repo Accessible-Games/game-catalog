@@ -329,18 +329,17 @@ def test_redirect_to_forbidden_host_is_a_download_failure(tmp_path, capsys):
 
 
 @responses.activate
-def test_paid_entries_are_never_mirrored(tmp_path, capsys):
+def test_paid_entries_are_mirrored_like_any_other(tmp_path):
+    # A paid game's download is the free try-before-you-buy installer, so it is mirrored like any file.
     d = tmp_path / "entries"
     d.mkdir()
     paid = make_entry("paid")
     paid["flags"] = ["requires-registration"]
     write_entry(d, paid)
-    before = (d / "paid.json").read_text(encoding="utf-8")
+    responses.add(responses.GET, URL, body=DATA)
     up = MemoryUploader()
     changed = mirror_entries(d, uploader=up, session=make_session(), download_dir=tmp_path / "dl", only=["paid"])
-    assert changed == [] and up.objects == {} and len(responses.calls) == 0
-    assert (d / "paid.json").read_text(encoding="utf-8") == before
-    assert "paid: skipped: requires-registration" in capsys.readouterr().out
+    assert changed == ["paid"] and len(up.objects) == 1
 
 
 def test_cli_mirrors_only_named_entries(tmp_path):
