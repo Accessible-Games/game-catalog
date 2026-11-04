@@ -61,11 +61,13 @@ Do not create a `catalog` DNS record by hand: the Worker's custom domain creates
 
 ## 8. Workflow permissions
 
-The mirror workflow pushes a branch and opens a pull request, so the workflow token needs write access and permission to open pull requests:
+The mirror workflow pushes a branch and opens a pull request. Each workflow declares the token permissions it needs, so the default can stay read-only, but GitHub Actions must be allowed to open pull requests.
 
-    gh api --method PUT repos/Accessible-Games/game-catalog/actions/permissions/workflow -f default_workflow_permissions=write -F can_approve_pull_request_reviews=true
+First allow it for the organization: in the Accessible-Games organization settings, under Actions, then General, then Workflow permissions, tick Allow GitHub Actions to create and approve pull requests. Then allow it for this repository:
 
-Or, in the repository settings, under Actions, then General, then Workflow permissions: choose read and write permissions, and tick Allow GitHub Actions to create and approve pull requests.
+    gh api --method PUT repos/Accessible-Games/game-catalog/actions/permissions/workflow -f default_workflow_permissions=read -F can_approve_pull_request_reviews=true
+
+Or, in the repository settings, under Actions, then General, then Workflow permissions: keep read permissions, and tick Allow GitHub Actions to create and approve pull requests.
 
 ## 9. Push main
 
