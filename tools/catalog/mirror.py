@@ -158,7 +158,7 @@ def unmirrored_source_indexes(entry: dict) -> list[int]:
 
 def _download(session: requests.Session, url: str, download_dir: Path) -> tuple[Path, str]:
     decoded = unquote(urlsplit(url).path)
-    filename = re.split("[/\\]", decoded)[-1] or "download"
+    filename = re.split("[/\\\\]", decoded)[-1] or "download"
     dest = Path(download_dir) / safe_filename(filename)
     dest.parent.mkdir(parents=True, exist_ok=True)
     try:
