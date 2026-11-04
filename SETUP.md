@@ -2,7 +2,7 @@
 
 One-time steps for the admin. You need the `gh` command-line tool, signed in as the owner.
 
-Do the steps in order. Pushing to `main` starts the publish and mirror workflows, so everything they need (secrets, labels, Pages and workflow permissions) is set up first, and the push comes last.
+Do the steps in order. Pushing to `main` starts the publish and mirror workflows, so everything they need (secrets, labels and workflow permissions) is set up first, and the push comes last.
 
 ## 1. Merge the work into main
 
@@ -48,17 +48,16 @@ The bucket name is not secret, so it is a repository variable:
     gh label create removal
     gh label create mirror
 
-## 7. GitHub Pages
+## 7. The catalog Worker
 
-Turn on Pages with GitHub Actions as the source:
+The index is served by a Cloudflare Worker named `game-catalog` (see `wrangler.jsonc`) at `https://catalog.accessiblegames.net/`. The publish workflow builds the index and deploys the Worker, and the first deploy attaches the domain and creates its DNS record. There is no GitHub Pages setup.
 
-    gh api --method POST repos/Accessible-Games/game-catalog/pages -f build_type=workflow
+Create a Cloudflare API token for deploys. It needs, on the account: Workers Scripts Write and Account Settings Read; and on the `accessiblegames.net` zone: Workers Routes Write, DNS Write and Zone Read. Then store it, and the account id, as secrets:
 
-Or, in the repository settings, under Pages, set Source to GitHub Actions.
+    gh secret set CLOUDFLARE_API_TOKEN
+    gh secret set CLOUDFLARE_ACCOUNT_ID
 
-If GitHub refuses because the repository is still empty, do this step right after the push in step 9. The publish run started by that push then fails, which is harmless: step 10 runs publish again.
-
-The custom domain is set up after the first publish, in step 11.
+Do not create a `catalog` DNS record by hand: the Worker's custom domain creates it, and an existing record blocks it.
 
 ## 8. Workflow permissions
 
@@ -81,14 +80,7 @@ Watch the runs with `gh run list`. If either failed or did not start, run it by 
     gh workflow run publish.yml
     gh workflow run mirror.yml
 
-When publish finishes, confirm the index loads from the Pages address shown in the run. If mirror found new files, it opens a pull request labelled `mirror`. Review and merge it.
-
-## 11. Custom domain
-
-1. In the repository settings, under Pages, set the custom domain to `catalog.accessiblegames.net`.
-2. In Cloudflare DNS, add `CNAME catalog` pointing to `accessible-games.github.io`, set to DNS-only (not proxied).
-3. Turn on Enforce HTTPS once the certificate is ready.
-4. Confirm https://catalog.accessiblegames.net/index-meta.json loads.
+When publish finishes, confirm https://catalog.accessiblegames.net/index-meta.json loads and shows the new `generated_at`. The certificate for a new custom domain can take a few minutes. If mirror found new files, it opens a pull request labelled `mirror`. Review and merge it.
 
 ## Mirror pull requests and the GITHUB_TOKEN
 

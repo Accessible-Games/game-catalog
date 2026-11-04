@@ -1,0 +1,15 @@
+// The catalog Worker: serves the index that `catalog-index --out site` builds, at
+// https://catalog.accessiblegames.net/. It is assets-only for now; API routes (for example,
+// recognizing installed games) get a `main` script later without moving the domain.
+// Deployed by .github/workflows/publish.yml on every push to main.
+{
+  "name": "game-catalog",
+  "compatibility_date": "2026-10-20",
+  "assets": {
+    "directory": "./site"
+  },
+  "routes": [
+    { "pattern": "catalog.accessiblegames.net", "custom_domain": true }
+  ],
+  "workers_dev": false
+}

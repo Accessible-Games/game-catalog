@@ -8,7 +8,6 @@ from urllib3.util import parse_url
 
 REPO_URL = "https://github.com/Accessible-Games/game-catalog"
 INDEX_BASE = "https://catalog.accessiblegames.net/"
-INDEX_DOMAIN = "catalog.accessiblegames.net"
 MIRROR_BASE = "https://files.accessiblegames.net/"
 FORBIDDEN_SOURCE_HOSTS = frozenset({"agarchive.net", "www.agarchive.net"})
 USER_AGENT = os.environ.get(

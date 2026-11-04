@@ -7,27 +7,27 @@ on:
 
 permissions:
   contents: read
-  pages: write
-  id-token: write
 
 concurrency:
-  group: pages
+  group: publish
   cancel-in-progress: false
 
 jobs:
   publish:
     runs-on: ubuntu-latest
     environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
+      name: catalog
+      url: https://catalog.accessiblegames.net/index-meta.json
     steps:
       - uses: actions/checkout@v7
       - uses: astral-sh/setup-uv@v7
       - run: uv sync --locked
       - name: Build index
         run: uv run catalog-index --out site
-      - uses: actions/upload-pages-artifact@v5
+      - name: Deploy the catalog Worker (wrangler.jsonc)
+        uses: cloudflare/wrangler-action@v4
         with:
-          path: site
-      - id: deployment
-        uses: actions/deploy-pages@v5
+          apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+          wranglerVersion: "4.151.3"
+          command: deploy
