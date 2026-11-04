@@ -64,7 +64,7 @@ def test_accepts_access_mod_kind():
 def test_step_registry_requires_hive():
     entry = make()
     entry["sources"][0]["steps"] = [
-        {"action": "registry", "key": "Software\X", "name": "n", "type": "REG_SZ", "value": "v"}
+        {"action": "registry", "key": r"Software\X", "name": "n", "type": "REG_SZ", "value": "v"}
     ]
     with pytest.raises(jsonschema.ValidationError):
         validate(entry)
