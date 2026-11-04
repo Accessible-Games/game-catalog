@@ -1,0 +1,33 @@
+{
+  "id": "captain-dynamite-and-the-fallen-hero",
+  "kind": "game",
+  "title": "Captain Dynamite and the Fallen Hero",
+  "developer": [
+    "various authors"
+  ],
+  "description": "In this concept demo of a rhythm game you take on the roles of the hero Captain Dynamite and his sidekick Guy Mighty. By matching rhythm and timing you challenge numerous villains, and perhaps even discover some dark secrets.\n\nThis is a demo version of the product. The full version has not been released, and we were unable to find any updated information about the developer. If you know something, please let us know so we can update this listing.",
+  "flags": [
+    "abandoned",
+    "demo",
+    "beta"
+  ],
+  "links": {
+    "agarchive": "https://www.agarchive.net/pages/devs/misc.html"
+  },
+  "sources": [
+    {
+      "platform": "windows",
+      "install": {
+        "method": "installer",
+        "installer": {
+          "type": "msi",
+          "mode": "extract"
+        }
+      },
+      "label": "Mirror",
+      "url": "https://files.accessiblegames.net/files/221cb121712bc3b2e24374197dfc39014a534aed9677745ccab738a7dd186b80/Capptain_Dynamite_and_the_Fallen_Hero_0.6.msi",
+      "sha256": "221cb121712bc3b2e24374197dfc39014a534aed9677745ccab738a7dd186b80",
+      "size": 111763879
+    }
+  ]
+}

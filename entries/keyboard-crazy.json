@@ -1,0 +1,30 @@
+{
+  "id": "keyboard-crazy",
+  "kind": "game",
+  "title": "Keyboard Crazy",
+  "developer": [
+    "VIP GamesZone"
+  ],
+  "flags": [
+    "abandoned"
+  ],
+  "links": {
+    "agarchive": "https://www.agarchive.net/pages/devs/vip.html"
+  },
+  "sources": [
+    {
+      "platform": "windows",
+      "install": {
+        "method": "installer",
+        "installer": {
+          "type": "inno",
+          "mode": "extract"
+        }
+      },
+      "label": "Mirror",
+      "url": "https://files.accessiblegames.net/files/b5fd37946c555e161f1240fee9a091b945237f919fd9dd4653e07f4c16c2b8f1/keyboard_crazy_setup.exe",
+      "sha256": "b5fd37946c555e161f1240fee9a091b945237f919fd9dd4653e07f4c16c2b8f1",
+      "size": 6305342
+    }
+  ]
+}

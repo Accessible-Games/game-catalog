@@ -1,0 +1,25 @@
+{
+  "id": "mach-1",
+  "kind": "game",
+  "title": "Mach 1",
+  "developer": [
+    "Jim Kitchen"
+  ],
+  "description": "Note that we have repackaged each game into a zip archive from its initial format of a self-extracting executable. The game's files are contained with a folder, so all you need do is extract the archive and each game will have its own folder.",
+  "links": {
+    "agarchive": "https://www.agarchive.net/pages/devs/kitchensinc.html"
+  },
+  "sources": [
+    {
+      "platform": "windows",
+      "install": {
+        "method": "zip",
+        "extract_dir": "mach1tts2"
+      },
+      "label": "Mirror",
+      "url": "https://files.accessiblegames.net/files/09554baf617f38b6413530520b5304db75ddb460f2229e51e730d6d0127fdc69/mach1tts2.zip",
+      "sha256": "09554baf617f38b6413530520b5304db75ddb460f2229e51e730d6d0127fdc69",
+      "size": 10059411
+    }
+  ]
+}

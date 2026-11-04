@@ -1,0 +1,28 @@
+{
+  "id": "fighting-cores-otonobe-version",
+  "kind": "game",
+  "title": "Fighting Cores Otonobe Version",
+  "developer": [
+    "Galaxy Laboratory"
+  ],
+  "description": "This is Fighting Cores played like a gamebook. The story can be read and translated with a screen reader and is the same as the self-voicing version. Is no longer hosted by the developer.",
+  "flags": [
+    "abandoned"
+  ],
+  "links": {
+    "agarchive": "https://www.agarchive.net/pages/devs/GalaxyLaboratory.html"
+  },
+  "sources": [
+    {
+      "platform": "windows",
+      "install": {
+        "method": "7z",
+        "extract_dir": "FightingCores ƒIƒgƒmƒx”Å"
+      },
+      "label": "Mirror",
+      "url": "https://files.accessiblegames.net/files/d0e0a023c210b34e95a55ad018d182255594840fd8c76a23d8327ec4e01dfe26/fighting_cores_otonobe.7z",
+      "sha256": "d0e0a023c210b34e95a55ad018d182255594840fd8c76a23d8327ec4e01dfe26",
+      "size": 21141504
+    }
+  ]
+}

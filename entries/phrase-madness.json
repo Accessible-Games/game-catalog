@@ -1,0 +1,27 @@
+{
+  "id": "phrase-madness",
+  "kind": "game",
+  "title": "Phrase Madness",
+  "developer": [
+    "Dreamtech games."
+  ],
+  "links": {
+    "agarchive": "https://www.agarchive.net/pages/devs/dreamtech.html"
+  },
+  "sources": [
+    {
+      "platform": "windows",
+      "install": {
+        "method": "installer",
+        "installer": {
+          "type": "inno",
+          "mode": "extract"
+        }
+      },
+      "label": "Mirror",
+      "url": "https://files.accessiblegames.net/files/4db53083f02f77ebfbfc2fa673b170280b864fe8e47d11bf86fd1053aecad833/phraseMadnessSetup.exe",
+      "sha256": "4db53083f02f77ebfbfc2fa673b170280b864fe8e47d11bf86fd1053aecad833",
+      "size": 77132070
+    }
+  ]
+}

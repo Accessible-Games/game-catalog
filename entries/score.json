@@ -1,0 +1,27 @@
+{
+  "id": "score",
+  "kind": "game",
+  "title": "Score",
+  "developer": [
+    "Quentin C"
+  ],
+  "description": "This game is similar to Magic Blocks, but with features and no multiplayer support. Unlike Magic Blocks, it should still run under windows 10. The game is also translatable to other languages. If you create or have any language packs for it, please let us know, and we'd be glad to include them along with the game itself.",
+  "flags": [
+    "abandoned"
+  ],
+  "links": {
+    "agarchive": "https://www.agarchive.net/pages/devs/qc.html"
+  },
+  "sources": [
+    {
+      "platform": "windows",
+      "install": {
+        "method": "zip"
+      },
+      "label": "Mirror",
+      "url": "https://files.accessiblegames.net/files/7ed7b1a5db1a3327411c0957d09b889833881e6231ed8d4735c48d3fb1fc0164/score-en.zip",
+      "sha256": "7ed7b1a5db1a3327411c0957d09b889833881e6231ed8d4735c48d3fb1fc0164",
+      "size": 424493
+    }
+  ]
+}

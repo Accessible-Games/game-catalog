@@ -1,0 +1,30 @@
+{
+  "id": "dark-destroyer",
+  "kind": "game",
+  "title": "Dark Destroyer",
+  "developer": [
+    "PB Games"
+  ],
+  "flags": [
+    "abandoned"
+  ],
+  "links": {
+    "agarchive": "https://www.agarchive.net/pages/devs/pb.html"
+  },
+  "sources": [
+    {
+      "platform": "windows",
+      "install": {
+        "method": "installer",
+        "installer": {
+          "type": "inno",
+          "mode": "extract"
+        }
+      },
+      "label": "Mirror",
+      "url": "https://files.accessiblegames.net/files/9ab8bf0244490e70daa9996dde5ce3a1a5201dff33a65bcacc016458a10fa49c/Dark-Destroyer-Setup.exe",
+      "sha256": "9ab8bf0244490e70daa9996dde5ce3a1a5201dff33a65bcacc016458a10fa49c",
+      "size": 65958960
+    }
+  ]
+}

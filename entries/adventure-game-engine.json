@@ -1,0 +1,38 @@
+{
+  "id": "adventure-game-engine",
+  "kind": "game",
+  "title": "Adventure Game Engine",
+  "developer": [
+    "Ian Reed"
+  ],
+  "flags": [
+    "abandoned"
+  ],
+  "links": {
+    "agarchive": "https://www.agarchive.net/pages/devs/IanReed.html"
+  },
+  "sources": [
+    {
+      "label": "Developer site",
+      "url": "https://blindgamers.com/downloads/AGE%201.04.zip",
+      "platform": "windows",
+      "install": {
+        "method": "zip",
+        "extract_dir": "AGE 1.04"
+      },
+      "sha256": "2a457d75747bbd8ca3b935d4a94cb6aa92091449bc583959ffa15e31307eeea1",
+      "size": 16037097
+    },
+    {
+      "platform": "windows",
+      "install": {
+        "method": "zip",
+        "extract_dir": "AGE 1.04"
+      },
+      "label": "Mirror",
+      "url": "https://files.accessiblegames.net/files/2a457d75747bbd8ca3b935d4a94cb6aa92091449bc583959ffa15e31307eeea1/AGE_1.04.zip",
+      "sha256": "2a457d75747bbd8ca3b935d4a94cb6aa92091449bc583959ffa15e31307eeea1",
+      "size": 16037097
+    }
+  ]
+}

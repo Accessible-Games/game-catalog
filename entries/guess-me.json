@@ -1,0 +1,30 @@
+{
+  "id": "guess-me",
+  "kind": "game",
+  "title": "Guess Me",
+  "developer": [
+    "TDL Games"
+  ],
+  "flags": [
+    "abandoned"
+  ],
+  "links": {
+    "agarchive": "https://www.agarchive.net/pages/devs/tdl.html"
+  },
+  "sources": [
+    {
+      "platform": "windows",
+      "install": {
+        "method": "installer",
+        "installer": {
+          "type": "inno",
+          "mode": "extract"
+        }
+      },
+      "label": "Mirror",
+      "url": "https://files.accessiblegames.net/files/683f00591ce4bd51dd658347652ee5dc36618e046181629896c06b9bda050025/GuessMe10Setup.exe",
+      "sha256": "683f00591ce4bd51dd658347652ee5dc36618e046181629896c06b9bda050025",
+      "size": 1112822
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "id": "hidden-zombie-shooter",
+  "kind": "game",
+  "title": "Hidden Zombie Shooter",
+  "developer": [
+    "Talon"
+  ],
+  "flags": [
+    "abandoned",
+    "beta"
+  ],
+  "links": {
+    "agarchive": "https://www.agarchive.net/pages/devs/talon.html"
+  },
+  "sources": [
+    {
+      "platform": "windows",
+      "install": {
+        "method": "7z",
+        "extract_dir": "zombieShooterTest"
+      },
+      "label": "Mirror",
+      "url": "https://files.accessiblegames.net/files/e9f444f60a72ef1d8029e4648ec544ef29f2ff0e4d5cfb98518e45eac0108c0b/hiddenZombieShooter.7z",
+      "sha256": "e9f444f60a72ef1d8029e4648ec544ef29f2ff0e4d5cfb98518e45eac0108c0b",
+      "size": 15534836
+    }
+  ]
+}

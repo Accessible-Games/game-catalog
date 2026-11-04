@@ -1,0 +1,30 @@
+{
+  "id": "duck-hunt",
+  "kind": "game",
+  "title": "Duck Hunt",
+  "developer": [
+    "LWorks"
+  ],
+  "flags": [
+    "abandoned"
+  ],
+  "links": {
+    "agarchive": "https://www.agarchive.net/pages/devs/lworks.html"
+  },
+  "sources": [
+    {
+      "platform": "windows",
+      "install": {
+        "method": "installer",
+        "installer": {
+          "type": "inno",
+          "mode": "extract"
+        }
+      },
+      "label": "Mirror",
+      "url": "https://files.accessiblegames.net/files/49dc08159cf7db07d14f7885b74307e18b1571231d9f53125ae93bf57012f614/duck_hunt_setup.exe",
+      "sha256": "49dc08159cf7db07d14f7885b74307e18b1571231d9f53125ae93bf57012f614",
+      "size": 1826116
+    }
+  ]
+}

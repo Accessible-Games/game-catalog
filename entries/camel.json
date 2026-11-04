@@ -1,0 +1,28 @@
+{
+  "id": "camel",
+  "kind": "game",
+  "title": "Camel",
+  "developer": [
+    "BrailleSoft"
+  ],
+  "description": "Run from a tribe of pigmies on your Camel, while battling thirst and exhaustion.",
+  "flags": [
+    "abandoned"
+  ],
+  "links": {
+    "agarchive": "https://www.agarchive.net/pages/devs/braillesoft.html"
+  },
+  "sources": [
+    {
+      "platform": "windows",
+      "install": {
+        "method": "zip",
+        "extract_dir": "camel"
+      },
+      "label": "Mirror",
+      "url": "https://files.accessiblegames.net/files/dbdb70131df03add488bcefe44141a797b0e0933e87515d4ed315d030dda3423/camel.zip",
+      "sha256": "dbdb70131df03add488bcefe44141a797b0e0933e87515d4ed315d030dda3423",
+      "size": 127953
+    }
+  ]
+}

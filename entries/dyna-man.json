@@ -1,0 +1,46 @@
+{
+  "id": "dyna-man",
+  "kind": "game",
+  "title": "Dyna Man",
+  "developer": [
+    "Draconis Entertainment"
+  ],
+  "flags": [
+    "demo",
+    "requires-registration"
+  ],
+  "links": {
+    "homepage": "http://dracoent.com/Windows/DynaMan",
+    "agarchive": "https://www.agarchive.net/pages/devs/draconis.html"
+  },
+  "sources": [
+    {
+      "label": "Developer site",
+      "url": "http://download.dracoent.com/Windows/classic/DMSetup.exe",
+      "platform": "windows",
+      "install": {
+        "method": "installer",
+        "installer": {
+          "type": "inno",
+          "mode": "extract"
+        }
+      },
+      "sha256": "dfae5850b990e05a5f96f19b84d2cf294b709f1922b2673d22cca9f06058e64d",
+      "size": 19476551
+    },
+    {
+      "platform": "windows",
+      "install": {
+        "method": "installer",
+        "installer": {
+          "type": "inno",
+          "mode": "extract"
+        }
+      },
+      "label": "Mirror",
+      "url": "https://files.accessiblegames.net/files/dfae5850b990e05a5f96f19b84d2cf294b709f1922b2673d22cca9f06058e64d/DMSetup.exe",
+      "sha256": "dfae5850b990e05a5f96f19b84d2cf294b709f1922b2673d22cca9f06058e64d",
+      "size": 19476551
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "id": "march-massacre-old-games-with-source",
+  "kind": "extra",
+  "title": "Old Games with Source",
+  "developer": [
+    "Talon"
+  ],
+  "description": "A number of old unsupported games and programs, packaged along with their source code, including a fighting engine, an elevator, a slot machine and some other games and utilities.",
+  "flags": [
+    "abandoned"
+  ],
+  "links": {
+    "agarchive": "https://www.agarchive.net/pages/devs/talon.html"
+  },
+  "sources": [
+    {
+      "platform": "windows",
+      "install": {
+        "method": "7z",
+        "extract_dir": "OldGames"
+      },
+      "label": "Mirror",
+      "url": "https://files.accessiblegames.net/files/379aa5d3890626f45b897629ed90544cdc93aa81d0dda65703aa9afd6ac4d1e9/old_games_with_source_code.7z",
+      "sha256": "379aa5d3890626f45b897629ed90544cdc93aa81d0dda65703aa9afd6ac4d1e9",
+      "size": 512393735
+    }
+  ],
+  "extends": "march-massacre",
+  "install_into": "march-massacre"
+}

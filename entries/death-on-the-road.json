@@ -1,0 +1,24 @@
+{
+  "id": "death-on-the-road",
+  "kind": "game",
+  "title": "Death on the Road",
+  "developer": [
+    "Oriol Gomez"
+  ],
+  "description": "You are a blind 10-year-old kid in a new city. Your stupid mobility teacher keeps giving you instructions and you are becoming insane. What better way to perfect your road crossing skills than to cross the road over and over again, you think. Though your task is not as easy as you thought.",
+  "links": {
+    "agarchive": "https://www.agarchive.net/pages/devs/oriolgomez.html"
+  },
+  "sources": [
+    {
+      "platform": "windows",
+      "install": {
+        "method": "zip"
+      },
+      "label": "Mirror",
+      "url": "https://files.accessiblegames.net/files/d896a79a0bbdef6741b591980fc794d70109a2bda9ed1aa8f70e5716a1ca448d/death_on_the_road.zip",
+      "sha256": "d896a79a0bbdef6741b591980fc794d70109a2bda9ed1aa8f70e5716a1ca448d",
+      "size": 56410000
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "id": "funk-in-the-trunk",
+  "kind": "game",
+  "title": "Funk in the Trunk",
+  "developer": [
+    "BSC Games"
+  ],
+  "description": "This is a virtual car stereo for your computer!",
+  "flags": [
+    "abandoned"
+  ],
+  "links": {
+    "agarchive": "https://www.agarchive.net/pages/devs/bsc.html"
+  },
+  "sources": [
+    {
+      "platform": "windows",
+      "install": {
+        "method": "installer",
+        "installer": {
+          "type": "inno",
+          "mode": "extract"
+        }
+      },
+      "label": "Mirror",
+      "url": "https://files.accessiblegames.net/files/73d070df28cf5602e7a3f08949d092957249915a88c9e2defcf33bb096cab2c0/FunkInTheTrunkMP3PlayerSetup.exe",
+      "sha256": "73d070df28cf5602e7a3f08949d092957249915a88c9e2defcf33bb096cab2c0",
+      "size": 3023606
+    }
+  ],
+  "dependencies": [
+    "bsc-windows10-fixpack"
+  ]
+}

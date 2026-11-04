@@ -1,0 +1,45 @@
+{
+  "id": "paladin-of-the-sky",
+  "kind": "game",
+  "title": "Paladin of the Sky",
+  "developer": [
+    "VG Storm"
+  ],
+  "flags": [
+    "requires-registration"
+  ],
+  "links": {
+    "homepage": "http://www.vgstorm.com/paladin_of_the_sky.php",
+    "agarchive": "https://www.agarchive.net/pages/devs/vgstorm.html"
+  },
+  "sources": [
+    {
+      "label": "Developer site",
+      "url": "http://www.vgstorm.com/cod/pots/paladin_installer.exe",
+      "platform": "windows",
+      "install": {
+        "method": "installer",
+        "installer": {
+          "type": "inno",
+          "mode": "extract"
+        }
+      },
+      "sha256": "1dd0a6ca5faa219040cde12538b0b22bb9b80e63d5e6ad9f84a9bca2afecc0b6",
+      "size": 245620527
+    },
+    {
+      "platform": "windows",
+      "install": {
+        "method": "installer",
+        "installer": {
+          "type": "inno",
+          "mode": "extract"
+        }
+      },
+      "label": "Mirror",
+      "url": "https://files.accessiblegames.net/files/1dd0a6ca5faa219040cde12538b0b22bb9b80e63d5e6ad9f84a9bca2afecc0b6/paladin_installer.exe",
+      "sha256": "1dd0a6ca5faa219040cde12538b0b22bb9b80e63d5e6ad9f84a9bca2afecc0b6",
+      "size": 245620527
+    }
+  ]
+}

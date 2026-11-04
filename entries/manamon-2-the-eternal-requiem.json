@@ -1,0 +1,59 @@
+{
+  "id": "manamon-2-the-eternal-requiem",
+  "kind": "game",
+  "title": "Manamon 2: The Eternal Requiem",
+  "developer": [
+    "VG Storm"
+  ],
+  "flags": [
+    "requires-registration"
+  ],
+  "links": {
+    "homepage": "http://www.vgstorm.com/manamon2.php",
+    "agarchive": "https://www.agarchive.net/pages/devs/vgstorm.html"
+  },
+  "sources": [
+    {
+      "label": "Developer site",
+      "url": "http://www.vgstorm.com/manamon2/manamon2_installer.exe",
+      "platform": "windows",
+      "install": {
+        "method": "installer",
+        "installer": {
+          "type": "inno",
+          "mode": "extract"
+        }
+      },
+      "sha256": "dbf18286d6d3f8567413aac25cf87bc28e48141438ee2a81806b8581620241a2",
+      "size": 466405806
+    },
+    {
+      "platform": "windows",
+      "install": {
+        "method": "installer",
+        "installer": {
+          "type": "inno",
+          "mode": "extract"
+        }
+      },
+      "label": "Mirror",
+      "url": "https://files.accessiblegames.net/files/dbf18286d6d3f8567413aac25cf87bc28e48141438ee2a81806b8581620241a2/manamon2_installer.exe",
+      "sha256": "dbf18286d6d3f8567413aac25cf87bc28e48141438ee2a81806b8581620241a2",
+      "size": 466405806
+    },
+    {
+      "platform": "windows",
+      "install": {
+        "method": "installer",
+        "installer": {
+          "type": "inno",
+          "mode": "extract"
+        }
+      },
+      "label": "Mirror",
+      "url": "https://files.accessiblegames.net/files/9dbdea392659af1e89dee452fa1c2d1daa30e8465794aa629a443a7ebf302e6b/manamon_2_installer.exe",
+      "sha256": "9dbdea392659af1e89dee452fa1c2d1daa30e8465794aa629a443a7ebf302e6b",
+      "size": 466402312
+    }
+  ]
+}

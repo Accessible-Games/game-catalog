@@ -1,0 +1,74 @@
+{
+  "id": "chainlink",
+  "kind": "game",
+  "title": "Chainlink",
+  "developer": [
+    "Dan Z"
+  ],
+  "flags": [
+    "abandoned"
+  ],
+  "links": {
+    "agarchive": "https://www.agarchive.net/pages/devs/danZ.html"
+  },
+  "sources": [
+    {
+      "label": "Developer site",
+      "url": "http://www.danielzingaro.com/chainlink_setup.exe",
+      "platform": "windows",
+      "install": {
+        "method": "installer",
+        "installer": {
+          "type": "inno",
+          "mode": "extract"
+        }
+      },
+      "sha256": "12aada571ee53446fb4e751ae337d33ec93ae7576690d5a4357b3551f345b5db",
+      "size": 1691936
+    },
+    {
+      "platform": "windows",
+      "install": {
+        "method": "installer",
+        "installer": {
+          "type": "inno",
+          "mode": "extract"
+        }
+      },
+      "label": "Mirror",
+      "url": "https://files.accessiblegames.net/files/12aada571ee53446fb4e751ae337d33ec93ae7576690d5a4357b3551f345b5db/chainlink_setup.exe",
+      "sha256": "12aada571ee53446fb4e751ae337d33ec93ae7576690d5a4357b3551f345b5db",
+      "size": 1691936
+    },
+    {
+      "label": "Developer site",
+      "url": "http://www.danielzingaro.com/cl_full.exe",
+      "platform": "windows",
+      "install": {
+        "method": "7z"
+      },
+      "sha256": "cac23c8b330baa83c26f38f978a73fe1299f8b0a012c8ebb3b0c9c0c4c5afb00",
+      "size": 161790
+    },
+    {
+      "platform": "windows",
+      "install": {
+        "method": "7z"
+      },
+      "label": "Mirror",
+      "url": "https://files.accessiblegames.net/files/cac23c8b330baa83c26f38f978a73fe1299f8b0a012c8ebb3b0c9c0c4c5afb00/cl_full.exe",
+      "sha256": "cac23c8b330baa83c26f38f978a73fe1299f8b0a012c8ebb3b0c9c0c4c5afb00",
+      "size": 161790
+    },
+    {
+      "platform": "windows",
+      "install": {
+        "method": "7z"
+      },
+      "label": "Mirror",
+      "url": "https://files.accessiblegames.net/files/7f4298a43087fae57002bfe0f94af971e25932685dcfbcf514076a4f2d0de70e/chain_link_with_patch.7z",
+      "sha256": "7f4298a43087fae57002bfe0f94af971e25932685dcfbcf514076a4f2d0de70e",
+      "size": 1693317
+    }
+  ]
+}

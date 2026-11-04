@@ -1,0 +1,30 @@
+{
+  "id": "echos-from-levia-soulbound",
+  "kind": "game",
+  "title": "Echos from Levia: Soulbound",
+  "developer": [
+    "various authors"
+  ],
+  "flags": [
+    "abandoned"
+  ],
+  "links": {
+    "agarchive": "https://www.agarchive.net/pages/devs/misc.html"
+  },
+  "sources": [
+    {
+      "platform": "windows",
+      "install": {
+        "method": "installer",
+        "installer": {
+          "type": "nsis",
+          "mode": "extract"
+        }
+      },
+      "label": "Mirror",
+      "url": "https://files.accessiblegames.net/files/cc9841d913a7a067c5042167589dedf0e9645714e219096aaac984e2f576cc08/EFL_Soulbound_Setup.exe",
+      "sha256": "cc9841d913a7a067c5042167589dedf0e9645714e219096aaac984e2f576cc08",
+      "size": 116215178
+    }
+  ]
+}

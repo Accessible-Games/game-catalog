@@ -1,0 +1,45 @@
+{
+  "id": "psycho-strike",
+  "kind": "game",
+  "title": "Psycho Strike",
+  "developer": [
+    "VG Storm"
+  ],
+  "flags": [
+    "requires-registration"
+  ],
+  "links": {
+    "homepage": "http://www.vgstorm.com/psycho_strike.php",
+    "agarchive": "https://www.agarchive.net/pages/devs/vgstorm.html"
+  },
+  "sources": [
+    {
+      "label": "Developer site",
+      "url": "http://www.vgstorm.com/psycho_strike_installer.exe",
+      "platform": "windows",
+      "install": {
+        "method": "installer",
+        "installer": {
+          "type": "inno",
+          "mode": "extract"
+        }
+      },
+      "sha256": "6a422538a35628d5bc080ded2194d01e5b2f4dc470b76263431a22c5c96f1b5c",
+      "size": 110727434
+    },
+    {
+      "platform": "windows",
+      "install": {
+        "method": "installer",
+        "installer": {
+          "type": "inno",
+          "mode": "extract"
+        }
+      },
+      "label": "Mirror",
+      "url": "https://files.accessiblegames.net/files/6a422538a35628d5bc080ded2194d01e5b2f4dc470b76263431a22c5c96f1b5c/psycho_strike_installer.exe",
+      "sha256": "6a422538a35628d5bc080ded2194d01e5b2f4dc470b76263431a22c5c96f1b5c",
+      "size": 110727434
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "id": "bloodshed",
+  "kind": "game",
+  "title": "Bloodshed",
+  "developer": [
+    "Sam Tupy"
+  ],
+  "description": "This game went through three versions, each of which added features and balanced the game. We currently host all three, but you will only be able to post scores with the latest. Also note that while we have not flagged the game as unsupported, you should always use the latest version of a product before filing support requests.",
+  "links": {
+    "agarchive": "https://www.agarchive.net/pages/devs/samtupy.html"
+  },
+  "sources": [
+    {
+      "platform": "windows",
+      "install": {
+        "method": "none"
+      },
+      "label": "Mirror",
+      "url": "https://files.accessiblegames.net/files/933e86a3f3a1e96285fa408bfaa40a328074557a032402edcf0386a40ea29195/bloodshed.exe",
+      "sha256": "933e86a3f3a1e96285fa408bfaa40a328074557a032402edcf0386a40ea29195",
+      "size": 4258572
+    },
+    {
+      "platform": "windows",
+      "install": {
+        "method": "none"
+      },
+      "label": "Mirror",
+      "url": "https://files.accessiblegames.net/files/c4322613b342d24f4592785ccd6702492a83c34c0f9e54bb24a38e68d136b32e/bloodshed2.exe",
+      "sha256": "c4322613b342d24f4592785ccd6702492a83c34c0f9e54bb24a38e68d136b32e",
+      "size": 4258748
+    },
+    {
+      "platform": "windows",
+      "install": {
+        "method": "none"
+      },
+      "label": "Mirror",
+      "url": "https://files.accessiblegames.net/files/91abfd7c614037a62a34e2fd6d341b9ef68d4bc93e537de82eaa62a5285eeac4/bloodshed3.exe",
+      "sha256": "91abfd7c614037a62a34e2fd6d341b9ef68d4bc93e537de82eaa62a5285eeac4",
+      "size": 4317170
+    }
+  ]
+}

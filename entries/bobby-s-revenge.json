@@ -1,0 +1,34 @@
+{
+  "id": "bobby-s-revenge",
+  "kind": "game",
+  "title": "Bobby's Revenge",
+  "developer": [
+    "BSC Games"
+  ],
+  "description": "What does eight year old Bobby do when he doesn't get a best-in-class gaming PC for Christmas? Engage in a paintball/taser match with Santa's slay, that's what!\n\nTake some rounds at Santa's slay, and with dad's taser make him bounce off the sides of the field before he can go out of range in this demented Christmas festivity!",
+  "flags": [
+    "abandoned"
+  ],
+  "links": {
+    "agarchive": "https://www.agarchive.net/pages/devs/bsc.html"
+  },
+  "sources": [
+    {
+      "platform": "windows",
+      "install": {
+        "method": "installer",
+        "installer": {
+          "type": "inno",
+          "mode": "extract"
+        }
+      },
+      "label": "Mirror",
+      "url": "https://files.accessiblegames.net/files/8de775163f91abc8cbd3f50d61f7db75545538bd9e25ec2092e81ee2fe59796c/BobbysRevengeSetup.exe",
+      "sha256": "8de775163f91abc8cbd3f50d61f7db75545538bd9e25ec2092e81ee2fe59796c",
+      "size": 5539375
+    }
+  ],
+  "dependencies": [
+    "bsc-windows10-fixpack"
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "id": "alternative-magic",
+  "kind": "game",
+  "title": "Alternative Magic",
+  "developer": [
+    "Morokuma"
+  ],
+  "description": "An RPG built with Text Game Maker and set in a world that runs on magic.",
+  "links": {
+    "agarchive": "https://www.agarchive.net/pages/devs/morokuma.html"
+  },
+  "sources": [
+    {
+      "label": "Developer site",
+      "url": "http://hirotaka2014.sakura.ne.jp/mh0406/game/al119.exe",
+      "platform": "windows",
+      "install": {
+        "method": "7z",
+        "extract_dir": "ALTERNATIVE"
+      },
+      "sha256": "d8bb10ad4c6f0d179303c0438820e401c8b088d9e52780b4640b98f3fa82c570",
+      "size": 8455577
+    },
+    {
+      "platform": "windows",
+      "install": {
+        "method": "7z",
+        "extract_dir": "ALTERNATIVE"
+      },
+      "label": "Mirror",
+      "url": "https://files.accessiblegames.net/files/d8bb10ad4c6f0d179303c0438820e401c8b088d9e52780b4640b98f3fa82c570/al119.exe",
+      "sha256": "d8bb10ad4c6f0d179303c0438820e401c8b088d9e52780b4640b98f3fa82c570",
+      "size": 8455577
+    },
+    {
+      "platform": "windows",
+      "install": {
+        "method": "7z",
+        "extract_dir": "ALTERNATIVE"
+      },
+      "label": "Mirror",
+      "url": "https://files.accessiblegames.net/files/db503306cba4525485ba95236b86c1b166554c2bfe498a609873cd4c49b98ec7/alternative_magic.7z",
+      "sha256": "db503306cba4525485ba95236b86c1b166554c2bfe498a609873cd4c49b98ec7",
+      "size": 7544960
+    }
+  ]
+}

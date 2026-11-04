@@ -1,0 +1,45 @@
+{
+  "id": "interceptor",
+  "kind": "game",
+  "title": "Interceptor",
+  "developer": [
+    "Valiant Galaxy Associates"
+  ],
+  "flags": [
+    "requires-registration"
+  ],
+  "links": {
+    "homepage": "http://valiantgalaxy.com/interceptor/index.html",
+    "agarchive": "https://www.agarchive.net/pages/devs/vga.html"
+  },
+  "sources": [
+    {
+      "label": "Developer site",
+      "url": "http://www.valiantgalaxy.com/interceptor/Interceptor0.0.2.0Installer.exe",
+      "platform": "windows",
+      "install": {
+        "method": "installer",
+        "installer": {
+          "type": "inno",
+          "mode": "extract"
+        }
+      },
+      "sha256": "21773782131321982630fa5f849849cca8370242d6e3ff3a267f28d69d6b9206",
+      "size": 170474766
+    },
+    {
+      "platform": "windows",
+      "install": {
+        "method": "installer",
+        "installer": {
+          "type": "inno",
+          "mode": "extract"
+        }
+      },
+      "label": "Mirror",
+      "url": "https://files.accessiblegames.net/files/21773782131321982630fa5f849849cca8370242d6e3ff3a267f28d69d6b9206/Interceptor0.0.2.0Installer.exe",
+      "sha256": "21773782131321982630fa5f849849cca8370242d6e3ff3a267f28d69d6b9206",
+      "size": 170474766
+    }
+  ]
+}

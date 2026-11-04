@@ -1,0 +1,25 @@
+{
+  "id": "awesome-homer",
+  "kind": "game",
+  "title": "Awesome Homer",
+  "developer": [
+    "Jim Kitchen"
+  ],
+  "description": "Note that we have repackaged each game into a zip archive from its initial format of a self-extracting executable. The game's files are contained with a folder, so all you need do is extract the archive and each game will have its own folder.",
+  "links": {
+    "agarchive": "https://www.agarchive.net/pages/devs/kitchensinc.html"
+  },
+  "sources": [
+    {
+      "platform": "windows",
+      "install": {
+        "method": "zip",
+        "extract_dir": "awesome homer4"
+      },
+      "label": "Mirror",
+      "url": "https://files.accessiblegames.net/files/82b194e926e944964d27d3b006eb2abdfd00573b143b1e58f38fb4f4067c3ded/awesome_homer4.zip",
+      "sha256": "82b194e926e944964d27d3b006eb2abdfd00573b143b1e58f38fb4f4067c3ded",
+      "size": 9611035
+    }
+  ]
+}

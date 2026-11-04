@@ -1,0 +1,31 @@
+{
+  "id": "minesweeper",
+  "kind": "game",
+  "title": "Minesweeper",
+  "developer": [
+    "Francis Wolf"
+  ],
+  "description": "Minesweeper is based on the classic Microsoft game. The game has 3 levels, and you are on a grid with a set number of coordinates. You must clear areas that you think have no mines, but if you mark an area with a mine the game is over!",
+  "flags": [
+    "abandoned"
+  ],
+  "links": {
+    "agarchive": "https://www.agarchive.net/pages/devs/francisWolf.html"
+  },
+  "sources": [
+    {
+      "platform": "windows",
+      "install": {
+        "method": "installer",
+        "installer": {
+          "type": "inno",
+          "mode": "extract"
+        }
+      },
+      "label": "Mirror",
+      "url": "https://files.accessiblegames.net/files/e8aecd1f4f7046e70d50af4bf6f7c9d7649803a599c8560bb4291532d8457bcf/minesweeper_setup.exe",
+      "sha256": "e8aecd1f4f7046e70d50af4bf6f7c9d7649803a599c8560bb4291532d8457bcf",
+      "size": 5348722
+    }
+  ]
+}

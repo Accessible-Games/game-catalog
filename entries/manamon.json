@@ -1,0 +1,59 @@
+{
+  "id": "manamon",
+  "kind": "game",
+  "title": "Manamon",
+  "developer": [
+    "VG Storm"
+  ],
+  "flags": [
+    "requires-registration"
+  ],
+  "links": {
+    "homepage": "http://www.vgstorm.com/manamon.php",
+    "agarchive": "https://www.agarchive.net/pages/devs/vgstorm.html"
+  },
+  "sources": [
+    {
+      "label": "Developer site",
+      "url": "http://www.vgstorm.com/manamon/manamon_installer.exe",
+      "platform": "windows",
+      "install": {
+        "method": "installer",
+        "installer": {
+          "type": "inno",
+          "mode": "extract"
+        }
+      },
+      "sha256": "11dc5fe8f963663ebfad42628bd5a4fa90e7da72e39c1714f002d752255e300d",
+      "size": 313149228
+    },
+    {
+      "platform": "windows",
+      "install": {
+        "method": "installer",
+        "installer": {
+          "type": "inno",
+          "mode": "extract"
+        }
+      },
+      "label": "Mirror",
+      "url": "https://files.accessiblegames.net/files/11dc5fe8f963663ebfad42628bd5a4fa90e7da72e39c1714f002d752255e300d/manamon_installer.exe",
+      "sha256": "11dc5fe8f963663ebfad42628bd5a4fa90e7da72e39c1714f002d752255e300d",
+      "size": 313149228
+    },
+    {
+      "platform": "windows",
+      "install": {
+        "method": "installer",
+        "installer": {
+          "type": "inno",
+          "mode": "extract"
+        }
+      },
+      "label": "Mirror",
+      "url": "https://files.accessiblegames.net/files/6fcbe36e18dbbcde5d5f230966c9e462eb2d6929d2af1110110ee65d801bf028/manamon_installer.exe",
+      "sha256": "6fcbe36e18dbbcde5d5f230966c9e462eb2d6929d2af1110110ee65d801bf028",
+      "size": 322134674
+    }
+  ]
+}

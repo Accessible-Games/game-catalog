@@ -1,0 +1,28 @@
+{
+  "id": "frantic-fire",
+  "kind": "game",
+  "title": "Frantic Fire",
+  "developer": [
+    "Sightless Wolf Entertainment"
+  ],
+  "description": "Battle bots in this fast-paced sidescroller or capture them to fight for your alliance, as the world around you grows steadily more chaotic.",
+  "flags": [
+    "abandoned"
+  ],
+  "links": {
+    "agarchive": "https://www.agarchive.net/pages/devs/sightlessWolf.html"
+  },
+  "sources": [
+    {
+      "platform": "windows",
+      "install": {
+        "method": "7z",
+        "extract_dir": "franticfire"
+      },
+      "label": "Mirror",
+      "url": "https://files.accessiblegames.net/files/ea734a5bf3e7bd6b013cb43b63d6afa700260678bfed16e775a84dcefce5b807/franticFire.7z",
+      "sha256": "ea734a5bf3e7bd6b013cb43b63d6afa700260678bfed16e775a84dcefce5b807",
+      "size": 8188383
+    }
+  ]
+}

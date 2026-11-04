@@ -1,0 +1,26 @@
+{
+  "id": "mine-racer",
+  "kind": "game",
+  "title": "Mine Racer",
+  "developer": [
+    "2MB Games"
+  ],
+  "description": "Speed through an abandoned mine in this endless-runner style game. Jump pits, duck stalactites, and grab as many coins as you can while the cart you're riding hurtles steadily faster down the tracks.",
+  "links": {
+    "homepage": "https://2mb.games/product/mineracer/",
+    "agarchive": "https://www.agarchive.net/pages/devs/2mb.html"
+  },
+  "sources": [
+    {
+      "platform": "windows",
+      "install": {
+        "method": "7z",
+        "extract_dir": "mineracer"
+      },
+      "label": "Mirror",
+      "url": "https://files.accessiblegames.net/files/9e900332b99cc1efda222620aa1665bae6c6bac50b2fbd171b9f09d092b48e39/mineracer.7z",
+      "sha256": "9e900332b99cc1efda222620aa1665bae6c6bac50b2fbd171b9f09d092b48e39",
+      "size": 2820384
+    }
+  ]
+}

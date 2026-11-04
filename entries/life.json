@@ -1,0 +1,25 @@
+{
+  "id": "life",
+  "kind": "game",
+  "title": "Life",
+  "developer": [
+    "Jim Kitchen"
+  ],
+  "description": "Note that we have repackaged each game into a zip archive from its initial format of a self-extracting executable. The game's files are contained with a folder, so all you need do is extract the archive and each game will have its own folder.",
+  "links": {
+    "agarchive": "https://www.agarchive.net/pages/devs/kitchensinc.html"
+  },
+  "sources": [
+    {
+      "platform": "windows",
+      "install": {
+        "method": "zip",
+        "extract_dir": "life"
+      },
+      "label": "Mirror",
+      "url": "https://files.accessiblegames.net/files/7710ccfed81e3340d0f9215848804188b40ba902af18da3c057601b69fad1edf/life.zip",
+      "sha256": "7710ccfed81e3340d0f9215848804188b40ba902af18da3c057601b69fad1edf",
+      "size": 297103
+    }
+  ]
+}

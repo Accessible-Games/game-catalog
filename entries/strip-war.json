@@ -1,0 +1,25 @@
+{
+  "id": "strip-war",
+  "kind": "game",
+  "title": "Strip War",
+  "developer": [
+    "Jim Kitchen"
+  ],
+  "description": "Note that we have repackaged each game into a zip archive from its initial format of a self-extracting executable. The game's files are contained with a folder, so all you need do is extract the archive and each game will have its own folder.",
+  "links": {
+    "agarchive": "https://www.agarchive.net/pages/devs/kitchensinc.html"
+  },
+  "sources": [
+    {
+      "platform": "windows",
+      "install": {
+        "method": "zip",
+        "extract_dir": "strip war 5"
+      },
+      "label": "Mirror",
+      "url": "https://files.accessiblegames.net/files/554dc2b4f852c4ea77ea38024172efa6c55710317704f45c48013f89c9b9abe2/strip_war_5.zip",
+      "sha256": "554dc2b4f852c4ea77ea38024172efa6c55710317704f45c48013f89c9b9abe2",
+      "size": 20893263
+    }
+  ]
+}

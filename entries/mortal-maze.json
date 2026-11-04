@@ -1,0 +1,30 @@
+{
+  "id": "mortal-maze",
+  "kind": "game",
+  "title": "Mortal maze",
+  "developer": [
+    "VIP GamesZone"
+  ],
+  "flags": [
+    "abandoned"
+  ],
+  "links": {
+    "agarchive": "https://www.agarchive.net/pages/devs/vip.html"
+  },
+  "sources": [
+    {
+      "platform": "windows",
+      "install": {
+        "method": "installer",
+        "installer": {
+          "type": "inno",
+          "mode": "extract"
+        }
+      },
+      "label": "Mirror",
+      "url": "https://files.accessiblegames.net/files/7ba3ff88fc88b98e0b7bd96854d1d6483114dc57505ab8f8b4a65c645a3227df/mortal_maze_setup.exe",
+      "sha256": "7ba3ff88fc88b98e0b7bd96854d1d6483114dc57505ab8f8b4a65c645a3227df",
+      "size": 9208418
+    }
+  ]
+}

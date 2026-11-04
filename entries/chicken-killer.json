@@ -1,0 +1,27 @@
+{
+  "id": "chicken-killer",
+  "kind": "game",
+  "title": "Chicken Killer",
+  "developer": [
+    "TDL Games"
+  ],
+  "flags": [
+    "abandoned"
+  ],
+  "links": {
+    "agarchive": "https://www.agarchive.net/pages/devs/tdl.html"
+  },
+  "sources": [
+    {
+      "platform": "windows",
+      "install": {
+        "method": "zip",
+        "extract_dir": "chickenkiller"
+      },
+      "label": "Mirror",
+      "url": "https://files.accessiblegames.net/files/b9f1581c59f68559e83b952f1c6ea69e43ec42471f0f416405fac45785cb58a8/chickenkiller.zip",
+      "sha256": "b9f1581c59f68559e83b952f1c6ea69e43ec42471f0f416405fac45785cb58a8",
+      "size": 1228502
+    }
+  ]
+}

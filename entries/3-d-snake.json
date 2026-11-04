@@ -1,0 +1,30 @@
+{
+  "id": "3-d-snake",
+  "kind": "game",
+  "title": "3-d Snake",
+  "developer": [
+    "PB Games"
+  ],
+  "flags": [
+    "abandoned"
+  ],
+  "links": {
+    "agarchive": "https://www.agarchive.net/pages/devs/pb.html"
+  },
+  "sources": [
+    {
+      "platform": "windows",
+      "install": {
+        "method": "installer",
+        "installer": {
+          "type": "inno",
+          "mode": "extract"
+        }
+      },
+      "label": "Mirror",
+      "url": "https://files.accessiblegames.net/files/eeea6b8ecef58a6ad4aaa55ceba0832a72b335752d6bc472d998d2b986a8df5e/3D-Snake-Setup.exe",
+      "sha256": "eeea6b8ecef58a6ad4aaa55ceba0832a72b335752d6bc472d998d2b986a8df5e",
+      "size": 9103981
+    }
+  ]
+}

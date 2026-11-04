@@ -1,0 +1,36 @@
+{
+  "id": "operation-black-square",
+  "kind": "game",
+  "title": "Operation Black Square",
+  "developer": [
+    "Talon"
+  ],
+  "links": {
+    "homepage": "https://iamtalon.me/operation-blacksquare/",
+    "agarchive": "https://www.agarchive.net/pages/devs/talon.html"
+  },
+  "sources": [
+    {
+      "label": "Developer site",
+      "url": "https://iamtalon.me/games/blacksquare.zip",
+      "platform": "windows",
+      "install": {
+        "method": "zip",
+        "extract_dir": "blacksquare"
+      },
+      "sha256": "ef23b2eee9523152a539ed4a4c851c182b7a79175458b80c558c2052639115cd",
+      "size": 148403905
+    },
+    {
+      "platform": "windows",
+      "install": {
+        "method": "zip",
+        "extract_dir": "blacksquare"
+      },
+      "label": "Mirror",
+      "url": "https://files.accessiblegames.net/files/ef23b2eee9523152a539ed4a4c851c182b7a79175458b80c558c2052639115cd/blacksquare.zip",
+      "sha256": "ef23b2eee9523152a539ed4a4c851c182b7a79175458b80c558c2052639115cd",
+      "size": 148403905
+    }
+  ]
+}

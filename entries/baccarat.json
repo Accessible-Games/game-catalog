@@ -1,0 +1,30 @@
+{
+  "id": "baccarat",
+  "kind": "game",
+  "title": "Baccarat",
+  "developer": [
+    "Simon Cowan"
+  ],
+  "flags": [
+    "abandoned"
+  ],
+  "links": {
+    "agarchive": "https://www.agarchive.net/pages/devs/simonCowan.html"
+  },
+  "sources": [
+    {
+      "platform": "windows",
+      "install": {
+        "method": "installer",
+        "installer": {
+          "type": "inno",
+          "mode": "extract"
+        }
+      },
+      "label": "Mirror",
+      "url": "https://files.accessiblegames.net/files/fa4fe0b1fffb1acc6f0b86fdfef2cb7eb565ac467b9e2d085ade3d58345d49d6/baccarat_setup.exe",
+      "sha256": "fa4fe0b1fffb1acc6f0b86fdfef2cb7eb565ac467b9e2d085ade3d58345d49d6",
+      "size": 410248
+    }
+  ]
+}

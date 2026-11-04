@@ -1,0 +1,23 @@
+{
+  "id": "bokurano-daibouken-2",
+  "kind": "game",
+  "title": "Bokurano Daibouken 2",
+  "developer": [
+    "Nyanchan Games"
+  ],
+  "links": {
+    "agarchive": "https://www.agarchive.net/pages/devs/nyanchan.html"
+  },
+  "sources": [
+    {
+      "platform": "windows",
+      "install": {
+        "method": "7z"
+      },
+      "label": "Mirror",
+      "url": "https://files.accessiblegames.net/files/b1692a8c5a4c77e94222060258688c3fb4f8639aa18b65d1aecddcd3b098b108/Bokurano_Daibouken_2.exe",
+      "sha256": "b1692a8c5a4c77e94222060258688c3fb4f8639aa18b65d1aecddcd3b098b108",
+      "size": 258948869
+    }
+  ]
+}

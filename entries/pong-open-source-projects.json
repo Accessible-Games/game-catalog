@@ -1,0 +1,27 @@
+{
+  "id": "pong-open-source-projects",
+  "kind": "extra",
+  "title": "Open Source Projects",
+  "developer": [
+    "Mason Armstrong"
+  ],
+  "description": "This is a package containing about 25 different products.",
+  "links": {
+    "agarchive": "https://www.agarchive.net/pages/devs/mason.html"
+  },
+  "sources": [
+    {
+      "platform": "windows",
+      "install": {
+        "method": "7z",
+        "extract_dir": "src"
+      },
+      "label": "Mirror",
+      "url": "https://files.accessiblegames.net/files/b2a8f651654de801d2dde07869f89ff6b58b15fde784e76cdca56064fecfeb22/open_source_projects.7z",
+      "sha256": "b2a8f651654de801d2dde07869f89ff6b58b15fde784e76cdca56064fecfeb22",
+      "size": 75329039
+    }
+  ],
+  "extends": "pong-mason-armstrong",
+  "install_into": "pong-mason-armstrong"
+}

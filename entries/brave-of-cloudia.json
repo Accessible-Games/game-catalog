@@ -1,0 +1,45 @@
+{
+  "id": "brave-of-cloudia",
+  "kind": "game",
+  "title": "Brave of Cloudia",
+  "developer": [
+    "Morokuma"
+  ],
+  "description": "A tactical RPG.",
+  "links": {
+    "agarchive": "https://www.agarchive.net/pages/devs/morokuma.html"
+  },
+  "sources": [
+    {
+      "label": "Developer site",
+      "url": "http://hirotaka2014.sakura.ne.jp/mh0406/game/boc038.exe",
+      "platform": "windows",
+      "install": {
+        "method": "7z"
+      },
+      "sha256": "1973fb5a9ff26fa68586f53a6d34cfb0369fd9deeb631b9a8b2a4eb1f8df59fc",
+      "size": 48049666
+    },
+    {
+      "platform": "windows",
+      "install": {
+        "method": "7z"
+      },
+      "label": "Mirror",
+      "url": "https://files.accessiblegames.net/files/1973fb5a9ff26fa68586f53a6d34cfb0369fd9deeb631b9a8b2a4eb1f8df59fc/boc038.exe",
+      "sha256": "1973fb5a9ff26fa68586f53a6d34cfb0369fd9deeb631b9a8b2a4eb1f8df59fc",
+      "size": 48049666
+    },
+    {
+      "platform": "windows",
+      "install": {
+        "method": "7z",
+        "extract_dir": "Brave of cloudia(’†ŠÔƒÀ”Å)"
+      },
+      "label": "Mirror",
+      "url": "https://files.accessiblegames.net/files/228bcaa8ed70f80d37370288183d17cbaa8033e54585e051a1a8dd6d81f35351/brave_of_cloudia.7z",
+      "sha256": "228bcaa8ed70f80d37370288183d17cbaa8033e54585e051a1a8dd6d81f35351",
+      "size": 46592501
+    }
+  ]
+}

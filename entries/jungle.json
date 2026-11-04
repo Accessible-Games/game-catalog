@@ -1,0 +1,46 @@
+{
+  "id": "jungle",
+  "kind": "game",
+  "title": "Jungle",
+  "developer": [
+    "Blastbay Studios"
+  ],
+  "description": "This is a recreation of the turn-based strategy board game Jungle, also known in Chinese as Dou Shou Qi.",
+  "flags": [
+    "abandoned"
+  ],
+  "links": {
+    "homepage": "https://www.blastbay.com/jungle.php",
+    "agarchive": "https://www.agarchive.net/pages/devs/blastbay.html"
+  },
+  "sources": [
+    {
+      "label": "Developer site",
+      "url": "https://www.blastbay.com/jungle_english_installer.exe",
+      "platform": "windows",
+      "install": {
+        "method": "installer",
+        "installer": {
+          "type": "inno",
+          "mode": "extract"
+        }
+      },
+      "sha256": "bfa796a469e1ac2dc56e4dcf845f72596f61eb9351d8e11e734fbe86833778e1",
+      "size": 3077906
+    },
+    {
+      "platform": "windows",
+      "install": {
+        "method": "installer",
+        "installer": {
+          "type": "inno",
+          "mode": "extract"
+        }
+      },
+      "label": "Mirror",
+      "url": "https://files.accessiblegames.net/files/bfa796a469e1ac2dc56e4dcf845f72596f61eb9351d8e11e734fbe86833778e1/jungle_english_installer.exe",
+      "sha256": "bfa796a469e1ac2dc56e4dcf845f72596f61eb9351d8e11e734fbe86833778e1",
+      "size": 3077906
+    }
+  ]
+}

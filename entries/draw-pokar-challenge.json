@@ -1,0 +1,34 @@
+{
+  "id": "draw-pokar-challenge",
+  "kind": "game",
+  "title": "Draw Pokar Challenge",
+  "developer": [
+    "Rocky Waters"
+  ],
+  "description": "Test your nerve and skill in cities from London to Las Vegas, and try to walk away with all the chips.",
+  "links": {
+    "agarchive": "https://www.agarchive.net/pages/devs/rockyWaters.html"
+  },
+  "sources": [
+    {
+      "label": "Developer site",
+      "url": "https://rockywaters.co.uk/downloads/drawPokerChallenge.exe",
+      "platform": "windows",
+      "install": {
+        "method": "none"
+      },
+      "sha256": "f0aacd845c43916d880256b381d419d03698ae046005f193a620a152b822ad89",
+      "size": 55733756
+    },
+    {
+      "platform": "windows",
+      "install": {
+        "method": "none"
+      },
+      "label": "Mirror",
+      "url": "https://files.accessiblegames.net/files/f0aacd845c43916d880256b381d419d03698ae046005f193a620a152b822ad89/drawPokerChallenge.exe",
+      "sha256": "f0aacd845c43916d880256b381d419d03698ae046005f193a620a152b822ad89",
+      "size": 55733756
+    }
+  ]
+}

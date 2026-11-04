@@ -1,0 +1,28 @@
+{
+  "id": "begger-your-neighbor",
+  "kind": "game",
+  "title": "Begger your Neighbor",
+  "developer": [
+    "LWorks"
+  ],
+  "description": "This is yet another card game from Crappy Ass Games.",
+  "flags": [
+    "abandoned"
+  ],
+  "links": {
+    "agarchive": "https://www.agarchive.net/pages/devs/lworks.html"
+  },
+  "sources": [
+    {
+      "platform": "windows",
+      "install": {
+        "method": "zip",
+        "extract_dir": "byn"
+      },
+      "label": "Mirror",
+      "url": "https://files.accessiblegames.net/files/eb6f287c3c023829bfe8121d9e165cdd1c0a1127ac056e7318517ac49175bb46/beggar_your_neighbor.zip",
+      "sha256": "eb6f287c3c023829bfe8121d9e165cdd1c0a1127ac056e7318517ac49175bb46",
+      "size": 661305
+    }
+  ]
+}

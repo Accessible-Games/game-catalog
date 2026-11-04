@@ -1,0 +1,104 @@
+{
+  "id": "teraformers",
+  "kind": "game",
+  "title": "Teraformers",
+  "developer": [
+    "various authors"
+  ],
+  "description": "Teraformers was originally comercial, but has been released as freeware. The archive's package contains the game's installer, as well as the official license key file. Once installed, paste this file into your game's prefs directory to unlock the full game.",
+  "flags": [
+    "abandoned"
+  ],
+  "links": {
+    "homepage": "https://terraformers.nu/",
+    "agarchive": "https://www.agarchive.net/pages/devs/misc.html"
+  },
+  "sources": [
+    {
+      "label": "Developer site",
+      "url": "https://terraformers.nu/terraformers-install1.03.exe",
+      "platform": "windows",
+      "install": {
+        "method": "installer",
+        "installer": {
+          "type": "other",
+          "mode": "run"
+        }
+      },
+      "sha256": "a11cf09874389add84add2861dfb79e0974ba11053f5dbdeb7b70311aa3092da",
+      "size": 111904132
+    },
+    {
+      "platform": "windows",
+      "install": {
+        "method": "installer",
+        "installer": {
+          "type": "other",
+          "mode": "run"
+        }
+      },
+      "label": "Mirror",
+      "url": "https://files.accessiblegames.net/files/a11cf09874389add84add2861dfb79e0974ba11053f5dbdeb7b70311aa3092da/terraformers-install1.03.exe",
+      "sha256": "a11cf09874389add84add2861dfb79e0974ba11053f5dbdeb7b70311aa3092da",
+      "size": 111904132
+    },
+    {
+      "label": "Developer site",
+      "url": "https://terraformers.nu/pinTFLicKey.txt.zip",
+      "platform": "windows",
+      "install": {
+        "method": "zip"
+      },
+      "sha256": "6cd41355692c75740ac82461b184ab25d3abb3a40947f15557fea4ac55708fe0",
+      "size": 275
+    },
+    {
+      "platform": "windows",
+      "install": {
+        "method": "zip"
+      },
+      "label": "Mirror",
+      "url": "https://files.accessiblegames.net/files/6cd41355692c75740ac82461b184ab25d3abb3a40947f15557fea4ac55708fe0/pinTFLicKey.txt.zip",
+      "sha256": "6cd41355692c75740ac82461b184ab25d3abb3a40947f15557fea4ac55708fe0",
+      "size": 275
+    },
+    {
+      "label": "Developer site",
+      "url": "https://terraformers.nu/terraformers-install1.04-SE.exe",
+      "platform": "windows",
+      "install": {
+        "method": "installer",
+        "installer": {
+          "type": "other",
+          "mode": "run"
+        }
+      },
+      "sha256": "80669823f30979b43284d5c778242ed39830a93130ec27123916db9918503d40",
+      "size": 101468562
+    },
+    {
+      "platform": "windows",
+      "install": {
+        "method": "installer",
+        "installer": {
+          "type": "other",
+          "mode": "run"
+        }
+      },
+      "label": "Mirror",
+      "url": "https://files.accessiblegames.net/files/80669823f30979b43284d5c778242ed39830a93130ec27123916db9918503d40/terraformers-install1.04-SE.exe",
+      "sha256": "80669823f30979b43284d5c778242ed39830a93130ec27123916db9918503d40",
+      "size": 101468562
+    },
+    {
+      "platform": "windows",
+      "install": {
+        "method": "7z"
+      },
+      "label": "Mirror",
+      "url": "https://files.accessiblegames.net/files/ec5bf4b874c4e360a0d7ff95be2c44d1578df08e8d51cd88d5513c0e067761d3/teraformers.7z",
+      "sha256": "ec5bf4b874c4e360a0d7ff95be2c44d1578df08e8d51cd88d5513c0e067761d3",
+      "size": 110658910
+    }
+  ]
+}

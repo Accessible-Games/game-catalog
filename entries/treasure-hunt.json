@@ -1,0 +1,26 @@
+{
+  "id": "treasure-hunt",
+  "kind": "game",
+  "title": "Treasure Hunt",
+  "developer": [
+    "BPC Programs"
+  ],
+  "description": "This archive includes both the binary and source versions of Treasure Hunt. TO execute the game, run /bin/debug/th.exe.",
+  "links": {
+    "homepage": "https://github.com/munawarb/Treasure-Hunt",
+    "agarchive": "https://www.agarchive.net/pages/devs/bpc.html"
+  },
+  "sources": [
+    {
+      "platform": "windows",
+      "install": {
+        "method": "zip",
+        "extract_dir": "Treasure-Hunt"
+      },
+      "label": "Mirror",
+      "url": "https://files.accessiblegames.net/files/e1a3803a4c355aff6256754d59c54d508f3453dd3e68b1225e65bee67798438b/treasure_hunt.zip",
+      "sha256": "e1a3803a4c355aff6256754d59c54d508f3453dd3e68b1225e65bee67798438b",
+      "size": 199856893
+    }
+  ]
+}

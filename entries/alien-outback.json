@@ -1,0 +1,47 @@
+{
+  "id": "alien-outback",
+  "kind": "game",
+  "title": "Alien Outback",
+  "developer": [
+    "Draconis Entertainment"
+  ],
+  "description": "As sheep herder Busha Bob, shoot descending alien ships before they land using lasers, and battle through eight levels surrounded by dangerous billabongs avoiding damage to save Earth from the alien invasion!",
+  "flags": [
+    "demo",
+    "requires-registration"
+  ],
+  "links": {
+    "homepage": "http://dracoent.com/Windows/AlienOutback",
+    "agarchive": "https://www.agarchive.net/pages/devs/draconis.html"
+  },
+  "sources": [
+    {
+      "label": "Developer site",
+      "url": "http://download.dracoent.com/Windows/classic/AOSetup.exe",
+      "platform": "windows",
+      "install": {
+        "method": "installer",
+        "installer": {
+          "type": "inno",
+          "mode": "extract"
+        }
+      },
+      "sha256": "5eadce41bf438d904ea6b952e2b77db3701ece22fe138af3a333bc0f5aa5405b",
+      "size": 56965478
+    },
+    {
+      "platform": "windows",
+      "install": {
+        "method": "installer",
+        "installer": {
+          "type": "inno",
+          "mode": "extract"
+        }
+      },
+      "label": "Mirror",
+      "url": "https://files.accessiblegames.net/files/5eadce41bf438d904ea6b952e2b77db3701ece22fe138af3a333bc0f5aa5405b/AOSetup.exe",
+      "sha256": "5eadce41bf438d904ea6b952e2b77db3701ece22fe138af3a333bc0f5aa5405b",
+      "size": 56965478
+    }
+  ]
+}

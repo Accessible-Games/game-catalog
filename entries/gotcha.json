@@ -1,0 +1,28 @@
+{
+  "id": "gotcha",
+  "kind": "game",
+  "title": "Gotcha",
+  "developer": [
+    "Dan Z"
+  ],
+  "description": "A number of games written in basic for note takers. These are unlikely to run on traditional computers. To play them, see the ports below.\n\nA highly random dice game. Wander the board and handle random events from getting a job to robbing stores and taking hostages.",
+  "flags": [
+    "abandoned"
+  ],
+  "links": {
+    "agarchive": "https://www.agarchive.net/pages/devs/danZ.html"
+  },
+  "sources": [
+    {
+      "platform": "windows",
+      "install": {
+        "method": "zip",
+        "extract_dir": "gotcha"
+      },
+      "label": "Mirror",
+      "url": "https://files.accessiblegames.net/files/02c6c64ddef8d2538dba7c80936f0ca6b85303e7b400202ec40b2d16a7356f58/gotcha.zip",
+      "sha256": "02c6c64ddef8d2538dba7c80936f0ca6b85303e7b400202ec40b2d16a7356f58",
+      "size": 1507967
+    }
+  ]
+}

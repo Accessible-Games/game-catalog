@@ -1,0 +1,29 @@
+{
+  "id": "super-moosic-siblings",
+  "kind": "game",
+  "title": "Super Moosic Siblings",
+  "developer": [
+    "various authors"
+  ],
+  "description": "This is a platform-style game, similar to Super Mario or Sonic the Hedgehog. Review the developer's website for game controls and some demonstration videos.\n\nThis game's support and development status is unknown.",
+  "flags": [
+    "abandoned"
+  ],
+  "links": {
+    "homepage": "http://www.mikeoren.com/csproj.htm",
+    "agarchive": "https://www.agarchive.net/pages/devs/misc.html"
+  },
+  "sources": [
+    {
+      "platform": "windows",
+      "install": {
+        "method": "7z",
+        "extract_dir": "Super Moosic Siblings"
+      },
+      "label": "Mirror",
+      "url": "https://files.accessiblegames.net/files/e33537670e622d94f53b094f72e227c4bca440985bca9e649a5afd4796d6e3dc/Super_Moosic_Siblings.7z",
+      "sha256": "e33537670e622d94f53b094f72e227c4bca440985bca9e649a5afd4796d6e3dc",
+      "size": 11010819
+    }
+  ]
+}

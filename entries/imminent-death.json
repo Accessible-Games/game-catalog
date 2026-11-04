@@ -1,0 +1,24 @@
+{
+  "id": "imminent-death",
+  "kind": "game",
+  "title": "Imminent Death",
+  "developer": [
+    "Sam Tupy"
+  ],
+  "links": {
+    "agarchive": "https://www.agarchive.net/pages/devs/samtupy.html"
+  },
+  "sources": [
+    {
+      "platform": "windows",
+      "install": {
+        "method": "zip",
+        "extract_dir": "immanent death"
+      },
+      "label": "Mirror",
+      "url": "https://files.accessiblegames.net/files/ff0b99f1ee840a7c5ef9119f679d08aaa4129122edefe6182c3c450a58560f00/immanent_death.zip",
+      "sha256": "ff0b99f1ee840a7c5ef9119f679d08aaa4129122edefe6182c3c450a58560f00",
+      "size": 8282314
+    }
+  ]
+}

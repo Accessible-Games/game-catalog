@@ -1,0 +1,30 @@
+{
+  "id": "duck-blaster",
+  "kind": "game",
+  "title": "Duck Blaster",
+  "developer": [
+    "PB Games"
+  ],
+  "flags": [
+    "abandoned"
+  ],
+  "links": {
+    "agarchive": "https://www.agarchive.net/pages/devs/pb.html"
+  },
+  "sources": [
+    {
+      "platform": "windows",
+      "install": {
+        "method": "installer",
+        "installer": {
+          "type": "inno",
+          "mode": "extract"
+        }
+      },
+      "label": "Mirror",
+      "url": "https://files.accessiblegames.net/files/0c5811a27979dcb45a1a2b9e65511b628f0ed7164685b38e6e48a1b22fe1d7f5/duck_blaster_setup.exe",
+      "sha256": "0c5811a27979dcb45a1a2b9e65511b628f0ed7164685b38e6e48a1b22fe1d7f5",
+      "size": 12322836
+    }
+  ]
+}

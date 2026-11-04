@@ -1,0 +1,45 @@
+{
+  "id": "the-gate",
+  "kind": "game",
+  "title": "the Gate",
+  "developer": [
+    "VG Storm"
+  ],
+  "flags": [
+    "requires-registration"
+  ],
+  "links": {
+    "homepage": "http://www.vgstorm.com/the_gate.php",
+    "agarchive": "https://www.agarchive.net/pages/devs/vgstorm.html"
+  },
+  "sources": [
+    {
+      "label": "Developer site",
+      "url": "http://www.vgstorm.com/the_gate_installer.exe",
+      "platform": "windows",
+      "install": {
+        "method": "installer",
+        "installer": {
+          "type": "inno",
+          "mode": "extract"
+        }
+      },
+      "sha256": "f9384208339fc75fbecb17ccbab7b08c2413e7251f33535b59b1463a88ebc602",
+      "size": 323420975
+    },
+    {
+      "platform": "windows",
+      "install": {
+        "method": "installer",
+        "installer": {
+          "type": "inno",
+          "mode": "extract"
+        }
+      },
+      "label": "Mirror",
+      "url": "https://files.accessiblegames.net/files/f9384208339fc75fbecb17ccbab7b08c2413e7251f33535b59b1463a88ebc602/the_gate_installer.exe",
+      "sha256": "f9384208339fc75fbecb17ccbab7b08c2413e7251f33535b59b1463a88ebc602",
+      "size": 323420975
+    }
+  ]
+}

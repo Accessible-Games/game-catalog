@@ -1,0 +1,26 @@
+{
+  "id": "horseshoes",
+  "kind": "game",
+  "title": "Horseshoes",
+  "developer": [
+    "2MB Games"
+  ],
+  "description": "Play a relaxing game of horseshoes against a friend on the same computer, or against the computer itself. Be careful though, the grandmaster horseshoe thrower is almost impossible to beat!",
+  "links": {
+    "homepage": "https://2mb.games/product/horseshoes/",
+    "agarchive": "https://www.agarchive.net/pages/devs/2mb.html"
+  },
+  "sources": [
+    {
+      "platform": "windows",
+      "install": {
+        "method": "7z",
+        "extract_dir": "horseshoes"
+      },
+      "label": "Mirror",
+      "url": "https://files.accessiblegames.net/files/024f025f6ac5b286494bb02bde44dca663e28ecfeb1781d7dfa83a2301402cb3/horseshoes.7z",
+      "sha256": "024f025f6ac5b286494bb02bde44dca663e28ecfeb1781d7dfa83a2301402cb3",
+      "size": 6185650
+    }
+  ]
+}

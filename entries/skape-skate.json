@@ -1,0 +1,50 @@
+{
+  "id": "skape-skate",
+  "kind": "game",
+  "title": "Skape Skate",
+  "developer": [
+    "Talon"
+  ],
+  "links": {
+    "homepage": "https://iamtalon.me/scapeskate/",
+    "agarchive": "https://www.agarchive.net/pages/devs/talon.html"
+  },
+  "sources": [
+    {
+      "label": "Developer site",
+      "url": "https://iamtalon.me/games/scapeskate.zip",
+      "platform": "windows",
+      "install": {
+        "method": "zip",
+        "extract_dir": "scapeskate"
+      },
+      "sha256": "d065b22371286b54bcfc5a19a1faf3d6000548011a82193999a9e44c87bc5f52",
+      "size": 8838591
+    },
+    {
+      "platform": "windows",
+      "install": {
+        "method": "zip",
+        "extract_dir": "scapeskate"
+      },
+      "label": "Mirror",
+      "url": "https://files.accessiblegames.net/files/d065b22371286b54bcfc5a19a1faf3d6000548011a82193999a9e44c87bc5f52/scapeskate.zip",
+      "sha256": "d065b22371286b54bcfc5a19a1faf3d6000548011a82193999a9e44c87bc5f52",
+      "size": 8838591
+    },
+    {
+      "platform": "windows",
+      "install": {
+        "method": "installer",
+        "installer": {
+          "type": "inno",
+          "mode": "extract"
+        }
+      },
+      "label": "Mirror",
+      "url": "https://files.accessiblegames.net/files/2475aab12ce8db43d8d33002d7c677f407cca4b954368c0fb6b47c06c231f627/skape_skate_setup.exe",
+      "sha256": "2475aab12ce8db43d8d33002d7c677f407cca4b954368c0fb6b47c06c231f627",
+      "size": 8892002
+    }
+  ]
+}

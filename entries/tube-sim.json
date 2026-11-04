@@ -1,0 +1,43 @@
+{
+  "id": "tube-sim",
+  "kind": "game",
+  "title": "Tube Sim",
+  "developer": [
+    "NA Soft"
+  ],
+  "description": "Ever wondered what it takes to drive a train? Get a taste of the experience in this simulation of the London underground.",
+  "links": {
+    "homepage": "http://ndadamson.com/index.php?slab=tube-sim",
+    "agarchive": "https://www.agarchive.net/pages/devs/naSoft.html"
+  },
+  "sources": [
+    {
+      "label": "Developer site",
+      "url": "http://ndadamson.com/get-tubesim-installer.php",
+      "platform": "windows",
+      "install": {
+        "method": "installer",
+        "installer": {
+          "type": "nsis",
+          "mode": "extract"
+        }
+      },
+      "sha256": "dcdfddbfeb61ccbfc01e5535ea4076cafd005cc0815fd959b525bd5c44a13ef5",
+      "size": 132397522
+    },
+    {
+      "platform": "windows",
+      "install": {
+        "method": "installer",
+        "installer": {
+          "type": "nsis",
+          "mode": "extract"
+        }
+      },
+      "label": "Mirror",
+      "url": "https://files.accessiblegames.net/files/dcdfddbfeb61ccbfc01e5535ea4076cafd005cc0815fd959b525bd5c44a13ef5/get-tubesim-installer.exe",
+      "sha256": "dcdfddbfeb61ccbfc01e5535ea4076cafd005cc0815fd959b525bd5c44a13ef5",
+      "size": 132397522
+    }
+  ]
+}

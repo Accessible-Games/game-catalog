@@ -1,0 +1,35 @@
+{
+  "id": "run-and-chomp",
+  "kind": "game",
+  "title": "Run and Chomp",
+  "developer": [
+    "2MB Games"
+  ],
+  "description": "This small endless-runner game was a submission to Trijam 186 on itch.io. Try to cross a pit, without falling in quicksand or being eaten by alligators, and do it by bouncing on the noses of those gators too slow to open their mouths in time.\n\nIt can be played directly in your browser from its official download page on itch.io or you can download offline versions for Linux, Mac, and Windows below.",
+  "links": {
+    "agarchive": "https://www.agarchive.net/pages/devs/2mb.html"
+  },
+  "sources": [
+    {
+      "platform": "windows",
+      "install": {
+        "method": "zip"
+      },
+      "label": "Mirror",
+      "url": "https://files.accessiblegames.net/files/a05541b21b5f2758cf8d284e12f576848021462369f9d415bc8aa743465966c3/RunAndChomp-windows.zip",
+      "sha256": "a05541b21b5f2758cf8d284e12f576848021462369f9d415bc8aa743465966c3",
+      "size": 4940680
+    },
+    {
+      "platform": "macos",
+      "install": {
+        "method": "zip",
+        "extract_dir": "Run and Chomp.app"
+      },
+      "label": "Mirror",
+      "url": "https://files.accessiblegames.net/files/5d73f56546e45b5b7c30791afa4b73e74a6919e6e0bbf9f2356d2c379a0e6d3b/RunAndChomp-mac.zip",
+      "sha256": "5d73f56546e45b5b7c30791afa4b73e74a6919e6e0bbf9f2356d2c379a0e6d3b",
+      "size": 11046018
+    }
+  ]
+}

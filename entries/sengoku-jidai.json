@@ -1,0 +1,23 @@
+{
+  "id": "sengoku-jidai",
+  "kind": "game",
+  "title": "Sengoku Jidai",
+  "developer": [
+    "Jeqocon Games"
+  ],
+  "links": {
+    "agarchive": "https://www.agarchive.net/pages/devs/jeqocon.html"
+  },
+  "sources": [
+    {
+      "platform": "windows",
+      "install": {
+        "method": "7z"
+      },
+      "label": "Mirror",
+      "url": "https://files.accessiblegames.net/files/3151c4d6e997838ba98aa2a3411b50112928e40edc7bac29228d81ee66766f52/SengokuJidai.7z",
+      "sha256": "3151c4d6e997838ba98aa2a3411b50112928e40edc7bac29228d81ee66766f52",
+      "size": 34515296
+    }
+  ]
+}

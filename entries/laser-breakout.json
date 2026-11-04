@@ -1,0 +1,25 @@
+{
+  "id": "laser-breakout",
+  "kind": "game",
+  "title": "Laser Breakout",
+  "developer": [
+    "Nyanchan Games"
+  ],
+  "description": "Laser breakout combines arcade block destruction with turn-based strategy. Players use weapons of varying accuracy and damage against each other's blocks, while earning skill points to heal blocks or enhance attacks. The objective is to eliminate the opponent's rows before they eliminate yours through tactical targeting and ability usage. spice it up even more with the action mode, where quick skills will determine if you lose or win.",
+  "links": {
+    "agarchive": "https://www.agarchive.net/pages/devs/nyanchan.html"
+  },
+  "sources": [
+    {
+      "platform": "windows",
+      "install": {
+        "method": "7z",
+        "extract_dir": "laser breakout"
+      },
+      "label": "Mirror",
+      "url": "https://files.accessiblegames.net/files/a800253f5cb5ff029bbc5f007d1c76d5a5b9a735852679e4d07837f7da487ff0/laser_breakout.7z",
+      "sha256": "a800253f5cb5ff029bbc5f007d1c76d5a5b9a735852679e4d07837f7da487ff0",
+      "size": 3981769
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "id": "vip-mud",
+  "kind": "game",
+  "title": "VIP Mud",
+  "developer": [
+    "GMA Games"
+  ],
+  "flags": [
+    "demo",
+    "multiplayer",
+    "requires-registration"
+  ],
+  "links": {
+    "homepage": "http://www.gmagames.com/vipmud.shtml",
+    "agarchive": "https://www.agarchive.net/pages/devs/gma.html"
+  },
+  "sources": [
+    {
+      "label": "Developer site",
+      "url": "http://www.gmagames.com/vipmud20016.exe",
+      "platform": "windows",
+      "install": {
+        "method": "installer",
+        "installer": {
+          "type": "inno",
+          "mode": "extract"
+        }
+      },
+      "sha256": "010794e66d27b38396a24321f0b3b42c0aa6fc0509feac76e492dd9cef08e4a5",
+      "size": 8294065
+    },
+    {
+      "platform": "windows",
+      "install": {
+        "method": "installer",
+        "installer": {
+          "type": "inno",
+          "mode": "extract"
+        }
+      },
+      "label": "Mirror",
+      "url": "https://files.accessiblegames.net/files/010794e66d27b38396a24321f0b3b42c0aa6fc0509feac76e492dd9cef08e4a5/vipmud20016.exe",
+      "sha256": "010794e66d27b38396a24321f0b3b42c0aa6fc0509feac76e492dd9cef08e4a5",
+      "size": 8294065
+    }
+  ]
+}

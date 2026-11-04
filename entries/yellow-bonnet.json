@@ -1,0 +1,45 @@
+{
+  "id": "yellow-bonnet",
+  "kind": "game",
+  "title": "Yellow Bonnet",
+  "developer": [
+    "Valiant Galaxy Associates"
+  ],
+  "flags": [
+    "requires-registration"
+  ],
+  "links": {
+    "homepage": "http://valiantgalaxy.com/yellowbonnet/index.html",
+    "agarchive": "https://www.agarchive.net/pages/devs/vga.html"
+  },
+  "sources": [
+    {
+      "label": "Developer site",
+      "url": "http://valiantgalaxy.com/yellowbonnet/Yellowbonnet0.0.0.6Installer.exe",
+      "platform": "windows",
+      "install": {
+        "method": "installer",
+        "installer": {
+          "type": "inno",
+          "mode": "extract"
+        }
+      },
+      "sha256": "e9dca6aab6db033d2aa20a18b19a56b8ee805bce288c098b5536362ef4c5da92",
+      "size": 54418895
+    },
+    {
+      "platform": "windows",
+      "install": {
+        "method": "installer",
+        "installer": {
+          "type": "inno",
+          "mode": "extract"
+        }
+      },
+      "label": "Mirror",
+      "url": "https://files.accessiblegames.net/files/e9dca6aab6db033d2aa20a18b19a56b8ee805bce288c098b5536362ef4c5da92/Yellowbonnet0.0.0.6Installer.exe",
+      "sha256": "e9dca6aab6db033d2aa20a18b19a56b8ee805bce288c098b5536362ef4c5da92",
+      "size": 54418895
+    }
+  ]
+}

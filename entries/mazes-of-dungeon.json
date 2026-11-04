@@ -1,0 +1,47 @@
+{
+  "id": "mazes-of-dungeon",
+  "kind": "game",
+  "title": "Mazes of Dungeon",
+  "developer": [
+    "Morokuma"
+  ],
+  "description": "A dungeon exploration RPG built with Text Game Maker.",
+  "links": {
+    "agarchive": "https://www.agarchive.net/pages/devs/morokuma.html"
+  },
+  "sources": [
+    {
+      "label": "Developer site",
+      "url": "http://hirotaka2014.sakura.ne.jp/mh0406/game/maze105.exe",
+      "platform": "windows",
+      "install": {
+        "method": "7z",
+        "extract_dir": "Mazes of Dungeon"
+      },
+      "sha256": "5c8589790edac3ed0179b9d74a8d3b1016f9ab938516aa4ce488dd4deb2f5158",
+      "size": 5189998
+    },
+    {
+      "platform": "windows",
+      "install": {
+        "method": "7z",
+        "extract_dir": "Mazes of Dungeon"
+      },
+      "label": "Mirror",
+      "url": "https://files.accessiblegames.net/files/5c8589790edac3ed0179b9d74a8d3b1016f9ab938516aa4ce488dd4deb2f5158/maze105.exe",
+      "sha256": "5c8589790edac3ed0179b9d74a8d3b1016f9ab938516aa4ce488dd4deb2f5158",
+      "size": 5189998
+    },
+    {
+      "platform": "windows",
+      "install": {
+        "method": "7z",
+        "extract_dir": "Mazes of Dungeon"
+      },
+      "label": "Mirror",
+      "url": "https://files.accessiblegames.net/files/91f8a91b7468129e6897c212f4b1ccb4a13cf61b74b9ef4ecbb383d9b10e7a8f/mazes_of_dungeon.7z",
+      "sha256": "91f8a91b7468129e6897c212f4b1ccb4a13cf61b74b9ef4ecbb383d9b10e7a8f",
+      "size": 4620088
+    }
+  ]
+}

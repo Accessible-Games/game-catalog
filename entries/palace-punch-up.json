@@ -1,0 +1,32 @@
+{
+  "id": "palace-punch-up",
+  "kind": "game",
+  "title": "Palace Punch-up",
+  "developer": [
+    "Blastbay Studios"
+  ],
+  "description": "You and your worst enemy have moved in next door to each other, and you have both built beautiful palaces. What better way for both of you to vent your anger towards each other than happily chuck rocks at your palaces until one or the other gets destroyed? In this game, you do just that.",
+  "flags": [
+    "abandoned",
+    "multiplayer"
+  ],
+  "links": {
+    "agarchive": "https://www.agarchive.net/pages/devs/blastbay.html"
+  },
+  "sources": [
+    {
+      "platform": "windows",
+      "install": {
+        "method": "installer",
+        "installer": {
+          "type": "inno",
+          "mode": "extract"
+        }
+      },
+      "label": "Mirror",
+      "url": "https://files.accessiblegames.net/files/bf45a2913788d185cd52022a4d0095d605b34bd053f977149aaaf956235a2e59/palace_punch-up_setup.exe",
+      "sha256": "bf45a2913788d185cd52022a4d0095d605b34bd053f977149aaaf956235a2e59",
+      "size": 5243833
+    }
+  ]
+}

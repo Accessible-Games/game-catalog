@@ -1,0 +1,27 @@
+{
+  "id": "bead-brains",
+  "kind": "game",
+  "title": "Bead Brains",
+  "developer": [
+    "Rocky Waters"
+  ],
+  "links": {
+    "agarchive": "https://www.agarchive.net/pages/devs/rockyWaters.html"
+  },
+  "sources": [
+    {
+      "platform": "windows",
+      "install": {
+        "method": "installer",
+        "installer": {
+          "type": "inno",
+          "mode": "extract"
+        }
+      },
+      "label": "Mirror",
+      "url": "https://files.accessiblegames.net/files/a5fe837a6c5bb9a20a0622906957b31eb9ad24d4bed84b990413ddbde17d1f19/BeadBrainsSetup.exe",
+      "sha256": "a5fe837a6c5bb9a20a0622906957b31eb9ad24d4bed84b990413ddbde17d1f19",
+      "size": 12640842
+    }
+  ]
+}

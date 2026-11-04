@@ -1,0 +1,45 @@
+{
+  "id": "xmaze",
+  "kind": "game",
+  "title": "XMaze",
+  "developer": [
+    "Morokuma"
+  ],
+  "description": "Randomly generated maze exploration game built in Text Game Maker.",
+  "links": {
+    "agarchive": "https://www.agarchive.net/pages/devs/morokuma.html"
+  },
+  "sources": [
+    {
+      "label": "Developer site",
+      "url": "http://hirotaka2014.sakura.ne.jp/mh0406/game/xmeiro001.exe",
+      "platform": "windows",
+      "install": {
+        "method": "7z"
+      },
+      "sha256": "be69575d08aed5fc17e158dcf71c1a2fd2cbac039821dc24269364cacc46681d",
+      "size": 1132505
+    },
+    {
+      "platform": "windows",
+      "install": {
+        "method": "7z"
+      },
+      "label": "Mirror",
+      "url": "https://files.accessiblegames.net/files/be69575d08aed5fc17e158dcf71c1a2fd2cbac039821dc24269364cacc46681d/xmeiro001.exe",
+      "sha256": "be69575d08aed5fc17e158dcf71c1a2fd2cbac039821dc24269364cacc46681d",
+      "size": 1132505
+    },
+    {
+      "platform": "windows",
+      "install": {
+        "method": "7z",
+        "extract_dir": "ŠÈ’PA–À˜HƒQ[ƒ€"
+      },
+      "label": "Mirror",
+      "url": "https://files.accessiblegames.net/files/a735cc204859538f26599ffea4cc2ae7a1e8315a24f481c058cb48d4f6cdb5e6/x_maze.7z",
+      "sha256": "a735cc204859538f26599ffea4cc2ae7a1e8315a24f481c058cb48d4f6cdb5e6",
+      "size": 1055133
+    }
+  ]
+}

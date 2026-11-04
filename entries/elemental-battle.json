@@ -1,0 +1,27 @@
+{
+  "id": "elemental-battle",
+  "kind": "game",
+  "title": "Elemental Battle",
+  "developer": [
+    "Dragon Slayer Games"
+  ],
+  "flags": [
+    "abandoned"
+  ],
+  "links": {
+    "agarchive": "https://www.agarchive.net/pages/devs/dragonslayer.html"
+  },
+  "sources": [
+    {
+      "platform": "windows",
+      "install": {
+        "method": "7z",
+        "extract_dir": "elementalBattle"
+      },
+      "label": "Mirror",
+      "url": "https://files.accessiblegames.net/files/0adf43053b2fd4f07c2c3969d1185ee3eb63b93aba3c4e3f3e09590490d1af7a/ElementalBattle.7z",
+      "sha256": "0adf43053b2fd4f07c2c3969d1185ee3eb63b93aba3c4e3f3e09590490d1af7a",
+      "size": 4750372
+    }
+  ]
+}

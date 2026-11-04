@@ -1,0 +1,26 @@
+{
+  "id": "atlantic-city-blackjack",
+  "kind": "game",
+  "title": "Atlantic City Blackjack",
+  "developer": [
+    "Richard De Steno"
+  ],
+  "flags": [
+    "abandoned"
+  ],
+  "links": {
+    "agarchive": "https://www.agarchive.net/pages/devs/richardDeSteno.html"
+  },
+  "sources": [
+    {
+      "platform": "windows",
+      "install": {
+        "method": "zip"
+      },
+      "label": "Mirror",
+      "url": "https://files.accessiblegames.net/files/34320588913a9fd05b1064f585a113bfe2b76b50e1994f810f3594a9e1ef9751/atlantic_city_blackjack.zip",
+      "sha256": "34320588913a9fd05b1064f585a113bfe2b76b50e1994f810f3594a9e1ef9751",
+      "size": 399849
+    }
+  ]
+}

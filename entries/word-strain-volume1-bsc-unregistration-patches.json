@@ -1,0 +1,30 @@
+{
+  "id": "word-strain-volume1-bsc-unregistration-patches",
+  "kind": "extra",
+  "title": "BSC Unregistration Patches",
+  "developer": [
+    "BSC Games"
+  ],
+  "description": "This is a collection of patches that unregister most of BSC's paid products, which may be useful if you need to re-register them for whatever reason.",
+  "flags": [
+    "abandoned"
+  ],
+  "links": {
+    "agarchive": "https://www.agarchive.net/pages/devs/bsc.html"
+  },
+  "sources": [
+    {
+      "platform": "windows",
+      "install": {
+        "method": "zip",
+        "extract_dir": "BSC Unregistration patches"
+      },
+      "label": "Mirror",
+      "url": "https://files.accessiblegames.net/files/99fcf2533b720ddaaf0f52686f924b1495f0566c2e74f7cb25964da7c51c2011/bsc_unregistration_patches.zip",
+      "sha256": "99fcf2533b720ddaaf0f52686f924b1495f0566c2e74f7cb25964da7c51c2011",
+      "size": 2307871
+    }
+  ],
+  "extends": "word-strain-volume1",
+  "install_into": "word-strain-volume1"
+}

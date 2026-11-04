@@ -1,0 +1,30 @@
+{
+  "id": "self-destruct",
+  "kind": "game",
+  "title": "Self Destruct",
+  "developer": [
+    "XL Studios"
+  ],
+  "flags": [
+    "abandoned"
+  ],
+  "links": {
+    "agarchive": "https://www.agarchive.net/pages/devs/xl.html"
+  },
+  "sources": [
+    {
+      "platform": "windows",
+      "install": {
+        "method": "installer",
+        "installer": {
+          "type": "inno",
+          "mode": "extract"
+        }
+      },
+      "label": "Mirror",
+      "url": "https://files.accessiblegames.net/files/05a6edab88d39c38df1cfdee7e684f7fc303d8f24a2bce28cb85c747e192f2ea/selft_destruct_1.0.exe",
+      "sha256": "05a6edab88d39c38df1cfdee7e684f7fc303d8f24a2bce28cb85c747e192f2ea",
+      "size": 40550560
+    }
+  ]
+}

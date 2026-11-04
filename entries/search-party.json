@@ -1,0 +1,74 @@
+{
+  "id": "search-party",
+  "kind": "game",
+  "title": "Search Party",
+  "developer": [
+    "Dan Z"
+  ],
+  "flags": [
+    "abandoned"
+  ],
+  "links": {
+    "agarchive": "https://www.agarchive.net/pages/devs/danZ.html"
+  },
+  "sources": [
+    {
+      "label": "Developer site",
+      "url": "http://www.danielzingaro.com/search_party_setup.exe",
+      "platform": "windows",
+      "install": {
+        "method": "installer",
+        "installer": {
+          "type": "inno",
+          "mode": "extract"
+        }
+      },
+      "sha256": "c6dbc0d8297f8050c20a9c3a6658a32f377b072b00f694338811e12e31993d88",
+      "size": 2894036
+    },
+    {
+      "platform": "windows",
+      "install": {
+        "method": "installer",
+        "installer": {
+          "type": "inno",
+          "mode": "extract"
+        }
+      },
+      "label": "Mirror",
+      "url": "https://files.accessiblegames.net/files/c6dbc0d8297f8050c20a9c3a6658a32f377b072b00f694338811e12e31993d88/search_party_setup.exe",
+      "sha256": "c6dbc0d8297f8050c20a9c3a6658a32f377b072b00f694338811e12e31993d88",
+      "size": 2894036
+    },
+    {
+      "label": "Developer site",
+      "url": "http://www.danielzingaro.com/sp_full.exe",
+      "platform": "windows",
+      "install": {
+        "method": "7z"
+      },
+      "sha256": "2f81633d3570108bfa0813850f14df8e3a5211aded91b21dcaf7589f237a19b4",
+      "size": 161985
+    },
+    {
+      "platform": "windows",
+      "install": {
+        "method": "7z"
+      },
+      "label": "Mirror",
+      "url": "https://files.accessiblegames.net/files/2f81633d3570108bfa0813850f14df8e3a5211aded91b21dcaf7589f237a19b4/sp_full.exe",
+      "sha256": "2f81633d3570108bfa0813850f14df8e3a5211aded91b21dcaf7589f237a19b4",
+      "size": 161985
+    },
+    {
+      "platform": "windows",
+      "install": {
+        "method": "7z"
+      },
+      "label": "Mirror",
+      "url": "https://files.accessiblegames.net/files/97fbdca7136dce98ecd8ccd1ceb6a1e5a40a13103105788745114c2c607aa10e/search_party_with_patch.7z",
+      "sha256": "97fbdca7136dce98ecd8ccd1ceb6a1e5a40a13103105788745114c2c607aa10e",
+      "size": 2933481
+    }
+  ]
+}

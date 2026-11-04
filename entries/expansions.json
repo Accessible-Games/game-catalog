@@ -1,0 +1,49 @@
+{
+  "id": "expansions",
+  "kind": "extra",
+  "title": "Expansions",
+  "developer": [
+    "Morokuma"
+  ],
+  "description": "A dungeon exploration RPG.\n\nExpansion packs for Cave of Marvels. Each has an included ReadMe that describes what it does.\n\nThese are only available from the archive. While they are listed on the Cave of Marvels page of Morokuma's website, attempts to download them produce a 404 error.",
+  "links": {
+    "agarchive": "https://www.agarchive.net/pages/devs/morokuma.html"
+  },
+  "sources": [
+    {
+      "platform": "windows",
+      "install": {
+        "method": "7z",
+        "extract_dir": "•sŽv‹c‚Ì“´ŒA Šg’£ƒpƒbƒN ƒeƒLƒXƒgƒQ[ƒ€ƒpƒbƒ`"
+      },
+      "label": "Mirror",
+      "url": "https://files.accessiblegames.net/files/35bbb0b5682a617dc0924126f37d3cfd9ab33d5496d90108c9beb8da779755c7/cave_expansion1.7z",
+      "sha256": "35bbb0b5682a617dc0924126f37d3cfd9ab33d5496d90108c9beb8da779755c7",
+      "size": 12672378
+    },
+    {
+      "platform": "windows",
+      "install": {
+        "method": "7z",
+        "extract_dir": "•sŽv‹c‚Ì“´ŒA Šg’£ƒpƒbƒN ‚É‚á‚ñ‚¿‚á‚ñ•ƒˆƒRƒ^ƒ“ƒNƒpƒbƒ`"
+      },
+      "label": "Mirror",
+      "url": "https://files.accessiblegames.net/files/19ef0d2555763279829265f7f01cabf0c5bfba453ac734ee396fb5a108e024e4/cave_expansion2.7z",
+      "sha256": "19ef0d2555763279829265f7f01cabf0c5bfba453ac734ee396fb5a108e024e4",
+      "size": 956710
+    },
+    {
+      "platform": "windows",
+      "install": {
+        "method": "7z",
+        "extract_dir": "•sŽv‹c‚Ì“´ŒA Šg’£ƒpƒbƒN ƒ`ƒF[ƒ“ƒ"
+      },
+      "label": "Mirror",
+      "url": "https://files.accessiblegames.net/files/27f8669713c0d47f6bdd7c57d3edf7b55a0ed6abdab1dda8d85f4b8e86437718/cave_expansion3.7z",
+      "sha256": "27f8669713c0d47f6bdd7c57d3edf7b55a0ed6abdab1dda8d85f4b8e86437718",
+      "size": 278209
+    }
+  ],
+  "extends": "cave-of-marvels",
+  "install_into": "cave-of-marvels"
+}

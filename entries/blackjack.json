@@ -1,0 +1,27 @@
+{
+  "id": "blackjack",
+  "kind": "game",
+  "title": "Blackjack",
+  "developer": [
+    "BrailleSoft"
+  ],
+  "flags": [
+    "abandoned"
+  ],
+  "links": {
+    "agarchive": "https://www.agarchive.net/pages/devs/braillesoft.html"
+  },
+  "sources": [
+    {
+      "platform": "windows",
+      "install": {
+        "method": "zip",
+        "extract_dir": "blackjak"
+      },
+      "label": "Mirror",
+      "url": "https://files.accessiblegames.net/files/a7181089d917bc7f7139d32756819e02029dcb9acd8e72361bc0d151f29821f2/blackjack.zip",
+      "sha256": "a7181089d917bc7f7139d32756819e02029dcb9acd8e72361bc0d151f29821f2",
+      "size": 126575
+    }
+  ]
+}

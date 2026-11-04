@@ -1,0 +1,25 @@
+{
+  "id": "3-d-velocity-compiled-package",
+  "kind": "game",
+  "title": "3-D Velocity: compiled package",
+  "developer": [
+    "BPC Programs"
+  ],
+  "description": "In January of 2017, TDV was released as open source freeware.\n\nAs a result, we host several different files, listed below.\n\nThis archive contains only the compiled version of the game, without source.\n\nTo play, execute tdv.exe.",
+  "links": {
+    "agarchive": "https://www.agarchive.net/pages/devs/bpc.html"
+  },
+  "sources": [
+    {
+      "platform": "windows",
+      "install": {
+        "method": "7z",
+        "extract_dir": "Three-D-Velocity-Binaries"
+      },
+      "label": "Mirror",
+      "url": "https://files.accessiblegames.net/files/086509c8a914ae9b6d4d0904e08b1b34a61b239fa4bf2559b807707469f906db/tdv-compiled.7z",
+      "sha256": "086509c8a914ae9b6d4d0904e08b1b34a61b239fa4bf2559b807707469f906db",
+      "size": 200087033
+    }
+  ]
+}

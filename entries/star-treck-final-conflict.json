@@ -1,0 +1,30 @@
+{
+  "id": "star-treck-final-conflict",
+  "kind": "game",
+  "title": "Star Treck Final Conflict",
+  "developer": [
+    "USA Games"
+  ],
+  "flags": [
+    "abandoned"
+  ],
+  "links": {
+    "agarchive": "https://www.agarchive.net/pages/devs/usa.html"
+  },
+  "sources": [
+    {
+      "platform": "windows",
+      "install": {
+        "method": "installer",
+        "installer": {
+          "type": "inno",
+          "mode": "extract"
+        }
+      },
+      "label": "Mirror",
+      "url": "https://files.accessiblegames.net/files/9b9aa4aea4519d71891c16588956214566980a750dca6f1cfb702e4b86df70d2/star_trek_final_conflict_Setup.exe",
+      "sha256": "9b9aa4aea4519d71891c16588956214566980a750dca6f1cfb702e4b86df70d2",
+      "size": 25845853
+    }
+  ]
+}

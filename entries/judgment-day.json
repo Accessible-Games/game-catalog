@@ -1,0 +1,31 @@
+{
+  "id": "judgment-day",
+  "kind": "game",
+  "title": "Judgment Day",
+  "developer": [
+    "LWorks"
+  ],
+  "description": "In 2014, it was announced that judgement day would be updated to become freeware. Now, this process is complete, and thus the game has officially been made freeware!",
+  "flags": [
+    "abandoned"
+  ],
+  "links": {
+    "agarchive": "https://www.agarchive.net/pages/devs/lworks.html"
+  },
+  "sources": [
+    {
+      "platform": "windows",
+      "install": {
+        "method": "installer",
+        "installer": {
+          "type": "inno",
+          "mode": "extract"
+        }
+      },
+      "label": "Mirror",
+      "url": "https://files.accessiblegames.net/files/65fcfed4251746b957866c23425990ae25fba9a11e0f951376b39e4bc5de29d7/judgement_day_setup.exe",
+      "sha256": "65fcfed4251746b957866c23425990ae25fba9a11e0f951376b39e4bc5de29d7",
+      "size": 105919814
+    }
+  ]
+}

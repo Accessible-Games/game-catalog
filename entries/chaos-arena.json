@@ -1,0 +1,28 @@
+{
+  "id": "chaos-arena",
+  "kind": "game",
+  "title": "Chaos Arena",
+  "developer": [
+    "Sightless Wolf Entertainment"
+  ],
+  "description": "A small arcade sidescroller in which you have 2 minutes to collect as many items as you can.",
+  "flags": [
+    "abandoned"
+  ],
+  "links": {
+    "agarchive": "https://www.agarchive.net/pages/devs/sightlessWolf.html"
+  },
+  "sources": [
+    {
+      "platform": "windows",
+      "install": {
+        "method": "7z",
+        "extract_dir": "chaos arena"
+      },
+      "label": "Mirror",
+      "url": "https://files.accessiblegames.net/files/1e556c5648eee24a96bf993994ec8275ebd693f0198a3ebba6af88c07e82e60a/chaosArena.7z",
+      "sha256": "1e556c5648eee24a96bf993994ec8275ebd693f0198a3ebba6af88c07e82e60a",
+      "size": 19100944
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "id": "jedi-quake-second-world-war",
+  "kind": "game",
+  "title": "Jedi Quake Second World War",
+  "developer": [
+    "Agrip"
+  ],
+  "description": "This section contains several user-created mods for the game, along with a basic introductory tutorial to creating your own mod.",
+  "links": {
+    "agarchive": "https://www.agarchive.net/pages/devs/agrip.html"
+  },
+  "sources": [
+    {
+      "platform": "windows",
+      "install": {
+        "method": "zip",
+        "extract_dir": "2nd world war sound extension"
+      },
+      "label": "Mirror",
+      "url": "https://files.accessiblegames.net/files/e782a48b90e942194acfcf2d874dc1ff811b4be6f407135d91cdd26a6cf933ed/Jedi_Quake_2nd_world_war_sound_extension.zip",
+      "sha256": "e782a48b90e942194acfcf2d874dc1ff811b4be6f407135d91cdd26a6cf933ed",
+      "size": 23750453
+    }
+  ]
+}

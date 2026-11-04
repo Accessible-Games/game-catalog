@@ -1,0 +1,28 @@
+{
+  "id": "casino-mason-armstrong",
+  "kind": "game",
+  "title": "Casino",
+  "developer": [
+    "Mason Armstrong"
+  ],
+  "description": "This is more a collection of random small games and features than a traditional casino.",
+  "links": {
+    "agarchive": "https://www.agarchive.net/pages/devs/mason.html"
+  },
+  "sources": [
+    {
+      "platform": "windows",
+      "install": {
+        "method": "installer",
+        "installer": {
+          "type": "inno",
+          "mode": "extract"
+        }
+      },
+      "label": "Mirror",
+      "url": "https://files.accessiblegames.net/files/60993f08feb818fdfeac8d760bd1cdbdcc7f41c500317bce17d84a19538221df/casino_setup0.2Beta.exe",
+      "sha256": "60993f08feb818fdfeac8d760bd1cdbdcc7f41c500317bce17d84a19538221df",
+      "size": 7205374
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "id": "dragon-village",
+  "kind": "game",
+  "title": "Dragon Village",
+  "developer": [
+    "Rocky Waters"
+  ],
+  "description": "It was a nice, peaceful village. Now, not so much. Can you help your villagers find a path to peace and prosparity once more? Assign villagers to different tasks, go on quests, earn the king's ear, and even vanquish the dragon... if you can.",
+  "links": {
+    "agarchive": "https://www.agarchive.net/pages/devs/rockyWaters.html"
+  },
+  "sources": [
+    {
+      "platform": "windows",
+      "install": {
+        "method": "installer",
+        "installer": {
+          "type": "inno",
+          "mode": "extract"
+        }
+      },
+      "label": "Mirror",
+      "url": "https://files.accessiblegames.net/files/101a222721c138afc955c4ade1dc49f0041fbe7c225c18a2c3202e5ae6a91fb8/dragon_village_setup.exe",
+      "sha256": "101a222721c138afc955c4ade1dc49f0041fbe7c225c18a2c3202e5ae6a91fb8",
+      "size": 48856340
+    }
+  ]
+}

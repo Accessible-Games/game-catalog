@@ -1,0 +1,31 @@
+{
+  "id": "pigeon-panic",
+  "kind": "game",
+  "title": "Pigeon Panic",
+  "developer": [
+    "LWorks"
+  ],
+  "description": "In this game, your car is infested with pigeons.\n\nWhat do you do when you've got pigeons swarming your car? Shoot'em down! In this game, you do just that.",
+  "flags": [
+    "abandoned"
+  ],
+  "links": {
+    "agarchive": "https://www.agarchive.net/pages/devs/lworks.html"
+  },
+  "sources": [
+    {
+      "platform": "windows",
+      "install": {
+        "method": "installer",
+        "installer": {
+          "type": "inno",
+          "mode": "extract"
+        }
+      },
+      "label": "Mirror",
+      "url": "https://files.accessiblegames.net/files/e5ac65776404f1d1a68dfac02b82ddfcda29764f0d105a135089c25e6098bd92/pigeon_panic_setup.exe",
+      "sha256": "e5ac65776404f1d1a68dfac02b82ddfcda29764f0d105a135089c25e6098bd92",
+      "size": 5833350
+    }
+  ]
+}

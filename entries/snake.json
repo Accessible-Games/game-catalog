@@ -1,0 +1,30 @@
+{
+  "id": "snake",
+  "kind": "game",
+  "title": "Snake",
+  "developer": [
+    "PB Games"
+  ],
+  "flags": [
+    "abandoned"
+  ],
+  "links": {
+    "agarchive": "https://www.agarchive.net/pages/devs/pb.html"
+  },
+  "sources": [
+    {
+      "platform": "windows",
+      "install": {
+        "method": "installer",
+        "installer": {
+          "type": "inno",
+          "mode": "extract"
+        }
+      },
+      "label": "Mirror",
+      "url": "https://files.accessiblegames.net/files/a8e23538afc4be780ad7cc5f17bfae5c5d3efa4ae19e96098d61a72106defdca/snake_setup.exe",
+      "sha256": "a8e23538afc4be780ad7cc5f17bfae5c5d3efa4ae19e96098d61a72106defdca",
+      "size": 6314446
+    }
+  ]
+}

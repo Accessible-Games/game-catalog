@@ -1,0 +1,28 @@
+{
+  "id": "logitech-gaming-pad-profile-for-light-cars",
+  "kind": "extra",
+  "title": "Logitech gaming pad profile for Light Cars",
+  "developer": [
+    "Lighttech Interactive"
+  ],
+  "flags": [
+    "abandoned"
+  ],
+  "links": {
+    "agarchive": "https://www.agarchive.net/pages/devs/lighttech.html"
+  },
+  "sources": [
+    {
+      "platform": "windows",
+      "install": {
+        "method": "zip"
+      },
+      "label": "Mirror",
+      "url": "https://files.accessiblegames.net/files/20ca4685d70367186a23d461e6e2d11cb2120909ae0297574384cda8de32a249/logitech_gaming_pad_profile_for_light_cars.zip",
+      "sha256": "20ca4685d70367186a23d461e6e2d11cb2120909ae0297574384cda8de32a249",
+      "size": 1174
+    }
+  ],
+  "extends": "light-cars",
+  "install_into": "light-cars"
+}

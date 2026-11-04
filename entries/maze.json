@@ -1,0 +1,45 @@
+{
+  "id": "maze",
+  "kind": "game",
+  "title": "Maze",
+  "developer": [
+    "Morokuma"
+  ],
+  "description": "A simple maze navigation game built in Text Game Maker.",
+  "links": {
+    "agarchive": "https://www.agarchive.net/pages/devs/morokuma.html"
+  },
+  "sources": [
+    {
+      "label": "Developer site",
+      "url": "http://hirotaka2014.sakura.ne.jp/mh0406/game/meiro101.exe",
+      "platform": "windows",
+      "install": {
+        "method": "7z"
+      },
+      "sha256": "cff824b886d06e5a72b9f5ebc386d23163278476134bf8da914a873f7e742c17",
+      "size": 1199746
+    },
+    {
+      "platform": "windows",
+      "install": {
+        "method": "7z"
+      },
+      "label": "Mirror",
+      "url": "https://files.accessiblegames.net/files/cff824b886d06e5a72b9f5ebc386d23163278476134bf8da914a873f7e742c17/meiro101.exe",
+      "sha256": "cff824b886d06e5a72b9f5ebc386d23163278476134bf8da914a873f7e742c17",
+      "size": 1199746
+    },
+    {
+      "platform": "windows",
+      "install": {
+        "method": "7z",
+        "extract_dir": "ŠÈ’P‚Å‚È‚¢–À˜HƒQ[ƒ€"
+      },
+      "label": "Mirror",
+      "url": "https://files.accessiblegames.net/files/eb67acd2d99029b5697df5b29d1a9ade4314f695426fcd9219f82359f697602f/maze.7z",
+      "sha256": "eb67acd2d99029b5697df5b29d1a9ade4314f695426fcd9219f82359f697602f",
+      "size": 1037426
+    }
+  ]
+}

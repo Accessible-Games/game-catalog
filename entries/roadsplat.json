@@ -1,0 +1,24 @@
+{
+  "id": "roadsplat",
+  "kind": "game",
+  "title": "Roadsplat",
+  "developer": [
+    "Oriol Gomez"
+  ],
+  "description": "One of the first games Oriol ever released, this is the original Death on the Road.",
+  "links": {
+    "agarchive": "https://www.agarchive.net/pages/devs/oriolgomez.html"
+  },
+  "sources": [
+    {
+      "platform": "windows",
+      "install": {
+        "method": "zip"
+      },
+      "label": "Mirror",
+      "url": "https://files.accessiblegames.net/files/01bc63bd7cdcaf41edd94c0ef941c0162be4f5fc12b6beda5fa9078f3dc60b97/roadsplat.zip",
+      "sha256": "01bc63bd7cdcaf41edd94c0ef941c0162be4f5fc12b6beda5fa9078f3dc60b97",
+      "size": 32800844
+    }
+  ]
+}

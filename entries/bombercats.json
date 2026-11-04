@@ -1,0 +1,24 @@
+{
+  "id": "bombercats",
+  "kind": "game",
+  "title": "Bombercats",
+  "developer": [
+    "Oriol Gomez"
+  ],
+  "description": "You must select non-exploding cats to earn points. Presented with random cats that may explode, use arrows to pick one safely as the number increases. Avoiding booming felines adds to your running score over rounds, with a survival mode giving extra chances before reset.",
+  "links": {
+    "agarchive": "https://www.agarchive.net/pages/devs/oriolgomez.html"
+  },
+  "sources": [
+    {
+      "platform": "windows",
+      "install": {
+        "method": "zip"
+      },
+      "label": "Mirror",
+      "url": "https://files.accessiblegames.net/files/af268ec7f065e780a3ac2b578bb9de917280d48c71631de95583774461b44d40/bombercats.zip",
+      "sha256": "af268ec7f065e780a3ac2b578bb9de917280d48c71631de95583774461b44d40",
+      "size": 20063376
+    }
+  ]
+}

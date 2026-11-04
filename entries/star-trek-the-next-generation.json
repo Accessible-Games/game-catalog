@@ -1,0 +1,26 @@
+{
+  "id": "star-trek-the-next-generation",
+  "kind": "game",
+  "title": "Star Trek the Next Generation",
+  "developer": [
+    "GMA Games"
+  ],
+  "description": "If you've created or have any extra packs that aren't listed here, please get in touch. We would love to add more packs to this listing.\n\nWhere possible, we've included links to information and downloads directly from the author's website, as well as from the archive.",
+  "links": {
+    "homepage": "https://sites.google.com/site/blindjamesspencer/home/conflict/generation",
+    "agarchive": "https://www.agarchive.net/pages/devs/gma.html"
+  },
+  "sources": [
+    {
+      "platform": "windows",
+      "install": {
+        "method": "zip",
+        "extract_dir": "Star Trek - The Next Generation"
+      },
+      "label": "Mirror",
+      "url": "https://files.accessiblegames.net/files/23b824274a6cc03ed73def6003cad9e6a9c24a00a619ec6c3a84833575bf32e0/Star_Trek_-_The_Next_Generation.zip",
+      "sha256": "23b824274a6cc03ed73def6003cad9e6a9c24a00a619ec6c3a84833575bf32e0",
+      "size": 14305
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "id": "run-for-president",
+  "kind": "game",
+  "title": "Run For President",
+  "developer": [
+    "Richard De Steno"
+  ],
+  "description": "You require 270 electoral votes to make it to the Oval Office. Have you got what it takes to campaign around the country, manage your finances, and answer questions from the reporters that follow you everywhere?",
+  "flags": [
+    "abandoned"
+  ],
+  "links": {
+    "agarchive": "https://www.agarchive.net/pages/devs/richardDeSteno.html"
+  },
+  "sources": [
+    {
+      "platform": "windows",
+      "install": {
+        "method": "zip"
+      },
+      "label": "Mirror",
+      "url": "https://files.accessiblegames.net/files/2fe279292c521872bdd64a6bee16c28b29af66622ee24f1c54ecff04f2da831b/run_for_president.zip",
+      "sha256": "2fe279292c521872bdd64a6bee16c28b29af66622ee24f1c54ecff04f2da831b",
+      "size": 4401733
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "id": "space",
+  "kind": "game",
+  "title": "Space",
+  "developer": [
+    "BPC Programs"
+  ],
+  "flags": [
+    "abandoned"
+  ],
+  "links": {
+    "agarchive": "https://www.agarchive.net/pages/devs/bpc.html"
+  },
+  "sources": [
+    {
+      "platform": "windows",
+      "install": {
+        "method": "zip"
+      },
+      "label": "Mirror",
+      "url": "https://files.accessiblegames.net/files/ccf1428fbc7258c209ebf6b5a524e34e0950e42aa0f2e77cc1e75b6feec180ea/space.zip",
+      "sha256": "ccf1428fbc7258c209ebf6b5a524e34e0950e42aa0f2e77cc1e75b6feec180ea",
+      "size": 20305
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "id": "temporal",
+  "kind": "game",
+  "title": "Temporal",
+  "developer": [
+    "Aprone"
+  ],
+  "links": {
+    "agarchive": "https://www.agarchive.net/pages/devs/aprone.html"
+  },
+  "sources": [
+    {
+      "label": "Developer site",
+      "url": "https://www.kaldobsky.com/audiogames/temporal.zip",
+      "platform": "windows",
+      "install": {
+        "method": "zip"
+      },
+      "sha256": "c977835cdc722855231e3413034bfffd28a8172fa27dff8422d18a01521daa6c",
+      "size": 1404673
+    },
+    {
+      "platform": "windows",
+      "install": {
+        "method": "zip"
+      },
+      "label": "Mirror",
+      "url": "https://files.accessiblegames.net/files/c977835cdc722855231e3413034bfffd28a8172fa27dff8422d18a01521daa6c/temporal.zip",
+      "sha256": "c977835cdc722855231e3413034bfffd28a8172fa27dff8422d18a01521daa6c",
+      "size": 1404673
+    }
+  ]
+}

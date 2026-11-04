@@ -1,0 +1,24 @@
+{
+  "id": "soundrts-blitzkrieg",
+  "kind": "game",
+  "title": "SoundRTS Blitzkrieg",
+  "developer": [
+    "Sound RTS"
+  ],
+  "description": "This section contains all of the user-created content we have for Sound RTS. Where possible, we've included author information with each entry. If you notice that some of the information is missing or incorrect and can fill in the blanks, please let us know.\n\nOur version of this mod contains some incomplete campaigns. If you have a more recent version, please let us know.",
+  "links": {
+    "agarchive": "https://www.agarchive.net/pages/devs/soundrts.html"
+  },
+  "sources": [
+    {
+      "platform": "windows",
+      "install": {
+        "method": "zip"
+      },
+      "label": "Mirror",
+      "url": "https://files.accessiblegames.net/files/4a13f8ba79d0f9bfdaeda889ec854b502ae6f8be9b567ae694ef7053bbe9e29e/SoundRTS_Blitzkrieg.zip",
+      "sha256": "4a13f8ba79d0f9bfdaeda889ec854b502ae6f8be9b567ae694ef7053bbe9e29e",
+      "size": 1485683
+    }
+  ]
+}

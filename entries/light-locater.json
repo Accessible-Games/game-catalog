@@ -1,0 +1,33 @@
+{
+  "id": "light-locater",
+  "kind": "game",
+  "title": "Light Locater",
+  "developer": [
+    "Lighttech Interactive"
+  ],
+  "flags": [
+    "abandoned"
+  ],
+  "links": {
+    "agarchive": "https://www.agarchive.net/pages/devs/lighttech.html"
+  },
+  "sources": [
+    {
+      "platform": "windows",
+      "install": {
+        "method": "installer",
+        "installer": {
+          "type": "other",
+          "mode": "run"
+        }
+      },
+      "label": "Mirror",
+      "url": "https://files.accessiblegames.net/files/3b1259ba6a6e21e47d15637767f332524f37d2d4ccda64ae9a11116ad2a00ba0/light_locater_setup.exe",
+      "sha256": "3b1259ba6a6e21e47d15637767f332524f37d2d4ccda64ae9a11116ad2a00ba0",
+      "size": 4264344
+    }
+  ],
+  "dependencies": [
+    "com-audio-dependency"
+  ]
+}

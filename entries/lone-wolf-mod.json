@@ -1,0 +1,26 @@
+{
+  "id": "lone-wolf-mod",
+  "kind": "extra",
+  "title": "Lone Wolf mod",
+  "developer": [
+    "GMA Games"
+  ],
+  "description": "A full sound mod, created by Locutus",
+  "links": {
+    "agarchive": "https://www.agarchive.net/pages/devs/gma.html"
+  },
+  "sources": [
+    {
+      "platform": "windows",
+      "install": {
+        "method": "zip"
+      },
+      "label": "Mirror",
+      "url": "https://files.accessiblegames.net/files/f225829603c0639635be26d65ed753a4cbcbdb692bca46ce021fc93a2320169e/Lone_Wolf_Mod_by_locutus.zip",
+      "sha256": "f225829603c0639635be26d65ed753a4cbcbdb692bca46ce021fc93a2320169e",
+      "size": 22978397
+    }
+  ],
+  "extends": "lone-wolf",
+  "install_into": "lone-wolf"
+}

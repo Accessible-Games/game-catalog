@@ -1,0 +1,44 @@
+{
+  "id": "maze-craze",
+  "kind": "game",
+  "title": "Maze Craze",
+  "developer": [
+    "Dan Z"
+  ],
+  "flags": [
+    "abandoned"
+  ],
+  "links": {
+    "agarchive": "https://www.agarchive.net/pages/devs/danZ.html"
+  },
+  "sources": [
+    {
+      "label": "Developer site",
+      "url": "http://www.danielzingaro.com/maze_craze_setup.exe",
+      "platform": "windows",
+      "install": {
+        "method": "installer",
+        "installer": {
+          "type": "inno",
+          "mode": "extract"
+        }
+      },
+      "sha256": "eb8a1c6eb475dfd99d022663ecbc253e42b13afe0d35f3f0302073f7a47dbbe9",
+      "size": 3655534
+    },
+    {
+      "platform": "windows",
+      "install": {
+        "method": "installer",
+        "installer": {
+          "type": "inno",
+          "mode": "extract"
+        }
+      },
+      "label": "Mirror",
+      "url": "https://files.accessiblegames.net/files/eb8a1c6eb475dfd99d022663ecbc253e42b13afe0d35f3f0302073f7a47dbbe9/maze_craze_setup.exe",
+      "sha256": "eb8a1c6eb475dfd99d022663ecbc253e42b13afe0d35f3f0302073f7a47dbbe9",
+      "size": 3655534
+    }
+  ]
+}

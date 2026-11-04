@@ -1,0 +1,25 @@
+{
+  "id": "reaction",
+  "kind": "game",
+  "title": "Reaction",
+  "developer": [
+    "Jim Kitchen"
+  ],
+  "description": "Note that we have repackaged each game into a zip archive from its initial format of a self-extracting executable. The game's files are contained with a folder, so all you need do is extract the archive and each game will have its own folder.",
+  "links": {
+    "agarchive": "https://www.agarchive.net/pages/devs/kitchensinc.html"
+  },
+  "sources": [
+    {
+      "platform": "windows",
+      "install": {
+        "method": "zip",
+        "extract_dir": "reaction"
+      },
+      "label": "Mirror",
+      "url": "https://files.accessiblegames.net/files/5f82aff2dc8d5deceb926224a6519458736a6dbea23412fe8e933be05af68ad1/reaction.zip",
+      "sha256": "5f82aff2dc8d5deceb926224a6519458736a6dbea23412fe8e933be05af68ad1",
+      "size": 29389
+    }
+  ]
+}

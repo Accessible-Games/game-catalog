@@ -1,0 +1,30 @@
+{
+  "id": "space-attack",
+  "kind": "game",
+  "title": "Space Attack",
+  "developer": [
+    "PB Games"
+  ],
+  "flags": [
+    "abandoned"
+  ],
+  "links": {
+    "agarchive": "https://www.agarchive.net/pages/devs/pb.html"
+  },
+  "sources": [
+    {
+      "platform": "windows",
+      "install": {
+        "method": "installer",
+        "installer": {
+          "type": "inno",
+          "mode": "extract"
+        }
+      },
+      "label": "Mirror",
+      "url": "https://files.accessiblegames.net/files/ad76ed134593db1da13f26179a2f4179c0220be88b492f430daf2ec73d7ac446/space_attack.exe",
+      "sha256": "ad76ed134593db1da13f26179a2f4179c0220be88b492f430daf2ec73d7ac446",
+      "size": 8214735
+    }
+  ]
+}

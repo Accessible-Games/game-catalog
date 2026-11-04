@@ -1,0 +1,30 @@
+{
+  "id": "the-road-to-rage",
+  "kind": "game",
+  "title": "The Road to Rage",
+  "developer": [
+    "Talon"
+  ],
+  "description": "Note that this package contains both a client and server application.",
+  "flags": [
+    "abandoned",
+    "multiplayer"
+  ],
+  "links": {
+    "homepage": "https://iamtalon.me/the-road-to-rage/",
+    "agarchive": "https://www.agarchive.net/pages/devs/talon.html"
+  },
+  "sources": [
+    {
+      "platform": "windows",
+      "install": {
+        "method": "7z",
+        "extract_dir": "theRoadToRage"
+      },
+      "label": "Mirror",
+      "url": "https://files.accessiblegames.net/files/2c76044d571c603918c1c48c6ff9c6342df70d00068ca7911decdae84eafd628/theRoadToRage.7z",
+      "sha256": "2c76044d571c603918c1c48c6ff9c6342df70d00068ca7911decdae84eafd628",
+      "size": 457984998
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "id": "tia-story-2",
+  "kind": "game",
+  "title": "Tia Story 2",
+  "developer": [
+    "Morokuma"
+  ],
+  "description": "A text RPG built with Text Game Maker. Direct sequel to Tia Story 1.",
+  "links": {
+    "agarchive": "https://www.agarchive.net/pages/devs/morokuma.html"
+  },
+  "sources": [
+    {
+      "label": "Developer site",
+      "url": "http://hirotaka2014.sakura.ne.jp/mh0406/game/ts2.exe",
+      "platform": "windows",
+      "install": {
+        "method": "7z"
+      },
+      "sha256": "5b9af45e177db4949b8753ca6cc2b56d877bf3906236ecf20d471a1f055353d4",
+      "size": 10546010
+    },
+    {
+      "platform": "windows",
+      "install": {
+        "method": "7z"
+      },
+      "label": "Mirror",
+      "url": "https://files.accessiblegames.net/files/5b9af45e177db4949b8753ca6cc2b56d877bf3906236ecf20d471a1f055353d4/ts2.exe",
+      "sha256": "5b9af45e177db4949b8753ca6cc2b56d877bf3906236ecf20d471a1f055353d4",
+      "size": 10546010
+    },
+    {
+      "platform": "windows",
+      "install": {
+        "method": "7z",
+        "extract_dir": "Tia Story úA"
+      },
+      "label": "Mirror",
+      "url": "https://files.accessiblegames.net/files/c47115f96d67bd58cfd1fa5115d9d3230d3217f27971ba3786e377abb56a9cbd/tia_story2.7z",
+      "sha256": "c47115f96d67bd58cfd1fa5115d9d3230d3217f27971ba3786e377abb56a9cbd",
+      "size": 8538754
+    }
+  ]
+}

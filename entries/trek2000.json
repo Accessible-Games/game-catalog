@@ -1,0 +1,42 @@
+{
+  "id": "trek2000",
+  "kind": "game",
+  "title": "Trek2000",
+  "developer": [
+    "GMA Games"
+  ],
+  "description": "Trek 2000 is similar to USA Game's Final Conflict and anyone who enjoyed that game should give this one a whirl (or vice versa). The player is put in command of four Federation starships and two starbases and must defend the Federation from enemy fleets.",
+  "links": {
+    "agarchive": "https://www.agarchive.net/pages/devs/gma.html"
+  },
+  "sources": [
+    {
+      "label": "Developer site",
+      "url": "http://www.gmagames.com/trekfree501.exe",
+      "platform": "windows",
+      "install": {
+        "method": "installer",
+        "installer": {
+          "type": "inno",
+          "mode": "extract"
+        }
+      },
+      "sha256": "c977cdb3b780a375cc7dc0483eda2b891c30a6a983c188fe1252289c41988bc0",
+      "size": 6219118
+    },
+    {
+      "platform": "windows",
+      "install": {
+        "method": "installer",
+        "installer": {
+          "type": "inno",
+          "mode": "extract"
+        }
+      },
+      "label": "Mirror",
+      "url": "https://files.accessiblegames.net/files/c977cdb3b780a375cc7dc0483eda2b891c30a6a983c188fe1252289c41988bc0/trekfree501.exe",
+      "sha256": "c977cdb3b780a375cc7dc0483eda2b891c30a6a983c188fe1252289c41988bc0",
+      "size": 6219118
+    }
+  ]
+}

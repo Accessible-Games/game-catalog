@@ -1,0 +1,33 @@
+{
+  "id": "technoshock-update-patch",
+  "kind": "extra",
+  "title": "Technoshock update patch",
+  "developer": [
+    "Anatol Kamynin"
+  ],
+  "description": "update to fix a few bugs and add a learn sounds option",
+  "flags": [
+    "abandoned"
+  ],
+  "links": {
+    "agarchive": "https://www.agarchive.net/pages/devs/technoshock.html"
+  },
+  "sources": [
+    {
+      "platform": "windows",
+      "install": {
+        "method": "installer",
+        "installer": {
+          "type": "inno",
+          "mode": "extract"
+        }
+      },
+      "label": "Mirror",
+      "url": "https://files.accessiblegames.net/files/acf7e0d709ef68a104b8ca17b32f2216d3641c8f1fe85717ddc4a80212720cc8/technoshock_update_setup.exe",
+      "sha256": "acf7e0d709ef68a104b8ca17b32f2216d3641c8f1fe85717ddc4a80212720cc8",
+      "size": 527854
+    }
+  ],
+  "extends": "technoshock",
+  "install_into": "technoshock"
+}

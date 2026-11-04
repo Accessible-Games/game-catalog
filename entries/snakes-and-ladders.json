@@ -1,0 +1,25 @@
+{
+  "id": "snakes-and-ladders",
+  "kind": "game",
+  "title": "Snakes and Ladders",
+  "developer": [
+    "Jim Kitchen"
+  ],
+  "description": "Note that we have repackaged each game into a zip archive from its initial format of a self-extracting executable. The game's files are contained with a folder, so all you need do is extract the archive and each game will have its own folder.",
+  "links": {
+    "agarchive": "https://www.agarchive.net/pages/devs/kitchensinc.html"
+  },
+  "sources": [
+    {
+      "platform": "windows",
+      "install": {
+        "method": "zip",
+        "extract_dir": "snakes and ladders2"
+      },
+      "label": "Mirror",
+      "url": "https://files.accessiblegames.net/files/fd1c50f9ca05178a1dc6aab1d98b3143fabc3ac14a76bc87d1fe9c5a57d30766/snakes_and_ladders2.zip",
+      "sha256": "fd1c50f9ca05178a1dc6aab1d98b3143fabc3ac14a76bc87d1fe9c5a57d30766",
+      "size": 506321
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "id": "deal-or-no-deal",
+  "kind": "game",
+  "title": "Deal Or No Deal",
+  "developer": [
+    "Jage Meddaugh"
+  ],
+  "links": {
+    "agarchive": "https://www.agarchive.net/pages/devs/jage.html"
+  },
+  "sources": [
+    {
+      "label": "Developer site",
+      "url": "http://bestmidi.com/files/DealOrNoDeal1.01.zip",
+      "platform": "windows",
+      "install": {
+        "method": "zip"
+      },
+      "sha256": "83d40304ffbf6c47934302b62995bff03bc2c6ff56e9cd59ee7d5eae8ff9f196",
+      "size": 20433018
+    },
+    {
+      "platform": "windows",
+      "install": {
+        "method": "zip"
+      },
+      "label": "Mirror",
+      "url": "https://files.accessiblegames.net/files/83d40304ffbf6c47934302b62995bff03bc2c6ff56e9cd59ee7d5eae8ff9f196/DealOrNoDeal1.01.zip",
+      "sha256": "83d40304ffbf6c47934302b62995bff03bc2c6ff56e9cd59ee7d5eae8ff9f196",
+      "size": 20433018
+    }
+  ]
+}

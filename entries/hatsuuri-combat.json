@@ -1,0 +1,25 @@
+{
+  "id": "hatsuuri-combat",
+  "kind": "game",
+  "title": "Hatsuuri Combat",
+  "developer": [
+    "Galaxy Laboratory"
+  ],
+  "description": "A side scrolling beat 'em up style game. Entirely self-voicing.",
+  "links": {
+    "agarchive": "https://www.agarchive.net/pages/devs/GalaxyLaboratory.html"
+  },
+  "sources": [
+    {
+      "platform": "windows",
+      "install": {
+        "method": "7z",
+        "extract_dir": "ÅëöäéΦâRâôâoâbâg"
+      },
+      "label": "Mirror",
+      "url": "https://files.accessiblegames.net/files/02a84578d5a6e65c57fee45665012fb6923abab33e480799c900605a97fee9e6/hatsuuri_combat.7z",
+      "sha256": "02a84578d5a6e65c57fee45665012fb6923abab33e480799c900605a97fee9e6",
+      "size": 25852236
+    }
+  ]
+}

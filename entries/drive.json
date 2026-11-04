@@ -1,0 +1,29 @@
+{
+  "id": "drive",
+  "kind": "game",
+  "title": "Drive",
+  "developer": [
+    "various authors"
+  ],
+  "description": "Test out a new vehicle under development at the Cycom Test Lab. Drive along the track, pick up boosters to gain more speed and hopefully provide some enjoyment for your copilot along the way.\n\nNote that while the Dutch version of this game is listed on the game's info page, the download link provided currently returns a 403 error.",
+  "flags": [
+    "abandoned"
+  ],
+  "links": {
+    "homepage": "https://audiogames.net/drive/",
+    "agarchive": "https://www.agarchive.net/pages/devs/misc.html"
+  },
+  "sources": [
+    {
+      "platform": "windows",
+      "install": {
+        "method": "zip",
+        "extract_dir": "Drive"
+      },
+      "label": "Mirror",
+      "url": "https://files.accessiblegames.net/files/e692e4b221a8f0a53f95418120f26ba51bb3456c91ef98232884dd2f2e636d48/drive_v1.2.zip",
+      "sha256": "e692e4b221a8f0a53f95418120f26ba51bb3456c91ef98232884dd2f2e636d48",
+      "size": 115360828
+    }
+  ]
+}

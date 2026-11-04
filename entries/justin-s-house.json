@@ -1,0 +1,25 @@
+{
+  "id": "justin-s-house",
+  "kind": "game",
+  "title": "Justin's house",
+  "developer": [
+    "Talon"
+  ],
+  "description": "Note that this package contains both a client and server application.\n\nThis is a particularly complex map pack, which is therefore given its own listing.",
+  "links": {
+    "agarchive": "https://www.agarchive.net/pages/devs/talon.html"
+  },
+  "sources": [
+    {
+      "platform": "windows",
+      "install": {
+        "method": "zip",
+        "extract_dir": "justinshouse"
+      },
+      "label": "Mirror",
+      "url": "https://files.accessiblegames.net/files/ec337e0e47d11def26b4999f879ead5e6095c76405b5b6514849c868e3645734/the_road_to_rage_justins_house_map.zip",
+      "sha256": "ec337e0e47d11def26b4999f879ead5e6095c76405b5b6514849c868e3645734",
+      "size": 88966746
+    }
+  ]
+}

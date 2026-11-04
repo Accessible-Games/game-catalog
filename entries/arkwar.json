@@ -1,0 +1,25 @@
+{
+  "id": "arkwar",
+  "kind": "game",
+  "title": "ArkWar",
+  "developer": [
+    "Comb"
+  ],
+  "description": "Real time strategy modern warfare game.",
+  "links": {
+    "agarchive": "https://www.agarchive.net/pages/devs/comb.html"
+  },
+  "sources": [
+    {
+      "platform": "windows",
+      "install": {
+        "method": "7z",
+        "extract_dir": "arkwar_1.27"
+      },
+      "label": "Mirror",
+      "url": "https://files.accessiblegames.net/files/c6fcbefbf3a62777b91f9bd22d794ff18be34664958ca9050c8efbd46b2e8597/arkwar_1.27.7z",
+      "sha256": "c6fcbefbf3a62777b91f9bd22d794ff18be34664958ca9050c8efbd46b2e8597",
+      "size": 39346850
+    }
+  ]
+}

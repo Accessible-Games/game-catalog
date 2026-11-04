@@ -1,0 +1,26 @@
+{
+  "id": "tiny-zebras-rock",
+  "kind": "game",
+  "title": "Tiny Zebras Rock",
+  "developer": [
+    "Richard De Steno"
+  ],
+  "flags": [
+    "abandoned"
+  ],
+  "links": {
+    "agarchive": "https://www.agarchive.net/pages/devs/richardDeSteno.html"
+  },
+  "sources": [
+    {
+      "platform": "windows",
+      "install": {
+        "method": "zip"
+      },
+      "label": "Mirror",
+      "url": "https://files.accessiblegames.net/files/b8dc5f1187bc4e838f82998181f379769fd65769d3c5ed87f33ab56ed99de62b/tiny_zebras_rock.zip",
+      "sha256": "b8dc5f1187bc4e838f82998181f379769fd65769d3c5ed87f33ab56ed99de62b",
+      "size": 1389611
+    }
+  ]
+}

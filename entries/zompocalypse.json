@@ -1,0 +1,32 @@
+{
+  "id": "zompocalypse",
+  "kind": "game",
+  "title": "Zompocalypse",
+  "developer": [
+    "LWorks"
+  ],
+  "description": "This is a concept demo.\n\nLiam has decided not to complete the game, but the concept demo remains available for archival purposes.",
+  "flags": [
+    "abandoned",
+    "beta"
+  ],
+  "links": {
+    "agarchive": "https://www.agarchive.net/pages/devs/lworks.html"
+  },
+  "sources": [
+    {
+      "platform": "windows",
+      "install": {
+        "method": "installer",
+        "installer": {
+          "type": "inno",
+          "mode": "extract"
+        }
+      },
+      "label": "Mirror",
+      "url": "https://files.accessiblegames.net/files/afe6a9548fd11581778187805d1617e3d36992fbf45de04cdc4a6657be3dcd13/zompocalypse_concept_demo_setup.exe",
+      "sha256": "afe6a9548fd11581778187805d1617e3d36992fbf45de04cdc4a6657be3dcd13",
+      "size": 17666228
+    }
+  ]
+}

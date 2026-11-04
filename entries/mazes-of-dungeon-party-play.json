@@ -1,0 +1,47 @@
+{
+  "id": "mazes-of-dungeon-party-play",
+  "kind": "game",
+  "title": "Mazes of Dungeon Party Play",
+  "developer": [
+    "Morokuma"
+  ],
+  "description": "This version of Mazes of Dungeon allows you to control a party of characters instead of just one.",
+  "links": {
+    "agarchive": "https://www.agarchive.net/pages/devs/morokuma.html"
+  },
+  "sources": [
+    {
+      "label": "Developer site",
+      "url": "http://hirotaka2014.sakura.ne.jp/mh0406/game/mazep102.exe",
+      "platform": "windows",
+      "install": {
+        "method": "7z",
+        "extract_dir": "Mazes of Dungeon PT"
+      },
+      "sha256": "17ac7e563aadc5afbcc3bed031c1db7f6d7622a27e232ff52cd64f22be1bb4d9",
+      "size": 5501273
+    },
+    {
+      "platform": "windows",
+      "install": {
+        "method": "7z",
+        "extract_dir": "Mazes of Dungeon PT"
+      },
+      "label": "Mirror",
+      "url": "https://files.accessiblegames.net/files/17ac7e563aadc5afbcc3bed031c1db7f6d7622a27e232ff52cd64f22be1bb4d9/mazep102.exe",
+      "sha256": "17ac7e563aadc5afbcc3bed031c1db7f6d7622a27e232ff52cd64f22be1bb4d9",
+      "size": 5501273
+    },
+    {
+      "platform": "windows",
+      "install": {
+        "method": "7z",
+        "extract_dir": "Mazes of Dungeon PT"
+      },
+      "label": "Mirror",
+      "url": "https://files.accessiblegames.net/files/b146447a342be737792e987a3c077a89c3ac7b738e973e454862012e6ec98809/mazes_of_dungeon_party_play.7z",
+      "sha256": "b146447a342be737792e987a3c077a89c3ac7b738e973e454862012e6ec98809",
+      "size": 4844533
+    }
+  ]
+}

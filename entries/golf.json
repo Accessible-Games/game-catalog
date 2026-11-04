@@ -1,0 +1,25 @@
+{
+  "id": "golf",
+  "kind": "game",
+  "title": "Golf",
+  "developer": [
+    "Jim Kitchen"
+  ],
+  "description": "Note that we have repackaged each game into a zip archive from its initial format of a self-extracting executable. The game's files are contained with a folder, so all you need do is extract the archive and each game will have its own folder.",
+  "links": {
+    "agarchive": "https://www.agarchive.net/pages/devs/kitchensinc.html"
+  },
+  "sources": [
+    {
+      "platform": "windows",
+      "install": {
+        "method": "zip",
+        "extract_dir": "golf11"
+      },
+      "label": "Mirror",
+      "url": "https://files.accessiblegames.net/files/80e99048522ce1a2b6654e5f99874890b5776583919db171c7c976840966af94/golf11.zip",
+      "sha256": "80e99048522ce1a2b6654e5f99874890b5776583919db171c7c976840966af94",
+      "size": 1691579
+    }
+  ]
+}

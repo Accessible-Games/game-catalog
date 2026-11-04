@@ -1,0 +1,27 @@
+{
+  "id": "fireman",
+  "kind": "game",
+  "title": "Fireman",
+  "developer": [
+    "Brian Bors"
+  ],
+  "flags": [
+    "abandoned"
+  ],
+  "links": {
+    "agarchive": "https://www.agarchive.net/pages/devs/brianBors.html"
+  },
+  "sources": [
+    {
+      "platform": "windows",
+      "install": {
+        "method": "zip",
+        "extract_dir": "Fireman"
+      },
+      "label": "Mirror",
+      "url": "https://files.accessiblegames.net/files/158ec6ec554bd8766db75ecfc826f3e39f8c8e5f352247716e7cdeb2da2c20fe/Fireman.zip",
+      "sha256": "158ec6ec554bd8766db75ecfc826f3e39f8c8e5f352247716e7cdeb2da2c20fe",
+      "size": 2631745
+    }
+  ]
+}

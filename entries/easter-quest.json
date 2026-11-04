@@ -1,0 +1,31 @@
+{
+  "id": "easter-quest",
+  "kind": "game",
+  "title": "Easter Quest",
+  "developer": [
+    "MT Games"
+  ],
+  "description": "Hunt down three different types of eggs, while keeping the dog from burying them.",
+  "flags": [
+    "abandoned"
+  ],
+  "links": {
+    "agarchive": "https://www.agarchive.net/pages/devs/mt.html"
+  },
+  "sources": [
+    {
+      "platform": "windows",
+      "install": {
+        "method": "installer",
+        "installer": {
+          "type": "inno",
+          "mode": "extract"
+        }
+      },
+      "label": "Mirror",
+      "url": "https://files.accessiblegames.net/files/c1498454d2e26df7620d1959460f40ac2c425217b6b705cb4776aff2ec82c369/easter_quest_setup.exe",
+      "sha256": "c1498454d2e26df7620d1959460f40ac2c425217b6b705cb4776aff2ec82c369",
+      "size": 7112721
+    }
+  ]
+}

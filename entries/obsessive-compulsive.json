@@ -1,0 +1,23 @@
+{
+  "id": "obsessive-compulsive",
+  "kind": "game",
+  "title": "Obsessive Compulsive",
+  "developer": [
+    "Aprone"
+  ],
+  "links": {
+    "agarchive": "https://www.agarchive.net/pages/devs/aprone.html"
+  },
+  "sources": [
+    {
+      "platform": "windows",
+      "install": {
+        "method": "zip"
+      },
+      "label": "Mirror",
+      "url": "https://files.accessiblegames.net/files/286faa4e07a97f64f2b5e834584ff4a3da2505114cb7f960f70613547fd19c33/obsessive_compulsive.zip",
+      "sha256": "286faa4e07a97f64f2b5e834584ff4a3da2505114cb7f960f70613547fd19c33",
+      "size": 11269420
+    }
+  ]
+}

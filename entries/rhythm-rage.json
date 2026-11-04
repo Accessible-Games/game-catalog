@@ -1,0 +1,23 @@
+{
+  "id": "rhythm-rage",
+  "kind": "game",
+  "title": "Rhythm Rage",
+  "developer": [
+    "Oriol Gomez"
+  ],
+  "links": {
+    "agarchive": "https://www.agarchive.net/pages/devs/oriolgomez.html"
+  },
+  "sources": [
+    {
+      "platform": "windows",
+      "install": {
+        "method": "zip"
+      },
+      "label": "Mirror",
+      "url": "https://files.accessiblegames.net/files/cc4482b0733b08a30d3934aa154489251adaa22c29ca5b505f1d8e5675f9a693/rhythm_rage.zip",
+      "sha256": "cc4482b0733b08a30d3934aa154489251adaa22c29ca5b505f1d8e5675f9a693",
+      "size": 102978362
+    }
+  ]
+}

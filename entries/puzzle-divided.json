@@ -1,0 +1,33 @@
+{
+  "id": "puzzle-divided",
+  "kind": "game",
+  "title": "Puzzle divided",
+  "developer": [
+    "Aprone"
+  ],
+  "links": {
+    "agarchive": "https://www.agarchive.net/pages/devs/aprone.html"
+  },
+  "sources": [
+    {
+      "label": "Developer site",
+      "url": "https://www.kaldobsky.com/audiogames/puzzledivided.zip",
+      "platform": "windows",
+      "install": {
+        "method": "zip"
+      },
+      "sha256": "69d33480074cd2cf9153fe6d28526ddac61a3004a2d3f7111879cc7fdd905633",
+      "size": 5800717
+    },
+    {
+      "platform": "windows",
+      "install": {
+        "method": "zip"
+      },
+      "label": "Mirror",
+      "url": "https://files.accessiblegames.net/files/69d33480074cd2cf9153fe6d28526ddac61a3004a2d3f7111879cc7fdd905633/puzzledivided.zip",
+      "sha256": "69d33480074cd2cf9153fe6d28526ddac61a3004a2d3f7111879cc7fdd905633",
+      "size": 5800717
+    }
+  ]
+}

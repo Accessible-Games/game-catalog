@@ -1,0 +1,27 @@
+{
+  "id": "spacy-vaders",
+  "kind": "game",
+  "title": "Spacy Vaders",
+  "developer": [
+    "Rocky Waters"
+  ],
+  "links": {
+    "agarchive": "https://www.agarchive.net/pages/devs/rockyWaters.html"
+  },
+  "sources": [
+    {
+      "platform": "windows",
+      "install": {
+        "method": "installer",
+        "installer": {
+          "type": "inno",
+          "mode": "extract"
+        }
+      },
+      "label": "Mirror",
+      "url": "https://files.accessiblegames.net/files/6688ad294b10eae32333c17e3f653871aacf6166650e7ee07ba46851b9ddb2df/SpaceyVadersSetup.exe",
+      "sha256": "6688ad294b10eae32333c17e3f653871aacf6166650e7ee07ba46851b9ddb2df",
+      "size": 26974696
+    }
+  ]
+}

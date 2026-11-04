@@ -1,0 +1,46 @@
+{
+  "id": "change-reaction",
+  "kind": "game",
+  "title": "Change Reaction",
+  "developer": [
+    "Draconis Entertainment"
+  ],
+  "flags": [
+    "demo",
+    "requires-registration"
+  ],
+  "links": {
+    "homepage": "http://dracoent.com/Windows/ChangeReaction",
+    "agarchive": "https://www.agarchive.net/pages/devs/draconis.html"
+  },
+  "sources": [
+    {
+      "label": "Developer site",
+      "url": "http://download.dracoent.com/Windows/ChangeReactionSetup.exe",
+      "platform": "windows",
+      "install": {
+        "method": "installer",
+        "installer": {
+          "type": "inno",
+          "mode": "extract"
+        }
+      },
+      "sha256": "871377e137112be25a8a994027d505eb051ffd80d4d01a03d70fbe465384431b",
+      "size": 12453945
+    },
+    {
+      "platform": "windows",
+      "install": {
+        "method": "installer",
+        "installer": {
+          "type": "inno",
+          "mode": "extract"
+        }
+      },
+      "label": "Mirror",
+      "url": "https://files.accessiblegames.net/files/871377e137112be25a8a994027d505eb051ffd80d4d01a03d70fbe465384431b/ChangeReactionSetup.exe",
+      "sha256": "871377e137112be25a8a994027d505eb051ffd80d4d01a03d70fbe465384431b",
+      "size": 12453945
+    }
+  ]
+}

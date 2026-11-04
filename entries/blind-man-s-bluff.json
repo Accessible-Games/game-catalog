@@ -1,0 +1,27 @@
+{
+  "id": "blind-man-s-bluff",
+  "kind": "game",
+  "title": "Blind Man's Bluff",
+  "developer": [
+    "various authors"
+  ],
+  "description": "After a long night of drinking, you head home and are attacked by gun and chainsaw wielding maniacs. Armed with your trusty first world war revolver, you must shoot them when they attack you. Just be careful not to hit the cat!",
+  "flags": [
+    "abandoned"
+  ],
+  "links": {
+    "agarchive": "https://www.agarchive.net/pages/devs/misc.html"
+  },
+  "sources": [
+    {
+      "platform": "windows",
+      "install": {
+        "method": "zip"
+      },
+      "label": "Mirror",
+      "url": "https://files.accessiblegames.net/files/06459d43fab6f8d5b1e846b19ce37eb3c179c50f61cf1ac2d839c5a5892a8528/blind_man_s_bluff.zip",
+      "sha256": "06459d43fab6f8d5b1e846b19ce37eb3c179c50f61cf1ac2d839c5a5892a8528",
+      "size": 7260225
+    }
+  ]
+}

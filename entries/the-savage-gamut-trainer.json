@@ -1,0 +1,30 @@
+{
+  "id": "the-savage-gamut-trainer",
+  "kind": "game",
+  "title": "The Savage Gamut Trainer",
+  "developer": [
+    "various authors"
+  ],
+  "flags": [
+    "abandoned"
+  ],
+  "links": {
+    "agarchive": "https://www.agarchive.net/pages/devs/misc.html"
+  },
+  "sources": [
+    {
+      "platform": "windows",
+      "install": {
+        "method": "installer",
+        "installer": {
+          "type": "inno",
+          "mode": "extract"
+        }
+      },
+      "label": "Mirror",
+      "url": "https://files.accessiblegames.net/files/b96ce72b3ec2b2798469d91ee747cddc517b67a8b465ad0a1b9e67ed17747186/The_Savage_Gamut_Trainer_Setup.exe",
+      "sha256": "b96ce72b3ec2b2798469d91ee747cddc517b67a8b465ad0a1b9e67ed17747186",
+      "size": 15050157
+    }
+  ]
+}

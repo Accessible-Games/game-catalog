@@ -1,0 +1,31 @@
+{
+  "id": "wheel-of-fortune",
+  "kind": "game",
+  "title": "Wheel of Fortune",
+  "developer": [
+    "Freedom Games"
+  ],
+  "description": "One of television's most popular game shows has now come to a computer near you. Get ready to have a great time playing Wheel of Fortune.",
+  "flags": [
+    "abandoned"
+  ],
+  "links": {
+    "agarchive": "https://www.agarchive.net/pages/devs/freedom.html"
+  },
+  "sources": [
+    {
+      "platform": "windows",
+      "install": {
+        "method": "installer",
+        "installer": {
+          "type": "inno",
+          "mode": "extract"
+        }
+      },
+      "label": "Mirror",
+      "url": "https://files.accessiblegames.net/files/e4b1163aa18e4aa947c4297dd79dd84479608bdabe90e605356509575332170b/wheel_of_fortune_setup.exe",
+      "sha256": "e4b1163aa18e4aa947c4297dd79dd84479608bdabe90e605356509575332170b",
+      "size": 1710178
+    }
+  ]
+}

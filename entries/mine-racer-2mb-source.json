@@ -1,0 +1,26 @@
+{
+  "id": "mine-racer-2mb-source",
+  "kind": "extra",
+  "title": "2MB Source",
+  "developer": [
+    "2MB Games"
+  ],
+  "description": "This package contains source files for many of 2MB's products, primarily written in Lua.\n\nNote that the extra games for Haunted House have their own separate folders within the package. You can find additional content on the 2MB source page listed at above.",
+  "links": {
+    "agarchive": "https://www.agarchive.net/pages/devs/2mb.html"
+  },
+  "sources": [
+    {
+      "platform": "windows",
+      "install": {
+        "method": "7z"
+      },
+      "label": "Mirror",
+      "url": "https://files.accessiblegames.net/files/f4f199ae516754b2970d34739d0548f9f52e01b65439535c8ea64b63d45a65c9/2mbSource.7z",
+      "sha256": "f4f199ae516754b2970d34739d0548f9f52e01b65439535c8ea64b63d45a65c9",
+      "size": 16879019
+    }
+  ],
+  "extends": "mine-racer",
+  "install_into": "mine-racer"
+}

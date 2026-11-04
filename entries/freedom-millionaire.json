@@ -1,0 +1,30 @@
+{
+  "id": "freedom-millionaire",
+  "kind": "game",
+  "title": "Freedom Millionaire",
+  "developer": [
+    "Freedom Games"
+  ],
+  "flags": [
+    "abandoned"
+  ],
+  "links": {
+    "agarchive": "https://www.agarchive.net/pages/devs/freedom.html"
+  },
+  "sources": [
+    {
+      "platform": "windows",
+      "install": {
+        "method": "installer",
+        "installer": {
+          "type": "inno",
+          "mode": "extract"
+        }
+      },
+      "label": "Mirror",
+      "url": "https://files.accessiblegames.net/files/fc4186af884c1314246cbbf511f25ecf4189b4bb58ebbfc06ffd03fd873b8ef6/millionaire_setup.exe",
+      "sha256": "fc4186af884c1314246cbbf511f25ecf4189b4bb58ebbfc06ffd03fd873b8ef6",
+      "size": 6978107
+    }
+  ]
+}

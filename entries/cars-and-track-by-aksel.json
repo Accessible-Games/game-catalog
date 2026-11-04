@@ -1,0 +1,26 @@
+{
+  "id": "cars-and-track-by-aksel",
+  "kind": "extra",
+  "title": "Cars and track by Aksel",
+  "developer": [
+    "Playing in the Dark"
+  ],
+  "description": "This is a track and five vehicles created by Aksel Christoffersen. For details on each item, see the content description file.",
+  "links": {
+    "agarchive": "https://www.agarchive.net/pages/devs/pitd.html"
+  },
+  "sources": [
+    {
+      "platform": "windows",
+      "install": {
+        "method": "7z"
+      },
+      "label": "Mirror",
+      "url": "https://files.accessiblegames.net/files/ae0bdd1f03602b817d5f75aa11fe52583e35e6db256d0a7eb4fe8b12ea328492/TopSpeedContentByAkselChristoffersen.7z",
+      "sha256": "ae0bdd1f03602b817d5f75aa11fe52583e35e6db256d0a7eb4fe8b12ea328492",
+      "size": 10549758
+    }
+  ],
+  "extends": "top-speed-3",
+  "install_into": "top-speed-3"
+}

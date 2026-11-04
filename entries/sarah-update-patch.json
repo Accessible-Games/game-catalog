@@ -1,0 +1,40 @@
+{
+  "id": "sarah-update-patch",
+  "kind": "extra",
+  "title": "Sarah update patch",
+  "developer": [
+    "PCS"
+  ],
+  "description": "update patch to version 1.1, extract zip versions into the game's installation folder",
+  "links": {
+    "agarchive": "https://www.agarchive.net/pages/devs/pcs.html"
+  },
+  "sources": [
+    {
+      "platform": "windows",
+      "install": {
+        "method": "installer",
+        "installer": {
+          "type": "inno",
+          "mode": "extract"
+        }
+      },
+      "label": "Mirror",
+      "url": "https://files.accessiblegames.net/files/ac45546a199012539a9e1d3557e64f17f37da29ee6af22b0dfab00f0084826c7/sarah-Patch4.exe",
+      "sha256": "ac45546a199012539a9e1d3557e64f17f37da29ee6af22b0dfab00f0084826c7",
+      "size": 20083070
+    },
+    {
+      "platform": "windows",
+      "install": {
+        "method": "zip"
+      },
+      "label": "Mirror",
+      "url": "https://files.accessiblegames.net/files/6f49e946fa7bdb8ea7587ac176761ab91cfcc19c00882ca06dcc7d757af1a3d3/sarahPatch4.zip",
+      "sha256": "6f49e946fa7bdb8ea7587ac176761ab91cfcc19c00882ca06dcc7d757af1a3d3",
+      "size": 23614040
+    }
+  ],
+  "extends": "sarah-and-the-castle-of-witchcraft-and-wizardry",
+  "install_into": "sarah-and-the-castle-of-witchcraft-and-wizardry"
+}

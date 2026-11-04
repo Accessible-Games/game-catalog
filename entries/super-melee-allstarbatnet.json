@@ -1,0 +1,47 @@
+{
+  "id": "super-melee-allstarbatnet",
+  "kind": "game",
+  "title": "Super Melee! AllStarBatnet",
+  "developer": [
+    "Galaxy Laboratory"
+  ],
+  "description": "A fighting game using the characters from various japanese audiogames and RPGs.",
+  "links": {
+    "agarchive": "https://www.agarchive.net/pages/devs/GalaxyLaboratory.html"
+  },
+  "sources": [
+    {
+      "label": "Developer site",
+      "url": "http://www.mm-galabo.com/soft/gtrbn/gtrbn1.00.exe",
+      "platform": "windows",
+      "install": {
+        "method": "7z",
+        "extract_dir": "gtrbn1.00"
+      },
+      "sha256": "0d36d3b74397b78b1a79de63526769a75ed16ca57b66f072d8e9fd35f15857d3",
+      "size": 63832499
+    },
+    {
+      "platform": "windows",
+      "install": {
+        "method": "7z",
+        "extract_dir": "gtrbn1.00"
+      },
+      "label": "Mirror",
+      "url": "https://files.accessiblegames.net/files/0d36d3b74397b78b1a79de63526769a75ed16ca57b66f072d8e9fd35f15857d3/gtrbn1.00.exe",
+      "sha256": "0d36d3b74397b78b1a79de63526769a75ed16ca57b66f072d8e9fd35f15857d3",
+      "size": 63832499
+    },
+    {
+      "platform": "windows",
+      "install": {
+        "method": "7z",
+        "extract_dir": "Œƒ—íIAllStarBatnet"
+      },
+      "label": "Mirror",
+      "url": "https://files.accessiblegames.net/files/5d0a4274e321d39e37940f5499ef610f66cf695c450f66afcfd287bbee2c95f6/super_melee.7z",
+      "sha256": "5d0a4274e321d39e37940f5499ef610f66cf695c450f66afcfd287bbee2c95f6",
+      "size": 63674683
+    }
+  ]
+}

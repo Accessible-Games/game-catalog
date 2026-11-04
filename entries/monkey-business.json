@@ -1,0 +1,46 @@
+{
+  "id": "monkey-business",
+  "kind": "game",
+  "title": "Monkey Business",
+  "developer": [
+    "Draconis Entertainment"
+  ],
+  "flags": [
+    "demo",
+    "requires-registration"
+  ],
+  "links": {
+    "homepage": "http://dracoent.com/Windows/MonkeyBusiness",
+    "agarchive": "https://www.agarchive.net/pages/devs/draconis.html"
+  },
+  "sources": [
+    {
+      "label": "Developer site",
+      "url": "http://download.dracoent.com/Windows/classic/MBSetup.exe",
+      "platform": "windows",
+      "install": {
+        "method": "installer",
+        "installer": {
+          "type": "inno",
+          "mode": "extract"
+        }
+      },
+      "sha256": "d6763c1cb0bd973531244c93f1d90b88b2f0f8e2b4a72897d1aab23ec54167d2",
+      "size": 110116919
+    },
+    {
+      "platform": "windows",
+      "install": {
+        "method": "installer",
+        "installer": {
+          "type": "inno",
+          "mode": "extract"
+        }
+      },
+      "label": "Mirror",
+      "url": "https://files.accessiblegames.net/files/d6763c1cb0bd973531244c93f1d90b88b2f0f8e2b4a72897d1aab23ec54167d2/MBSetup.exe",
+      "sha256": "d6763c1cb0bd973531244c93f1d90b88b2f0f8e2b4a72897d1aab23ec54167d2",
+      "size": 110116919
+    }
+  ]
+}

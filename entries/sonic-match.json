@@ -1,0 +1,30 @@
+{
+  "id": "sonic-match",
+  "kind": "game",
+  "title": "Sonic match.",
+  "developer": [
+    "Dan Z"
+  ],
+  "flags": [
+    "abandoned"
+  ],
+  "links": {
+    "agarchive": "https://www.agarchive.net/pages/devs/danZ.html"
+  },
+  "sources": [
+    {
+      "platform": "windows",
+      "install": {
+        "method": "installer",
+        "installer": {
+          "type": "inno",
+          "mode": "extract"
+        }
+      },
+      "label": "Mirror",
+      "url": "https://files.accessiblegames.net/files/6669642f714b915647b1af4116d9f5ba6c03128f7bb08ff79977bec962b33a07/SonicMatch_setup.exe",
+      "sha256": "6669642f714b915647b1af4116d9f5ba6c03128f7bb08ff79977bec962b33a07",
+      "size": 4740664
+    }
+  ]
+}

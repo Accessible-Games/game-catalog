@@ -1,0 +1,28 @@
+{
+  "id": "audio-wars",
+  "kind": "game",
+  "title": "Audio Wars",
+  "developer": [
+    "various authors"
+  ],
+  "description": "The support and development status of this game is unknown.",
+  "flags": [
+    "abandoned"
+  ],
+  "links": {
+    "agarchive": "https://www.agarchive.net/pages/devs/misc.html"
+  },
+  "sources": [
+    {
+      "platform": "windows",
+      "install": {
+        "method": "zip",
+        "extract_dir": "audio wars"
+      },
+      "label": "Mirror",
+      "url": "https://files.accessiblegames.net/files/b9e8f95e401966ea33d5f6b1959b3bc0d60fc52d65e7357867be5003c42c3429/audio_wars.zip",
+      "sha256": "b9e8f95e401966ea33d5f6b1959b3bc0d60fc52d65e7357867be5003c42c3429",
+      "size": 1288722
+    }
+  ]
+}

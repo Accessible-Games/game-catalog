@@ -1,0 +1,56 @@
+{
+  "id": "gma-cards",
+  "kind": "game",
+  "title": "GMA Cards",
+  "developer": [
+    "GMA Games"
+  ],
+  "description": "This is a free game that contains several different card games for your enjoyment. IN this pack there are:\n\n7-Stack Solitaire, Accordion Solitaire, Poker Solitaire, Crib Solitaire, Casino Blackjack, King's Corner, Gin Rummy, Cribbage', and Spit.",
+  "links": {
+    "agarchive": "https://www.agarchive.net/pages/devs/gma.html"
+  },
+  "sources": [
+    {
+      "label": "Developer site",
+      "url": "http://www.gmagames.com/gmacards20016.exe",
+      "platform": "windows",
+      "install": {
+        "method": "installer",
+        "installer": {
+          "type": "inno",
+          "mode": "extract"
+        }
+      },
+      "sha256": "71a67ec567a286fc5586842f2dd8f6d04688e5a445ee34265d1ea1b6e17e967a",
+      "size": 6475224
+    },
+    {
+      "platform": "windows",
+      "install": {
+        "method": "installer",
+        "installer": {
+          "type": "inno",
+          "mode": "extract"
+        }
+      },
+      "label": "Mirror",
+      "url": "https://files.accessiblegames.net/files/71a67ec567a286fc5586842f2dd8f6d04688e5a445ee34265d1ea1b6e17e967a/gmacards20016.exe",
+      "sha256": "71a67ec567a286fc5586842f2dd8f6d04688e5a445ee34265d1ea1b6e17e967a",
+      "size": 6475224
+    },
+    {
+      "platform": "windows",
+      "install": {
+        "method": "installer",
+        "installer": {
+          "type": "inno",
+          "mode": "extract"
+        }
+      },
+      "label": "Mirror",
+      "url": "https://files.accessiblegames.net/files/d6abefcd7fd8733bea461e720cd7dd239522b674509341b82b52138669a6006a/GMA_cards20007.exe",
+      "sha256": "d6abefcd7fd8733bea461e720cd7dd239522b674509341b82b52138669a6006a",
+      "size": 6212993
+    }
+  ]
+}

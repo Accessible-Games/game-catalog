@@ -1,0 +1,27 @@
+{
+  "id": "the-table-flipper-source",
+  "kind": "extra",
+  "title": "The Table Flipper source",
+  "developer": [
+    "Phantom Creations"
+  ],
+  "description": "What are random objects for? To flip, throw, or otherwise break, of course. Run around and destroy as much as you can. Just keep an eye (or ear) out for random air raids, since some unknown group doesn't seem to mind taking you out along with the rest of the junk.\n\nTTF supports the creation of user-defined objects which can then be included in gameplay. An archive of 52 available objects (not including the default set) is provided below. If you have created objects of your own and would like us to include them in this archive, please get in touch.\n\nNote that all internet-related functionality has been removed from this version of the game. We have compiled the source and included it in our copy.",
+  "links": {
+    "agarchive": "https://www.agarchive.net/pages/devs/phantomCreations.html"
+  },
+  "sources": [
+    {
+      "platform": "windows",
+      "install": {
+        "method": "7z",
+        "extract_dir": "ttf_source"
+      },
+      "label": "Mirror",
+      "url": "https://files.accessiblegames.net/files/25fcac71e7aad8ecf24296ead06cac2a9cae35d99c03a6e743c898ecde9d4ced/theTableFlipperSource.7z",
+      "sha256": "25fcac71e7aad8ecf24296ead06cac2a9cae35d99c03a6e743c898ecde9d4ced",
+      "size": 3687919
+    }
+  ],
+  "extends": "the-table-flipper",
+  "install_into": "the-table-flipper"
+}

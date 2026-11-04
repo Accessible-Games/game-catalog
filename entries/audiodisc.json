@@ -1,0 +1,27 @@
+{
+  "id": "audiodisc",
+  "kind": "game",
+  "title": "AudioDisc",
+  "developer": [
+    "various authors"
+  ],
+  "flags": [
+    "abandoned"
+  ],
+  "links": {
+    "agarchive": "https://www.agarchive.net/pages/devs/misc.html"
+  },
+  "sources": [
+    {
+      "platform": "windows",
+      "install": {
+        "method": "zip",
+        "extract_dir": "audiodisc"
+      },
+      "label": "Mirror",
+      "url": "https://files.accessiblegames.net/files/769c0fcb99f6f3080df85b0c9c04726adeb023162b293e5b8220ae1ab9376378/audiodisc.zip",
+      "sha256": "769c0fcb99f6f3080df85b0c9c04726adeb023162b293e5b8220ae1ab9376378",
+      "size": 6003236
+    }
+  ]
+}

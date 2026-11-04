@@ -1,0 +1,27 @@
+{
+  "id": "mancala",
+  "kind": "game",
+  "title": "Mancala",
+  "developer": [
+    "various authors"
+  ],
+  "description": "A simple rendition of the board game.",
+  "flags": [
+    "abandoned"
+  ],
+  "links": {
+    "agarchive": "https://www.agarchive.net/pages/devs/misc.html"
+  },
+  "sources": [
+    {
+      "platform": "windows",
+      "install": {
+        "method": "none"
+      },
+      "label": "Mirror",
+      "url": "https://files.accessiblegames.net/files/a5408fb52ca235a8fdcb0b459c720d4e102b3581a056b870e5326f10e9404490/mancala.exe",
+      "sha256": "a5408fb52ca235a8fdcb0b459c720d4e102b3581a056b870e5326f10e9404490",
+      "size": 916974
+    }
+  ]
+}

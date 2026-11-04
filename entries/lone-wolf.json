@@ -1,0 +1,47 @@
+{
+  "id": "lone-wolf",
+  "kind": "game",
+  "title": "Lone Wolf",
+  "developer": [
+    "GMA Games"
+  ],
+  "description": "Take command of a WWII submarine in this game that pits the player against varying types of enemy craft. Learn how to navigate around islands, use the sub's sonar to get through minefields and avoid those enemy craft if the submarine is spotted. The game comes prepackaged with eighteen missions and there are more that have been created by Lone Wolf's players over the years.",
+  "flags": [
+    "demo",
+    "requires-registration"
+  ],
+  "links": {
+    "homepage": "http://www.gmagames.com/lonewolf.shtml",
+    "agarchive": "https://www.agarchive.net/pages/devs/gma.html"
+  },
+  "sources": [
+    {
+      "label": "Developer site",
+      "url": "http://www.gmagames.com/lw350.exe",
+      "platform": "windows",
+      "install": {
+        "method": "installer",
+        "installer": {
+          "type": "inno",
+          "mode": "extract"
+        }
+      },
+      "sha256": "4409e22273994708c3bd4512a69047e24d75f88adc14fcc0217231e544888b37",
+      "size": 3615288
+    },
+    {
+      "platform": "windows",
+      "install": {
+        "method": "installer",
+        "installer": {
+          "type": "inno",
+          "mode": "extract"
+        }
+      },
+      "label": "Mirror",
+      "url": "https://files.accessiblegames.net/files/4409e22273994708c3bd4512a69047e24d75f88adc14fcc0217231e544888b37/lw350.exe",
+      "sha256": "4409e22273994708c3bd4512a69047e24d75f88adc14fcc0217231e544888b37",
+      "size": 3615288
+    }
+  ]
+}

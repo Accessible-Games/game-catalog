@@ -1,0 +1,23 @@
+{
+  "id": "swamp-in-sidescroller-form",
+  "kind": "game",
+  "title": "Swamp, in sidescroller form",
+  "developer": [
+    "Jeqocon Games"
+  ],
+  "links": {
+    "agarchive": "https://www.agarchive.net/pages/devs/jeqocon.html"
+  },
+  "sources": [
+    {
+      "platform": "windows",
+      "install": {
+        "method": "zip"
+      },
+      "label": "Mirror",
+      "url": "https://files.accessiblegames.net/files/8db31cc83420814f059ce45dc5905357a5c1d86af81da31370c93df5a006f88e/swamp_side_scroller.zip",
+      "sha256": "8db31cc83420814f059ce45dc5905357a5c1d86af81da31370c93df5a006f88e",
+      "size": 123263555
+    }
+  ]
+}

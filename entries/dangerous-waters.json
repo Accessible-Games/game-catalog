@@ -1,0 +1,27 @@
+{
+  "id": "dangerous-waters",
+  "kind": "game",
+  "title": "Dangerous Waters",
+  "developer": [
+    "Dragon Slayer Games"
+  ],
+  "flags": [
+    "abandoned"
+  ],
+  "links": {
+    "agarchive": "https://www.agarchive.net/pages/devs/dragonslayer.html"
+  },
+  "sources": [
+    {
+      "platform": "windows",
+      "install": {
+        "method": "7z",
+        "extract_dir": "dangerous waters"
+      },
+      "label": "Mirror",
+      "url": "https://files.accessiblegames.net/files/25c36b7645b35b865a06538a3d6ec80c31f77598a35b97a4a85c33b830ad2023/dangerous_waters.7z",
+      "sha256": "25c36b7645b35b865a06538a3d6ec80c31f77598a35b97a4a85c33b830ad2023",
+      "size": 51512531
+    }
+  ]
+}

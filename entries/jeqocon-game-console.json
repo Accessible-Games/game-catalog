@@ -1,0 +1,23 @@
+{
+  "id": "jeqocon-game-console",
+  "kind": "game",
+  "title": "Jeqocon game console",
+  "developer": [
+    "Jeqocon Games"
+  ],
+  "links": {
+    "agarchive": "https://www.agarchive.net/pages/devs/jeqocon.html"
+  },
+  "sources": [
+    {
+      "platform": "windows",
+      "install": {
+        "method": "7z"
+      },
+      "label": "Mirror",
+      "url": "https://files.accessiblegames.net/files/ad36acfdc0e27060c33597dcc3bc80a83b47e794bd8d0e1fe6a94f377ecc58e9/Jeqocon_game_console.7z",
+      "sha256": "ad36acfdc0e27060c33597dcc3bc80a83b47e794bd8d0e1fe6a94f377ecc58e9",
+      "size": 308218038
+    }
+  ]
+}

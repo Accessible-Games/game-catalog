@@ -1,0 +1,31 @@
+{
+  "id": "super-tennis",
+  "kind": "game",
+  "title": "Super Tennis",
+  "developer": [
+    "VIP GamesZone"
+  ],
+  "flags": [
+    "abandoned",
+    "multiplayer"
+  ],
+  "links": {
+    "agarchive": "https://www.agarchive.net/pages/devs/vip.html"
+  },
+  "sources": [
+    {
+      "platform": "windows",
+      "install": {
+        "method": "installer",
+        "installer": {
+          "type": "inno",
+          "mode": "extract"
+        }
+      },
+      "label": "Mirror",
+      "url": "https://files.accessiblegames.net/files/bfcd7f9fc9975575f81340b1680aa3e5b6448df673f5c3bfb8fc6f7f7a810b86/super_tennis_setup.exe",
+      "sha256": "bfcd7f9fc9975575f81340b1680aa3e5b6448df673f5c3bfb8fc6f7f7a810b86",
+      "size": 16571038
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "id": "world-of-legends",
+  "kind": "game",
+  "title": "World of Legends",
+  "developer": [
+    "various authors"
+  ],
+  "flags": [
+    "abandoned"
+  ],
+  "links": {
+    "agarchive": "https://www.agarchive.net/pages/devs/misc.html"
+  },
+  "sources": [
+    {
+      "platform": "windows",
+      "install": {
+        "method": "zip",
+        "extract_dir": "world of legends"
+      },
+      "label": "Mirror",
+      "url": "https://files.accessiblegames.net/files/843d18be442ec02de6aebba55eb94ff04e2508afefa48ddc796ba18920d6d16e/world_of_legends.zip",
+      "sha256": "843d18be442ec02de6aebba55eb94ff04e2508afefa48ddc796ba18920d6d16e",
+      "size": 601316
+    }
+  ]
+}

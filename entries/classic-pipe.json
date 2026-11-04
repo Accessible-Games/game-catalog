@@ -1,0 +1,31 @@
+{
+  "id": "classic-pipe",
+  "kind": "game",
+  "title": "Classic Pipe",
+  "developer": [
+    "BSC Games"
+  ],
+  "description": "This is a remastered version of the first iteration of Pipe. Redone sounds and a quirky character differentiate this game from the true original.\n\nThis file was flagged as harmful by Google.",
+  "flags": [
+    "abandoned"
+  ],
+  "links": {
+    "agarchive": "https://www.agarchive.net/pages/devs/bsc.html"
+  },
+  "sources": [
+    {
+      "platform": "windows",
+      "install": {
+        "method": "7z",
+        "password": "Pipe"
+      },
+      "label": "Mirror",
+      "url": "https://files.accessiblegames.net/files/4cdb93d02ea34141e2ab3c756a5c4dfd14fdbf864cec7be9560fb08b887baea9/ClassicPipeSetup.7z",
+      "sha256": "4cdb93d02ea34141e2ab3c756a5c4dfd14fdbf864cec7be9560fb08b887baea9",
+      "size": 32770499
+    }
+  ],
+  "dependencies": [
+    "bsc-windows10-fixpack"
+  ]
+}

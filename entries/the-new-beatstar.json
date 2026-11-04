@@ -1,0 +1,24 @@
+{
+  "id": "the-new-beatstar",
+  "kind": "game",
+  "title": "The New Beatstar",
+  "developer": [
+    "Oriol Gomez"
+  ],
+  "description": "Test your rhythm skills against many unlockable music beats!\n\nThis is a complete rewrite of Beatstar Pro. There have been many changes made, including Windows and Mac versions, new minigames, the pack editor for creating new soundpacks now being integrated in the game, and many other improvements.\n\nPlease note that a large aspect of beatstar is user-created soundpacks. Some of these packs do contain explicit content, so use discretion when downloading.",
+  "links": {
+    "agarchive": "https://www.agarchive.net/pages/devs/oriolgomez.html"
+  },
+  "sources": [
+    {
+      "platform": "windows",
+      "install": {
+        "method": "zip"
+      },
+      "label": "Mirror",
+      "url": "https://files.accessiblegames.net/files/818be0cdc66e5cac6f86fa9df06312d41acce0f971098adab23963119e401e00/beatstar_windows.zip",
+      "sha256": "818be0cdc66e5cac6f86fa9df06312d41acce0f971098adab23963119e401e00",
+      "size": 150165830
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "id": "time-of-magic",
+  "kind": "game",
+  "title": "Time of Magic",
+  "developer": [
+    "GMA Games"
+  ],
+  "description": "If you've created or have any extra packs that aren't listed here, please get in touch. We would love to add more packs to this listing.\n\nWhere possible, we've included links to information and downloads directly from the author's website, as well as from the archive.",
+  "links": {
+    "homepage": "https://sites.google.com/site/blindjamesspencer/home/conflict/magic",
+    "agarchive": "https://www.agarchive.net/pages/devs/gma.html"
+  },
+  "sources": [
+    {
+      "platform": "windows",
+      "install": {
+        "method": "zip",
+        "extract_dir": "TimeOfMagic"
+      },
+      "label": "Mirror",
+      "url": "https://files.accessiblegames.net/files/ad848cfe0b896314c73fdc62bc1b9450910e1c8617268720f93d55881ed16a4a/TimeOfMagic.zip",
+      "sha256": "ad848cfe0b896314c73fdc62bc1b9450910e1c8617268720f93d55881ed16a4a",
+      "size": 2156347
+    }
+  ]
+}

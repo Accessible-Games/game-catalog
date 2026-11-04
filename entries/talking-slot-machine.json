@@ -1,0 +1,27 @@
+{
+  "id": "talking-slot-machine",
+  "kind": "game",
+  "title": "Talking Slot Machine",
+  "developer": [
+    "various authors"
+  ],
+  "description": "Its a slot machine, and you don't even have to use real money!\n\nWe have very little information about this title. If you know who originally wrote it, please get in touch.",
+  "flags": [
+    "abandoned"
+  ],
+  "links": {
+    "agarchive": "https://www.agarchive.net/pages/devs/misc.html"
+  },
+  "sources": [
+    {
+      "platform": "windows",
+      "install": {
+        "method": "zip"
+      },
+      "label": "Mirror",
+      "url": "https://files.accessiblegames.net/files/e1a6fbfdf06c330e9848f249c3934cfd892c78079532daf339ddeb6b70c5e3e7/Talking_Slot_Machine.zip",
+      "sha256": "e1a6fbfdf06c330e9848f249c3934cfd892c78079532daf339ddeb6b70c5e3e7",
+      "size": 22423642
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "id": "the-fighting-game",
+  "kind": "game",
+  "title": "The Fighting Game",
+  "developer": [
+    "TDL Games"
+  ],
+  "flags": [
+    "abandoned"
+  ],
+  "links": {
+    "agarchive": "https://www.agarchive.net/pages/devs/tdl.html"
+  },
+  "sources": [
+    {
+      "platform": "windows",
+      "install": {
+        "method": "installer",
+        "installer": {
+          "type": "inno",
+          "mode": "extract"
+        }
+      },
+      "label": "Mirror",
+      "url": "https://files.accessiblegames.net/files/6f2da48ad4fb3f6d9ad61c3e38686b0c2098f62af8e0643b553518269cbe8c8c/The_Fighting_Game_setup.exe",
+      "sha256": "6f2da48ad4fb3f6d9ad61c3e38686b0c2098f62af8e0643b553518269cbe8c8c",
+      "size": 776713
+    }
+  ]
+}

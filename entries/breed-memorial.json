@@ -1,0 +1,48 @@
+{
+  "id": "breed-memorial",
+  "kind": "game",
+  "title": "Breed Memorial",
+  "developer": [
+    "Morokuma"
+  ],
+  "description": "Breed Memorial is a monster raising simulation game. You find monsters hidden in computer files and raise them to enter competitions.\n\nEach monster has unique abilities and personalities. Through training and caring for their needs you boost their stats to win races, battles, and capture the flag matches against other players.\n\nSuccessfully raising monsters allows combining them to create an even stronger new monster. The goal is to unlock rare monster types, expand your farm, and become the top trainer through bonding with and evolving your monstrous pets.",
+  "links": {
+    "agarchive": "https://www.agarchive.net/pages/devs/morokuma.html"
+  },
+  "sources": [
+    {
+      "label": "Developer site",
+      "url": "https://hirotaka2014.sakura.ne.jp/mh0406/game/mb104.exe",
+      "platform": "windows",
+      "install": {
+        "method": "7z"
+      },
+      "sha256": "9f332db2f5a3c379b971c227162b17015e5cf22bbcba106e4418bb63cb21175e",
+      "size": 1535184
+    },
+    {
+      "platform": "windows",
+      "install": {
+        "method": "7z"
+      },
+      "label": "Mirror",
+      "url": "https://files.accessiblegames.net/files/9f332db2f5a3c379b971c227162b17015e5cf22bbcba106e4418bb63cb21175e/mb104.exe",
+      "sha256": "9f332db2f5a3c379b971c227162b17015e5cf22bbcba106e4418bb63cb21175e",
+      "size": 1535184
+    },
+    {
+      "platform": "windows",
+      "install": {
+        "method": "installer",
+        "installer": {
+          "type": "inno",
+          "mode": "extract"
+        }
+      },
+      "label": "Mirror",
+      "url": "https://files.accessiblegames.net/files/1315e98ec1bb730069e6eb6a796b4bf0d921c190afd0036bd4acb9b54d3b81e4/breed_memorial.exe",
+      "sha256": "1315e98ec1bb730069e6eb6a796b4bf0d921c190afd0036bd4acb9b54d3b81e4",
+      "size": 116570228
+    }
+  ]
+}

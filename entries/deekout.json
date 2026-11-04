@@ -1,0 +1,34 @@
+{
+  "id": "deekout",
+  "kind": "game",
+  "title": "Deekout",
+  "developer": [
+    "BSC Games"
+  ],
+  "description": "See how long you can survive while trapped in a room with a maniacal robot!",
+  "flags": [
+    "abandoned"
+  ],
+  "links": {
+    "agarchive": "https://www.agarchive.net/pages/devs/bsc.html"
+  },
+  "sources": [
+    {
+      "platform": "windows",
+      "install": {
+        "method": "installer",
+        "installer": {
+          "type": "inno",
+          "mode": "extract"
+        }
+      },
+      "label": "Mirror",
+      "url": "https://files.accessiblegames.net/files/b05783f7f3a2dd245881449097d8301be7d768bcb5fc81d1a204614834580131/DeekoutSetup.exe",
+      "sha256": "b05783f7f3a2dd245881449097d8301be7d768bcb5fc81d1a204614834580131",
+      "size": 3145773
+    }
+  ],
+  "dependencies": [
+    "bsc-windows10-fixpack"
+  ]
+}

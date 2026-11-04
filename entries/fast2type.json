@@ -1,0 +1,27 @@
+{
+  "id": "fast2type",
+  "kind": "game",
+  "title": "Fast2Type",
+  "developer": [
+    "Quentin C"
+  ],
+  "description": "This was Quentin's first release, launched in 2007.",
+  "flags": [
+    "abandoned"
+  ],
+  "links": {
+    "agarchive": "https://www.agarchive.net/pages/devs/qc.html"
+  },
+  "sources": [
+    {
+      "platform": "windows",
+      "install": {
+        "method": "7z"
+      },
+      "label": "Mirror",
+      "url": "https://files.accessiblegames.net/files/620f4ab89f28823d190e79e99d20d2839631af730f8af53412f0bd94f8efcca9/fast2type.7z",
+      "sha256": "620f4ab89f28823d190e79e99d20d2839631af730f8af53412f0bd94f8efcca9",
+      "size": 5561280
+    }
+  ]
+}

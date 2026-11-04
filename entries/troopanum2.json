@@ -1,0 +1,34 @@
+{
+  "id": "troopanum2",
+  "kind": "game",
+  "title": "Troopanum2",
+  "developer": [
+    "BSC Games"
+  ],
+  "description": "This time, not only are there more kinds of potentially annoying ships to take down, but there is the evil commander Lord Vector to overcome!",
+  "flags": [
+    "abandoned"
+  ],
+  "links": {
+    "agarchive": "https://www.agarchive.net/pages/devs/bsc.html"
+  },
+  "sources": [
+    {
+      "platform": "windows",
+      "install": {
+        "method": "installer",
+        "installer": {
+          "type": "inno",
+          "mode": "extract"
+        }
+      },
+      "label": "Mirror",
+      "url": "https://files.accessiblegames.net/files/a2bebba7904e0e6962e11f85ec80f823a1da7d95e02ebc21c78070d38d5f7018/Troopanum2Setup.exe",
+      "sha256": "a2bebba7904e0e6962e11f85ec80f823a1da7d95e02ebc21c78070d38d5f7018",
+      "size": 58869312
+    }
+  ],
+  "dependencies": [
+    "bsc-windows10-fixpack"
+  ]
+}

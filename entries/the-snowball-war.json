@@ -1,0 +1,30 @@
+{
+  "id": "the-snowball-war",
+  "kind": "game",
+  "title": "The Snowball War",
+  "developer": [
+    "PB Games"
+  ],
+  "flags": [
+    "abandoned"
+  ],
+  "links": {
+    "agarchive": "https://www.agarchive.net/pages/devs/pb.html"
+  },
+  "sources": [
+    {
+      "platform": "windows",
+      "install": {
+        "method": "installer",
+        "installer": {
+          "type": "inno",
+          "mode": "extract"
+        }
+      },
+      "label": "Mirror",
+      "url": "https://files.accessiblegames.net/files/06d28ec5ec52da5d12bc9428741389484bd18462e4c06c86428aeeb0aa457303/the_snowball_war_setup.exe",
+      "sha256": "06d28ec5ec52da5d12bc9428741389484bd18462e4c06c86428aeeb0aa457303",
+      "size": 3729255
+    }
+  ]
+}

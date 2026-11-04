@@ -1,0 +1,27 @@
+{
+  "id": "2d-platformer",
+  "kind": "game",
+  "title": "2D Platformer",
+  "developer": [
+    "Mason Armstrong"
+  ],
+  "flags": [
+    "abandoned"
+  ],
+  "links": {
+    "agarchive": "https://www.agarchive.net/pages/devs/mason.html"
+  },
+  "sources": [
+    {
+      "platform": "windows",
+      "install": {
+        "method": "7z",
+        "extract_dir": "2DP"
+      },
+      "label": "Mirror",
+      "url": "https://files.accessiblegames.net/files/479800bb8b7be6eb026e00f0ffc0e6c93db40c776116fe2067d8b5e9a650ea9d/2dPlatformer.7z",
+      "sha256": "479800bb8b7be6eb026e00f0ffc0e6c93db40c776116fe2067d8b5e9a650ea9d",
+      "size": 241379560
+    }
+  ]
+}

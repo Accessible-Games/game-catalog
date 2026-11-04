@@ -1,0 +1,45 @@
+{
+  "id": "momotaro-adventure",
+  "kind": "game",
+  "title": "Momotaro Adventure",
+  "developer": [
+    "Morokuma"
+  ],
+  "description": "An RPG built with Text Game Maker that is based on a japanese fable.",
+  "links": {
+    "agarchive": "https://www.agarchive.net/pages/devs/morokuma.html"
+  },
+  "sources": [
+    {
+      "label": "Developer site",
+      "url": "http://hirotaka2014.sakura.ne.jp/mh0406/game/mb104.exe",
+      "platform": "windows",
+      "install": {
+        "method": "7z"
+      },
+      "sha256": "9f332db2f5a3c379b971c227162b17015e5cf22bbcba106e4418bb63cb21175e",
+      "size": 1535184
+    },
+    {
+      "platform": "windows",
+      "install": {
+        "method": "7z"
+      },
+      "label": "Mirror",
+      "url": "https://files.accessiblegames.net/files/9f332db2f5a3c379b971c227162b17015e5cf22bbcba106e4418bb63cb21175e/mb104.exe",
+      "sha256": "9f332db2f5a3c379b971c227162b17015e5cf22bbcba106e4418bb63cb21175e",
+      "size": 1535184
+    },
+    {
+      "platform": "windows",
+      "install": {
+        "method": "7z",
+        "extract_dir": "“‘¾˜Y–`Œ¯‹L"
+      },
+      "label": "Mirror",
+      "url": "https://files.accessiblegames.net/files/92991472b4d7a3538988cb648346596effe231befad3153972ff9c9b1dc74518/momotaro_adventure.7z",
+      "sha256": "92991472b4d7a3538988cb648346596effe231befad3153972ff9c9b1dc74518",
+      "size": 1386718
+    }
+  ]
+}

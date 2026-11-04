@@ -1,0 +1,47 @@
+{
+  "id": "fighting-cores",
+  "kind": "game",
+  "title": "Fighting Cores",
+  "developer": [
+    "Galaxy Laboratory"
+  ],
+  "description": "A mech battling game. This game is self-voicing This game appears to be unsupported, as it has been in beta status for several years..",
+  "links": {
+    "agarchive": "https://www.agarchive.net/pages/devs/GalaxyLaboratory.html"
+  },
+  "sources": [
+    {
+      "label": "Developer site",
+      "url": "http://www.mm-galabo.com/soft/fightingcores/FC_beta051.exe",
+      "platform": "windows",
+      "install": {
+        "method": "7z",
+        "extract_dir": "FightingCores"
+      },
+      "sha256": "e1c7defb5886ab9044f41a585a042010c675211bb9ec18cca1fe8e7d4e2992ce",
+      "size": 44595165
+    },
+    {
+      "platform": "windows",
+      "install": {
+        "method": "7z",
+        "extract_dir": "FightingCores"
+      },
+      "label": "Mirror",
+      "url": "https://files.accessiblegames.net/files/e1c7defb5886ab9044f41a585a042010c675211bb9ec18cca1fe8e7d4e2992ce/FC_beta051.exe",
+      "sha256": "e1c7defb5886ab9044f41a585a042010c675211bb9ec18cca1fe8e7d4e2992ce",
+      "size": 44595165
+    },
+    {
+      "platform": "windows",
+      "install": {
+        "method": "7z",
+        "extract_dir": "FightingCores"
+      },
+      "label": "Mirror",
+      "url": "https://files.accessiblegames.net/files/5f0cfc9fcf7e289fb6b6a410319b68c879cebc99cf7cc11c34dcbec664484755/fighting_cores.7z",
+      "sha256": "5f0cfc9fcf7e289fb6b6a410319b68c879cebc99cf7cc11c34dcbec664484755",
+      "size": 44242848
+    }
+  ]
+}

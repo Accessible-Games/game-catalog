@@ -1,0 +1,31 @@
+{
+  "id": "lockpick",
+  "kind": "game",
+  "title": "Lockpick",
+  "developer": [
+    "LWorks"
+  ],
+  "description": "Lockpick is a fast-paced puzzle game. You must use logic to turn combination lock wheels, matching tones to crack locks within a time limit, adding seconds for each solved. Carefully spin the wheels left to right while listening for the right tone. Don't let time run out before escaping with the bank's cash!",
+  "flags": [
+    "abandoned"
+  ],
+  "links": {
+    "agarchive": "https://www.agarchive.net/pages/devs/lworks.html"
+  },
+  "sources": [
+    {
+      "platform": "windows",
+      "install": {
+        "method": "installer",
+        "installer": {
+          "type": "inno",
+          "mode": "extract"
+        }
+      },
+      "label": "Mirror",
+      "url": "https://files.accessiblegames.net/files/045480dd9f99f74c571c0e5aa302f569a9643052c992bed1bad3e6d18bbc0cd5/lockpick_setup.exe",
+      "sha256": "045480dd9f99f74c571c0e5aa302f569a9643052c992bed1bad3e6d18bbc0cd5",
+      "size": 7845137
+    }
+  ]
+}

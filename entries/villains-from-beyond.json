@@ -1,0 +1,23 @@
+{
+  "id": "villains-from-beyond",
+  "kind": "game",
+  "title": "Villains from Beyond",
+  "developer": [
+    "Oriol Gomez"
+  ],
+  "links": {
+    "agarchive": "https://www.agarchive.net/pages/devs/oriolgomez.html"
+  },
+  "sources": [
+    {
+      "platform": "windows",
+      "install": {
+        "method": "zip"
+      },
+      "label": "Mirror",
+      "url": "https://files.accessiblegames.net/files/4ec62a48e5fc68c29d7345088b6046e679148fc5bec95a8b7b51d2d10fd33532/villains.zip",
+      "sha256": "4ec62a48e5fc68c29d7345088b6046e679148fc5bec95a8b7b51d2d10fd33532",
+      "size": 82998161
+    }
+  ]
+}

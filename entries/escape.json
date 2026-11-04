@@ -1,0 +1,27 @@
+{
+  "id": "escape",
+  "kind": "game",
+  "title": "Escape",
+  "developer": [
+    "Pontes Games"
+  ],
+  "links": {
+    "agarchive": "https://www.agarchive.net/pages/devs/pontes.html"
+  },
+  "sources": [
+    {
+      "platform": "windows",
+      "install": {
+        "method": "installer",
+        "installer": {
+          "type": "inno",
+          "mode": "extract"
+        }
+      },
+      "label": "Mirror",
+      "url": "https://files.accessiblegames.net/files/c6444e83ccf996b82dd6edea2750ef703da189dced8e2f9da62eab86b704dcd4/pontes_escape_setup.exe",
+      "sha256": "c6444e83ccf996b82dd6edea2750ef703da189dced8e2f9da62eab86b704dcd4",
+      "size": 10718970
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "id": "quicktap",
+  "kind": "game",
+  "title": "Quicktap",
+  "developer": [
+    "Oriol Gomez"
+  ],
+  "links": {
+    "agarchive": "https://www.agarchive.net/pages/devs/oriolgomez.html"
+  },
+  "sources": [
+    {
+      "platform": "windows",
+      "install": {
+        "method": "zip"
+      },
+      "label": "Mirror",
+      "url": "https://files.accessiblegames.net/files/8a1aa82b7f621f6ef596a7efa5e5ab36c31985e95d4e2d697041956866d33837/quick_tap.zip",
+      "sha256": "8a1aa82b7f621f6ef596a7efa5e5ab36c31985e95d4e2d697041956866d33837",
+      "size": 34916498
+    }
+  ]
+}

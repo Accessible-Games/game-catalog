@@ -1,0 +1,46 @@
+{
+  "id": "audio-reversi",
+  "kind": "game",
+  "title": "Audio Reversi",
+  "developer": [
+    "Galaxy Laboratory"
+  ],
+  "links": {
+    "agarchive": "https://www.agarchive.net/pages/devs/GalaxyLaboratory.html"
+  },
+  "sources": [
+    {
+      "label": "Developer site",
+      "url": "http://www.mm-galabo.com/soft/audioreversi/AudioReversi1.0.exe",
+      "platform": "windows",
+      "install": {
+        "method": "7z",
+        "extract_dir": "AudioReversi"
+      },
+      "sha256": "f2156581653d30dfb8b749bef26478eddf77cbe4b8a649f1a3e76ba5a2310e98",
+      "size": 12542537
+    },
+    {
+      "platform": "windows",
+      "install": {
+        "method": "7z",
+        "extract_dir": "AudioReversi"
+      },
+      "label": "Mirror",
+      "url": "https://files.accessiblegames.net/files/f2156581653d30dfb8b749bef26478eddf77cbe4b8a649f1a3e76ba5a2310e98/AudioReversi1.0.exe",
+      "sha256": "f2156581653d30dfb8b749bef26478eddf77cbe4b8a649f1a3e76ba5a2310e98",
+      "size": 12542537
+    },
+    {
+      "platform": "windows",
+      "install": {
+        "method": "7z",
+        "extract_dir": "AudioReversi"
+      },
+      "label": "Mirror",
+      "url": "https://files.accessiblegames.net/files/e0b91da0086f897356c4bfb49487f2c41eb600f304d55b616ede375c26f88cd2/AudioReversi1.0.7z",
+      "sha256": "e0b91da0086f897356c4bfb49487f2c41eb600f304d55b616ede375c26f88cd2",
+      "size": 12450512
+    }
+  ]
+}

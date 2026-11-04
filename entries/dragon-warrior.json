@@ -1,0 +1,27 @@
+{
+  "id": "dragon-warrior",
+  "kind": "game",
+  "title": "Dragon Warrior",
+  "developer": [
+    "Dragon Slayer Games"
+  ],
+  "flags": [
+    "abandoned"
+  ],
+  "links": {
+    "agarchive": "https://www.agarchive.net/pages/devs/dragonslayer.html"
+  },
+  "sources": [
+    {
+      "platform": "windows",
+      "install": {
+        "method": "7z",
+        "extract_dir": "dragonWarrior"
+      },
+      "label": "Mirror",
+      "url": "https://files.accessiblegames.net/files/6f3c451b7a4338b1b1e71a3ea37e68840f15a7aef791107877e356fb79cf4214/dragonWarrior.7z",
+      "sha256": "6f3c451b7a4338b1b1e71a3ea37e68840f15a7aef791107877e356fb79cf4214",
+      "size": 5570452
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "id": "enemy-shooting",
+  "kind": "game",
+  "title": "Enemy Shooting",
+  "developer": [
+    "Galaxy Laboratory"
+  ],
+  "links": {
+    "agarchive": "https://www.agarchive.net/pages/devs/GalaxyLaboratory.html"
+  },
+  "sources": [
+    {
+      "label": "Developer site",
+      "url": "http://www.mm-galabo.com/soft/enemyshooting/enemyshooting2.1.zip",
+      "platform": "windows",
+      "install": {
+        "method": "zip",
+        "extract_dir": "enemyshooting2.1"
+      },
+      "sha256": "f8baf96cb06b37bb44c512449b402cd4c45538977e38b09784dcf77d2bf4a345",
+      "size": 11417286
+    },
+    {
+      "platform": "windows",
+      "install": {
+        "method": "zip",
+        "extract_dir": "enemyshooting2.1"
+      },
+      "label": "Mirror",
+      "url": "https://files.accessiblegames.net/files/f8baf96cb06b37bb44c512449b402cd4c45538977e38b09784dcf77d2bf4a345/enemyshooting2.1.zip",
+      "sha256": "f8baf96cb06b37bb44c512449b402cd4c45538977e38b09784dcf77d2bf4a345",
+      "size": 11417286
+    }
+  ]
+}

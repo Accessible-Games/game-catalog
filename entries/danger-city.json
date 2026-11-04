@@ -1,0 +1,32 @@
+{
+  "id": "danger-city",
+  "kind": "game",
+  "title": "Danger city",
+  "developer": [
+    "XL Studios"
+  ],
+  "description": "There were two versions of Danger City released. The primary download we host is the original, by XL Studios. The second version we host was maintained by X-Sight Interactive for a time.",
+  "flags": [
+    "abandoned",
+    "beta"
+  ],
+  "links": {
+    "agarchive": "https://www.agarchive.net/pages/devs/xl.html"
+  },
+  "sources": [
+    {
+      "platform": "windows",
+      "install": {
+        "method": "installer",
+        "installer": {
+          "type": "inno",
+          "mode": "extract"
+        }
+      },
+      "label": "Mirror",
+      "url": "https://files.accessiblegames.net/files/9e5186a0623e2678f1b0a5064c97567429f86640766792a23ccc88beffe2c635/Danger_City_01_setup.exe",
+      "sha256": "9e5186a0623e2678f1b0a5064c97567429f86640766792a23ccc88beffe2c635",
+      "size": 24304247
+    }
+  ]
+}

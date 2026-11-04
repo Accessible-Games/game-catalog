@@ -1,0 +1,31 @@
+{
+  "id": "guess-the-number",
+  "kind": "game",
+  "title": "Guess the Number",
+  "developer": [
+    "LWorks"
+  ],
+  "description": "The aim is simple. The computer will randomly select a number from 1 to 10, and you'll have three shots at it. If you guess correctly, you win a prize, if you don't, you don't win a thing! So go to it in a couple variations:",
+  "flags": [
+    "abandoned"
+  ],
+  "links": {
+    "agarchive": "https://www.agarchive.net/pages/devs/lworks.html"
+  },
+  "sources": [
+    {
+      "platform": "windows",
+      "install": {
+        "method": "installer",
+        "installer": {
+          "type": "inno",
+          "mode": "extract"
+        }
+      },
+      "label": "Mirror",
+      "url": "https://files.accessiblegames.net/files/36764eb6c9065a7f84833fd0fff574de35ae0c0fc85034114627c7f91a426cfc/guess_the_number_setup.exe",
+      "sha256": "36764eb6c9065a7f84833fd0fff574de35ae0c0fc85034114627c7f91a426cfc",
+      "size": 4020285
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "id": "sammy-center",
+  "kind": "game",
+  "title": "Sammy Center",
+  "developer": [
+    "Sam Tupy"
+  ],
+  "links": {
+    "agarchive": "https://www.agarchive.net/pages/devs/samtupy.html"
+  },
+  "sources": [
+    {
+      "platform": "windows",
+      "install": {
+        "method": "installer",
+        "installer": {
+          "type": "inno",
+          "mode": "extract"
+        }
+      },
+      "label": "Mirror",
+      "url": "https://files.accessiblegames.net/files/a54173bbb8ebc61842e38b0a511499e72ec1ffb498a6f182afac9779b8292e51/Sammy_Center_setup0.16.exe",
+      "sha256": "a54173bbb8ebc61842e38b0a511499e72ec1ffb498a6f182afac9779b8292e51",
+      "size": 13110087
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "id": "reindeer-racing",
+  "kind": "game",
+  "title": "Reindeer Racing",
+  "developer": [
+    "Dragon Slayer Games"
+  ],
+  "description": "Place your bets, and watch them run.",
+  "flags": [
+    "abandoned"
+  ],
+  "links": {
+    "agarchive": "https://www.agarchive.net/pages/devs/dragonslayer.html"
+  },
+  "sources": [
+    {
+      "platform": "windows",
+      "install": {
+        "method": "zip"
+      },
+      "label": "Mirror",
+      "url": "https://files.accessiblegames.net/files/458dcb002abce8214e41e238bc68a3f548fd91078b03afd975496e99de40a09a/reindeerRacing.zip",
+      "sha256": "458dcb002abce8214e41e238bc68a3f548fd91078b03afd975496e99de40a09a",
+      "size": 11682936
+    }
+  ]
+}

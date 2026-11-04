@@ -1,0 +1,45 @@
+{
+  "id": "bk2-chaos",
+  "kind": "game",
+  "title": "BK2 Chaos",
+  "developer": [
+    "Nyanchan Games"
+  ],
+  "description": "This mod makes several changes to game mechanics and weaponry. To install, extract the archive to your existing game directory.\n\nNote that the mod is in Japanese and existing game translations will not apply to it. Non-fluent users will need an external translation method. The included English readme was created with Google Translate.",
+  "links": {
+    "agarchive": "https://www.agarchive.net/pages/devs/nyanchan.html"
+  },
+  "sources": [
+    {
+      "label": "Developer site",
+      "url": "http://hirotaka2014.sakura.ne.jp/mh0406/game/bk2_chaos130c12.exe",
+      "platform": "windows",
+      "install": {
+        "method": "7z"
+      },
+      "sha256": "1c822314aed51994a93139db1d32440d3f85928f5e2681d7083ced1ff6bd65e4",
+      "size": 493501
+    },
+    {
+      "platform": "windows",
+      "install": {
+        "method": "7z"
+      },
+      "label": "Mirror",
+      "url": "https://files.accessiblegames.net/files/1c822314aed51994a93139db1d32440d3f85928f5e2681d7083ced1ff6bd65e4/bk2_chaos130c12.exe",
+      "sha256": "1c822314aed51994a93139db1d32440d3f85928f5e2681d7083ced1ff6bd65e4",
+      "size": 493501
+    },
+    {
+      "platform": "windows",
+      "install": {
+        "method": "7z",
+        "extract_dir": "bk2Chaos"
+      },
+      "label": "Mirror",
+      "url": "https://files.accessiblegames.net/files/4bafc18ccff2ca5560ebbd8be30adbc4742accb127872303f8cffa96a5094d96/bk2Chaos.7z",
+      "sha256": "4bafc18ccff2ca5560ebbd8be30adbc4742accb127872303f8cffa96a5094d96",
+      "size": 381287
+    }
+  ]
+}

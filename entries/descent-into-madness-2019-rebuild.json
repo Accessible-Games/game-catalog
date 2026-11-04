@@ -1,0 +1,48 @@
+{
+  "id": "descent-into-madness-2019-rebuild",
+  "kind": "game",
+  "title": "Descent into Madness: 2019 rebuild",
+  "developer": [
+    "Sounds Like Fun"
+  ],
+  "description": "This rework of the game fixes several bugs.",
+  "links": {
+    "homepage": "https://github.com/libreaudiogamer/DescentIntoMadness/",
+    "agarchive": "https://www.agarchive.net/pages/devs/soundsLikeFun.html"
+  },
+  "sources": [
+    {
+      "label": "Developer site",
+      "url": "https://github.com/libreaudiogamer/DescentIntoMadness/archive/master.zip",
+      "platform": "windows",
+      "install": {
+        "method": "zip",
+        "extract_dir": "DescentIntoMadness-master"
+      },
+      "sha256": "919a8cb4754ba38386580c50a8bd5edb5de97d9b9cdd5336df03694979b1fcc3",
+      "size": 21461011
+    },
+    {
+      "platform": "windows",
+      "install": {
+        "method": "zip",
+        "extract_dir": "DescentIntoMadness-master"
+      },
+      "label": "Mirror",
+      "url": "https://files.accessiblegames.net/files/919a8cb4754ba38386580c50a8bd5edb5de97d9b9cdd5336df03694979b1fcc3/master.zip",
+      "sha256": "919a8cb4754ba38386580c50a8bd5edb5de97d9b9cdd5336df03694979b1fcc3",
+      "size": 21461011
+    },
+    {
+      "platform": "windows",
+      "install": {
+        "method": "zip",
+        "extract_dir": "DescentIntoMadness-master"
+      },
+      "label": "Mirror",
+      "url": "https://files.accessiblegames.net/files/263c09c4507ef6b970f0ce8d549c750b13fa12019d92d9be5134963c6fb3ade9/DescentIntoMadness_rebuild.zip",
+      "sha256": "263c09c4507ef6b970f0ce8d549c750b13fa12019d92d9be5134963c6fb3ade9",
+      "size": 22054556
+    }
+  ]
+}

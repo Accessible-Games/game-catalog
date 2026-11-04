@@ -1,0 +1,30 @@
+{
+  "id": "death-match-project-alpha",
+  "kind": "game",
+  "title": "Death Match: Project Alpha",
+  "developer": [
+    "Reality Software"
+  ],
+  "flags": [
+    "abandoned"
+  ],
+  "links": {
+    "agarchive": "https://www.agarchive.net/pages/devs/realitySoftware.html"
+  },
+  "sources": [
+    {
+      "platform": "windows",
+      "install": {
+        "method": "installer",
+        "installer": {
+          "type": "inno",
+          "mode": "extract"
+        }
+      },
+      "label": "Mirror",
+      "url": "https://files.accessiblegames.net/files/37d4ada223af04f8f0dc5a3328fde2ba18499eb2187f46a3185a617a29eda150/death_match_project_alpha_setup.exe",
+      "sha256": "37d4ada223af04f8f0dc5a3328fde2ba18499eb2187f46a3185a617a29eda150",
+      "size": 13438926
+    }
+  ]
+}

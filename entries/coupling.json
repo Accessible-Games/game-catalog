@@ -1,0 +1,25 @@
+{
+  "id": "coupling",
+  "kind": "game",
+  "title": "Coupling",
+  "developer": [
+    "Jim Kitchen"
+  ],
+  "description": "Note that we have repackaged each game into a zip archive from its initial format of a self-extracting executable. The game's files are contained with a folder, so all you need do is extract the archive and each game will have its own folder.",
+  "links": {
+    "agarchive": "https://www.agarchive.net/pages/devs/kitchensinc.html"
+  },
+  "sources": [
+    {
+      "platform": "windows",
+      "install": {
+        "method": "zip",
+        "extract_dir": "coupling2"
+      },
+      "label": "Mirror",
+      "url": "https://files.accessiblegames.net/files/c9906728c297d2e77b73101435635e38f5d7e2f9ab6677790ada127a2b7440a1/coupling2.zip",
+      "sha256": "c9906728c297d2e77b73101435635e38f5d7e2f9ab6677790ada127a2b7440a1",
+      "size": 6071364
+    }
+  ]
+}

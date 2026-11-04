@@ -1,0 +1,30 @@
+{
+  "id": "sound-puzzle",
+  "kind": "game",
+  "title": "Sound Puzzle",
+  "developer": [
+    "VIP GamesZone"
+  ],
+  "flags": [
+    "abandoned"
+  ],
+  "links": {
+    "agarchive": "https://www.agarchive.net/pages/devs/vip.html"
+  },
+  "sources": [
+    {
+      "platform": "windows",
+      "install": {
+        "method": "installer",
+        "installer": {
+          "type": "inno",
+          "mode": "extract"
+        }
+      },
+      "label": "Mirror",
+      "url": "https://files.accessiblegames.net/files/a985660250c8c09d8c37207045c3f4c8260c0e924c1d989adb5cd31351b76bb8/sound_puzzle_setup.exe",
+      "sha256": "a985660250c8c09d8c37207045c3f4c8260c0e924c1d989adb5cd31351b76bb8",
+      "size": 9598867
+    }
+  ]
+}

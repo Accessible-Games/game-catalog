@@ -1,0 +1,23 @@
+{
+  "id": "sonic-the-hedgehog-remake",
+  "kind": "game",
+  "title": "Sonic the Hedgehog Remake",
+  "developer": [
+    "Jeqocon Games"
+  ],
+  "links": {
+    "agarchive": "https://www.agarchive.net/pages/devs/jeqocon.html"
+  },
+  "sources": [
+    {
+      "platform": "windows",
+      "install": {
+        "method": "7z"
+      },
+      "label": "Mirror",
+      "url": "https://files.accessiblegames.net/files/9950c7ca7ee129b3592e7993e8339394d8b3c8ef2cc5434f0c006914aac60277/sonic_the_hedgehog.7z",
+      "sha256": "9950c7ca7ee129b3592e7993e8339394d8b3c8ef2cc5434f0c006914aac60277",
+      "size": 32307062
+    }
+  ]
+}

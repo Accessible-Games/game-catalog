@@ -1,0 +1,37 @@
+{
+  "id": "tactical-battle",
+  "kind": "game",
+  "title": "Tactical Battle",
+  "developer": [
+    "Ian Reed"
+  ],
+  "description": "Tactical Battle requires you to provide an email address before you can play. You only need do this once per computer, and once registered, can play offline without issues.",
+  "flags": [
+    "abandoned"
+  ],
+  "links": {
+    "agarchive": "https://www.agarchive.net/pages/devs/IanReed.html"
+  },
+  "sources": [
+    {
+      "label": "Developer site",
+      "url": "https://blindgamers.com/downloads/Tactical%20Battle%20Dev.zip",
+      "platform": "windows",
+      "install": {
+        "method": "zip"
+      },
+      "sha256": "3ebea65d6aa430174a00f0e4d1f0f5a34f7d9e264c44f329ed0e0a55b4dea42d",
+      "size": 17552991
+    },
+    {
+      "platform": "windows",
+      "install": {
+        "method": "zip"
+      },
+      "label": "Mirror",
+      "url": "https://files.accessiblegames.net/files/3ebea65d6aa430174a00f0e4d1f0f5a34f7d9e264c44f329ed0e0a55b4dea42d/Tactical_Battle_Dev.zip",
+      "sha256": "3ebea65d6aa430174a00f0e4d1f0f5a34f7d9e264c44f329ed0e0a55b4dea42d",
+      "size": 17552991
+    }
+  ]
+}

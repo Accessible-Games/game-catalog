@@ -1,0 +1,44 @@
+{
+  "id": "mine-sweeper",
+  "kind": "game",
+  "title": "Mine Sweeper",
+  "developer": [
+    "Morokuma"
+  ],
+  "links": {
+    "agarchive": "https://www.agarchive.net/pages/devs/morokuma.html"
+  },
+  "sources": [
+    {
+      "label": "Developer site",
+      "url": "http://hirotaka2014.sakura.ne.jp/mh0406/game/mine06.exe",
+      "platform": "windows",
+      "install": {
+        "method": "7z"
+      },
+      "sha256": "9fced2276fb1e8ddbd8b4af51965937a0ce839200a082b24fdc57d4d0880c712",
+      "size": 2371295
+    },
+    {
+      "platform": "windows",
+      "install": {
+        "method": "7z"
+      },
+      "label": "Mirror",
+      "url": "https://files.accessiblegames.net/files/9fced2276fb1e8ddbd8b4af51965937a0ce839200a082b24fdc57d4d0880c712/mine06.exe",
+      "sha256": "9fced2276fb1e8ddbd8b4af51965937a0ce839200a082b24fdc57d4d0880c712",
+      "size": 2371295
+    },
+    {
+      "platform": "windows",
+      "install": {
+        "method": "7z",
+        "extract_dir": "mine06"
+      },
+      "label": "Mirror",
+      "url": "https://files.accessiblegames.net/files/2eb8c02e620fda936629c1b3309452fc1e1abc4250ef0af133bd111a7775d057/mine_sweeper.7z",
+      "sha256": "2eb8c02e620fda936629c1b3309452fc1e1abc4250ef0af133bd111a7775d057",
+      "size": 2081178
+    }
+  ]
+}

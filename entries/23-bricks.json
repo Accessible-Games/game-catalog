@@ -1,0 +1,27 @@
+{
+  "id": "23-bricks",
+  "kind": "game",
+  "title": "23 Bricks",
+  "developer": [
+    "BrailleSoft"
+  ],
+  "flags": [
+    "abandoned"
+  ],
+  "links": {
+    "agarchive": "https://www.agarchive.net/pages/devs/braillesoft.html"
+  },
+  "sources": [
+    {
+      "platform": "windows",
+      "install": {
+        "method": "zip",
+        "extract_dir": "23bricks"
+      },
+      "label": "Mirror",
+      "url": "https://files.accessiblegames.net/files/2dd8e70d27ac64ee2c84ceb5739601e60a909da28cd2cac50e6755f86bc60313/23bricks.zip",
+      "sha256": "2dd8e70d27ac64ee2c84ceb5739601e60a909da28cd2cac50e6755f86bc60313",
+      "size": 117330
+    }
+  ]
+}

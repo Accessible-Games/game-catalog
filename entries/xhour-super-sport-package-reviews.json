@@ -1,0 +1,36 @@
+{
+  "id": "xhour-super-sport-package-reviews",
+  "kind": "extra",
+  "title": "Super Sport package reviews",
+  "developer": [
+    "VIP GamesZone"
+  ],
+  "description": "This package contained Beach Volleyball and Funny Bowling.",
+  "links": {
+    "agarchive": "https://www.agarchive.net/pages/devs/vip.html"
+  },
+  "sources": [
+    {
+      "platform": "windows",
+      "install": {
+        "method": "zip"
+      },
+      "label": "Mirror",
+      "url": "https://files.accessiblegames.net/files/33572bded81799e35aa8191387545f4399b9d7c498940c4ebb1c845de07fdca3/beach_volleyball_overview.zip",
+      "sha256": "33572bded81799e35aa8191387545f4399b9d7c498940c4ebb1c845de07fdca3",
+      "size": 6345508
+    },
+    {
+      "platform": "windows",
+      "install": {
+        "method": "zip"
+      },
+      "label": "Mirror",
+      "url": "https://files.accessiblegames.net/files/464bbdbb40acce3c8a7aec85470846710b0d5a7da0c21a49cf7af4b61e1e108a/funny_bowling_review.zip",
+      "sha256": "464bbdbb40acce3c8a7aec85470846710b0d5a7da0c21a49cf7af4b61e1e108a",
+      "size": 18514930
+    }
+  ],
+  "extends": "xhour",
+  "install_into": "xhour"
+}

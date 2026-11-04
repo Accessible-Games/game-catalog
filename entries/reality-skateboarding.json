@@ -1,0 +1,30 @@
+{
+  "id": "reality-skateboarding",
+  "kind": "game",
+  "title": "Reality Skateboarding",
+  "developer": [
+    "Reality Software"
+  ],
+  "flags": [
+    "abandoned"
+  ],
+  "links": {
+    "agarchive": "https://www.agarchive.net/pages/devs/realitySoftware.html"
+  },
+  "sources": [
+    {
+      "platform": "windows",
+      "install": {
+        "method": "installer",
+        "installer": {
+          "type": "inno",
+          "mode": "extract"
+        }
+      },
+      "label": "Mirror",
+      "url": "https://files.accessiblegames.net/files/637b76f3146f35ccb57c2f68403bca2abe8c5db387e041b77a953e783ba0355f/reality_skateboarding.exe",
+      "sha256": "637b76f3146f35ccb57c2f68403bca2abe8c5db387e041b77a953e783ba0355f",
+      "size": 806794
+    }
+  ]
+}

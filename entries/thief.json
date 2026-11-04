@@ -1,0 +1,23 @@
+{
+  "id": "thief",
+  "kind": "game",
+  "title": "Thief",
+  "developer": [
+    "Oriol Gomez"
+  ],
+  "links": {
+    "agarchive": "https://www.agarchive.net/pages/devs/oriolgomez.html"
+  },
+  "sources": [
+    {
+      "platform": "windows",
+      "install": {
+        "method": "zip"
+      },
+      "label": "Mirror",
+      "url": "https://files.accessiblegames.net/files/38a432fe5ceb1dee2945f46289b087ca4f57abeab47611336725a3404873cdf1/thief.zip",
+      "sha256": "38a432fe5ceb1dee2945f46289b087ca4f57abeab47611336725a3404873cdf1",
+      "size": 35842193
+    }
+  ]
+}

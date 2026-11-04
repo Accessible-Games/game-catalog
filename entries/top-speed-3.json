@@ -1,0 +1,45 @@
+{
+  "id": "top-speed-3",
+  "kind": "game",
+  "title": "Top Speed 3",
+  "developer": [
+    "Playing in the Dark"
+  ],
+  "flags": [
+    "abandoned"
+  ],
+  "links": {
+    "homepage": "http://www.playinginthedark.net/topspeed3_e.php",
+    "agarchive": "https://www.agarchive.net/pages/devs/pitd.html"
+  },
+  "sources": [
+    {
+      "label": "Developer site",
+      "url": "https://github.com/PlayingintheDark/TopSpeed/releases/download/h/Tspeed_3.0.3.exe",
+      "platform": "windows",
+      "install": {
+        "method": "installer",
+        "installer": {
+          "type": "inno",
+          "mode": "extract"
+        }
+      },
+      "sha256": "c090ec73d499c3d0261048041a8592be5c85a5df0a6a4cc0834a720875af30dd",
+      "size": 24470002
+    },
+    {
+      "platform": "windows",
+      "install": {
+        "method": "installer",
+        "installer": {
+          "type": "inno",
+          "mode": "extract"
+        }
+      },
+      "label": "Mirror",
+      "url": "https://files.accessiblegames.net/files/c090ec73d499c3d0261048041a8592be5c85a5df0a6a4cc0834a720875af30dd/Tspeed_3.0.3.exe",
+      "sha256": "c090ec73d499c3d0261048041a8592be5c85a5df0a6a4cc0834a720875af30dd",
+      "size": 24470002
+    }
+  ]
+}

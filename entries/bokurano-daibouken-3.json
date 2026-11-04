@@ -1,0 +1,34 @@
+{
+  "id": "bokurano-daibouken-3",
+  "kind": "game",
+  "title": "Bokurano Daibouken 3",
+  "developer": [
+    "Nyanchan Games"
+  ],
+  "links": {
+    "homepage": "http://www.nyanchangames.com/order/bk3translate.html",
+    "agarchive": "https://www.agarchive.net/pages/devs/nyanchan.html"
+  },
+  "sources": [
+    {
+      "label": "Developer site",
+      "url": "http://www.nyanchangames.com/softs/count/download.php?download=1",
+      "platform": "windows",
+      "install": {
+        "method": "7z"
+      },
+      "sha256": "4267ebfe28272ec3682c02ebc7c8febbbf74b9601a6035443c260c738124c9cd",
+      "size": 421819429
+    },
+    {
+      "platform": "windows",
+      "install": {
+        "method": "7z"
+      },
+      "label": "Mirror",
+      "url": "https://files.accessiblegames.net/files/4267ebfe28272ec3682c02ebc7c8febbbf74b9601a6035443c260c738124c9cd/download.exe",
+      "sha256": "4267ebfe28272ec3682c02ebc7c8febbbf74b9601a6035443c260c738124c9cd",
+      "size": 421819429
+    }
+  ]
+}

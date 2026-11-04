@@ -1,0 +1,23 @@
+{
+  "id": "justice-league-assemble",
+  "kind": "game",
+  "title": "Justice League Assemble",
+  "developer": [
+    "Jeqocon Games"
+  ],
+  "links": {
+    "agarchive": "https://www.agarchive.net/pages/devs/jeqocon.html"
+  },
+  "sources": [
+    {
+      "platform": "windows",
+      "install": {
+        "method": "7z"
+      },
+      "label": "Mirror",
+      "url": "https://files.accessiblegames.net/files/9b41a07ae79e0b0a080986c63149f5a69bb4537ca7ad3a2766d11c7734834ad8/justice_league_assemble.7z",
+      "sha256": "9b41a07ae79e0b0a080986c63149f5a69bb4537ca7ad3a2766d11c7734834ad8",
+      "size": 51942920
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "id": "silver-dollar",
+  "kind": "game",
+  "title": "Silver Dollar",
+  "developer": [
+    "Draconis Entertainment"
+  ],
+  "flags": [
+    "demo",
+    "requires-registration"
+  ],
+  "links": {
+    "homepage": "http://dracoent.com/Windows/SilverDollar",
+    "agarchive": "https://www.agarchive.net/pages/devs/draconis.html"
+  },
+  "sources": [
+    {
+      "label": "Developer site",
+      "url": "http://download.dracoent.com/Windows/SilverDollarSetup.exe",
+      "platform": "windows",
+      "install": {
+        "method": "installer",
+        "installer": {
+          "type": "inno",
+          "mode": "extract"
+        }
+      },
+      "sha256": "f93a916d27eaf10e9e469656fc20eda897267d8f87fe41f90263062e8110f860",
+      "size": 20775254
+    },
+    {
+      "platform": "windows",
+      "install": {
+        "method": "installer",
+        "installer": {
+          "type": "inno",
+          "mode": "extract"
+        }
+      },
+      "label": "Mirror",
+      "url": "https://files.accessiblegames.net/files/f93a916d27eaf10e9e469656fc20eda897267d8f87fe41f90263062e8110f860/SilverDollarSetup.exe",
+      "sha256": "f93a916d27eaf10e9e469656fc20eda897267d8f87fe41f90263062e8110f860",
+      "size": 20775254
+    }
+  ]
+}

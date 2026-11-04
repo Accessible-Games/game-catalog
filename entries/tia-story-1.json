@@ -1,0 +1,47 @@
+{
+  "id": "tia-story-1",
+  "kind": "game",
+  "title": "Tia Story 1",
+  "developer": [
+    "Morokuma"
+  ],
+  "description": "A text RPG built with Text Game Maker.",
+  "links": {
+    "agarchive": "https://www.agarchive.net/pages/devs/morokuma.html"
+  },
+  "sources": [
+    {
+      "label": "Developer site",
+      "url": "http://hirotaka2014.sakura.ne.jp/mh0406/game/ts1.exe",
+      "platform": "windows",
+      "install": {
+        "method": "7z",
+        "extract_dir": "Tia Story"
+      },
+      "sha256": "2425d76c334b0c3a9f4ca7edb89124f600db609d90f4727ea9f456335c65ffc8",
+      "size": 5971624
+    },
+    {
+      "platform": "windows",
+      "install": {
+        "method": "7z",
+        "extract_dir": "Tia Story"
+      },
+      "label": "Mirror",
+      "url": "https://files.accessiblegames.net/files/2425d76c334b0c3a9f4ca7edb89124f600db609d90f4727ea9f456335c65ffc8/ts1.exe",
+      "sha256": "2425d76c334b0c3a9f4ca7edb89124f600db609d90f4727ea9f456335c65ffc8",
+      "size": 5971624
+    },
+    {
+      "platform": "windows",
+      "install": {
+        "method": "7z",
+        "extract_dir": "Tia Story"
+      },
+      "label": "Mirror",
+      "url": "https://files.accessiblegames.net/files/8a8ae2b15bb490d6d8623cad0db3cfcb248f34396e2a0923704df02d3a1df720/tia_story1.7z",
+      "sha256": "8a8ae2b15bb490d6d8623cad0db3cfcb248f34396e2a0923704df02d3a1df720",
+      "size": 4999240
+    }
+  ]
+}

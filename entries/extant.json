@@ -1,0 +1,27 @@
+{
+  "id": "extant",
+  "kind": "game",
+  "title": "Extant",
+  "developer": [
+    "various authors"
+  ],
+  "description": "This is a demonstration FPS-style game. Wander around and do your best to survive, while picking up items to improve your chances.",
+  "flags": [
+    "abandoned"
+  ],
+  "links": {
+    "agarchive": "https://www.agarchive.net/pages/devs/misc.html"
+  },
+  "sources": [
+    {
+      "platform": "windows",
+      "install": {
+        "method": "zip"
+      },
+      "label": "Mirror",
+      "url": "https://files.accessiblegames.net/files/5688c78273c33198e763fec810ee26d4be755cf16b203883c832964e9b99a3de/extant.zip",
+      "sha256": "5688c78273c33198e763fec810ee26d4be755cf16b203883c832964e9b99a3de",
+      "size": 26902296
+    }
+  ]
+}

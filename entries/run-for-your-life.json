@@ -1,0 +1,23 @@
+{
+  "id": "run-for-your-life",
+  "kind": "game",
+  "title": "Run for your life",
+  "developer": [
+    "Oriol Gomez"
+  ],
+  "links": {
+    "agarchive": "https://www.agarchive.net/pages/devs/oriolgomez.html"
+  },
+  "sources": [
+    {
+      "platform": "windows",
+      "install": {
+        "method": "zip"
+      },
+      "label": "Mirror",
+      "url": "https://files.accessiblegames.net/files/ca05901a5434706b0b35c7527580e09e93b51796cec08ad7d7b74b857bb8378a/run_for_your_life.zip",
+      "sha256": "ca05901a5434706b0b35c7527580e09e93b51796cec08ad7d7b74b857bb8378a",
+      "size": 47052019
+    }
+  ]
+}

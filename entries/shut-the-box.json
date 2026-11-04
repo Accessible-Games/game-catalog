@@ -1,0 +1,27 @@
+{
+  "id": "shut-the-box",
+  "kind": "game",
+  "title": "Shut the Box",
+  "developer": [
+    "Jage Meddaugh"
+  ],
+  "links": {
+    "agarchive": "https://www.agarchive.net/pages/devs/jage.html"
+  },
+  "sources": [
+    {
+      "platform": "windows",
+      "install": {
+        "method": "installer",
+        "installer": {
+          "type": "inno",
+          "mode": "extract"
+        }
+      },
+      "label": "Mirror",
+      "url": "https://files.accessiblegames.net/files/4ef072176b3dd51024ebe82ee0a7d4285ef2781c6c44dea64b08e570b8c19cd7/shuttheboxsetup122.exe",
+      "sha256": "4ef072176b3dd51024ebe82ee0a7d4285ef2781c6c44dea64b08e570b8c19cd7",
+      "size": 803685
+    }
+  ]
+}

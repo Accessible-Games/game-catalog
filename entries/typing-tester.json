@@ -1,0 +1,24 @@
+{
+  "id": "typing-tester",
+  "kind": "game",
+  "title": "Typing Tester",
+  "developer": [
+    "various authors"
+  ],
+  "links": {
+    "agarchive": "https://www.agarchive.net/pages/devs/misc.html"
+  },
+  "sources": [
+    {
+      "platform": "windows",
+      "install": {
+        "method": "zip",
+        "extract_dir": "typing_tester"
+      },
+      "label": "Mirror",
+      "url": "https://files.accessiblegames.net/files/2094b56566bacffe38d8c721714952af5e601ec15fd16a05267cb9fac452905c/typing_tester.zip",
+      "sha256": "2094b56566bacffe38d8c721714952af5e601ec15fd16a05267cb9fac452905c",
+      "size": 611715
+    }
+  ]
+}

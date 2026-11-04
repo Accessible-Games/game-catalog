@@ -1,0 +1,60 @@
+{
+  "id": "backgammon",
+  "kind": "game",
+  "title": "Backgammon",
+  "developer": [
+    "Pontes Games"
+  ],
+  "flags": [
+    "multiplayer",
+    "requires-registration"
+  ],
+  "links": {
+    "homepage": "http://www.pontes.ro/backgammon/index.php",
+    "agarchive": "https://www.agarchive.net/pages/devs/pontes.html"
+  },
+  "sources": [
+    {
+      "label": "Developer site",
+      "url": "http://www.pontes.ro/backgammon/download/Pontes-Backgammon.exe",
+      "platform": "windows",
+      "install": {
+        "method": "installer",
+        "installer": {
+          "type": "inno",
+          "mode": "extract"
+        }
+      },
+      "sha256": "edf3fe4d800346ec183a7f0cbb2e9f692fb7c9e646dbb948372d456ec44d99c6",
+      "size": 14648721
+    },
+    {
+      "platform": "windows",
+      "install": {
+        "method": "installer",
+        "installer": {
+          "type": "inno",
+          "mode": "extract"
+        }
+      },
+      "label": "Mirror",
+      "url": "https://files.accessiblegames.net/files/edf3fe4d800346ec183a7f0cbb2e9f692fb7c9e646dbb948372d456ec44d99c6/Pontes-Backgammon.exe",
+      "sha256": "edf3fe4d800346ec183a7f0cbb2e9f692fb7c9e646dbb948372d456ec44d99c6",
+      "size": 14648721
+    },
+    {
+      "platform": "windows",
+      "install": {
+        "method": "installer",
+        "installer": {
+          "type": "inno",
+          "mode": "extract"
+        }
+      },
+      "label": "Mirror",
+      "url": "https://files.accessiblegames.net/files/c72110dc46ad614b344e831ceb3e9da6381d25e8705d46769d6d64cba074d906/pontes_backgammon_setup.exe",
+      "sha256": "c72110dc46ad614b344e831ceb3e9da6381d25e8705d46769d6d64cba074d906",
+      "size": 14566426
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "id": "battleship",
+  "kind": "game",
+  "title": "Battleship",
+  "developer": [
+    "Jim Kitchen"
+  ],
+  "description": "Note that we have repackaged each game into a zip archive from its initial format of a self-extracting executable. The game's files are contained with a folder, so all you need do is extract the archive and each game will have its own folder.",
+  "links": {
+    "agarchive": "https://www.agarchive.net/pages/devs/kitchensinc.html"
+  },
+  "sources": [
+    {
+      "platform": "windows",
+      "install": {
+        "method": "zip",
+        "extract_dir": "battleship2"
+      },
+      "label": "Mirror",
+      "url": "https://files.accessiblegames.net/files/69b9cdae1fe2c040256ae4bf1bd95d21e0ade6da1d8ba57683c1f4784af05544/battleship2.zip",
+      "sha256": "69b9cdae1fe2c040256ae4bf1bd95d21e0ade6da1d8ba57683c1f4784af05544",
+      "size": 1161143
+    }
+  ]
+}

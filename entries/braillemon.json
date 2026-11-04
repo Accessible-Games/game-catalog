@@ -1,0 +1,24 @@
+{
+  "id": "braillemon",
+  "kind": "game",
+  "title": "Braillemon",
+  "developer": [
+    "various authors"
+  ],
+  "description": "Please note that our version of Braillemon may be slightly out of date. If you can confirm this, please contact us.",
+  "links": {
+    "agarchive": "https://www.agarchive.net/pages/devs/misc.html"
+  },
+  "sources": [
+    {
+      "platform": "windows",
+      "install": {
+        "method": "zip"
+      },
+      "label": "Mirror",
+      "url": "https://files.accessiblegames.net/files/5303d173a795d3c4407550a801012b219711b01cd7d70866def6b0a84bce4279/BRAILLEMON_1.4.zip",
+      "sha256": "5303d173a795d3c4407550a801012b219711b01cd7d70866def6b0a84bce4279",
+      "size": 44174593
+    }
+  ]
+}

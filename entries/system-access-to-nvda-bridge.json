@@ -1,0 +1,28 @@
+{
+  "id": "system-access-to-nvda-bridge",
+  "kind": "game",
+  "title": "System Access to NVDA bridge",
+  "developer": [
+    "Driftwood Entertainment"
+  ],
+  "description": "Driftwood's major production is the dungeon-crawling RPG Entombed.\n\nThrown into the infamous dungeons for your crime(s), explore 25 levels of increasing difficulty to find a way out. Rescue allies who will join your party, take on quests, gather and sell hoards of loot from your defeated foes, and try to uncover some of the dungeon's mysteries while playing as one of many character classes.\n\nEntombed was originally commercial, and available downloads are to a demo. The developer has stated an intent to release it as freeware, but we are currently unaware of the steps required to register it. If you were able to do so, please let us know.\n\nAs of October 2025, all online infrastructure for the game appears to be unavailable. This includes accounts, registration, and the bazaar.\n\nThis small package causes Entombed's System Access speech mode to use NVDA instead. To use, extract the two dll files into the external folder in Entombed's installation directory. For best results, you will want to enable NVDA's sleep mode when playing.\n\nThe same method can be used for any game or software with System Access support.\n\nAt the moment the creator of this package is unknown. If you have more information, please do let us know.",
+  "links": {
+    "agarchive": "https://www.agarchive.net/pages/devs/driftwood.html"
+  },
+  "sources": [
+    {
+      "platform": "windows",
+      "install": {
+        "method": "zip",
+        "extract_dir": "System_Access_NVDA_Bridge"
+      },
+      "label": "Mirror",
+      "url": "https://files.accessiblegames.net/files/6a437dc6123486c0cff31651df82387a9988c1446a690b4aa28fb0c99decce8d/System_Access_NVDA_Bridge.zip",
+      "sha256": "6a437dc6123486c0cff31651df82387a9988c1446a690b4aa28fb0c99decce8d",
+      "size": 72519
+    }
+  ],
+  "dependencies": [
+    "microsoft-sql-dependency"
+  ]
+}

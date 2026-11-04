@@ -1,0 +1,25 @@
+{
+  "id": "monopoly",
+  "kind": "game",
+  "title": "Monopoly",
+  "developer": [
+    "Jim Kitchen"
+  ],
+  "description": "Note that we have repackaged each game into a zip archive from its initial format of a self-extracting executable. The game's files are contained with a folder, so all you need do is extract the archive and each game will have its own folder.",
+  "links": {
+    "agarchive": "https://www.agarchive.net/pages/devs/kitchensinc.html"
+  },
+  "sources": [
+    {
+      "platform": "windows",
+      "install": {
+        "method": "zip",
+        "extract_dir": "monopoly10"
+      },
+      "label": "Mirror",
+      "url": "https://files.accessiblegames.net/files/e1f5c7518256215f486daf18ad7b511f06254379991d657d10d7f8fa405af975/monopoly10.zip",
+      "sha256": "e1f5c7518256215f486daf18ad7b511f06254379991d657d10d7f8fa405af975",
+      "size": 1111955
+    }
+  ]
+}

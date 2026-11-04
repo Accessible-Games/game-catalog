@@ -1,0 +1,31 @@
+{
+  "id": "madlibs",
+  "kind": "game",
+  "title": "Madlibs",
+  "developer": [
+    "BrailleSoft"
+  ],
+  "description": "Fill in words to create an amusing story in this port of the household game.",
+  "flags": [
+    "abandoned"
+  ],
+  "links": {
+    "agarchive": "https://www.agarchive.net/pages/devs/braillesoft.html"
+  },
+  "sources": [
+    {
+      "platform": "windows",
+      "install": {
+        "method": "installer",
+        "installer": {
+          "type": "inno",
+          "mode": "extract"
+        }
+      },
+      "label": "Mirror",
+      "url": "https://files.accessiblegames.net/files/095534a35436c523d37d25173b12b36be4145f5cb464d549756d68da9ea9d425/madlibSetup.exe",
+      "sha256": "095534a35436c523d37d25173b12b36be4145f5cb464d549756d68da9ea9d425",
+      "size": 365047
+    }
+  ]
+}

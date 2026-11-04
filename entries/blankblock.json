@@ -1,0 +1,33 @@
+{
+  "id": "blankblock",
+  "kind": "game",
+  "title": "Blankblock",
+  "developer": [
+    "Lighttech Interactive"
+  ],
+  "flags": [
+    "abandoned"
+  ],
+  "links": {
+    "agarchive": "https://www.agarchive.net/pages/devs/lighttech.html"
+  },
+  "sources": [
+    {
+      "platform": "windows",
+      "install": {
+        "method": "installer",
+        "installer": {
+          "type": "other",
+          "mode": "run"
+        }
+      },
+      "label": "Mirror",
+      "url": "https://files.accessiblegames.net/files/bd04721a175b7cc34bbadcc8db1136eeefbb4e67595ce0af5a32f37d5c6d6d6f/blank_block_setup.exe",
+      "sha256": "bd04721a175b7cc34bbadcc8db1136eeefbb4e67595ce0af5a32f37d5c6d6d6f",
+      "size": 37508966
+    }
+  ],
+  "dependencies": [
+    "com-audio-dependency"
+  ]
+}

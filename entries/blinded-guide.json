@@ -1,0 +1,29 @@
+{
+  "id": "blinded-guide",
+  "kind": "game",
+  "title": "Blinded Guide",
+  "developer": [
+    "LWorks"
+  ],
+  "description": "Help Blind Bob on a daring walk around his treacherous neighborhood. Avoid crashing into poles, falling into sewers, and being run over by insane cyclists. Be careful to stay on the sidewalk though, for one misstep brings swift pain at the bumper of a speeding car or the teeth of the neighbor's terrifying dog.",
+  "links": {
+    "homepage": "http://l-works.net/blindedguide.php",
+    "agarchive": "https://www.agarchive.net/pages/devs/lworks.html"
+  },
+  "sources": [
+    {
+      "platform": "windows",
+      "install": {
+        "method": "installer",
+        "installer": {
+          "type": "inno",
+          "mode": "extract"
+        }
+      },
+      "label": "Mirror",
+      "url": "https://files.accessiblegames.net/files/fc83e278c24c4412a1e62a774c7fad0339f50424b71c74ecede4829667c4be47/blindedGuideSetup.exe",
+      "sha256": "fc83e278c24c4412a1e62a774c7fad0339f50424b71c74ecede4829667c4be47",
+      "size": 5944678
+    }
+  ]
+}

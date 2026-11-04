@@ -1,0 +1,27 @@
+{
+  "id": "drive-your-car",
+  "kind": "game",
+  "title": "Drive Your Car",
+  "developer": [
+    "various authors"
+  ],
+  "flags": [
+    "abandoned"
+  ],
+  "links": {
+    "agarchive": "https://www.agarchive.net/pages/devs/misc.html"
+  },
+  "sources": [
+    {
+      "platform": "windows",
+      "install": {
+        "method": "zip",
+        "extract_dir": "Drive your car"
+      },
+      "label": "Mirror",
+      "url": "https://files.accessiblegames.net/files/723bda1db7b05921ab1c8e393b5c2e0f64bcf561b80bdfa26bdb08fd7248eba5/drive_your_car.zip",
+      "sha256": "723bda1db7b05921ab1c8e393b5c2e0f64bcf561b80bdfa26bdb08fd7248eba5",
+      "size": 6445141
+    }
+  ]
+}

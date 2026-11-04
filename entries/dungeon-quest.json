@@ -1,0 +1,45 @@
+{
+  "id": "dungeon-quest",
+  "kind": "game",
+  "title": "Dungeon Quest",
+  "developer": [
+    "Morokuma"
+  ],
+  "description": "A linear RPG with the goal being to reach successive levels on a dungeon path.",
+  "links": {
+    "agarchive": "https://www.agarchive.net/pages/devs/morokuma.html"
+  },
+  "sources": [
+    {
+      "label": "Developer site",
+      "url": "http://hirotaka2014.sakura.ne.jp/mh0406/game/dq09713.exe",
+      "platform": "windows",
+      "install": {
+        "method": "7z"
+      },
+      "sha256": "92db2bde97878334bdbed1d55c19e20a9132612d6712cd822b815047ea4b222f",
+      "size": 2318436
+    },
+    {
+      "platform": "windows",
+      "install": {
+        "method": "7z"
+      },
+      "label": "Mirror",
+      "url": "https://files.accessiblegames.net/files/92db2bde97878334bdbed1d55c19e20a9132612d6712cd822b815047ea4b222f/dq09713.exe",
+      "sha256": "92db2bde97878334bdbed1d55c19e20a9132612d6712cd822b815047ea4b222f",
+      "size": 2318436
+    },
+    {
+      "platform": "windows",
+      "install": {
+        "method": "7z",
+        "extract_dir": "Dungeon Quest(VTXTGMˆÙF”Å)"
+      },
+      "label": "Mirror",
+      "url": "https://files.accessiblegames.net/files/724ae330075d3c3c7e2d44722423c16f837f71cc6f65ccb51ebad38a2022afd3/dungeon_quest.7z",
+      "sha256": "724ae330075d3c3c7e2d44722423c16f837f71cc6f65ccb51ebad38a2022afd3",
+      "size": 1963075
+    }
+  ]
+}

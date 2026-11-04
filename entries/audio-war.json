@@ -1,0 +1,25 @@
+{
+  "id": "audio-war",
+  "kind": "game",
+  "title": "Audio War",
+  "developer": [
+    "Dragon Slayer Games"
+  ],
+  "description": "An audio rendition of the card game War.",
+  "links": {
+    "agarchive": "https://www.agarchive.net/pages/devs/dragonslayer.html"
+  },
+  "sources": [
+    {
+      "platform": "windows",
+      "install": {
+        "method": "7z",
+        "extract_dir": "audio war"
+      },
+      "label": "Mirror",
+      "url": "https://files.accessiblegames.net/files/eab6d33977e163bffd34f025c0c321260b2eb56bf406923099821449d2adfea0/audioWar.7z",
+      "sha256": "eab6d33977e163bffd34f025c0c321260b2eb56bf406923099821449d2adfea0",
+      "size": 1685716
+    }
+  ]
+}

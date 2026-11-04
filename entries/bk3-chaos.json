@@ -1,0 +1,28 @@
+{
+  "id": "bk3-chaos",
+  "kind": "game",
+  "title": "BK3 Chaos",
+  "developer": [
+    "Nyanchan Games"
+  ],
+  "description": "This expansion pack for Bokurano Daibouken 3 makes several changes to game mechanics, adds new weapons, and modifies stages. Specific details are covered by the included readme.\n\nAs with BK2 Chaos, the mod is in Japanese, with English translations created using Google Translate.",
+  "flags": [
+    "abandoned"
+  ],
+  "links": {
+    "agarchive": "https://www.agarchive.net/pages/devs/nyanchan.html"
+  },
+  "sources": [
+    {
+      "platform": "windows",
+      "install": {
+        "method": "7z",
+        "extract_dir": "bk3Chaos"
+      },
+      "label": "Mirror",
+      "url": "https://files.accessiblegames.net/files/14221fd53cfc9cb2f94eff53231feddd5277f64626fac743f5d9aa224c44892e/bk3Chaos.7z",
+      "sha256": "14221fd53cfc9cb2f94eff53231feddd5277f64626fac743f5d9aa224c44892e",
+      "size": 526092
+    }
+  ]
+}

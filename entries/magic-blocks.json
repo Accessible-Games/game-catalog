@@ -1,0 +1,28 @@
+{
+  "id": "magic-blocks",
+  "kind": "game",
+  "title": "Magic Blocks",
+  "developer": [
+    "Quentin C"
+  ],
+  "description": "This game was inspired and plays similar to tetras. According to the developer, it no longer functions under a windows 10 environment.",
+  "flags": [
+    "abandoned",
+    "multiplayer"
+  ],
+  "links": {
+    "agarchive": "https://www.agarchive.net/pages/devs/qc.html"
+  },
+  "sources": [
+    {
+      "platform": "windows",
+      "install": {
+        "method": "zip"
+      },
+      "label": "Mirror",
+      "url": "https://files.accessiblegames.net/files/ccc3d942b0d1cbfee6b0b8337572a4bc7ccc0f1ecddea7a4d8dfd04acb4cbda8/magicblocks.zip",
+      "sha256": "ccc3d942b0d1cbfee6b0b8337572a4bc7ccc0f1ecddea7a4d8dfd04acb4cbda8",
+      "size": 4099642
+    }
+  ]
+}

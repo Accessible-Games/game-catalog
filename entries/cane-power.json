@@ -1,0 +1,28 @@
+{
+  "id": "cane-power",
+  "kind": "game",
+  "title": "Cane Power",
+  "developer": [
+    "Game Madness Interactive"
+  ],
+  "description": "This game has been compiled from its original source form.\n\nAs with other compiled titles, source code is located in the source directory, and the game can be run by executing cane power.exe.",
+  "flags": [
+    "abandoned"
+  ],
+  "links": {
+    "agarchive": "https://www.agarchive.net/pages/devs/gmi.html"
+  },
+  "sources": [
+    {
+      "platform": "windows",
+      "install": {
+        "method": "7z",
+        "extract_dir": "cane power"
+      },
+      "label": "Mirror",
+      "url": "https://files.accessiblegames.net/files/1d08a5233e04f014ed46aa26bba2e7cf1787ccfe3d019a88103385dbeaafd859/cane_power.7z",
+      "sha256": "1d08a5233e04f014ed46aa26bba2e7cf1787ccfe3d019a88103385dbeaafd859",
+      "size": 13603923
+    }
+  ]
+}

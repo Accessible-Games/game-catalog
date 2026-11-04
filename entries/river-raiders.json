@@ -1,0 +1,30 @@
+{
+  "id": "river-raiders",
+  "kind": "game",
+  "title": "River Raiders",
+  "developer": [
+    "X-Sight Interactive"
+  ],
+  "flags": [
+    "abandoned"
+  ],
+  "links": {
+    "agarchive": "https://www.agarchive.net/pages/devs/XSight.html"
+  },
+  "sources": [
+    {
+      "platform": "windows",
+      "install": {
+        "method": "installer",
+        "installer": {
+          "type": "inno",
+          "mode": "extract"
+        }
+      },
+      "label": "Mirror",
+      "url": "https://files.accessiblegames.net/files/77ed39be8c55a5103332c187c01dcee68b376fdbd7abb965af82379ddb352edc/River_Raiders_1.3.5.exe",
+      "sha256": "77ed39be8c55a5103332c187c01dcee68b376fdbd7abb965af82379ddb352edc",
+      "size": 18199220
+    }
+  ]
+}

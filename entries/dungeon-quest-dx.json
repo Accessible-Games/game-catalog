@@ -1,0 +1,47 @@
+{
+  "id": "dungeon-quest-dx",
+  "kind": "game",
+  "title": "Dungeon Quest DX",
+  "developer": [
+    "Morokuma"
+  ],
+  "description": "A version of Dungeon Quest that has been modified with much more content.",
+  "links": {
+    "agarchive": "https://www.agarchive.net/pages/devs/morokuma.html"
+  },
+  "sources": [
+    {
+      "label": "Developer site",
+      "url": "http://hirotaka2014.sakura.ne.jp/mh0406/game/dqdx212.exe",
+      "platform": "windows",
+      "install": {
+        "method": "7z",
+        "extract_dir": "Dungeon Quest DX"
+      },
+      "sha256": "a4fe868f2183616cb65ba676b17bde6f4e31442e691296da78fc5e9b4ca88bc8",
+      "size": 5297426
+    },
+    {
+      "platform": "windows",
+      "install": {
+        "method": "7z",
+        "extract_dir": "Dungeon Quest DX"
+      },
+      "label": "Mirror",
+      "url": "https://files.accessiblegames.net/files/a4fe868f2183616cb65ba676b17bde6f4e31442e691296da78fc5e9b4ca88bc8/dqdx212.exe",
+      "sha256": "a4fe868f2183616cb65ba676b17bde6f4e31442e691296da78fc5e9b4ca88bc8",
+      "size": 5297426
+    },
+    {
+      "platform": "windows",
+      "install": {
+        "method": "7z",
+        "extract_dir": "Dungeon Quest DX"
+      },
+      "label": "Mirror",
+      "url": "https://files.accessiblegames.net/files/2a7e6ee40bc3625af1fc9f5c0c0f48e0792d9167bbef8a9e70870f4d3aac8221/dungeon_quest_dx.7z",
+      "sha256": "2a7e6ee40bc3625af1fc9f5c0c0f48e0792d9167bbef8a9e70870f4d3aac8221",
+      "size": 4674378
+    }
+  ]
+}

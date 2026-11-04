@@ -1,0 +1,45 @@
+{
+  "id": "screaming-strike-2",
+  "kind": "game",
+  "title": "Screaming Strike 2",
+  "developer": [
+    "Nyanchan Games"
+  ],
+  "description": "Please note that the Mac version of this game will likely only run on OSX 10.13 and earlier.",
+  "links": {
+    "homepage": "https://www.nyanchangames.com/softs/ss2.html",
+    "agarchive": "https://www.agarchive.net/pages/devs/nyanchan.html"
+  },
+  "sources": [
+    {
+      "label": "Developer site",
+      "url": "https://www.nyanchangames.com/softs/screamingStrike2.exe",
+      "platform": "windows",
+      "install": {
+        "method": "7z"
+      },
+      "sha256": "a87c0bf278e48489950f0ffb3ec8da8bfc4a8563f56ebbb0701af9b4b5c36bb8",
+      "size": 35356522
+    },
+    {
+      "platform": "windows",
+      "install": {
+        "method": "7z"
+      },
+      "label": "Mirror",
+      "url": "https://files.accessiblegames.net/files/a87c0bf278e48489950f0ffb3ec8da8bfc4a8563f56ebbb0701af9b4b5c36bb8/screamingStrike2.exe",
+      "sha256": "a87c0bf278e48489950f0ffb3ec8da8bfc4a8563f56ebbb0701af9b4b5c36bb8",
+      "size": 35356522
+    },
+    {
+      "platform": "windows",
+      "install": {
+        "method": "7z"
+      },
+      "label": "Mirror",
+      "url": "https://files.accessiblegames.net/files/e4933923abf9d8b622ef5aac669382c675ca1086b94adb4ae46d830e76c420b2/screamingStrike2.exe",
+      "sha256": "e4933923abf9d8b622ef5aac669382c675ca1086b94adb4ae46d830e76c420b2",
+      "size": 30466297
+    }
+  ]
+}

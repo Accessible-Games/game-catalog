@@ -1,0 +1,30 @@
+{
+  "id": "cars-by-burak",
+  "kind": "extra",
+  "title": "Cars by Burak",
+  "developer": [
+    "Playing in the Dark"
+  ],
+  "description": "This is a collection of vehicles, created by Burak.\n\nEach vehicle is contained within its own folder.",
+  "flags": [
+    "abandoned"
+  ],
+  "links": {
+    "agarchive": "https://www.agarchive.net/pages/devs/pitd.html"
+  },
+  "sources": [
+    {
+      "platform": "windows",
+      "install": {
+        "method": "7z",
+        "extract_dir": "top speed 3 cars by burak"
+      },
+      "label": "Mirror",
+      "url": "https://files.accessiblegames.net/files/d3caed85c8fe30a0c05bdc9be0186d3d472e6c4d7702c75dfc7659d2384022ad/top_speed_3_cars_by_burak.7z",
+      "sha256": "d3caed85c8fe30a0c05bdc9be0186d3d472e6c4d7702c75dfc7659d2384022ad",
+      "size": 10043145
+    }
+  ],
+  "extends": "top-speed-3",
+  "install_into": "top-speed-3"
+}

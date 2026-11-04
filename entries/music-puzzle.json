@@ -1,0 +1,29 @@
+{
+  "id": "music-puzzle",
+  "kind": "game",
+  "title": "Music Puzzle",
+  "developer": [
+    "Shard Workshop"
+  ],
+  "description": "Pick a song, split it into parts, and see if you can put them back in the proper order.",
+  "links": {
+    "homepage": "https://www.shardworkshop.com/audiogames/music-puzzle.php",
+    "agarchive": "https://www.agarchive.net/pages/devs/shardWorkshop.html"
+  },
+  "sources": [
+    {
+      "platform": "windows",
+      "install": {
+        "method": "installer",
+        "installer": {
+          "type": "inno",
+          "mode": "extract"
+        }
+      },
+      "label": "Mirror",
+      "url": "https://files.accessiblegames.net/files/ce9ac1ebe59fb8a6da9add7a394e13faa0fc41eef603d885bc4b0afcae217a9c/musicPuzzleSetup.exe",
+      "sha256": "ce9ac1ebe59fb8a6da9add7a394e13faa0fc41eef603d885bc4b0afcae217a9c",
+      "size": 18256070
+    }
+  ]
+}

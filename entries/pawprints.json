@@ -1,0 +1,33 @@
+{
+  "id": "pawprints",
+  "kind": "game",
+  "title": "Pawprints",
+  "developer": [
+    "Aprone"
+  ],
+  "links": {
+    "agarchive": "https://www.agarchive.net/pages/devs/aprone.html"
+  },
+  "sources": [
+    {
+      "label": "Developer site",
+      "url": "https://www.kaldobsky.com/audiogames/pawprints.zip",
+      "platform": "windows",
+      "install": {
+        "method": "zip"
+      },
+      "sha256": "282384f57a9ae16647c617f7dd8bc352e5f4613922649911b906189c1fdaee47",
+      "size": 26569520
+    },
+    {
+      "platform": "windows",
+      "install": {
+        "method": "zip"
+      },
+      "label": "Mirror",
+      "url": "https://files.accessiblegames.net/files/282384f57a9ae16647c617f7dd8bc352e5f4613922649911b906189c1fdaee47/pawprints.zip",
+      "sha256": "282384f57a9ae16647c617f7dd8bc352e5f4613922649911b906189c1fdaee47",
+      "size": 26569520
+    }
+  ]
+}

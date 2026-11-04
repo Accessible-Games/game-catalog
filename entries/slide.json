@@ -1,0 +1,30 @@
+{
+  "id": "slide",
+  "kind": "game",
+  "title": "slide",
+  "developer": [
+    "LWorks"
+  ],
+  "flags": [
+    "requires-registration"
+  ],
+  "links": {
+    "agarchive": "https://www.agarchive.net/pages/devs/lworks.html"
+  },
+  "sources": [
+    {
+      "platform": "windows",
+      "install": {
+        "method": "installer",
+        "installer": {
+          "type": "inno",
+          "mode": "extract"
+        }
+      },
+      "label": "Mirror",
+      "url": "https://files.accessiblegames.net/files/9429f2e8a614763fb71ac11a747e2eea069eb414b9280aeacd7a9222e05652ba/slide_setup.exe",
+      "sha256": "9429f2e8a614763fb71ac11a747e2eea069eb414b9280aeacd7a9222e05652ba",
+      "size": 4960549
+    }
+  ]
+}

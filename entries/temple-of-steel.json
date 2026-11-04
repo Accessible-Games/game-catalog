@@ -1,0 +1,30 @@
+{
+  "id": "temple-of-steel",
+  "kind": "game",
+  "title": "Temple of Steel",
+  "developer": [
+    "TDL Games"
+  ],
+  "flags": [
+    "abandoned"
+  ],
+  "links": {
+    "agarchive": "https://www.agarchive.net/pages/devs/tdl.html"
+  },
+  "sources": [
+    {
+      "platform": "windows",
+      "install": {
+        "method": "installer",
+        "installer": {
+          "type": "inno",
+          "mode": "extract"
+        }
+      },
+      "label": "Mirror",
+      "url": "https://files.accessiblegames.net/files/8be10bce605d1fd52247b8ac28bce2c498bedccb5eb6dd6b27c3f1f7a42b599d/temple_of_steel_Setup.exe",
+      "sha256": "8be10bce605d1fd52247b8ac28bce2c498bedccb5eb6dd6b27c3f1f7a42b599d",
+      "size": 13248373
+    }
+  ]
+}

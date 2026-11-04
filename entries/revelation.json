@@ -1,0 +1,33 @@
+{
+  "id": "revelation",
+  "kind": "game",
+  "title": "Revelation",
+  "developer": [
+    "Aprone"
+  ],
+  "links": {
+    "agarchive": "https://www.agarchive.net/pages/devs/aprone.html"
+  },
+  "sources": [
+    {
+      "label": "Developer site",
+      "url": "https://www.kaldobsky.com/audiogames/revelation.zip",
+      "platform": "windows",
+      "install": {
+        "method": "zip"
+      },
+      "sha256": "21c27d390ecb6d457306cf519975ceea2d7ea7a2e91664172f2fc18236a8228f",
+      "size": 2567577
+    },
+    {
+      "platform": "windows",
+      "install": {
+        "method": "zip"
+      },
+      "label": "Mirror",
+      "url": "https://files.accessiblegames.net/files/21c27d390ecb6d457306cf519975ceea2d7ea7a2e91664172f2fc18236a8228f/revelation.zip",
+      "sha256": "21c27d390ecb6d457306cf519975ceea2d7ea7a2e91664172f2fc18236a8228f",
+      "size": 2567577
+    }
+  ]
+}

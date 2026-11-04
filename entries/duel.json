@@ -1,0 +1,27 @@
+{
+  "id": "duel",
+  "kind": "game",
+  "title": "Duel",
+  "developer": [
+    "Dragon Slayer Games"
+  ],
+  "flags": [
+    "abandoned"
+  ],
+  "links": {
+    "agarchive": "https://www.agarchive.net/pages/devs/dragonslayer.html"
+  },
+  "sources": [
+    {
+      "platform": "windows",
+      "install": {
+        "method": "7z",
+        "extract_dir": "duel"
+      },
+      "label": "Mirror",
+      "url": "https://files.accessiblegames.net/files/9cb32aeddaafb95c847fa32cfb0deb72b8d8be8f220c47daac05585896f32cd8/duel.7z",
+      "sha256": "9cb32aeddaafb95c847fa32cfb0deb72b8d8be8f220c47daac05585896f32cd8",
+      "size": 944547
+    }
+  ]
+}

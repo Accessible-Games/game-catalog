@@ -1,0 +1,25 @@
+{
+  "id": "treasure-hunt-mod-by-locutus",
+  "kind": "extra",
+  "title": "Treasure hunt mod by Locutus",
+  "developer": [
+    "BPC Programs"
+  ],
+  "links": {
+    "agarchive": "https://www.agarchive.net/pages/devs/bpc.html"
+  },
+  "sources": [
+    {
+      "platform": "windows",
+      "install": {
+        "method": "zip"
+      },
+      "label": "Mirror",
+      "url": "https://files.accessiblegames.net/files/5a51c44041df7b7a0d6c0748cdc87699d2f029b1980aa511dde0724880e5b0be/Treasure_Hunt_Mod_by_locutus.zip",
+      "sha256": "5a51c44041df7b7a0d6c0748cdc87699d2f029b1980aa511dde0724880e5b0be",
+      "size": 99477278
+    }
+  ],
+  "extends": "treasure-hunt",
+  "install_into": "treasure-hunt"
+}

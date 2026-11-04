@@ -1,0 +1,33 @@
+{
+  "id": "community-feud",
+  "kind": "game",
+  "title": "Community feud",
+  "developer": [
+    "Aprone"
+  ],
+  "links": {
+    "agarchive": "https://www.agarchive.net/pages/devs/aprone.html"
+  },
+  "sources": [
+    {
+      "label": "Developer site",
+      "url": "https://www.kaldobsky.com/audiogames/communityfeud.zip",
+      "platform": "windows",
+      "install": {
+        "method": "zip"
+      },
+      "sha256": "97defd6c8cb73793dde4206c7dfacd5b649856fa14ab2b005650090b159270d5",
+      "size": 5123651
+    },
+    {
+      "platform": "windows",
+      "install": {
+        "method": "zip"
+      },
+      "label": "Mirror",
+      "url": "https://files.accessiblegames.net/files/97defd6c8cb73793dde4206c7dfacd5b649856fa14ab2b005650090b159270d5/communityfeud.zip",
+      "sha256": "97defd6c8cb73793dde4206c7dfacd5b649856fa14ab2b005650090b159270d5",
+      "size": 5123651
+    }
+  ]
+}

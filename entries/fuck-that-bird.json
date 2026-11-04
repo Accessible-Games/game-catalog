@@ -1,0 +1,24 @@
+{
+  "id": "fuck-that-bird",
+  "kind": "game",
+  "title": "Fuck That bird",
+  "developer": [
+    "Oriol Gomez"
+  ],
+  "description": "A clone of the infamous Flappy Bird, but with the addition of a rather angry grandpa who is not too happy when he loses, and will take great care to make sure you're aware of that.",
+  "links": {
+    "agarchive": "https://www.agarchive.net/pages/devs/oriolgomez.html"
+  },
+  "sources": [
+    {
+      "platform": "windows",
+      "install": {
+        "method": "zip"
+      },
+      "label": "Mirror",
+      "url": "https://files.accessiblegames.net/files/2defc7f2780c21f241093e822485428211cc7b3dac70759e65f9520c2e649b71/fuck_that_bird.zip",
+      "sha256": "2defc7f2780c21f241093e822485428211cc7b3dac70759e65f9520c2e649b71",
+      "size": 22489405
+    }
+  ]
+}

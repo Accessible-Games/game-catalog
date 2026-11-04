@@ -1,0 +1,46 @@
+{
+  "id": "bsc-windows10-fixpack",
+  "kind": "runtime",
+  "title": "BSC Windows10 fixpack",
+  "developer": [
+    "BSC Games"
+  ],
+  "links": {
+    "agarchive": "https://www.agarchive.net/pages/devs/bsc.html"
+  },
+  "sources": [
+    {
+      "label": "Developer site",
+      "url": "https://nashcentral.duckdns.org/bscfix.7z",
+      "platform": "windows",
+      "install": {
+        "method": "7z",
+        "extract_dir": "bscfix"
+      },
+      "sha256": "c5c9302ba9d3aca9f984237c5f7a328440ac982c3d48dc47ea54a871eacc970a",
+      "size": 4168692
+    },
+    {
+      "platform": "windows",
+      "install": {
+        "method": "7z",
+        "extract_dir": "bscfix"
+      },
+      "label": "Mirror",
+      "url": "https://files.accessiblegames.net/files/c5c9302ba9d3aca9f984237c5f7a328440ac982c3d48dc47ea54a871eacc970a/bscfix.7z",
+      "sha256": "c5c9302ba9d3aca9f984237c5f7a328440ac982c3d48dc47ea54a871eacc970a",
+      "size": 4168692
+    },
+    {
+      "platform": "windows",
+      "install": {
+        "method": "7z",
+        "extract_dir": "bscfix"
+      },
+      "label": "Mirror",
+      "url": "https://files.accessiblegames.net/files/492cdc98b8081db85143dbec2cc4cf9eb5d8aa204b2c7f8ef2b50937c1db01f7/BSC_Windows10_fixpack.7z",
+      "sha256": "492cdc98b8081db85143dbec2cc4cf9eb5d8aa204b2c7f8ef2b50937c1db01f7",
+      "size": 4143766
+    }
+  ]
+}

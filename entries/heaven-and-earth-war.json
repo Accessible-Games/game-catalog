@@ -1,0 +1,45 @@
+{
+  "id": "heaven-and-earth-war",
+  "kind": "game",
+  "title": "Heaven and Earth War",
+  "developer": [
+    "Morokuma"
+  ],
+  "description": "An RPG built with Text Game Maker.",
+  "links": {
+    "agarchive": "https://www.agarchive.net/pages/devs/morokuma.html"
+  },
+  "sources": [
+    {
+      "label": "Developer site",
+      "url": "http://hirotaka2014.sakura.ne.jp/mh0406/game/ten221.exe",
+      "platform": "windows",
+      "install": {
+        "method": "7z"
+      },
+      "sha256": "b1a1eb50f732f94a2a85f1229adac42e9608890df105c7acfbc823da444f7382",
+      "size": 10863350
+    },
+    {
+      "platform": "windows",
+      "install": {
+        "method": "7z"
+      },
+      "label": "Mirror",
+      "url": "https://files.accessiblegames.net/files/b1a1eb50f732f94a2a85f1229adac42e9608890df105c7acfbc823da444f7382/ten221.exe",
+      "sha256": "b1a1eb50f732f94a2a85f1229adac42e9608890df105c7acfbc823da444f7382",
+      "size": 10863350
+    },
+    {
+      "platform": "windows",
+      "install": {
+        "method": "7z",
+        "extract_dir": "V “V’nãí"
+      },
+      "label": "Mirror",
+      "url": "https://files.accessiblegames.net/files/b3bf7aefd2ea437e340ce55325f4f9da45287c25aed685193489281ca0ad3ed8/heaven_and_earth_war.7z",
+      "sha256": "b3bf7aefd2ea437e340ce55325f4f9da45287c25aed685193489281ca0ad3ed8",
+      "size": 9967892
+    }
+  ]
+}

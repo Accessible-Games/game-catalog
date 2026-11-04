@@ -1,0 +1,44 @@
+{
+  "id": "guitar",
+  "kind": "game",
+  "title": "Guitar",
+  "developer": [
+    "Morokuma"
+  ],
+  "links": {
+    "agarchive": "https://www.agarchive.net/pages/devs/morokuma.html"
+  },
+  "sources": [
+    {
+      "label": "Developer site",
+      "url": "http://hirotaka2014.sakura.ne.jp/mh0406/game/gt_otoate04.exe",
+      "platform": "windows",
+      "install": {
+        "method": "7z"
+      },
+      "sha256": "a2611dc1c30e56c932c69d157f26df22d2c6a2e9e36761b064bfa9c065a5069b",
+      "size": 21738576
+    },
+    {
+      "platform": "windows",
+      "install": {
+        "method": "7z"
+      },
+      "label": "Mirror",
+      "url": "https://files.accessiblegames.net/files/a2611dc1c30e56c932c69d157f26df22d2c6a2e9e36761b064bfa9c065a5069b/gt_otoate04.exe",
+      "sha256": "a2611dc1c30e56c932c69d157f26df22d2c6a2e9e36761b064bfa9c065a5069b",
+      "size": 21738576
+    },
+    {
+      "platform": "windows",
+      "install": {
+        "method": "7z",
+        "extract_dir": "gt_otoate04"
+      },
+      "label": "Mirror",
+      "url": "https://files.accessiblegames.net/files/88cb579ed31ccbe6dd6a01231e539a331bcc7e365067138cc5d7d81dd8ae217d/guitar.7z",
+      "sha256": "88cb579ed31ccbe6dd6a01231e539a331bcc7e365067138cc5d7d81dd8ae217d",
+      "size": 19857659
+    }
+  ]
+}

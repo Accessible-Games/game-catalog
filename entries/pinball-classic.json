@@ -1,0 +1,47 @@
+{
+  "id": "pinball-classic",
+  "kind": "game",
+  "title": "Pinball Classic",
+  "developer": [
+    "Draconis Entertainment"
+  ],
+  "description": "a collection of unique pinball tables packed into 1 game. each table has different mechanics and score tracking systems.",
+  "flags": [
+    "demo",
+    "requires-registration"
+  ],
+  "links": {
+    "homepage": "http://dracoent.com/Windows/ESPPinballClassic",
+    "agarchive": "https://www.agarchive.net/pages/devs/draconis.html"
+  },
+  "sources": [
+    {
+      "label": "Developer site",
+      "url": "http://download.dracoent.com/Windows/classic/PBCSetup.exe",
+      "platform": "windows",
+      "install": {
+        "method": "installer",
+        "installer": {
+          "type": "inno",
+          "mode": "extract"
+        }
+      },
+      "sha256": "ab05bee99d971802d858a472b084cc06c1bc5c0b40143ad4c4f68a12ea87a911",
+      "size": 54846862
+    },
+    {
+      "platform": "windows",
+      "install": {
+        "method": "installer",
+        "installer": {
+          "type": "inno",
+          "mode": "extract"
+        }
+      },
+      "label": "Mirror",
+      "url": "https://files.accessiblegames.net/files/ab05bee99d971802d858a472b084cc06c1bc5c0b40143ad4c4f68a12ea87a911/PBCSetup.exe",
+      "sha256": "ab05bee99d971802d858a472b084cc06c1bc5c0b40143ad4c4f68a12ea87a911",
+      "size": 54846862
+    }
+  ]
+}

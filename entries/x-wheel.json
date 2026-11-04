@@ -1,0 +1,30 @@
+{
+  "id": "x-wheel",
+  "kind": "game",
+  "title": "X Wheel",
+  "developer": [
+    "X-Sight Interactive"
+  ],
+  "flags": [
+    "abandoned"
+  ],
+  "links": {
+    "agarchive": "https://www.agarchive.net/pages/devs/XSight.html"
+  },
+  "sources": [
+    {
+      "platform": "windows",
+      "install": {
+        "method": "installer",
+        "installer": {
+          "type": "inno",
+          "mode": "extract"
+        }
+      },
+      "label": "Mirror",
+      "url": "https://files.accessiblegames.net/files/f54a6a23cb603bd5540a0cbbd6f547f6e6ed9d40d03d8c1555386e5edbeaf58c/X-Wheel_V1.3.exe",
+      "sha256": "f54a6a23cb603bd5540a0cbbd6f547f6e6ed9d40d03d8c1555386e5edbeaf58c",
+      "size": 13529702
+    }
+  ]
+}

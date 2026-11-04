@@ -1,0 +1,30 @@
+{
+  "id": "dog-and-cat",
+  "kind": "game",
+  "title": "Dog and Cat",
+  "developer": [
+    "VIP GamesZone"
+  ],
+  "flags": [
+    "abandoned"
+  ],
+  "links": {
+    "agarchive": "https://www.agarchive.net/pages/devs/vip.html"
+  },
+  "sources": [
+    {
+      "platform": "windows",
+      "install": {
+        "method": "installer",
+        "installer": {
+          "type": "inno",
+          "mode": "extract"
+        }
+      },
+      "label": "Mirror",
+      "url": "https://files.accessiblegames.net/files/002df6db0fedf0ce9c91b4bf51e25321d1e7e0b7e06ba557b24656e55c22ff79/dog_and_cat_setup.exe",
+      "sha256": "002df6db0fedf0ce9c91b4bf51e25321d1e7e0b7e06ba557b24656e55c22ff79",
+      "size": 5233309
+    }
+  ]
+}

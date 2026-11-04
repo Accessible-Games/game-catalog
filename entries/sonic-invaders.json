@@ -1,0 +1,31 @@
+{
+  "id": "sonic-invaders",
+  "kind": "game",
+  "title": "Sonic Invaders",
+  "developer": [
+    "various authors"
+  ],
+  "flags": [
+    "abandoned"
+  ],
+  "links": {
+    "homepage": "https://sites.google.com/site/sonicinvadersaudiogame/",
+    "agarchive": "https://www.agarchive.net/pages/devs/misc.html"
+  },
+  "sources": [
+    {
+      "platform": "windows",
+      "install": {
+        "method": "installer",
+        "installer": {
+          "type": "msi",
+          "mode": "extract"
+        }
+      },
+      "label": "Mirror",
+      "url": "https://files.accessiblegames.net/files/46608daa10269fa8e5083109be5daca41aa5ec39c8d698e4817741a81e6a3c41/sonic_invaders_installer.msi",
+      "sha256": "46608daa10269fa8e5083109be5daca41aa5ec39c8d698e4817741a81e6a3c41",
+      "size": 57005568
+    }
+  ]
+}

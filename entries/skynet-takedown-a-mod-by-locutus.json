@@ -1,0 +1,27 @@
+{
+  "id": "skynet-takedown-a-mod-by-locutus",
+  "kind": "extra",
+  "title": "Skynet takedown, a mod by Locutus",
+  "developer": [
+    "Anatol Kamynin"
+  ],
+  "description": "Changes in-game sounds, and adds background music",
+  "links": {
+    "agarchive": "https://www.agarchive.net/pages/devs/technoshock.html"
+  },
+  "sources": [
+    {
+      "platform": "windows",
+      "install": {
+        "method": "zip",
+        "extract_dir": "Technoshock Mod"
+      },
+      "label": "Mirror",
+      "url": "https://files.accessiblegames.net/files/3fffbae38c73bc4c45750bc8356219438a0c111ec8e04044240ddbaf8f2cee1a/skynet_takedown_mod_by_locutus.zip",
+      "sha256": "3fffbae38c73bc4c45750bc8356219438a0c111ec8e04044240ddbaf8f2cee1a",
+      "size": 103596541
+    }
+  ],
+  "extends": "technoshock",
+  "install_into": "technoshock"
+}

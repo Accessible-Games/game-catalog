@@ -1,0 +1,33 @@
+{
+  "id": "num-crunch",
+  "kind": "game",
+  "title": "Num Crunch",
+  "developer": [
+    "Lighttech Interactive"
+  ],
+  "flags": [
+    "abandoned"
+  ],
+  "links": {
+    "agarchive": "https://www.agarchive.net/pages/devs/lighttech.html"
+  },
+  "sources": [
+    {
+      "platform": "windows",
+      "install": {
+        "method": "installer",
+        "installer": {
+          "type": "other",
+          "mode": "run"
+        }
+      },
+      "label": "Mirror",
+      "url": "https://files.accessiblegames.net/files/8fc8298a90a378ba642ae8a583eafc98e35a7c6a0a301c362fb1ccbf13a9830f/num_crunch_setup.exe",
+      "sha256": "8fc8298a90a378ba642ae8a583eafc98e35a7c6a0a301c362fb1ccbf13a9830f",
+      "size": 20245243
+    }
+  ],
+  "dependencies": [
+    "com-audio-dependency"
+  ]
+}

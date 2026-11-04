@@ -1,0 +1,24 @@
+{
+  "id": "adventure-at-c-remnant",
+  "kind": "game",
+  "title": "Adventure at C: Remnant",
+  "developer": [
+    "VG Storm"
+  ],
+  "description": "Adventure at c: is VG Storm's first, and only free, title.\n\nWhen your computer becomes heavily infected, transform yourself into code and do battle with the infection yourself.\n\nThe game provides a custom stage creator, which has resulted in a large amount of community involvement. We are actively looking for adventure at c: stages, both old and new. If you have some and can share, please get in touch. The stages we have available will be packaged and listed below the game itself.\n\nThis is an expansive set of stages, designed as a sequel to the original game.\n\nOur copy is version 3.1.",
+  "links": {
+    "agarchive": "https://www.agarchive.net/pages/devs/vgstorm.html"
+  },
+  "sources": [
+    {
+      "platform": "windows",
+      "install": {
+        "method": "zip"
+      },
+      "label": "Mirror",
+      "url": "https://files.accessiblegames.net/files/526a27cf2942ec222cb5593a689f8d46456f7e5819e08c712303ae22cf22d265/Remnant_3.1.zip",
+      "sha256": "526a27cf2942ec222cb5593a689f8d46456f7e5819e08c712303ae22cf22d265",
+      "size": 246451965
+    }
+  ]
+}

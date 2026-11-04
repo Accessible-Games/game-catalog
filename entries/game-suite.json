@@ -1,0 +1,30 @@
+{
+  "id": "game-suite",
+  "kind": "game",
+  "title": "Game Suite",
+  "developer": [
+    "Sam Tupy"
+  ],
+  "flags": [
+    "abandoned"
+  ],
+  "links": {
+    "agarchive": "https://www.agarchive.net/pages/devs/samtupy.html"
+  },
+  "sources": [
+    {
+      "platform": "windows",
+      "install": {
+        "method": "installer",
+        "installer": {
+          "type": "inno",
+          "mode": "extract"
+        }
+      },
+      "label": "Mirror",
+      "url": "https://files.accessiblegames.net/files/e4a3b75dc12ba0162b247e79f52f4e337418c0ef45b6703a766d5ed5b5d3d211/game_suite_setup.exe",
+      "sha256": "e4a3b75dc12ba0162b247e79f52f4e337418c0ef45b6703a766d5ed5b5d3d211",
+      "size": 34562918
+    }
+  ]
+}

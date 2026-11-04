@@ -1,0 +1,26 @@
+{
+  "id": "tracks-and-cars-by-enes-deniz",
+  "kind": "extra",
+  "title": "Tracks and cars by Enes Deniz",
+  "developer": [
+    "Playing in the Dark"
+  ],
+  "description": "This is a package of two tracks and several cars. Descriptions for all of them are in the included readme file.",
+  "links": {
+    "agarchive": "https://www.agarchive.net/pages/devs/pitd.html"
+  },
+  "sources": [
+    {
+      "platform": "windows",
+      "install": {
+        "method": "7z"
+      },
+      "label": "Mirror",
+      "url": "https://files.accessiblegames.net/files/d71f29065236b075ed31fb304c8dafb5f74603144a6112e5372ab530f453e5be/TopSpeedContentByEnesDeniz.7z",
+      "sha256": "d71f29065236b075ed31fb304c8dafb5f74603144a6112e5372ab530f453e5be",
+      "size": 44749182
+    }
+  ],
+  "extends": "top-speed-3",
+  "install_into": "top-speed-3"
+}

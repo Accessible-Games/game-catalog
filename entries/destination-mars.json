@@ -1,0 +1,27 @@
+{
+  "id": "destination-mars",
+  "kind": "game",
+  "title": "Destination Mars",
+  "developer": [
+    "Richard De Steno"
+  ],
+  "description": "It's time to journey to the Red Planet... if you can find a way to survive the trip.",
+  "flags": [
+    "abandoned"
+  ],
+  "links": {
+    "agarchive": "https://www.agarchive.net/pages/devs/richardDeSteno.html"
+  },
+  "sources": [
+    {
+      "platform": "windows",
+      "install": {
+        "method": "zip"
+      },
+      "label": "Mirror",
+      "url": "https://files.accessiblegames.net/files/c3fceddafd909c7d7ae38cb21ca99c4a0d837881b93b1004abc2a3c9a78f5fef/destination_mars.zip",
+      "sha256": "c3fceddafd909c7d7ae38cb21ca99c4a0d837881b93b1004abc2a3c9a78f5fef",
+      "size": 2476283
+    }
+  ]
+}

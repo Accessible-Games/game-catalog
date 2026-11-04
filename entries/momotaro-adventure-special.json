@@ -1,0 +1,45 @@
+{
+  "id": "momotaro-adventure-special",
+  "kind": "game",
+  "title": "Momotaro Adventure Special",
+  "developer": [
+    "Morokuma"
+  ],
+  "description": "Same as Momotaro Adventure, only with MP3 music.",
+  "links": {
+    "agarchive": "https://www.agarchive.net/pages/devs/morokuma.html"
+  },
+  "sources": [
+    {
+      "label": "Developer site",
+      "url": "http://hirotaka2014.sakura.ne.jp/mh0406/game/mb_sp104.exe",
+      "platform": "windows",
+      "install": {
+        "method": "7z"
+      },
+      "sha256": "42f6ca9bacfb6806f4ce730156634c110a73b1d7ed76c8e3c0e0423d6d7522c9",
+      "size": 29395423
+    },
+    {
+      "platform": "windows",
+      "install": {
+        "method": "7z"
+      },
+      "label": "Mirror",
+      "url": "https://files.accessiblegames.net/files/42f6ca9bacfb6806f4ce730156634c110a73b1d7ed76c8e3c0e0423d6d7522c9/mb_sp104.exe",
+      "sha256": "42f6ca9bacfb6806f4ce730156634c110a73b1d7ed76c8e3c0e0423d6d7522c9",
+      "size": 29395423
+    },
+    {
+      "platform": "windows",
+      "install": {
+        "method": "7z",
+        "extract_dir": "“‘¾˜Y–`Œ¯‹L(“Á•Ê”Å)"
+      },
+      "label": "Mirror",
+      "url": "https://files.accessiblegames.net/files/baa2ccdcd3fd01f174f859fadc5b73bb3e759ee92d2a01744e3b26a22dea8629/momotaro_adventure_special.7z",
+      "sha256": "baa2ccdcd3fd01f174f859fadc5b73bb3e759ee92d2a01744e3b26a22dea8629",
+      "size": 29412158
+    }
+  ]
+}

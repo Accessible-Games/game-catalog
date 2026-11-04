@@ -1,0 +1,28 @@
+{
+  "id": "1812-heart-of-winter",
+  "kind": "game",
+  "title": "1812: Heart of Winter",
+  "developer": [
+    "various authors"
+  ],
+  "description": "In this highly atmospheric storygame, you take the role of a retired soldier when danger threatens.\n\nThis is one part of an intended multipart storyline.\n\nThe status of the later portions of the story is currently unknown, though abandonment is suspected. If you have any information regarding the development of the game, please let us know.",
+  "links": {
+    "agarchive": "https://www.agarchive.net/pages/devs/misc.html"
+  },
+  "sources": [
+    {
+      "platform": "windows",
+      "install": {
+        "method": "installer",
+        "installer": {
+          "type": "nsis",
+          "mode": "extract"
+        }
+      },
+      "label": "Mirror",
+      "url": "https://files.accessiblegames.net/files/3c12eb22296ce49c1cc3eadfbfced757084c7c79a462927d5e907a23f42bee95/1812_Heart_of_Winter_Install.exe",
+      "sha256": "3c12eb22296ce49c1cc3eadfbfced757084c7c79a462927d5e907a23f42bee95",
+      "size": 73059864
+    }
+  ]
+}

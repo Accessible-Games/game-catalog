@@ -1,0 +1,25 @@
+{
+  "id": "face-the-devil-the-joker-s-wild-game-show-bonus-game",
+  "kind": "game",
+  "title": "Face the Devil, The Joker's Wild Game Show Bonus Game",
+  "developer": [
+    "Jage Meddaugh"
+  ],
+  "description": "This is an adaptation of the bonus game from the Joker's Wild game show. See if you can reach $1000 without landing on the dreaded devil!",
+  "links": {
+    "agarchive": "https://www.agarchive.net/pages/devs/jage.html"
+  },
+  "sources": [
+    {
+      "platform": "windows",
+      "install": {
+        "method": "zip",
+        "extract_dir": "The Joker's Wild"
+      },
+      "label": "Mirror",
+      "url": "https://files.accessiblegames.net/files/124ec0c0f769038be4f2a99e02931e6c09585eaf4db37d8f021d82b5615a6b57/the-joker_s-wild.zip",
+      "sha256": "124ec0c0f769038be4f2a99e02931e6c09585eaf4db37d8f021d82b5615a6b57",
+      "size": 1811099
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "id": "challenge-of-the-horse",
+  "kind": "game",
+  "title": "Challenge of the Horse",
+  "developer": [
+    "various authors"
+  ],
+  "description": "An endless runner-style game, in which you dodge platforms and jump obstacles.",
+  "flags": [
+    "abandoned"
+  ],
+  "links": {
+    "agarchive": "https://www.agarchive.net/pages/devs/misc.html"
+  },
+  "sources": [
+    {
+      "platform": "windows",
+      "install": {
+        "method": "zip"
+      },
+      "label": "Mirror",
+      "url": "https://files.accessiblegames.net/files/7479254fc8187da47866410f0af5415e63a483534cca4d4e7bec1007b4158144/challengeOfTheHorse.zip",
+      "sha256": "7479254fc8187da47866410f0af5415e63a483534cca4d4e7bec1007b4158144",
+      "size": 5176987
+    }
+  ]
+}

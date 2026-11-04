@@ -1,0 +1,23 @@
+{
+  "id": "danger-on-the-wheel",
+  "kind": "game",
+  "title": "Danger on the wheel",
+  "developer": [
+    "Oriol Gomez"
+  ],
+  "links": {
+    "agarchive": "https://www.agarchive.net/pages/devs/oriolgomez.html"
+  },
+  "sources": [
+    {
+      "platform": "windows",
+      "install": {
+        "method": "zip"
+      },
+      "label": "Mirror",
+      "url": "https://files.accessiblegames.net/files/9a1a291783a8b1a7d42cbfe3e079cd5a40b3bbf3e432ae4ad5f3d5191f45066b/danger_on_the_wheel.zip",
+      "sha256": "9a1a291783a8b1a7d42cbfe3e079cd5a40b3bbf3e432ae4ad5f3d5191f45066b",
+      "size": 38988005
+    }
+  ]
+}

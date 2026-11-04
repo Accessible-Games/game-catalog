@@ -1,0 +1,44 @@
+{
+  "id": "world-of-war-english-version",
+  "kind": "game",
+  "title": "World of War, English version",
+  "developer": [
+    "Nyanchan Games"
+  ],
+  "links": {
+    "agarchive": "https://www.agarchive.net/pages/devs/nyanchan.html"
+  },
+  "sources": [
+    {
+      "label": "Developer site",
+      "url": "http://www.nyanchangames.com/softs/wSetup_en.exe",
+      "platform": "windows",
+      "install": {
+        "method": "7z"
+      },
+      "sha256": "05f19bdbb0a235ae9fe7c1f682f514c46ae6d9d7682883e5f1dbc883c1d56425",
+      "size": 51485822
+    },
+    {
+      "platform": "windows",
+      "install": {
+        "method": "7z"
+      },
+      "label": "Mirror",
+      "url": "https://files.accessiblegames.net/files/05f19bdbb0a235ae9fe7c1f682f514c46ae6d9d7682883e5f1dbc883c1d56425/wSetup_en.exe",
+      "sha256": "05f19bdbb0a235ae9fe7c1f682f514c46ae6d9d7682883e5f1dbc883c1d56425",
+      "size": 51485822
+    },
+    {
+      "platform": "windows",
+      "install": {
+        "method": "7z",
+        "extract_dir": "world of war English"
+      },
+      "label": "Mirror",
+      "url": "https://files.accessiblegames.net/files/da5751a9d2472519812c1b251c3c47836d06225d1e1e48c92845c82f43594054/world_of_war_English.7z",
+      "sha256": "da5751a9d2472519812c1b251c3c47836d06225d1e1e48c92845c82f43594054",
+      "size": 51415859
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "id": "heli-battle-copters",
+  "kind": "game",
+  "title": "Heli (battle copters)",
+  "developer": [
+    "Dreamtech games."
+  ],
+  "description": "Take your newly bought battle copter to the skies of your living room and try to shoot down your friend!",
+  "links": {
+    "agarchive": "https://www.agarchive.net/pages/devs/dreamtech.html"
+  },
+  "sources": [
+    {
+      "platform": "windows",
+      "install": {
+        "method": "zip",
+        "extract_dir": "heli"
+      },
+      "label": "Mirror",
+      "url": "https://files.accessiblegames.net/files/e731b4271111ad42dd7d9a5d150d0a50bef63489532b8bc2616589563d769deb/heli.zip",
+      "sha256": "e731b4271111ad42dd7d9a5d150d0a50bef63489532b8bc2616589563d769deb",
+      "size": 10089092
+    }
+  ]
+}

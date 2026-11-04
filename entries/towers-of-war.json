@@ -1,0 +1,23 @@
+{
+  "id": "towers-of-war",
+  "kind": "game",
+  "title": "Towers of War",
+  "developer": [
+    "Aprone"
+  ],
+  "links": {
+    "agarchive": "https://www.agarchive.net/pages/devs/aprone.html"
+  },
+  "sources": [
+    {
+      "platform": "windows",
+      "install": {
+        "method": "zip"
+      },
+      "label": "Mirror",
+      "url": "https://files.accessiblegames.net/files/b7a18a496a2bd9c73d8c22491f3e7c176a75a00b27ea65e654dec2e1014936e7/towers_of_war.zip",
+      "sha256": "b7a18a496a2bd9c73d8c22491f3e7c176a75a00b27ea65e654dec2e1014936e7",
+      "size": 15044718
+    }
+  ]
+}

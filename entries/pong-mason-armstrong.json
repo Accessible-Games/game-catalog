@@ -1,0 +1,24 @@
+{
+  "id": "pong-mason-armstrong",
+  "kind": "game",
+  "title": "Pong",
+  "developer": [
+    "Mason Armstrong"
+  ],
+  "links": {
+    "agarchive": "https://www.agarchive.net/pages/devs/mason.html"
+  },
+  "sources": [
+    {
+      "platform": "windows",
+      "install": {
+        "method": "zip",
+        "extract_dir": "SWPong"
+      },
+      "label": "Mirror",
+      "url": "https://files.accessiblegames.net/files/5ca6d5e77645ac228bb4d4a4c9dc3a3522b12c83b2641ad71efd9e2fddb0d20c/pong.zip",
+      "sha256": "5ca6d5e77645ac228bb4d4a4c9dc3a3522b12c83b2641ad71efd9e2fddb0d20c",
+      "size": 12847435
+    }
+  ]
+}

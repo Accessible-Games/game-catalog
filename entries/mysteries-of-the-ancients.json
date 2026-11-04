@@ -1,0 +1,30 @@
+{
+  "id": "mysteries-of-the-ancients",
+  "kind": "game",
+  "title": "Mysteries of the ancients",
+  "developer": [
+    "USA Games"
+  ],
+  "flags": [
+    "abandoned"
+  ],
+  "links": {
+    "agarchive": "https://www.agarchive.net/pages/devs/usa.html"
+  },
+  "sources": [
+    {
+      "platform": "windows",
+      "install": {
+        "method": "installer",
+        "installer": {
+          "type": "inno",
+          "mode": "extract"
+        }
+      },
+      "label": "Mirror",
+      "url": "https://files.accessiblegames.net/files/4e77204fb3c4c3830f0f156ef4a3b8d7be62a93fd581ff07731a6ae633410c7f/MOTA-Beta22.exe",
+      "sha256": "4e77204fb3c4c3830f0f156ef4a3b8d7be62a93fd581ff07731a6ae633410c7f",
+      "size": 205002647
+    }
+  ]
+}

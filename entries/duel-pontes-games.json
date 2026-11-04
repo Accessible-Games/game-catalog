@@ -1,0 +1,44 @@
+{
+  "id": "duel-pontes-games",
+  "kind": "game",
+  "title": "Duel",
+  "developer": [
+    "Pontes Games"
+  ],
+  "flags": [
+    "multiplayer"
+  ],
+  "links": {
+    "agarchive": "https://www.agarchive.net/pages/devs/pontes.html"
+  },
+  "sources": [
+    {
+      "label": "Developer site",
+      "url": "http://www.pontes.ro/ro/divertisment/games/pd/Pontes-Duel-setup.exe",
+      "platform": "windows",
+      "install": {
+        "method": "installer",
+        "installer": {
+          "type": "inno",
+          "mode": "extract"
+        }
+      },
+      "sha256": "868879907df5ced450319e3cb971977e61e176a1a095496d675b7b966fa0e0cc",
+      "size": 8508813
+    },
+    {
+      "platform": "windows",
+      "install": {
+        "method": "installer",
+        "installer": {
+          "type": "inno",
+          "mode": "extract"
+        }
+      },
+      "label": "Mirror",
+      "url": "https://files.accessiblegames.net/files/868879907df5ced450319e3cb971977e61e176a1a095496d675b7b966fa0e0cc/Pontes-Duel-setup.exe",
+      "sha256": "868879907df5ced450319e3cb971977e61e176a1a095496d675b7b966fa0e0cc",
+      "size": 8508813
+    }
+  ]
+}

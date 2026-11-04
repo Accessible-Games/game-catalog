@@ -1,0 +1,47 @@
+{
+  "id": "maze-game-patches",
+  "kind": "extra",
+  "title": "Maze Game Patches",
+  "developer": [
+    "TDL Games"
+  ],
+  "description": "a pair of update patches for the maze game. Their affect is somewhat unclear; if you know specifically what these do, please get in touch",
+  "flags": [
+    "abandoned"
+  ],
+  "links": {
+    "agarchive": "https://www.agarchive.net/pages/devs/tdl.html"
+  },
+  "sources": [
+    {
+      "platform": "windows",
+      "install": {
+        "method": "installer",
+        "installer": {
+          "type": "inno",
+          "mode": "extract"
+        }
+      },
+      "label": "Mirror",
+      "url": "https://files.accessiblegames.net/files/6fa31cd27e60e64479ca8570d085f6eb0ecf0fd7e2769b45a558347cf446d7f2/maze_game_patch_1.exe",
+      "sha256": "6fa31cd27e60e64479ca8570d085f6eb0ecf0fd7e2769b45a558347cf446d7f2",
+      "size": 489616
+    },
+    {
+      "platform": "windows",
+      "install": {
+        "method": "installer",
+        "installer": {
+          "type": "inno",
+          "mode": "extract"
+        }
+      },
+      "label": "Mirror",
+      "url": "https://files.accessiblegames.net/files/ddadb455c36dd2f86db82b9b9cdf8917f0acb058dc27eee3d4cfe928d51800bd/maze_game_patch_2.exe",
+      "sha256": "ddadb455c36dd2f86db82b9b9cdf8917f0acb058dc27eee3d4cfe928d51800bd",
+      "size": 453873
+    }
+  ],
+  "extends": "the-maze-game",
+  "install_into": "the-maze-game"
+}

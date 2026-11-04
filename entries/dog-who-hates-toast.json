@@ -1,0 +1,33 @@
+{
+  "id": "dog-who-hates-toast",
+  "kind": "game",
+  "title": "Dog Who Hates Toast",
+  "developer": [
+    "Aprone"
+  ],
+  "links": {
+    "agarchive": "https://www.agarchive.net/pages/devs/aprone.html"
+  },
+  "sources": [
+    {
+      "label": "Developer site",
+      "url": "https://www.kaldobsky.com/audiogames/dogwhohatestoast.zip",
+      "platform": "windows",
+      "install": {
+        "method": "zip"
+      },
+      "sha256": "333a3543f198b75e9fcb93880666fc67ee10cfff4ef0ef6e2add4f5533902e69",
+      "size": 1408933
+    },
+    {
+      "platform": "windows",
+      "install": {
+        "method": "zip"
+      },
+      "label": "Mirror",
+      "url": "https://files.accessiblegames.net/files/333a3543f198b75e9fcb93880666fc67ee10cfff4ef0ef6e2add4f5533902e69/dogwhohatestoast.zip",
+      "sha256": "333a3543f198b75e9fcb93880666fc67ee10cfff4ef0ef6e2add4f5533902e69",
+      "size": 1408933
+    }
+  ]
+}

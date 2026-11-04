@@ -1,0 +1,26 @@
+{
+  "id": "duck-hunter",
+  "kind": "game",
+  "title": "Duck Hunter",
+  "developer": [
+    "various authors"
+  ],
+  "flags": [
+    "abandoned"
+  ],
+  "links": {
+    "agarchive": "https://www.agarchive.net/pages/devs/misc.html"
+  },
+  "sources": [
+    {
+      "platform": "windows",
+      "install": {
+        "method": "none"
+      },
+      "label": "Mirror",
+      "url": "https://files.accessiblegames.net/files/f65bbcdec943df75bf6317defc15b9771f7091615b3921f52ae2169f40ca134b/duckhunter.exe",
+      "sha256": "f65bbcdec943df75bf6317defc15b9771f7091615b3921f52ae2169f40ca134b",
+      "size": 3112960
+    }
+  ]
+}

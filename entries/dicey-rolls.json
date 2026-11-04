@@ -1,0 +1,27 @@
+{
+  "id": "dicey-rolls",
+  "kind": "game",
+  "title": "Dicey Rolls",
+  "developer": [
+    "Richard De Steno"
+  ],
+  "description": "A small dice game, with a few twists.",
+  "flags": [
+    "abandoned"
+  ],
+  "links": {
+    "agarchive": "https://www.agarchive.net/pages/devs/richardDeSteno.html"
+  },
+  "sources": [
+    {
+      "platform": "windows",
+      "install": {
+        "method": "zip"
+      },
+      "label": "Mirror",
+      "url": "https://files.accessiblegames.net/files/1f9a3b75294cfb3a31b9489a69aa4d3648ae73693a893a431d82e94f6f1d97f3/dicey_rolls.zip",
+      "sha256": "1f9a3b75294cfb3a31b9489a69aa4d3648ae73693a893a431d82e94f6f1d97f3",
+      "size": 599257
+    }
+  ]
+}

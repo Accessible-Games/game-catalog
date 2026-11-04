@@ -1,0 +1,46 @@
+{
+  "id": "ultimate-soundoku",
+  "kind": "game",
+  "title": "Ultimate Soundoku",
+  "developer": [
+    "Draconis Entertainment"
+  ],
+  "flags": [
+    "demo",
+    "requires-registration"
+  ],
+  "links": {
+    "homepage": "http://dracoent.com/Windows/UltimateSounDoku",
+    "agarchive": "https://www.agarchive.net/pages/devs/draconis.html"
+  },
+  "sources": [
+    {
+      "label": "Developer site",
+      "url": "http://download.dracoent.com/Windows/classic/USSetup.exe",
+      "platform": "windows",
+      "install": {
+        "method": "installer",
+        "installer": {
+          "type": "inno",
+          "mode": "extract"
+        }
+      },
+      "sha256": "42730a70afa747f8ea3a78655d99127e58c616d3be27c7e4492c297f8a3dd378",
+      "size": 25872876
+    },
+    {
+      "platform": "windows",
+      "install": {
+        "method": "installer",
+        "installer": {
+          "type": "inno",
+          "mode": "extract"
+        }
+      },
+      "label": "Mirror",
+      "url": "https://files.accessiblegames.net/files/42730a70afa747f8ea3a78655d99127e58c616d3be27c7e4492c297f8a3dd378/USSetup.exe",
+      "sha256": "42730a70afa747f8ea3a78655d99127e58c616d3be27c7e4492c297f8a3dd378",
+      "size": 25872876
+    }
+  ]
+}

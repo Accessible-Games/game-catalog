@@ -1,0 +1,28 @@
+{
+  "id": "com-audio-dependency",
+  "kind": "runtime",
+  "title": "Com Audio Dependency",
+  "developer": [
+    "Lighttech Interactive"
+  ],
+  "description": "This package contains components required by some lighttech products.\n\nIf you are having difficulty playing their games or are noticing issues, this may be worth a shot.",
+  "links": {
+    "agarchive": "https://www.agarchive.net/pages/devs/lighttech.html"
+  },
+  "sources": [
+    {
+      "platform": "windows",
+      "install": {
+        "method": "installer",
+        "installer": {
+          "type": "inno",
+          "mode": "extract"
+        }
+      },
+      "label": "Mirror",
+      "url": "https://files.accessiblegames.net/files/588d3ed189c96c4ca7e16cda8b6010593fd200851d7713e937bba3cb9fdcc2d2/com_audio_installer.exe",
+      "sha256": "588d3ed189c96c4ca7e16cda8b6010593fd200851d7713e937bba3cb9fdcc2d2",
+      "size": 522273
+    }
+  ]
+}

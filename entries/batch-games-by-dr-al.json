@@ -1,0 +1,25 @@
+{
+  "id": "batch-games-by-dr-al",
+  "kind": "game",
+  "title": "Batch games by Dr_Al_",
+  "developer": [
+    "various authors"
+  ],
+  "description": "This is a collection of two games and a Portal-inspired personality quiz, written purely in Windows batch scripting.\n\nMost notable is the zombie apocalypse exploration game Lands of Death: pick from several starting classes, manage your resources, upgrade skills and equipment, and try to uncover the reason behind the plague.",
+  "links": {
+    "homepage": "https://doctoral.weebly.com/batch-games.html",
+    "agarchive": "https://www.agarchive.net/pages/devs/misc.html"
+  },
+  "sources": [
+    {
+      "platform": "windows",
+      "install": {
+        "method": "7z"
+      },
+      "label": "Mirror",
+      "url": "https://files.accessiblegames.net/files/83ba283ac3e5a153951cebb5c98cbf6615a721c007368303de3cf4c950069b95/batchGamesByDr_Al.7z",
+      "sha256": "83ba283ac3e5a153951cebb5c98cbf6615a721c007368303de3cf4c950069b95",
+      "size": 40588
+    }
+  ]
+}

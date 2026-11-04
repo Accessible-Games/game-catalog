@@ -1,0 +1,42 @@
+{
+  "id": "traders-of-known-space",
+  "kind": "game",
+  "title": "Traders of Known Space",
+  "developer": [
+    "Valiant Galaxy Associates"
+  ],
+  "links": {
+    "homepage": "http://valiantgalaxy.com/tks/index.html",
+    "agarchive": "https://www.agarchive.net/pages/devs/vga.html"
+  },
+  "sources": [
+    {
+      "label": "Developer site",
+      "url": "http://valiantgalaxy.com/tks/tradersOfKnownSpace0.0.0.5Installer.exe",
+      "platform": "windows",
+      "install": {
+        "method": "installer",
+        "installer": {
+          "type": "inno",
+          "mode": "extract"
+        }
+      },
+      "sha256": "ffccb076cb31b30fc11367a48f977ef1417e02de37f3d79631355611b8aeb67d",
+      "size": 63206774
+    },
+    {
+      "platform": "windows",
+      "install": {
+        "method": "installer",
+        "installer": {
+          "type": "inno",
+          "mode": "extract"
+        }
+      },
+      "label": "Mirror",
+      "url": "https://files.accessiblegames.net/files/ffccb076cb31b30fc11367a48f977ef1417e02de37f3d79631355611b8aeb67d/tradersOfKnownSpace0.0.0.5Installer.exe",
+      "sha256": "ffccb076cb31b30fc11367a48f977ef1417e02de37f3d79631355611b8aeb67d",
+      "size": 63206774
+    }
+  ]
+}

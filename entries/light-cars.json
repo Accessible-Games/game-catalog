@@ -1,0 +1,33 @@
+{
+  "id": "light-cars",
+  "kind": "game",
+  "title": "Light Cars",
+  "developer": [
+    "Lighttech Interactive"
+  ],
+  "flags": [
+    "abandoned"
+  ],
+  "links": {
+    "agarchive": "https://www.agarchive.net/pages/devs/lighttech.html"
+  },
+  "sources": [
+    {
+      "platform": "windows",
+      "install": {
+        "method": "installer",
+        "installer": {
+          "type": "other",
+          "mode": "run"
+        }
+      },
+      "label": "Mirror",
+      "url": "https://files.accessiblegames.net/files/6aed8d39ba674430d7ba348bebae807a5b23cc2501fa4c2e445f6331d6212d29/light_cars_setup.exe",
+      "sha256": "6aed8d39ba674430d7ba348bebae807a5b23cc2501fa4c2e445f6331d6212d29",
+      "size": 42911676
+    }
+  ],
+  "dependencies": [
+    "com-audio-dependency"
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "id": "dreamy-train",
+  "kind": "game",
+  "title": "Dreamy Train",
+  "developer": [
+    "Galaxy Laboratory"
+  ],
+  "description": "Essentially an upgraded version of Hachamecha de train with many more features and the ability for translation.",
+  "flags": [
+    "requires-registration"
+  ],
+  "links": {
+    "agarchive": "https://www.agarchive.net/pages/devs/GalaxyLaboratory.html"
+  },
+  "sources": [
+    {
+      "label": "Developer site",
+      "url": "http://www.mm-galabo.com/dlc/dlc.php?url=dreamy_train_setup.exe",
+      "platform": "windows",
+      "install": {
+        "method": "installer",
+        "installer": {
+          "type": "inno",
+          "mode": "extract"
+        }
+      },
+      "sha256": "2c95a72e636fec21f181e51d5cb4eda8dcbd38aee39b515011d3022302449f38",
+      "size": 1022081328
+    },
+    {
+      "platform": "windows",
+      "install": {
+        "method": "installer",
+        "installer": {
+          "type": "inno",
+          "mode": "extract"
+        }
+      },
+      "label": "Mirror",
+      "url": "https://files.accessiblegames.net/files/2c95a72e636fec21f181e51d5cb4eda8dcbd38aee39b515011d3022302449f38/dlc.exe",
+      "sha256": "2c95a72e636fec21f181e51d5cb4eda8dcbd38aee39b515011d3022302449f38",
+      "size": 1022081328
+    },
+    {
+      "platform": "windows",
+      "install": {
+        "method": "installer",
+        "installer": {
+          "type": "inno",
+          "mode": "extract"
+        }
+      },
+      "label": "Mirror",
+      "url": "https://files.accessiblegames.net/files/5376cb5d5c9a49146f5ed28477de6ec213ecfb38f9b0672a46d6b510f55a059c/dreamy_train_setup.exe",
+      "sha256": "5376cb5d5c9a49146f5ed28477de6ec213ecfb38f9b0672a46d6b510f55a059c",
+      "size": 268528263
+    }
+  ]
+}

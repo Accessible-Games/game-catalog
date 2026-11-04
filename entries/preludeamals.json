@@ -1,0 +1,34 @@
+{
+  "id": "preludeamals",
+  "kind": "game",
+  "title": "Preludeamals",
+  "developer": [
+    "Aprone"
+  ],
+  "description": "In this engineering prequel to Lunimals, test the robot arms used in the lunar domes by designing courses for them to follow in order to reach various goals.",
+  "links": {
+    "agarchive": "https://www.agarchive.net/pages/devs/aprone.html"
+  },
+  "sources": [
+    {
+      "label": "Developer site",
+      "url": "https://www.kaldobsky.com/audiogames/Preludeamals.zip",
+      "platform": "windows",
+      "install": {
+        "method": "zip"
+      },
+      "sha256": "43299f2891a744b2ede45f41469655a56c9a7d7179a3b546023bd13f43dd5938",
+      "size": 45335387
+    },
+    {
+      "platform": "windows",
+      "install": {
+        "method": "zip"
+      },
+      "label": "Mirror",
+      "url": "https://files.accessiblegames.net/files/43299f2891a744b2ede45f41469655a56c9a7d7179a3b546023bd13f43dd5938/Preludeamals.zip",
+      "sha256": "43299f2891a744b2ede45f41469655a56c9a7d7179a3b546023bd13f43dd5938",
+      "size": 45335387
+    }
+  ]
+}

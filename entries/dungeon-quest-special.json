@@ -1,0 +1,25 @@
+{
+  "id": "dungeon-quest-special",
+  "kind": "game",
+  "title": "Dungeon Quest Special",
+  "developer": [
+    "Morokuma"
+  ],
+  "description": "Same as dungeon quest, but uses MP3 music instead of midi. Is no longer hosted on the developer's website.",
+  "links": {
+    "agarchive": "https://www.agarchive.net/pages/devs/morokuma.html"
+  },
+  "sources": [
+    {
+      "platform": "windows",
+      "install": {
+        "method": "7z",
+        "extract_dir": "Dungeon Quest MP3 Version"
+      },
+      "label": "Mirror",
+      "url": "https://files.accessiblegames.net/files/3abb506580c96b567319ff84ed6535bef3122b478f7c6f472047f4ddae1f9b54/dungeon_quest_special.7z",
+      "sha256": "3abb506580c96b567319ff84ed6535bef3122b478f7c6f472047f4ddae1f9b54",
+      "size": 46425214
+    }
+  ]
+}

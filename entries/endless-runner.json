@@ -1,0 +1,24 @@
+{
+  "id": "endless-runner",
+  "kind": "game",
+  "title": "Endless Runner",
+  "developer": [
+    "Mason Armstrong"
+  ],
+  "description": "Run along an endless platform, while doing your best to avoid customizable obstacles.",
+  "links": {
+    "agarchive": "https://www.agarchive.net/pages/devs/mason.html"
+  },
+  "sources": [
+    {
+      "platform": "windows",
+      "install": {
+        "method": "zip"
+      },
+      "label": "Mirror",
+      "url": "https://files.accessiblegames.net/files/d4856dd30d8dbc0cf104ab59dd0f1ffbcb60bf6632ef7ce94f60ceda80a69c9a/EndlessRunner.zip",
+      "sha256": "d4856dd30d8dbc0cf104ab59dd0f1ffbcb60bf6632ef7ce94f60ceda80a69c9a",
+      "size": 15202285
+    }
+  ]
+}

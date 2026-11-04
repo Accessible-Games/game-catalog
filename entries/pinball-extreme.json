@@ -1,0 +1,47 @@
+{
+  "id": "pinball-extreme",
+  "kind": "game",
+  "title": "Pinball extreme",
+  "developer": [
+    "Draconis Entertainment"
+  ],
+  "description": "an improved version of the clasic game with more tables, more chaos, and more fun!",
+  "flags": [
+    "demo",
+    "requires-registration"
+  ],
+  "links": {
+    "homepage": "http://dracoent.com/Windows/ESPPinballXtreme",
+    "agarchive": "https://www.agarchive.net/pages/devs/draconis.html"
+  },
+  "sources": [
+    {
+      "label": "Developer site",
+      "url": "http://download.dracoent.com/Windows/classic/PBXSetup.exe",
+      "platform": "windows",
+      "install": {
+        "method": "installer",
+        "installer": {
+          "type": "inno",
+          "mode": "extract"
+        }
+      },
+      "sha256": "7291c4d4291e9b3835cb0dbd4b9deed0cfb2e2261af35baae529dd28d3c744ff",
+      "size": 67056174
+    },
+    {
+      "platform": "windows",
+      "install": {
+        "method": "installer",
+        "installer": {
+          "type": "inno",
+          "mode": "extract"
+        }
+      },
+      "label": "Mirror",
+      "url": "https://files.accessiblegames.net/files/7291c4d4291e9b3835cb0dbd4b9deed0cfb2e2261af35baae529dd28d3c744ff/PBXSetup.exe",
+      "sha256": "7291c4d4291e9b3835cb0dbd4b9deed0cfb2e2261af35baae529dd28d3c744ff",
+      "size": 67056174
+    }
+  ]
+}

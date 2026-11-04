@@ -1,0 +1,28 @@
+{
+  "id": "death-match-a-new-beginning",
+  "kind": "game",
+  "title": "Death Match: a New Beginning",
+  "developer": [
+    "Reality Software"
+  ],
+  "description": "This was a multiplayer game set in the world of Death Match Project Alpha. It was originally released in client form to be played on a central server, but versions of that server were made available for download.\n\nThis package is widely considered to be unstable, including by the developer, and is entirely unsupported. When (not if) you encounter issues, you are on your own. For best results, a Linux system with significant system resources is recommended.",
+  "flags": [
+    "abandoned"
+  ],
+  "links": {
+    "agarchive": "https://www.agarchive.net/pages/devs/realitySoftware.html"
+  },
+  "sources": [
+    {
+      "platform": "windows",
+      "install": {
+        "method": "7z",
+        "extract_dir": "dmnb"
+      },
+      "label": "Mirror",
+      "url": "https://files.accessiblegames.net/files/038c0a45d23d99bb7f6143e02abc6d698b8937310f1d0773c2e6f6436d41b8ec/dmnb.7z",
+      "sha256": "038c0a45d23d99bb7f6143e02abc6d698b8937310f1d0773c2e6f6436d41b8ec",
+      "size": 14995397
+    }
+  ]
+}

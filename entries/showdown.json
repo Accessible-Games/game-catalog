@@ -1,0 +1,30 @@
+{
+  "id": "showdown",
+  "kind": "game",
+  "title": "Showdown",
+  "developer": [
+    "PB Games"
+  ],
+  "flags": [
+    "abandoned"
+  ],
+  "links": {
+    "agarchive": "https://www.agarchive.net/pages/devs/pb.html"
+  },
+  "sources": [
+    {
+      "platform": "windows",
+      "install": {
+        "method": "installer",
+        "installer": {
+          "type": "inno",
+          "mode": "extract"
+        }
+      },
+      "label": "Mirror",
+      "url": "https://files.accessiblegames.net/files/3035920d6dd4a9851ca13cd76a590e1f979612e6990581941f631369162d77df/Showdown-Setup.exe",
+      "sha256": "3035920d6dd4a9851ca13cd76a590e1f979612e6990581941f631369162d77df",
+      "size": 14950521
+    }
+  ]
+}

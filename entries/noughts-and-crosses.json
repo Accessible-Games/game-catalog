@@ -1,0 +1,30 @@
+{
+  "id": "noughts-and-crosses",
+  "kind": "game",
+  "title": "Noughts and Crosses",
+  "developer": [
+    "Simon Cowan"
+  ],
+  "flags": [
+    "abandoned"
+  ],
+  "links": {
+    "agarchive": "https://www.agarchive.net/pages/devs/simonCowan.html"
+  },
+  "sources": [
+    {
+      "platform": "windows",
+      "install": {
+        "method": "installer",
+        "installer": {
+          "type": "inno",
+          "mode": "extract"
+        }
+      },
+      "label": "Mirror",
+      "url": "https://files.accessiblegames.net/files/b8a83f0e31ce7133b764a8a26d291bee7cb4ff69a1a83ebdda81bbc6bfd60800/noughts_and_crosses_setup.exe",
+      "sha256": "b8a83f0e31ce7133b764a8a26d291bee7cb4ff69a1a83ebdda81bbc6bfd60800",
+      "size": 401096
+    }
+  ]
+}

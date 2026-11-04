@@ -1,0 +1,48 @@
+{
+  "id": "castaways-2-beta",
+  "kind": "game",
+  "title": "Castaways 2 beta",
+  "developer": [
+    "Aprone"
+  ],
+  "description": "Note that as of the time of this writing, the status of Castaways 2 is unknown. If you have any more information, please get in touch.",
+  "flags": [
+    "beta",
+    "multiplayer"
+  ],
+  "links": {
+    "agarchive": "https://www.agarchive.net/pages/devs/aprone.html"
+  },
+  "sources": [
+    {
+      "label": "Developer site",
+      "url": "https://www.kaldobsky.com/audiogames/castaways2beta.zip",
+      "platform": "windows",
+      "install": {
+        "method": "zip"
+      },
+      "sha256": "79199229668c70a52d93405a2f23a410b6190eac96cc927dd592d57008c59e12",
+      "size": 46737611
+    },
+    {
+      "platform": "windows",
+      "install": {
+        "method": "zip"
+      },
+      "label": "Mirror",
+      "url": "https://files.accessiblegames.net/files/79199229668c70a52d93405a2f23a410b6190eac96cc927dd592d57008c59e12/castaways2beta.zip",
+      "sha256": "79199229668c70a52d93405a2f23a410b6190eac96cc927dd592d57008c59e12",
+      "size": 46737611
+    },
+    {
+      "platform": "windows",
+      "install": {
+        "method": "zip"
+      },
+      "label": "Mirror",
+      "url": "https://files.accessiblegames.net/files/1ade9db23fc60858cabc399f91c449dc4b4e5b95fb04492774fc68d290daef71/castaways2beta.zip",
+      "sha256": "1ade9db23fc60858cabc399f91c449dc4b4e5b95fb04492774fc68d290daef71",
+      "size": 46768679
+    }
+  ]
+}

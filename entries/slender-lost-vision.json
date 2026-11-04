@@ -1,0 +1,47 @@
+{
+  "id": "slender-lost-vision",
+  "kind": "game",
+  "title": "Slender: Lost Vision",
+  "developer": [
+    "Talon"
+  ],
+  "links": {
+    "homepage": "https://iamtalon.me/slender/",
+    "agarchive": "https://www.agarchive.net/pages/devs/talon.html"
+  },
+  "sources": [
+    {
+      "label": "Developer site",
+      "url": "https://iamtalon.me/games/slender.zip",
+      "platform": "windows",
+      "install": {
+        "method": "zip",
+        "extract_dir": "slender"
+      },
+      "sha256": "86f575906c729e820f2544f69a61edccc85ce7cbb9d53b48cf2b299dd2d3d2fb",
+      "size": 71287627
+    },
+    {
+      "platform": "windows",
+      "install": {
+        "method": "zip",
+        "extract_dir": "slender"
+      },
+      "label": "Mirror",
+      "url": "https://files.accessiblegames.net/files/86f575906c729e820f2544f69a61edccc85ce7cbb9d53b48cf2b299dd2d3d2fb/slender.zip",
+      "sha256": "86f575906c729e820f2544f69a61edccc85ce7cbb9d53b48cf2b299dd2d3d2fb",
+      "size": 71287627
+    },
+    {
+      "platform": "windows",
+      "install": {
+        "method": "zip",
+        "extract_dir": "Slender"
+      },
+      "label": "Mirror",
+      "url": "https://files.accessiblegames.net/files/bd2f361f9c6c552a4fd43f1a7a3017daa33f24889e88e8f9dbc77258c00d815f/Slender_Lost_Vision.zip",
+      "sha256": "bd2f361f9c6c552a4fd43f1a7a3017daa33f24889e88e8f9dbc77258c00d815f",
+      "size": 72303714
+    }
+  ]
+}

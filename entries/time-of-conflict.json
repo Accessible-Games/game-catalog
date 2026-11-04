@@ -1,0 +1,47 @@
+{
+  "id": "time-of-conflict",
+  "kind": "game",
+  "title": "Time of Conflict",
+  "developer": [
+    "GMA Games"
+  ],
+  "description": "For lovers of war games and strategy. Move a dozen types of unit over both water and land areas to defeat the enemy. Enjoy playing against the computer or join in an online battle.",
+  "flags": [
+    "demo",
+    "requires-registration"
+  ],
+  "links": {
+    "homepage": "http://www.gmagames.com/toc2.shtml",
+    "agarchive": "https://www.agarchive.net/pages/devs/gma.html"
+  },
+  "sources": [
+    {
+      "label": "Developer site",
+      "url": "http://www.gmagames.com/toc20102.exe",
+      "platform": "windows",
+      "install": {
+        "method": "installer",
+        "installer": {
+          "type": "inno",
+          "mode": "extract"
+        }
+      },
+      "sha256": "8c25d75bb14f3c9088d0351308a6f8f6335c0c20fd0bd22ea6350b0c53898064",
+      "size": 24450699
+    },
+    {
+      "platform": "windows",
+      "install": {
+        "method": "installer",
+        "installer": {
+          "type": "inno",
+          "mode": "extract"
+        }
+      },
+      "label": "Mirror",
+      "url": "https://files.accessiblegames.net/files/8c25d75bb14f3c9088d0351308a6f8f6335c0c20fd0bd22ea6350b0c53898064/toc20102.exe",
+      "sha256": "8c25d75bb14f3c9088d0351308a6f8f6335c0c20fd0bd22ea6350b0c53898064",
+      "size": 24450699
+    }
+  ]
+}

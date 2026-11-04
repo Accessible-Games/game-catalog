@@ -1,0 +1,25 @@
+{
+  "id": "pong",
+  "kind": "game",
+  "title": "Pong",
+  "developer": [
+    "Jim Kitchen"
+  ],
+  "description": "Note that we have repackaged each game into a zip archive from its initial format of a self-extracting executable. The game's files are contained with a folder, so all you need do is extract the archive and each game will have its own folder.",
+  "links": {
+    "agarchive": "https://www.agarchive.net/pages/devs/kitchensinc.html"
+  },
+  "sources": [
+    {
+      "platform": "windows",
+      "install": {
+        "method": "zip",
+        "extract_dir": "pong"
+      },
+      "label": "Mirror",
+      "url": "https://files.accessiblegames.net/files/14464d90b0f706717777e6f673bbe582a847390843bbaee0a19871542d911bc0/pong.zip",
+      "sha256": "14464d90b0f706717777e6f673bbe582a847390843bbaee0a19871542d911bc0",
+      "size": 922756
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "id": "shadowrine-full-voice",
+  "kind": "game",
+  "title": "ShadowRine Full Voice",
+  "developer": [
+    "Galaxy Laboratory"
+  ],
+  "description": "A far more advanced version of ShadowRine, containing voice acting and many other features.",
+  "links": {
+    "agarchive": "https://www.agarchive.net/pages/devs/GalaxyLaboratory.html"
+  },
+  "sources": [
+    {
+      "label": "Developer site",
+      "url": "http://www.mm-galabo.com/dlc/dlc.php?url=sr_fullvoice.exe",
+      "platform": "windows",
+      "install": {
+        "method": "installer",
+        "installer": {
+          "type": "inno",
+          "mode": "extract"
+        }
+      },
+      "sha256": "8e0b52a5d9ab5a0a7627581164aae0c04e922160e59c4ece74185e30c54f6ca5",
+      "size": 516530301
+    },
+    {
+      "platform": "windows",
+      "install": {
+        "method": "installer",
+        "installer": {
+          "type": "inno",
+          "mode": "extract"
+        }
+      },
+      "label": "Mirror",
+      "url": "https://files.accessiblegames.net/files/8e0b52a5d9ab5a0a7627581164aae0c04e922160e59c4ece74185e30c54f6ca5/dlc.exe",
+      "sha256": "8e0b52a5d9ab5a0a7627581164aae0c04e922160e59c4ece74185e30c54f6ca5",
+      "size": 516530301
+    },
+    {
+      "platform": "windows",
+      "install": {
+        "method": "installer",
+        "installer": {
+          "type": "inno",
+          "mode": "extract"
+        }
+      },
+      "label": "Mirror",
+      "url": "https://files.accessiblegames.net/files/28d0578cc819371fc9a8edc9edcee584c10dc9beb1c57835a3b31d825f0f7543/shadowrine_fullvoice3.13.exe",
+      "sha256": "28d0578cc819371fc9a8edc9edcee584c10dc9beb1c57835a3b31d825f0f7543",
+      "size": 516465043
+    }
+  ]
+}

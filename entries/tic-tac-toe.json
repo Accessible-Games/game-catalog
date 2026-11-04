@@ -1,0 +1,27 @@
+{
+  "id": "tic-tac-toe",
+  "kind": "game",
+  "title": "Tic Tac Toe",
+  "developer": [
+    "BrailleSoft"
+  ],
+  "flags": [
+    "abandoned"
+  ],
+  "links": {
+    "agarchive": "https://www.agarchive.net/pages/devs/braillesoft.html"
+  },
+  "sources": [
+    {
+      "platform": "windows",
+      "install": {
+        "method": "zip",
+        "extract_dir": "tic tac toe"
+      },
+      "label": "Mirror",
+      "url": "https://files.accessiblegames.net/files/66dc72fe8bb70b1a496175b70815764c8f5e47398bb740493d986ea3ee07da6e/tic_tac_toe.zip",
+      "sha256": "66dc72fe8bb70b1a496175b70815764c8f5e47398bb740493d986ea3ee07da6e",
+      "size": 7955289
+    }
+  ]
+}

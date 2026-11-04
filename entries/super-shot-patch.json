@@ -1,0 +1,29 @@
+{
+  "id": "super-shot-patch",
+  "kind": "extra",
+  "title": "Super Shot Patch",
+  "developer": [
+    "LWorks"
+  ],
+  "description": "Super Shot is a very addictive Bop-it style game.\n\nIt was originally commercial, but is now freeware.\n\nThis patch unlocks the full game.",
+  "flags": [
+    "abandoned"
+  ],
+  "links": {
+    "agarchive": "https://www.agarchive.net/pages/devs/lworks.html"
+  },
+  "sources": [
+    {
+      "platform": "windows",
+      "install": {
+        "method": "7z"
+      },
+      "label": "Mirror",
+      "url": "https://files.accessiblegames.net/files/0d62b88b7d5ab2149b5950734081875fef33705583c07946a5076afc13b401cb/super_shot_patch.exe",
+      "sha256": "0d62b88b7d5ab2149b5950734081875fef33705583c07946a5076afc13b401cb",
+      "size": 87552
+    }
+  ],
+  "extends": "super-shot",
+  "install_into": "super-shot"
+}

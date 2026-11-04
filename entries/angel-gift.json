@@ -1,0 +1,25 @@
+{
+  "id": "angel-gift",
+  "kind": "game",
+  "title": "Angel Gift",
+  "developer": [
+    "various authors"
+  ],
+  "description": "As the weakest angel in the choir you rarely leave heaven, but when happiness is threatened in a small village, you have no choice but to act.",
+  "links": {
+    "homepage": "https://erion.cf/blog/2015/01/angelgift/",
+    "agarchive": "https://www.agarchive.net/pages/devs/misc.html"
+  },
+  "sources": [
+    {
+      "platform": "windows",
+      "install": {
+        "method": "zip"
+      },
+      "label": "Mirror",
+      "url": "https://files.accessiblegames.net/files/37a07a6b3e63747fa26e845b24e6ff2e5ead704346d1728ce4df2b77bcfd3d24/AngelGift.zip",
+      "sha256": "37a07a6b3e63747fa26e845b24e6ff2e5ead704346d1728ce4df2b77bcfd3d24",
+      "size": 141107181
+    }
+  ]
+}

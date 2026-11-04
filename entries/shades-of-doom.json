@@ -1,0 +1,47 @@
+{
+  "id": "shades-of-doom",
+  "kind": "game",
+  "title": "Shades of Doom",
+  "developer": [
+    "GMA Games"
+  ],
+  "description": "Shades of Doom drops the player into a complex where an experiment has gone horribly wrong. Fight off mad scientists, mutant humans, dogs, birds and other creatures to shut down the experiment.",
+  "flags": [
+    "demo",
+    "requires-registration"
+  ],
+  "links": {
+    "homepage": "http://www.gmagames.com/sod.shtml",
+    "agarchive": "https://www.agarchive.net/pages/devs/gma.html"
+  },
+  "sources": [
+    {
+      "label": "Developer site",
+      "url": "http://www.gmagames.com/sod20024.exe",
+      "platform": "windows",
+      "install": {
+        "method": "installer",
+        "installer": {
+          "type": "inno",
+          "mode": "extract"
+        }
+      },
+      "sha256": "b58156a9a4fa89e188fabf1dd181978f0002bab9f8f37908c4ac3e60340c1313",
+      "size": 44421861
+    },
+    {
+      "platform": "windows",
+      "install": {
+        "method": "installer",
+        "installer": {
+          "type": "inno",
+          "mode": "extract"
+        }
+      },
+      "label": "Mirror",
+      "url": "https://files.accessiblegames.net/files/b58156a9a4fa89e188fabf1dd181978f0002bab9f8f37908c4ac3e60340c1313/sod20024.exe",
+      "sha256": "b58156a9a4fa89e188fabf1dd181978f0002bab9f8f37908c4ac3e60340c1313",
+      "size": 44421861
+    }
+  ]
+}

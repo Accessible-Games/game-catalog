@@ -1,0 +1,31 @@
+{
+  "id": "night-of-parasite-3-1",
+  "kind": "game",
+  "title": "Night of Parasite 3.1",
+  "developer": [
+    "Francis Wolf"
+  ],
+  "description": "This version of the game includes a multilingual installer and a fourth chapter. Its the recommended download unless you want the older version for a specific reason.",
+  "flags": [
+    "abandoned"
+  ],
+  "links": {
+    "agarchive": "https://www.agarchive.net/pages/devs/francisWolf.html"
+  },
+  "sources": [
+    {
+      "platform": "windows",
+      "install": {
+        "method": "installer",
+        "installer": {
+          "type": "inno",
+          "mode": "extract"
+        }
+      },
+      "label": "Mirror",
+      "url": "https://files.accessiblegames.net/files/6a9befea19ce1f564e7dd69347c976193bec022010acbd944c35abab73758131/night_of_parasite3.1_setup.exe",
+      "sha256": "6a9befea19ce1f564e7dd69347c976193bec022010acbd944c35abab73758131",
+      "size": 34164661
+    }
+  ]
+}

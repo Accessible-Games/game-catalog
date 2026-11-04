@@ -1,0 +1,33 @@
+{
+  "id": "lunimals",
+  "kind": "game",
+  "title": "Lunimals",
+  "developer": [
+    "Aprone"
+  ],
+  "links": {
+    "agarchive": "https://www.agarchive.net/pages/devs/aprone.html"
+  },
+  "sources": [
+    {
+      "label": "Developer site",
+      "url": "https://www.kaldobsky.com/audiogames/lunimals.zip",
+      "platform": "windows",
+      "install": {
+        "method": "zip"
+      },
+      "sha256": "d21bfa8f16ccf71b78e584ff5cb4de074ef234d313fe83247a1ff07b3c23a397",
+      "size": 2642033
+    },
+    {
+      "platform": "windows",
+      "install": {
+        "method": "zip"
+      },
+      "label": "Mirror",
+      "url": "https://files.accessiblegames.net/files/d21bfa8f16ccf71b78e584ff5cb4de074ef234d313fe83247a1ff07b3c23a397/lunimals.zip",
+      "sha256": "d21bfa8f16ccf71b78e584ff5cb4de074ef234d313fe83247a1ff07b3c23a397",
+      "size": 2642033
+    }
+  ]
+}

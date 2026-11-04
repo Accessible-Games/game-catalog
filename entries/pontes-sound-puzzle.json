@@ -1,0 +1,23 @@
+{
+  "id": "pontes-sound-puzzle",
+  "kind": "game",
+  "title": "Pontes Sound Puzzle",
+  "developer": [
+    "Pontes Games"
+  ],
+  "links": {
+    "agarchive": "https://www.agarchive.net/pages/devs/pontes.html"
+  },
+  "sources": [
+    {
+      "platform": "windows",
+      "install": {
+        "method": "zip"
+      },
+      "label": "Mirror",
+      "url": "https://files.accessiblegames.net/files/e50782556ffd1225317548bc0c1d6e78bdfe455f01122824630ac2f9642921e0/pontes_sound_puzzle.zip",
+      "sha256": "e50782556ffd1225317548bc0c1d6e78bdfe455f01122824630ac2f9642921e0",
+      "size": 3717440
+    }
+  ]
+}

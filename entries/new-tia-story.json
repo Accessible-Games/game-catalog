@@ -1,0 +1,45 @@
+{
+  "id": "new-tia-story",
+  "kind": "game",
+  "title": "New Tia Story",
+  "developer": [
+    "Morokuma"
+  ],
+  "description": "A text RPG built in Text Game Maker. Alternate timeline for Tia Story 1 and 2.",
+  "links": {
+    "agarchive": "https://www.agarchive.net/pages/devs/morokuma.html"
+  },
+  "sources": [
+    {
+      "label": "Developer site",
+      "url": "http://hirotaka2014.sakura.ne.jp/mh0406/game/nts119.exe",
+      "platform": "windows",
+      "install": {
+        "method": "7z"
+      },
+      "sha256": "4306db8e80b0f6e46e2c43042309890b455ca3f4078a7eb6239b5d8bf8b7328a",
+      "size": 10401288
+    },
+    {
+      "platform": "windows",
+      "install": {
+        "method": "7z"
+      },
+      "label": "Mirror",
+      "url": "https://files.accessiblegames.net/files/4306db8e80b0f6e46e2c43042309890b455ca3f4078a7eb6239b5d8bf8b7328a/nts119.exe",
+      "sha256": "4306db8e80b0f6e46e2c43042309890b455ca3f4078a7eb6239b5d8bf8b7328a",
+      "size": 10401288
+    },
+    {
+      "platform": "windows",
+      "install": {
+        "method": "7z",
+        "extract_dir": "V Tia Story"
+      },
+      "label": "Mirror",
+      "url": "https://files.accessiblegames.net/files/c99b16c5571a15f637d95533b8c8d5f147e20e06e01fba368da09805176430df/new_tia_story.7z",
+      "sha256": "c99b16c5571a15f637d95533b8c8d5f147e20e06e01fba368da09805176430df",
+      "size": 9682489
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "id": "windows-media-redistributable-s",
+  "kind": "game",
+  "title": "Windows Media Redistributable's",
+  "developer": [
+    "BSC Games"
+  ],
+  "description": "You may need to install this package if older BSC games are having difficulty playing audio.\n\nThey should be unnecessary for most titles, however.",
+  "flags": [
+    "abandoned"
+  ],
+  "links": {
+    "agarchive": "https://www.agarchive.net/pages/devs/bsc.html"
+  },
+  "sources": [
+    {
+      "platform": "windows",
+      "install": {
+        "method": "7z"
+      },
+      "label": "Mirror",
+      "url": "https://files.accessiblegames.net/files/b02f5461fa78e6ce4f64b2c3ea7295752e33637d29a8c8178da952c0e2b34c89/windows_media_audio_redistributables.exe",
+      "sha256": "b02f5461fa78e6ce4f64b2c3ea7295752e33637d29a8c8178da952c0e2b34c89",
+      "size": 632328
+    }
+  ],
+  "dependencies": [
+    "bsc-windows10-fixpack"
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "id": "map-maker-tutorial",
+  "kind": "extra",
+  "title": "Map maker tutorial",
+  "developer": [
+    "Talon"
+  ],
+  "description": "Note that this package contains both a client and server application.\n\nNote that this archive also includes a brief key summary for the map maker as well as the tutorial itself.",
+  "links": {
+    "agarchive": "https://www.agarchive.net/pages/devs/talon.html"
+  },
+  "sources": [
+    {
+      "platform": "windows",
+      "install": {
+        "method": "zip"
+      },
+      "label": "Mirror",
+      "url": "https://files.accessiblegames.net/files/6f2cb676c0d0c36ce65ccdf259c4a0010d107e4133e1f30aecfc65010fef73ba/theRoadToRageMapMakerTutorial.zip",
+      "sha256": "6f2cb676c0d0c36ce65ccdf259c4a0010d107e4133e1f30aecfc65010fef73ba",
+      "size": 16313959
+    }
+  ],
+  "extends": "the-road-to-rage",
+  "install_into": "the-road-to-rage"
+}

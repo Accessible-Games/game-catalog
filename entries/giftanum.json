@@ -1,0 +1,30 @@
+{
+  "id": "giftanum",
+  "kind": "game",
+  "title": "Giftanum",
+  "developer": [
+    "XL Studios"
+  ],
+  "flags": [
+    "abandoned"
+  ],
+  "links": {
+    "agarchive": "https://www.agarchive.net/pages/devs/xl.html"
+  },
+  "sources": [
+    {
+      "platform": "windows",
+      "install": {
+        "method": "installer",
+        "installer": {
+          "type": "inno",
+          "mode": "extract"
+        }
+      },
+      "label": "Mirror",
+      "url": "https://files.accessiblegames.net/files/8d35a4208c961d93a0823a68720f30fc43d4cd7846aac6a80b03e26dc79520fe/Giftanum_1.2.2_setup.exe",
+      "sha256": "8d35a4208c961d93a0823a68720f30fc43d4cd7846aac6a80b03e26dc79520fe",
+      "size": 19154582
+    }
+  ]
+}

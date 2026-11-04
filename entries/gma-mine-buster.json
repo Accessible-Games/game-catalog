@@ -1,0 +1,42 @@
+{
+  "id": "gma-mine-buster",
+  "kind": "game",
+  "title": "GMA Mine Buster",
+  "developer": [
+    "GMA Games"
+  ],
+  "description": "Remember Minesweeper? This is basically a Minesweeper clone. Use logic and deductive reasoning to clear all the cells without mines.",
+  "links": {
+    "agarchive": "https://www.agarchive.net/pages/devs/gma.html"
+  },
+  "sources": [
+    {
+      "label": "Developer site",
+      "url": "http://www.gmagames.com/gmb100.exe",
+      "platform": "windows",
+      "install": {
+        "method": "installer",
+        "installer": {
+          "type": "inno",
+          "mode": "extract"
+        }
+      },
+      "sha256": "03a036ae0541315e52567dfbf0c2a55e7e8d8ccf5ba8fb63081c89a21dec6b7e",
+      "size": 5882955
+    },
+    {
+      "platform": "windows",
+      "install": {
+        "method": "installer",
+        "installer": {
+          "type": "inno",
+          "mode": "extract"
+        }
+      },
+      "label": "Mirror",
+      "url": "https://files.accessiblegames.net/files/03a036ae0541315e52567dfbf0c2a55e7e8d8ccf5ba8fb63081c89a21dec6b7e/gmb100.exe",
+      "sha256": "03a036ae0541315e52567dfbf0c2a55e7e8d8ccf5ba8fb63081c89a21dec6b7e",
+      "size": 5882955
+    }
+  ]
+}

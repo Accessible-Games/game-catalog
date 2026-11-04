@@ -1,0 +1,30 @@
+{
+  "id": "manhunt",
+  "kind": "game",
+  "title": "Manhunt",
+  "developer": [
+    "PB Games"
+  ],
+  "flags": [
+    "abandoned"
+  ],
+  "links": {
+    "agarchive": "https://www.agarchive.net/pages/devs/pb.html"
+  },
+  "sources": [
+    {
+      "platform": "windows",
+      "install": {
+        "method": "installer",
+        "installer": {
+          "type": "inno",
+          "mode": "extract"
+        }
+      },
+      "label": "Mirror",
+      "url": "https://files.accessiblegames.net/files/d1b3bbe04900e5f9befa654e762ccc487f89c472e10095f7b65680495d78a86b/manhunt_setup.exe",
+      "sha256": "d1b3bbe04900e5f9befa654e762ccc487f89c472e10095f7b65680495d78a86b",
+      "size": 1190029
+    }
+  ]
+}

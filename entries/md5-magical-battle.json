@@ -1,0 +1,25 @@
+{
+  "id": "md5-magical-battle",
+  "kind": "game",
+  "title": "MD5 Magical Battle",
+  "developer": [
+    "Morokuma"
+  ],
+  "description": "No longer hosted on the developer's website.",
+  "links": {
+    "agarchive": "https://www.agarchive.net/pages/devs/morokuma.html"
+  },
+  "sources": [
+    {
+      "platform": "windows",
+      "install": {
+        "method": "7z",
+        "extract_dir": "md5btl100"
+      },
+      "label": "Mirror",
+      "url": "https://files.accessiblegames.net/files/957b88495d64041a3db2d6b538867b1b52772b81445546356a0d99613d0c0228/md5_magical_battle.7z",
+      "sha256": "957b88495d64041a3db2d6b538867b1b52772b81445546356a0d99613d0c0228",
+      "size": 10469418
+    }
+  ]
+}

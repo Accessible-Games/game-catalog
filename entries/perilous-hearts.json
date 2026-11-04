@@ -1,0 +1,31 @@
+{
+  "id": "perilous-hearts",
+  "kind": "game",
+  "title": "Perilous hearts",
+  "developer": [
+    "Blastbay Studios"
+  ],
+  "flags": [
+    "abandoned",
+    "beta"
+  ],
+  "links": {
+    "agarchive": "https://www.agarchive.net/pages/devs/blastbay.html"
+  },
+  "sources": [
+    {
+      "platform": "windows",
+      "install": {
+        "method": "installer",
+        "installer": {
+          "type": "inno",
+          "mode": "extract"
+        }
+      },
+      "label": "Mirror",
+      "url": "https://files.accessiblegames.net/files/5fcc284f3a7fc76cc9df9690026b0498afc4efa10858f291a1320806a9c0bbe3/perilous_hearts_concept_demo.exe",
+      "sha256": "5fcc284f3a7fc76cc9df9690026b0498afc4efa10858f291a1320806a9c0bbe3",
+      "size": 22624101
+    }
+  ]
+}

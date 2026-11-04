@@ -1,0 +1,46 @@
+{
+  "id": "pinball-party-pack",
+  "kind": "game",
+  "title": "Pinball Party Pack",
+  "developer": [
+    "Draconis Entertainment"
+  ],
+  "flags": [
+    "demo",
+    "requires-registration"
+  ],
+  "links": {
+    "homepage": "http://dracoent.com/Windows/PinballPartyPack",
+    "agarchive": "https://www.agarchive.net/pages/devs/draconis.html"
+  },
+  "sources": [
+    {
+      "label": "Developer site",
+      "url": "http://download.dracoent.com/Windows/classic/PP1Setup.exe",
+      "platform": "windows",
+      "install": {
+        "method": "installer",
+        "installer": {
+          "type": "inno",
+          "mode": "extract"
+        }
+      },
+      "sha256": "8b2bbceb1ecbef8d86be675ac75bc25259eb8de2666db873042bb04563450c2f",
+      "size": 44278032
+    },
+    {
+      "platform": "windows",
+      "install": {
+        "method": "installer",
+        "installer": {
+          "type": "inno",
+          "mode": "extract"
+        }
+      },
+      "label": "Mirror",
+      "url": "https://files.accessiblegames.net/files/8b2bbceb1ecbef8d86be675ac75bc25259eb8de2666db873042bb04563450c2f/PP1Setup.exe",
+      "sha256": "8b2bbceb1ecbef8d86be675ac75bc25259eb8de2666db873042bb04563450c2f",
+      "size": 44278032
+    }
+  ]
+}

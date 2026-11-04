@@ -1,0 +1,24 @@
+{
+  "id": "basketball",
+  "kind": "game",
+  "title": "Basketball",
+  "developer": [
+    "Mason Armstrong"
+  ],
+  "links": {
+    "agarchive": "https://www.agarchive.net/pages/devs/mason.html"
+  },
+  "sources": [
+    {
+      "platform": "windows",
+      "install": {
+        "method": "zip",
+        "extract_dir": "basketball"
+      },
+      "label": "Mirror",
+      "url": "https://files.accessiblegames.net/files/7db089b3f973074ab58d2347f3151c028d7a480216513c89c77dead4a09b869f/basketball.zip",
+      "sha256": "7db089b3f973074ab58d2347f3151c028d7a480216513c89c77dead4a09b869f",
+      "size": 1544853
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "id": "treasure-mania-extras",
+  "kind": "game",
+  "title": "Treasure Mania Extras",
+  "developer": [
+    "Lighttech Interactive"
+  ],
+  "description": "This is a poem and walkthrough created by an enthusiastic user.",
+  "flags": [
+    "abandoned"
+  ],
+  "links": {
+    "agarchive": "https://www.agarchive.net/pages/devs/lighttech.html"
+  },
+  "sources": [
+    {
+      "platform": "windows",
+      "install": {
+        "method": "zip"
+      },
+      "label": "Mirror",
+      "url": "https://files.accessiblegames.net/files/77e8a2a5df337a29b312c02343d89e400a21cad90b81bad3a794862fba5c5b03/treasure_mania_extras.zip",
+      "sha256": "77e8a2a5df337a29b312c02343d89e400a21cad90b81bad3a794862fba5c5b03",
+      "size": 4658
+    }
+  ],
+  "dependencies": [
+    "com-audio-dependency"
+  ]
+}

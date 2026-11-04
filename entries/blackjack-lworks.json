@@ -1,0 +1,28 @@
+{
+  "id": "blackjack-lworks",
+  "kind": "game",
+  "title": "blackjack",
+  "developer": [
+    "LWorks"
+  ],
+  "description": "Blackjack is the first in a series of short timewasters written in bgt under the name Crappy Ass games.",
+  "flags": [
+    "abandoned"
+  ],
+  "links": {
+    "agarchive": "https://www.agarchive.net/pages/devs/lworks.html"
+  },
+  "sources": [
+    {
+      "platform": "windows",
+      "install": {
+        "method": "zip",
+        "extract_dir": "blackjack"
+      },
+      "label": "Mirror",
+      "url": "https://files.accessiblegames.net/files/80ce16a885a81ec55774bd9f39d88a2f1f693c422d03822b0ae79f8a8b499f1d/blackjack.zip",
+      "sha256": "80ce16a885a81ec55774bd9f39d88a2f1f693c422d03822b0ae79f8a8b499f1d",
+      "size": 687158
+    }
+  ]
+}

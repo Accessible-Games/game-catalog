@@ -1,0 +1,26 @@
+{
+  "id": "talking-draw-pokar",
+  "kind": "game",
+  "title": "Talking Draw Pokar",
+  "developer": [
+    "Richard De Steno"
+  ],
+  "flags": [
+    "abandoned"
+  ],
+  "links": {
+    "agarchive": "https://www.agarchive.net/pages/devs/richardDeSteno.html"
+  },
+  "sources": [
+    {
+      "platform": "windows",
+      "install": {
+        "method": "zip"
+      },
+      "label": "Mirror",
+      "url": "https://files.accessiblegames.net/files/9d56e17899798ddb3ca29ecf66cfa87b3eba084f283294a5d863e51bd8a9937f/TalkingDrawPoker.zip",
+      "sha256": "9d56e17899798ddb3ca29ecf66cfa87b3eba084f283294a5d863e51bd8a9937f",
+      "size": 21243060
+    }
+  ]
+}

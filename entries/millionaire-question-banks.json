@@ -1,0 +1,27 @@
+{
+  "id": "millionaire-question-banks",
+  "kind": "game",
+  "title": "Millionaire question banks",
+  "developer": [
+    "Freedom Games"
+  ],
+  "links": {
+    "agarchive": "https://www.agarchive.net/pages/devs/freedom.html"
+  },
+  "sources": [
+    {
+      "platform": "windows",
+      "install": {
+        "method": "installer",
+        "installer": {
+          "type": "inno",
+          "mode": "extract"
+        }
+      },
+      "label": "Mirror",
+      "url": "https://files.accessiblegames.net/files/ac9c934e993c160a2752689112d70be2c139557e184248b078cb60b0e51a5332/millionaire_question_banks_setup.exe",
+      "sha256": "ac9c934e993c160a2752689112d70be2c139557e184248b078cb60b0e51a5332",
+      "size": 309829
+    }
+  ]
+}

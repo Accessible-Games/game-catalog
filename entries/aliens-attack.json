@@ -1,0 +1,42 @@
+{
+  "id": "aliens-attack",
+  "kind": "game",
+  "title": "Aliens Attack",
+  "developer": [
+    "NS Studios"
+  ],
+  "description": "A side scroller in which the goal is to save the earth from aliens.",
+  "links": {
+    "agarchive": "https://www.agarchive.net/pages/devs/ns.html"
+  },
+  "sources": [
+    {
+      "label": "Developer site",
+      "url": "http://www.nsstudiosweb.com/downloads/aliens_attack2012.0beta2.exe",
+      "platform": "windows",
+      "install": {
+        "method": "installer",
+        "installer": {
+          "type": "inno",
+          "mode": "extract"
+        }
+      },
+      "sha256": "a1859d00601f2b0c986228edc0232fe60bce99dbe9f7ad8cb577d2dd72de2981",
+      "size": 7265619
+    },
+    {
+      "platform": "windows",
+      "install": {
+        "method": "installer",
+        "installer": {
+          "type": "inno",
+          "mode": "extract"
+        }
+      },
+      "label": "Mirror",
+      "url": "https://files.accessiblegames.net/files/a1859d00601f2b0c986228edc0232fe60bce99dbe9f7ad8cb577d2dd72de2981/aliens_attack2012.0beta2.exe",
+      "sha256": "a1859d00601f2b0c986228edc0232fe60bce99dbe9f7ad8cb577d2dd72de2981",
+      "size": 7265619
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "id": "haunted-house",
+  "kind": "game",
+  "title": "Haunted House",
+  "developer": [
+    "2MB Games"
+  ],
+  "description": "Dare you enter the haunted house where so many have died before?\n\nYou will struggle for survival in every room of the building. Bob for apples on the porch while the skeletal hands of past failures try to drag you to a watery grave, try to free past adventurers from their witch-made prisons within jack-o'-lanterns in the back yard, and run desperately for escape when a murderer leaves you in the cellar they've filled with past victims.\n\nHaunted House was originally developed as a base game, to which expansion packs could be added. The packages listed below include both expansion packs.\n\nPlease note that an internet connection is required to play the expansions. Without one, only the original set of games are available.",
+  "links": {
+    "homepage": "https://2mb.games/product-category/haunted-house/",
+    "agarchive": "https://www.agarchive.net/pages/devs/2mb.html"
+  },
+  "sources": [
+    {
+      "platform": "windows",
+      "install": {
+        "method": "7z",
+        "extract_dir": "haunted-house"
+      },
+      "label": "Mirror",
+      "url": "https://files.accessiblegames.net/files/5575dbc3093f9a66e4abb59178a5bf434bd7dfb7276e1b1371f40aeff4e0a9b0/haunted-house-windows.7z",
+      "sha256": "5575dbc3093f9a66e4abb59178a5bf434bd7dfb7276e1b1371f40aeff4e0a9b0",
+      "size": 33064121
+    },
+    {
+      "platform": "linux",
+      "install": {
+        "method": "zip",
+        "extract_dir": "haunted-house-linux-x64"
+      },
+      "label": "Mirror",
+      "url": "https://files.accessiblegames.net/files/200e4961b50a9140e712b1fefd606db67a38a5aa183f4e7605ab36ac7d191636/haunted-house-linux-x64.zip",
+      "sha256": "200e4961b50a9140e712b1fefd606db67a38a5aa183f4e7605ab36ac7d191636",
+      "size": 53588977
+    },
+    {
+      "platform": "macos",
+      "install": {
+        "method": "zip",
+        "extract_dir": "haunted-house-mac64"
+      },
+      "label": "Mirror",
+      "url": "https://files.accessiblegames.net/files/102a93f349ada849fc11af68dac23ea04b7a6bbd97af24fe9846f56d1cfa4d7b/haunted-house-mac64.zip",
+      "sha256": "102a93f349ada849fc11af68dac23ea04b7a6bbd97af24fe9846f56d1cfa4d7b",
+      "size": 41521295
+    }
+  ]
+}

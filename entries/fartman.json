@@ -1,0 +1,30 @@
+{
+  "id": "fartman",
+  "kind": "game",
+  "title": "Fartman",
+  "developer": [
+    "BPC Programs"
+  ],
+  "flags": [
+    "abandoned"
+  ],
+  "links": {
+    "agarchive": "https://www.agarchive.net/pages/devs/bpc.html"
+  },
+  "sources": [
+    {
+      "platform": "windows",
+      "install": {
+        "method": "installer",
+        "installer": {
+          "type": "inno",
+          "mode": "extract"
+        }
+      },
+      "label": "Mirror",
+      "url": "https://files.accessiblegames.net/files/39348246f4b117a755f3b48565d361bc4959d625e1c926c2632cf7b28fea0458/fartman.exe",
+      "sha256": "39348246f4b117a755f3b48565d361bc4959d625e1c926c2632cf7b28fea0458",
+      "size": 1377950
+    }
+  ]
+}

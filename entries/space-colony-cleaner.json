@@ -1,0 +1,31 @@
+{
+  "id": "space-colony-cleaner",
+  "kind": "game",
+  "title": "Space Colony Cleaner",
+  "developer": [
+    "TDL Games"
+  ],
+  "flags": [
+    "abandoned",
+    "demo"
+  ],
+  "links": {
+    "agarchive": "https://www.agarchive.net/pages/devs/tdl.html"
+  },
+  "sources": [
+    {
+      "platform": "windows",
+      "install": {
+        "method": "installer",
+        "installer": {
+          "type": "inno",
+          "mode": "extract"
+        }
+      },
+      "label": "Mirror",
+      "url": "https://files.accessiblegames.net/files/c3c7af5bd59d2ed2e39d98bc035676ce76f2022c7e02000d2304da156f48a690/space_colony_cleaner.exe",
+      "sha256": "c3c7af5bd59d2ed2e39d98bc035676ce76f2022c7e02000d2304da156f48a690",
+      "size": 21128195
+    }
+  ]
+}

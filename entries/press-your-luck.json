@@ -1,0 +1,25 @@
+{
+  "id": "press-your-luck",
+  "kind": "game",
+  "title": "Press Your Luck",
+  "developer": [
+    "Jim Kitchen"
+  ],
+  "description": "Note that we have repackaged each game into a zip archive from its initial format of a self-extracting executable. The game's files are contained with a folder, so all you need do is extract the archive and each game will have its own folder.",
+  "links": {
+    "agarchive": "https://www.agarchive.net/pages/devs/kitchensinc.html"
+  },
+  "sources": [
+    {
+      "platform": "windows",
+      "install": {
+        "method": "zip",
+        "extract_dir": "press your luck4"
+      },
+      "label": "Mirror",
+      "url": "https://files.accessiblegames.net/files/15a16acb05817b06d25cb54edc9675d22fc04ee3021b7f0f68cbc776177231ce/press_your_luck4.zip",
+      "sha256": "15a16acb05817b06d25cb54edc9675d22fc04ee3021b7f0f68cbc776177231ce",
+      "size": 2312947
+    }
+  ]
+}

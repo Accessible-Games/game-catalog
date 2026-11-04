@@ -1,0 +1,24 @@
+{
+  "id": "smack-me",
+  "kind": "game",
+  "title": "Smack me",
+  "developer": [
+    "Oriol Gomez"
+  ],
+  "links": {
+    "agarchive": "https://www.agarchive.net/pages/devs/oriolgomez.html"
+  },
+  "sources": [
+    {
+      "platform": "windows",
+      "install": {
+        "method": "zip",
+        "extract_dir": "smackMe"
+      },
+      "label": "Mirror",
+      "url": "https://files.accessiblegames.net/files/65bfa30ee05f7aa43cbd540982066c8cb8b06ee8d0a6371ce4b5147a27a5cb41/smackMe.zip",
+      "sha256": "65bfa30ee05f7aa43cbd540982066c8cb8b06ee8d0a6371ce4b5147a27a5cb41",
+      "size": 24019729
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "id": "lost",
+  "kind": "game",
+  "title": "Lost",
+  "developer": [
+    "Dan Z"
+  ],
+  "description": "A number of games written in basic for note takers. These are unlikely to run on traditional computers. To play them, see the ports below.\n\nThis is a dramatized port of the Great Escape with additional content and sound effects. Find your way out of a number of randomly changing mazes, while collecting gold coins and trying desperately to beat the clock.",
+  "flags": [
+    "abandoned"
+  ],
+  "links": {
+    "agarchive": "https://www.agarchive.net/pages/devs/danZ.html"
+  },
+  "sources": [
+    {
+      "platform": "windows",
+      "install": {
+        "method": "zip"
+      },
+      "label": "Mirror",
+      "url": "https://files.accessiblegames.net/files/e7d4a9f6fb3c716963ca594b6aa695b2227453c073bea384435ed79b40e6dbba/lost.zip",
+      "sha256": "e7d4a9f6fb3c716963ca594b6aa695b2227453c073bea384435ed79b40e6dbba",
+      "size": 39893591
+    }
+  ]
+}

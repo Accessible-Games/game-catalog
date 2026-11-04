@@ -1,0 +1,53 @@
+{
+  "id": "dragon-pong",
+  "kind": "game",
+  "title": "Dragon pong",
+  "developer": [
+    "Talon"
+  ],
+  "flags": [
+    "multiplayer"
+  ],
+  "links": {
+    "homepage": "https://iamtalon.me/dragonpong/",
+    "agarchive": "https://www.agarchive.net/pages/devs/talon.html"
+  },
+  "sources": [
+    {
+      "label": "Developer site",
+      "url": "https://iamtalon.me/games/dragonpong.zip",
+      "platform": "windows",
+      "install": {
+        "method": "zip",
+        "extract_dir": "dragonpong"
+      },
+      "sha256": "2829d1d6acd45a3dfa57df738f2b4f7526e97388c321620987e6f5018f76ba22",
+      "size": 66489533
+    },
+    {
+      "platform": "windows",
+      "install": {
+        "method": "zip",
+        "extract_dir": "dragonpong"
+      },
+      "label": "Mirror",
+      "url": "https://files.accessiblegames.net/files/2829d1d6acd45a3dfa57df738f2b4f7526e97388c321620987e6f5018f76ba22/dragonpong.zip",
+      "sha256": "2829d1d6acd45a3dfa57df738f2b4f7526e97388c321620987e6f5018f76ba22",
+      "size": 66489533
+    },
+    {
+      "platform": "windows",
+      "install": {
+        "method": "installer",
+        "installer": {
+          "type": "inno",
+          "mode": "extract"
+        }
+      },
+      "label": "Mirror",
+      "url": "https://files.accessiblegames.net/files/51aea62f5a3ce3d22d2a9f005867e5a8142bb8b56112b428fb5257ba34252019/dragon_pong_setup.exe",
+      "sha256": "51aea62f5a3ce3d22d2a9f005867e5a8142bb8b56112b428fb5257ba34252019",
+      "size": 63861983
+    }
+  ]
+}

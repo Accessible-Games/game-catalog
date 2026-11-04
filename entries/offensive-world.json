@@ -1,0 +1,28 @@
+{
+  "id": "offensive-world",
+  "kind": "game",
+  "title": "Offensive World",
+  "developer": [
+    "Phantom Creations"
+  ],
+  "description": "This is the end. You're trapped, unarmed, and the raiders are coming. Build up the walls of your fort and see how long you can keep them out, because as soon as a single wall falls, you're done for..",
+  "flags": [
+    "abandoned"
+  ],
+  "links": {
+    "agarchive": "https://www.agarchive.net/pages/devs/phantomCreations.html"
+  },
+  "sources": [
+    {
+      "platform": "windows",
+      "install": {
+        "method": "zip",
+        "extract_dir": "offensive_world"
+      },
+      "label": "Mirror",
+      "url": "https://files.accessiblegames.net/files/34faefd68522a600b50c2380e5f398cf71293648329f9caaaeb3281d0eddca68/offensiveWorld.zip",
+      "sha256": "34faefd68522a600b50c2380e5f398cf71293648329f9caaaeb3281d0eddca68",
+      "size": 67950164
+    }
+  ]
+}

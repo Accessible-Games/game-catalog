@@ -1,0 +1,25 @@
+{
+  "id": "baseball",
+  "kind": "game",
+  "title": "Baseball",
+  "developer": [
+    "Jim Kitchen"
+  ],
+  "description": "Note that we have repackaged each game into a zip archive from its initial format of a self-extracting executable. The game's files are contained with a folder, so all you need do is extract the archive and each game will have its own folder.",
+  "links": {
+    "agarchive": "https://www.agarchive.net/pages/devs/kitchensinc.html"
+  },
+  "sources": [
+    {
+      "platform": "windows",
+      "install": {
+        "method": "zip",
+        "extract_dir": "baseball5"
+      },
+      "label": "Mirror",
+      "url": "https://files.accessiblegames.net/files/24b7b2eb2ccdc9b812e08797e5c983c036a47ebea25e0f3db69ec9132f3e3022/baseball5.zip",
+      "sha256": "24b7b2eb2ccdc9b812e08797e5c983c036a47ebea25e0f3db69ec9132f3e3022",
+      "size": 5195807
+    }
+  ]
+}

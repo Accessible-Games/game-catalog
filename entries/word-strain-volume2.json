@@ -1,0 +1,33 @@
+{
+  "id": "word-strain-volume2",
+  "kind": "game",
+  "title": "Word Strain Volume2",
+  "developer": [
+    "BSC Games"
+  ],
+  "flags": [
+    "abandoned"
+  ],
+  "links": {
+    "agarchive": "https://www.agarchive.net/pages/devs/bsc.html"
+  },
+  "sources": [
+    {
+      "platform": "windows",
+      "install": {
+        "method": "installer",
+        "installer": {
+          "type": "inno",
+          "mode": "extract"
+        }
+      },
+      "label": "Mirror",
+      "url": "https://files.accessiblegames.net/files/167b4a6779918aaee43826022c79d687ac74a271f9e6edc1e50acb1c8b1348d0/WordStrainVolume2Setup.exe",
+      "sha256": "167b4a6779918aaee43826022c79d687ac74a271f9e6edc1e50acb1c8b1348d0",
+      "size": 2404590
+    }
+  ],
+  "dependencies": [
+    "bsc-windows10-fixpack"
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "id": "sphere",
+  "kind": "game",
+  "title": "sphere",
+  "developer": [
+    "LWorks"
+  ],
+  "description": "Sphere was a game under development that would have been a modern adaptation of pong, with several characters and levels.\n\nThough the game was never finished, beta demos are available for two different versions.",
+  "flags": [
+    "abandoned"
+  ],
+  "links": {
+    "agarchive": "https://www.agarchive.net/pages/devs/lworks.html"
+  },
+  "sources": [
+    {
+      "platform": "windows",
+      "install": {
+        "method": "zip",
+        "extract_dir": "sphere"
+      },
+      "label": "Mirror",
+      "url": "https://files.accessiblegames.net/files/e70fd51b8611a60ebca47de89dba96b15c5a85288a199b83b3baa1fbd9f36bf2/sphere.zip",
+      "sha256": "e70fd51b8611a60ebca47de89dba96b15c5a85288a199b83b3baa1fbd9f36bf2",
+      "size": 1206719
+    }
+  ]
+}

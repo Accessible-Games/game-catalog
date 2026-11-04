@@ -1,0 +1,23 @@
+{
+  "id": "big-pig",
+  "kind": "game",
+  "title": "Big Pig",
+  "developer": [
+    "Rocky Waters"
+  ],
+  "links": {
+    "agarchive": "https://www.agarchive.net/pages/devs/rockyWaters.html"
+  },
+  "sources": [
+    {
+      "platform": "windows",
+      "install": {
+        "method": "none"
+      },
+      "label": "Mirror",
+      "url": "https://files.accessiblegames.net/files/6b9693f9749fc6d7990d3ecca480e52be511cc8c0de6fbba72660ce5967c0d44/bigPig.exe",
+      "sha256": "6b9693f9749fc6d7990d3ecca480e52be511cc8c0de6fbba72660ce5967c0d44",
+      "size": 4688141
+    }
+  ]
+}

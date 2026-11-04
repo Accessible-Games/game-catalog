@@ -1,0 +1,28 @@
+{
+  "id": "fight-sightless-wolf-entertainment",
+  "kind": "game",
+  "title": "Fight",
+  "developer": [
+    "Sightless Wolf Entertainment"
+  ],
+  "description": "Build fighters with any combination of dozens of moves, and send them into an arena to battle. If you win, use the spoils to unlock even more moves for future fights.",
+  "flags": [
+    "abandoned"
+  ],
+  "links": {
+    "agarchive": "https://www.agarchive.net/pages/devs/sightlessWolf.html"
+  },
+  "sources": [
+    {
+      "platform": "windows",
+      "install": {
+        "method": "7z",
+        "extract_dir": "fight"
+      },
+      "label": "Mirror",
+      "url": "https://files.accessiblegames.net/files/b69cd417742fb9b2e10ea3812e4f802316cb4e23e157588b9e8e6d500190e063/fight.7z",
+      "sha256": "b69cd417742fb9b2e10ea3812e4f802316cb4e23e157588b9e8e6d500190e063",
+      "size": 13827295
+    }
+  ]
+}

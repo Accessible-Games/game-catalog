@@ -1,0 +1,47 @@
+{
+  "id": "castaways",
+  "kind": "game",
+  "title": "Castaways",
+  "developer": [
+    "Aprone"
+  ],
+  "description": "After a shipwreck you and your people are stuck on 1 island with the goal to survive and grow into a settlement. Buildings must be constructed, workers fed, and soldiers trained in this highly detailed asset management game.",
+  "flags": [
+    "multiplayer"
+  ],
+  "links": {
+    "agarchive": "https://www.agarchive.net/pages/devs/aprone.html"
+  },
+  "sources": [
+    {
+      "label": "Developer site",
+      "url": "https://www.kaldobsky.com/audiogames/castaways.zip",
+      "platform": "windows",
+      "install": {
+        "method": "zip"
+      },
+      "sha256": "5cdca575be67ef9a296788b2cf884ffa7158dea8f7d0578748ab78f0984eb85d",
+      "size": 17679083
+    },
+    {
+      "platform": "windows",
+      "install": {
+        "method": "zip"
+      },
+      "label": "Mirror",
+      "url": "https://files.accessiblegames.net/files/5cdca575be67ef9a296788b2cf884ffa7158dea8f7d0578748ab78f0984eb85d/castaways.zip",
+      "sha256": "5cdca575be67ef9a296788b2cf884ffa7158dea8f7d0578748ab78f0984eb85d",
+      "size": 17679083
+    },
+    {
+      "platform": "windows",
+      "install": {
+        "method": "zip"
+      },
+      "label": "Mirror",
+      "url": "https://files.accessiblegames.net/files/ec8900aaf11accb6b6bca7938a67a5c0be526b1a087e4cc7cf7b778c6c5da4cf/castaways.zip",
+      "sha256": "ec8900aaf11accb6b6bca7938a67a5c0be526b1a087e4cc7cf7b778c6c5da4cf",
+      "size": 17676633
+    }
+  ]
+}

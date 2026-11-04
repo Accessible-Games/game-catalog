@@ -1,0 +1,28 @@
+{
+  "id": "damage-extreme",
+  "kind": "game",
+  "title": "Damage Extreme",
+  "developer": [
+    "Game Madness Interactive"
+  ],
+  "description": "It is the last stand of the United Nations. Defend your base against increasing waves of enemies, each of which requires a different weapon and strategy to defeat.\n\nDamage Extreme was originally distributed in a source only form. We have compiled the game, and moved the source to its own directory. A small typo in the main menu text was also fixed during compilation.",
+  "flags": [
+    "abandoned"
+  ],
+  "links": {
+    "agarchive": "https://www.agarchive.net/pages/devs/gmi.html"
+  },
+  "sources": [
+    {
+      "platform": "windows",
+      "install": {
+        "method": "7z",
+        "extract_dir": "damage extreme"
+      },
+      "label": "Mirror",
+      "url": "https://files.accessiblegames.net/files/a0eb5f166edaaa68e60dbca104c7735533af77e0d9c951de3ef2a7952997f888/damage_extreme.7z",
+      "sha256": "a0eb5f166edaaa68e60dbca104c7735533af77e0d9c951de3ef2a7952997f888",
+      "size": 41329565
+    }
+  ]
+}

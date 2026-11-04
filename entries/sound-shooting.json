@@ -1,0 +1,44 @@
+{
+  "id": "sound-shooting",
+  "kind": "game",
+  "title": "Sound Shooting",
+  "developer": [
+    "Morokuma"
+  ],
+  "links": {
+    "agarchive": "https://www.agarchive.net/pages/devs/morokuma.html"
+  },
+  "sources": [
+    {
+      "label": "Developer site",
+      "url": "http://hirotaka2014.sakura.ne.jp/mh0406/game/sshoot16.exe",
+      "platform": "windows",
+      "install": {
+        "method": "7z"
+      },
+      "sha256": "0d84916b0c826a022b577ee0e67e348589c6feb6a319fced83761171e6f1fc90",
+      "size": 2963045
+    },
+    {
+      "platform": "windows",
+      "install": {
+        "method": "7z"
+      },
+      "label": "Mirror",
+      "url": "https://files.accessiblegames.net/files/0d84916b0c826a022b577ee0e67e348589c6feb6a319fced83761171e6f1fc90/sshoot16.exe",
+      "sha256": "0d84916b0c826a022b577ee0e67e348589c6feb6a319fced83761171e6f1fc90",
+      "size": 2963045
+    },
+    {
+      "platform": "windows",
+      "install": {
+        "method": "7z",
+        "extract_dir": "sshoot16"
+      },
+      "label": "Mirror",
+      "url": "https://files.accessiblegames.net/files/bd980dbf67ec555c2775c1e3090eacc3d4519d232032f2a30f5d4d99bc92c9af/sound_shooting.7z",
+      "sha256": "bd980dbf67ec555c2775c1e3090eacc3d4519d232032f2a30f5d4d99bc92c9af",
+      "size": 2707851
+    }
+  ]
+}

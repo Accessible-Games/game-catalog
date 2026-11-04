@@ -1,0 +1,25 @@
+{
+  "id": "yahtzee",
+  "kind": "game",
+  "title": "Yahtzee",
+  "developer": [
+    "Jim Kitchen"
+  ],
+  "description": "Note that we have repackaged each game into a zip archive from its initial format of a self-extracting executable. The game's files are contained with a folder, so all you need do is extract the archive and each game will have its own folder.",
+  "links": {
+    "agarchive": "https://www.agarchive.net/pages/devs/kitchensinc.html"
+  },
+  "sources": [
+    {
+      "platform": "windows",
+      "install": {
+        "method": "zip",
+        "extract_dir": "yahtzee2"
+      },
+      "label": "Mirror",
+      "url": "https://files.accessiblegames.net/files/0d2313350d6c8f0bfb2f0610193a18534b6efcd3f9926b5df4418f60dc198288/yahtzee2.zip",
+      "sha256": "0d2313350d6c8f0bfb2f0610193a18534b6efcd3f9926b5df4418f60dc198288",
+      "size": 271323
+    }
+  ]
+}

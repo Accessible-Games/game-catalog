@@ -1,0 +1,23 @@
+{
+  "id": "supercube",
+  "kind": "game",
+  "title": "Supercube",
+  "developer": [
+    "Oriol Gomez"
+  ],
+  "links": {
+    "agarchive": "https://www.agarchive.net/pages/devs/oriolgomez.html"
+  },
+  "sources": [
+    {
+      "platform": "windows",
+      "install": {
+        "method": "zip"
+      },
+      "label": "Mirror",
+      "url": "https://files.accessiblegames.net/files/7f69d0c0f3579502490ffe16872091ccd36b9cb52e77d4d624e459193b1ac520/supercube.zip",
+      "sha256": "7f69d0c0f3579502490ffe16872091ccd36b9cb52e77d4d624e459193b1ac520",
+      "size": 41394379
+    }
+  ]
+}

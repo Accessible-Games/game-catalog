@@ -1,0 +1,42 @@
+{
+  "id": "gma-lander",
+  "kind": "game",
+  "title": "GMA Lander",
+  "developer": [
+    "GMA Games"
+  ],
+  "description": "This is a game where the challenge is to land a spaceship on a planet, moon, or gas giant. Using the spacebar to control the ship's thrusters try to land. There's really not a lot to the game and what there is can be gleaned by going through the game's help or reading the manual. This doesn't make it easy, however.",
+  "links": {
+    "agarchive": "https://www.agarchive.net/pages/devs/gma.html"
+  },
+  "sources": [
+    {
+      "label": "Developer site",
+      "url": "http://www.gmagames.com/gmalander10003.exe",
+      "platform": "windows",
+      "install": {
+        "method": "installer",
+        "installer": {
+          "type": "inno",
+          "mode": "extract"
+        }
+      },
+      "sha256": "782deba2e6159678bde663eecadff6cfac392da9e35751cc461aecf4687bf731",
+      "size": 4329216
+    },
+    {
+      "platform": "windows",
+      "install": {
+        "method": "installer",
+        "installer": {
+          "type": "inno",
+          "mode": "extract"
+        }
+      },
+      "label": "Mirror",
+      "url": "https://files.accessiblegames.net/files/782deba2e6159678bde663eecadff6cfac392da9e35751cc461aecf4687bf731/gmalander10003.exe",
+      "sha256": "782deba2e6159678bde663eecadff6cfac392da9e35751cc461aecf4687bf731",
+      "size": 4329216
+    }
+  ]
+}

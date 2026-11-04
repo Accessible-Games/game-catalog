@@ -1,0 +1,41 @@
+{
+  "id": "playmania",
+  "kind": "game",
+  "title": "PlayMania",
+  "developer": [
+    "NS Studios"
+  ],
+  "links": {
+    "agarchive": "https://www.agarchive.net/pages/devs/ns.html"
+  },
+  "sources": [
+    {
+      "label": "Developer site",
+      "url": "http://www.nsstudiosweb.com/downloads/playmania2012.1.exe",
+      "platform": "windows",
+      "install": {
+        "method": "installer",
+        "installer": {
+          "type": "inno",
+          "mode": "extract"
+        }
+      },
+      "sha256": "5fa1d1727e2e8f4d8ccf0e85d9653ba58196c2ad1979cafd8e3a137393342dba",
+      "size": 4861861
+    },
+    {
+      "platform": "windows",
+      "install": {
+        "method": "installer",
+        "installer": {
+          "type": "inno",
+          "mode": "extract"
+        }
+      },
+      "label": "Mirror",
+      "url": "https://files.accessiblegames.net/files/5fa1d1727e2e8f4d8ccf0e85d9653ba58196c2ad1979cafd8e3a137393342dba/playmania2012.1.exe",
+      "sha256": "5fa1d1727e2e8f4d8ccf0e85d9653ba58196c2ad1979cafd8e3a137393342dba",
+      "size": 4861861
+    }
+  ]
+}

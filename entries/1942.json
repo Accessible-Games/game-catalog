@@ -1,0 +1,25 @@
+{
+  "id": "1942",
+  "kind": "game",
+  "title": "1942",
+  "developer": [
+    "various authors"
+  ],
+  "description": "In the year 1942, Japan invaded Myanmar, cutting off all possible channels between China and the outside world. In order to support the anti-fascists battlefield, allied forces have opened an air route through THE Himalayas, sending soldiers and resources to China. A C46 aircraft loaded with soldiers, set for their training in India has been shot down in the middle of the Burmese jungle. None of the U.S pilots and soldiers survived, except for Qin Luo. Qin Luo could be considered a lucky man, as his life was spared, on the other hand, how can he survive in this remote and foreign place? Without a weapon, hope or even a trusted companion? And so, Qin Luo started searching for something that could keep him alive. 1942 is a strategy war-chess game. Control Qin Luo and find your way out of this remote and foreign place. Travel through Burmese jungles and mountains, visit Japanese fortifications and meet new friends along your way\n\nNote that this game is written in Chinese. To play the game in English, see this guide.",
+  "links": {
+    "agarchive": "https://www.agarchive.net/pages/devs/misc.html"
+  },
+  "sources": [
+    {
+      "platform": "windows",
+      "install": {
+        "method": "7z",
+        "extract_dir": "1942（炼狱征途）"
+      },
+      "label": "Mirror",
+      "url": "https://files.accessiblegames.net/files/9483fe0b02f3e550c7ff05a9a7856f3454a149b10f2030ceeaf12ad32545d477/1942.7z",
+      "sha256": "9483fe0b02f3e550c7ff05a9a7856f3454a149b10f2030ceeaf12ad32545d477",
+      "size": 158819295
+    }
+  ]
+}

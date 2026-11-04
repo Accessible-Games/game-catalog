@@ -1,0 +1,24 @@
+{
+  "id": "x-wing-patrol",
+  "kind": "game",
+  "title": "X-Wing Patrol",
+  "developer": [
+    "various authors"
+  ],
+  "links": {
+    "agarchive": "https://www.agarchive.net/pages/devs/misc.html"
+  },
+  "sources": [
+    {
+      "platform": "windows",
+      "install": {
+        "method": "zip",
+        "extract_dir": "x-wing_patrol"
+      },
+      "label": "Mirror",
+      "url": "https://files.accessiblegames.net/files/2a7815cb2c67f7e84824dfa3b0994b5a348cad5ae07ab2588e99d40a9518e8c4/x-wing_patrol.zip",
+      "sha256": "2a7815cb2c67f7e84824dfa3b0994b5a348cad5ae07ab2588e99d40a9518e8c4",
+      "size": 10907428
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "id": "gun-turrets",
+  "kind": "game",
+  "title": "Gun Turrets",
+  "developer": [
+    "Sightless Wolf Entertainment"
+  ],
+  "description": "Reminiscent of games such as scrolling battles, this is a simple shooter. This beta version unlocks everything automatically.",
+  "flags": [
+    "abandoned"
+  ],
+  "links": {
+    "agarchive": "https://www.agarchive.net/pages/devs/sightlessWolf.html"
+  },
+  "sources": [
+    {
+      "platform": "windows",
+      "install": {
+        "method": "7z",
+        "extract_dir": "gun turrets"
+      },
+      "label": "Mirror",
+      "url": "https://files.accessiblegames.net/files/7b07f8ba71e12e25cf6bfef209adc40bbb72fb385da16cc6714f063d34c36593/gunTurrets.7z",
+      "sha256": "7b07f8ba71e12e25cf6bfef209adc40bbb72fb385da16cc6714f063d34c36593",
+      "size": 22667654
+    }
+  ]
+}

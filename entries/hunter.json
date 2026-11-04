@@ -1,0 +1,34 @@
+{
+  "id": "hunter",
+  "kind": "game",
+  "title": "Hunter",
+  "developer": [
+    "BSC Games"
+  ],
+  "description": "This game features ten levels of intense action of different kinds.",
+  "flags": [
+    "abandoned"
+  ],
+  "links": {
+    "agarchive": "https://www.agarchive.net/pages/devs/bsc.html"
+  },
+  "sources": [
+    {
+      "platform": "windows",
+      "install": {
+        "method": "installer",
+        "installer": {
+          "type": "inno",
+          "mode": "extract"
+        }
+      },
+      "label": "Mirror",
+      "url": "https://files.accessiblegames.net/files/2359aa062ddb4f9c982a3e8b9710c390727af187e2020a4e583d842385b97a3e/HunterSetup.exe",
+      "sha256": "2359aa062ddb4f9c982a3e8b9710c390727af187e2020a4e583d842385b97a3e",
+      "size": 58343125
+    }
+  ],
+  "dependencies": [
+    "bsc-windows10-fixpack"
+  ]
+}

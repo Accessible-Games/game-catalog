@@ -1,0 +1,23 @@
+{
+  "id": "run-from-your-past",
+  "kind": "game",
+  "title": "Run from your past",
+  "developer": [
+    "Oriol Gomez"
+  ],
+  "links": {
+    "agarchive": "https://www.agarchive.net/pages/devs/oriolgomez.html"
+  },
+  "sources": [
+    {
+      "platform": "windows",
+      "install": {
+        "method": "zip"
+      },
+      "label": "Mirror",
+      "url": "https://files.accessiblegames.net/files/05691cc0ab22e1a6cddd4e075247c97222ff41d936ea88b34ee0f204ad4e9617/run_from_your_past.zip",
+      "sha256": "05691cc0ab22e1a6cddd4e075247c97222ff41d936ea88b34ee0f204ad4e9617",
+      "size": 30344831
+    }
+  ]
+}

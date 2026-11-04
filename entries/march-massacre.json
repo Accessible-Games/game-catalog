@@ -1,0 +1,50 @@
+{
+  "id": "march-massacre",
+  "kind": "game",
+  "title": "March Massacre",
+  "developer": [
+    "Talon"
+  ],
+  "links": {
+    "homepage": "https://iamtalon.me/march-massacre/",
+    "agarchive": "https://www.agarchive.net/pages/devs/talon.html"
+  },
+  "sources": [
+    {
+      "label": "Developer site",
+      "url": "https://iamtalon.me/games/marchmassacre.zip",
+      "platform": "windows",
+      "install": {
+        "method": "zip",
+        "extract_dir": "marchmassacre"
+      },
+      "sha256": "ce2b405a243ef6bef07bda50a8f8dd8ba29cba664788e3673ed45ac5e6c1752b",
+      "size": 189452277
+    },
+    {
+      "platform": "windows",
+      "install": {
+        "method": "zip",
+        "extract_dir": "marchmassacre"
+      },
+      "label": "Mirror",
+      "url": "https://files.accessiblegames.net/files/ce2b405a243ef6bef07bda50a8f8dd8ba29cba664788e3673ed45ac5e6c1752b/marchmassacre.zip",
+      "sha256": "ce2b405a243ef6bef07bda50a8f8dd8ba29cba664788e3673ed45ac5e6c1752b",
+      "size": 189452277
+    },
+    {
+      "platform": "windows",
+      "install": {
+        "method": "installer",
+        "installer": {
+          "type": "inno",
+          "mode": "extract"
+        }
+      },
+      "label": "Mirror",
+      "url": "https://files.accessiblegames.net/files/52dbb745b7ba113752e7e17763fd11f745d0517c14b7047dd9b92859b2c3a986/march_massacre_setup.exe",
+      "sha256": "52dbb745b7ba113752e7e17763fd11f745d0517c14b7047dd9b92859b2c3a986",
+      "size": 168012017
+    }
+  ]
+}

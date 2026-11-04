@@ -1,0 +1,32 @@
+{
+  "id": "lworks-arcade",
+  "kind": "game",
+  "title": "LWorks Arcade",
+  "developer": [
+    "LWorks"
+  ],
+  "description": "Got five minutes to spare? Try this collection of simple, yet addicting games.\n\nNote that this is only a demo version, and there is currently no way to get the full version. Thus, the only games you get are Number Guess and Sticks.",
+  "flags": [
+    "abandoned",
+    "demo"
+  ],
+  "links": {
+    "agarchive": "https://www.agarchive.net/pages/devs/lworks.html"
+  },
+  "sources": [
+    {
+      "platform": "windows",
+      "install": {
+        "method": "installer",
+        "installer": {
+          "type": "inno",
+          "mode": "extract"
+        }
+      },
+      "label": "Mirror",
+      "url": "https://files.accessiblegames.net/files/e69c6b80e6e646d8248375cbf9865e93865a2a48bbc7dbbeed29a39d72566fa4/lWorks_arcade_volume1_setup.exe",
+      "sha256": "e69c6b80e6e646d8248375cbf9865e93865a2a48bbc7dbbeed29a39d72566fa4",
+      "size": 742218
+    }
+  ]
+}

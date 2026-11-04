@@ -1,0 +1,30 @@
+{
+  "id": "fast-and-loose",
+  "kind": "game",
+  "title": "Fast and Loose",
+  "developer": [
+    "Simon Cowan"
+  ],
+  "flags": [
+    "abandoned"
+  ],
+  "links": {
+    "agarchive": "https://www.agarchive.net/pages/devs/simonCowan.html"
+  },
+  "sources": [
+    {
+      "platform": "windows",
+      "install": {
+        "method": "installer",
+        "installer": {
+          "type": "inno",
+          "mode": "extract"
+        }
+      },
+      "label": "Mirror",
+      "url": "https://files.accessiblegames.net/files/6ce2b2ed6a2f2da9a8ec72a82b8ae3a5180d9395ecade50d1a448afeed05b129/fast_and_loose_setup.exe",
+      "sha256": "6ce2b2ed6a2f2da9a8ec72a82b8ae3a5180d9395ecade50d1a448afeed05b129",
+      "size": 413351
+    }
+  ]
+}

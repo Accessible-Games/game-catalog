@@ -1,0 +1,28 @@
+{
+  "id": "gma-dice",
+  "kind": "game",
+  "title": "GMA Dice",
+  "developer": [
+    "GMA Games"
+  ],
+  "description": "For lovers of D&D and other tabletop games, check out GMA Dice. There are twelve preset rolls that can be used but each one of them is also customizable. The program allows for customization of how many dice are rolled as well as the number of sides each die has. .",
+  "links": {
+    "agarchive": "https://www.agarchive.net/pages/devs/gma.html"
+  },
+  "sources": [
+    {
+      "platform": "windows",
+      "install": {
+        "method": "installer",
+        "installer": {
+          "type": "inno",
+          "mode": "extract"
+        }
+      },
+      "label": "Mirror",
+      "url": "https://files.accessiblegames.net/files/f4e4faad444c1e97fa7bf3e8953c73877776b71c86c5de1abe2f8897ebe37587/GMA_dice102.exe",
+      "sha256": "f4e4faad444c1e97fa7bf3e8953c73877776b71c86c5de1abe2f8897ebe37587",
+      "size": 4067362
+    }
+  ]
+}

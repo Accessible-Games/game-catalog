@@ -1,0 +1,41 @@
+{
+  "id": "pontes-hits",
+  "kind": "game",
+  "title": "Pontes Hits",
+  "developer": [
+    "Pontes Games"
+  ],
+  "links": {
+    "agarchive": "https://www.agarchive.net/pages/devs/pontes.html"
+  },
+  "sources": [
+    {
+      "label": "Developer site",
+      "url": "http://www.pontes.ro/ro/divertisment/games/Pontes-Hits-1.0.exe",
+      "platform": "windows",
+      "install": {
+        "method": "installer",
+        "installer": {
+          "type": "inno",
+          "mode": "extract"
+        }
+      },
+      "sha256": "4b20fda5c21536567f5d42bf7b6520565331cb611b40319f028a7683c788e14b",
+      "size": 17963566
+    },
+    {
+      "platform": "windows",
+      "install": {
+        "method": "installer",
+        "installer": {
+          "type": "inno",
+          "mode": "extract"
+        }
+      },
+      "label": "Mirror",
+      "url": "https://files.accessiblegames.net/files/4b20fda5c21536567f5d42bf7b6520565331cb611b40319f028a7683c788e14b/Pontes-Hits-1.0.exe",
+      "sha256": "4b20fda5c21536567f5d42bf7b6520565331cb611b40319f028a7683c788e14b",
+      "size": 17963566
+    }
+  ]
+}

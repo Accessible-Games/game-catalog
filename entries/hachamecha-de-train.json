@@ -1,0 +1,47 @@
+{
+  "id": "hachamecha-de-train",
+  "kind": "game",
+  "title": "Hachamecha de Train",
+  "developer": [
+    "Galaxy Laboratory"
+  ],
+  "description": "This is a train simulator set in the fictional world of an RPG by another developer.",
+  "links": {
+    "agarchive": "https://www.agarchive.net/pages/devs/GalaxyLaboratory.html"
+  },
+  "sources": [
+    {
+      "label": "Developer site",
+      "url": "http://www.mm-galabo.com/soft/train/train2.1.exe",
+      "platform": "windows",
+      "install": {
+        "method": "7z",
+        "extract_dir": "train2.1"
+      },
+      "sha256": "f4c9d6eaaf08b2934514a69fc5732b6b2066b902435735f9838e7a3c72e9e927",
+      "size": 122544758
+    },
+    {
+      "platform": "windows",
+      "install": {
+        "method": "7z",
+        "extract_dir": "train2.1"
+      },
+      "label": "Mirror",
+      "url": "https://files.accessiblegames.net/files/f4c9d6eaaf08b2934514a69fc5732b6b2066b902435735f9838e7a3c72e9e927/train2.1.exe",
+      "sha256": "f4c9d6eaaf08b2934514a69fc5732b6b2066b902435735f9838e7a3c72e9e927",
+      "size": 122544758
+    },
+    {
+      "platform": "windows",
+      "install": {
+        "method": "7z",
+        "extract_dir": "train2.1"
+      },
+      "label": "Mirror",
+      "url": "https://files.accessiblegames.net/files/e771a8cea89faf2022cf645bb588e69241e5d53769cc4fd3be061d62b71233f3/hachamecha_de_train.7z",
+      "sha256": "e771a8cea89faf2022cf645bb588e69241e5d53769cc4fd3be061d62b71233f3",
+      "size": 122091164
+    }
+  ]
+}

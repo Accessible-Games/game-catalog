@@ -1,0 +1,24 @@
+{
+  "id": "towering-tones",
+  "kind": "game",
+  "title": "Towering tones",
+  "developer": [
+    "Jeqocon Games"
+  ],
+  "description": "Please note that we have compiled the game from its original source only form for ease of use. The source remains and is unmodified.",
+  "links": {
+    "agarchive": "https://www.agarchive.net/pages/devs/jeqocon.html"
+  },
+  "sources": [
+    {
+      "platform": "windows",
+      "install": {
+        "method": "7z"
+      },
+      "label": "Mirror",
+      "url": "https://files.accessiblegames.net/files/9293f7eb42801077d80e0a5f98c3e74ca794188749bc981396fc138905ab5bc5/towering_tones.7z",
+      "sha256": "9293f7eb42801077d80e0a5f98c3e74ca794188749bc981396fc138905ab5bc5",
+      "size": 2914260
+    }
+  ]
+}

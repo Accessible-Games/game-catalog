@@ -1,0 +1,24 @@
+{
+  "id": "copter-mission",
+  "kind": "game",
+  "title": "Copter Mission",
+  "developer": [
+    "Oriol Gomez"
+  ],
+  "description": "As a soldger piloting a damaged helicopter over a future war-torn Chinese city, you must navigate through buildings and avoid missiles using your remaining weapons to find a safe landing in this heart-pounding arcade action game. can you overcome the obsticals and be the victor?",
+  "links": {
+    "agarchive": "https://www.agarchive.net/pages/devs/oriolgomez.html"
+  },
+  "sources": [
+    {
+      "platform": "windows",
+      "install": {
+        "method": "zip"
+      },
+      "label": "Mirror",
+      "url": "https://files.accessiblegames.net/files/907b7664b8926963ab7fcd8cc422da03770ff7b64a8f8be03e2fbd1f4f4564c1/copter_mission.zip",
+      "sha256": "907b7664b8926963ab7fcd8cc422da03770ff7b64a8f8be03e2fbd1f4f4564c1",
+      "size": 27004224
+    }
+  ]
+}

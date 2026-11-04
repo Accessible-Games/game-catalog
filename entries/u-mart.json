@@ -1,0 +1,44 @@
+{
+  "id": "u-mart",
+  "kind": "game",
+  "title": "U-Mart",
+  "developer": [
+    "Aprone"
+  ],
+  "description": "can you make your store the best? compete with other stores, manage your finances, and try to turn your small storefront into a shopping empire.",
+  "links": {
+    "agarchive": "https://www.agarchive.net/pages/devs/aprone.html"
+  },
+  "sources": [
+    {
+      "label": "Developer site",
+      "url": "https://www.kaldobsky.com/audiogames/umart.zip",
+      "platform": "windows",
+      "install": {
+        "method": "zip"
+      },
+      "sha256": "9ecbe6cc5de0be2066075f740d44304227ca5299c6b8fc7b1d567145f7ed1a75",
+      "size": 2193043
+    },
+    {
+      "platform": "windows",
+      "install": {
+        "method": "zip"
+      },
+      "label": "Mirror",
+      "url": "https://files.accessiblegames.net/files/9ecbe6cc5de0be2066075f740d44304227ca5299c6b8fc7b1d567145f7ed1a75/umart.zip",
+      "sha256": "9ecbe6cc5de0be2066075f740d44304227ca5299c6b8fc7b1d567145f7ed1a75",
+      "size": 2193043
+    },
+    {
+      "platform": "windows",
+      "install": {
+        "method": "zip"
+      },
+      "label": "Mirror",
+      "url": "https://files.accessiblegames.net/files/4f02c80ad98dbe2f91ef8e811b6517e18bfa2ac7d16fe632c2c9d60de47ac422/umart1.0.zip",
+      "sha256": "4f02c80ad98dbe2f91ef8e811b6517e18bfa2ac7d16fe632c2c9d60de47ac422",
+      "size": 2187339
+    }
+  ]
+}

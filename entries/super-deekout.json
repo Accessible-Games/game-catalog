@@ -1,0 +1,74 @@
+{
+  "id": "super-deekout",
+  "kind": "game",
+  "title": "Super Deekout",
+  "developer": [
+    "Dan Z"
+  ],
+  "flags": [
+    "abandoned"
+  ],
+  "links": {
+    "agarchive": "https://www.agarchive.net/pages/devs/danZ.html"
+  },
+  "sources": [
+    {
+      "label": "Developer site",
+      "url": "http://www.danielzingaro.com/superdeekout_setup.exe",
+      "platform": "windows",
+      "install": {
+        "method": "installer",
+        "installer": {
+          "type": "inno",
+          "mode": "extract"
+        }
+      },
+      "sha256": "4a2e766b2b416ddbbd23c772ea61f02f266865bf735c417526a4f2f05c83a84a",
+      "size": 40359602
+    },
+    {
+      "platform": "windows",
+      "install": {
+        "method": "installer",
+        "installer": {
+          "type": "inno",
+          "mode": "extract"
+        }
+      },
+      "label": "Mirror",
+      "url": "https://files.accessiblegames.net/files/4a2e766b2b416ddbbd23c772ea61f02f266865bf735c417526a4f2f05c83a84a/superdeekout_setup.exe",
+      "sha256": "4a2e766b2b416ddbbd23c772ea61f02f266865bf735c417526a4f2f05c83a84a",
+      "size": 40359602
+    },
+    {
+      "label": "Developer site",
+      "url": "http://www.danielzingaro.com/sd_full.exe",
+      "platform": "windows",
+      "install": {
+        "method": "7z"
+      },
+      "sha256": "f4ba7aa91a8d0d7ed3ba7bb8eee021796b3ca510fc087bd613a0ad3506c43d58",
+      "size": 193176
+    },
+    {
+      "platform": "windows",
+      "install": {
+        "method": "7z"
+      },
+      "label": "Mirror",
+      "url": "https://files.accessiblegames.net/files/f4ba7aa91a8d0d7ed3ba7bb8eee021796b3ca510fc087bd613a0ad3506c43d58/sd_full.exe",
+      "sha256": "f4ba7aa91a8d0d7ed3ba7bb8eee021796b3ca510fc087bd613a0ad3506c43d58",
+      "size": 193176
+    },
+    {
+      "platform": "windows",
+      "install": {
+        "method": "7z"
+      },
+      "label": "Mirror",
+      "url": "https://files.accessiblegames.net/files/44dd1b5dd18e4ee1da03d944f780e7f7d67ba84f6499885cb66be20f839559f4/super_deekout_with_patch.7z",
+      "sha256": "44dd1b5dd18e4ee1da03d944f780e7f7d67ba84f6499885cb66be20f839559f4",
+      "size": 40940397
+    }
+  ]
+}

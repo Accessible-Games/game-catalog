@@ -1,0 +1,23 @@
+{
+  "id": "temporal-with-sounds",
+  "kind": "game",
+  "title": "Temporal with sounds",
+  "developer": [
+    "Jeqocon Games"
+  ],
+  "links": {
+    "agarchive": "https://www.agarchive.net/pages/devs/jeqocon.html"
+  },
+  "sources": [
+    {
+      "platform": "windows",
+      "install": {
+        "method": "7z"
+      },
+      "label": "Mirror",
+      "url": "https://files.accessiblegames.net/files/f82e5c9ca4c24c22494f512ed4ea7981736ea7a8e24a2266f5412018a6dc9d1f/temporal_remake.7z",
+      "sha256": "f82e5c9ca4c24c22494f512ed4ea7981736ea7a8e24a2266f5412018a6dc9d1f",
+      "size": 2082542
+    }
+  ]
+}

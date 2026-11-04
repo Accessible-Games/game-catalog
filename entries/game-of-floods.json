@@ -1,0 +1,23 @@
+{
+  "id": "game-of-floods",
+  "kind": "game",
+  "title": "Game of Floods",
+  "developer": [
+    "Rocky Waters"
+  ],
+  "links": {
+    "agarchive": "https://www.agarchive.net/pages/devs/rockyWaters.html"
+  },
+  "sources": [
+    {
+      "platform": "windows",
+      "install": {
+        "method": "none"
+      },
+      "label": "Mirror",
+      "url": "https://files.accessiblegames.net/files/44eb057c5034ecd33c8d3995f0f7ac314a448a26a55bcea55de50473f99f95d4/gameOfFloods.exe",
+      "sha256": "44eb057c5034ecd33c8d3995f0f7ac314a448a26a55bcea55de50473f99f95d4",
+      "size": 4686885
+    }
+  ]
+}

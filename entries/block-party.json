@@ -1,0 +1,27 @@
+{
+  "id": "block-party",
+  "kind": "game",
+  "title": "Block Party",
+  "developer": [
+    "various authors"
+  ],
+  "links": {
+    "agarchive": "https://www.agarchive.net/pages/devs/misc.html"
+  },
+  "sources": [
+    {
+      "platform": "windows",
+      "install": {
+        "method": "installer",
+        "installer": {
+          "type": "inno",
+          "mode": "extract"
+        }
+      },
+      "label": "Mirror",
+      "url": "https://files.accessiblegames.net/files/d59a611e2ba64ce01efaa1d26a95439a289f0971fbe11dba1c1347d89a25415c/block_party_1.2_setup.exe",
+      "sha256": "d59a611e2ba64ce01efaa1d26a95439a289f0971fbe11dba1c1347d89a25415c",
+      "size": 9891550
+    }
+  ]
+}

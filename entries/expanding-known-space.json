@@ -1,0 +1,45 @@
+{
+  "id": "expanding-known-space",
+  "kind": "game",
+  "title": "Expanding Known Space",
+  "developer": [
+    "Valiant Galaxy Associates"
+  ],
+  "flags": [
+    "requires-registration"
+  ],
+  "links": {
+    "homepage": "https://guidedoggames.com:7081/games/5",
+    "agarchive": "https://www.agarchive.net/pages/devs/vga.html"
+  },
+  "sources": [
+    {
+      "label": "Developer site",
+      "url": "http://www.valiantgalaxy.com/eks/ExpandingKnownSpace0.0.2.1Installer.exe",
+      "platform": "windows",
+      "install": {
+        "method": "installer",
+        "installer": {
+          "type": "inno",
+          "mode": "extract"
+        }
+      },
+      "sha256": "0ec9329f4a934ed8f42bfb97f6ddc9a8f90d07cfa8de1b2fd5f423c778637128",
+      "size": 90847798
+    },
+    {
+      "platform": "windows",
+      "install": {
+        "method": "installer",
+        "installer": {
+          "type": "inno",
+          "mode": "extract"
+        }
+      },
+      "label": "Mirror",
+      "url": "https://files.accessiblegames.net/files/0ec9329f4a934ed8f42bfb97f6ddc9a8f90d07cfa8de1b2fd5f423c778637128/ExpandingKnownSpace0.0.2.1Installer.exe",
+      "sha256": "0ec9329f4a934ed8f42bfb97f6ddc9a8f90d07cfa8de1b2fd5f423c778637128",
+      "size": 90847798
+    }
+  ]
+}

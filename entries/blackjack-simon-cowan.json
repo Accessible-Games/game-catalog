@@ -1,0 +1,30 @@
+{
+  "id": "blackjack-simon-cowan",
+  "kind": "game",
+  "title": "Blackjack",
+  "developer": [
+    "Simon Cowan"
+  ],
+  "flags": [
+    "abandoned"
+  ],
+  "links": {
+    "agarchive": "https://www.agarchive.net/pages/devs/simonCowan.html"
+  },
+  "sources": [
+    {
+      "platform": "windows",
+      "install": {
+        "method": "installer",
+        "installer": {
+          "type": "inno",
+          "mode": "extract"
+        }
+      },
+      "label": "Mirror",
+      "url": "https://files.accessiblegames.net/files/0ac3099746b9c87501cdb2c50fa6dc63b3ff5b9341e769dbbf9445d56d23c952/blackjack_setup.exe",
+      "sha256": "0ac3099746b9c87501cdb2c50fa6dc63b3ff5b9341e769dbbf9445d56d23c952",
+      "size": 409985
+    }
+  ]
+}

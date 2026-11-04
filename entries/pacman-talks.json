@@ -1,0 +1,47 @@
+{
+  "id": "pacman-talks",
+  "kind": "game",
+  "title": "Pacman talks",
+  "developer": [
+    "PCS"
+  ],
+  "description": "You are Pacman traveling through level after level of mazes gobbling up fruit and trying to avoid ghosts. Note that Pacman Talks is sold through GMA Games. You will need to create a GMA Games account in order to purchase it.",
+  "flags": [
+    "demo",
+    "requires-registration"
+  ],
+  "links": {
+    "homepage": "http://www.gmagames.com/myaccount.shtml",
+    "agarchive": "https://www.agarchive.net/pages/devs/pcs.html"
+  },
+  "sources": [
+    {
+      "label": "Developer site",
+      "url": "http://www.gmagames.com/pmt101.exe",
+      "platform": "windows",
+      "install": {
+        "method": "installer",
+        "installer": {
+          "type": "inno",
+          "mode": "extract"
+        }
+      },
+      "sha256": "9f339ee4f5e6108ce625a084fac65c0c968f2e2361ce239db7b13426516c1b4a",
+      "size": 39822008
+    },
+    {
+      "platform": "windows",
+      "install": {
+        "method": "installer",
+        "installer": {
+          "type": "inno",
+          "mode": "extract"
+        }
+      },
+      "label": "Mirror",
+      "url": "https://files.accessiblegames.net/files/9f339ee4f5e6108ce625a084fac65c0c968f2e2361ce239db7b13426516c1b4a/pmt101.exe",
+      "sha256": "9f339ee4f5e6108ce625a084fac65c0c968f2e2361ce239db7b13426516c1b4a",
+      "size": 39822008
+    }
+  ]
+}

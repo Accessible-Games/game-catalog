@@ -1,0 +1,34 @@
+{
+  "id": "cookie-muncher",
+  "kind": "game",
+  "title": "Cookie Muncher",
+  "developer": [
+    "BSC Games"
+  ],
+  "description": "Munch all the cookies on your computer in a rather amusing manner.",
+  "flags": [
+    "abandoned"
+  ],
+  "links": {
+    "agarchive": "https://www.agarchive.net/pages/devs/bsc.html"
+  },
+  "sources": [
+    {
+      "platform": "windows",
+      "install": {
+        "method": "installer",
+        "installer": {
+          "type": "inno",
+          "mode": "extract"
+        }
+      },
+      "label": "Mirror",
+      "url": "https://files.accessiblegames.net/files/5ff9c7b9f48bd8d5d784aa7910b214950ee0faf85c469bf15833fd572dbdb258/CookieMuncherSetup.exe",
+      "sha256": "5ff9c7b9f48bd8d5d784aa7910b214950ee0faf85c469bf15833fd572dbdb258",
+      "size": 366986
+    }
+  ],
+  "dependencies": [
+    "bsc-windows10-fixpack"
+  ]
+}

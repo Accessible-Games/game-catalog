@@ -1,0 +1,23 @@
+{
+  "id": "crime-hunter",
+  "kind": "game",
+  "title": "Crime Hunter",
+  "developer": [
+    "Mason Armstrong"
+  ],
+  "links": {
+    "agarchive": "https://www.agarchive.net/pages/devs/mason.html"
+  },
+  "sources": [
+    {
+      "platform": "windows",
+      "install": {
+        "method": "zip"
+      },
+      "label": "Mirror",
+      "url": "https://files.accessiblegames.net/files/db74694124c1e12be13e4d9880980f1007cc78135893e3febaca97dfd1bb3a0b/crimeHunter.zip",
+      "sha256": "db74694124c1e12be13e4d9880980f1007cc78135893e3febaca97dfd1bb3a0b",
+      "size": 15435898
+    }
+  ]
+}

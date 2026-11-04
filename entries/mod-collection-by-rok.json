@@ -1,0 +1,27 @@
+{
+  "id": "mod-collection-by-rok",
+  "kind": "extra",
+  "title": "Mod Collection by Rok",
+  "developer": [
+    "Playing in the Dark"
+  ],
+  "description": "This is an extensive collection of tracks and vehicles gathered from several different sources.\n\nSee the listing file for a details on the contents.",
+  "links": {
+    "agarchive": "https://www.agarchive.net/pages/devs/pitd.html"
+  },
+  "sources": [
+    {
+      "platform": "windows",
+      "install": {
+        "method": "7z",
+        "extract_dir": "top speed 3 mods collected by Rok"
+      },
+      "label": "Mirror",
+      "url": "https://files.accessiblegames.net/files/626e1854eb7c2ad428f729349ba78f55fb1709b7a1bd878f1697c5597c95d4f4/top_speed_3_mods_collected_by_Rok.7z",
+      "sha256": "626e1854eb7c2ad428f729349ba78f55fb1709b7a1bd878f1697c5597c95d4f4",
+      "size": 44040363
+    }
+  ],
+  "extends": "top-speed-3",
+  "install_into": "top-speed-3"
+}

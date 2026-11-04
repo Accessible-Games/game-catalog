@@ -1,0 +1,25 @@
+{
+  "id": "heaven-and-earth-war-2",
+  "kind": "game",
+  "title": "Heaven and Earth War 2",
+  "developer": [
+    "Morokuma"
+  ],
+  "description": "An RPG built with Text Game Maker. A direct sequel to Heaven and Earth War 1.",
+  "links": {
+    "agarchive": "https://www.agarchive.net/pages/devs/morokuma.html"
+  },
+  "sources": [
+    {
+      "platform": "windows",
+      "install": {
+        "method": "7z",
+        "extract_dir": "“V’nãí Ä‚Ñ"
+      },
+      "label": "Mirror",
+      "url": "https://files.accessiblegames.net/files/31ff9e1c571885e06bf88070096928593dd7c504eb1547d3592515f8c207ba13/heaven_and_earth_war2.7z",
+      "sha256": "31ff9e1c571885e06bf88070096928593dd7c504eb1547d3592515f8c207ba13",
+      "size": 15138623
+    }
+  ]
+}

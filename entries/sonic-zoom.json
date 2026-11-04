@@ -1,0 +1,29 @@
+{
+  "id": "sonic-zoom",
+  "kind": "game",
+  "title": "Sonic Zoom",
+  "developer": [
+    "Sounds Like Fun"
+  ],
+  "description": "The highway's a mess. Some careless driver's dropped coins everywhere, and its your job to take the Sonic Zoom and clean them up.\n\nNote that you may run into some audio glitches with SAPI output, but otherwise the game should run fine on all systems.",
+  "flags": [
+    "abandoned"
+  ],
+  "links": {
+    "homepage": "http://www.cs.unc.edu/Research/assist/et/projects/SonicZoom/wwwx.cs.unc.edu/Courses/comp145-s04/BlindGames/",
+    "agarchive": "https://www.agarchive.net/pages/devs/soundsLikeFun.html"
+  },
+  "sources": [
+    {
+      "platform": "windows",
+      "install": {
+        "method": "zip",
+        "extract_dir": "Sonic Zoom"
+      },
+      "label": "Mirror",
+      "url": "https://files.accessiblegames.net/files/0f04d2a276db50dbf4c90bbece21e1f97cf5b450fdf0916206c17d32446435ce/soniczoom11.zip",
+      "sha256": "0f04d2a276db50dbf4c90bbece21e1f97cf5b450fdf0916206c17d32446435ce",
+      "size": 18745351
+    }
+  ]
+}

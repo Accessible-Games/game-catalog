@@ -1,0 +1,31 @@
+{
+  "id": "mud-splat-english",
+  "kind": "game",
+  "title": "Mud Splat English",
+  "developer": [
+    "various authors"
+  ],
+  "description": "Mud Splat was translated into several languages. We have both the English version and the multilingual pack available for download.",
+  "flags": [
+    "abandoned"
+  ],
+  "links": {
+    "agarchive": "https://www.agarchive.net/pages/devs/misc.html"
+  },
+  "sources": [
+    {
+      "platform": "windows",
+      "install": {
+        "method": "installer",
+        "installer": {
+          "type": "nsis",
+          "mode": "extract"
+        }
+      },
+      "label": "Mirror",
+      "url": "https://files.accessiblegames.net/files/c538ec73610bb534ff4e7de0b2a8f3a777ccc2ee251d90589c3afd2a101eb73e/mudsplit_english_installer.exe",
+      "sha256": "c538ec73610bb534ff4e7de0b2a8f3a777ccc2ee251d90589c3afd2a101eb73e",
+      "size": 118276339
+    }
+  ]
+}

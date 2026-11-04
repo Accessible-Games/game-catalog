@@ -1,0 +1,25 @@
+{
+  "id": "triple-j-shooter",
+  "kind": "game",
+  "title": "Triple J Shooter",
+  "developer": [
+    "Jim Kitchen"
+  ],
+  "description": "Note that we have repackaged each game into a zip archive from its initial format of a self-extracting executable. The game's files are contained with a folder, so all you need do is extract the archive and each game will have its own folder.",
+  "links": {
+    "agarchive": "https://www.agarchive.net/pages/devs/kitchensinc.html"
+  },
+  "sources": [
+    {
+      "platform": "windows",
+      "install": {
+        "method": "zip",
+        "extract_dir": "tripple j shooter"
+      },
+      "label": "Mirror",
+      "url": "https://files.accessiblegames.net/files/c267d0733eabb3fc10722a950d0d0a604b520da977c51e858e88272a21746fe7/triple_j_shooter.zip",
+      "sha256": "c267d0733eabb3fc10722a950d0d0a604b520da977c51e858e88272a21746fe7",
+      "size": 2720661
+    }
+  ]
+}

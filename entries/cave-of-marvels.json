@@ -1,0 +1,45 @@
+{
+  "id": "cave-of-marvels",
+  "kind": "game",
+  "title": "Cave of Marvels",
+  "developer": [
+    "Morokuma"
+  ],
+  "description": "A dungeon exploration RPG.",
+  "links": {
+    "agarchive": "https://www.agarchive.net/pages/devs/morokuma.html"
+  },
+  "sources": [
+    {
+      "label": "Developer site",
+      "url": "http://hirotaka2014.sakura.ne.jp/mh0406/game/cave109.exe",
+      "platform": "windows",
+      "install": {
+        "method": "7z"
+      },
+      "sha256": "f5cdafe548e554706b2f915d383f1d3297e929c684cc9911d24afb46815da190",
+      "size": 60872721
+    },
+    {
+      "platform": "windows",
+      "install": {
+        "method": "7z"
+      },
+      "label": "Mirror",
+      "url": "https://files.accessiblegames.net/files/f5cdafe548e554706b2f915d383f1d3297e929c684cc9911d24afb46815da190/cave109.exe",
+      "sha256": "f5cdafe548e554706b2f915d383f1d3297e929c684cc9911d24afb46815da190",
+      "size": 60872721
+    },
+    {
+      "platform": "windows",
+      "install": {
+        "method": "7z",
+        "extract_dir": "•sŽv‹c‚Ì“´ŒA"
+      },
+      "label": "Mirror",
+      "url": "https://files.accessiblegames.net/files/d0e8c1d45041b55384d5d2f282e203226cf877c483ecfe36a8d6a2cdb5637f3b/cave_of_marvels.7z",
+      "sha256": "d0e8c1d45041b55384d5d2f282e203226cf877c483ecfe36a8d6a2cdb5637f3b",
+      "size": 60260109
+    }
+  ]
+}

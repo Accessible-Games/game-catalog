@@ -1,0 +1,28 @@
+{
+  "id": "the-great-toy-robbery",
+  "kind": "game",
+  "title": "The Great Toy Robbery",
+  "developer": [
+    "LWorks"
+  ],
+  "description": "Play as Naughty McNaughterson sneaking into Santa's workshop to steal toys. Run around collecting toys and keys within time limits, avoiding angry elves and eventually Santa himself. Grab all the keys to trigger a finale chase by rocket-sled-driving Santa! Flee successfully through doors with your haul for a high score and unlock achievements in this Christmas adventure game.",
+  "links": {
+    "agarchive": "https://www.agarchive.net/pages/devs/lworks.html"
+  },
+  "sources": [
+    {
+      "platform": "windows",
+      "install": {
+        "method": "installer",
+        "installer": {
+          "type": "inno",
+          "mode": "extract"
+        }
+      },
+      "label": "Mirror",
+      "url": "https://files.accessiblegames.net/files/2550d2f6bd2ca2af5a16c0c7172918a9d5fc704bef9c047a23513beabe2bdb72/tgtrsetup_2.04.exe",
+      "sha256": "2550d2f6bd2ca2af5a16c0c7172918a9d5fc704bef9c047a23513beabe2bdb72",
+      "size": 39742633
+    }
+  ]
+}

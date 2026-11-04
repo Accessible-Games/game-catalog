@@ -1,0 +1,33 @@
+{
+  "id": "the-horse-racing-game",
+  "kind": "game",
+  "title": "The Horse Racing Game",
+  "developer": [
+    "Lighttech Interactive"
+  ],
+  "flags": [
+    "abandoned"
+  ],
+  "links": {
+    "agarchive": "https://www.agarchive.net/pages/devs/lighttech.html"
+  },
+  "sources": [
+    {
+      "platform": "windows",
+      "install": {
+        "method": "installer",
+        "installer": {
+          "type": "other",
+          "mode": "run"
+        }
+      },
+      "label": "Mirror",
+      "url": "https://files.accessiblegames.net/files/eb4f46445b126b9048493dfa4a491730c57731fdfb07118c84c59b099a4c6fcc/the_horse_racing_game_setup.exe",
+      "sha256": "eb4f46445b126b9048493dfa4a491730c57731fdfb07118c84c59b099a4c6fcc",
+      "size": 61052967
+    }
+  ],
+  "dependencies": [
+    "com-audio-dependency"
+  ]
+}

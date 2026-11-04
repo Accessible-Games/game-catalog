@@ -1,0 +1,24 @@
+{
+  "id": "md5-battle",
+  "kind": "game",
+  "title": "MD5 Battle",
+  "developer": [
+    "Nyanchan Games"
+  ],
+  "links": {
+    "agarchive": "https://www.agarchive.net/pages/devs/nyanchan.html"
+  },
+  "sources": [
+    {
+      "platform": "windows",
+      "install": {
+        "method": "7z",
+        "extract_dir": "md5 battle"
+      },
+      "label": "Mirror",
+      "url": "https://files.accessiblegames.net/files/f6194a14e021f4adf316a99114ed2aa96172fc10c5d10d5db873ae3faf12768a/md5_battle.7z",
+      "sha256": "f6194a14e021f4adf316a99114ed2aa96172fc10c5d10d5db873ae3faf12768a",
+      "size": 10467861
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "id": "shoot-glaggo-down",
+  "kind": "game",
+  "title": "Shoot Glaggo Down",
+  "developer": [
+    "Game Madness Interactive"
+  ],
+  "description": "This game was originally distributed in source form.\n\nIt has been compiled, and source moved to a separate directory.",
+  "flags": [
+    "abandoned"
+  ],
+  "links": {
+    "agarchive": "https://www.agarchive.net/pages/devs/gmi.html"
+  },
+  "sources": [
+    {
+      "platform": "windows",
+      "install": {
+        "method": "7z",
+        "extract_dir": "Shoot Glaggo Down"
+      },
+      "label": "Mirror",
+      "url": "https://files.accessiblegames.net/files/323b661a46a5ed14d8a8eabd6d00804c8bfaa81633271ecdc9b9360492ebea3e/Shoot_Glaggo_Down.7z",
+      "sha256": "323b661a46a5ed14d8a8eabd6d00804c8bfaa81633271ecdc9b9360492ebea3e",
+      "size": 15937975
+    }
+  ]
+}

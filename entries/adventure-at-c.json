@@ -1,0 +1,35 @@
+{
+  "id": "adventure-at-c",
+  "kind": "game",
+  "title": "Adventure at c:",
+  "developer": [
+    "VG Storm"
+  ],
+  "description": "Adventure at c: is VG Storm's first, and only free, title.\n\nWhen your computer becomes heavily infected, transform yourself into code and do battle with the infection yourself.\n\nThe game provides a custom stage creator, which has resulted in a large amount of community involvement. We are actively looking for adventure at c: stages, both old and new. If you have some and can share, please get in touch. The stages we have available will be packaged and listed below the game itself.",
+  "links": {
+    "homepage": "http://www.vgstorm.com/aac/",
+    "agarchive": "https://www.agarchive.net/pages/devs/vgstorm.html"
+  },
+  "sources": [
+    {
+      "label": "Developer site",
+      "url": "http://www.vgstorm.com/aac/aac.zip",
+      "platform": "windows",
+      "install": {
+        "method": "zip"
+      },
+      "sha256": "17ee2fdbc3dd963b700954d64dc182ce0c3d5a94ffe850855e322114eea75477",
+      "size": 192061650
+    },
+    {
+      "platform": "windows",
+      "install": {
+        "method": "zip"
+      },
+      "label": "Mirror",
+      "url": "https://files.accessiblegames.net/files/17ee2fdbc3dd963b700954d64dc182ce0c3d5a94ffe850855e322114eea75477/aac.zip",
+      "sha256": "17ee2fdbc3dd963b700954d64dc182ce0c3d5a94ffe850855e322114eea75477",
+      "size": 192061650
+    }
+  ]
+}

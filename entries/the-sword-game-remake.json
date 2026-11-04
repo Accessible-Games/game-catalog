@@ -1,0 +1,23 @@
+{
+  "id": "the-sword-game-remake",
+  "kind": "game",
+  "title": "The Sword Game Remake",
+  "developer": [
+    "Jeqocon Games"
+  ],
+  "links": {
+    "agarchive": "https://www.agarchive.net/pages/devs/jeqocon.html"
+  },
+  "sources": [
+    {
+      "platform": "windows",
+      "install": {
+        "method": "7z"
+      },
+      "label": "Mirror",
+      "url": "https://files.accessiblegames.net/files/a333123f9ca34205e51272ea7cdff0708840d9a7b50c4769fd52b92191d6b8d9/The_sword_game_remake.7z",
+      "sha256": "a333123f9ca34205e51272ea7cdff0708840d9a7b50c4769fd52b92191d6b8d9",
+      "size": 1478265
+    }
+  ]
+}

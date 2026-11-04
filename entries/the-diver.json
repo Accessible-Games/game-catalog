@@ -1,0 +1,30 @@
+{
+  "id": "the-diver",
+  "kind": "game",
+  "title": "The Diver",
+  "developer": [
+    "TDL Games"
+  ],
+  "flags": [
+    "abandoned"
+  ],
+  "links": {
+    "agarchive": "https://www.agarchive.net/pages/devs/tdl.html"
+  },
+  "sources": [
+    {
+      "platform": "windows",
+      "install": {
+        "method": "installer",
+        "installer": {
+          "type": "inno",
+          "mode": "extract"
+        }
+      },
+      "label": "Mirror",
+      "url": "https://files.accessiblegames.net/files/2439a1fbfedc1f0118e1476a1772785c3fec9fc0d5bd287ad9217465bd27a574/The_Diver_Setup.exe",
+      "sha256": "2439a1fbfedc1f0118e1476a1772785c3fec9fc0d5bd287ad9217465bd27a574",
+      "size": 3608403
+    }
+  ]
+}

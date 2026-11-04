@@ -1,0 +1,27 @@
+{
+  "id": "mario",
+  "kind": "game",
+  "title": "Mario",
+  "developer": [
+    "Dragon Slayer Games"
+  ],
+  "flags": [
+    "abandoned"
+  ],
+  "links": {
+    "agarchive": "https://www.agarchive.net/pages/devs/dragonslayer.html"
+  },
+  "sources": [
+    {
+      "platform": "windows",
+      "install": {
+        "method": "7z",
+        "extract_dir": "mario"
+      },
+      "label": "Mirror",
+      "url": "https://files.accessiblegames.net/files/e2c4badaab7b40612b8d2e53172e104d8a61e0e2768711c4712cb06cbef69454/mario.7z",
+      "sha256": "e2c4badaab7b40612b8d2e53172e104d8a61e0e2768711c4712cb06cbef69454",
+      "size": 6209093
+    }
+  ]
+}

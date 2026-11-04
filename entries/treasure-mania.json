@@ -1,0 +1,33 @@
+{
+  "id": "treasure-mania",
+  "kind": "game",
+  "title": "Treasure Mania",
+  "developer": [
+    "Lighttech Interactive"
+  ],
+  "flags": [
+    "abandoned"
+  ],
+  "links": {
+    "agarchive": "https://www.agarchive.net/pages/devs/lighttech.html"
+  },
+  "sources": [
+    {
+      "platform": "windows",
+      "install": {
+        "method": "installer",
+        "installer": {
+          "type": "other",
+          "mode": "run"
+        }
+      },
+      "label": "Mirror",
+      "url": "https://files.accessiblegames.net/files/7d4c2f34554850650e877ce1e8cfbca19acdaad6bf336f5e49995ffc910bb710/treasure_mania_setup.exe",
+      "sha256": "7d4c2f34554850650e877ce1e8cfbca19acdaad6bf336f5e49995ffc910bb710",
+      "size": 47346944
+    }
+  ],
+  "dependencies": [
+    "com-audio-dependency"
+  ]
+}

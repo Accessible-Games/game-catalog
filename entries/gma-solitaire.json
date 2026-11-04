@@ -1,0 +1,31 @@
+{
+  "id": "gma-solitaire",
+  "kind": "game",
+  "title": "GMA Solitaire",
+  "developer": [
+    "GMA Games"
+  ],
+  "description": "This is an old stand-alone version of Solitaire, which has since been incorporated into GMA Cards.\n\nFor this reason, we have flagged the game as unsupported.",
+  "flags": [
+    "abandoned"
+  ],
+  "links": {
+    "agarchive": "https://www.agarchive.net/pages/devs/gma.html"
+  },
+  "sources": [
+    {
+      "platform": "windows",
+      "install": {
+        "method": "installer",
+        "installer": {
+          "type": "inno",
+          "mode": "extract"
+        }
+      },
+      "label": "Mirror",
+      "url": "https://files.accessiblegames.net/files/572854cd65ed89f83ad928628c2afb9fee26a15a83be3eea11b975d2ff714c54/GMA_solitaire.exe",
+      "sha256": "572854cd65ed89f83ad928628c2afb9fee26a15a83be3eea11b975d2ff714c54",
+      "size": 2161568
+    }
+  ]
+}

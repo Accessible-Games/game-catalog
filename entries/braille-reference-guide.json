@@ -1,0 +1,25 @@
+{
+  "id": "braille-reference-guide",
+  "kind": "game",
+  "title": "Braille Reference Guide",
+  "developer": [
+    "Jim Kitchen"
+  ],
+  "description": "Note that we have repackaged each game into a zip archive from its initial format of a self-extracting executable. The game's files are contained with a folder, so all you need do is extract the archive and each game will have its own folder.",
+  "links": {
+    "agarchive": "https://www.agarchive.net/pages/devs/kitchensinc.html"
+  },
+  "sources": [
+    {
+      "platform": "windows",
+      "install": {
+        "method": "zip",
+        "extract_dir": "braille reference guide"
+      },
+      "label": "Mirror",
+      "url": "https://files.accessiblegames.net/files/eaa3f36d2facaff692abec6871017f5f6de4e96d322ca8cee045ae2dca5480f0/braille_reference_guide.zip",
+      "sha256": "eaa3f36d2facaff692abec6871017f5f6de4e96d322ca8cee045ae2dca5480f0",
+      "size": 20651
+    }
+  ]
+}

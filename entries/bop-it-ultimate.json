@@ -1,0 +1,35 @@
+{
+  "id": "bop-it-ultimate",
+  "kind": "game",
+  "title": "Bop It Ultimate",
+  "developer": [
+    "Lighttech Interactive"
+  ],
+  "description": "Your standard game of Bop It, but with a few twists, such as a rather nasty trick bop mode and the ability to play online against another person over the internet.",
+  "flags": [
+    "abandoned",
+    "multiplayer"
+  ],
+  "links": {
+    "agarchive": "https://www.agarchive.net/pages/devs/lighttech.html"
+  },
+  "sources": [
+    {
+      "platform": "windows",
+      "install": {
+        "method": "installer",
+        "installer": {
+          "type": "other",
+          "mode": "run"
+        }
+      },
+      "label": "Mirror",
+      "url": "https://files.accessiblegames.net/files/284824a6630a00a1064ff1dbfafa90ce24bd5caf798347bc99a6cefb66033147/bopIt_ultimate_setup.exe",
+      "sha256": "284824a6630a00a1064ff1dbfafa90ce24bd5caf798347bc99a6cefb66033147",
+      "size": 48967827
+    }
+  ],
+  "dependencies": [
+    "com-audio-dependency"
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "id": "easy-in-the-trash",
+  "kind": "game",
+  "title": "Easy in the Trash",
+  "developer": [
+    "Phantom Creations"
+  ],
+  "description": "Deng has an easy button. Can you help him get it directly in to the trash? It's not as easy as it seems, especially when the trash can moves out far enough that you must rely on audio calculations alone, and a pesky shield eventually appears, requiring even more calculations to avoid.",
+  "flags": [
+    "abandoned"
+  ],
+  "links": {
+    "agarchive": "https://www.agarchive.net/pages/devs/phantomCreations.html"
+  },
+  "sources": [
+    {
+      "platform": "windows",
+      "install": {
+        "method": "zip",
+        "extract_dir": "RELEASE"
+      },
+      "label": "Mirror",
+      "url": "https://files.accessiblegames.net/files/2ac2e340741b216850fccd4376f22f9e2c299df25971cdf5b4145b373a5937e7/easy_in_the_trash.zip",
+      "sha256": "2ac2e340741b216850fccd4376f22f9e2c299df25971cdf5b4145b373a5937e7",
+      "size": 4416329
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "id": "skunk",
+  "kind": "game",
+  "title": "Skunk",
+  "developer": [
+    "Jim Kitchen"
+  ],
+  "description": "Note that we have repackaged each game into a zip archive from its initial format of a self-extracting executable. The game's files are contained with a folder, so all you need do is extract the archive and each game will have its own folder.",
+  "links": {
+    "agarchive": "https://www.agarchive.net/pages/devs/kitchensinc.html"
+  },
+  "sources": [
+    {
+      "platform": "windows",
+      "install": {
+        "method": "zip",
+        "extract_dir": "skunk2"
+      },
+      "label": "Mirror",
+      "url": "https://files.accessiblegames.net/files/a463be0ca0da447fdb3889dd227470231cde3378a1bbbc1abe58ab93f275e43a/skunk2.zip",
+      "sha256": "a463be0ca0da447fdb3889dd227470231cde3378a1bbbc1abe58ab93f275e43a",
+      "size": 184045
+    }
+  ]
+}

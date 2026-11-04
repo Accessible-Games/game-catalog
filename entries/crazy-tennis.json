@@ -1,0 +1,30 @@
+{
+  "id": "crazy-tennis",
+  "kind": "game",
+  "title": "Crazy tennis",
+  "developer": [
+    "VIP GamesZone"
+  ],
+  "flags": [
+    "abandoned"
+  ],
+  "links": {
+    "agarchive": "https://www.agarchive.net/pages/devs/vip.html"
+  },
+  "sources": [
+    {
+      "platform": "windows",
+      "install": {
+        "method": "installer",
+        "installer": {
+          "type": "inno",
+          "mode": "extract"
+        }
+      },
+      "label": "Mirror",
+      "url": "https://files.accessiblegames.net/files/761807a37552c276f655d13e5c52b292454b9ea51e254b014cd0e1997eec5d4a/crazy_tennis_setup.exe",
+      "sha256": "761807a37552c276f655d13e5c52b292454b9ea51e254b014cd0e1997eec5d4a",
+      "size": 7142243
+    }
+  ]
+}

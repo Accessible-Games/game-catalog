@@ -1,0 +1,24 @@
+{
+  "id": "nyanchan-sugoroku",
+  "kind": "game",
+  "title": "NyanChan Sugoroku",
+  "developer": [
+    "Morokuma"
+  ],
+  "description": "A snakes and ladders style game, developed in conjunction with NyanChan Games. No longer hosted on Morokuma's website, but is still hosted on NyanChan Games.",
+  "links": {
+    "agarchive": "https://www.agarchive.net/pages/devs/morokuma.html"
+  },
+  "sources": [
+    {
+      "platform": "windows",
+      "install": {
+        "method": "7z"
+      },
+      "label": "Mirror",
+      "url": "https://files.accessiblegames.net/files/c30b05a3a9207f441e503652095cb61bd2ce6d0064303938ad8ac8e0579b6b13/nyanchan_sugoroku.exe",
+      "sha256": "c30b05a3a9207f441e503652095cb61bd2ce6d0064303938ad8ac8e0579b6b13",
+      "size": 102779615
+    }
+  ]
+}

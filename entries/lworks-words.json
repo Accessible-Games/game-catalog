@@ -1,0 +1,32 @@
+{
+  "id": "lworks-words",
+  "kind": "game",
+  "title": "LWorks Words",
+  "developer": [
+    "LWorks"
+  ],
+  "description": "LWorks Words is a simple word game.\n\nIt is, however, only a demo, and cannot be purchased.",
+  "flags": [
+    "abandoned",
+    "demo"
+  ],
+  "links": {
+    "agarchive": "https://www.agarchive.net/pages/devs/lworks.html"
+  },
+  "sources": [
+    {
+      "platform": "windows",
+      "install": {
+        "method": "installer",
+        "installer": {
+          "type": "inno",
+          "mode": "extract"
+        }
+      },
+      "label": "Mirror",
+      "url": "https://files.accessiblegames.net/files/b1777d38f9ac7ca7be5d58412fc7e04b2823355a9b3a4f63a2edacced5b4c74e/lWorks_words_setup.exe",
+      "sha256": "b1777d38f9ac7ca7be5d58412fc7e04b2823355a9b3a4f63a2edacced5b4c74e",
+      "size": 765296
+    }
+  ]
+}

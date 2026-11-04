@@ -1,0 +1,28 @@
+{
+  "id": "super-dog-s-bone-hunt",
+  "kind": "game",
+  "title": "Super Dog's Bone Hunt",
+  "developer": [
+    "PCS"
+  ],
+  "description": "You play a dog, hunting for milk bone treats scattered around the backyard.",
+  "links": {
+    "agarchive": "https://www.agarchive.net/pages/devs/pcs.html"
+  },
+  "sources": [
+    {
+      "platform": "windows",
+      "install": {
+        "method": "installer",
+        "installer": {
+          "type": "inno",
+          "mode": "extract"
+        }
+      },
+      "label": "Mirror",
+      "url": "https://files.accessiblegames.net/files/f6ca1ae35236327c863a683eab02865602ce62a25d59a6fa0f23d3f1a4c2b1c8/super_dog_s_bone_hunt.exe",
+      "sha256": "f6ca1ae35236327c863a683eab02865602ce62a25d59a6fa0f23d3f1a4c2b1c8",
+      "size": 21999086
+    }
+  ]
+}

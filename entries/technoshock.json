@@ -1,0 +1,31 @@
+{
+  "id": "technoshock",
+  "kind": "game",
+  "title": "Technoshock",
+  "developer": [
+    "Anatol Kamynin"
+  ],
+  "flags": [
+    "abandoned"
+  ],
+  "links": {
+    "homepage": "http://www.tiflocomp.ru/games/ts/index.php?lang=en",
+    "agarchive": "https://www.agarchive.net/pages/devs/technoshock.html"
+  },
+  "sources": [
+    {
+      "platform": "windows",
+      "install": {
+        "method": "installer",
+        "installer": {
+          "type": "inno",
+          "mode": "extract"
+        }
+      },
+      "label": "Mirror",
+      "url": "https://files.accessiblegames.net/files/dfaec6873e49076ab8629485affcd9d6bf77510b29a23fe212ac18b1f8956711/technoshock_setup.exe",
+      "sha256": "dfaec6873e49076ab8629485affcd9d6bf77510b29a23fe212ac18b1f8956711",
+      "size": 4088998
+    }
+  ]
+}

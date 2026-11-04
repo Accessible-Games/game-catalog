@@ -1,0 +1,28 @@
+{
+  "id": "bloody-school",
+  "kind": "game",
+  "title": "Bloody School",
+  "developer": [
+    "Comb"
+  ],
+  "description": "Modern RPG with zombie shooter elements. Incomplete.",
+  "flags": [
+    "abandoned"
+  ],
+  "links": {
+    "agarchive": "https://www.agarchive.net/pages/devs/comb.html"
+  },
+  "sources": [
+    {
+      "platform": "windows",
+      "install": {
+        "method": "7z",
+        "extract_dir": "bloodyschool_t1.02"
+      },
+      "label": "Mirror",
+      "url": "https://files.accessiblegames.net/files/299535407faff67eb197d1306b542179d2a2ced8670239a0e39ff255ebb245d1/bloodyschool_t1.02.7z",
+      "sha256": "299535407faff67eb197d1306b542179d2a2ced8670239a0e39ff255ebb245d1",
+      "size": 25921511
+    }
+  ]
+}

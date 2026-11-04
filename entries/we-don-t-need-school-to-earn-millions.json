@@ -1,0 +1,27 @@
+{
+  "id": "we-don-t-need-school-to-earn-millions",
+  "kind": "game",
+  "title": "We don't need school to earn millions",
+  "developer": [
+    "Game Madness Interactive"
+  ],
+  "flags": [
+    "abandoned"
+  ],
+  "links": {
+    "agarchive": "https://www.agarchive.net/pages/devs/gmi.html"
+  },
+  "sources": [
+    {
+      "platform": "windows",
+      "install": {
+        "method": "zip",
+        "extract_dir": "OUTPUT"
+      },
+      "label": "Mirror",
+      "url": "https://files.accessiblegames.net/files/e233b3710c18fb21be576b961f9961d95f15cb290bd125fed5eb7f234bdcac62/we_don_t_need_school_to_earn_millions.zip",
+      "sha256": "e233b3710c18fb21be576b961f9961d95f15cb290bd125fed5eb7f234bdcac62",
+      "size": 50432
+    }
+  ]
+}

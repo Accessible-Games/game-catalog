@@ -1,0 +1,28 @@
+{
+  "id": "taxman",
+  "kind": "game",
+  "title": "Taxman",
+  "developer": [
+    "BrailleSoft"
+  ],
+  "description": "A small game built around factoring numbers. Can you beat the taxman?",
+  "flags": [
+    "abandoned"
+  ],
+  "links": {
+    "agarchive": "https://www.agarchive.net/pages/devs/braillesoft.html"
+  },
+  "sources": [
+    {
+      "platform": "windows",
+      "install": {
+        "method": "zip",
+        "extract_dir": "taxman"
+      },
+      "label": "Mirror",
+      "url": "https://files.accessiblegames.net/files/7ed7120fa80018eb3956fa252edb129d33aef2786053ea3a8bff4144b396772b/taxman.zip",
+      "sha256": "7ed7120fa80018eb3956fa252edb129d33aef2786053ea3a8bff4144b396772b",
+      "size": 129643
+    }
+  ]
+}

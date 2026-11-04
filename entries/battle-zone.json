@@ -1,0 +1,31 @@
+{
+  "id": "battle-zone",
+  "kind": "game",
+  "title": "Battle zone",
+  "developer": [
+    "Game Madness Interactive"
+  ],
+  "description": "Battle through endless enemies and hazards to escape after being kidnapped. Using an arsenal of weapons found in your shopping bag, you must navigate hazardous lab levels and defeat villainous bosses in this fast-paced side-scrolling action game.",
+  "flags": [
+    "abandoned"
+  ],
+  "links": {
+    "agarchive": "https://www.agarchive.net/pages/devs/gmi.html"
+  },
+  "sources": [
+    {
+      "platform": "windows",
+      "install": {
+        "method": "installer",
+        "installer": {
+          "type": "inno",
+          "mode": "extract"
+        }
+      },
+      "label": "Mirror",
+      "url": "https://files.accessiblegames.net/files/0db1117ff9f7c8eba353bf32e50984d079fa52519338cd4305ffc9025c371cdb/battle_zone_13.5_setup.exe",
+      "sha256": "0db1117ff9f7c8eba353bf32e50984d079fa52519338cd4305ffc9025c371cdb",
+      "size": 90473110
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "id": "super-mario-bros-remake",
+  "kind": "game",
+  "title": "Super Mario Bros remake",
+  "developer": [
+    "Jeqocon Games"
+  ],
+  "links": {
+    "agarchive": "https://www.agarchive.net/pages/devs/jeqocon.html"
+  },
+  "sources": [
+    {
+      "platform": "windows",
+      "install": {
+        "method": "7z"
+      },
+      "label": "Mirror",
+      "url": "https://files.accessiblegames.net/files/2f2773b060b4e8f495ae62f3e974a9ee24bd67f5f1f4152b19e73e64c5393202/super_mario_bros.7z",
+      "sha256": "2f2773b060b4e8f495ae62f3e974a9ee24bd67f5f1f4152b19e73e64c5393202",
+      "size": 16025763
+    }
+  ]
+}

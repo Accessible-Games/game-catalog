@@ -1,0 +1,28 @@
+{
+  "id": "the-blind-eye",
+  "kind": "game",
+  "title": "The Blind Eye",
+  "developer": [
+    "various authors"
+  ],
+  "description": "In a highly atmospheric audio world, walk around and hunt for instruments to create a band. Unlike many titles, this game makes use of an impressive degree of audio processing and echos. Pay attention to the reverberations of your footsteps to hellp you navigate.\n\nWe have received reports of issues running the game under Windows 10. In addition, the English version attempts to launch the developer's website on exit, which no longer exists and is currently a for-sale parking page.",
+  "flags": [
+    "abandoned"
+  ],
+  "links": {
+    "agarchive": "https://www.agarchive.net/pages/devs/misc.html"
+  },
+  "sources": [
+    {
+      "platform": "windows",
+      "install": {
+        "method": "7z",
+        "extract_dir": "The Blind EyeEnglish"
+      },
+      "label": "Mirror",
+      "url": "https://files.accessiblegames.net/files/30c9eed45ac066973e6490da0b0e51a0da76e00beeca14e4b27516e2e234563a/The_Blind_EyeEnglish.7z",
+      "sha256": "30c9eed45ac066973e6490da0b0e51a0da76e00beeca14e4b27516e2e234563a",
+      "size": 33926492
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "id": "marina-break-english-version",
+  "kind": "game",
+  "title": "Marina Break, English version",
+  "developer": [
+    "Nyanchan Games"
+  ],
+  "description": "this game improves on the classic Breakout formula by adding mechanics like multiple block types, ball energy that depletes on impacts, effects of gravity, and the ability to strike the bouncing bat forward, left, or right for more strategic ball control in a fun arcade challenge.",
+  "links": {
+    "agarchive": "https://www.agarchive.net/pages/devs/nyanchan.html"
+  },
+  "sources": [
+    {
+      "label": "Developer site",
+      "url": "http://www.nyanchangames.com/softs/count/download.php?download=4",
+      "platform": "windows",
+      "install": {
+        "method": "7z"
+      },
+      "sha256": "5a3ece367688a0fafea0a9815672cccba9195b9fac428d88f9de77ca8624319f",
+      "size": 4055391
+    },
+    {
+      "platform": "windows",
+      "install": {
+        "method": "7z"
+      },
+      "label": "Mirror",
+      "url": "https://files.accessiblegames.net/files/5a3ece367688a0fafea0a9815672cccba9195b9fac428d88f9de77ca8624319f/download.exe",
+      "sha256": "5a3ece367688a0fafea0a9815672cccba9195b9fac428d88f9de77ca8624319f",
+      "size": 4055391
+    }
+  ]
+}

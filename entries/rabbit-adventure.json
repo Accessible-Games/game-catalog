@@ -1,0 +1,23 @@
+{
+  "id": "rabbit-adventure",
+  "kind": "game",
+  "title": "Rabbit Adventure",
+  "developer": [
+    "Rocky Waters"
+  ],
+  "links": {
+    "agarchive": "https://www.agarchive.net/pages/devs/rockyWaters.html"
+  },
+  "sources": [
+    {
+      "platform": "windows",
+      "install": {
+        "method": "none"
+      },
+      "label": "Mirror",
+      "url": "https://files.accessiblegames.net/files/165e7934028789f7aead1eb384683ec57159437411c021255cc9c9fd3a639c0d/rabbitAdventure.exe",
+      "sha256": "165e7934028789f7aead1eb384683ec57159437411c021255cc9c9fd3a639c0d",
+      "size": 4687498
+    }
+  ]
+}
