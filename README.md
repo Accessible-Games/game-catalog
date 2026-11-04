@@ -108,6 +108,8 @@ Steps come from a fixed list. They are never scripts. Paths are relative to the 
 
 Sources are listed with the developer's own site first and the mirror second, so developers keep their traffic and the mirror is the fallback. The mirror is filled automatically when an entry is merged.
 
+The mirror workflow adds the new Mirror sources through a pull request labelled `mirror`. It opens that pull request with the built-in `GITHUB_TOKEN`, and GitHub does not start other workflows for it, so the automated checks do not run on mirror pull requests. For that reason `validate` is not a required check. See `SETUP.md` for ways around this.
+
 ## Local commands
 
 Install [uv](https://docs.astral.sh/uv/), then from the repository root:

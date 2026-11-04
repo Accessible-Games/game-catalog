@@ -70,3 +70,38 @@ def test_no_agarchive_fetching_code():
             if path.is_file() and "__pycache__" not in path.parts:
                 text = path.read_text(encoding="utf-8", errors="ignore")
                 assert "agarchive.net/games" not in text, path
+
+
+def test_mirror_runs_one_at_a_time_and_reuses_open_pr():
+    doc = load(WORKFLOWS / "mirror.yml")
+    assert doc["concurrency"] == {"group": "mirror", "cancel-in-progress": False}
+    text = (WORKFLOWS / "mirror.yml").read_text(encoding="utf-8")
+    assert "gh pr list --label mirror --state open" in text
+    assert "--jq length" in text
+
+
+def test_setup_order():
+    text = (ROOT / "SETUP.md").read_text(encoding="utf-8")
+    assert "--push" not in text
+
+    def at(s):
+        assert s in text, s
+        return text.index(s)
+
+    merge = at("git merge --ff-only feat/catalog-tools")
+    create = at("gh repo create olsonale/game-catalog")
+    secrets = at("gh secret set R2_BUCKET")
+    labels = at("gh label create mirror")
+    pages = at("build_type=workflow")
+    perms = at("default_workflow_permissions=write")
+    push = at("git push -u origin main")
+    runs = at("gh workflow run publish.yml")
+    assert merge < create < min(secrets, labels, pages, perms) <= max(secrets, labels, pages, perms) < push < runs
+    assert "gh workflow run mirror.yml" in text[push:]
+
+
+def test_github_token_limitation_documented():
+    for name in ("SETUP.md", "README.md"):
+        text = (ROOT / name).read_text(encoding="utf-8")
+        assert "GITHUB_TOKEN" in text, name
+        assert "required check" in text, name
