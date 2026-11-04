@@ -106,7 +106,7 @@ Steps come from a fixed list. They are never scripts. Paths are relative to the 
 - Index metadata, a small file for cheap change checks: https://catalog.accessiblegames.net/index-meta.json
 - Mirror files: `https://files.accessiblegames.net/files/<sha256>/<file name>`. Mirror files are named by checksum and are never overwritten.
 
-Sources are listed with the developer's own site first and the mirror second, so developers keep their traffic and the mirror is the fallback. The mirror is filled automatically when an entry is merged.
+Sources are listed with the developer's own site first and the mirror second, so developers keep their traffic and the mirror is the fallback. The mirror is for preservation, not a copy of every catalog file: most entries point only at the developer's download. The admin preserves files that are at risk of disappearing, such as abandoned freeware or a shaky developer site, by running the mirror workflow for those entries. Paid games are never mirrored automatically.
 
 The mirror workflow adds the new Mirror sources through a pull request labelled `mirror`. It opens that pull request with the built-in `GITHUB_TOKEN`, and GitHub does not start other workflows for it, so the automated checks do not run on mirror pull requests. For that reason `validate` is not a required check. See `SETUP.md` for ways around this.
 
@@ -119,6 +119,6 @@ Install [uv](https://docs.astral.sh/uv/), then from the repository root:
 - `uv run catalog-validate` checks every entry against the schema and the cross-entry rules.
 - `uv run catalog-index --out site` builds the index into `site/`.
 - `uv run catalog-links` checks every source link. Add `--only ID` to check certain entries, or `--changed-from REF` to check entries changed since a git ref. `--report FILE` writes a Markdown report, and `--fail-on-dead` exits with an error if a link is dead.
-- `uv run catalog-mirror --dry-run` shows what would be mirrored without uploading. A real run needs the `R2_ACCOUNT_ID`, `R2_ACCESS_KEY_ID`, `R2_SECRET_ACCESS_KEY` and `R2_BUCKET` environment variables.
+- `uv run catalog-mirror --only ID [ID ...] --dry-run` shows what would be mirrored for those entries without uploading. A real run needs the `R2_ACCOUNT_ID`, `R2_ACCESS_KEY_ID`, `R2_SECRET_ACCESS_KEY` and `R2_BUCKET` environment variables.
 
 See `SETUP.md` for the one-time admin setup.

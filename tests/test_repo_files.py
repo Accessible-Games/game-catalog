@@ -77,12 +77,17 @@ def test_no_agarchive_fetching_code():
                 assert "agarchive.net/games" not in text, path
 
 
-def test_mirror_runs_one_at_a_time_and_reuses_open_pr():
+def test_mirror_is_manual_and_only_for_named_entries():
     doc = load(WORKFLOWS / "mirror.yml")
+    on = triggers(doc)
+    assert list(on) == ["workflow_dispatch"]  # never on push: mirroring is the admin's per-entry call
+    assert on["workflow_dispatch"]["inputs"]["entries"]["required"] is True
     assert doc["concurrency"] == {"group": "mirror", "cancel-in-progress": False}
     text = (WORKFLOWS / "mirror.yml").read_text(encoding="utf-8")
-    assert "gh pr list --label mirror --state open" in text
-    assert "--jq length" in text
+    assert "catalog-mirror --only $ENTRY_IDS" in text
+    # The input reaches scripts only through an environment variable, never pasted into a run line.
+    assert text.count("${{ inputs.entries }}") == 1
+    assert "ENTRY_IDS: ${{ inputs.entries }}" in text
 
 
 def test_setup_order():
@@ -103,7 +108,8 @@ def test_setup_order():
     push = at("git push -u origin main")
     runs = at("gh workflow run publish.yml")
     assert merge < create < min(secrets, labels, pages, perms) <= max(secrets, labels, pages, perms) < push < runs
-    assert "gh workflow run mirror.yml" in text[push:]
+    assert "gh workflow run mirror.yml -f entries=" in text[push:]
+    assert "starts the publish workflow, and the mirror workflow" not in text
 
 
 def test_publish_deploys_the_worker():
@@ -139,4 +145,5 @@ def test_setup_org_and_bucket_variable():
     assert "accessible-games.github.io" not in text  # served by the Worker, not GitHub Pages
     assert "https://catalog.accessiblegames.net/index-meta.json" in text
     assert "Moving to an organization" not in text
-    assert "after closing, run `gh workflow run mirror.yml`" in text
+    assert "To try again after closing, run `gh workflow run mirror.yml -f entries=" in text
+    assert "requires-registration" in text  # paid games are never mirrored by the workflow

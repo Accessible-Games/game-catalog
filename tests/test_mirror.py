@@ -160,7 +160,7 @@ def test_main_dry_run_writes_nothing(tmp_path, capsys):
     d = setup_entries(tmp_path)
     before = (d / "g.json").read_text(encoding="utf-8")
     responses.add(responses.GET, URL, body=DATA)
-    assert main(["--entries", str(d), "--dry-run", "--download-dir", str(tmp_path / "dl")]) == 0
+    assert main(["--entries", str(d), "--only", "g", "--dry-run", "--download-dir", str(tmp_path / "dl")]) == 0
     assert (d / "g.json").read_text(encoding="utf-8") == before
     assert "g" in capsys.readouterr().out
 
@@ -326,3 +326,24 @@ def test_redirect_to_forbidden_host_is_a_download_failure(tmp_path, capsys):
     assert up.objects == {}
     assert "forbidden redirect" in capsys.readouterr().out
     assert [c.request.url for c in responses.calls] == [URL]
+
+
+@responses.activate
+def test_paid_entries_are_never_mirrored(tmp_path, capsys):
+    d = tmp_path / "entries"
+    d.mkdir()
+    paid = make_entry("paid")
+    paid["flags"] = ["requires-registration"]
+    write_entry(d, paid)
+    before = (d / "paid.json").read_text(encoding="utf-8")
+    up = MemoryUploader()
+    changed = mirror_entries(d, uploader=up, session=make_session(), download_dir=tmp_path / "dl", only=["paid"])
+    assert changed == [] and up.objects == {} and len(responses.calls) == 0
+    assert (d / "paid.json").read_text(encoding="utf-8") == before
+    assert "paid: skipped: requires-registration" in capsys.readouterr().out
+
+
+def test_cli_mirrors_only_named_entries(tmp_path):
+    # Mirroring is a manual, per-entry decision: there is no "mirror everything" run.
+    with pytest.raises(SystemExit):
+        main(["--entries", str(tmp_path), "--dry-run"])

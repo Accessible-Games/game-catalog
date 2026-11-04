@@ -200,3 +200,25 @@ def test_redirect_to_forbidden_host_is_error_and_not_contacted():
     assert r.status == "error"
     assert "forbidden redirect" in r.detail
     assert [c.request.url for c in responses.calls] == [URL]
+
+
+def test_report_flags_dead_links_without_a_mirror_copy():
+    bare = _check("bare", "dead", "HTTP 404")
+    kept = SourceCheck("kept", {"url": "https://x.test/kept"},
+                       LinkResult("https://x.test/kept", "dead", None, None, "HTTP 404"), False, has_mirror=True)
+    text = render_report([bare, kept], "2026-11-03T00:00:00Z")
+    assert "- bare: https://x.test/bare (HTTP 404) - no mirror copy" in text
+    assert "- kept: https://x.test/kept (HTTP 404)\n" in text
+
+
+@responses.activate
+def test_check_entries_knows_which_entries_have_a_mirror_copy():
+    responses.add(responses.HEAD, "https://a.test/a", status=404)
+    responses.add(responses.HEAD, "https://a.test/b", status=404)
+    mirrored = _entry("b", "https://a.test/b")
+    mirrored["sources"].append({"label": "Mirror", "url": "https://files.accessiblegames.net/files/"
+                                + "0" * 64 + "/b.zip", "platform": "windows", "install": {"method": "zip"},
+                                "sha256": "0" * 64, "size": 1})
+    responses.add(responses.HEAD, mirrored["sources"][1]["url"], status=200)
+    checks = check_entries({"a": _entry("a", "https://a.test/a"), "b": mirrored}, session=requests.Session())
+    assert {c.entry_id: c.has_mirror for c in checks} == {"a": False, "b": True}

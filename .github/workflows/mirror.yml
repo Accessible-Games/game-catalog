@@ -1,11 +1,15 @@
 name: mirror
 
+# Manual only. The mirror preserves files at risk of disappearing (abandoned freeware, shaky
+# developer sites); it is not a copy of every catalog file. Run it for the entries you choose:
+#   gh workflow run mirror.yml -f entries="some-game another-game"
 on:
-  push:
-    branches: [main]
-    paths:
-      - "entries/**"
   workflow_dispatch:
+    inputs:
+      entries:
+        description: "Entry ids to preserve on the mirror, separated by spaces"
+        required: true
+        type: string
 
 permissions:
   contents: write
@@ -21,29 +25,22 @@ jobs:
       R2_ACCESS_KEY_ID: ${{ secrets.R2_ACCESS_KEY_ID }}
       R2_SECRET_ACCESS_KEY: ${{ secrets.R2_SECRET_ACCESS_KEY }}
       R2_BUCKET: ${{ vars.R2_BUCKET }}
+      ENTRY_IDS: ${{ inputs.entries }}
     steps:
-      - name: Skip while a mirror pull request is open
-        id: open
-        env:
-          GH_TOKEN: ${{ github.token }}
-          GH_REPO: ${{ github.repository }}
+      - name: Check the entry ids
         run: |
-          count="$(gh pr list --label mirror --state open --json number --jq length)"
-          echo "count=$count" >> "$GITHUB_OUTPUT"
-          if [ "$count" != "0" ]; then
-            echo "A mirror pull request is already open. Merge or close it; the merge starts a new mirror run."
-          fi
+          if [ -z "$(echo $ENTRY_IDS)" ]; then echo "Name at least one entry id." >&2; exit 1; fi
+          for id in $ENTRY_IDS; do
+            case "$id" in
+              *[!a-z0-9-]*|-*) echo "Not an entry id: $id" >&2; exit 1 ;;
+            esac
+          done
       - uses: actions/checkout@v7
-        if: steps.open.outputs.count == '0'
       - uses: astral-sh/setup-uv@v7
-        if: steps.open.outputs.count == '0'
       - run: uv sync --locked
-        if: steps.open.outputs.count == '0'
-      - name: Mirror new sources
-        if: steps.open.outputs.count == '0'
-        run: uv run catalog-mirror
+      - name: Mirror the named entries
+        run: uv run catalog-mirror --only $ENTRY_IDS
       - name: Open a pull request with the new mirror sources
-        if: steps.open.outputs.count == '0'
         env:
           GH_TOKEN: ${{ github.token }}
         run: |
@@ -56,9 +53,9 @@ jobs:
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git checkout -b "$branch"
           git add entries
-          git commit -m "chore: add mirror sources"
+          git commit -m "chore: add mirror sources for $ENTRY_IDS"
           git push origin "$branch"
           gh pr create \
-            --title "Add mirror sources" \
-            --body "Automated: mirrors new sources to files.accessiblegames.net." \
+            --title "Mirror: $ENTRY_IDS" \
+            --body "Preserves the files of these entries on files.accessiblegames.net (manual mirror run)." \
             --label mirror

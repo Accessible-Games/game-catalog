@@ -2,7 +2,7 @@
 
 One-time steps for the admin. You need the `gh` command-line tool, signed in as the owner.
 
-Do the steps in order. Pushing to `main` starts the publish and mirror workflows, so everything they need (secrets, labels and workflow permissions) is set up first, and the push comes last.
+Do the steps in order. Pushing to `main` starts the publish workflow, so everything it needs is set up first, and the push comes last.
 
 ## 1. Merge the work into main
 
@@ -73,16 +73,23 @@ Or, in the repository settings, under Actions, then General, then Workflow permi
 
     git push -u origin main
 
-The push starts the publish workflow, and the mirror workflow because it adds files under `entries/`.
+The push starts the publish workflow.
 
-## 10. First publish and mirror
+## 10. First publish
 
-Watch the runs with `gh run list`. If either failed or did not start, run it by hand. Running one again is harmless: each waits for any earlier run of itself.
+Watch the run with `gh run list`. If it failed or did not start, run it by hand. Running it again is harmless: it waits for any earlier run.
 
     gh workflow run publish.yml
-    gh workflow run mirror.yml
 
-When publish finishes, confirm https://catalog.accessiblegames.net/index-meta.json loads and shows the new `generated_at`. The certificate for a new custom domain can take a few minutes. If mirror found new files, it opens a pull request labelled `mirror`. Review and merge it.
+When publish finishes, confirm https://catalog.accessiblegames.net/index-meta.json loads and shows the new `generated_at`. The certificate for a new custom domain can take a few minutes.
+
+## Preserving files on the mirror
+
+The mirror is for preservation, not a copy of every catalog file. Entries normally point at the developer's own download. When a file is at risk of disappearing (abandoned freeware, a shaky developer site, or a link the weekly link check reports as dead with "no mirror copy" while it can still be downloaded), preserve it by hand:
+
+    gh workflow run mirror.yml -f entries="some-game another-game"
+
+The workflow downloads those entries' developer files, stores them on `files.accessiblegames.net`, and opens a pull request labelled `mirror` that adds a Mirror source to each entry. Review and merge it. It never mirrors an entry flagged `requires-registration`: copies of paid games go on the mirror only by hand, with the developer's approval.
 
 ## Mirror pull requests and the GITHUB_TOKEN
 
@@ -92,7 +99,7 @@ The mirror workflow opens its pull requests with the built-in `GITHUB_TOKEN`. Gi
 - To run the checks on a mirror pull request anyway, close it and reopen it yourself.
 - Or store a personal access token or a GitHub App token as a secret and use it as `GH_TOKEN` in the step that opens the pull request. Checks then run on mirror pull requests, and `validate` can be a required check.
 
-The mirror workflow runs one at a time. While a `mirror` pull request is open, it does nothing. Merge or close the open one first. The merge itself starts a new mirror run. Closing does not: after closing, run `gh workflow run mirror.yml`.
+Mirror runs go one at a time; a second run waits for the first. Each run opens its own pull request, and closing one without merging leaves the uploaded files unused on the mirror. To try again after closing, run `gh workflow run mirror.yml -f entries=...` with the same ids.
 
 ## Known issues
 
