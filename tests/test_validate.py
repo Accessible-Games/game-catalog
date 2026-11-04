@@ -187,3 +187,25 @@ def test_mirror_detection_ignores_host_case():
     bad = f"https://Files.accessiblegames.net/files/{'b' * 64}/a.zip"
     problems = validate_entries(catalog(with_source(make("a"), url=bad, sha256=SHA, size=1)))
     assert any("hash does not match" in p.message for p in problems)
+
+
+def test_source_url_must_be_http_with_host():
+    for url in ("ftp://example.com/x.zip", "example.com/x.zip", "https:///x.zip", "javascript:alert(1)",
+                "file:///C:/x.zip", "https://[::1/x.zip"):
+        problems = validate_entries(catalog(with_source(make("a"), url=url)))
+        assert any("http or https" in p.message for p in problems), url
+
+
+def test_source_url_must_be_percent_encoded():
+    problems = validate_entries(catalog(with_source(make("a"), url="https://example.com/My Game 1.0.zip")))
+    assert any("percent-encoded" in p.message and "My%20Game%201.0.zip" in p.message for p in problems)
+    ok = with_source(make("a"), url="https://example.com/My%20Game%201.0.zip?a=1&b=%C3%A9")
+    assert validate_entries(catalog(ok)) == []
+
+
+def test_links_must_be_http_with_host():
+    for value in ("mailto:dev@example.com", "/relative/page", "ftp://example.com/"):
+        problems = validate_entries(catalog(make("a", links={"homepage": value})))
+        assert any("links.homepage" in p.message and "http or https" in p.message for p in problems), value
+    ok = make("a", links={"homepage": "http://example.com/a page"})
+    assert validate_entries(catalog(ok)) == []

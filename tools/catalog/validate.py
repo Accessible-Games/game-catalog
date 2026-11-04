@@ -13,6 +13,7 @@ import jsonschema
 
 from catalog.config import MIRROR_BASE, is_forbidden_url
 from catalog.entries import ROOT, EntryLoadError, load_entries, load_schema
+from catalog.http import normalize_url
 from catalog.mirror import is_mirror_url
 
 _MIRROR_PATH = re.compile(r"files/([0-9a-f]{64})/[^/]+")
@@ -24,6 +25,23 @@ class Problem:
     message: str
 
 
+def _is_web_url(url: str) -> bool:
+    try:
+        parts = urlsplit(url)
+        return parts.scheme.lower() in ("http", "https") and bool(parts.hostname)
+    except ValueError:
+        return False
+
+
+def _check_links(key: str, entry: dict, out: list[Problem]) -> None:
+    links = entry.get("links")
+    if not isinstance(links, dict):
+        return
+    for name, value in links.items():
+        if isinstance(value, str) and not _is_web_url(value):
+            out.append(Problem(key, f"links.{name}: URL must be http or https with a host ({value})"))
+
+
 def _check_sources(key: str, entry: dict, out: list[Problem]) -> None:
     for i, source in enumerate(entry.get("sources") or []):
         if not isinstance(source, dict):
@@ -31,6 +49,10 @@ def _check_sources(key: str, entry: dict, out: list[Problem]) -> None:
         where = f"sources[{i}]"
         url = source.get("url")
         if isinstance(url, str):
+            if not _is_web_url(url):
+                out.append(Problem(key, f"{where}: URL must be http or https with a host ({url})"))
+            elif normalize_url(url) != url:
+                out.append(Problem(key, f"{where}: URL must be percent-encoded: use {normalize_url(url)}"))
             if is_forbidden_url(url):
                 out.append(Problem(key, f"{where}: agarchive download URLs are forbidden ({url})"))
             if is_mirror_url(url):
@@ -113,6 +135,7 @@ def validate_entries(entries: dict[str, dict]) -> list[Problem]:
             problems.append(Problem(key, f"install_into unknown entry {install_into!r}"))
 
         _check_sources(key, entry, problems)
+        _check_links(key, entry, problems)
 
     valid = {k: v for k, v in entries.items() if isinstance(v, dict)}
     for cycle in _find_cycles(valid):
