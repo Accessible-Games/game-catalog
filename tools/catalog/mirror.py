@@ -74,6 +74,10 @@ def is_mirror_url(url: str) -> bool:
 class Uploader(Protocol):
     def exists(self, key: str) -> bool: ...
 
+    def find(self, sha256: str) -> str | None:
+        """Key of an object already stored under files/<sha256>/, or None."""
+        ...
+
     def upload(self, path: Path, key: str) -> None: ...
 
 
@@ -85,6 +89,10 @@ class MemoryUploader:
 
     def exists(self, key: str) -> bool:
         return key in self.objects
+
+    def find(self, sha256: str) -> str | None:
+        prefix = f"files/{sha256}/"
+        return next((k for k in self.objects if k.startswith(prefix)), None)
 
     def upload(self, path: Path, key: str) -> None:
         self.objects[key] = Path(path).read_bytes()
@@ -122,6 +130,11 @@ class R2Uploader:
             raise
         return True
 
+    def find(self, sha256: str) -> str | None:
+        resp = self.client.list_objects_v2(Bucket=self.bucket, Prefix=f"files/{sha256}/", MaxKeys=1)
+        contents = resp.get("Contents") or []
+        return contents[0]["Key"] if contents else None
+
     def upload(self, path: Path, key: str) -> None:
         content_type = mimetypes.guess_type(key)[0] or "application/octet-stream"
         self.client.upload_file(
@@ -138,8 +151,14 @@ class Mirrored:
 
 def mirror_file(path: Path, filename: str, uploader: Uploader) -> Mirrored:
     sha256, size = hash_file(path)
-    key = mirror_key(sha256, filename)
-    if not uploader.exists(key):
+    return _mirror_hashed(path, filename, sha256, size, uploader)
+
+
+def _mirror_hashed(path: Path, filename: str, sha256: str, size: int, uploader: Uploader) -> Mirrored:
+    """Store the file once per sha256: reuse any key already under files/<sha256>/."""
+    key = uploader.find(sha256)
+    if key is None:
+        key = mirror_key(sha256, filename)
         uploader.upload(path, key)
     return Mirrored(url=mirror_url(key), sha256=sha256, size=size)
 

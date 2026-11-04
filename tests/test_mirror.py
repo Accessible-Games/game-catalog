@@ -217,3 +217,45 @@ def test_forbidden_sources_never_fetched(tmp_path):
 def test_is_mirror_url_ignores_host_case():
     assert is_mirror_url("https://FILES.accessiblegames.net/files/x/y.zip")
     assert not is_mirror_url("https://files.accessiblegames.net.evil.test/files/x/y.zip")
+
+
+def test_memory_uploader_find(tmp_path):
+    p = tmp_path / "f.zip"
+    p.write_bytes(DATA)
+    up = MemoryUploader()
+    sha = hash_file(p)[0]
+    assert up.find(sha) is None
+    up.upload(p, mirror_key(sha, "f.zip"))
+    assert up.find(sha) == mirror_key(sha, "f.zip")
+    assert up.find("0" * 64) is None
+
+
+class FakeS3:
+    def __init__(self, keys):
+        self.keys = keys
+        self.calls = []
+
+    def list_objects_v2(self, **kw):
+        self.calls.append(kw)
+        found = [k for k in self.keys if k.startswith(kw["Prefix"])][: kw["MaxKeys"]]
+        return {"KeyCount": len(found), **({"Contents": [{"Key": k} for k in found]} if found else {})}
+
+
+def test_r2_uploader_find():
+    sha = "c" * 64
+    client = FakeS3([f"files/{sha}/Game.zip", f"files/{'d' * 64}/x.zip"])
+    up = R2Uploader(client, "bucket")
+    assert up.find(sha) == f"files/{sha}/Game.zip"
+    assert client.calls == [{"Bucket": "bucket", "Prefix": f"files/{sha}/", "MaxKeys": 1}]
+    assert up.find("e" * 64) is None
+
+
+def test_same_bytes_stored_once_under_first_name(tmp_path):
+    a, b = tmp_path / "a.zip", tmp_path / "b.zip"
+    a.write_bytes(DATA)
+    b.write_bytes(DATA)
+    up = MemoryUploader()
+    first = mirror_file(a, "Game v1.zip", up)
+    second = mirror_file(b, "other-name.zip", up)
+    assert second == first
+    assert list(up.objects) == [mirror_key(first.sha256, "Game v1.zip")]
