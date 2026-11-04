@@ -108,7 +108,7 @@ Steps come from a fixed list. They are never scripts. Paths are relative to the 
 - Index metadata, a small file for cheap change checks: https://catalog.accessiblegames.net/index-meta.json
 - Mirror files: `https://files.accessiblegames.net/files/<sha256>/<file name>`. Mirror files are named by checksum and are never overwritten.
 
-Sources are listed with the developer's own site first and the mirror second, so developers keep their traffic and the mirror is the fallback. The mirror is for preservation, not a copy of every catalog file: most entries point only at the developer's download. The admin preserves files that are at risk of disappearing, such as abandoned freeware or a shaky developer site, by running the mirror workflow for those entries. Paid games are never mirrored automatically.
+Sources are listed with the developer's own site first and the mirror second, so developers keep their traffic and the mirror is the fallback. The mirror is for preservation, not a copy of every catalog file: most entries point only at the developer's download. The admin preserves files that are at risk of disappearing, such as abandoned freeware or a shaky developer site, by running the mirror workflow for those entries. Paid games are treated like any other entry, since their download is the free installer players use before buying.
 
 The mirror workflow adds the new Mirror sources through a pull request labelled `mirror`. It opens that pull request with the built-in `GITHUB_TOKEN`, and GitHub does not start other workflows for it, so the automated checks do not run on mirror pull requests. For that reason `validate` is not a required check. See `SETUP.md` for ways around this.
 
