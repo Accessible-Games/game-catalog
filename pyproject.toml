@@ -1,0 +1,25 @@
+[project]
+name = "game-catalog"
+version = "0.1.0"
+requires-python = ">=3.13"
+dependencies = ["jsonschema", "requests", "boto3"]
+
+[dependency-groups]
+dev = ["pytest", "responses", "pyyaml"]
+
+[project.scripts]
+catalog-validate = "catalog.validate:main"
+catalog-index = "catalog.index:main"
+catalog-links = "catalog.links:main"
+catalog-mirror = "catalog.mirror:main"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.wheel]
+packages = ["tools/catalog"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["tools"]

@@ -1,0 +1,33 @@
+{
+  "id": "super-egg-hunt-plus",
+  "kind": "game",
+  "title": "Super Egg Hunt Plus",
+  "developer": [
+    "L-Works"
+  ],
+  "description": "An accessible audio game where you hunt for Easter eggs",
+  "version": "1.53",
+  "links": {
+    "homepage": "https://l-works.net"
+  },
+  "sources": [
+    {
+      "label": "Developer site",
+      "url": "https://l-works.net/files/superegghuntsetup.exe",
+      "platform": "windows",
+      "sha256": "5aafd9e02dae909c65c1cf921b19511edb74a81c5839d51cc8557ebf0f66fa60",
+      "install": {
+        "method": "installer",
+        "installer": {
+          "type": "inno",
+          "mode": "extract"
+        }
+      }
+    }
+  ],
+  "launch": {
+    "windows": {
+      "path": "superegghunt.exe"
+    }
+  }
+}
