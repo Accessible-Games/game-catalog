@@ -274,3 +274,42 @@ def test_recorded_sha_mismatch_warns_and_skips(tmp_path, capsys):
     assert (d / "g.json").read_text(encoding="utf-8") == before
     err = capsys.readouterr().err
     assert "g: " in err and "sha256" in err and "f" * 64 in err
+
+
+@responses.activate
+def test_php_download_gets_real_filename(tmp_path):
+    php = "https://example.com/downloads/downloadBigPig.php"
+    cd = "https://example.com/softs/download.php?download=4"
+    redirect = "https://example.com/clicks/click.php?id=9"
+    responses.add(responses.GET, php, body=b"MZ\x90\x00big pig")
+    responses.add(responses.GET, cd, body=b"PK\x03\x04marina",
+                  headers={"Content-Disposition": 'attachment; filename="Marina Break.zip"'})
+    responses.add(responses.GET, redirect, status=302, headers={"Location": "https://cdn.example.com/Music%20Puzzle.7z"})
+    responses.add(responses.GET, "https://cdn.example.com/Music%20Puzzle.7z", body=b"7z\xbc\xaf\x27\x1cmusic")
+    d = tmp_path / "entries"
+    d.mkdir()
+    write_entry(d, make_entry(sources=[dev_source(url=u) for u in (php, cd, redirect)]))
+    up = MemoryUploader()
+    assert mirror_entries(d, uploader=up, session=make_session(), download_dir=tmp_path / "dl") == ["g"]
+    names = sorted(k.rsplit("/", 1)[1] for k in up.objects)
+    assert names == ["Marina_Break.zip", "Music_Puzzle.7z", "downloadBigPig.exe"]
+    assert validate_entries(load_entries(d)) == []
+
+
+@responses.activate
+def test_html_response_is_not_mirrored(tmp_path, capsys):
+    page = "https://example.com/audiogames/music-puzzle.php"
+    typed = "https://example.com/files/game.exe"
+    responses.add(responses.GET, page, body="\n  <!DOCTYPE html><html><body>Info</body></html>",
+                  content_type="application/octet-stream")
+    responses.add(responses.GET, typed, body="Please log in", content_type="text/html")
+    d = tmp_path / "entries"
+    d.mkdir()
+    write_entry(d, make_entry(sources=[dev_source(url=page), dev_source(url=typed)]))
+    before = (d / "g.json").read_text(encoding="utf-8")
+    up = MemoryUploader()
+    assert mirror_entries(d, uploader=up, session=make_session(), download_dir=tmp_path / "dl") == []
+    assert up.objects == {}
+    assert (d / "g.json").read_text(encoding="utf-8") == before
+    assert capsys.readouterr().out.count("not a file") == 2
+    assert not [p for p in (tmp_path / "dl").rglob("*") if p.is_file()]

@@ -20,6 +20,7 @@ import requests
 
 from catalog import config
 from catalog.entries import ROOT, load_entries, write_entry
+from catalog.files import read_head, reject_html, response_filename
 from catalog.http import make_session
 
 R2_ENV_VARS = ("R2_ACCOUNT_ID", "R2_ACCESS_KEY_ID", "R2_SECRET_ACCESS_KEY", "R2_BUCKET")
@@ -185,18 +186,25 @@ def unmirrored_source_indexes(entry: dict) -> list[int]:
 
 
 def _download(session: requests.Session, url: str, download_dir: Path) -> tuple[Path, str]:
-    decoded = unquote(urlsplit(url).path)
-    filename = re.split("[/\\\\]", decoded)[-1] or "download"
-    dest = Path(download_dir) / safe_filename(filename)
-    dest.parent.mkdir(parents=True, exist_ok=True)
+    """Download url into download_dir; reject web pages; name it from the response (see catalog.files)."""
+    download_dir = Path(download_dir)
+    download_dir.mkdir(parents=True, exist_ok=True)
+    fd, tmp_name = tempfile.mkstemp(dir=download_dir, suffix=".part")
+    os.close(fd)
+    tmp = Path(tmp_name)
     try:
         with session.get(url, stream=True, timeout=60) as resp:
             resp.raise_for_status()
-            with dest.open("wb") as f:
+            with tmp.open("wb") as f:
                 for chunk in resp.iter_content(chunk_size=1024 * 1024):
                     f.write(chunk)
+            head = read_head(tmp)
+            reject_html(resp.headers.get("Content-Type"), head, url)
+            filename = response_filename(resp, head)
+        dest = download_dir / safe_filename(filename)
+        os.replace(tmp, dest)
     except BaseException:
-        dest.unlink(missing_ok=True)
+        tmp.unlink(missing_ok=True)
         raise
     return dest, filename
 
