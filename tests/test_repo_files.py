@@ -122,6 +122,16 @@ def test_publish_deploys_the_worker():
     assert "deploy-pages" not in text and "pages: write" not in text
 
 
+def test_checksums_are_checked_on_pull_requests_and_recorded_on_publish():
+    validate = (WORKFLOWS / "validate.yml").read_text(encoding="utf-8")
+    assert "catalog-checksums --changed-from origin/${{ github.base_ref }} --check" in validate
+    publish = (WORKFLOWS / "publish.yml").read_text(encoding="utf-8")
+    assert load(WORKFLOWS / "publish.yml")["permissions"] == {"contents": "write"}
+    record, commit, build = (publish.index(s) for s in (
+        "run: uv run catalog-checksums\n", "git push origin HEAD:main", "uv run catalog-index --out site"))
+    assert record < commit < build  # the published index carries the recorded values
+
+
 def test_worker_serves_the_built_index_on_the_catalog_domain():
     raw = (ROOT / "wrangler.jsonc").read_text(encoding="utf-8")
     config = json.loads(re.sub(r"^\s*//.*$", "", raw, flags=re.M))

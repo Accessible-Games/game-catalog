@@ -25,3 +25,7 @@ jobs:
         run: uv run catalog-validate
       - name: Check links of new or changed entries
         run: uv run catalog-links --changed-from origin/${{ github.base_ref }} --fail-on-dead
+      - name: Check recorded checksums of new or changed entries
+        # Fails if a recorded sha256/size no longer matches the file; missing values are listed and
+        # recorded automatically when the pull request is merged.
+        run: uv run catalog-checksums --changed-from origin/${{ github.base_ref }} --check

@@ -70,7 +70,9 @@ An extra flagged `registration` (a registration patch or key generator) must hav
 - `platform`: required. One of `windows`, `macos`, `linux`, `web`.
 - `install`: required. See below.
 - `size`: optional size in bytes.
-- `sha256`: optional lowercase hex checksum. Required on mirror sources, where a mismatch is an error.
+- `sha256`: optional lowercase hex checksum. Required on mirror sources, where a mismatch is an error. On developer downloads you can leave both out: when a change is merged, the publish workflow downloads the file once and records them. If a pull request changes a download whose recorded values no longer match the file, the checks fail and show the right values.
+
+The app uses these values to verify what it installs and to notice updates. When the weekly link check reports that a developer's file changed and the new file is the one players should get, accept it with `uv run catalog-checksums --refresh --only ID` and open a pull request with the result.
 - `steps`: optional list of install steps, run in order after files are in place.
 
 Web sources (platform `web`) and sources whose install method is `url` are never mirrored.
@@ -119,6 +121,7 @@ Install [uv](https://docs.astral.sh/uv/), then from the repository root:
 - `uv run catalog-validate` checks every entry against the schema and the cross-entry rules.
 - `uv run catalog-index --out site` builds the index into `site/`.
 - `uv run catalog-links` checks every source link. Add `--only ID` to check certain entries, or `--changed-from REF` to check entries changed since a git ref. `--report FILE` writes a Markdown report, and `--fail-on-dead` exits with an error if a link is dead.
+- `uv run catalog-checksums` records missing `sha256` and `size` values of developer downloads. `--check` changes nothing and fails on a stale value, `--refresh --only ID` accepts a changed file, and `--changed-from REF` limits it to entries changed since a git ref. Files are hashed as they download and are not kept.
 - `uv run catalog-mirror --only ID [ID ...] --dry-run` shows what would be mirrored for those entries without uploading. A real run needs the `R2_ACCOUNT_ID`, `R2_ACCESS_KEY_ID`, `R2_SECRET_ACCESS_KEY` and `R2_BUCKET` environment variables.
 
 See `SETUP.md` for the one-time admin setup.

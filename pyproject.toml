@@ -12,6 +12,7 @@ catalog-validate = "catalog.validate:main"
 catalog-index = "catalog.index:main"
 catalog-links = "catalog.links:main"
 catalog-mirror = "catalog.mirror:main"
+catalog-checksums = "catalog.checksums:main"
 
 [build-system]
 requires = ["hatchling"]
