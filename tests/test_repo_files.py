@@ -1,3 +1,5 @@
+import json
+import re
 from pathlib import Path
 
 import yaml
@@ -95,12 +97,32 @@ def test_setup_order():
     create = at("gh repo create Accessible-Games/game-catalog")
     secrets = at("gh variable set R2_BUCKET --body accessiblegames-files")
     labels = at("gh label create mirror")
-    pages = at("build_type=workflow")
+    pages = at("gh secret set CLOUDFLARE_API_TOKEN")
     perms = at("default_workflow_permissions=write")
     push = at("git push -u origin main")
     runs = at("gh workflow run publish.yml")
     assert merge < create < min(secrets, labels, pages, perms) <= max(secrets, labels, pages, perms) < push < runs
     assert "gh workflow run mirror.yml" in text[push:]
+
+
+def test_publish_deploys_the_worker():
+    doc = load(WORKFLOWS / "publish.yml")
+    assert triggers(doc)["push"] == {"branches": ["main"]}
+    text = (WORKFLOWS / "publish.yml").read_text(encoding="utf-8")
+    assert "uv run catalog-index --out site" in text
+    assert "cloudflare/wrangler-action@" in text
+    assert "secrets.CLOUDFLARE_API_TOKEN" in text and "secrets.CLOUDFLARE_ACCOUNT_ID" in text
+    assert "deploy-pages" not in text and "pages: write" not in text
+
+
+def test_worker_serves_the_built_index_on_the_catalog_domain():
+    raw = (ROOT / "wrangler.jsonc").read_text(encoding="utf-8")
+    config = json.loads(re.sub(r"^\s*//.*$", "", raw, flags=re.M))
+    assert config["name"] == "game-catalog"
+    assert config["assets"]["directory"] == "./site"
+    assert "main" not in config  # assets only, until the catalog needs API routes
+    assert config["routes"] == [{"pattern": "catalog.accessiblegames.net", "custom_domain": True}]
+    assert config["workers_dev"] is False
 
 
 def test_github_token_limitation_documented():
@@ -113,6 +135,7 @@ def test_github_token_limitation_documented():
 def test_setup_org_and_bucket_variable():
     text = (ROOT / "SETUP.md").read_text(encoding="utf-8")
     assert "gh secret set R2_BUCKET" not in text
-    assert "accessible-games.github.io" in text
+    assert "accessible-games.github.io" not in text  # served by the Worker, not GitHub Pages
+    assert "https://catalog.accessiblegames.net/index-meta.json" in text
     assert "Moving to an organization" not in text
     assert "after closing, run `gh workflow run mirror.yml`" in text

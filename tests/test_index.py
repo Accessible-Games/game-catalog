@@ -71,9 +71,15 @@ def test_meta_hash_matches(tmp_path):
     assert json.loads(gzip.decompress(gz.read_bytes())) == index
 
 
-def test_cname_written(tmp_path):
+def test_headers_written(tmp_path):
+    # Workers static assets read _headers: the index is gzip bytes that clients unpack themselves,
+    # and the small meta file is cheap to re-check, so it is cached only briefly.
     write_index(build_index(catalog(make("a")), NOW), tmp_path)
-    assert (tmp_path / "CNAME").read_text() == "catalog.accessiblegames.net\n"
+    rules = (tmp_path / "_headers").read_text(encoding="utf-8")
+    assert "/index.json.gz\n  Content-Type: application/gzip\n" in rules
+    assert "/index-meta.json\n" in rules and "max-age=60" in rules
+    assert "Access-Control-Allow-Origin: *" in rules
+    assert not (tmp_path / "CNAME").exists()
 
 
 def _index_validator():
@@ -117,4 +123,4 @@ def test_main_writes_three_files(tmp_path):
     (entries / "a.json").write_text(json.dumps(make("a")), encoding="utf-8")
     out = tmp_path / "out"
     assert main(["--entries", str(entries), "--out", str(out), "--generated-at", NOW]) == 0
-    assert sorted(p.name for p in out.iterdir()) == ["CNAME", "index-meta.json", "index.json.gz"]
+    assert sorted(p.name for p in out.iterdir()) == ["_headers", "index-meta.json", "index.json.gz"]

@@ -1,4 +1,4 @@
-"""Compile catalog entries into the gzipped index published on GitHub Pages."""
+"""Compile catalog entries into the gzipped index the catalog Worker serves (see wrangler.jsonc)."""
 
 from __future__ import annotations
 
@@ -11,11 +11,25 @@ import sys
 from datetime import datetime, timezone
 from pathlib import Path
 
-from catalog.config import INDEX_DOMAIN
 from catalog.entries import ROOT, EntryLoadError, load_entries
 from catalog.validate import validate_entries
 
 SCHEMA_VERSION = 1
+
+# Response headers for the Worker's static assets. The index is gzip bytes that clients unpack
+# themselves (not a Content-Encoding), and the meta file is what clients poll, so it stays fresh.
+HEADERS = """/*
+  Access-Control-Allow-Origin: *
+  X-Content-Type-Options: nosniff
+
+/index.json.gz
+  Content-Type: application/gzip
+  Cache-Control: public, max-age=300
+
+/index-meta.json
+  Content-Type: application/json; charset=utf-8
+  Cache-Control: public, max-age=60
+"""
 
 
 def build_index(entries: dict[str, dict], generated_at: str) -> dict:
@@ -51,7 +65,7 @@ def write_index(index: dict, out_dir: Path) -> tuple[Path, Path]:
     }
     meta_path = out_dir / "index-meta.json"
     meta_path.write_text(json.dumps(meta, indent=2) + "\n", encoding="utf-8", newline="\n")
-    (out_dir / "CNAME").write_text(INDEX_DOMAIN + "\n", encoding="utf-8", newline="\n")
+    (out_dir / "_headers").write_text(HEADERS, encoding="utf-8", newline="\n")
     return gz_path, meta_path
 
 
