@@ -1,7 +1,7 @@
 {
   "id": "windows-media-redistributable-s",
-  "kind": "game",
-  "title": "Windows Media Redistributable's",
+  "kind": "runtime",
+  "title": "Windows Media Audio redistributables",
   "developer": [
     "BSC Games"
   ],

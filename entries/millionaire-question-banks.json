@@ -1,7 +1,7 @@
 {
   "id": "millionaire-question-banks",
-  "kind": "game",
-  "title": "Millionaire question banks",
+  "kind": "extra",
+  "title": "Question banks",
   "developer": [
     "Freedom Games"
   ],
@@ -23,5 +23,7 @@
       "sha256": "ac9c934e993c160a2752689112d70be2c139557e184248b078cb60b0e51a5332",
       "size": 309829
     }
-  ]
+  ],
+  "extends": "freedom-millionaire",
+  "install_into": "freedom-millionaire"
 }

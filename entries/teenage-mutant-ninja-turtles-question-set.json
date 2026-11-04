@@ -1,14 +1,11 @@
 {
   "id": "teenage-mutant-ninja-turtles-question-set",
-  "kind": "game",
+  "kind": "extra",
   "title": "Teenage Mutant Ninja Turtles question set",
   "developer": [
     "Freedom Games"
   ],
   "description": "Freedom Millionaire had the ability to include question banks that had their own unique sound effects and music. This question set challenges the player's knowledge of the Teenage Mutant Ninja Turtles cartoon from the 80's and 90's.",
-  "flags": [
-    "abandoned"
-  ],
   "links": {
     "agarchive": "https://www.agarchive.net/pages/devs/freedom.html"
   },
@@ -27,5 +24,7 @@
       "sha256": "154109192d6f813f7298c8840f59302a692363d5b399124b199a89436c3529a4",
       "size": 6340694
     }
-  ]
+  ],
+  "extends": "freedom-millionaire",
+  "install_into": "freedom-millionaire"
 }

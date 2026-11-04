@@ -1,11 +1,11 @@
 {
   "id": "justin-s-house",
-  "kind": "game",
-  "title": "Justin's house",
+  "kind": "extra",
+  "title": "Justin's House map",
   "developer": [
     "Talon"
   ],
-  "description": "Note that this package contains both a client and server application.\n\nThis is a particularly complex map pack, which is therefore given its own listing.",
+  "description": "A large, complex map pack for The Road to Rage, with its own maps and sounds.",
   "links": {
     "agarchive": "https://www.agarchive.net/pages/devs/talon.html"
   },
@@ -21,5 +21,7 @@
       "sha256": "ec337e0e47d11def26b4999f879ead5e6095c76405b5b6514849c868e3645734",
       "size": 88966746
     }
-  ]
+  ],
+  "extends": "the-road-to-rage",
+  "install_into": "the-road-to-rage"
 }

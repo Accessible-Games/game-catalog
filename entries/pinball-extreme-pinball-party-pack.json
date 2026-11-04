@@ -1,10 +1,11 @@
 {
-  "id": "pinball-party-pack",
-  "kind": "game",
+  "id": "pinball-extreme-pinball-party-pack",
+  "kind": "extra",
   "title": "Pinball Party Pack",
   "developer": [
     "Draconis Entertainment"
   ],
+  "description": "Three extra tables for Pinball Extreme, with their manuals.",
   "flags": [
     "demo",
     "requires-registration"
@@ -42,5 +43,7 @@
       "sha256": "8b2bbceb1ecbef8d86be675ac75bc25259eb8de2666db873042bb04563450c2f",
       "size": 44278032
     }
-  ]
+  ],
+  "extends": "pinball-extreme",
+  "install_into": "pinball-extreme"
 }

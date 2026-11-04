@@ -1,6 +1,6 @@
 {
   "id": "bk2-chaos",
-  "kind": "game",
+  "kind": "extra",
   "title": "BK2 Chaos",
   "developer": [
     "Nyanchan Games"
@@ -41,5 +41,7 @@
       "sha256": "4bafc18ccff2ca5560ebbd8be30adbc4742accb127872303f8cffa96a5094d96",
       "size": 381287
     }
-  ]
+  ],
+  "extends": "bokurano-daibouken-2",
+  "install_into": "bokurano-daibouken-2"
 }

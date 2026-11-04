@@ -1,0 +1,26 @@
+{
+  "id": "adventure-at-c-remnant",
+  "kind": "extra",
+  "title": "Remnant",
+  "developer": [
+    "VG Storm"
+  ],
+  "description": "A very large custom stage set after the main story of Adventure at C:, with sounds borrowed from classic video games. Finish the main game first, as some cut scenes spoil the story. Needs Adventure at C: 3.2.1.\n\nRemnant ships its own stages folder, which replaces the game's stages. Back up any stages you made yourself before installing it.",
+  "links": {
+    "agarchive": "https://www.agarchive.net/pages/devs/vgstorm.html"
+  },
+  "sources": [
+    {
+      "platform": "windows",
+      "install": {
+        "method": "zip"
+      },
+      "label": "Mirror",
+      "url": "https://files.accessiblegames.net/files/526a27cf2942ec222cb5593a689f8d46456f7e5819e08c712303ae22cf22d265/Remnant_3.1.zip",
+      "sha256": "526a27cf2942ec222cb5593a689f8d46456f7e5819e08c712303ae22cf22d265",
+      "size": 246451965
+    }
+  ],
+  "extends": "adventure-at-c",
+  "install_into": "adventure-at-c"
+}

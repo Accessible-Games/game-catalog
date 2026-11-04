@@ -1,0 +1,43 @@
+{
+  "id": "adventure-at-c-stages",
+  "kind": "extra",
+  "title": "Community stages",
+  "developer": [
+    "VG Storm"
+  ],
+  "description": "Three custom stages made by players: Bluescreen, Stage of No Return and System Volume Information.",
+  "links": {
+    "agarchive": "https://www.agarchive.net/pages/devs/vgstorm.html"
+  },
+  "sources": [
+    {
+      "platform": "windows",
+      "install": {
+        "method": "7z"
+      },
+      "label": "Mirror",
+      "url": "https://files.accessiblegames.net/files/df4dbef1e1bba83112bac5886f101b00b1b4c19fe9a6bbd9d534f08daa541a2c/adventure_at_c_stages.7z",
+      "sha256": "df4dbef1e1bba83112bac5886f101b00b1b4c19fe9a6bbd9d534f08daa541a2c",
+      "size": 31740,
+      "steps": [
+        {
+          "action": "move",
+          "from": "bluescreen(burak).stg",
+          "to": "stages/bluescreen(burak).stg"
+        },
+        {
+          "action": "move",
+          "from": "stageOfNoReturn(gameMadnessInteractive).stg",
+          "to": "stages/stageOfNoReturn(gameMadnessInteractive).stg"
+        },
+        {
+          "action": "move",
+          "from": "systemVolumeInformation(gameMadnessInteractive).stg",
+          "to": "stages/systemVolumeInformation(gameMadnessInteractive).stg"
+        }
+      ]
+    }
+  ],
+  "extends": "adventure-at-c",
+  "install_into": "adventure-at-c"
+}

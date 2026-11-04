@@ -1,0 +1,26 @@
+{
+  "id": "the-table-flipper-objects",
+  "kind": "extra",
+  "title": "Object repository",
+  "developer": [
+    "Phantom Creations"
+  ],
+  "description": "52 player-made objects to flip, throw and break, beyond the default set.",
+  "links": {
+    "agarchive": "https://www.agarchive.net/pages/devs/phantomCreations.html"
+  },
+  "sources": [
+    {
+      "platform": "windows",
+      "install": {
+        "method": "7z"
+      },
+      "label": "Mirror",
+      "url": "https://files.accessiblegames.net/files/0e74a2d2f22261b46af2172f4e1774e6603e2ae03864d4bce80ba4f7c429ba31/theTableFlipperObjects.7z",
+      "sha256": "0e74a2d2f22261b46af2172f4e1774e6603e2ae03864d4bce80ba4f7c429ba31",
+      "size": 14434323
+    }
+  ],
+  "extends": "the-table-flipper",
+  "install_into": "the-table-flipper"
+}

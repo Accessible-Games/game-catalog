@@ -1,0 +1,39 @@
+{
+  "id": "system-access-to-nvda-bridge",
+  "kind": "extra",
+  "title": "System Access to NVDA bridge",
+  "developer": [
+    "Driftwood Entertainment"
+  ],
+  "description": "Makes Entombed speak through NVDA. After installing, choose System Access as the speech output mode in Entombed.\n\nNVDA works best in sleep mode (NVDA+Shift+S on desktop, NVDA+Shift+Z on laptop) while the Entombed window is active.",
+  "links": {
+    "agarchive": "https://www.agarchive.net/pages/devs/driftwood.html"
+  },
+  "sources": [
+    {
+      "platform": "windows",
+      "install": {
+        "method": "zip",
+        "extract_dir": "System_Access_NVDA_Bridge"
+      },
+      "label": "Mirror",
+      "url": "https://files.accessiblegames.net/files/6a437dc6123486c0cff31651df82387a9988c1446a690b4aa28fb0c99decce8d/System_Access_NVDA_Bridge.zip",
+      "sha256": "6a437dc6123486c0cff31651df82387a9988c1446a690b4aa28fb0c99decce8d",
+      "size": 72519,
+      "steps": [
+        {
+          "action": "move",
+          "from": "SAAPI32.dll",
+          "to": "External/SAAPI32.dll"
+        },
+        {
+          "action": "move",
+          "from": "nvdaControllerClient32.dll",
+          "to": "External/nvdaControllerClient32.dll"
+        }
+      ]
+    }
+  ],
+  "extends": "entombed",
+  "install_into": "entombed"
+}

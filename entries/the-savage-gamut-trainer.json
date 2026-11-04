@@ -1,7 +1,7 @@
 {
   "id": "the-savage-gamut-trainer",
-  "kind": "game",
-  "title": "The Savage Gamut Trainer",
+  "kind": "extra",
+  "title": "Trainer",
   "developer": [
     "various authors"
   ],
@@ -26,5 +26,7 @@
       "sha256": "b96ce72b3ec2b2798469d91ee747cddc517b67a8b465ad0a1b9e67ed17747186",
       "size": 15050157
     }
-  ]
+  ],
+  "extends": "the-savage-gamut",
+  "install_into": "the-savage-gamut"
 }

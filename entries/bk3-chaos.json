@@ -1,6 +1,6 @@
 {
   "id": "bk3-chaos",
-  "kind": "game",
+  "kind": "extra",
   "title": "BK3 Chaos",
   "developer": [
     "Nyanchan Games"
@@ -24,5 +24,7 @@
       "sha256": "14221fd53cfc9cb2f94eff53231feddd5277f64626fac743f5d9aa224c44892e",
       "size": 526092
     }
-  ]
+  ],
+  "extends": "bokurano-daibouken-3",
+  "install_into": "bokurano-daibouken-3"
 }
