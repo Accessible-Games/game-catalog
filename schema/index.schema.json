@@ -1,0 +1,33 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://catalog.accessiblegames.net/schema/index.schema.json",
+  "title": "Catalog index",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schema_version", "generated_at", "entries"],
+  "properties": {
+    "schema_version": {"const": 1},
+    "generated_at": {"type": "string"},
+    "entries": {
+      "type": "array",
+      "items": {
+        "$ref": "entry.schema.json#/$defs/fields",
+        "properties": {
+          "extras": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "additionalProperties": false,
+              "required": ["id", "required"],
+              "properties": {
+                "id": {"type": "string"},
+                "required": {"type": "boolean"}
+              }
+            }
+          }
+        },
+        "unevaluatedProperties": false
+      }
+    }
+  }
+}
