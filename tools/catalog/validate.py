@@ -25,10 +25,15 @@ class Problem:
     message: str
 
 
+# RFC 3986 authority: userinfo@host:port, i.e. unreserved, pct-encoded, sub-delims, ":", "@", "[", "]".
+_AUTHORITY = re.compile(r"[A-Za-z0-9\-._~%!$&'()*+,;=:@\[\]]+")
+
+
 def _is_web_url(url: str) -> bool:
     try:
         parts = urlsplit(url)
-        return parts.scheme.lower() in ("http", "https") and bool(parts.hostname)
+        return (parts.scheme.lower() in ("http", "https") and bool(parts.hostname)
+                and _AUTHORITY.fullmatch(parts.netloc) is not None)
     except ValueError:
         return False
 

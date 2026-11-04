@@ -1,5 +1,6 @@
 import copy
 import json
+import pytest
 
 from catalog.config import MIRROR_BASE
 from catalog.entries import ROOT, load_entries
@@ -137,6 +138,20 @@ def test_agarchive_source_rejected():
                 "https://files.agarchive.net/x.7z", "HTTPS://WWW.AGARCHIVE.NET./x.7z"):
         problems = validate_entries(catalog(with_source(make("a"), url=url)))
         assert any("agarchive" in p.message for p in problems), url
+
+
+@pytest.mark.parametrize("url", [
+    "https://agarchive.net\\@evil.example/x.7z",
+    "https://evil.example\\@agarchive.net/x.7z",
+    "https://exa mple.com/x.zip",
+    "https://exa	mple.com/x.zip",
+    "https://exa<mple.com/x.zip",
+])
+def test_bad_netloc_rejected(url):
+    problems = validate_entries(catalog(with_source(make("a"), url=url)))
+    assert problems, url
+    link = validate_entries(catalog(make("a", links={"home": url})))
+    assert link, url
 
 
 def test_agarchive_credit_link_allowed():
