@@ -1,0 +1,30 @@
+name: link-health
+
+on:
+  schedule:
+    - cron: "0 6 * * 1"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  issues: write
+
+jobs:
+  link-health:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+      - uses: astral-sh/setup-uv@v7
+      - run: uv sync --locked
+      - name: Check every source link
+        run: uv run catalog-links --report link-report.md
+      - name: Update the tracking issue
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          number="$(gh issue list --label link-health --state open --limit 1 --json number --jq '.[0].number // empty')"
+          if [ -n "$number" ]; then
+            gh issue edit "$number" --body-file link-report.md
+          else
+            gh issue create --title "Link health report" --label link-health --body-file link-report.md
+          fi

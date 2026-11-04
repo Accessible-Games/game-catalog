@@ -1,0 +1,29 @@
+name: Suggest an update
+description: A game has a new version, a new download link, or wrong information.
+labels: ["update"]
+body:
+  - type: input
+    id: entry
+    attributes:
+      label: Entry
+      description: The game's title or its id in the catalog.
+    validations:
+      required: true
+  - type: dropdown
+    id: change
+    attributes:
+      label: What changed
+      options:
+        - New version
+        - New download link
+        - Wrong information
+        - Other
+    validations:
+      required: true
+  - type: textarea
+    id: details
+    attributes:
+      label: Details
+      description: Include links where you can.
+    validations:
+      required: true

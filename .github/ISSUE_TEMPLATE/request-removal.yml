@@ -1,0 +1,38 @@
+name: Request removal
+description: Developers and rights holders can ask for files or listings to be removed.
+labels: ["removal"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Requests from developers and rights holders are honored.
+  - type: input
+    id: entry
+    attributes:
+      label: Entry
+      description: The game's title or its id in the catalog.
+    validations:
+      required: true
+  - type: checkboxes
+    id: rights
+    attributes:
+      label: Rights
+      options:
+        - label: I am the developer or rights holder
+          required: true
+  - type: dropdown
+    id: scope
+    attributes:
+      label: What to remove
+      options:
+        - Mirror copy only
+        - Entire entry
+    validations:
+      required: true
+  - type: textarea
+    id: contact
+    attributes:
+      label: Contact or details
+      description: How we can reach you, and anything that helps us confirm the request.
+    validations:
+      required: true

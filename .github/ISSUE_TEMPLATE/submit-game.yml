@@ -1,0 +1,71 @@
+name: Submit a game
+description: Suggest a game for the catalog.
+labels: ["submission"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for suggesting a game. The catalog only lists games that can be downloaded and launched, so we need a link straight to the file.
+  - type: input
+    id: title
+    attributes:
+      label: Title
+      description: The name of the game.
+    validations:
+      required: true
+  - type: input
+    id: developer
+    attributes:
+      label: Developer
+      description: Who made it.
+    validations:
+      required: true
+  - type: input
+    id: download
+    attributes:
+      label: Direct download URL
+      description: A link that downloads the game file itself (a zip, 7z, installer or exe), not a page about it. For a web game, the address where it is played.
+    validations:
+      required: true
+  - type: input
+    id: homepage
+    attributes:
+      label: Homepage
+      description: The developer's page for the game, if there is one.
+  - type: dropdown
+    id: platform
+    attributes:
+      label: Platform
+      options:
+        - Windows
+        - macOS
+        - Linux
+        - Web
+  - type: dropdown
+    id: install_type
+    attributes:
+      label: Install type
+      options:
+        - Zip
+        - 7z
+        - Installer
+        - Single exe
+        - Web game
+        - Not sure
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+      description: A few sentences about the game.
+  - type: input
+    id: launch
+    attributes:
+      label: File to launch
+      description: The file that starts the game after it is installed, if you know it.
+  - type: checkboxes
+    id: direct
+    attributes:
+      label: Confirmation
+      options:
+        - label: This is a direct file download, not a web page
+          required: true

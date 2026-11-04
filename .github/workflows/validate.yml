@@ -1,0 +1,27 @@
+name: validate
+
+on:
+  pull_request:
+    paths:
+      - "entries/**"
+      - "schema/**"
+      - "tools/**"
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+        with:
+          fetch-depth: 0
+      - uses: astral-sh/setup-uv@v7
+      - run: uv sync --locked
+      - name: Run tests
+        run: uv run pytest -q
+      - name: Validate entries
+        run: uv run catalog-validate
+      - name: Check links of new or changed entries
+        run: uv run catalog-links --changed-from origin/${{ github.base_ref }} --fail-on-dead

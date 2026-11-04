@@ -1,0 +1,35 @@
+name: Report a problem
+description: A download is broken, a game will not install or launch, or something is wrong.
+labels: ["problem"]
+body:
+  - type: input
+    id: entry
+    attributes:
+      label: Entry
+      description: The game's title or its id in the catalog.
+    validations:
+      required: true
+  - type: dropdown
+    id: problem
+    attributes:
+      label: Problem
+      options:
+        - Broken download
+        - Won't install
+        - Won't launch
+        - Wrong information
+        - Other
+    validations:
+      required: true
+  - type: textarea
+    id: details
+    attributes:
+      label: Details
+      description: What happened, and any error message you saw.
+    validations:
+      required: true
+  - type: input
+    id: windows
+    attributes:
+      label: Windows version
+      description: For example, Windows 11 24H2.
