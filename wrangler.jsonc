@@ -4,6 +4,9 @@
 // Deployed by .github/workflows/publish.yml on every push to main.
 {
   "name": "game-catalog",
+  // The "Accessible Games" account. Pinned so local Wrangler commands (catalog-put, catalog-prune)
+  // don't stop to ask which account to use when the login can see more than one.
+  "account_id": "477d1548fd6d456bcbeecd4ba38b2ffe",
   "compatibility_date": "2026-10-20",
   "assets": {
     "directory": "./site"

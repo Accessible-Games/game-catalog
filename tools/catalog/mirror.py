@@ -140,16 +140,28 @@ class R2Uploader:
         return contents[0]["Key"] if contents else None
 
     def upload(self, path: Path, key: str) -> None:
-        content_type = mimetypes.guess_type(key)[0] or "application/octet-stream"
+        content_type = content_type_for(key)
         self.client.upload_file(
             str(path), self.bucket, key, ExtraArgs={"ContentType": content_type}
         )
 
 
+# A fresh table, not the module-level one, which on Windows is overridden by the registry.
+_MIME = mimetypes.MimeTypes()
+
+
+def content_type_for(key: str) -> str:
+    return _MIME.guess_type(key)[0] or "application/octet-stream"
+
+
 def _wrangler_command() -> list[str]:
-    """Wrangler on PATH, else through npx (Wrangler's own login is used, no API keys needed)."""
+    """Wrangler on PATH, else through npx (Wrangler's own login is used, no API keys needed).
+
+    The repo's wrangler.jsonc is always passed, since it pins the Cloudflare account.
+    """
     found = shutil.which("wrangler")
-    return [found] if found else [shutil.which("npx") or "npx", "--yes", "wrangler"]
+    base = [found] if found else [shutil.which("npx") or "npx", "--yes", "wrangler"]
+    return [*base, "--config", str(ROOT / "wrangler.jsonc")]
 
 
 class WranglerUploader:
@@ -179,7 +191,7 @@ class WranglerUploader:
         self.runner([*_wrangler_command(), *args], check=True)
 
     def upload(self, path: Path, key: str) -> None:
-        content_type = mimetypes.guess_type(key)[0] or "application/octet-stream"
+        content_type = content_type_for(key)
         self._wrangler("r2", "object", "put", f"{self.bucket}/{key}", "--file", str(path),
                        "--content-type", content_type, "--remote")
         self.known_keys.append(key)

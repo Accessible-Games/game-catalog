@@ -1,5 +1,4 @@
 import json
-import mimetypes
 import subprocess
 
 import responses
@@ -54,7 +53,7 @@ def test_wrangler_upload_and_delete_commands(tmp_path):
     up.delete(KEY)
     put, delete = run.calls
     assert put[put.index("r2"):] == ["r2", "object", "put", f"bucket/{KEY}", "--file", str(f),
-                                     "--content-type", mimetypes.guess_type(KEY)[0], "--remote"]
+                                     "--content-type", "application/zip", "--remote"]
     assert delete[delete.index("r2"):] == ["r2", "object", "delete", f"bucket/{KEY}", "--remote"]
 
 
