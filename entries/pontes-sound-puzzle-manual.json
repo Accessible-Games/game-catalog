@@ -1,0 +1,26 @@
+{
+  "id": "pontes-sound-puzzle-manual",
+  "kind": "extra",
+  "title": "Manual",
+  "developer": [
+    "Pontes Games"
+  ],
+  "description": "An offline copy of the game's manual. Links inside it are unlikely to work.",
+  "links": {
+    "agarchive": "https://www.agarchive.net/pages/devs/pontes.html"
+  },
+  "sources": [
+    {
+      "label": "Mirror",
+      "url": "https://files.accessiblegames.net/files/f3df8cbd92d2e8f8d230e2bd7976f78f0029d691ae28234834b90dfdbe422ccc/pontes_sound_puzzle_manual.7z",
+      "platform": "windows",
+      "install": {
+        "method": "7z"
+      },
+      "sha256": "f3df8cbd92d2e8f8d230e2bd7976f78f0029d691ae28234834b90dfdbe422ccc",
+      "size": 7778
+    }
+  ],
+  "extends": "pontes-sound-puzzle",
+  "install_into": "pontes-sound-puzzle"
+}

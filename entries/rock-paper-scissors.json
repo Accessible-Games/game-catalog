@@ -1,0 +1,33 @@
+{
+  "id": "rock-paper-scissors",
+  "kind": "game",
+  "title": "Rock Paper Scissors",
+  "developer": [
+    "Talon"
+  ],
+  "description": "One of Talon's old, unsupported games. It comes with its AutoIt source code.",
+  "flags": [
+    "abandoned"
+  ],
+  "links": {
+    "agarchive": "https://www.agarchive.net/pages/devs/talon.html"
+  },
+  "sources": [
+    {
+      "label": "Mirror",
+      "url": "https://files.accessiblegames.net/files/fdccadf43ac00974511fddab197d8f5379b6666c0d74fa320d26c36f5a3afe55/talon_rps.7z",
+      "platform": "windows",
+      "install": {
+        "method": "7z",
+        "extract_dir": "RPS"
+      },
+      "sha256": "fdccadf43ac00974511fddab197d8f5379b6666c0d74fa320d26c36f5a3afe55",
+      "size": 40057815
+    }
+  ],
+  "launch": {
+    "windows": {
+      "path": "rps.exe"
+    }
+  }
+}

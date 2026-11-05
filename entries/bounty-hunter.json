@@ -1,0 +1,33 @@
+{
+  "id": "bounty-hunter",
+  "kind": "game",
+  "title": "Bounty Hunter",
+  "developer": [
+    "various authors"
+  ],
+  "description": "Drive your modified vehicle underground as a blind bounty hunter, chasing a rare creature. Switch lanes with Left and Right, and fire with Space.\n\nOne of the experimental games made by university students and first hosted on audiogames.net.",
+  "flags": [
+    "abandoned"
+  ],
+  "links": {
+    "agarchive": "https://www.agarchive.net/pages/devs/misc.html"
+  },
+  "sources": [
+    {
+      "label": "Mirror",
+      "url": "https://files.accessiblegames.net/files/e54445325fb22b06ff6af133690bad7904106da4d0a3a08b9e72e8b0c806124e/experimental_bountyhunter.7z",
+      "platform": "windows",
+      "install": {
+        "method": "7z",
+        "extract_dir": "bountyhunter"
+      },
+      "sha256": "e54445325fb22b06ff6af133690bad7904106da4d0a3a08b9e72e8b0c806124e",
+      "size": 20531111
+    }
+  ],
+  "launch": {
+    "windows": {
+      "path": "bountyhunter.exe"
+    }
+  }
+}

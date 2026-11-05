@@ -1,0 +1,33 @@
+{
+  "id": "sonar",
+  "kind": "game",
+  "title": "Sonar",
+  "developer": [
+    "various authors"
+  ],
+  "description": "One of the experimental games made by university students and first hosted on audiogames.net.",
+  "flags": [
+    "abandoned"
+  ],
+  "links": {
+    "agarchive": "https://www.agarchive.net/pages/devs/misc.html"
+  },
+  "sources": [
+    {
+      "label": "Mirror",
+      "url": "https://files.accessiblegames.net/files/b9d5267b72b866285ef080708b10565d19f85d67ccd07d7243240545c4941efa/experimental_sonar.7z",
+      "platform": "windows",
+      "install": {
+        "method": "7z",
+        "extract_dir": "sonar"
+      },
+      "sha256": "b9d5267b72b866285ef080708b10565d19f85d67ccd07d7243240545c4941efa",
+      "size": 6262390
+    }
+  ],
+  "launch": {
+    "windows": {
+      "path": "Sonar_release.exe"
+    }
+  }
+}

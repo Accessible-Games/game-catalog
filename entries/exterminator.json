@@ -1,0 +1,33 @@
+{
+  "id": "exterminator",
+  "kind": "game",
+  "title": "Exterminator",
+  "developer": [
+    "Talon"
+  ],
+  "description": "One of Talon's old, unsupported games. It comes with its AutoIt source code.",
+  "flags": [
+    "abandoned"
+  ],
+  "links": {
+    "agarchive": "https://www.agarchive.net/pages/devs/talon.html"
+  },
+  "sources": [
+    {
+      "label": "Mirror",
+      "url": "https://files.accessiblegames.net/files/4be7097e28449726d2c5ac38ce93099197fd3a928672ad5e932511cd61099cd6/talon_exterminator.7z",
+      "platform": "windows",
+      "install": {
+        "method": "7z",
+        "extract_dir": "exterminator"
+      },
+      "sha256": "4be7097e28449726d2c5ac38ce93099197fd3a928672ad5e932511cd61099cd6",
+      "size": 30702219
+    }
+  ],
+  "launch": {
+    "windows": {
+      "path": "exterminator.exe"
+    }
+  }
+}

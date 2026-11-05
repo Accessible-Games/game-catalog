@@ -1,0 +1,26 @@
+{
+  "id": "towers-of-hanoi-manual",
+  "kind": "extra",
+  "title": "Manual",
+  "developer": [
+    "Pontes Games"
+  ],
+  "description": "An offline copy of the game's manual. Links inside it are unlikely to work.",
+  "links": {
+    "agarchive": "https://www.agarchive.net/pages/devs/pontes.html"
+  },
+  "sources": [
+    {
+      "label": "Mirror",
+      "url": "https://files.accessiblegames.net/files/ca38e8fc9f5f67596b3512604de10492968706daf26434579aeb547f1817e103/pontes_towers_of_hanoi_manual.7z",
+      "platform": "windows",
+      "install": {
+        "method": "7z"
+      },
+      "sha256": "ca38e8fc9f5f67596b3512604de10492968706daf26434579aeb547f1817e103",
+      "size": 2187
+    }
+  ],
+  "extends": "towers-of-hanoi",
+  "install_into": "towers-of-hanoi"
+}

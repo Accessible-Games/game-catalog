@@ -1,0 +1,29 @@
+{
+  "id": "word-strain-volume1-unregistration-patch",
+  "kind": "extra",
+  "title": "Unregistration patch",
+  "developer": [
+    "BSC Games"
+  ],
+  "description": "Puts a clean license file back when the game says its registration is invalid, or asks you to register again although you already did. Run the patch, then use BSC's unlock code utility to make a new unlock code and register again. There's no need to reinstall the game.",
+  "flags": [
+    "abandoned"
+  ],
+  "links": {
+    "agarchive": "https://www.agarchive.net/pages/devs/bsc.html"
+  },
+  "sources": [
+    {
+      "label": "Mirror",
+      "url": "https://files.accessiblegames.net/files/37e7e76239795f0afbb74ff0dca8d746e09b7e8b4b9bfd88b057d47a0b2b093b/bsc_wrdstrn_unregistration_patch.exe",
+      "platform": "windows",
+      "install": {
+        "method": "none"
+      },
+      "sha256": "37e7e76239795f0afbb74ff0dca8d746e09b7e8b4b9bfd88b057d47a0b2b093b",
+      "size": 289339
+    }
+  ],
+  "extends": "word-strain-volume1",
+  "install_into": "word-strain-volume1"
+}

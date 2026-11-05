@@ -1,0 +1,33 @@
+{
+  "id": "audio-joust",
+  "kind": "game",
+  "title": "Audio Joust",
+  "developer": [
+    "The Blind Seers"
+  ],
+  "description": "Take on the role of King Arthur's champion and joust against five knights, with the crowd's help. A tutorial is included.\n\nOne of the experimental games made by university students and first hosted on audiogames.net.",
+  "flags": [
+    "abandoned"
+  ],
+  "links": {
+    "agarchive": "https://www.agarchive.net/pages/devs/misc.html"
+  },
+  "sources": [
+    {
+      "label": "Mirror",
+      "url": "https://files.accessiblegames.net/files/1109d7ffe366b7c50218d0b952b4687528b391746ee4b6e7df93ddc6d7ad3737/experimental_audiojoust.7z",
+      "platform": "windows",
+      "install": {
+        "method": "7z",
+        "extract_dir": "audiojoust"
+      },
+      "sha256": "1109d7ffe366b7c50218d0b952b4687528b391746ee4b6e7df93ddc6d7ad3737",
+      "size": 3829117
+    }
+  ],
+  "launch": {
+    "windows": {
+      "path": "audioJoustFinal.exe"
+    }
+  }
+}

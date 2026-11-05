@@ -1,0 +1,33 @@
+{
+  "id": "kill-all-zombies",
+  "kind": "game",
+  "title": "Kill All Zombies",
+  "developer": [
+    "various authors"
+  ],
+  "description": "Uses 3D sound and works best with surround speakers. The readme is in Dutch.\n\nOne of the experimental games made by university students and first hosted on audiogames.net.",
+  "flags": [
+    "abandoned"
+  ],
+  "links": {
+    "agarchive": "https://www.agarchive.net/pages/devs/misc.html"
+  },
+  "sources": [
+    {
+      "label": "Mirror",
+      "url": "https://files.accessiblegames.net/files/9728fafc866d92552834214f6713d51673d47345e20f3d0f684840626b728b75/experimental_killallzombies.7z",
+      "platform": "windows",
+      "install": {
+        "method": "7z",
+        "extract_dir": "KILLALLZOMBIES"
+      },
+      "sha256": "9728fafc866d92552834214f6713d51673d47345e20f3d0f684840626b728b75",
+      "size": 4434959
+    }
+  ],
+  "launch": {
+    "windows": {
+      "path": "KAZ.exe"
+    }
+  }
+}

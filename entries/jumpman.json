@@ -1,0 +1,33 @@
+{
+  "id": "jumpman",
+  "kind": "game",
+  "title": "Jumpman",
+  "developer": [
+    "various authors"
+  ],
+  "description": "One of the experimental games made by university students and first hosted on audiogames.net.",
+  "flags": [
+    "abandoned"
+  ],
+  "links": {
+    "agarchive": "https://www.agarchive.net/pages/devs/misc.html"
+  },
+  "sources": [
+    {
+      "label": "Mirror",
+      "url": "https://files.accessiblegames.net/files/cce7fc7d41451121f1aef2c17d0490f14364b66288959e45a6fe3b7c3dde79d4/experimental_jumpman.7z",
+      "platform": "windows",
+      "install": {
+        "method": "7z",
+        "extract_dir": "jumpman"
+      },
+      "sha256": "cce7fc7d41451121f1aef2c17d0490f14364b66288959e45a6fe3b7c3dde79d4",
+      "size": 8002419
+    }
+  ],
+  "launch": {
+    "windows": {
+      "path": "jumpman.exe"
+    }
+  }
+}

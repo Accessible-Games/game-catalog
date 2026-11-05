@@ -1,0 +1,26 @@
+{
+  "id": "top-speed-3-vehicles-by-rok",
+  "kind": "extra",
+  "title": "Vehicles collected by Rok",
+  "developer": [
+    "Playing in the Dark"
+  ],
+  "description": "A large collection of player-made vehicles for Top Speed 3, gathered from several sources by Rok.",
+  "links": {
+    "agarchive": "https://www.agarchive.net/pages/devs/pitd.html"
+  },
+  "sources": [
+    {
+      "label": "Mirror",
+      "url": "https://files.accessiblegames.net/files/258ed93372322255c8b170ed92efb086031aa793ac605747fde3b6aaf43401db/top_speed_3_rok_vehicles.7z",
+      "platform": "windows",
+      "install": {
+        "method": "7z"
+      },
+      "sha256": "258ed93372322255c8b170ed92efb086031aa793ac605747fde3b6aaf43401db",
+      "size": 37804101
+    }
+  ],
+  "extends": "top-speed-3",
+  "install_into": "top-speed-3"
+}

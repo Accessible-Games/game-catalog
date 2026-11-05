@@ -1,0 +1,33 @@
+{
+  "id": "audio-rumble",
+  "kind": "game",
+  "title": "Audio Rumble",
+  "developer": [
+    "various authors"
+  ],
+  "description": "One of the experimental games made by university students and first hosted on audiogames.net.",
+  "flags": [
+    "abandoned"
+  ],
+  "links": {
+    "agarchive": "https://www.agarchive.net/pages/devs/misc.html"
+  },
+  "sources": [
+    {
+      "label": "Mirror",
+      "url": "https://files.accessiblegames.net/files/2fb9b084784a11e4cbd469322aa6df32facf8fb1eaabe4dc09b1420a71ee56c2/experimental_audio_rumble.7z",
+      "platform": "windows",
+      "install": {
+        "method": "7z",
+        "extract_dir": "audio rumble"
+      },
+      "sha256": "2fb9b084784a11e4cbd469322aa6df32facf8fb1eaabe4dc09b1420a71ee56c2",
+      "size": 14473520
+    }
+  ],
+  "launch": {
+    "windows": {
+      "path": "audio rumble.exe"
+    }
+  }
+}

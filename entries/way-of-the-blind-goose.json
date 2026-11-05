@@ -1,0 +1,33 @@
+{
+  "id": "way-of-the-blind-goose",
+  "kind": "game",
+  "title": "Way of the Blind Goose",
+  "developer": [
+    "various authors"
+  ],
+  "description": "A sword fight by ear: dodge heavy attacks, block light ones, and strike back when your enemy tires.\n\nOne of the experimental games made by university students and first hosted on audiogames.net.",
+  "flags": [
+    "abandoned"
+  ],
+  "links": {
+    "agarchive": "https://www.agarchive.net/pages/devs/misc.html"
+  },
+  "sources": [
+    {
+      "label": "Mirror",
+      "url": "https://files.accessiblegames.net/files/1162cc9c3e1a9ea7086343036a48a0b650e01f9e90934d7d7b7e9690c14c651e/experimental_way_of_the_blind_goose.7z",
+      "platform": "windows",
+      "install": {
+        "method": "7z",
+        "extract_dir": "way of the blind goose"
+      },
+      "sha256": "1162cc9c3e1a9ea7086343036a48a0b650e01f9e90934d7d7b7e9690c14c651e",
+      "size": 21802018
+    }
+  ],
+  "launch": {
+    "windows": {
+      "path": "Way of the Blind Goose.exe"
+    }
+  }
+}

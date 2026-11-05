@@ -1,0 +1,26 @@
+{
+  "id": "escape-manual",
+  "kind": "extra",
+  "title": "Manual",
+  "developer": [
+    "Pontes Games"
+  ],
+  "description": "An offline copy of the game's manual. Links inside it are unlikely to work.",
+  "links": {
+    "agarchive": "https://www.agarchive.net/pages/devs/pontes.html"
+  },
+  "sources": [
+    {
+      "label": "Mirror",
+      "url": "https://files.accessiblegames.net/files/887d89e24cc2e01727cfd7d2825bbc92336b9d0609f479df4fbf6cb48233816c/pontes_escape_manual.7z",
+      "platform": "windows",
+      "install": {
+        "method": "7z"
+      },
+      "sha256": "887d89e24cc2e01727cfd7d2825bbc92336b9d0609f479df4fbf6cb48233816c",
+      "size": 3202
+    }
+  ],
+  "extends": "escape",
+  "install_into": "escape"
+}

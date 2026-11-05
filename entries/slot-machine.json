@@ -1,0 +1,33 @@
+{
+  "id": "slot-machine",
+  "kind": "game",
+  "title": "Slot Machine",
+  "developer": [
+    "Talon"
+  ],
+  "description": "One of Talon's old, unsupported games. It comes with its AutoIt source code.",
+  "flags": [
+    "abandoned"
+  ],
+  "links": {
+    "agarchive": "https://www.agarchive.net/pages/devs/talon.html"
+  },
+  "sources": [
+    {
+      "label": "Mirror",
+      "url": "https://files.accessiblegames.net/files/66153a69dc5614c804ad24bc5f18b1227087ba3bb68e84c0e0827b43f2871e14/talon_slotmachine.7z",
+      "platform": "windows",
+      "install": {
+        "method": "7z",
+        "extract_dir": "SlotMachine"
+      },
+      "sha256": "66153a69dc5614c804ad24bc5f18b1227087ba3bb68e84c0e0827b43f2871e14",
+      "size": 39012240
+    }
+  ],
+  "launch": {
+    "windows": {
+      "path": "slotmachine.exe"
+    }
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "id": "fishing-frenzy",
+  "kind": "game",
+  "title": "Fishing Frenzy",
+  "developer": [
+    "Dr_Al_"
+  ],
+  "description": "A fishing game. Written entirely in Windows batch script.",
+  "links": {
+    "homepage": "https://doctoral.weebly.com/batch-games.html",
+    "agarchive": "https://www.agarchive.net/pages/devs/misc.html"
+  },
+  "sources": [
+    {
+      "label": "Mirror",
+      "url": "https://files.accessiblegames.net/files/5ce3a6bfa8951d8b1eaece711d15741cc4ae658519b07c90a7491ace6094cc35/dr_al_fishing_frenzy.7z",
+      "platform": "windows",
+      "install": {
+        "method": "7z",
+        "extract_dir": "Fishing Frenzy"
+      },
+      "sha256": "5ce3a6bfa8951d8b1eaece711d15741cc4ae658519b07c90a7491ace6094cc35",
+      "size": 3337
+    }
+  ],
+  "launch": {
+    "windows": {
+      "path": "Fishing Frenzy.cmd"
+    }
+  }
+}

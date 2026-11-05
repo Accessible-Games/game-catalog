@@ -1,0 +1,33 @@
+{
+  "id": "minigame-collection",
+  "kind": "game",
+  "title": "Minigame Collection",
+  "developer": [
+    "Galaxy Laboratory"
+  ],
+  "description": "A set of minigames made in Text Game Maker, built around a small RPG. Includes a fishing game, a casino and a shooting game. No longer hosted on the developer's website.",
+  "flags": [
+    "abandoned"
+  ],
+  "links": {
+    "agarchive": "https://www.agarchive.net/pages/devs/GalaxyLaboratory.html"
+  },
+  "sources": [
+    {
+      "label": "Mirror",
+      "url": "https://files.accessiblegames.net/files/e96ea6eb3e345b50888d36065db25d0f7dc3970b380bf60ff84ffe4c9cfe69a3/minigame_collection.7z",
+      "platform": "windows",
+      "install": {
+        "method": "7z",
+        "extract_dir": "Minigame Collection"
+      },
+      "sha256": "e96ea6eb3e345b50888d36065db25d0f7dc3970b380bf60ff84ffe4c9cfe69a3",
+      "size": 40577756
+    }
+  ],
+  "launch": {
+    "windows": {
+      "path": "PLAY.exe"
+    }
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "id": "elevator",
+  "kind": "game",
+  "title": "Elevator",
+  "developer": [
+    "Talon"
+  ],
+  "description": "A joke: ride an elevator. The readme explains how to make your own sessions.\n\nOne of Talon's old, unsupported games. It comes with its AutoIt source code.",
+  "flags": [
+    "abandoned"
+  ],
+  "links": {
+    "agarchive": "https://www.agarchive.net/pages/devs/talon.html"
+  },
+  "sources": [
+    {
+      "label": "Mirror",
+      "url": "https://files.accessiblegames.net/files/fab505df06d7ad2912e8fc4dfc3197babe7dc398142d53d7545770809c5d93e5/talon_elevator.7z",
+      "platform": "windows",
+      "install": {
+        "method": "7z",
+        "extract_dir": "Elevator"
+      },
+      "sha256": "fab505df06d7ad2912e8fc4dfc3197babe7dc398142d53d7545770809c5d93e5",
+      "size": 117559988
+    }
+  ],
+  "launch": {
+    "windows": {
+      "path": "elevator.exe"
+    }
+  }
+}

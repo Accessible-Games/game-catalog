@@ -1,0 +1,26 @@
+{
+  "id": "yellow-bonnet-manual",
+  "kind": "extra",
+  "title": "Manual",
+  "developer": [
+    "Valiant Galaxy Associates"
+  ],
+  "description": "An offline copy of the game's manual. Links inside it are unlikely to work.",
+  "links": {
+    "agarchive": "https://www.agarchive.net/pages/devs/vga.html"
+  },
+  "sources": [
+    {
+      "label": "Mirror",
+      "url": "https://files.accessiblegames.net/files/5aadfdebc205d397916d5dc9a7ee6433df7cd637d9a41de4fb86cfd795279092/vga_yellow_bonnet_manual.7z",
+      "platform": "windows",
+      "install": {
+        "method": "7z"
+      },
+      "sha256": "5aadfdebc205d397916d5dc9a7ee6433df7cd637d9a41de4fb86cfd795279092",
+      "size": 12994
+    }
+  ],
+  "extends": "yellow-bonnet",
+  "install_into": "yellow-bonnet"
+}

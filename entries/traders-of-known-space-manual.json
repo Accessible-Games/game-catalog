@@ -1,0 +1,26 @@
+{
+  "id": "traders-of-known-space-manual",
+  "kind": "extra",
+  "title": "Manual",
+  "developer": [
+    "Valiant Galaxy Associates"
+  ],
+  "description": "An offline copy of the game's manual. Links inside it are unlikely to work.",
+  "links": {
+    "agarchive": "https://www.agarchive.net/pages/devs/vga.html"
+  },
+  "sources": [
+    {
+      "label": "Mirror",
+      "url": "https://files.accessiblegames.net/files/65e408b3ff7531b27a1c182f12f17ff9affd830516e2323c7aa972a4dc4bad79/vga_traders_of_known_space_manual.7z",
+      "platform": "windows",
+      "install": {
+        "method": "7z"
+      },
+      "sha256": "65e408b3ff7531b27a1c182f12f17ff9affd830516e2323c7aa972a4dc4bad79",
+      "size": 19702
+    }
+  ],
+  "extends": "traders-of-known-space",
+  "install_into": "traders-of-known-space"
+}

@@ -1,0 +1,35 @@
+{
+  "id": "fear-of-the-dark",
+  "kind": "game",
+  "title": "Fear of the Dark",
+  "developer": [
+    "Joris Wildenbeest",
+    "Machiel van Hooren",
+    "Dieuwertje de Winkel"
+  ],
+  "description": "Includes a level editor.\n\nOne of the experimental games made by university students and first hosted on audiogames.net.",
+  "flags": [
+    "abandoned"
+  ],
+  "links": {
+    "agarchive": "https://www.agarchive.net/pages/devs/misc.html"
+  },
+  "sources": [
+    {
+      "label": "Mirror",
+      "url": "https://files.accessiblegames.net/files/88543015991821030b7b4973d27cf33988be8a86d51d61afe53b66ada591ab59/experimental_fear_of_the_dark.7z",
+      "platform": "windows",
+      "install": {
+        "method": "7z",
+        "extract_dir": "Fear of the Dark"
+      },
+      "sha256": "88543015991821030b7b4973d27cf33988be8a86d51d61afe53b66ada591ab59",
+      "size": 15205931
+    }
+  ],
+  "launch": {
+    "windows": {
+      "path": "Fear of the Dark.exe"
+    }
+  }
+}

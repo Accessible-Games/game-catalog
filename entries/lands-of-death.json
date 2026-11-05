@@ -1,0 +1,31 @@
+{
+  "id": "lands-of-death",
+  "kind": "game",
+  "title": "Lands of Death",
+  "developer": [
+    "Dr_Al_"
+  ],
+  "description": "A zombie apocalypse exploration game: pick from several starting classes, manage your resources, upgrade skills and equipment, and try to uncover the reason behind the plague. Written entirely in Windows batch script.",
+  "links": {
+    "homepage": "https://doctoral.weebly.com/batch-games.html",
+    "agarchive": "https://www.agarchive.net/pages/devs/misc.html"
+  },
+  "sources": [
+    {
+      "label": "Mirror",
+      "url": "https://files.accessiblegames.net/files/b00a2c1f6bfe8314d1e59ed7f288e8130e4a0dbbaaccc04a0ed2ac78473d98b0/dr_al_lands_of_death.7z",
+      "platform": "windows",
+      "install": {
+        "method": "7z",
+        "extract_dir": "Lands of Death"
+      },
+      "sha256": "b00a2c1f6bfe8314d1e59ed7f288e8130e4a0dbbaaccc04a0ed2ac78473d98b0",
+      "size": 35409
+    }
+  ],
+  "launch": {
+    "windows": {
+      "path": "Lands Of Death.cmd"
+    }
+  }
+}

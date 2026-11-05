@@ -1,0 +1,33 @@
+{
+  "id": "fighting-engine",
+  "kind": "game",
+  "title": "Fighting Engine",
+  "developer": [
+    "Talon"
+  ],
+  "description": "One of Talon's old, unsupported games. It comes with its AutoIt source code.",
+  "flags": [
+    "abandoned"
+  ],
+  "links": {
+    "agarchive": "https://www.agarchive.net/pages/devs/talon.html"
+  },
+  "sources": [
+    {
+      "label": "Mirror",
+      "url": "https://files.accessiblegames.net/files/79602a6c688fe325f58e0aac7bc9235f688f1437b16d916db16d195906e937a9/talon_fe.7z",
+      "platform": "windows",
+      "install": {
+        "method": "7z",
+        "extract_dir": "FE"
+      },
+      "sha256": "79602a6c688fe325f58e0aac7bc9235f688f1437b16d916db16d195906e937a9",
+      "size": 29950323
+    }
+  ],
+  "launch": {
+    "windows": {
+      "path": "START.exe"
+    }
+  }
+}

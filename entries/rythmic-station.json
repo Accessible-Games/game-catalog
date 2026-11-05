@@ -1,0 +1,33 @@
+{
+  "id": "rythmic-station",
+  "kind": "game",
+  "title": "Rythmic Station",
+  "developer": [
+    "various authors"
+  ],
+  "description": "A rhythm game made for blind players: press Left, Right or Up to match where each beat comes from.\n\nOne of the experimental games made by university students and first hosted on audiogames.net.",
+  "flags": [
+    "abandoned"
+  ],
+  "links": {
+    "agarchive": "https://www.agarchive.net/pages/devs/misc.html"
+  },
+  "sources": [
+    {
+      "label": "Mirror",
+      "url": "https://files.accessiblegames.net/files/e35c891e9f0c80eb455e663d1a38d619f309e53909745f96bbcea610e84251a7/experimental_rythmic_station.7z",
+      "platform": "windows",
+      "install": {
+        "method": "7z",
+        "extract_dir": "rythmic_station"
+      },
+      "sha256": "e35c891e9f0c80eb455e663d1a38d619f309e53909745f96bbcea610e84251a7",
+      "size": 35609986
+    }
+  ],
+  "launch": {
+    "windows": {
+      "path": "SoundGameFinal.exe"
+    }
+  }
+}

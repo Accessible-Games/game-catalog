@@ -1,0 +1,33 @@
+{
+  "id": "find-the-sound",
+  "kind": "game",
+  "title": "Find the Sound",
+  "developer": [
+    "various authors"
+  ],
+  "description": "One of the experimental games made by university students and first hosted on audiogames.net.",
+  "flags": [
+    "abandoned"
+  ],
+  "links": {
+    "agarchive": "https://www.agarchive.net/pages/devs/misc.html"
+  },
+  "sources": [
+    {
+      "label": "Mirror",
+      "url": "https://files.accessiblegames.net/files/6625caee844db763e6d2e98d765a4b05ad98cf790789d5d98ccbebc7f53befb8/experimental_findthesound.7z",
+      "platform": "windows",
+      "install": {
+        "method": "7z",
+        "extract_dir": "findthesound"
+      },
+      "sha256": "6625caee844db763e6d2e98d765a4b05ad98cf790789d5d98ccbebc7f53befb8",
+      "size": 1076801
+    }
+  ],
+  "launch": {
+    "windows": {
+      "path": "findthesound.exe"
+    }
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "id": "hunter-unregistration-patch",
+  "kind": "extra",
+  "title": "Unregistration patch",
+  "developer": [
+    "BSC Games"
+  ],
+  "description": "Puts a clean license file back when the game says its registration is invalid, or asks you to register again although you already did. Run the patch, then use BSC's unlock code utility to make a new unlock code and register again. There's no need to reinstall the game.",
+  "flags": [
+    "abandoned"
+  ],
+  "links": {
+    "agarchive": "https://www.agarchive.net/pages/devs/bsc.html"
+  },
+  "sources": [
+    {
+      "label": "Mirror",
+      "url": "https://files.accessiblegames.net/files/68a1d74120f03483ceb13eda3d95b6bede2d9271b65394d3eba9bd8f015a185f/bsc_hunter_unregistration_patch.exe",
+      "platform": "windows",
+      "install": {
+        "method": "none"
+      },
+      "sha256": "68a1d74120f03483ceb13eda3d95b6bede2d9271b65394d3eba9bd8f015a185f",
+      "size": 283907
+    }
+  ],
+  "extends": "hunter",
+  "install_into": "hunter"
+}

@@ -1,0 +1,26 @@
+{
+  "id": "duel-pontes-games-manual",
+  "kind": "extra",
+  "title": "Manual",
+  "developer": [
+    "Pontes Games"
+  ],
+  "description": "An offline copy of the game's manual. Links inside it are unlikely to work.",
+  "links": {
+    "agarchive": "https://www.agarchive.net/pages/devs/pontes.html"
+  },
+  "sources": [
+    {
+      "label": "Mirror",
+      "url": "https://files.accessiblegames.net/files/02100023bcd2233d506f5f8d2dd5e29a125ef88a89077556b312a020539b0ff6/pontes_duel_manual.7z",
+      "platform": "windows",
+      "install": {
+        "method": "7z"
+      },
+      "sha256": "02100023bcd2233d506f5f8d2dd5e29a125ef88a89077556b312a020539b0ff6",
+      "size": 5177
+    }
+  ],
+  "extends": "duel-pontes-games",
+  "install_into": "duel-pontes-games"
+}

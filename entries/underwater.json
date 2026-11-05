@@ -1,0 +1,33 @@
+{
+  "id": "underwater",
+  "kind": "game",
+  "title": "Underwater",
+  "developer": [
+    "various authors"
+  ],
+  "description": "Command a submarine exploring the deep sea, and find your way and treasure with its sonar.\n\nOne of the experimental games made by university students and first hosted on audiogames.net.",
+  "flags": [
+    "abandoned"
+  ],
+  "links": {
+    "agarchive": "https://www.agarchive.net/pages/devs/misc.html"
+  },
+  "sources": [
+    {
+      "label": "Mirror",
+      "url": "https://files.accessiblegames.net/files/064722b35edcade9c1a5d8e8be3f8ee4cdb67145b6b8634a2445d491b75cce6f/experimental_underwater.7z",
+      "platform": "windows",
+      "install": {
+        "method": "7z",
+        "extract_dir": "underwater"
+      },
+      "sha256": "064722b35edcade9c1a5d8e8be3f8ee4cdb67145b6b8634a2445d491b75cce6f",
+      "size": 22710352
+    }
+  ],
+  "launch": {
+    "windows": {
+      "path": "UnderwaterFinal.exe"
+    }
+  }
+}

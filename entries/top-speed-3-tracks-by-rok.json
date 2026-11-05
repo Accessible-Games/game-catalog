@@ -1,0 +1,26 @@
+{
+  "id": "top-speed-3-tracks-by-rok",
+  "kind": "extra",
+  "title": "Tracks collected by Rok",
+  "developer": [
+    "Playing in the Dark"
+  ],
+  "description": "A large collection of player-made tracks for Top Speed 3, gathered from several sources by Rok.",
+  "links": {
+    "agarchive": "https://www.agarchive.net/pages/devs/pitd.html"
+  },
+  "sources": [
+    {
+      "label": "Mirror",
+      "url": "https://files.accessiblegames.net/files/d8c135ac978dc41ac5dc76be23c0974a31ba8bdbb7fd20f397d8781c0e1d01c7/top_speed_3_rok_tracks.7z",
+      "platform": "windows",
+      "install": {
+        "method": "7z"
+      },
+      "sha256": "d8c135ac978dc41ac5dc76be23c0974a31ba8bdbb7fd20f397d8781c0e1d01c7",
+      "size": 6959431
+    }
+  ],
+  "extends": "top-speed-3",
+  "install_into": "top-speed-3"
+}

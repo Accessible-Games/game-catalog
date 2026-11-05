@@ -1,0 +1,33 @@
+{
+  "id": "windmill",
+  "kind": "game",
+  "title": "Windmill",
+  "developer": [
+    "various authors"
+  ],
+  "description": "One of the experimental games made by university students and first hosted on audiogames.net.",
+  "flags": [
+    "abandoned"
+  ],
+  "links": {
+    "agarchive": "https://www.agarchive.net/pages/devs/misc.html"
+  },
+  "sources": [
+    {
+      "label": "Mirror",
+      "url": "https://files.accessiblegames.net/files/cea73a2e2d8b3615b1cb444f59e3b7d6a81aa5b9a09967aa6884633ba7eb951b/experimental_windmill.7z",
+      "platform": "windows",
+      "install": {
+        "method": "7z",
+        "extract_dir": "windmill"
+      },
+      "sha256": "cea73a2e2d8b3615b1cb444f59e3b7d6a81aa5b9a09967aa6884633ba7eb951b",
+      "size": 3629528
+    }
+  ],
+  "launch": {
+    "windows": {
+      "path": "Windmill.exe"
+    }
+  }
+}

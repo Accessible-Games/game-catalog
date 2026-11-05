@@ -1,0 +1,33 @@
+{
+  "id": "ghost-driver",
+  "kind": "game",
+  "title": "Ghost Driver",
+  "developer": [
+    "D. Kamerman"
+  ],
+  "description": "You and your drunk friend meet hundreds of cars coming the wrong way. Take the wheel and dodge them, while your friend tries to get you drunk too.\n\nOne of the experimental games made by university students and first hosted on audiogames.net.",
+  "flags": [
+    "abandoned"
+  ],
+  "links": {
+    "agarchive": "https://www.agarchive.net/pages/devs/misc.html"
+  },
+  "sources": [
+    {
+      "label": "Mirror",
+      "url": "https://files.accessiblegames.net/files/85a426279c33a8529c0634b61ea2bceb738b852264c9f673cd4eea44a567e2f7/experimental_ghost_driver.7z",
+      "platform": "windows",
+      "install": {
+        "method": "7z",
+        "extract_dir": "Ghost Driver"
+      },
+      "sha256": "85a426279c33a8529c0634b61ea2bceb738b852264c9f673cd4eea44a567e2f7",
+      "size": 7278639
+    }
+  ],
+  "launch": {
+    "windows": {
+      "path": "ghostdriver_david_kamerman.exe"
+    }
+  }
+}

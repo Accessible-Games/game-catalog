@@ -1,0 +1,26 @@
+{
+  "id": "shades-of-doom-expanded-mod-by-locutus",
+  "kind": "extra",
+  "title": "Expanded mod by Locutus",
+  "developer": [
+    "Locutus"
+  ],
+  "description": "A mod by Locutus that replaces the game's level files. Install either the Mod or the Expanded mod, not both.",
+  "links": {
+    "agarchive": "https://www.agarchive.net/pages/devs/gma.html"
+  },
+  "sources": [
+    {
+      "platform": "windows",
+      "install": {
+        "method": "zip"
+      },
+      "label": "Mirror",
+      "url": "https://files.accessiblegames.net/files/8187c0e44e16fceb99ad903000ed6182518b4dc4b09ea8eb12d034b995f4e119/Shades_of_Doom_expanded_Mod_by_locutus.zip",
+      "sha256": "8187c0e44e16fceb99ad903000ed6182518b4dc4b09ea8eb12d034b995f4e119",
+      "size": 36641646
+    }
+  ],
+  "extends": "shades-of-doom",
+  "install_into": "shades-of-doom"
+}

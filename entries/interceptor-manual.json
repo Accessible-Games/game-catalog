@@ -1,0 +1,26 @@
+{
+  "id": "interceptor-manual",
+  "kind": "extra",
+  "title": "Manual",
+  "developer": [
+    "Valiant Galaxy Associates"
+  ],
+  "description": "An offline copy of the game's manual. Links inside it are unlikely to work.",
+  "links": {
+    "agarchive": "https://www.agarchive.net/pages/devs/vga.html"
+  },
+  "sources": [
+    {
+      "label": "Mirror",
+      "url": "https://files.accessiblegames.net/files/b8c685d5058a41d0b528859933837bec6c7f2beed6e865a6a0ace35071ad5658/vga_interceptor_manual.7z",
+      "platform": "windows",
+      "install": {
+        "method": "7z"
+      },
+      "sha256": "b8c685d5058a41d0b528859933837bec6c7f2beed6e865a6a0ace35071ad5658",
+      "size": 17524
+    }
+  ],
+  "extends": "interceptor",
+  "install_into": "interceptor"
+}

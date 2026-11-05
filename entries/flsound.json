@@ -1,0 +1,33 @@
+{
+  "id": "flsound",
+  "kind": "game",
+  "title": "FLSound",
+  "developer": [
+    "various authors"
+  ],
+  "description": "One of the experimental games made by university students and first hosted on audiogames.net.",
+  "flags": [
+    "abandoned"
+  ],
+  "links": {
+    "agarchive": "https://www.agarchive.net/pages/devs/misc.html"
+  },
+  "sources": [
+    {
+      "label": "Mirror",
+      "url": "https://files.accessiblegames.net/files/57e17822c2673448eb359691463911222e173d03a69047bff59f225923b703c9/experimental_flsound.7z",
+      "platform": "windows",
+      "install": {
+        "method": "7z",
+        "extract_dir": "flsound"
+      },
+      "sha256": "57e17822c2673448eb359691463911222e173d03a69047bff59f225923b703c9",
+      "size": 5381046
+    }
+  ],
+  "launch": {
+    "windows": {
+      "path": "flsound.exe"
+    }
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "id": "stunball",
+  "kind": "game",
+  "title": "Stunball",
+  "developer": [
+    "Talon"
+  ],
+  "description": "One of Talon's old, unsupported games. It comes with its AutoIt source code.",
+  "flags": [
+    "abandoned"
+  ],
+  "links": {
+    "agarchive": "https://www.agarchive.net/pages/devs/talon.html"
+  },
+  "sources": [
+    {
+      "label": "Mirror",
+      "url": "https://files.accessiblegames.net/files/cd0e322c0b825e9b952caef6339f2c5e3c6971bafe36d0e9f759caf59ac55927/talon_stunball.7z",
+      "platform": "windows",
+      "install": {
+        "method": "7z",
+        "extract_dir": "stunball"
+      },
+      "sha256": "cd0e322c0b825e9b952caef6339f2c5e3c6971bafe36d0e9f759caf59ac55927",
+      "size": 10073857
+    }
+  ],
+  "launch": {
+    "windows": {
+      "path": "stunball.exe"
+    }
+  }
+}

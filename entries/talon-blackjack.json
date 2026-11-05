@@ -1,0 +1,33 @@
+{
+  "id": "talon-blackjack",
+  "kind": "game",
+  "title": "BlackJack",
+  "developer": [
+    "Talon"
+  ],
+  "description": "One of Talon's old, unsupported games. It comes with its AutoIt source code.",
+  "flags": [
+    "abandoned"
+  ],
+  "links": {
+    "agarchive": "https://www.agarchive.net/pages/devs/talon.html"
+  },
+  "sources": [
+    {
+      "label": "Mirror",
+      "url": "https://files.accessiblegames.net/files/281386d0e90d1c779c3987cfcbe178dbec9894667775c2b3fd64e2efe66fb9b0/talon_blackjack.7z",
+      "platform": "windows",
+      "install": {
+        "method": "7z",
+        "extract_dir": "BlackJack"
+      },
+      "sha256": "281386d0e90d1c779c3987cfcbe178dbec9894667775c2b3fd64e2efe66fb9b0",
+      "size": 16384525
+    }
+  ],
+  "launch": {
+    "windows": {
+      "path": "blackjack.exe"
+    }
+  }
+}

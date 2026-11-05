@@ -1,0 +1,34 @@
+{
+  "id": "ratjeprak",
+  "kind": "game",
+  "title": "Ratjeprak",
+  "developer": [
+    "Richard van Tol",
+    "Sander Huiberts"
+  ],
+  "description": "Practise using the mouse: make your way through Professor Reijnhart's lab and squash the escaped mutant rats. In Dutch.\n\nOne of the experimental games made by university students and first hosted on audiogames.net.",
+  "flags": [
+    "abandoned"
+  ],
+  "links": {
+    "agarchive": "https://www.agarchive.net/pages/devs/misc.html"
+  },
+  "sources": [
+    {
+      "label": "Mirror",
+      "url": "https://files.accessiblegames.net/files/7c9fe932d8d037949e4c4484340d1157a6b42e0f61a7d69b9444456c9d965525/experimental_ratjeprak.7z",
+      "platform": "windows",
+      "install": {
+        "method": "7z",
+        "extract_dir": "Ratjeprak"
+      },
+      "sha256": "7c9fe932d8d037949e4c4484340d1157a6b42e0f61a7d69b9444456c9d965525",
+      "size": 7853692
+    }
+  ],
+  "launch": {
+    "windows": {
+      "path": "Ratjeprak.exe"
+    }
+  }
+}

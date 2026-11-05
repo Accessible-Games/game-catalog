@@ -1,0 +1,33 @@
+{
+  "id": "bust-a-baloon",
+  "kind": "game",
+  "title": "Bust-A-Baloon",
+  "developer": [
+    "Talon"
+  ],
+  "description": "One of Talon's old, unsupported games. It comes with its AutoIt source code.",
+  "flags": [
+    "abandoned"
+  ],
+  "links": {
+    "agarchive": "https://www.agarchive.net/pages/devs/talon.html"
+  },
+  "sources": [
+    {
+      "label": "Mirror",
+      "url": "https://files.accessiblegames.net/files/67e53bd53ae044c9f70406e24e37bc3fe8ba03dcef85262dba0188071b36cf0c/talon_bust-a-baloon.7z",
+      "platform": "windows",
+      "install": {
+        "method": "7z",
+        "extract_dir": "Bust-A-Baloon"
+      },
+      "sha256": "67e53bd53ae044c9f70406e24e37bc3fe8ba03dcef85262dba0188071b36cf0c",
+      "size": 1299809
+    }
+  ],
+  "launch": {
+    "windows": {
+      "path": "bust-a-baloon.exe"
+    }
+  }
+}
