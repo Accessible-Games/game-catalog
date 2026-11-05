@@ -13,6 +13,8 @@ catalog-index = "catalog.index:main"
 catalog-links = "catalog.links:main"
 catalog-mirror = "catalog.mirror:main"
 catalog-checksums = "catalog.checksums:main"
+catalog-put = "catalog.mirror:put_main"
+catalog-prune = "catalog.prune:main"
 
 [build-system]
 requires = ["hatchling"]

@@ -122,6 +122,8 @@ Install [uv](https://docs.astral.sh/uv/), then from the repository root:
 - `uv run catalog-index --out site` builds the index into `site/`.
 - `uv run catalog-links` checks every source link. Add `--only ID` to check certain entries, or `--changed-from REF` to check entries changed since a git ref. `--report FILE` writes a Markdown report, and `--fail-on-dead` exits with an error if a link is dead.
 - `uv run catalog-checksums` records missing `sha256` and `size` values of developer downloads. `--check` changes nothing and fails on a stale value, `--refresh --only ID` accepts a changed file, and `--changed-from REF` limits it to entries changed since a git ref. Files are hashed as they download and are not kept.
-- `uv run catalog-mirror --only ID [ID ...] --dry-run` shows what would be mirrored for those entries without uploading. A real run needs the `R2_ACCOUNT_ID`, `R2_ACCESS_KEY_ID`, `R2_SECRET_ACCESS_KEY` and `R2_BUCKET` environment variables.
+- `uv run catalog-mirror --only ID [ID ...] --dry-run` shows what would be mirrored for those entries without uploading. A real run uses the R2 API keys when `R2_ACCOUNT_ID`, `R2_ACCESS_KEY_ID`, `R2_SECRET_ACCESS_KEY` and `R2_BUCKET` are set (as in CI), and otherwise your Wrangler login (`npx wrangler login`, once).
+- `uv run catalog-put FILE [FILE ...]` uploads local files, such as repacks, to the mirror and prints each one's `url`, `sha256` and `size` for the entry's source.
+- `uv run catalog-prune --since REF` lists mirror files that entries referenced at commit `REF` and no longer reference. Add `--delete` to delete them.
 
 See `SETUP.md` for the one-time admin setup.
