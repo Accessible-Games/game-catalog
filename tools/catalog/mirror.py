@@ -188,7 +188,8 @@ class WranglerUploader:
         return next((k for k in self.known_keys if k.startswith(prefix) and self.exists(k)), None)
 
     def _wrangler(self, *args: str) -> None:
-        self.runner([*_wrangler_command(), *args], check=True)
+        # Wrangler talks on stdout; keep that for our own JSON output.
+        self.runner([*_wrangler_command(), *args], check=True, stdout=sys.stderr)
 
     def upload(self, path: Path, key: str) -> None:
         content_type = content_type_for(key)
