@@ -4,9 +4,12 @@ from __future__ import annotations
 
 import argparse
 import hashlib
+import json
 import mimetypes
 import os
 import re
+import shutil
+import subprocess
 import sys
 import tempfile
 import unicodedata
@@ -143,6 +146,65 @@ class R2Uploader:
         )
 
 
+def _wrangler_command() -> list[str]:
+    """Wrangler on PATH, else through npx (Wrangler's own login is used, no API keys needed)."""
+    found = shutil.which("wrangler")
+    return [found] if found else [shutil.which("npx") or "npx", "--yes", "wrangler"]
+
+
+class WranglerUploader:
+    """Uploads and deletes through the Wrangler CLI and its login.
+
+    Wrangler cannot list a bucket, so existence is checked on the public mirror URL, and find()
+    looks among keys the catalog already references.
+    """
+
+    def __init__(self, bucket: str, known_keys: Iterable[str], runner=subprocess.run) -> None:
+        self.bucket = bucket
+        self.known_keys = list(known_keys)
+        self.runner = runner
+
+    def exists(self, key: str) -> bool:
+        resp = requests.head(mirror_url(key), timeout=30, allow_redirects=True)
+        if resp.status_code == 404:
+            return False
+        resp.raise_for_status()
+        return True
+
+    def find(self, sha256: str) -> str | None:
+        prefix = f"files/{sha256}/"
+        return next((k for k in self.known_keys if k.startswith(prefix) and self.exists(k)), None)
+
+    def _wrangler(self, *args: str) -> None:
+        self.runner([*_wrangler_command(), *args], check=True)
+
+    def upload(self, path: Path, key: str) -> None:
+        content_type = mimetypes.guess_type(key)[0] or "application/octet-stream"
+        self._wrangler("r2", "object", "put", f"{self.bucket}/{key}", "--file", str(path),
+                       "--content-type", content_type, "--remote")
+        self.known_keys.append(key)
+
+    def delete(self, key: str) -> None:
+        self._wrangler("r2", "object", "delete", f"{self.bucket}/{key}", "--remote")
+
+
+def mirror_keys(entries: dict[str, dict]) -> set[str]:
+    """Every mirror object key the given entries reference."""
+    return {
+        s["url"][len(config.MIRROR_BASE):]
+        for entry in entries.values()
+        for s in entry.get("sources") or []
+        if is_mirror_url(s.get("url", ""))
+    }
+
+
+def default_uploader(entries_dir: Path) -> Uploader:
+    """R2 API keys when they are set (CI), otherwise the local Wrangler login."""
+    if all(os.environ.get(v) for v in R2_ENV_VARS):
+        return R2Uploader.from_env()
+    return WranglerUploader(config.MIRROR_BUCKET, known_keys=mirror_keys(load_entries(entries_dir)))
+
+
 @dataclass(frozen=True)
 class Mirrored:
     url: str
@@ -266,7 +328,7 @@ def main(argv: list[str] | None = None) -> int:
     parser.add_argument("--dry-run", action="store_true", help="use an in-memory uploader and write no files")
     args = parser.parse_args(argv)
 
-    uploader: Uploader = MemoryUploader() if args.dry_run else R2Uploader.from_env()
+    uploader: Uploader = MemoryUploader() if args.dry_run else default_uploader(args.entries)
     with tempfile.TemporaryDirectory() as tmp:
         changed = mirror_entries(
             args.entries,
@@ -278,6 +340,23 @@ def main(argv: list[str] | None = None) -> int:
         )
     for entry_id in changed:
         print(entry_id)
+    return 0
+
+
+def put_main(argv: list[str] | None = None) -> int:
+    parser = argparse.ArgumentParser(
+        prog="catalog-put",
+        description="Upload local files (for example, repacks) to the mirror and print their url, "
+                    "sha256 and size as JSON, ready to use as an entry source.")
+    parser.add_argument("files", nargs="+", type=Path)
+    parser.add_argument("--entries", type=Path, default=ROOT / "entries")
+    args = parser.parse_args(argv)
+    uploader = default_uploader(args.entries)
+    out = []
+    for path in args.files:
+        m = mirror_file(path, path.name, uploader)
+        out.append({"file": str(path), "url": m.url, "sha256": m.sha256, "size": m.size})
+    print(json.dumps(out, indent=2))
     return 0
 
 
