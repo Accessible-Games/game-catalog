@@ -1,7 +1,7 @@
 {
   "id": "simon-various-authors",
   "kind": "game",
-  "title": "Simon",
+  "title": "Windows Simon",
   "developer": [
     "various authors"
   ],
@@ -22,5 +22,10 @@
       "sha256": "1756d61fc7c99298c8b8565987b2db2615ab43f1c43bb34e8cdf38f309fb6718",
       "size": 145408
     }
-  ]
+  ],
+  "launch": {
+    "windows": {
+      "path": "simon.exe"
+    }
+  }
 }
