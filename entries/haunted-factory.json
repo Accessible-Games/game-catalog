@@ -5,7 +5,7 @@
   "developer": [
     "various authors"
   ],
-  "description": "Take on the roll of a worker organizing an assembly line, and have chats with the friendly ghost haunting the facility during your breaks.\n\nThis game requires the Klango framework to run, and is only available in demo form. If Klango is not already installed on your system, it will be offered during setup.",
+  "description": "Take on the roll of a worker organizing an assembly line, and have chats with the friendly ghost haunting the facility during your breaks.\n\nThis game requires the Klango framework to run, and is only available in demo form. The game's own installer runs: it installs the game into Klango's games folder, and offers to install Klango Player 1.31 first if it isn't there. Klango's online service may no longer be running, so Klango Player might not start.",
   "flags": [
     "abandoned",
     "demo"
@@ -19,8 +19,8 @@
       "install": {
         "method": "installer",
         "installer": {
-          "type": "nsis",
-          "mode": "extract"
+          "type": "other",
+          "mode": "run"
         }
       },
       "label": "Mirror",
@@ -28,5 +28,10 @@
       "sha256": "f8e6c1ded7b5145755c27a703e680b09d74d3e0ac31a3d437451c46665fb9b86",
       "size": 25956049
     }
-  ]
+  ],
+  "launch": {
+    "windows": {
+      "path": "start.bat"
+    }
+  }
 }
