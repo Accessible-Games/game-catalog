@@ -10,6 +10,8 @@ A community catalog of accessible games for blind and low-vision players. Each g
 
 The catalog only lists what can actually be downloaded and launched (or, for web games, opened). It does not list games that cannot be installed.
 
+Games shipped only as source code (for example Python scripts with no runnable build) are not accepted; the catalog provides games to run, it doesn't preserve them.
+
 ## How to contribute
 
 ### Without Git: issue forms
