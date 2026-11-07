@@ -28,6 +28,7 @@
     }
   ],
   "dependencies": [
-    "com-audio-dependency"
+    "com-audio-dependency",
+    "microsoft-internet-transfer-control"
   ]
 }

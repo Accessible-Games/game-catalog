@@ -70,5 +70,8 @@
       "sha256": "97fbdca7136dce98ecd8ccd1ceb6a1e5a40a13103105788745114c2c607aa10e",
       "size": 2933481
     }
+  ],
+  "dependencies": [
+    "microsoft-internet-transfer-control"
   ]
 }

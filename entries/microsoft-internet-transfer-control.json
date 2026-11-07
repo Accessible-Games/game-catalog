@@ -1,0 +1,107 @@
+{
+  "id": "microsoft-internet-transfer-control",
+  "kind": "runtime",
+  "title": "Microsoft Internet Transfer Control",
+  "developer": [
+    "Microsoft"
+  ],
+  "description": "Microsoft's Internet Transfer Control for Visual Basic 6 (msinet.ocx, version 6.01.9782), registered once for every game that needs it. Games that use it and find it unregistered stop with \"Component 'msinet.ocx' or one of its dependencies not correctly registered\".\n\nIt comes from the system files in Draconis's Dyna-Man installer; nothing else from that installer is kept.",
+  "sources": [
+    {
+      "label": "Developer site",
+      "url": "http://download.dracoent.com/Windows/classic/DMSetup.exe",
+      "platform": "windows",
+      "install": {
+        "method": "installer",
+        "extract_dir": "sys",
+        "installer": {
+          "type": "inno",
+          "mode": "extract"
+        }
+      },
+      "sha256": "dfae5850b990e05a5f96f19b84d2cf294b709f1922b2673d22cca9f06058e64d",
+      "size": 19476551,
+      "steps": [
+        {
+          "action": "delete",
+          "path": "stdole2.tlb"
+        },
+        {
+          "action": "delete",
+          "path": "msvbvm60.dll"
+        },
+        {
+          "action": "delete",
+          "path": "oleaut32.dll"
+        },
+        {
+          "action": "delete",
+          "path": "olepro32.dll"
+        },
+        {
+          "action": "delete",
+          "path": "asycfilt.dll"
+        },
+        {
+          "action": "delete",
+          "path": "comcat.dll"
+        },
+        {
+          "action": "register",
+          "path": "MSINET.OCX"
+        }
+      ]
+    },
+    {
+      "label": "Mirror",
+      "url": "https://files.accessiblegames.net/files/dfae5850b990e05a5f96f19b84d2cf294b709f1922b2673d22cca9f06058e64d/DMSetup.exe",
+      "platform": "windows",
+      "install": {
+        "method": "installer",
+        "extract_dir": "sys",
+        "installer": {
+          "type": "inno",
+          "mode": "extract"
+        }
+      },
+      "sha256": "dfae5850b990e05a5f96f19b84d2cf294b709f1922b2673d22cca9f06058e64d",
+      "size": 19476551,
+      "steps": [
+        {
+          "action": "delete",
+          "path": "stdole2.tlb"
+        },
+        {
+          "action": "delete",
+          "path": "msvbvm60.dll"
+        },
+        {
+          "action": "delete",
+          "path": "oleaut32.dll"
+        },
+        {
+          "action": "delete",
+          "path": "olepro32.dll"
+        },
+        {
+          "action": "delete",
+          "path": "asycfilt.dll"
+        },
+        {
+          "action": "delete",
+          "path": "comcat.dll"
+        },
+        {
+          "action": "register",
+          "path": "MSINET.OCX"
+        }
+      ]
+    }
+  ],
+  "detect": {
+    "registry": {
+      "hive": "HKCR",
+      "key": "CLSID\\{48E59293-9880-11CF-9754-00AA00C00908}\\InprocServer32"
+    }
+  }
+}
