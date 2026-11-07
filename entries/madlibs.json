@@ -5,7 +5,7 @@
   "developer": [
     "BrailleSoft"
   ],
-  "description": "Fill in words to create an amusing story in this port of the household game.",
+  "description": "Fill in words to create an amusing story in this port of the household game.\n\nMadlibs needs .NET Framework 3.5. If Windows asks to download and install that feature the first time the game starts, choose to download and install it, then start the game again.",
   "flags": [
     "abandoned"
   ],
@@ -27,5 +27,10 @@
       "sha256": "095534a35436c523d37d25173b12b36be4145f5cb464d549756d68da9ea9d425",
       "size": 365047
     }
-  ]
+  ],
+  "launch": {
+    "windows": {
+      "path": "MadLibWin.exe"
+    }
+  }
 }
