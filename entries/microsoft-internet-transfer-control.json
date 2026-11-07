@@ -5,95 +5,21 @@
   "developer": [
     "Microsoft"
   ],
-  "description": "Microsoft's Internet Transfer Control for Visual Basic 6 (msinet.ocx, version 6.01.9782), registered once for every game that needs it. Games that use it and find it unregistered stop with \"Component 'msinet.ocx' or one of its dependencies not correctly registered\".\n\nIt comes from the system files in Draconis's Dyna-Man installer; nothing else from that installer is kept.",
+  "description": "Microsoft's Internet Transfer Control for Visual Basic 6 (msinet.ocx, version 6.01.9839, from Microsoft's Visual Basic 6.0 SP6 security rollup KB3096896), registered once for every game that needs it. Games that use it and find it unregistered stop with \"Component 'msinet.ocx' or one of its dependencies not correctly registered\".",
   "sources": [
     {
-      "label": "Developer site",
-      "url": "http://download.dracoent.com/Windows/classic/DMSetup.exe",
-      "platform": "windows",
-      "install": {
-        "method": "installer",
-        "extract_dir": "sys",
-        "installer": {
-          "type": "inno",
-          "mode": "extract"
-        }
-      },
-      "sha256": "dfae5850b990e05a5f96f19b84d2cf294b709f1922b2673d22cca9f06058e64d",
-      "size": 19476551,
-      "steps": [
-        {
-          "action": "delete",
-          "path": "stdole2.tlb"
-        },
-        {
-          "action": "delete",
-          "path": "msvbvm60.dll"
-        },
-        {
-          "action": "delete",
-          "path": "oleaut32.dll"
-        },
-        {
-          "action": "delete",
-          "path": "olepro32.dll"
-        },
-        {
-          "action": "delete",
-          "path": "asycfilt.dll"
-        },
-        {
-          "action": "delete",
-          "path": "comcat.dll"
-        },
-        {
-          "action": "register",
-          "path": "MSINET.OCX"
-        }
-      ]
-    },
-    {
       "label": "Mirror",
-      "url": "https://files.accessiblegames.net/files/dfae5850b990e05a5f96f19b84d2cf294b709f1922b2673d22cca9f06058e64d/DMSetup.exe",
+      "url": "https://files.accessiblegames.net/files/c11615f4561755632da7469e6c5fbf3ead40e0d9747030c90077b70115692ce3/msinet.ocx",
       "platform": "windows",
       "install": {
-        "method": "installer",
-        "extract_dir": "sys",
-        "installer": {
-          "type": "inno",
-          "mode": "extract"
-        }
+        "method": "none"
       },
-      "sha256": "dfae5850b990e05a5f96f19b84d2cf294b709f1922b2673d22cca9f06058e64d",
-      "size": 19476551,
+      "sha256": "c11615f4561755632da7469e6c5fbf3ead40e0d9747030c90077b70115692ce3",
+      "size": 131728,
       "steps": [
         {
-          "action": "delete",
-          "path": "stdole2.tlb"
-        },
-        {
-          "action": "delete",
-          "path": "msvbvm60.dll"
-        },
-        {
-          "action": "delete",
-          "path": "oleaut32.dll"
-        },
-        {
-          "action": "delete",
-          "path": "olepro32.dll"
-        },
-        {
-          "action": "delete",
-          "path": "asycfilt.dll"
-        },
-        {
-          "action": "delete",
-          "path": "comcat.dll"
-        },
-        {
           "action": "register",
-          "path": "MSINET.OCX"
+          "path": "msinet.ocx"
         }
       ]
     }

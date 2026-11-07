@@ -5,154 +5,18 @@
   "developer": [
     "Microsoft"
   ],
-  "description": "Microsoft's DirectX 8 for Visual Basic (dx8vb.dll, version 5.03.2600.2180 from Windows XP SP2), registered once for every game that needs it. Many Visual Basic 6 audio games use it for sound and input; Windows Vista and later don't include it, and those games then stop with \"Class not registered\" or a missing dx8vb.dll.\n\nMicrosoft no longer offers a download with this file, so it comes from Aprone's Community Feud download, which ships this exact build; everything else in that archive is removed before it is registered.",
+  "description": "Microsoft's DirectX 8 for Visual Basic (dx8vb.dll, version 5.03.2600.2180 from Windows XP SP2), registered once for every game that needs it. Many Visual Basic 6 audio games use it for sound and input; Windows Vista and later don't include it, and those games then stop with \"Class not registered\" or a missing dx8vb.dll.",
   "sources": [
     {
-      "label": "Developer site",
-      "url": "https://www.kaldobsky.com/audiogames/communityfeud.zip",
-      "platform": "windows",
-      "install": {
-        "method": "zip"
-      },
-      "sha256": "97defd6c8cb73793dde4206c7dfacd5b649856fa14ab2b005650090b159270d5",
-      "size": 5123651,
-      "steps": [
-        {
-          "action": "delete",
-          "path": "COMCAT.DLL"
-        },
-        {
-          "action": "delete",
-          "path": "Changelog.txt"
-        },
-        {
-          "action": "delete",
-          "path": "Community Feud.exe"
-        },
-        {
-          "action": "delete",
-          "path": "Readme.txt"
-        },
-        {
-          "action": "delete",
-          "path": "asycfilt.dll"
-        },
-        {
-          "action": "delete",
-          "path": "comdlg32.ocx"
-        },
-        {
-          "action": "delete",
-          "path": "msvbvm60.dll"
-        },
-        {
-          "action": "delete",
-          "path": "oleaut32.dll"
-        },
-        {
-          "action": "delete",
-          "path": "olepro32.dll"
-        },
-        {
-          "action": "delete",
-          "path": "quartz.dll"
-        },
-        {
-          "action": "delete",
-          "path": "stdole2.tlb"
-        },
-        {
-          "action": "delete",
-          "path": "Missions"
-        },
-        {
-          "action": "delete",
-          "path": "Saves"
-        },
-        {
-          "action": "delete",
-          "path": "Sounds"
-        },
-        {
-          "action": "delete",
-          "path": "Units"
-        },
-        {
-          "action": "register",
-          "path": "dx8vb.dll"
-        }
-      ]
-    },
-    {
       "label": "Mirror",
-      "url": "https://files.accessiblegames.net/files/97defd6c8cb73793dde4206c7dfacd5b649856fa14ab2b005650090b159270d5/communityfeud.zip",
+      "url": "https://files.accessiblegames.net/files/ce03eea837a0b9c4b0d1bd25ab105e9b30a8a89b48e9c459ded876b19df774d9/dx8vb.dll",
       "platform": "windows",
       "install": {
-        "method": "zip"
+        "method": "none"
       },
-      "sha256": "97defd6c8cb73793dde4206c7dfacd5b649856fa14ab2b005650090b159270d5",
-      "size": 5123651,
+      "sha256": "ce03eea837a0b9c4b0d1bd25ab105e9b30a8a89b48e9c459ded876b19df774d9",
+      "size": 1227264,
       "steps": [
-        {
-          "action": "delete",
-          "path": "COMCAT.DLL"
-        },
-        {
-          "action": "delete",
-          "path": "Changelog.txt"
-        },
-        {
-          "action": "delete",
-          "path": "Community Feud.exe"
-        },
-        {
-          "action": "delete",
-          "path": "Readme.txt"
-        },
-        {
-          "action": "delete",
-          "path": "asycfilt.dll"
-        },
-        {
-          "action": "delete",
-          "path": "comdlg32.ocx"
-        },
-        {
-          "action": "delete",
-          "path": "msvbvm60.dll"
-        },
-        {
-          "action": "delete",
-          "path": "oleaut32.dll"
-        },
-        {
-          "action": "delete",
-          "path": "olepro32.dll"
-        },
-        {
-          "action": "delete",
-          "path": "quartz.dll"
-        },
-        {
-          "action": "delete",
-          "path": "stdole2.tlb"
-        },
-        {
-          "action": "delete",
-          "path": "Missions"
-        },
-        {
-          "action": "delete",
-          "path": "Saves"
-        },
-        {
-          "action": "delete",
-          "path": "Sounds"
-        },
-        {
-          "action": "delete",
-          "path": "Units"
-        },
         {
           "action": "register",
           "path": "dx8vb.dll"

@@ -5,122 +5,18 @@
   "developer": [
     "Microsoft"
   ],
-  "description": "Microsoft's DirectX 7 for Visual Basic (dx7vb.dll, version 5.03.2600.2180 from Windows XP SP2), registered once for every game that needs it. Windows Vista and later don't include it, and games that use it then stop with \"Class not registered\".\n\nMicrosoft no longer offers a download with this file, so it comes from Aprone's Temporal download, which ships this exact build; everything else in that archive is removed before it is registered.",
+  "description": "Microsoft's DirectX 7 for Visual Basic (dx7vb.dll, version 5.03.2600.2180 from Windows XP SP2), registered once for every game that needs it. Windows Vista and later don't include it, and games that use it then stop with \"Class not registered\".",
   "sources": [
     {
-      "label": "Developer site",
-      "url": "https://www.kaldobsky.com/audiogames/temporal.zip",
-      "platform": "windows",
-      "install": {
-        "method": "zip"
-      },
-      "sha256": "c977835cdc722855231e3413034bfffd28a8172fa27dff8422d18a01521daa6c",
-      "size": 1404673,
-      "steps": [
-        {
-          "action": "delete",
-          "path": "COMCAT.DLL"
-        },
-        {
-          "action": "delete",
-          "path": "VB6STKIT.DLL"
-        },
-        {
-          "action": "delete",
-          "path": "asycfilt.dll"
-        },
-        {
-          "action": "delete",
-          "path": "msvbvm60.dll"
-        },
-        {
-          "action": "delete",
-          "path": "oleaut32.dll"
-        },
-        {
-          "action": "delete",
-          "path": "olepro32.dll"
-        },
-        {
-          "action": "delete",
-          "path": "readme.txt"
-        },
-        {
-          "action": "delete",
-          "path": "stdole2.tlb"
-        },
-        {
-          "action": "delete",
-          "path": "temporal.exe"
-        },
-        {
-          "action": "delete",
-          "path": "map1"
-        },
-        {
-          "action": "delete",
-          "path": "map2"
-        },
-        {
-          "action": "register",
-          "path": "dx7vb.dll"
-        }
-      ]
-    },
-    {
       "label": "Mirror",
-      "url": "https://files.accessiblegames.net/files/c977835cdc722855231e3413034bfffd28a8172fa27dff8422d18a01521daa6c/temporal.zip",
+      "url": "https://files.accessiblegames.net/files/0977388dcc6f8195b6c8f0124f4a2dc2c897531cdff4ac89ef247629cf48eb60/dx7vb.dll",
       "platform": "windows",
       "install": {
-        "method": "zip"
+        "method": "none"
       },
-      "sha256": "c977835cdc722855231e3413034bfffd28a8172fa27dff8422d18a01521daa6c",
-      "size": 1404673,
+      "sha256": "0977388dcc6f8195b6c8f0124f4a2dc2c897531cdff4ac89ef247629cf48eb60",
+      "size": 619008,
       "steps": [
-        {
-          "action": "delete",
-          "path": "COMCAT.DLL"
-        },
-        {
-          "action": "delete",
-          "path": "VB6STKIT.DLL"
-        },
-        {
-          "action": "delete",
-          "path": "asycfilt.dll"
-        },
-        {
-          "action": "delete",
-          "path": "msvbvm60.dll"
-        },
-        {
-          "action": "delete",
-          "path": "oleaut32.dll"
-        },
-        {
-          "action": "delete",
-          "path": "olepro32.dll"
-        },
-        {
-          "action": "delete",
-          "path": "readme.txt"
-        },
-        {
-          "action": "delete",
-          "path": "stdole2.tlb"
-        },
-        {
-          "action": "delete",
-          "path": "temporal.exe"
-        },
-        {
-          "action": "delete",
-          "path": "map1"
-        },
-        {
-          "action": "delete",
-          "path": "map2"
-        },
         {
           "action": "register",
           "path": "dx7vb.dll"
