@@ -27,7 +27,14 @@
         }
       },
       "sha256": "ab05bee99d971802d858a472b084cc06c1bc5c0b40143ad4c4f68a12ea87a911",
-      "size": 54846862
+      "size": 54846862,
+      "steps": [
+        {
+          "action": "copy",
+          "from": "sys/dx8vb.dll",
+          "to": "dx8vb.dll"
+        }
+      ]
     },
     {
       "platform": "windows",
@@ -41,7 +48,22 @@
       "label": "Mirror",
       "url": "https://files.accessiblegames.net/files/ab05bee99d971802d858a472b084cc06c1bc5c0b40143ad4c4f68a12ea87a911/PBCSetup.exe",
       "sha256": "ab05bee99d971802d858a472b084cc06c1bc5c0b40143ad4c4f68a12ea87a911",
-      "size": 54846862
+      "size": 54846862,
+      "steps": [
+        {
+          "action": "copy",
+          "from": "sys/dx8vb.dll",
+          "to": "dx8vb.dll"
+        }
+      ]
     }
+  ],
+  "launch": {
+    "windows": {
+      "path": "pbc.exe"
+    }
+  },
+  "dependencies": [
+    "directx8-for-visual-basic"
   ]
 }

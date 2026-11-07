@@ -1,0 +1,96 @@
+{
+  "id": "dyna-man-dx8vb",
+  "kind": "extra",
+  "title": "DirectX 8 for Visual Basic file for Dyna Man",
+  "developer": [
+    "Microsoft"
+  ],
+  "description": "Dyna Man's program loads dx8vb.dll directly, so Windows has to find the file beside it; registering it elsewhere isn't enough, and the game's own installer doesn't include it. This puts Microsoft's dx8vb.dll (5.03.2600.2180) in the game's folder. It comes from the system files in Draconis's Pinball Classic installer; nothing else from that installer is kept.",
+  "sources": [
+    {
+      "label": "Developer site",
+      "url": "http://download.dracoent.com/Windows/classic/PBCSetup.exe",
+      "platform": "windows",
+      "install": {
+        "method": "installer",
+        "extract_dir": "sys",
+        "installer": {
+          "type": "inno",
+          "mode": "extract"
+        }
+      },
+      "sha256": "ab05bee99d971802d858a472b084cc06c1bc5c0b40143ad4c4f68a12ea87a911",
+      "size": 54846862,
+      "steps": [
+        {
+          "action": "delete",
+          "path": "stdole2.tlb"
+        },
+        {
+          "action": "delete",
+          "path": "msvbvm60.dll"
+        },
+        {
+          "action": "delete",
+          "path": "oleaut32.dll"
+        },
+        {
+          "action": "delete",
+          "path": "olepro32.dll"
+        },
+        {
+          "action": "delete",
+          "path": "asycfilt.dll"
+        },
+        {
+          "action": "delete",
+          "path": "comcat.dll"
+        }
+      ]
+    },
+    {
+      "label": "Mirror",
+      "url": "https://files.accessiblegames.net/files/ab05bee99d971802d858a472b084cc06c1bc5c0b40143ad4c4f68a12ea87a911/PBCSetup.exe",
+      "platform": "windows",
+      "install": {
+        "method": "installer",
+        "extract_dir": "sys",
+        "installer": {
+          "type": "inno",
+          "mode": "extract"
+        }
+      },
+      "sha256": "ab05bee99d971802d858a472b084cc06c1bc5c0b40143ad4c4f68a12ea87a911",
+      "size": 54846862,
+      "steps": [
+        {
+          "action": "delete",
+          "path": "stdole2.tlb"
+        },
+        {
+          "action": "delete",
+          "path": "msvbvm60.dll"
+        },
+        {
+          "action": "delete",
+          "path": "oleaut32.dll"
+        },
+        {
+          "action": "delete",
+          "path": "olepro32.dll"
+        },
+        {
+          "action": "delete",
+          "path": "asycfilt.dll"
+        },
+        {
+          "action": "delete",
+          "path": "comcat.dll"
+        }
+      ]
+    }
+  ],
+  "extends": "dyna-man",
+  "install_into": "dyna-man",
+  "required": true
+}

@@ -42,5 +42,13 @@
       "sha256": "dfae5850b990e05a5f96f19b84d2cf294b709f1922b2673d22cca9f06058e64d",
       "size": 19476551
     }
+  ],
+  "launch": {
+    "windows": {
+      "path": "dm.exe"
+    }
+  },
+  "dependencies": [
+    "directx8-for-visual-basic"
   ]
 }

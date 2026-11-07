@@ -26,5 +26,8 @@
       "sha256": "6ce2b2ed6a2f2da9a8ec72a82b8ae3a5180d9395ecade50d1a448afeed05b129",
       "size": 413351
     }
+  ],
+  "dependencies": [
+    "directx8-for-visual-basic"
   ]
 }

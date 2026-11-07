@@ -29,6 +29,7 @@
     }
   ],
   "dependencies": [
-    "bsc-windows10-fixpack"
+    "bsc-windows10-fixpack",
+    "directx8-for-visual-basic"
   ]
 }

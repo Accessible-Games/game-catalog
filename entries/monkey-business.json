@@ -26,7 +26,14 @@
         }
       },
       "sha256": "d6763c1cb0bd973531244c93f1d90b88b2f0f8e2b4a72897d1aab23ec54167d2",
-      "size": 110116919
+      "size": 110116919,
+      "steps": [
+        {
+          "action": "copy",
+          "from": "sys/dx8vb.dll",
+          "to": "dx8vb.dll"
+        }
+      ]
     },
     {
       "platform": "windows",
@@ -40,7 +47,22 @@
       "label": "Mirror",
       "url": "https://files.accessiblegames.net/files/d6763c1cb0bd973531244c93f1d90b88b2f0f8e2b4a72897d1aab23ec54167d2/MBSetup.exe",
       "sha256": "d6763c1cb0bd973531244c93f1d90b88b2f0f8e2b4a72897d1aab23ec54167d2",
-      "size": 110116919
+      "size": 110116919,
+      "steps": [
+        {
+          "action": "copy",
+          "from": "sys/dx8vb.dll",
+          "to": "dx8vb.dll"
+        }
+      ]
     }
+  ],
+  "launch": {
+    "windows": {
+      "path": "mb.exe"
+    }
+  },
+  "dependencies": [
+    "directx8-for-visual-basic"
   ]
 }

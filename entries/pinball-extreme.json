@@ -27,7 +27,14 @@
         }
       },
       "sha256": "7291c4d4291e9b3835cb0dbd4b9deed0cfb2e2261af35baae529dd28d3c744ff",
-      "size": 67056174
+      "size": 67056174,
+      "steps": [
+        {
+          "action": "copy",
+          "from": "sys/dx8vb.dll",
+          "to": "dx8vb.dll"
+        }
+      ]
     },
     {
       "platform": "windows",
@@ -41,7 +48,22 @@
       "label": "Mirror",
       "url": "https://files.accessiblegames.net/files/7291c4d4291e9b3835cb0dbd4b9deed0cfb2e2261af35baae529dd28d3c744ff/PBXSetup.exe",
       "sha256": "7291c4d4291e9b3835cb0dbd4b9deed0cfb2e2261af35baae529dd28d3c744ff",
-      "size": 67056174
+      "size": 67056174,
+      "steps": [
+        {
+          "action": "copy",
+          "from": "sys/dx8vb.dll",
+          "to": "dx8vb.dll"
+        }
+      ]
     }
+  ],
+  "launch": {
+    "windows": {
+      "path": "pbx.exe"
+    }
+  },
+  "dependencies": [
+    "directx8-for-visual-basic"
   ]
 }

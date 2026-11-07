@@ -30,6 +30,7 @@
     }
   ],
   "dependencies": [
-    "com-audio-dependency"
+    "com-audio-dependency",
+    "directx8-for-visual-basic"
   ]
 }
