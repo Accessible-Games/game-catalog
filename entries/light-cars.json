@@ -29,6 +29,7 @@
   ],
   "dependencies": [
     "com-audio-dependency",
-    "microsoft-internet-transfer-control"
+    "microsoft-internet-transfer-control",
+    "activelock-1-5"
   ]
 }

@@ -1,0 +1,33 @@
+{
+  "id": "activelock-1-5",
+  "kind": "runtime",
+  "title": "ActiveLock 1.5 (nslock15vb6.ocx)",
+  "developer": [
+    "Nelco Software"
+  ],
+  "description": "The ActiveLock 1.5 licensing control for Visual Basic 6 (nslock15vb6.ocx, version 1.05.0005), registered once for every game that needs it. Lighttech's installers copy it into the system folder without registering it. The file is the one those installers carry.",
+  "sources": [
+    {
+      "label": "Mirror",
+      "url": "https://files.accessiblegames.net/files/102e179ab538623a846cb908a32929f64b2b5f3ee01b8eee370f2b4786a32ba0/nslock15vb6.ocx",
+      "platform": "windows",
+      "install": {
+        "method": "none"
+      },
+      "sha256": "102e179ab538623a846cb908a32929f64b2b5f3ee01b8eee370f2b4786a32ba0",
+      "size": 102400,
+      "steps": [
+        {
+          "action": "register",
+          "path": "nslock15vb6.ocx"
+        }
+      ]
+    }
+  ],
+  "detect": {
+    "registry": {
+      "hive": "HKCR",
+      "key": "CLSID\\{608009F5-E1FB-11D2-9BA1-0040D0002C80}\\InprocServer32"
+    }
+  }
+}
