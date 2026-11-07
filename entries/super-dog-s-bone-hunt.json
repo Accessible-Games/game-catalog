@@ -26,6 +26,7 @@
     }
   ],
   "dependencies": [
-    "directx8-for-visual-basic"
+    "directx8-for-visual-basic",
+    "microsoft-internet-transfer-control"
   ]
 }
