@@ -23,6 +23,7 @@
     }
   ],
   "dependencies": [
-    "directx8-for-visual-basic"
+    "directx8-for-visual-basic",
+    "directx7-for-visual-basic"
   ]
 }

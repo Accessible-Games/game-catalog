@@ -32,6 +32,7 @@
   "dependencies": [
     "com-audio-dependency",
     "directx8-for-visual-basic",
-    "microsoft-internet-transfer-control"
+    "microsoft-internet-transfer-control",
+    "directx7-for-visual-basic"
   ]
 }
