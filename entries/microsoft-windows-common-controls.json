@@ -1,0 +1,33 @@
+{
+  "id": "microsoft-windows-common-controls",
+  "kind": "runtime",
+  "title": "Microsoft Windows Common Controls 6.0",
+  "developer": [
+    "Microsoft"
+  ],
+  "description": "Microsoft Windows Common Controls 6.0 for Visual Basic 6 (mscomctl.ocx, version 6.01.9846, from Microsoft's Visual Basic 6.0 SP6 security rollup KB3096896), registered once for every game that needs it. Windows doesn't include it, and games that use it stop with \"Component 'mscomctl.ocx' or one of its dependencies not correctly registered\".",
+  "sources": [
+    {
+      "label": "Mirror",
+      "url": "https://files.accessiblegames.net/files/152121a5d1ac8f12002c18afc294bb1ebcecc1d61deec6211df586c11acde9b6/mscomctl.ocx",
+      "platform": "windows",
+      "install": {
+        "method": "none"
+      },
+      "sha256": "152121a5d1ac8f12002c18afc294bb1ebcecc1d61deec6211df586c11acde9b6",
+      "size": 1070232,
+      "steps": [
+        {
+          "action": "register",
+          "path": "mscomctl.ocx"
+        }
+      ]
+    }
+  ],
+  "detect": {
+    "registry": {
+      "hive": "HKCR",
+      "key": "CLSID\\{BDD1F04B-858B-11D1-B16A-00C0F0283628}\\InprocServer32"
+    }
+  }
+}

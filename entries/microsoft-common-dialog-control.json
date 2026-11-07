@@ -1,0 +1,33 @@
+{
+  "id": "microsoft-common-dialog-control",
+  "kind": "runtime",
+  "title": "Microsoft Common Dialog Control",
+  "developer": [
+    "Microsoft"
+  ],
+  "description": "Microsoft Common Dialog Control for Visual Basic 6 (comdlg32.ocx, version 6.01.9841, from Microsoft's Visual Basic 6.0 SP6 security rollup KB3096896), registered once for every game that needs it. Windows doesn't include it, and games that use it stop with \"Component 'comdlg32.ocx' or one of its dependencies not correctly registered\".",
+  "sources": [
+    {
+      "label": "Mirror",
+      "url": "https://files.accessiblegames.net/files/2206e0f530032cb55e1fa00fdfb0c2d71d5b09b1f969089fb8f651fcd2489e6a/comdlg32.ocx",
+      "platform": "windows",
+      "install": {
+        "method": "none"
+      },
+      "sha256": "2206e0f530032cb55e1fa00fdfb0c2d71d5b09b1f969089fb8f651fcd2489e6a",
+      "size": 163480,
+      "steps": [
+        {
+          "action": "register",
+          "path": "comdlg32.ocx"
+        }
+      ]
+    }
+  ],
+  "detect": {
+    "registry": {
+      "hive": "HKCR",
+      "key": "CLSID\\{F9043C85-F6F2-101A-A3C9-08002B2F49FB}\\InprocServer32"
+    }
+  }
+}

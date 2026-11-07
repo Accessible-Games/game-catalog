@@ -26,5 +26,11 @@
       "sha256": "fc4186af884c1314246cbbf511f25ecf4189b4bb58ebbfc06ffd03fd873b8ef6",
       "size": 6978107
     }
+  ],
+  "dependencies": [
+    "microsoft-winsock-control",
+    "microsoft-common-dialog-control",
+    "microsoft-windows-common-controls",
+    "microsoft-multimedia-control"
   ]
 }

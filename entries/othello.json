@@ -26,5 +26,8 @@
       "sha256": "643bb20d638510b5a425c7a75dc95df754403ad03fa3b2d3d49502ee11c5642e",
       "size": 909593
     }
+  ],
+  "dependencies": [
+    "microsoft-windows-common-controls"
   ]
 }

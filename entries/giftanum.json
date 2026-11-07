@@ -28,6 +28,7 @@
     }
   ],
   "dependencies": [
-    "microsoft-internet-transfer-control"
+    "microsoft-internet-transfer-control",
+    "microsoft-winsock-control"
   ]
 }

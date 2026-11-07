@@ -46,6 +46,7 @@
   ],
   "dependencies": [
     "microsoft-internet-transfer-control",
-    "directx7-for-visual-basic"
+    "directx7-for-visual-basic",
+    "microsoft-winsock-control"
   ]
 }

@@ -65,6 +65,7 @@
   },
   "dependencies": [
     "directx8-for-visual-basic",
-    "microsoft-internet-transfer-control"
+    "microsoft-internet-transfer-control",
+    "microsoft-windows-common-controls-2"
   ]
 }

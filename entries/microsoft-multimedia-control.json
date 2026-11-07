@@ -1,0 +1,33 @@
+{
+  "id": "microsoft-multimedia-control",
+  "kind": "runtime",
+  "title": "Microsoft Multimedia Control",
+  "developer": [
+    "Microsoft"
+  ],
+  "description": "Microsoft Multimedia Control for Visual Basic 6 (mci32.ocx, version 6.01.9839, from Microsoft's Visual Basic 6.0 SP6 security rollup KB3096896), registered once for every game that needs it. Windows doesn't include it, and games that use it stop with \"Component 'mci32.ocx' or one of its dependencies not correctly registered\".",
+  "sources": [
+    {
+      "label": "Mirror",
+      "url": "https://files.accessiblegames.net/files/945567b063193dc6de7059162db102cc1936d06c6b543efdd9e3c4c2a979e9b3/mci32.ocx",
+      "platform": "windows",
+      "install": {
+        "method": "none"
+      },
+      "sha256": "945567b063193dc6de7059162db102cc1936d06c6b543efdd9e3c4c2a979e9b3",
+      "size": 212112,
+      "steps": [
+        {
+          "action": "register",
+          "path": "mci32.ocx"
+        }
+      ]
+    }
+  ],
+  "detect": {
+    "registry": {
+      "hive": "HKCR",
+      "key": "CLSID\\{C1A8AF25-1257-101B-8FB0-0020AF039CA3}\\InprocServer32"
+    }
+  }
+}

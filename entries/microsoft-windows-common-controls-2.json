@@ -1,0 +1,33 @@
+{
+  "id": "microsoft-windows-common-controls-2",
+  "kind": "runtime",
+  "title": "Microsoft Windows Common Controls-2 6.0",
+  "developer": [
+    "Microsoft"
+  ],
+  "description": "Microsoft Windows Common Controls-2 6.0 for Visual Basic 6 (mscomct2.ocx, version 6.01.9839, from Microsoft's Visual Basic 6.0 SP6 security rollup KB3096896), registered once for every game that needs it. Windows doesn't include it, and games that use it stop with \"Component 'mscomct2.ocx' or one of its dependencies not correctly registered\".",
+  "sources": [
+    {
+      "label": "Mirror",
+      "url": "https://files.accessiblegames.net/files/f761d7d93848ac0de928d9a0cc2048002f7fd899a53f3a5aadbd0f6fd94a5179/mscomct2.ocx",
+      "platform": "windows",
+      "install": {
+        "method": "none"
+      },
+      "sha256": "f761d7d93848ac0de928d9a0cc2048002f7fd899a53f3a5aadbd0f6fd94a5179",
+      "size": 660120,
+      "steps": [
+        {
+          "action": "register",
+          "path": "mscomct2.ocx"
+        }
+      ]
+    }
+  ],
+  "detect": {
+    "registry": {
+      "hive": "HKCR",
+      "key": "CLSID\\{603C7E80-87C2-11D1-8BE3-0000F8754DA1}\\InprocServer32"
+    }
+  }
+}

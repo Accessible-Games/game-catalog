@@ -1,0 +1,33 @@
+{
+  "id": "microsoft-rich-textbox-control",
+  "kind": "runtime",
+  "title": "Microsoft Rich Textbox Control",
+  "developer": [
+    "Microsoft"
+  ],
+  "description": "Microsoft Rich Textbox Control for Visual Basic 6 (richtx32.ocx, version 6.01.9839, from Microsoft's Visual Basic 6.0 SP6 security rollup KB3096896), registered once for every game that needs it. Windows doesn't include it, and games that use it stop with \"Component 'richtx32.ocx' or one of its dependencies not correctly registered\".",
+  "sources": [
+    {
+      "label": "Mirror",
+      "url": "https://files.accessiblegames.net/files/221b54ad16161b8ce71807b07559ab49f59dfff4cdf695e808d90bf8beaafcf5/richtx32.ocx",
+      "platform": "windows",
+      "install": {
+        "method": "none"
+      },
+      "sha256": "221b54ad16161b8ce71807b07559ab49f59dfff4cdf695e808d90bf8beaafcf5",
+      "size": 219288,
+      "steps": [
+        {
+          "action": "register",
+          "path": "richtx32.ocx"
+        }
+      ]
+    }
+  ],
+  "detect": {
+    "registry": {
+      "hive": "HKCR",
+      "key": "CLSID\\{3B7C8860-D78F-101B-B9B5-04021C009402}\\InprocServer32"
+    }
+  }
+}

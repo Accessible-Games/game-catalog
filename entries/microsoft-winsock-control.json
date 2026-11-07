@@ -1,0 +1,33 @@
+{
+  "id": "microsoft-winsock-control",
+  "kind": "runtime",
+  "title": "Microsoft Winsock Control",
+  "developer": [
+    "Microsoft"
+  ],
+  "description": "Microsoft Winsock Control for Visual Basic 6 (mswinsck.ocx, version 6.01.9839, from Microsoft's Visual Basic 6.0 SP6 security rollup KB3096896), registered once for every game that needs it. Windows doesn't include it, and games that use it stop with \"Component 'mswinsck.ocx' or one of its dependencies not correctly registered\".",
+  "sources": [
+    {
+      "label": "Mirror",
+      "url": "https://files.accessiblegames.net/files/b66e17e0d7bbfe4f6be537c544083e844b5dd0ebc660910bff17ad6cd5480971/mswinsck.ocx",
+      "platform": "windows",
+      "install": {
+        "method": "none"
+      },
+      "sha256": "b66e17e0d7bbfe4f6be537c544083e844b5dd0ebc660910bff17ad6cd5480971",
+      "size": 127640,
+      "steps": [
+        {
+          "action": "register",
+          "path": "mswinsck.ocx"
+        }
+      ]
+    }
+  ],
+  "detect": {
+    "registry": {
+      "hive": "HKCR",
+      "key": "CLSID\\{248DD896-BB45-11CF-9ABC-0080C7E7B78D}\\InprocServer32"
+    }
+  }
+}

@@ -45,6 +45,7 @@
     }
   ],
   "dependencies": [
-    "directx8-for-visual-basic"
+    "directx8-for-visual-basic",
+    "microsoft-rich-textbox-control"
   ]
 }
