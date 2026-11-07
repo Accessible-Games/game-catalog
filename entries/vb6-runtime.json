@@ -1,15 +1,15 @@
 {
   "id": "vb6-runtime",
   "kind": "runtime",
-  "title": "Visual Basic 6.0 Runtime (SP6)",
+  "title": "Visual Basic 6.0 Runtime",
   "developer": [
     "Microsoft"
   ],
-  "description": "Microsoft Visual Basic 6.0 SP6 runtime files, required by many older audio games",
+  "description": "Microsoft Visual Basic 6.0 runtime files, required by many older audio games. Windows 10 and 11 already include them, so this only runs on a computer that lacks msvbvm60.dll.",
   "sources": [
     {
       "label": "Microsoft",
-      "url": "https://download.microsoft.com/download/5/a/d/5ad868a0-8ecd-4bb0-a882-fe53eb7ef348/VB6.0-KB290887-X86.exe",
+      "url": "https://download.microsoft.com/download/vb60pro/install/6/win98me/en-us/vbrun60.exe",
       "platform": "windows",
       "install": {
         "method": "installer",
@@ -19,7 +19,9 @@
           "silent_args": "/Q",
           "elevation": true
         }
-      }
+      },
+      "sha256": "ab0220420f5af23898b6a29861d0c4e0702990d6048ea9b40dc7935c7d6228db",
+      "size": 1067688
     }
   ],
   "detect": {
