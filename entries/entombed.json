@@ -5,7 +5,8 @@
   "developer": [
     "Driftwood Entertainment"
   ],
-  "description": "Driftwood's major production is the dungeon-crawling RPG Entombed.\n\nThrown into the infamous dungeons for your crime(s), explore 25 levels of increasing difficulty to find a way out. Rescue allies who will join your party, take on quests, gather and sell hoards of loot from your defeated foes, and try to uncover some of the dungeon's mysteries while playing as one of many character classes.\n\nEntombed was originally commercial, and available downloads are to a demo. The developer has stated an intent to release it as freeware, but we are currently unaware of the steps required to register it. If you were able to do so, please let us know.\n\nAs of October 2025, all online infrastructure for the game appears to be unavailable. This includes accounts, registration, and the bazaar.\n\nEntombed needs .NET Framework 3.5. If Windows asks to download and install that feature the first time the game starts, choose to download and install it, then start the game again.",
+  "description": "Driftwood's major production is the dungeon-crawling RPG Entombed.\n\nThrown into the infamous dungeons for your crime(s), explore 25 levels of increasing difficulty to find a way out. Rescue allies who will join your party, take on quests, gather and sell hoards of loot from your defeated foes, and try to uncover some of the dungeon's mysteries while playing as one of many character classes.\n\nEntombed was originally commercial, and available downloads are to a demo. The developer has stated an intent to release it as freeware, but we are currently unaware of the steps required to register it. If you were able to do so, please let us know.\n\nAs of October 2025, all online infrastructure for the game appears to be unavailable. This includes accounts, registration, and the bazaar.",
+  "version": "1.05B",
   "flags": [
     "abandoned",
     "demo"
@@ -20,22 +21,19 @@
         "method": "installer",
         "installer": {
           "type": "inno",
-          "mode": "extract"
+          "mode": "run",
+          "elevation": true
         }
       },
       "label": "Mirror",
-      "url": "https://files.accessiblegames.net/files/4babcc917eb121a05e9b13a1429c635c1b873234a2f33a3b41734e8d0a285bca/EntombedSetup.exe",
-      "sha256": "4babcc917eb121a05e9b13a1429c635c1b873234a2f33a3b41734e8d0a285bca",
-      "size": 50613116
+      "url": "https://files.accessiblegames.net/files/32b8dde03b624d5c8f321ddcfcaed35db6c877fe3362e3de98ed4026edf0657c/Entombed_1.05B_setup.exe",
+      "sha256": "32b8dde03b624d5c8f321ddcfcaed35db6c877fe3362e3de98ed4026edf0657c",
+      "size": 50470005
     }
   ],
   "launch": {
     "windows": {
       "path": "Entombed.exe"
     }
-  },
-  "dependencies": [
-    "xna-framework-3-1",
-    "microsoft-sql-dependency"
-  ]
+  }
 }
