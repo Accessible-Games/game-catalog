@@ -89,16 +89,6 @@
       "url": "https://files.accessiblegames.net/files/80669823f30979b43284d5c778242ed39830a93130ec27123916db9918503d40/terraformers-install1.04-SE.exe",
       "sha256": "80669823f30979b43284d5c778242ed39830a93130ec27123916db9918503d40",
       "size": 101468562
-    },
-    {
-      "platform": "windows",
-      "install": {
-        "method": "7z"
-      },
-      "label": "Mirror",
-      "url": "https://files.accessiblegames.net/files/ec5bf4b874c4e360a0d7ff95be2c44d1578df08e8d51cd88d5513c0e067761d3/teraformers.7z",
-      "sha256": "ec5bf4b874c4e360a0d7ff95be2c44d1578df08e8d51cd88d5513c0e067761d3",
-      "size": 110658910
     }
   ]
 }

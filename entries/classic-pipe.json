@@ -16,15 +16,24 @@
     {
       "platform": "windows",
       "install": {
-        "method": "7z",
-        "password": "Pipe"
+        "method": "installer",
+        "installer": {
+          "type": "inno",
+          "mode": "run",
+          "elevation": true
+        }
       },
       "label": "Mirror",
-      "url": "https://files.accessiblegames.net/files/4cdb93d02ea34141e2ab3c756a5c4dfd14fdbf864cec7be9560fb08b887baea9/ClassicPipeSetup.7z",
-      "sha256": "4cdb93d02ea34141e2ab3c756a5c4dfd14fdbf864cec7be9560fb08b887baea9",
-      "size": 32770499
+      "url": "https://files.accessiblegames.net/files/d97bdf16e8f017d6643309148084d1121c97b6e40c97866da4cf6708454e7bec/ClassicPipeSetup.exe",
+      "sha256": "d97bdf16e8f017d6643309148084d1121c97b6e40c97866da4cf6708454e7bec",
+      "size": 32794877
     }
   ],
+  "launch": {
+    "windows": {
+      "path": "ClassicPipe.exe"
+    }
+  },
   "dependencies": [
     "bsc-windows10-fixpack"
   ]

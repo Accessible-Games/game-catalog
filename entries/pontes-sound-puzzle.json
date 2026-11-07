@@ -5,6 +5,7 @@
   "developer": [
     "Pontes Games"
   ],
+  "description": "Pontes Sound Puzzle needs .NET Framework 3.5. If Windows asks to download and install that feature the first time the game starts, choose to download and install it, then start the game again.",
   "links": {
     "agarchive": "https://www.agarchive.net/pages/devs/pontes.html"
   },
@@ -12,12 +13,21 @@
     {
       "platform": "windows",
       "install": {
-        "method": "zip"
+        "method": "installer",
+        "installer": {
+          "type": "inno",
+          "mode": "extract"
+        }
       },
       "label": "Mirror",
-      "url": "https://files.accessiblegames.net/files/e50782556ffd1225317548bc0c1d6e78bdfe455f01122824630ac2f9642921e0/pontes_sound_puzzle.zip",
-      "sha256": "e50782556ffd1225317548bc0c1d6e78bdfe455f01122824630ac2f9642921e0",
-      "size": 3717440
+      "url": "https://files.accessiblegames.net/files/f9cfd1757a0f459f8db19fa324cc98d99c20f9a113b4ebd964a650e82c978839/PontesSoundPuzzleInstall_v2.exe",
+      "sha256": "f9cfd1757a0f459f8db19fa324cc98d99c20f9a113b4ebd964a650e82c978839",
+      "size": 3787277
     }
-  ]
+  ],
+  "launch": {
+    "windows": {
+      "path": "SoundPuzzle.exe"
+    }
+  }
 }
