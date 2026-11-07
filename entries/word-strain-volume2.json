@@ -18,7 +18,8 @@
         "method": "installer",
         "installer": {
           "type": "inno",
-          "mode": "extract"
+          "mode": "run",
+          "elevation": true
         }
       },
       "label": "Mirror",
@@ -27,6 +28,11 @@
       "size": 2404590
     }
   ],
+  "launch": {
+    "windows": {
+      "path": "battle.exe"
+    }
+  },
   "dependencies": [
     "bsc-windows10-fixpack"
   ]

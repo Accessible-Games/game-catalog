@@ -19,7 +19,8 @@
         "method": "installer",
         "installer": {
           "type": "inno",
-          "mode": "extract"
+          "mode": "run",
+          "elevation": true
         }
       },
       "label": "Mirror",
@@ -28,6 +29,11 @@
       "size": 3023606
     }
   ],
+  "launch": {
+    "windows": {
+      "path": "FunkInTheTrunk.exe"
+    }
+  },
   "dependencies": [
     "bsc-windows10-fixpack"
   ]

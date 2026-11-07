@@ -19,7 +19,8 @@
         "method": "installer",
         "installer": {
           "type": "inno",
-          "mode": "extract"
+          "mode": "run",
+          "elevation": true
         }
       },
       "label": "Mirror",
@@ -28,6 +29,11 @@
       "size": 58869312
     }
   ],
+  "launch": {
+    "windows": {
+      "path": "troop.exe"
+    }
+  },
   "dependencies": [
     "bsc-windows10-fixpack"
   ]
