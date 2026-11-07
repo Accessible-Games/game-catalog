@@ -29,6 +29,11 @@
       "size": 5261729
     }
   ],
+  "launch": {
+    "windows": {
+      "path": "b15.exe"
+    }
+  },
   "dependencies": [
     "bsc-windows10-fixpack"
   ]

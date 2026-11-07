@@ -28,6 +28,11 @@
       "size": 366986
     }
   ],
+  "launch": {
+    "windows": {
+      "path": "CookieMuncher.exe"
+    }
+  },
   "dependencies": [
     "bsc-windows10-fixpack"
   ]

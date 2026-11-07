@@ -28,6 +28,11 @@
       "size": 3013538
     }
   ],
+  "launch": {
+    "windows": {
+      "path": "FingerPanic.exe"
+    }
+  },
   "dependencies": [
     "bsc-windows10-fixpack",
     "directx8-for-visual-basic"

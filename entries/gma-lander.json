@@ -39,6 +39,11 @@
       "size": 4329216
     }
   ],
+  "launch": {
+    "windows": {
+      "path": "GMALander.exe"
+    }
+  },
   "dependencies": [
     "directx8-for-visual-basic"
   ]

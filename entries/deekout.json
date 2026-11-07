@@ -28,6 +28,11 @@
       "size": 3145773
     }
   ],
+  "launch": {
+    "windows": {
+      "path": "deek.exe"
+    }
+  },
   "dependencies": [
     "bsc-windows10-fixpack",
     "directx8-for-visual-basic"

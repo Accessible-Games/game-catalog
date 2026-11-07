@@ -43,6 +43,11 @@
       "size": 25872876
     }
   ],
+  "launch": {
+    "windows": {
+      "path": "soundoku.exe"
+    }
+  },
   "dependencies": [
     "directx8-for-visual-basic"
   ]

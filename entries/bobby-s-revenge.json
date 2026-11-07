@@ -28,6 +28,11 @@
       "size": 5539375
     }
   ],
+  "launch": {
+    "windows": {
+      "path": "BobbyRevenge.exe"
+    }
+  },
   "dependencies": [
     "bsc-windows10-fixpack",
     "directx8-for-visual-basic"

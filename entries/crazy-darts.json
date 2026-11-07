@@ -28,6 +28,11 @@
       "size": 3326400
     }
   ],
+  "launch": {
+    "windows": {
+      "path": "darts.exe"
+    }
+  },
   "dependencies": [
     "bsc-windows10-fixpack",
     "directx8-for-visual-basic"

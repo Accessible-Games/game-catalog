@@ -27,6 +27,11 @@
       "size": 4264344
     }
   ],
+  "launch": {
+    "windows": {
+      "path": "LightLocater.exe"
+    }
+  },
   "dependencies": [
     "com-audio-dependency",
     "microsoft-internet-transfer-control"

@@ -24,6 +24,11 @@
       "size": 9791490
     }
   ],
+  "launch": {
+    "windows": {
+      "path": "wa.exe"
+    }
+  },
   "dependencies": [
     "directx8-for-visual-basic"
   ]
