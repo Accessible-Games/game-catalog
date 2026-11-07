@@ -1,0 +1,27 @@
+{
+  "id": "xna-framework-3-1",
+  "kind": "runtime",
+  "title": "Microsoft XNA Framework 3.1",
+  "developer": [
+    "Microsoft"
+  ],
+  "description": "Microsoft XNA Framework Redistributable 3.1, needed by games written with XNA Game Studio 3.1. It includes the DirectX components XNA uses. Games built with it also need .NET Framework 3.5, which Windows offers to download the first time such a game starts.",
+  "sources": [
+    {
+      "label": "Microsoft",
+      "url": "https://download.microsoft.com/download/5/9/1/5912526C-B950-4662-99B6-119A83E60E5C/xnafx31_redist.msi",
+      "platform": "windows",
+      "install": {
+        "method": "installer",
+        "installer": {
+          "type": "msi",
+          "mode": "run",
+          "silent_args": "/qn /norestart",
+          "elevation": true
+        }
+      },
+      "sha256": "409173b3a4f4ee6ff4e6910eece26f95af8073efae2c9fa4c0f8dad24f7774de",
+      "size": 7672320
+    }
+  ]
+}
