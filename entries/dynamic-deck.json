@@ -29,16 +29,6 @@
       "url": "https://files.accessiblegames.net/files/b73063ca63d2e10079ba331c2f6b4fd69baec95127d4ef1d427d2bbebede1937/dd.zip",
       "sha256": "b73063ca63d2e10079ba331c2f6b4fd69baec95127d4ef1d427d2bbebede1937",
       "size": 7278093
-    },
-    {
-      "platform": "windows",
-      "install": {
-        "method": "zip"
-      },
-      "label": "Mirror",
-      "url": "https://files.accessiblegames.net/files/8bfe4b733daf8af6ec22805fc39a68b2909905b25744c21d8b9a7f09c1589460/dynamicDeck.zip",
-      "sha256": "8bfe4b733daf8af6ec22805fc39a68b2909905b25744c21d8b9a7f09c1589460",
-      "size": 7301730
     }
   ],
   "dependencies": [
