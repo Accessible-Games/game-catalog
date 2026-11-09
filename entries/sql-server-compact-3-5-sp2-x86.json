@@ -1,0 +1,30 @@
+{
+  "id": "sql-server-compact-3-5-sp2-x86",
+  "kind": "runtime",
+  "title": "Microsoft SQL Server Compact 3.5 SP2 (32-bit)",
+  "developer": [
+    "Microsoft"
+  ],
+  "description": "Microsoft SQL Server Compact 3.5 SP2 (3.5.8080.0), the 32-bit runtime: Microsoft's SSCERuntime_x86-ENU.msi, signed by Microsoft, installed silently. Games that keep their data in a .sdf database need it.",
+  "sources": [
+    {
+      "label": "Mirror",
+      "url": "https://files.accessiblegames.net/files/99b5f0c1cc7fe40120a36fb760cc7c646edef5916695d6ecd8d41e8bba9b1c60/SSCERuntime_x86-ENU.msi",
+      "platform": "windows",
+      "install": {
+        "method": "installer",
+        "installer": {
+          "type": "msi",
+          "mode": "run",
+          "silent_args": "/qn /norestart",
+          "elevation": true
+        }
+      },
+      "sha256": "99b5f0c1cc7fe40120a36fb760cc7c646edef5916695d6ecd8d41e8bba9b1c60",
+      "size": 3164160
+    }
+  ],
+  "detect": {
+    "file": "%ProgramFiles(x86)%\\Microsoft SQL Server Compact Edition\\v3.5\\sqlceme35.dll"
+  }
+}

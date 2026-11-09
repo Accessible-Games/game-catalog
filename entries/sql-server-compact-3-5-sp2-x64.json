@@ -1,0 +1,33 @@
+{
+  "id": "sql-server-compact-3-5-sp2-x64",
+  "kind": "runtime",
+  "title": "Microsoft SQL Server Compact 3.5 SP2 (64-bit)",
+  "developer": [
+    "Microsoft"
+  ],
+  "description": "Microsoft SQL Server Compact 3.5 SP2 (3.5.8080.0), the 64-bit runtime: Microsoft's SSCERuntime_x64-ENU.msi, signed by Microsoft, installed silently after the 32-bit one, as Microsoft says both must be installed on 64-bit Windows.",
+  "sources": [
+    {
+      "label": "Mirror",
+      "url": "https://files.accessiblegames.net/files/fcc1110c9ad0fb3e2f8787103a2a7549c16b0935e1808c2ee1ea016149fa08b8/SSCERuntime_x64-ENU.msi",
+      "platform": "windows",
+      "install": {
+        "method": "installer",
+        "installer": {
+          "type": "msi",
+          "mode": "run",
+          "silent_args": "/qn /norestart",
+          "elevation": true
+        }
+      },
+      "sha256": "fcc1110c9ad0fb3e2f8787103a2a7549c16b0935e1808c2ee1ea016149fa08b8",
+      "size": 3653120
+    }
+  ],
+  "dependencies": [
+    "sql-server-compact-3-5-sp2-x86"
+  ],
+  "detect": {
+    "file": "%ProgramW6432%\\Microsoft SQL Server Compact Edition\\v3.5\\sqlceme35.dll"
+  }
+}
