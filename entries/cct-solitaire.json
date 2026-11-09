@@ -5,7 +5,6 @@
   "developer": [
     "various authors"
   ],
-  "description": "Note that this package is an archive of the game's setup files.\n\nYou will need to extract the setup files and then run setup.exe to install the game.",
   "flags": [
     "abandoned"
   ],
@@ -16,13 +15,115 @@
     {
       "platform": "windows",
       "install": {
-        "method": "7z",
-        "extract_dir": "cct solitar setup"
+        "method": "cab"
       },
       "label": "Mirror",
-      "url": "https://files.accessiblegames.net/files/52c50fd1d58c9cad92a92e40cf7c1015037086b69daa9a0da242fd06114b9e33/cct_solitaire_setup.7z",
-      "sha256": "52c50fd1d58c9cad92a92e40cf7c1015037086b69daa9a0da242fd06114b9e33",
-      "size": 4579190
+      "url": "https://files.accessiblegames.net/files/c435cec5377aecafb79ca4b3a843525bbad4e0bc92eedc65d4d24ff74e051948/solitair.CAB",
+      "sha256": "c435cec5377aecafb79ca4b3a843525bbad4e0bc92eedc65d4d24ff74e051948",
+      "size": 4544075,
+      "steps": [
+        {
+          "action": "delete",
+          "path": "SETUP1.EXE"
+        },
+        {
+          "action": "delete",
+          "path": "VB6STKIT.DLL"
+        },
+        {
+          "action": "delete",
+          "path": "ST6UNST.EXE"
+        },
+        {
+          "action": "delete",
+          "path": "msvbvm60.dll"
+        },
+        {
+          "action": "delete",
+          "path": "OLEAUT32.DLL"
+        },
+        {
+          "action": "delete",
+          "path": "OLEPRO32.DLL"
+        },
+        {
+          "action": "delete",
+          "path": "ASYCFILT.DLL"
+        },
+        {
+          "action": "delete",
+          "path": "STDOLE2.TLB"
+        },
+        {
+          "action": "delete",
+          "path": "COMCAT.DLL"
+        },
+        {
+          "action": "delete",
+          "path": "MSVCRT40.DLL"
+        },
+        {
+          "action": "delete",
+          "path": "RICHED32.DLL"
+        },
+        {
+          "action": "delete",
+          "path": "RICHTX32.OCX"
+        },
+        {
+          "action": "delete",
+          "path": "MCI32.OCX"
+        },
+        {
+          "action": "delete",
+          "path": "msdxm.ocx"
+        },
+        {
+          "action": "delete",
+          "path": "DAO350.DLL"
+        },
+        {
+          "action": "delete",
+          "path": "MSJet35.dll"
+        },
+        {
+          "action": "delete",
+          "path": "MSJTER35.DLL"
+        },
+        {
+          "action": "delete",
+          "path": "MSJINT35.DLL"
+        },
+        {
+          "action": "delete",
+          "path": "vbajet32.dll"
+        },
+        {
+          "action": "delete",
+          "path": "expsrv.dll"
+        },
+        {
+          "action": "delete",
+          "path": "MSRD2X35.DLL"
+        },
+        {
+          "action": "delete",
+          "path": "MsRepl35.dll"
+        },
+        {
+          "action": "delete",
+          "path": "VB5DB.DLL"
+        }
+      ]
     }
+  ],
+  "launch": {
+    "windows": {
+      "path": "solitair.exe"
+    }
+  },
+  "dependencies": [
+    "microsoft-rich-textbox-control",
+    "microsoft-multimedia-control"
   ]
 }
