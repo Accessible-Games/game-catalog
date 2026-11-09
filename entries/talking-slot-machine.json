@@ -16,12 +16,71 @@
     {
       "platform": "windows",
       "install": {
-        "method": "zip"
+        "method": "cab"
       },
       "label": "Mirror",
-      "url": "https://files.accessiblegames.net/files/e1a6fbfdf06c330e9848f249c3934cfd892c78079532daf339ddeb6b70c5e3e7/Talking_Slot_Machine.zip",
-      "sha256": "e1a6fbfdf06c330e9848f249c3934cfd892c78079532daf339ddeb6b70c5e3e7",
-      "size": 22423642
+      "url": "https://files.accessiblegames.net/files/78bc14c4abea033ef3dbd1b670482363e05470f15e5aa8ece36e99dc9850f699/slot_machine.CAB",
+      "sha256": "78bc14c4abea033ef3dbd1b670482363e05470f15e5aa8ece36e99dc9850f699",
+      "size": 22378590,
+      "steps": [
+        {
+          "action": "delete",
+          "path": "SETUP1.EXE"
+        },
+        {
+          "action": "delete",
+          "path": "VB6STKIT.DLL"
+        },
+        {
+          "action": "delete",
+          "path": "ST6UNST.EXE"
+        },
+        {
+          "action": "delete",
+          "path": "msvbvm60.dll"
+        },
+        {
+          "action": "delete",
+          "path": "OLEAUT32.DLL"
+        },
+        {
+          "action": "delete",
+          "path": "OLEPRO32.DLL"
+        },
+        {
+          "action": "delete",
+          "path": "ASYCFILT.DLL"
+        },
+        {
+          "action": "delete",
+          "path": "STDOLE2.TLB"
+        },
+        {
+          "action": "delete",
+          "path": "COMCAT.DLL"
+        },
+        {
+          "action": "delete",
+          "path": "dx8vb.dll"
+        },
+        {
+          "action": "delete",
+          "path": "COMDLG32.OCX"
+        },
+        {
+          "action": "delete",
+          "path": "SAPI.DLL"
+        }
+      ]
     }
+  ],
+  "launch": {
+    "windows": {
+      "path": "slot machine.exe"
+    }
+  },
+  "dependencies": [
+    "directx8-for-visual-basic",
+    "microsoft-common-dialog-control"
   ]
 }
