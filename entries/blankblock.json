@@ -5,6 +5,7 @@
   "developer": [
     "Lighttech Interactive"
   ],
+  "description": "Before playing for the first time, run the configuration program, Configuration.exe, in the game's folder, and save your settings. Until it has been run once, the game closes by itself after about 7 seconds.",
   "flags": [
     "abandoned"
   ],

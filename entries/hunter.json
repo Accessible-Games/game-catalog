@@ -5,7 +5,7 @@
   "developer": [
     "BSC Games"
   ],
-  "description": "This game features ten levels of intense action of different kinds.",
+  "description": "This game features ten levels of intense action of different kinds.\n\nBefore playing for the first time, run the configuration program, config.exe, in the game's folder, and save your settings. Until it has been run once, the game stops with \"Error 432: File name or class name not found during Automation operation while loading file sayConfigFirst.\"",
   "flags": [
     "abandoned"
   ],

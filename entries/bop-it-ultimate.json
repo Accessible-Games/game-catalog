@@ -5,7 +5,7 @@
   "developer": [
     "Lighttech Interactive"
   ],
-  "description": "Your standard game of Bop It, but with a few twists, such as a rather nasty trick bop mode and the ability to play online against another person over the internet.",
+  "description": "Your standard game of Bop It, but with a few twists, such as a rather nasty trick bop mode and the ability to play online against another person over the internet.\n\nBefore playing for the first time, run the configuration program, Configuration.exe, in the game's folder, and save your settings. Until it has been run once, the game closes by itself after about 7 seconds.",
   "flags": [
     "abandoned",
     "multiplayer"
