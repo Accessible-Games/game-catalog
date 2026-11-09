@@ -20,7 +20,8 @@
         "installer": {
           "type": "inno",
           "mode": "run",
-          "elevation": true
+          "elevation": true,
+          "silent_args": "/SP- /VERYSILENT /SUPPRESSMSGBOXES /NORESTART /DIR=\"{dir}\""
         }
       },
       "label": "Mirror",
