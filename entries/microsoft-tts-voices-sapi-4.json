@@ -1,0 +1,37 @@
+{
+  "id": "microsoft-tts-voices-sapi-4",
+  "kind": "runtime",
+  "title": "Microsoft Text-to-Speech voices for SAPI 4",
+  "developer": [
+    "Microsoft"
+  ],
+  "description": "Microsoft's text-to-speech engine and voices for SAPI 4, including Mary (msttsf22l.exe, 4.71.1120.0, signed by Microsoft), installed silently after the Speech API 4.0 runtime.",
+  "sources": [
+    {
+      "label": "Mirror",
+      "url": "https://files.accessiblegames.net/files/7df6b26299d1a2f8a98c2d98ed8671bb403542dc2696642dc85e2323ae32760e/msttsf22l.exe",
+      "platform": "windows",
+      "install": {
+        "method": "installer",
+        "installer": {
+          "type": "other",
+          "mode": "run",
+          "silent_args": "/Q:A /R:N",
+          "elevation": true
+        }
+      },
+      "sha256": "7df6b26299d1a2f8a98c2d98ed8671bb403542dc2696642dc85e2323ae32760e",
+      "size": 2434296
+    }
+  ],
+  "dependencies": [
+    "microsoft-speech-api-4"
+  ],
+  "detect": {
+    "registry": {
+      "hive": "HKLM",
+      "key": "SOFTWARE\\Microsoft\\MSTTS",
+      "name": "InstallDir"
+    }
+  }
+}

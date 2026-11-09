@@ -5,7 +5,7 @@
   "developer": [
     "various authors"
   ],
-  "description": "After a long night of drinking, you head home and are attacked by gun and chainsaw wielding maniacs. Armed with your trusty first world war revolver, you must shoot them when they attack you. Just be careful not to hit the cat!\n\nThe game speaks through Microsoft's SAPI 4 voice. Its installer runs with you driving it, already pointed at the folder Game Chooser chose; on its last page, choose to install the SAPI 4 speech runtime and the Microsoft Mary voice if this computer doesn't have them.",
+  "description": "After a long night of drinking, you head home and are attacked by gun and chainsaw wielding maniacs. Armed with your trusty first world war revolver, you must shoot them when they attack you. Just be careful not to hit the cat!",
   "flags": [
     "abandoned"
   ],
@@ -19,8 +19,7 @@
         "method": "installer",
         "installer": {
           "type": "inno",
-          "mode": "run",
-          "silent_args": "/DIR=\"{dir}\""
+          "mode": "run"
         }
       },
       "label": "Mirror",
@@ -35,6 +34,8 @@
     }
   },
   "dependencies": [
-    "directx8-for-visual-basic"
+    "directx8-for-visual-basic",
+    "microsoft-speech-api-4",
+    "microsoft-tts-voices-sapi-4"
   ]
 }

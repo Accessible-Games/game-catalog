@@ -1,0 +1,33 @@
+{
+  "id": "microsoft-speech-api-4",
+  "kind": "runtime",
+  "title": "Microsoft Speech API 4.0",
+  "developer": [
+    "Microsoft"
+  ],
+  "description": "Microsoft's Speech API 4.0a runtime (spchapi.exe, 4.71.1015.0, signed by Microsoft), installed silently. Games that speak through SAPI 4 (the XVoice / DirectSS controls) stop with \"Component 'XVoice.dll' or one of its dependencies not correctly registered\" without it.",
+  "sources": [
+    {
+      "label": "Mirror",
+      "url": "https://files.accessiblegames.net/files/8955ee03217bc2539e2f80e58f51d30aa97e7512d96592f098133c8036e363dd/spchapi.exe",
+      "platform": "windows",
+      "install": {
+        "method": "installer",
+        "installer": {
+          "type": "other",
+          "mode": "run",
+          "silent_args": "/Q:A /R:N",
+          "elevation": true
+        }
+      },
+      "sha256": "8955ee03217bc2539e2f80e58f51d30aa97e7512d96592f098133c8036e363dd",
+      "size": 844448
+    }
+  ],
+  "detect": {
+    "registry": {
+      "hive": "HKCR",
+      "key": "CLSID\\{D67C0280-C743-11cd-80E5-00AA003E4B50}\\InprocServer32"
+    }
+  }
+}
