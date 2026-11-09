@@ -1,0 +1,46 @@
+{
+  "id": "the-blind-swordsman",
+  "kind": "game",
+  "title": "the Blind Swordsman",
+  "developer": [
+    "various authors"
+  ],
+  "description": "Help a blind warrior regain his site by battling down a road filled with enemies, from wolves to dagger wielding sisters, all of whom see him as little more than an easy kill.\n\nThe Blind Swordsman can be run on both pc and mac. In order to execute the program on Mac OS, follow the steps in this article. Also please be aware that it will likely only run on OSX 10.13 and earlier.",
+  "flags": [
+    "abandoned"
+  ],
+  "links": {
+    "homepage": "http://www.evil-dog.com/the-blind-swordsman.html",
+    "agarchive": "https://www.agarchive.net/pages/devs/misc.html"
+  },
+  "sources": [
+    {
+      "platform": "windows",
+      "install": {
+        "method": "zip"
+      },
+      "label": "Mirror",
+      "url": "https://files.accessiblegames.net/files/abea963ddff25b54dd67565a9e4aed5162147aefdbc842fb7ec6b4ce14552a42/the_blind_swordsmanPC.zip",
+      "sha256": "abea963ddff25b54dd67565a9e4aed5162147aefdbc842fb7ec6b4ce14552a42",
+      "size": 70875139
+    },
+    {
+      "platform": "macos",
+      "install": {
+        "method": "zip"
+      },
+      "label": "Mirror",
+      "url": "https://files.accessiblegames.net/files/e915401e601bcfb814334bff5525d813c4bd5e72c8a2de367762a52646bdaf6a/the_blind_swordsmanMAC.zip",
+      "sha256": "e915401e601bcfb814334bff5525d813c4bd5e72c8a2de367762a52646bdaf6a",
+      "size": 80697883
+    }
+  ],
+  "launch": {
+    "windows": {
+      "path": "TheBlindSwordsman.exe"
+    },
+    "macos": {
+      "path": "TheBlindSwordsman.app"
+    }
+  }
+}
