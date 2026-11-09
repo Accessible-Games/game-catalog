@@ -16,7 +16,7 @@
         "method": "installer",
         "installer": {
           "type": "inno",
-          "mode": "extract"
+          "mode": "run"
         }
       },
       "label": "Mirror",
