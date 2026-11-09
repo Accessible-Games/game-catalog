@@ -27,6 +27,11 @@
       "size": 6978107
     }
   ],
+  "launch": {
+    "windows": {
+      "path": "millionaire.exe"
+    }
+  },
   "dependencies": [
     "microsoft-winsock-control",
     "microsoft-common-dialog-control",

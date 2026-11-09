@@ -27,6 +27,11 @@
       "size": 37508966
     }
   ],
+  "launch": {
+    "windows": {
+      "path": "blankblock.exe"
+    }
+  },
   "dependencies": [
     "com-audio-dependency",
     "microsoft-internet-transfer-control"
