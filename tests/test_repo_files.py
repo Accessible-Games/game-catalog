@@ -98,7 +98,8 @@ def test_setup_order():
         assert s in text, s
         return text.index(s)
 
-    merge = at("git merge --ff-only feat/catalog-tools")
+    assert "feat/catalog-tools" not in text  # main is the single working branch
+    merge = at("## 1. Work happens on main")
     create = at("gh repo create Accessible-Games/game-catalog")
     secrets = at("gh variable set R2_BUCKET --body accessiblegames-files")
     labels = at("gh label create mirror")

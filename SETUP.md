@@ -4,12 +4,11 @@ One-time steps for the admin. You need the `gh` command-line tool, signed in as 
 
 Do the steps in order. Pushing to `main` starts the publish workflow, so everything it needs is set up first, and the push comes last.
 
-## 1. Merge the work into main
+## 1. Work happens on main
 
-The tools and workflows are on the `feat/catalog-tools` branch. `main` holds only the first, empty commit. From the repository root:
+All the work is on the `main` branch: the tools, the workflows and the entries. There is no second branch to promote from. A branching strategy for a protected live version will be designed later, once there are users.
 
-    git checkout main
-    git merge --ff-only feat/catalog-tools
+Every push to `main` publishes: the publish workflow builds the index from `main` and deploys it to the live site.
 
 ## 2. Create the repository without pushing
 
