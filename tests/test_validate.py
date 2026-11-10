@@ -365,3 +365,23 @@ def test_pricing_schema_errors_skip_rules_that_need_a_model():
     for pricing in ({"price": 5, "currency": "USD"}, {"suggested": 5, "period": "month", "no_longer_sold": True}):
         problems = msgs(validate_entries(catalog(make("a", pricing=pricing))))
         assert problems and all(m.startswith("schema: ") for m in problems), problems
+
+
+@pytest.mark.parametrize("path", ["index.html", "Start.HTM", "game.exe", "run.bat", "play.cmd", "bin/Game.EXE"])
+def test_windows_launch_path_with_allowed_suffix_is_valid(path):
+    e = make("a", launch={"windows": {"path": path}})
+    assert validate_entries(catalog(e)) == []
+
+
+@pytest.mark.parametrize("path", ["game.hta", "readme.txt", "game"])
+def test_windows_launch_path_with_other_suffix_is_a_problem(path):
+    e = make("a", launch={"windows": {"path": path}})
+    problems = msgs(validate_entries(catalog(e)))
+    assert len(problems) == 1
+    assert f"launch.windows.path {path!r}" in problems[0]
+    assert ".html" in problems[0]
+
+
+def test_launch_paths_on_other_platforms_are_not_checked():
+    e = make("a", launch={"macos": {"path": "Game.app"}, "linux": {"path": "game"}})
+    assert validate_entries(catalog(e)) == []

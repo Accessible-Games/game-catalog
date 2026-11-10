@@ -5,6 +5,10 @@
   "developer": [
     "Game Madness Interactive"
   ],
+  "genres": [
+    "Interactive fiction"
+  ],
+  "description": "A choose-your-path story by KeyWasFull. You are bored at school and decide to do something about it. It opens in your web browser, and you choose a link to decide what happens next.",
   "unsupported": true,
   "links": [
     {
@@ -24,5 +28,10 @@
       "sha256": "e233b3710c18fb21be576b961f9961d95f15cb290bd125fed5eb7f234bdcac62",
       "size": 50432
     }
-  ]
+  ],
+  "launch": {
+    "windows": {
+      "path": "1111.html"
+    }
+  }
 }
