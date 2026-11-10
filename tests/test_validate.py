@@ -77,43 +77,81 @@ def test_dependency_self_cycle():
 
 
 def test_extends_must_exist():
-    problems = validate_entries(catalog(make("x", "extra", extends="nope")))
-    assert any("extends" in p.message and "nope" in p.message for p in problems)
+    problems = validate_entries(catalog(make("g"), make("x", "extra", extends=["g", "nope"])))
+    assert msgs(problems) == ["extends unknown entry 'nope'"]
+
+
+def test_extends_must_name_games():
+    entries = catalog(make("g"), make("rt", "runtime"), make("y", "extra", extends=["g"]),
+                      make("x", "extra", extends=["g", "rt", "y"]))
+    problems = validate_entries(entries)
+    assert [p.entry_id for p in problems] == ["x", "x"]
+    assert msgs(problems) == [
+        "extends 'rt', which is not a game (its kind is 'runtime'); extends must name game entries",
+        "extends 'y', which is not a game (its kind is 'extra'); extends must name game entries",
+    ]
+
+
+def test_extends_with_two_games():
+    entries = catalog(make("g"), make("h"), make("x", "extra", extends=["g", "h"], required=True))
+    assert validate_entries(entries) == []
+
+
+def test_extends_must_not_repeat():
+    problems = validate_entries(catalog(make("g"), make("x", "extra", extends=["g", "g"])))
+    assert len(problems) == 1
+    assert problems[0].entry_id == "x" and "schema: extends:" in problems[0].message
+    assert "non-unique" in problems[0].message
+
+
+def test_extends_repeated_unknown_reported_once():
+    problems = msgs(validate_entries(catalog(make("x", "extra", extends=["nope", "nope"]))))
+    assert problems.count("extends unknown entry 'nope'") == 1
+
+
+def test_extends_must_not_be_empty():
+    problems = validate_entries(catalog(make("g"), make("x", "extra", extends=[])))
+    assert len(problems) == 1
+    assert problems[0].entry_id == "x" and "schema: extends:" in problems[0].message
+
+
+def test_extends_must_be_a_list():
+    for old in ("g", None):
+        problems = msgs(validate_entries(catalog(make("g"), make("x", "extra", extends=old))))
+        assert len(problems) == 1 and problems[0].startswith("schema: extends:")
 
 
 def test_extra_requires_extends():
     problems = validate_entries(catalog(make("x", "extra")))
-    assert any("extends" in p.message for p in problems)
+    assert msgs(problems) == ["extra entries must set extends"]
 
 
 def test_extends_only_on_extra_or_access_mod():
-    entries = catalog(make("g"), make("h", extends="g"))
+    entries = catalog(make("g"), make("h", extends=["g"]))
     assert any("extends" in p.message for p in validate_entries(entries))
-    ok = catalog(make("g"), make("m", "access-mod", extends="g"), make("x", "extra", extends="g"))
+    ok = catalog(make("g"), make("m", "access-mod", extends=["g"]), make("x", "extra", extends=["g"]))
     assert validate_entries(ok) == []
 
 
 def test_required_only_on_extras():
     assert any("required" in p.message for p in validate_entries(catalog(make("g", required=True))))
-    ok = catalog(make("g"), make("x", "extra", extends="g", required=True))
+    ok = catalog(make("g"), make("x", "extra", extends=["g"], required=True))
     assert validate_entries(ok) == []
 
 
 def test_flags_and_approval_are_gone():
     entries = catalog(
         make("g"),
-        make("x", "extra", extends="g", flags=["registration"], approval={"note": "ok by dev"}),
+        make("x", "extra", extends=["g"], flags=["registration"], approval={"note": "ok by dev"}),
     )
     problems = msgs(validate_entries(entries))
     assert any("flags" in m for m in problems) and any("approval" in m for m in problems)
     assert not any("approval note" in m for m in problems)
 
 
-def test_install_into_must_exist():
-    problems = validate_entries(catalog(make("g"), make("x", "extra", extends="g", install_into="nope")))
-    assert any("install_into" in p.message for p in problems)
-    ok = catalog(make("g"), make("x", "extra", extends="g", install_into="g"))
-    assert validate_entries(ok) == []
+def test_install_into_is_gone():
+    problems = msgs(validate_entries(catalog(make("g"), make("x", "extra", extends=["g"], install_into="g"))))
+    assert len(problems) == 1 and "install_into" in problems[0]
 
 
 def test_installer_block_only_for_installer_method():

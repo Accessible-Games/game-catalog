@@ -172,18 +172,22 @@ def validate_entries(entries: dict[str, dict]) -> list[Problem]:
                 problems.append(Problem(key, f"unknown dependency {dep!r}"))
 
         extends = entry.get("extends")
-        if extends is not None and extends not in entries:
-            problems.append(Problem(key, f"extends unknown entry {extends!r}"))
-        if kind == "extra" and extends is None:
+        if isinstance(extends, list):  # any other shape is already a schema problem
+            for parent in dict.fromkeys(p for p in extends if isinstance(p, str)):
+                if parent not in entries:
+                    problems.append(Problem(key, f"extends unknown entry {parent!r}"))
+                    continue
+                parent_kind = entries[parent].get("kind") if isinstance(entries[parent], dict) else None
+                if parent_kind != "game":
+                    problems.append(Problem(
+                        key, f"extends {parent!r}, which is not a game (its kind is {parent_kind!r}); "
+                             "extends must name game entries"))
+        if kind == "extra" and "extends" not in entry:
             problems.append(Problem(key, "extra entries must set extends"))
-        if extends is not None and kind not in ("extra", "access-mod"):
+        if "extends" in entry and kind not in ("extra", "access-mod"):
             problems.append(Problem(key, "extends is only allowed on extra or access-mod entries"))
         if entry.get("required") is not None and kind != "extra":
             problems.append(Problem(key, "required is only allowed on extra entries"))
-
-        install_into = entry.get("install_into")
-        if install_into is not None and install_into not in entries:
-            problems.append(Problem(key, f"install_into unknown entry {install_into!r}"))
 
         _check_sources(key, entry, problems)
         _check_links(key, entry, problems)
