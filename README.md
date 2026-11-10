@@ -27,7 +27,7 @@ Open a new issue and pick a form. The admin reviews each one and adds or changes
 
 1. Add or edit a file in `entries/`. The file name is the entry id plus `.json`.
 2. Run the checks below.
-3. Open a pull request. Automated checks validate the schema, run the tests, and check that links in new or changed entries respond.
+3. Open a pull request against `main`, the branch all work happens on. Automated checks validate the schema, run the tests, and check that links in new or changed entries respond.
 
 The admin reviews and merges.
 
