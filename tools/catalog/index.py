@@ -35,8 +35,8 @@ HEADERS = """/*
 def build_index(entries: dict[str, dict], generated_at: str) -> dict:
     extras: dict[str, list[dict]] = {}
     for key in sorted(entries):
-        target = entries[key].get("extends")
-        if target:
+        # An extra belongs to every game it extends, and its required applies to each of them.
+        for target in dict.fromkeys(entries[key].get("extends") or []):
             extras.setdefault(target, []).append(
                 {"id": entries[key]["id"], "required": bool(entries[key].get("required", False))}
             )

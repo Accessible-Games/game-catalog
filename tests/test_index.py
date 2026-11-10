@@ -8,6 +8,7 @@ from referencing import Registry, Resource
 
 from catalog.entries import ROOT
 from catalog.index import SCHEMA_VERSION, build_index, main, write_index
+from catalog.validate import validate_entries
 
 NOW = "2026-01-01T00:00:00Z"
 
@@ -40,13 +41,31 @@ def test_entries_sorted_and_complete():
 def test_extras_derived():
     entries = catalog(
         make("g"),
-        make("e2", kind="extra", extends="g"),
-        make("e1", kind="extra", extends="g", required=True),
+        make("e2", kind="extra", extends=["g"]),
+        make("e1", kind="extra", extends=["g"], required=True),
     )
     by_id = {e["id"]: e for e in build_index(entries, NOW)["entries"]}
     assert by_id["g"]["extras"] == [{"id": "e1", "required": True}, {"id": "e2", "required": False}]
     assert by_id["e1"]["extras"] == []
     assert "extras" not in entries["g"]
+
+
+def test_extra_with_two_games_listed_under_both():
+    entries = catalog(
+        make("g"),
+        make("h"),
+        make("other"),
+        make("patch", kind="extra", extends=["h", "g"], required=True),
+        make("addon", kind="extra", extends=["g"]),
+    )
+    assert validate_entries(entries) == []
+    index = build_index(entries, NOW)
+    _index_validator().validate(index)
+    by_id = {e["id"]: e for e in index["entries"]}
+    assert by_id["g"]["extras"] == [{"id": "addon", "required": False}, {"id": "patch", "required": True}]
+    assert by_id["h"]["extras"] == [{"id": "patch", "required": True}]
+    assert by_id["other"]["extras"] == []
+    assert by_id["patch"]["extends"] == ["h", "g"]
 
 
 def test_deterministic_bytes(tmp_path):
@@ -93,7 +112,7 @@ def _index_validator():
 
 
 def test_index_validates_against_index_schema():
-    entries = catalog(make("g"), make("e1", kind="extra", extends="g", required=True))
+    entries = catalog(make("g"), make("e1", kind="extra", extends=["g"], required=True))
     index = build_index(entries, NOW)
     validator = _index_validator()
     validator.validate(index)
