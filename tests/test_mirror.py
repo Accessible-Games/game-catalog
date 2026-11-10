@@ -334,7 +334,7 @@ def test_paid_entries_are_mirrored_like_any_other(tmp_path):
     d = tmp_path / "entries"
     d.mkdir()
     paid = make_entry("paid")
-    paid["flags"] = ["requires-registration"]
+    paid["pricing"] = {"model": "free-to-try", "url": "https://example.com/buy"}
     write_entry(d, paid)
     responses.add(responses.GET, URL, body=DATA)
     up = MemoryUploader()

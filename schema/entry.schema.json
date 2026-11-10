@@ -37,8 +37,32 @@
         },
         "genres": {
           "type": "array",
+          "minItems": 1,
+          "maxItems": 3,
+          "uniqueItems": true,
           "items": {
-            "type": "string"
+            "enum": [
+              "Action",
+              "Adventure",
+              "Arcade",
+              "Board and dice",
+              "Card",
+              "Casino",
+              "Educational",
+              "Fighting",
+              "Interactive fiction",
+              "Music and rhythm",
+              "Platformer",
+              "Puzzle",
+              "Racing",
+              "Role-playing",
+              "Shooter",
+              "Simulation",
+              "Sports",
+              "Strategy",
+              "Trivia",
+              "Word"
+            ]
           }
         },
         "year": {
@@ -52,39 +76,61 @@
         "version": {
           "type": "string"
         },
-        "flags": {
+        "self_updating": {
+          "const": true
+        },
+        "pricing": {
+          "$ref": "#/$defs/pricing"
+        },
+        "tags": {
           "type": "array",
           "uniqueItems": true,
           "items": {
             "enum": [
-              "abandoned",
-              "demo",
-              "beta",
-              "multiplayer",
-              "requires-registration",
-              "registration"
+              "Multiplayer",
+              "Roguelike",
+              "Idle",
+              "Survival",
+              "Horror"
             ]
           }
         },
+        "languages": {
+          "type": "array",
+          "uniqueItems": true,
+          "items": {
+            "type": "string",
+            "pattern": "^[a-z]{2}$"
+          }
+        },
+        "contains": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "unsupported": {
+          "const": true
+        },
+        "warning": {
+          "type": "string"
+        },
         "links": {
-          "type": "object",
-          "additionalProperties": false,
-          "properties": {
-            "homepage": {
-              "type": "string",
-              "format": "uri"
-            },
-            "purchase": {
-              "type": "string",
-              "format": "uri"
-            },
-            "audiogames_net": {
-              "type": "string",
-              "format": "uri"
-            },
-            "agarchive": {
-              "type": "string",
-              "format": "uri"
+          "type": "array",
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "url"
+            ],
+            "properties": {
+              "url": {
+                "type": "string",
+                "format": "uri"
+              },
+              "label": {
+                "type": "string"
+              }
             }
           }
         },
@@ -150,25 +196,53 @@
         "required": {
           "type": "boolean"
         },
-        "approval": {
-          "type": "object",
-          "additionalProperties": false,
-          "required": [
-            "note"
-          ],
-          "properties": {
-            "note": {
-              "type": "string",
-              "minLength": 1
-            },
-            "url": {
-              "type": "string",
-              "format": "uri"
-            }
-          }
-        },
         "detect": {
-          "type": "object"
+          "oneOf": [
+            {
+              "type": "object",
+              "additionalProperties": false,
+              "required": [
+                "file"
+              ],
+              "properties": {
+                "file": {
+                  "type": "string"
+                }
+              }
+            },
+            {
+              "type": "object",
+              "additionalProperties": false,
+              "required": [
+                "registry"
+              ],
+              "properties": {
+                "registry": {
+                  "type": "object",
+                  "additionalProperties": false,
+                  "required": [
+                    "hive",
+                    "key"
+                  ],
+                  "properties": {
+                    "hive": {
+                      "enum": [
+                        "HKCR",
+                        "HKLM",
+                        "HKCU"
+                      ]
+                    },
+                    "key": {
+                      "type": "string"
+                    },
+                    "name": {
+                      "type": "string"
+                    }
+                  }
+                }
+              }
+            }
+          ]
         },
         "checkver": {
           "oneOf": [
@@ -209,6 +283,61 @@
       "type": "string",
       "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$"
     },
+    "pricing": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "model"
+      ],
+      "properties": {
+        "model": {
+          "enum": [
+            "free",
+            "free-to-try",
+            "pay-what-you-want",
+            "one-time",
+            "subscription",
+            "free-with-purchases"
+          ]
+        },
+        "price": {
+          "type": "number",
+          "minimum": 0
+        },
+        "suggested": {
+          "type": "number",
+          "minimum": 0
+        },
+        "currency": {
+          "type": "string",
+          "pattern": "^[A-Z]{3}$"
+        },
+        "period": {
+          "enum": [
+            "month",
+            "year"
+          ]
+        },
+        "checked": {
+          "type": "string",
+          "pattern": "^[0-9]{4}-[0-9]{2}-[0-9]{2}$"
+        },
+        "no_longer_sold": {
+          "const": true
+        },
+        "url": {
+          "type": "string",
+          "format": "uri"
+        },
+        "donate_url": {
+          "type": "string",
+          "format": "uri"
+        },
+        "note": {
+          "type": "string"
+        }
+      }
+    },
     "source": {
       "type": "object",
       "additionalProperties": false,
@@ -234,8 +363,20 @@
             "web"
           ]
         },
+        "arch": {
+          "enum": [
+            "x64",
+            "x86",
+            "arm64",
+            "universal"
+          ]
+        },
         "size": {
           "type": "integer"
+        },
+        "first_run_download_size": {
+          "type": "integer",
+          "minimum": 0
         },
         "sha256": {
           "type": "string",
@@ -265,6 +406,7 @@
             "7z",
             "installer",
             "cab",
+            "tar",
             "none",
             "url"
           ]

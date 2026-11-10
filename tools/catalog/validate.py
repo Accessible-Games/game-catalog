@@ -27,9 +27,13 @@ class Problem:
 
 # RFC 3986 authority: userinfo@host:port, i.e. unreserved, pct-encoded, sub-delims, ":", "@", "[", "]".
 _AUTHORITY = re.compile(r"[A-Za-z0-9\-._~%!$&'()*+,;=:@\[\]]+")
+# urlsplit silently drops tabs and newlines, so look for control characters before splitting.
+_CONTROL = re.compile(r"[\x00-\x1f\x7f]")
 
 
 def _is_web_url(url: str) -> bool:
+    if _CONTROL.search(url):
+        return False
     try:
         parts = urlsplit(url)
         return (parts.scheme.lower() in ("http", "https") and bool(parts.hostname)
@@ -40,11 +44,18 @@ def _is_web_url(url: str) -> bool:
 
 def _check_links(key: str, entry: dict, out: list[Problem]) -> None:
     links = entry.get("links")
-    if not isinstance(links, dict):
+    if not isinstance(links, list):
         return
-    for name, value in links.items():
-        if isinstance(value, str) and not _is_web_url(value):
-            out.append(Problem(key, f"links.{name}: URL must be http or https with a host ({value})"))
+    seen: set[str] = set()
+    for i, link in enumerate(links):
+        value = link.get("url") if isinstance(link, dict) else None
+        if not isinstance(value, str):
+            continue
+        if not _is_web_url(value):
+            out.append(Problem(key, f"links[{i}]: URL must be http or https with a host ({value})"))
+        if value in seen:
+            out.append(Problem(key, f"links[{i}]: URL is listed more than once ({value})"))
+        seen.add(value)
 
 
 def _check_sources(key: str, entry: dict, out: list[Problem]) -> None:
@@ -132,8 +143,6 @@ def validate_entries(entries: dict[str, dict]) -> list[Problem]:
             problems.append(Problem(key, "extends is only allowed on extra or access-mod entries"))
         if entry.get("required") is not None and kind != "extra":
             problems.append(Problem(key, "required is only allowed on extra entries"))
-        if "registration" in (entry.get("flags") or []) and not entry.get("approval"):
-            problems.append(Problem(key, "registration flag requires an approval note"))
 
         install_into = entry.get("install_into")
         if install_into is not None and install_into not in entries:

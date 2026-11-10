@@ -99,18 +99,14 @@ def test_required_only_on_extras():
     assert validate_entries(ok) == []
 
 
-def test_registration_requires_approval():
-    entries = catalog(make("g"), make("x", "extra", extends="g", flags=["registration"]))
-    problems = validate_entries(entries)
-    assert any("approval" in p.message for p in problems)
-
-
-def test_registration_with_approval_ok():
+def test_flags_and_approval_are_gone():
     entries = catalog(
         make("g"),
         make("x", "extra", extends="g", flags=["registration"], approval={"note": "ok by dev"}),
     )
-    assert validate_entries(entries) == []
+    problems = msgs(validate_entries(entries))
+    assert any("flags" in m for m in problems) and any("approval" in m for m in problems)
+    assert not any("approval note" in m for m in problems)
 
 
 def test_install_into_must_exist():
@@ -150,12 +146,12 @@ def test_agarchive_source_rejected():
 def test_bad_netloc_rejected(url):
     problems = validate_entries(catalog(with_source(make("a"), url=url)))
     assert problems, url
-    link = validate_entries(catalog(make("a", links={"home": url})))
+    link = validate_entries(catalog(make("a", links=[{"url": url}])))
     assert link, url
 
 
 def test_agarchive_credit_link_allowed():
-    e = make("a", links={"agarchive": "https://agarchive.net/games/x.html"})
+    e = make("a", links=[{"url": "https://agarchive.net/games/x.html", "label": "AGArchive"}])
     assert validate_entries(catalog(e)) == []
 
 
@@ -219,8 +215,29 @@ def test_source_url_must_be_percent_encoded():
 
 
 def test_links_must_be_http_with_host():
-    for value in ("mailto:dev@example.com", "/relative/page", "ftp://example.com/"):
-        problems = validate_entries(catalog(make("a", links={"homepage": value})))
-        assert any("links.homepage" in p.message and "http or https" in p.message for p in problems), value
-    ok = make("a", links={"homepage": "http://example.com/a page"})
+    for value in ("mailto:dev@example.com", "/relative/page", "ftp://example.com/", "https:///x"):
+        links = [{"url": "https://example.com/", "label": "Homepage"}, {"url": value}]
+        problems = validate_entries(catalog(make("a", links=links)))
+        assert any("links[1]" in p.message and "http or https" in p.message for p in problems), value
+    ok = make("a", links=[{"url": "http://example.com/a page"}, {"url": "https://forum.example.com/t/1",
+                                                                "label": "Forum topic"}])
     assert validate_entries(catalog(ok)) == []
+
+
+def test_links_must_not_repeat_a_url():
+    links = [{"url": "https://example.com/", "label": "Homepage"},
+             {"url": "https://example.com/forum", "label": "Forum"},
+             {"url": "https://example.com/", "label": "Site"}]
+    problems = msgs(validate_entries(catalog(make("a", links=links))))
+    assert problems == ["links[2]: URL is listed more than once (https://example.com/)"]
+
+
+@pytest.mark.parametrize("links", [
+    {"homepage": "https://example.com/"},
+    [{"label": "Homepage"}],
+    [{"url": "https://example.com/", "label": "Homepage", "kind": "home"}],
+    ["https://example.com/"],
+])
+def test_links_must_be_a_list_of_url_and_label(links):
+    problems = validate_entries(catalog(make("a", links=links)))
+    assert problems and all(p.message.startswith("schema: ") for p in problems)
