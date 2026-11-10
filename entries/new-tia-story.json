@@ -6,9 +6,12 @@
     "Morokuma"
   ],
   "description": "A text RPG built in Text Game Maker. Alternate timeline for Tia Story 1 and 2.",
-  "links": {
-    "agarchive": "https://www.agarchive.net/pages/devs/morokuma.html"
-  },
+  "links": [
+    {
+      "url": "https://www.agarchive.net/pages/devs/morokuma.html",
+      "label": "Archived at agarchive"
+    }
+  ],
   "sources": [
     {
       "label": "Developer site",

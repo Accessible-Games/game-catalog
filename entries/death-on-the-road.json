@@ -6,9 +6,12 @@
     "Oriol Gomez"
   ],
   "description": "You are a blind 10-year-old kid in a new city. Your stupid mobility teacher keeps giving you instructions and you are becoming insane. What better way to perfect your road crossing skills than to cross the road over and over again, you think. Though your task is not as easy as you thought.",
-  "links": {
-    "agarchive": "https://www.agarchive.net/pages/devs/oriolgomez.html"
-  },
+  "links": [
+    {
+      "url": "https://www.agarchive.net/pages/devs/oriolgomez.html",
+      "label": "Archived at agarchive"
+    }
+  ],
   "sources": [
     {
       "platform": "windows",

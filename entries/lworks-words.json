@@ -6,13 +6,16 @@
     "LWorks"
   ],
   "description": "LWorks Words is a simple word game.\n\nIt is, however, only a demo, and cannot be purchased.",
-  "flags": [
-    "abandoned",
-    "demo"
-  ],
-  "links": {
-    "agarchive": "https://www.agarchive.net/pages/devs/lworks.html"
+  "pricing": {
+    "model": "free-to-try"
   },
+  "unsupported": true,
+  "links": [
+    {
+      "url": "https://www.agarchive.net/pages/devs/lworks.html",
+      "label": "Archived at agarchive"
+    }
+  ],
   "sources": [
     {
       "platform": "windows",

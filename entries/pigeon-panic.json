@@ -6,12 +6,13 @@
     "LWorks"
   ],
   "description": "In this game, your car is infested with pigeons.\n\nWhat do you do when you've got pigeons swarming your car? Shoot'em down! In this game, you do just that.",
-  "flags": [
-    "abandoned"
+  "unsupported": true,
+  "links": [
+    {
+      "url": "https://www.agarchive.net/pages/devs/lworks.html",
+      "label": "Archived at agarchive"
+    }
   ],
-  "links": {
-    "agarchive": "https://www.agarchive.net/pages/devs/lworks.html"
-  },
   "sources": [
     {
       "platform": "windows",

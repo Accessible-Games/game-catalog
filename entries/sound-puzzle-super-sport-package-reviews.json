@@ -6,9 +6,12 @@
     "VIP GamesZone"
   ],
   "description": "This package contained Beach Volleyball and Funny Bowling.",
-  "links": {
-    "agarchive": "https://www.agarchive.net/pages/devs/vip.html"
-  },
+  "links": [
+    {
+      "url": "https://www.agarchive.net/pages/devs/vip.html",
+      "label": "Archived at agarchive"
+    }
+  ],
   "sources": [
     {
       "platform": "windows",

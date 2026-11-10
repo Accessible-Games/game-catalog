@@ -6,9 +6,12 @@
     "Talon"
   ],
   "description": "A large, complex map pack for The Road to Rage, with its own maps and sounds.",
-  "links": {
-    "agarchive": "https://www.agarchive.net/pages/devs/talon.html"
-  },
+  "links": [
+    {
+      "url": "https://www.agarchive.net/pages/devs/talon.html",
+      "label": "Archived at agarchive"
+    }
+  ],
   "sources": [
     {
       "platform": "windows",

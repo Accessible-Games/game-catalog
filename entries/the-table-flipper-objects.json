@@ -6,9 +6,12 @@
     "Phantom Creations"
   ],
   "description": "52 player-made objects to flip, throw and break, beyond the default set.",
-  "links": {
-    "agarchive": "https://www.agarchive.net/pages/devs/phantomCreations.html"
-  },
+  "links": [
+    {
+      "url": "https://www.agarchive.net/pages/devs/phantomCreations.html",
+      "label": "Archived at agarchive"
+    }
+  ],
   "sources": [
     {
       "platform": "windows",

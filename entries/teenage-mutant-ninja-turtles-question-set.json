@@ -6,9 +6,12 @@
     "Freedom Games"
   ],
   "description": "Freedom Millionaire had the ability to include question banks that had their own unique sound effects and music. This question set challenges the player's knowledge of the Teenage Mutant Ninja Turtles cartoon from the 80's and 90's.",
-  "links": {
-    "agarchive": "https://www.agarchive.net/pages/devs/freedom.html"
-  },
+  "links": [
+    {
+      "url": "https://www.agarchive.net/pages/devs/freedom.html",
+      "label": "Archived at agarchive"
+    }
+  ],
   "sources": [
     {
       "platform": "windows",

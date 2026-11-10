@@ -6,14 +6,20 @@
     "PCS"
   ],
   "description": "You play Sarah as she explores a magical castle. She discovers that a mischievous poltergeist picked the pockets of the students leaving for the summer holidays and sprinkled money and magical items somewhere in the castle. She will be able to find and use wands that increase her powers, a two-way mirror, Extendible Ears, racing brooms, a Time Turner Necklace , and a very expensive invisibility cloak.\n\nNote that new orders of Sarah are not currently possible. You can download and play the demo but will be unable to register it unless you have an existing key.",
-  "flags": [
-    "abandoned",
-    "demo"
-  ],
-  "links": {
-    "homepage": "http://dracoent.com/Windows/SarahAndTheCastleOfWitchCraftAndWizardry",
-    "agarchive": "https://www.agarchive.net/pages/devs/pcs.html"
+  "pricing": {
+    "model": "free-to-try"
   },
+  "unsupported": true,
+  "links": [
+    {
+      "url": "http://dracoent.com/Windows/SarahAndTheCastleOfWitchCraftAndWizardry",
+      "label": "Homepage"
+    },
+    {
+      "url": "https://www.agarchive.net/pages/devs/pcs.html",
+      "label": "Archived at agarchive"
+    }
+  ],
   "sources": [
     {
       "platform": "windows",

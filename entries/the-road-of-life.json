@@ -6,12 +6,13 @@
     "various authors"
   ],
   "description": "Direct from the readme: USSR, December 1942. World War II. Leningrad is completely blocked by fascist troops. There is only one way connecting the city to the rest of the country. It passes across frozen Lake Ladoga and is called The Road of Life. Food and ammo are delivered and the inhabitants are evacuated by this road.\n\nBut even this narrow gap is extremely dangerous. The mild winter makes the ice thin, and trucks often sink. In addition, the road is attacked by German aircraft. No wonder the drivers who work on the lake have given it another name: The Road of Death.\n\nWhile initially undergoing significant and speedy development, there has been no word on this game's status for some time. As a result, it has been marked as unsupported.",
-  "flags": [
-    "abandoned"
+  "unsupported": true,
+  "links": [
+    {
+      "url": "https://www.agarchive.net/pages/devs/misc.html",
+      "label": "Archived at agarchive"
+    }
   ],
-  "links": {
-    "agarchive": "https://www.agarchive.net/pages/devs/misc.html"
-  },
   "sources": [
     {
       "platform": "windows",

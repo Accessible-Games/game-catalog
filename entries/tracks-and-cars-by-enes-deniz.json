@@ -6,9 +6,12 @@
     "Playing in the Dark"
   ],
   "description": "This is a package of two tracks and several cars. Descriptions for all of them are in the included readme file.",
-  "links": {
-    "agarchive": "https://www.agarchive.net/pages/devs/pitd.html"
-  },
+  "links": [
+    {
+      "url": "https://www.agarchive.net/pages/devs/pitd.html",
+      "label": "Archived at agarchive"
+    }
+  ],
   "sources": [
     {
       "platform": "windows",

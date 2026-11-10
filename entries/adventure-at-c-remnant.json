@@ -6,9 +6,12 @@
     "VG Storm"
   ],
   "description": "A very large custom stage set after the main story of Adventure at C:, with sounds borrowed from classic video games. Finish the main game first, as some cut scenes spoil the story. Needs Adventure at C: 3.2.1.\n\nRemnant ships its own stages folder, which replaces the game's stages. Back up any stages you made yourself before installing it.",
-  "links": {
-    "agarchive": "https://www.agarchive.net/pages/devs/vgstorm.html"
-  },
+  "links": [
+    {
+      "url": "https://www.agarchive.net/pages/devs/vgstorm.html",
+      "label": "Archived at agarchive"
+    }
+  ],
   "sources": [
     {
       "platform": "windows",

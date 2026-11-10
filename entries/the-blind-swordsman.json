@@ -6,13 +6,17 @@
     "various authors"
   ],
   "description": "Help a blind warrior regain his site by battling down a road filled with enemies, from wolves to dagger wielding sisters, all of whom see him as little more than an easy kill.\n\nThe Blind Swordsman can be run on both pc and mac. In order to execute the program on Mac OS, follow the steps in this article. Also please be aware that it will likely only run on OSX 10.13 and earlier.",
-  "flags": [
-    "abandoned"
+  "unsupported": true,
+  "links": [
+    {
+      "url": "http://www.evil-dog.com/the-blind-swordsman.html",
+      "label": "Homepage"
+    },
+    {
+      "url": "https://www.agarchive.net/pages/devs/misc.html",
+      "label": "Archived at agarchive"
+    }
   ],
-  "links": {
-    "homepage": "http://www.evil-dog.com/the-blind-swordsman.html",
-    "agarchive": "https://www.agarchive.net/pages/devs/misc.html"
-  },
   "sources": [
     {
       "platform": "windows",

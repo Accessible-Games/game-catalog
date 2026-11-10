@@ -5,10 +5,16 @@
   "developer": [
     "various authors"
   ],
-  "links": {
-    "homepage": "http://btprojects.samtupy.com/index.php",
-    "agarchive": "https://www.agarchive.net/pages/devs/misc.html"
-  },
+  "links": [
+    {
+      "url": "http://btprojects.samtupy.com/index.php",
+      "label": "Homepage"
+    },
+    {
+      "url": "https://www.agarchive.net/pages/devs/misc.html",
+      "label": "Archived at agarchive"
+    }
+  ],
   "sources": [
     {
       "platform": "windows",

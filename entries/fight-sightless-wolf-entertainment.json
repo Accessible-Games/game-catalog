@@ -6,12 +6,13 @@
     "Sightless Wolf Entertainment"
   ],
   "description": "Build fighters with any combination of dozens of moves, and send them into an arena to battle. If you win, use the spoils to unlock even more moves for future fights.",
-  "flags": [
-    "abandoned"
+  "unsupported": true,
+  "links": [
+    {
+      "url": "https://www.agarchive.net/pages/devs/sightlessWolf.html",
+      "label": "Archived at agarchive"
+    }
   ],
-  "links": {
-    "agarchive": "https://www.agarchive.net/pages/devs/sightlessWolf.html"
-  },
   "sources": [
     {
       "platform": "windows",

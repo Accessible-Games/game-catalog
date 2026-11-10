@@ -6,12 +6,13 @@
     "Lighttech Interactive"
   ],
   "description": "Before playing for the first time, run the configuration program, config.exe, in the game's folder, and save your settings. Until it has been run once, the game closes by itself after about 7 seconds.",
-  "flags": [
-    "abandoned"
+  "unsupported": true,
+  "links": [
+    {
+      "url": "https://www.agarchive.net/pages/devs/lighttech.html",
+      "label": "Archived at agarchive"
+    }
   ],
-  "links": {
-    "agarchive": "https://www.agarchive.net/pages/devs/lighttech.html"
-  },
   "sources": [
     {
       "platform": "windows",

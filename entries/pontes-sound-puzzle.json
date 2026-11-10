@@ -6,9 +6,12 @@
     "Pontes Games"
   ],
   "description": "Pontes Sound Puzzle needs .NET Framework 3.5. If Windows asks to download and install that feature the first time the game starts, choose to download and install it, then start the game again.\n\nWhile it installs, Windows asks to install .NET Framework 3.5. Choose \"Download and install this feature\". The install only finishes once that feature is installed, which can take several minutes.",
-  "links": {
-    "agarchive": "https://www.agarchive.net/pages/devs/pontes.html"
-  },
+  "links": [
+    {
+      "url": "https://www.agarchive.net/pages/devs/pontes.html",
+      "label": "Archived at agarchive"
+    }
+  ],
   "sources": [
     {
       "platform": "windows",

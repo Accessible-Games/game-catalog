@@ -6,12 +6,13 @@
     "BSC Games"
   ],
   "description": "This time, not only are there more kinds of potentially annoying ships to take down, but there is the evil commander Lord Vector to overcome!\n\nBefore playing for the first time, run the configuration program, config.exe, in the game's folder, and save your settings. Until it has been run once, the game stops with \"Error 432: File name or class name not found during Automation operation while loading file sayConfigFirst.\"",
-  "flags": [
-    "abandoned"
+  "unsupported": true,
+  "links": [
+    {
+      "url": "https://www.agarchive.net/pages/devs/bsc.html",
+      "label": "Archived at agarchive"
+    }
   ],
-  "links": {
-    "agarchive": "https://www.agarchive.net/pages/devs/bsc.html"
-  },
   "sources": [
     {
       "platform": "windows",

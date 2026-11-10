@@ -6,9 +6,12 @@
     "PCS"
   ],
   "description": "You play a dog, hunting for milk bone treats scattered around the backyard.",
-  "links": {
-    "agarchive": "https://www.agarchive.net/pages/devs/pcs.html"
-  },
+  "links": [
+    {
+      "url": "https://www.agarchive.net/pages/devs/pcs.html",
+      "label": "Archived at agarchive"
+    }
+  ],
   "sources": [
     {
       "platform": "windows",

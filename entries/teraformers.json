@@ -6,13 +6,17 @@
     "various authors"
   ],
   "description": "Teraformers was originally comercial, but has been released as freeware. The archive's package contains the game's installer, as well as the official license key file. Once installed, paste this file into your game's prefs directory to unlock the full game.",
-  "flags": [
-    "abandoned"
+  "unsupported": true,
+  "links": [
+    {
+      "url": "https://terraformers.nu/",
+      "label": "Homepage"
+    },
+    {
+      "url": "https://www.agarchive.net/pages/devs/misc.html",
+      "label": "Archived at agarchive"
+    }
   ],
-  "links": {
-    "homepage": "https://terraformers.nu/",
-    "agarchive": "https://www.agarchive.net/pages/devs/misc.html"
-  },
   "sources": [
     {
       "label": "Developer site",

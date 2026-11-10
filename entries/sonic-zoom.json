@@ -6,13 +6,17 @@
     "Sounds Like Fun"
   ],
   "description": "The highway's a mess. Some careless driver's dropped coins everywhere, and its your job to take the Sonic Zoom and clean them up.\n\nNote that you may run into some audio glitches with SAPI output, but otherwise the game should run fine on all systems.",
-  "flags": [
-    "abandoned"
+  "unsupported": true,
+  "links": [
+    {
+      "url": "http://www.cs.unc.edu/Research/assist/et/projects/SonicZoom/wwwx.cs.unc.edu/Courses/comp145-s04/BlindGames/",
+      "label": "Homepage"
+    },
+    {
+      "url": "https://www.agarchive.net/pages/devs/soundsLikeFun.html",
+      "label": "Archived at agarchive"
+    }
   ],
-  "links": {
-    "homepage": "http://www.cs.unc.edu/Research/assist/et/projects/SonicZoom/wwwx.cs.unc.edu/Courses/comp145-s04/BlindGames/",
-    "agarchive": "https://www.agarchive.net/pages/devs/soundsLikeFun.html"
-  },
   "sources": [
     {
       "platform": "windows",

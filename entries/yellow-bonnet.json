@@ -5,13 +5,19 @@
   "developer": [
     "Valiant Galaxy Associates"
   ],
-  "flags": [
-    "requires-registration"
-  ],
-  "links": {
-    "homepage": "http://valiantgalaxy.com/yellowbonnet/index.html",
-    "agarchive": "https://www.agarchive.net/pages/devs/vga.html"
+  "pricing": {
+    "model": "free-to-try"
   },
+  "links": [
+    {
+      "url": "http://valiantgalaxy.com/yellowbonnet/index.html",
+      "label": "Homepage"
+    },
+    {
+      "url": "https://www.agarchive.net/pages/devs/vga.html",
+      "label": "Archived at agarchive"
+    }
+  ],
   "sources": [
     {
       "label": "Developer site",

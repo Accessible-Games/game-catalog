@@ -6,10 +6,16 @@
     "2MB Games"
   ],
   "description": "Speed through an abandoned mine in this endless-runner style game. Jump pits, duck stalactites, and grab as many coins as you can while the cart you're riding hurtles steadily faster down the tracks.",
-  "links": {
-    "homepage": "https://2mb.games/product/mineracer/",
-    "agarchive": "https://www.agarchive.net/pages/devs/2mb.html"
-  },
+  "links": [
+    {
+      "url": "https://2mb.games/product/mineracer/",
+      "label": "Homepage"
+    },
+    {
+      "url": "https://www.agarchive.net/pages/devs/2mb.html",
+      "label": "Archived at agarchive"
+    }
+  ],
   "sources": [
     {
       "platform": "windows",

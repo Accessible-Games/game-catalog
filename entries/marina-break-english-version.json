@@ -6,9 +6,12 @@
     "Nyanchan Games"
   ],
   "description": "this game improves on the classic Breakout formula by adding mechanics like multiple block types, ball energy that depletes on impacts, effects of gravity, and the ability to strike the bouncing bat forward, left, or right for more strategic ball control in a fun arcade challenge.",
-  "links": {
-    "agarchive": "https://www.agarchive.net/pages/devs/nyanchan.html"
-  },
+  "links": [
+    {
+      "url": "https://www.agarchive.net/pages/devs/nyanchan.html",
+      "label": "Archived at agarchive"
+    }
+  ],
   "sources": [
     {
       "label": "Developer site",

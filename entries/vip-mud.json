@@ -5,15 +5,22 @@
   "developer": [
     "GMA Games"
   ],
-  "flags": [
-    "demo",
-    "multiplayer",
-    "requires-registration"
-  ],
-  "links": {
-    "homepage": "http://www.gmagames.com/vipmud.shtml",
-    "agarchive": "https://www.agarchive.net/pages/devs/gma.html"
+  "pricing": {
+    "model": "free-to-try"
   },
+  "tags": [
+    "Multiplayer"
+  ],
+  "links": [
+    {
+      "url": "http://www.gmagames.com/vipmud.shtml",
+      "label": "Homepage"
+    },
+    {
+      "url": "https://www.agarchive.net/pages/devs/gma.html",
+      "label": "Archived at agarchive"
+    }
+  ],
   "sources": [
     {
       "label": "Developer site",

@@ -6,12 +6,13 @@
     "Galaxy Laboratory"
   ],
   "description": "This is Fighting Cores played like a gamebook. The story can be read and translated with a screen reader and is the same as the self-voicing version. Is no longer hosted by the developer.",
-  "flags": [
-    "abandoned"
+  "unsupported": true,
+  "links": [
+    {
+      "url": "https://www.agarchive.net/pages/devs/GalaxyLaboratory.html",
+      "label": "Archived at agarchive"
+    }
   ],
-  "links": {
-    "agarchive": "https://www.agarchive.net/pages/devs/GalaxyLaboratory.html"
-  },
   "sources": [
     {
       "platform": "windows",

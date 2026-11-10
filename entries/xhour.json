@@ -5,13 +5,16 @@
   "developer": [
     "VIP GamesZone"
   ],
-  "flags": [
-    "abandoned",
-    "demo"
-  ],
-  "links": {
-    "agarchive": "https://www.agarchive.net/pages/devs/vip.html"
+  "pricing": {
+    "model": "free-to-try"
   },
+  "unsupported": true,
+  "links": [
+    {
+      "url": "https://www.agarchive.net/pages/devs/vip.html",
+      "label": "Archived at agarchive"
+    }
+  ],
   "sources": [
     {
       "platform": "windows",

@@ -6,9 +6,12 @@
     "Aprone"
   ],
   "description": "Every choice you make changes something about your deck, for better or worse. Play the included example game, or create your own!",
-  "links": {
-    "agarchive": "https://www.agarchive.net/pages/devs/aprone.html"
-  },
+  "links": [
+    {
+      "url": "https://www.agarchive.net/pages/devs/aprone.html",
+      "label": "Archived at agarchive"
+    }
+  ],
   "sources": [
     {
       "label": "Developer site",

@@ -6,13 +6,17 @@
     "Blastbay Studios"
   ],
   "description": "This is a recreation of the turn-based strategy board game Jungle, also known in Chinese as Dou Shou Qi.",
-  "flags": [
-    "abandoned"
+  "unsupported": true,
+  "links": [
+    {
+      "url": "https://www.blastbay.com/jungle.php",
+      "label": "Homepage"
+    },
+    {
+      "url": "https://www.agarchive.net/pages/devs/blastbay.html",
+      "label": "Archived at agarchive"
+    }
   ],
-  "links": {
-    "homepage": "https://www.blastbay.com/jungle.php",
-    "agarchive": "https://www.agarchive.net/pages/devs/blastbay.html"
-  },
   "sources": [
     {
       "label": "Developer site",

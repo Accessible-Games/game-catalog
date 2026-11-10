@@ -6,12 +6,15 @@
     "Galaxy Laboratory"
   ],
   "description": "Essentially an upgraded version of Hachamecha de train with many more features and the ability for translation.",
-  "flags": [
-    "requires-registration"
-  ],
-  "links": {
-    "agarchive": "https://www.agarchive.net/pages/devs/GalaxyLaboratory.html"
+  "pricing": {
+    "model": "free-to-try"
   },
+  "links": [
+    {
+      "url": "https://www.agarchive.net/pages/devs/GalaxyLaboratory.html",
+      "label": "Archived at agarchive"
+    }
+  ],
   "sources": [
     {
       "label": "Developer site",

@@ -6,9 +6,12 @@
     "Morokuma"
   ],
   "description": "A dungeon exploration RPG.\n\nExpansion packs for Cave of Marvels. Each has an included ReadMe that describes what it does.\n\nThese are only available from the archive. While they are listed on the Cave of Marvels page of Morokuma's website, attempts to download them produce a 404 error.",
-  "links": {
-    "agarchive": "https://www.agarchive.net/pages/devs/morokuma.html"
-  },
+  "links": [
+    {
+      "url": "https://www.agarchive.net/pages/devs/morokuma.html",
+      "label": "Archived at agarchive"
+    }
+  ],
   "sources": [
     {
       "platform": "windows",

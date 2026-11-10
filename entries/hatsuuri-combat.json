@@ -6,9 +6,12 @@
     "Galaxy Laboratory"
   ],
   "description": "A side scrolling beat 'em up style game. Entirely self-voicing.",
-  "links": {
-    "agarchive": "https://www.agarchive.net/pages/devs/GalaxyLaboratory.html"
-  },
+  "links": [
+    {
+      "url": "https://www.agarchive.net/pages/devs/GalaxyLaboratory.html",
+      "label": "Archived at agarchive"
+    }
+  ],
   "sources": [
     {
       "platform": "windows",

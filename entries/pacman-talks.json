@@ -6,14 +6,19 @@
     "PCS"
   ],
   "description": "You are Pacman traveling through level after level of mazes gobbling up fruit and trying to avoid ghosts. Note that Pacman Talks is sold through GMA Games. You will need to create a GMA Games account in order to purchase it.",
-  "flags": [
-    "demo",
-    "requires-registration"
-  ],
-  "links": {
-    "homepage": "http://www.gmagames.com/myaccount.shtml",
-    "agarchive": "https://www.agarchive.net/pages/devs/pcs.html"
+  "pricing": {
+    "model": "free-to-try"
   },
+  "links": [
+    {
+      "url": "http://www.gmagames.com/myaccount.shtml",
+      "label": "Homepage"
+    },
+    {
+      "url": "https://www.agarchive.net/pages/devs/pcs.html",
+      "label": "Archived at agarchive"
+    }
+  ],
   "sources": [
     {
       "label": "Developer site",

@@ -6,9 +6,12 @@
     "Morokuma"
   ],
   "description": "A text RPG built with Text Game Maker. Direct sequel to Tia Story 1.",
-  "links": {
-    "agarchive": "https://www.agarchive.net/pages/devs/morokuma.html"
-  },
+  "links": [
+    {
+      "url": "https://www.agarchive.net/pages/devs/morokuma.html",
+      "label": "Archived at agarchive"
+    }
+  ],
   "sources": [
     {
       "label": "Developer site",

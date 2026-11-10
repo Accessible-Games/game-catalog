@@ -6,14 +6,19 @@
     "GMA Games"
   ],
   "description": "For lovers of war games and strategy. Move a dozen types of unit over both water and land areas to defeat the enemy. Enjoy playing against the computer or join in an online battle.",
-  "flags": [
-    "demo",
-    "requires-registration"
-  ],
-  "links": {
-    "homepage": "http://www.gmagames.com/toc2.shtml",
-    "agarchive": "https://www.agarchive.net/pages/devs/gma.html"
+  "pricing": {
+    "model": "free-to-try"
   },
+  "links": [
+    {
+      "url": "http://www.gmagames.com/toc2.shtml",
+      "label": "Homepage"
+    },
+    {
+      "url": "https://www.agarchive.net/pages/devs/gma.html",
+      "label": "Archived at agarchive"
+    }
+  ],
   "sources": [
     {
       "label": "Developer site",

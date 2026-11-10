@@ -6,10 +6,16 @@
     "NA Soft"
   ],
   "description": "Ever wondered what it takes to drive a train? Get a taste of the experience in this simulation of the London underground.",
-  "links": {
-    "homepage": "http://ndadamson.com/index.php?slab=tube-sim",
-    "agarchive": "https://www.agarchive.net/pages/devs/naSoft.html"
-  },
+  "links": [
+    {
+      "url": "http://ndadamson.com/index.php?slab=tube-sim",
+      "label": "Homepage"
+    },
+    {
+      "url": "https://www.agarchive.net/pages/devs/naSoft.html",
+      "label": "Archived at agarchive"
+    }
+  ],
   "sources": [
     {
       "label": "Developer site",

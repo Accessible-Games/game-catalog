@@ -6,9 +6,12 @@
     "PCS"
   ],
   "description": "update patch to version 1.1, extract zip versions into the game's installation folder",
-  "links": {
-    "agarchive": "https://www.agarchive.net/pages/devs/pcs.html"
-  },
+  "links": [
+    {
+      "url": "https://www.agarchive.net/pages/devs/pcs.html",
+      "label": "Archived at agarchive"
+    }
+  ],
   "sources": [
     {
       "platform": "windows",

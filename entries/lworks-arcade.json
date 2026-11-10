@@ -6,13 +6,16 @@
     "LWorks"
   ],
   "description": "Got five minutes to spare? Try this collection of simple, yet addicting games.\n\nNote that this is only a demo version, and there is currently no way to get the full version. Thus, the only games you get are Number Guess and Sticks.",
-  "flags": [
-    "abandoned",
-    "demo"
-  ],
-  "links": {
-    "agarchive": "https://www.agarchive.net/pages/devs/lworks.html"
+  "pricing": {
+    "model": "free-to-try"
   },
+  "unsupported": true,
+  "links": [
+    {
+      "url": "https://www.agarchive.net/pages/devs/lworks.html",
+      "label": "Archived at agarchive"
+    }
+  ],
   "sources": [
     {
       "platform": "windows",

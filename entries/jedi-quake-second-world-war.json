@@ -6,9 +6,12 @@
     "Agrip"
   ],
   "description": "This section contains several user-created mods for the game, along with a basic introductory tutorial to creating your own mod.",
-  "links": {
-    "agarchive": "https://www.agarchive.net/pages/devs/agrip.html"
-  },
+  "links": [
+    {
+      "url": "https://www.agarchive.net/pages/devs/agrip.html",
+      "label": "Archived at agarchive"
+    }
+  ],
   "sources": [
     {
       "platform": "windows",

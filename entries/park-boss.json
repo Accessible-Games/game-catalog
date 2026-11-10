@@ -6,10 +6,16 @@
     "NA Soft"
   ],
   "description": "Build rides, hire employees and offer fun to the whole family in this comedic amusement park simulator, all the while watching out for your bottom line.",
-  "links": {
-    "homepage": "http://www.ndadamson.com/index.php?slab=park-boss",
-    "agarchive": "https://www.agarchive.net/pages/devs/naSoft.html"
-  },
+  "links": [
+    {
+      "url": "http://www.ndadamson.com/index.php?slab=park-boss",
+      "label": "Homepage"
+    },
+    {
+      "url": "https://www.agarchive.net/pages/devs/naSoft.html",
+      "label": "Archived at agarchive"
+    }
+  ],
   "sources": [
     {
       "platform": "windows",

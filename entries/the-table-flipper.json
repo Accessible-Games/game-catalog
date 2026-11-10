@@ -6,12 +6,13 @@
     "Phantom Creations"
   ],
   "description": "What are random objects for? To flip, throw, or otherwise break, of course. Run around and destroy as much as you can. Just keep an eye (or ear) out for random air raids, since some unknown group doesn't seem to mind taking you out along with the rest of the junk.\n\nTTF supports the creation of user-defined objects which can then be included in gameplay. An archive of 52 available objects (not including the default set) is provided below. If you have created objects of your own and would like us to include them in this archive, please get in touch.",
-  "flags": [
-    "abandoned"
+  "unsupported": true,
+  "links": [
+    {
+      "url": "https://www.agarchive.net/pages/devs/phantomCreations.html",
+      "label": "Archived at agarchive"
+    }
   ],
-  "links": {
-    "agarchive": "https://www.agarchive.net/pages/devs/phantomCreations.html"
-  },
   "sources": [
     {
       "platform": "windows",

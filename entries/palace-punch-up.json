@@ -6,13 +6,16 @@
     "Blastbay Studios"
   ],
   "description": "You and your worst enemy have moved in next door to each other, and you have both built beautiful palaces. What better way for both of you to vent your anger towards each other than happily chuck rocks at your palaces until one or the other gets destroyed? In this game, you do just that.",
-  "flags": [
-    "abandoned",
-    "multiplayer"
+  "tags": [
+    "Multiplayer"
   ],
-  "links": {
-    "agarchive": "https://www.agarchive.net/pages/devs/blastbay.html"
-  },
+  "unsupported": true,
+  "links": [
+    {
+      "url": "https://www.agarchive.net/pages/devs/blastbay.html",
+      "label": "Archived at agarchive"
+    }
+  ],
   "sources": [
     {
       "platform": "windows",

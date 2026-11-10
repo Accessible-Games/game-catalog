@@ -6,10 +6,16 @@
     "Dr_Al_"
   ],
   "description": "A fishing game. Written entirely in Windows batch script.",
-  "links": {
-    "homepage": "https://doctoral.weebly.com/batch-games.html",
-    "agarchive": "https://www.agarchive.net/pages/devs/misc.html"
-  },
+  "links": [
+    {
+      "url": "https://doctoral.weebly.com/batch-games.html",
+      "label": "Homepage"
+    },
+    {
+      "url": "https://www.agarchive.net/pages/devs/misc.html",
+      "label": "Archived at agarchive"
+    }
+  ],
   "sources": [
     {
       "label": "Mirror",

@@ -6,12 +6,13 @@
     "various authors"
   ],
   "description": "One of the experimental games made by university students and first hosted on audiogames.net.",
-  "flags": [
-    "abandoned"
+  "unsupported": true,
+  "links": [
+    {
+      "url": "https://www.agarchive.net/pages/devs/misc.html",
+      "label": "Archived at agarchive"
+    }
   ],
-  "links": {
-    "agarchive": "https://www.agarchive.net/pages/devs/misc.html"
-  },
   "sources": [
     {
       "label": "Mirror",

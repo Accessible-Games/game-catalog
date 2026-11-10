@@ -5,12 +5,13 @@
   "developer": [
     "Brian Bors"
   ],
-  "flags": [
-    "abandoned"
+  "unsupported": true,
+  "links": [
+    {
+      "url": "https://www.agarchive.net/pages/devs/brianBors.html",
+      "label": "Archived at agarchive"
+    }
   ],
-  "links": {
-    "agarchive": "https://www.agarchive.net/pages/devs/brianBors.html"
-  },
   "sources": [
     {
       "platform": "windows",

@@ -5,12 +5,13 @@
   "developer": [
     "Dragon Slayer Games"
   ],
-  "flags": [
-    "abandoned"
+  "unsupported": true,
+  "links": [
+    {
+      "url": "https://www.agarchive.net/pages/devs/dragonslayer.html",
+      "label": "Archived at agarchive"
+    }
   ],
-  "links": {
-    "agarchive": "https://www.agarchive.net/pages/devs/dragonslayer.html"
-  },
   "sources": [
     {
       "platform": "windows",

@@ -6,9 +6,12 @@
     "Galaxy Laboratory"
   ],
   "description": "This is a train simulator set in the fictional world of an RPG by another developer.",
-  "links": {
-    "agarchive": "https://www.agarchive.net/pages/devs/GalaxyLaboratory.html"
-  },
+  "links": [
+    {
+      "url": "https://www.agarchive.net/pages/devs/GalaxyLaboratory.html",
+      "label": "Archived at agarchive"
+    }
+  ],
   "sources": [
     {
       "label": "Developer site",

@@ -6,12 +6,13 @@
     "various authors"
   ],
   "description": "An endless runner-style game, in which you dodge platforms and jump obstacles.",
-  "flags": [
-    "abandoned"
+  "unsupported": true,
+  "links": [
+    {
+      "url": "https://www.agarchive.net/pages/devs/misc.html",
+      "label": "Archived at agarchive"
+    }
   ],
-  "links": {
-    "agarchive": "https://www.agarchive.net/pages/devs/misc.html"
-  },
   "sources": [
     {
       "platform": "windows",

@@ -6,9 +6,12 @@
     "Nyanchan Games"
   ],
   "description": "This mod makes several changes to game mechanics and weaponry. To install, extract the archive to your existing game directory.\n\nNote that the mod is in Japanese and existing game translations will not apply to it. Non-fluent users will need an external translation method. The included English readme was created with Google Translate.",
-  "links": {
-    "agarchive": "https://www.agarchive.net/pages/devs/nyanchan.html"
-  },
+  "links": [
+    {
+      "url": "https://www.agarchive.net/pages/devs/nyanchan.html",
+      "label": "Archived at agarchive"
+    }
+  ],
   "sources": [
     {
       "label": "Developer site",

@@ -6,13 +6,17 @@
     "various authors"
   ],
   "description": "This is a platform-style game, similar to Super Mario or Sonic the Hedgehog. Review the developer's website for game controls and some demonstration videos.\n\nThis game's support and development status is unknown.",
-  "flags": [
-    "abandoned"
+  "unsupported": true,
+  "links": [
+    {
+      "url": "http://www.mikeoren.com/csproj.htm",
+      "label": "Homepage"
+    },
+    {
+      "url": "https://www.agarchive.net/pages/devs/misc.html",
+      "label": "Archived at agarchive"
+    }
   ],
-  "links": {
-    "homepage": "http://www.mikeoren.com/csproj.htm",
-    "agarchive": "https://www.agarchive.net/pages/devs/misc.html"
-  },
   "sources": [
     {
       "platform": "windows",

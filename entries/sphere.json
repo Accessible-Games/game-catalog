@@ -6,12 +6,13 @@
     "LWorks"
   ],
   "description": "Sphere was a game under development that would have been a modern adaptation of pong, with several characters and levels.\n\nThough the game was never finished, beta demos are available for two different versions.",
-  "flags": [
-    "abandoned"
+  "unsupported": true,
+  "links": [
+    {
+      "url": "https://www.agarchive.net/pages/devs/lworks.html",
+      "label": "Archived at agarchive"
+    }
   ],
-  "links": {
-    "agarchive": "https://www.agarchive.net/pages/devs/lworks.html"
-  },
   "sources": [
     {
       "platform": "windows",

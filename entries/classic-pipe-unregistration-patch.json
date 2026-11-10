@@ -6,12 +6,13 @@
     "BSC Games"
   ],
   "description": "Puts a clean license file back when the game says its registration is invalid, or asks you to register again although you already did. Run the patch, then use BSC's unlock code utility to make a new unlock code and register again. There's no need to reinstall the game.",
-  "flags": [
-    "abandoned"
+  "unsupported": true,
+  "links": [
+    {
+      "url": "https://www.agarchive.net/pages/devs/bsc.html",
+      "label": "Archived at agarchive"
+    }
   ],
-  "links": {
-    "agarchive": "https://www.agarchive.net/pages/devs/bsc.html"
-  },
   "sources": [
     {
       "label": "Mirror",

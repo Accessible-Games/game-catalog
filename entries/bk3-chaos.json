@@ -6,12 +6,13 @@
     "Nyanchan Games"
   ],
   "description": "This expansion pack for Bokurano Daibouken 3 makes several changes to game mechanics, adds new weapons, and modifies stages. Specific details are covered by the included readme.\n\nAs with BK2 Chaos, the mod is in Japanese, with English translations created using Google Translate.",
-  "flags": [
-    "abandoned"
+  "unsupported": true,
+  "links": [
+    {
+      "url": "https://www.agarchive.net/pages/devs/nyanchan.html",
+      "label": "Archived at agarchive"
+    }
   ],
-  "links": {
-    "agarchive": "https://www.agarchive.net/pages/devs/nyanchan.html"
-  },
   "sources": [
     {
       "platform": "windows",

@@ -6,9 +6,12 @@
     "Rocky Waters"
   ],
   "description": "It was a nice, peaceful village. Now, not so much. Can you help your villagers find a path to peace and prosparity once more? Assign villagers to different tasks, go on quests, earn the king's ear, and even vanquish the dragon... if you can.",
-  "links": {
-    "agarchive": "https://www.agarchive.net/pages/devs/rockyWaters.html"
-  },
+  "links": [
+    {
+      "url": "https://www.agarchive.net/pages/devs/rockyWaters.html",
+      "label": "Archived at agarchive"
+    }
+  ],
   "sources": [
     {
       "platform": "windows",

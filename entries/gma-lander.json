@@ -6,9 +6,12 @@
     "GMA Games"
   ],
   "description": "This is a game where the challenge is to land a spaceship on a planet, moon, or gas giant. Using the spacebar to control the ship's thrusters try to land. There's really not a lot to the game and what there is can be gleaned by going through the game's help or reading the manual. This doesn't make it easy, however.",
-  "links": {
-    "agarchive": "https://www.agarchive.net/pages/devs/gma.html"
-  },
+  "links": [
+    {
+      "url": "https://www.agarchive.net/pages/devs/gma.html",
+      "label": "Archived at agarchive"
+    }
+  ],
   "sources": [
     {
       "label": "Developer site",

@@ -5,13 +5,16 @@
   "developer": [
     "VIP GamesZone"
   ],
-  "flags": [
-    "abandoned",
-    "multiplayer"
+  "tags": [
+    "Multiplayer"
   ],
-  "links": {
-    "agarchive": "https://www.agarchive.net/pages/devs/vip.html"
-  },
+  "unsupported": true,
+  "links": [
+    {
+      "url": "https://www.agarchive.net/pages/devs/vip.html",
+      "label": "Archived at agarchive"
+    }
+  ],
   "sources": [
     {
       "platform": "windows",

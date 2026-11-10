@@ -6,10 +6,16 @@
     "Shard Workshop"
   ],
   "description": "Pick a song, split it into parts, and see if you can put them back in the proper order.",
-  "links": {
-    "homepage": "https://www.shardworkshop.com/audiogames/music-puzzle.php",
-    "agarchive": "https://www.agarchive.net/pages/devs/shardWorkshop.html"
-  },
+  "links": [
+    {
+      "url": "https://www.shardworkshop.com/audiogames/music-puzzle.php",
+      "label": "Homepage"
+    },
+    {
+      "url": "https://www.agarchive.net/pages/devs/shardWorkshop.html",
+      "label": "Archived at agarchive"
+    }
+  ],
   "sources": [
     {
       "platform": "windows",

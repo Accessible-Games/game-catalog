@@ -6,13 +6,17 @@
     "various authors"
   ],
   "description": "Test out a new vehicle under development at the Cycom Test Lab. Drive along the track, pick up boosters to gain more speed and hopefully provide some enjoyment for your copilot along the way.\n\nNote that while the Dutch version of this game is listed on the game's info page, the download link provided currently returns a 403 error.",
-  "flags": [
-    "abandoned"
+  "unsupported": true,
+  "links": [
+    {
+      "url": "https://audiogames.net/drive/",
+      "label": "Homepage"
+    },
+    {
+      "url": "https://www.agarchive.net/pages/devs/misc.html",
+      "label": "Archived at agarchive"
+    }
   ],
-  "links": {
-    "homepage": "https://audiogames.net/drive/",
-    "agarchive": "https://www.agarchive.net/pages/devs/misc.html"
-  },
   "sources": [
     {
       "platform": "windows",

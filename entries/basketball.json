@@ -5,9 +5,12 @@
   "developer": [
     "Mason Armstrong"
   ],
-  "links": {
-    "agarchive": "https://www.agarchive.net/pages/devs/mason.html"
-  },
+  "links": [
+    {
+      "url": "https://www.agarchive.net/pages/devs/mason.html",
+      "label": "Archived at agarchive"
+    }
+  ],
   "sources": [
     {
       "platform": "windows",

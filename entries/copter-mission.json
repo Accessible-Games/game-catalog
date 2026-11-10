@@ -6,9 +6,12 @@
     "Oriol Gomez"
   ],
   "description": "As a soldger piloting a damaged helicopter over a future war-torn Chinese city, you must navigate through buildings and avoid missiles using your remaining weapons to find a safe landing in this heart-pounding arcade action game. can you overcome the obsticals and be the victor?",
-  "links": {
-    "agarchive": "https://www.agarchive.net/pages/devs/oriolgomez.html"
-  },
+  "links": [
+    {
+      "url": "https://www.agarchive.net/pages/devs/oriolgomez.html",
+      "label": "Archived at agarchive"
+    }
+  ],
   "sources": [
     {
       "platform": "windows",

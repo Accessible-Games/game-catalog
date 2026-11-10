@@ -6,9 +6,12 @@
     "VG Storm"
   ],
   "description": "Three custom stages made by players: Bluescreen, Stage of No Return and System Volume Information.",
-  "links": {
-    "agarchive": "https://www.agarchive.net/pages/devs/vgstorm.html"
-  },
+  "links": [
+    {
+      "url": "https://www.agarchive.net/pages/devs/vgstorm.html",
+      "label": "Archived at agarchive"
+    }
+  ],
   "sources": [
     {
       "platform": "windows",

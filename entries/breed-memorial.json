@@ -6,9 +6,12 @@
     "Morokuma"
   ],
   "description": "Breed Memorial is a monster raising simulation game. You find monsters hidden in computer files and raise them to enter competitions.\n\nEach monster has unique abilities and personalities. Through training and caring for their needs you boost their stats to win races, battles, and capture the flag matches against other players.\n\nSuccessfully raising monsters allows combining them to create an even stronger new monster. The goal is to unlock rare monster types, expand your farm, and become the top trainer through bonding with and evolving your monstrous pets.",
-  "links": {
-    "agarchive": "https://www.agarchive.net/pages/devs/morokuma.html"
-  },
+  "links": [
+    {
+      "url": "https://www.agarchive.net/pages/devs/morokuma.html",
+      "label": "Archived at agarchive"
+    }
+  ],
   "sources": [
     {
       "label": "Developer site",

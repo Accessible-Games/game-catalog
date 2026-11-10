@@ -6,9 +6,12 @@
     "Galaxy Laboratory"
   ],
   "description": "A far more advanced version of ShadowRine, containing voice acting and many other features.",
-  "links": {
-    "agarchive": "https://www.agarchive.net/pages/devs/GalaxyLaboratory.html"
-  },
+  "links": [
+    {
+      "url": "https://www.agarchive.net/pages/devs/GalaxyLaboratory.html",
+      "label": "Archived at agarchive"
+    }
+  ],
   "sources": [
     {
       "label": "Developer site",

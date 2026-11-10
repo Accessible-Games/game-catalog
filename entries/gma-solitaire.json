@@ -6,12 +6,13 @@
     "GMA Games"
   ],
   "description": "This is an old stand-alone version of Solitaire, which has since been incorporated into GMA Cards.\n\nFor this reason, we have flagged the game as unsupported.",
-  "flags": [
-    "abandoned"
+  "unsupported": true,
+  "links": [
+    {
+      "url": "https://www.agarchive.net/pages/devs/gma.html",
+      "label": "Archived at agarchive"
+    }
   ],
-  "links": {
-    "agarchive": "https://www.agarchive.net/pages/devs/gma.html"
-  },
   "sources": [
     {
       "platform": "windows",

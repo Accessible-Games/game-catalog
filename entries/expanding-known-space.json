@@ -5,13 +5,19 @@
   "developer": [
     "Valiant Galaxy Associates"
   ],
-  "flags": [
-    "requires-registration"
-  ],
-  "links": {
-    "homepage": "https://guidedoggames.com:7081/games/5",
-    "agarchive": "https://www.agarchive.net/pages/devs/vga.html"
+  "pricing": {
+    "model": "free-to-try"
   },
+  "links": [
+    {
+      "url": "https://guidedoggames.com:7081/games/5",
+      "label": "Homepage"
+    },
+    {
+      "url": "https://www.agarchive.net/pages/devs/vga.html",
+      "label": "Archived at agarchive"
+    }
+  ],
   "sources": [
     {
       "label": "Developer site",

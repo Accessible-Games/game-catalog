@@ -6,9 +6,12 @@
     "2MB Games"
   ],
   "description": "This small endless-runner game was a submission to Trijam 186 on itch.io. Try to cross a pit, without falling in quicksand or being eaten by alligators, and do it by bouncing on the noses of those gators too slow to open their mouths in time.\n\nIt can be played directly in your browser from its official download page on itch.io or you can download offline versions for Linux, Mac, and Windows below.",
-  "links": {
-    "agarchive": "https://www.agarchive.net/pages/devs/2mb.html"
-  },
+  "links": [
+    {
+      "url": "https://www.agarchive.net/pages/devs/2mb.html",
+      "label": "Archived at agarchive"
+    }
+  ],
   "sources": [
     {
       "platform": "windows",

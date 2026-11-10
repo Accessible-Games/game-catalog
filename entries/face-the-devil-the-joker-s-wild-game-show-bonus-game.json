@@ -6,9 +6,12 @@
     "Jage Meddaugh"
   ],
   "description": "This is an adaptation of the bonus game from the Joker's Wild game show. See if you can reach $1000 without landing on the dreaded devil!",
-  "links": {
-    "agarchive": "https://www.agarchive.net/pages/devs/jage.html"
-  },
+  "links": [
+    {
+      "url": "https://www.agarchive.net/pages/devs/jage.html",
+      "label": "Archived at agarchive"
+    }
+  ],
   "sources": [
     {
       "platform": "windows",

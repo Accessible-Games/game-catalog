@@ -5,9 +5,12 @@
   "developer": [
     "Aprone"
   ],
-  "links": {
-    "agarchive": "https://www.agarchive.net/pages/devs/aprone.html"
-  },
+  "links": [
+    {
+      "url": "https://www.agarchive.net/pages/devs/aprone.html",
+      "label": "Archived at agarchive"
+    }
+  ],
   "sources": [
     {
       "label": "Developer site",

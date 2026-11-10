@@ -6,12 +6,13 @@
     "various authors"
   ],
   "description": "Command a submarine exploring the deep sea, and find your way and treasure with its sonar.\n\nOne of the experimental games made by university students and first hosted on audiogames.net.",
-  "flags": [
-    "abandoned"
+  "unsupported": true,
+  "links": [
+    {
+      "url": "https://www.agarchive.net/pages/devs/misc.html",
+      "label": "Archived at agarchive"
+    }
   ],
-  "links": {
-    "agarchive": "https://www.agarchive.net/pages/devs/misc.html"
-  },
   "sources": [
     {
       "label": "Mirror",

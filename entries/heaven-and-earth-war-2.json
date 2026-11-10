@@ -6,9 +6,12 @@
     "Morokuma"
   ],
   "description": "An RPG built with Text Game Maker. A direct sequel to Heaven and Earth War 1.",
-  "links": {
-    "agarchive": "https://www.agarchive.net/pages/devs/morokuma.html"
-  },
+  "links": [
+    {
+      "url": "https://www.agarchive.net/pages/devs/morokuma.html",
+      "label": "Archived at agarchive"
+    }
+  ],
   "sources": [
     {
       "platform": "windows",

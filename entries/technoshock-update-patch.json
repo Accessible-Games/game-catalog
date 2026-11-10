@@ -6,12 +6,13 @@
     "Anatol Kamynin"
   ],
   "description": "update to fix a few bugs and add a learn sounds option",
-  "flags": [
-    "abandoned"
+  "unsupported": true,
+  "links": [
+    {
+      "url": "https://www.agarchive.net/pages/devs/technoshock.html",
+      "label": "Archived at agarchive"
+    }
   ],
-  "links": {
-    "agarchive": "https://www.agarchive.net/pages/devs/technoshock.html"
-  },
   "sources": [
     {
       "platform": "windows",

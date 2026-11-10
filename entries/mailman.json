@@ -6,9 +6,12 @@
     "various authors"
   ],
   "description": "Deliver letters to mailboxes scattered around the map in this arcade survival game. If only it were that simple.",
-  "links": {
-    "agarchive": "https://www.agarchive.net/pages/devs/misc.html"
-  },
+  "links": [
+    {
+      "url": "https://www.agarchive.net/pages/devs/misc.html",
+      "label": "Archived at agarchive"
+    }
+  ],
   "sources": [
     {
       "platform": "windows",

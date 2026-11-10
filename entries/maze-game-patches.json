@@ -6,12 +6,13 @@
     "TDL Games"
   ],
   "description": "a pair of update patches for the maze game. Their affect is somewhat unclear; if you know specifically what these do, please get in touch",
-  "flags": [
-    "abandoned"
+  "unsupported": true,
+  "links": [
+    {
+      "url": "https://www.agarchive.net/pages/devs/tdl.html",
+      "label": "Archived at agarchive"
+    }
   ],
-  "links": {
-    "agarchive": "https://www.agarchive.net/pages/devs/tdl.html"
-  },
   "sources": [
     {
       "platform": "windows",

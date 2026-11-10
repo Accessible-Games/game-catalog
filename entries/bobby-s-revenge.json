@@ -6,12 +6,13 @@
     "BSC Games"
   ],
   "description": "What does eight year old Bobby do when he doesn't get a best-in-class gaming PC for Christmas? Engage in a paintball/taser match with Santa's slay, that's what!\n\nTake some rounds at Santa's slay, and with dad's taser make him bounce off the sides of the field before he can go out of range in this demented Christmas festivity!",
-  "flags": [
-    "abandoned"
+  "unsupported": true,
+  "links": [
+    {
+      "url": "https://www.agarchive.net/pages/devs/bsc.html",
+      "label": "Archived at agarchive"
+    }
   ],
-  "links": {
-    "agarchive": "https://www.agarchive.net/pages/devs/bsc.html"
-  },
   "sources": [
     {
       "platform": "windows",

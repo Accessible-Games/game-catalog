@@ -6,9 +6,12 @@
     "Pontes Games"
   ],
   "description": "This is a surprisingly difficult mathematical/strategy challenge, often used in computing circles as a demonstration of some advanced concepts.",
-  "links": {
-    "agarchive": "https://www.agarchive.net/pages/devs/pontes.html"
-  },
+  "links": [
+    {
+      "url": "https://www.agarchive.net/pages/devs/pontes.html",
+      "label": "Archived at agarchive"
+    }
+  ],
   "sources": [
     {
       "platform": "windows",

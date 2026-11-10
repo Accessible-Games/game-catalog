@@ -5,14 +5,19 @@
   "developer": [
     "Draconis Entertainment"
   ],
-  "flags": [
-    "demo",
-    "requires-registration"
-  ],
-  "links": {
-    "homepage": "http://dracoent.com/Windows/SilverDollar",
-    "agarchive": "https://www.agarchive.net/pages/devs/draconis.html"
+  "pricing": {
+    "model": "free-to-try"
   },
+  "links": [
+    {
+      "url": "http://dracoent.com/Windows/SilverDollar",
+      "label": "Homepage"
+    },
+    {
+      "url": "https://www.agarchive.net/pages/devs/draconis.html",
+      "label": "Archived at agarchive"
+    }
+  ],
   "sources": [
     {
       "label": "Developer site",

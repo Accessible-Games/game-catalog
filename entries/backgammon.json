@@ -5,14 +5,22 @@
   "developer": [
     "Pontes Games"
   ],
-  "flags": [
-    "multiplayer",
-    "requires-registration"
-  ],
-  "links": {
-    "homepage": "http://www.pontes.ro/backgammon/index.php",
-    "agarchive": "https://www.agarchive.net/pages/devs/pontes.html"
+  "pricing": {
+    "model": "free-to-try"
   },
+  "tags": [
+    "Multiplayer"
+  ],
+  "links": [
+    {
+      "url": "http://www.pontes.ro/backgammon/index.php",
+      "label": "Homepage"
+    },
+    {
+      "url": "https://www.agarchive.net/pages/devs/pontes.html",
+      "label": "Archived at agarchive"
+    }
+  ],
   "sources": [
     {
       "label": "Developer site",

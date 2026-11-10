@@ -6,10 +6,16 @@
     "Blastbay Studios"
   ],
   "description": "Santa is in big trouble. An angry old elf named Borgot is not happy with his working conditions and has decided to start a revolution with the purpose of putting the old man in his place once and for all. It seems that the first step in the elves' revolution is to destroy all your gifts, so your goal, playing as the jolly old man himself, is to put a stop to it, punching any elves that get in your way and hopefully saving as many gifts as you can before the elves take them to a garbage disposal unit on the right side of the field.",
-  "links": {
-    "homepage": "https://www.blastbay.com/kringle_crash.php",
-    "agarchive": "https://www.agarchive.net/pages/devs/blastbay.html"
-  },
+  "links": [
+    {
+      "url": "https://www.blastbay.com/kringle_crash.php",
+      "label": "Homepage"
+    },
+    {
+      "url": "https://www.agarchive.net/pages/devs/blastbay.html",
+      "label": "Archived at agarchive"
+    }
+  ],
   "sources": [
     {
       "label": "Developer site",

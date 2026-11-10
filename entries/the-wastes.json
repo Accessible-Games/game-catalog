@@ -6,9 +6,12 @@
     "the Wastelander"
   ],
   "description": "Due to a computer catastrophe, the Wastes is no longer under development. We have done our best to preserve as many versions of the game as possible. Each version of the game has been repackaged into a .7z archive, which includes all of the original game files as well as the changelog matching that particular release. Go to the game's reddit page.",
-  "links": {
-    "agarchive": "https://www.agarchive.net/pages/devs/wastelander.html"
-  },
+  "links": [
+    {
+      "url": "https://www.agarchive.net/pages/devs/wastelander.html",
+      "label": "Archived at agarchive"
+    }
+  ],
   "sources": [
     {
       "platform": "windows",

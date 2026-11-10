@@ -6,9 +6,12 @@
     "Oriol Gomez"
   ],
   "description": "A clone of the infamous Flappy Bird, but with the addition of a rather angry grandpa who is not too happy when he loses, and will take great care to make sure you're aware of that.",
-  "links": {
-    "agarchive": "https://www.agarchive.net/pages/devs/oriolgomez.html"
-  },
+  "links": [
+    {
+      "url": "https://www.agarchive.net/pages/devs/oriolgomez.html",
+      "label": "Archived at agarchive"
+    }
+  ],
   "sources": [
     {
       "platform": "windows",

@@ -6,12 +6,13 @@
     "The Blind Seers"
   ],
   "description": "Take on the role of King Arthur's champion and joust against five knights, with the crowd's help. A tutorial is included.\n\nOne of the experimental games made by university students and first hosted on audiogames.net.",
-  "flags": [
-    "abandoned"
+  "unsupported": true,
+  "links": [
+    {
+      "url": "https://www.agarchive.net/pages/devs/misc.html",
+      "label": "Archived at agarchive"
+    }
   ],
-  "links": {
-    "agarchive": "https://www.agarchive.net/pages/devs/misc.html"
-  },
   "sources": [
     {
       "label": "Mirror",

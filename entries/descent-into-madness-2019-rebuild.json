@@ -6,10 +6,16 @@
     "Sounds Like Fun"
   ],
   "description": "This rework of the game fixes several bugs.",
-  "links": {
-    "homepage": "https://github.com/libreaudiogamer/DescentIntoMadness/",
-    "agarchive": "https://www.agarchive.net/pages/devs/soundsLikeFun.html"
-  },
+  "links": [
+    {
+      "url": "https://github.com/libreaudiogamer/DescentIntoMadness/",
+      "label": "Homepage"
+    },
+    {
+      "url": "https://www.agarchive.net/pages/devs/soundsLikeFun.html",
+      "label": "Archived at agarchive"
+    }
+  ],
   "sources": [
     {
       "label": "Developer site",

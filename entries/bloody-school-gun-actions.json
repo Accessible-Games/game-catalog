@@ -6,12 +6,13 @@
     "Comb"
   ],
   "description": "Small game based on the shooting element in Bloody School. Can not currently download from the developer.",
-  "flags": [
-    "abandoned"
+  "unsupported": true,
+  "links": [
+    {
+      "url": "https://www.agarchive.net/pages/devs/comb.html",
+      "label": "Archived at agarchive"
+    }
   ],
-  "links": {
-    "agarchive": "https://www.agarchive.net/pages/devs/comb.html"
-  },
   "sources": [
     {
       "platform": "windows",

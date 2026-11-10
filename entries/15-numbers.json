@@ -6,13 +6,16 @@
     "BSC Games"
   ],
   "description": "This is a sliding puzzle game with 16 slots; 15 being the 15 numbers and then a blank area that you must move around with other numbers. You have to put the numbers in exact order. Think that's easy? Download it and find out it is anything but that...Note that this game cannot be registered through the official key generator. Therefore, you are limited to the 15 execution trial version.",
-  "flags": [
-    "abandoned",
-    "demo"
-  ],
-  "links": {
-    "agarchive": "https://www.agarchive.net/pages/devs/bsc.html"
+  "pricing": {
+    "model": "free-to-try"
   },
+  "unsupported": true,
+  "links": [
+    {
+      "url": "https://www.agarchive.net/pages/devs/bsc.html",
+      "label": "Archived at agarchive"
+    }
+  ],
   "sources": [
     {
       "platform": "windows",

@@ -6,9 +6,12 @@
     "GMA Games"
   ],
   "description": "Remember Minesweeper? This is basically a Minesweeper clone. Use logic and deductive reasoning to clear all the cells without mines.",
-  "links": {
-    "agarchive": "https://www.agarchive.net/pages/devs/gma.html"
-  },
+  "links": [
+    {
+      "url": "https://www.agarchive.net/pages/devs/gma.html",
+      "label": "Archived at agarchive"
+    }
+  ],
   "sources": [
     {
       "label": "Developer site",

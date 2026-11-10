@@ -6,12 +6,13 @@
     "Quentin C"
   ],
   "description": "This game is similar to Magic Blocks, but with features and no multiplayer support. Unlike Magic Blocks, it should still run under windows 10. The game is also translatable to other languages. If you create or have any language packs for it, please let us know, and we'd be glad to include them along with the game itself.",
-  "flags": [
-    "abandoned"
+  "unsupported": true,
+  "links": [
+    {
+      "url": "https://www.agarchive.net/pages/devs/qc.html",
+      "label": "Archived at agarchive"
+    }
   ],
-  "links": {
-    "agarchive": "https://www.agarchive.net/pages/devs/qc.html"
-  },
   "sources": [
     {
       "platform": "windows",

@@ -5,13 +5,19 @@
   "developer": [
     "VG Storm"
   ],
-  "flags": [
-    "requires-registration"
-  ],
-  "links": {
-    "homepage": "http://www.vgstorm.com/manamon2.php",
-    "agarchive": "https://www.agarchive.net/pages/devs/vgstorm.html"
+  "pricing": {
+    "model": "free-to-try"
   },
+  "links": [
+    {
+      "url": "http://www.vgstorm.com/manamon2.php",
+      "label": "Homepage"
+    },
+    {
+      "url": "https://www.agarchive.net/pages/devs/vgstorm.html",
+      "label": "Archived at agarchive"
+    }
+  ],
   "sources": [
     {
       "label": "Developer site",

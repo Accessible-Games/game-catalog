@@ -6,12 +6,13 @@
     "Talon"
   ],
   "description": "One of Talon's old, unsupported games. It comes with its AutoIt source code.",
-  "flags": [
-    "abandoned"
+  "unsupported": true,
+  "links": [
+    {
+      "url": "https://www.agarchive.net/pages/devs/talon.html",
+      "label": "Archived at agarchive"
+    }
   ],
-  "links": {
-    "agarchive": "https://www.agarchive.net/pages/devs/talon.html"
-  },
   "sources": [
     {
       "label": "Mirror",

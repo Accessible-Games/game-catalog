@@ -6,9 +6,12 @@
     "Rocky Waters"
   ],
   "description": "Test your nerve and skill in cities from London to Las Vegas, and try to walk away with all the chips.",
-  "links": {
-    "agarchive": "https://www.agarchive.net/pages/devs/rockyWaters.html"
-  },
+  "links": [
+    {
+      "url": "https://www.agarchive.net/pages/devs/rockyWaters.html",
+      "label": "Archived at agarchive"
+    }
+  ],
   "sources": [
     {
       "label": "Developer site",

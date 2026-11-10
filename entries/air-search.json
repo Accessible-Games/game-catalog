@@ -6,13 +6,17 @@
     "various authors"
   ],
   "description": "This game contains both English and German content. Your goal is to complete various tasks on several different maps.\n\nThe game's support and development status is unknown. The developer's website contains several different download links, and we strongly recommend that you review these. The archive's copy is an attempt to include both the English and German versions in a single package.",
-  "flags": [
-    "abandoned"
+  "unsupported": true,
+  "links": [
+    {
+      "url": "http://www.49-6-dev.net/airsearchen.htm",
+      "label": "Homepage"
+    },
+    {
+      "url": "https://www.agarchive.net/pages/devs/misc.html",
+      "label": "Archived at agarchive"
+    }
   ],
-  "links": {
-    "homepage": "http://www.49-6-dev.net/airsearchen.htm",
-    "agarchive": "https://www.agarchive.net/pages/devs/misc.html"
-  },
   "sources": [
     {
       "platform": "windows",

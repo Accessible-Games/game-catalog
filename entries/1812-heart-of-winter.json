@@ -6,9 +6,12 @@
     "various authors"
   ],
   "description": "In this highly atmospheric storygame, you take the role of a retired soldier when danger threatens.\n\nThis is one part of an intended multipart storyline.\n\nThe status of the later portions of the story is currently unknown, though abandonment is suspected. If you have any information regarding the development of the game, please let us know.",
-  "links": {
-    "agarchive": "https://www.agarchive.net/pages/devs/misc.html"
-  },
+  "links": [
+    {
+      "url": "https://www.agarchive.net/pages/devs/misc.html",
+      "label": "Archived at agarchive"
+    }
+  ],
   "sources": [
     {
       "platform": "windows",

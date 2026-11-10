@@ -5,13 +5,17 @@
   "developer": [
     "Playing in the Dark"
   ],
-  "flags": [
-    "abandoned"
+  "unsupported": true,
+  "links": [
+    {
+      "url": "http://www.playinginthedark.net/topspeed3_e.php",
+      "label": "Homepage"
+    },
+    {
+      "url": "https://www.agarchive.net/pages/devs/pitd.html",
+      "label": "Archived at agarchive"
+    }
   ],
-  "links": {
-    "homepage": "http://www.playinginthedark.net/topspeed3_e.php",
-    "agarchive": "https://www.agarchive.net/pages/devs/pitd.html"
-  },
   "sources": [
     {
       "label": "Developer site",

@@ -6,12 +6,13 @@
     "Francis Wolf"
   ],
   "description": "This version of the game includes a multilingual installer and a fourth chapter. Its the recommended download unless you want the older version for a specific reason.",
-  "flags": [
-    "abandoned"
+  "unsupported": true,
+  "links": [
+    {
+      "url": "https://www.agarchive.net/pages/devs/francisWolf.html",
+      "label": "Archived at agarchive"
+    }
   ],
-  "links": {
-    "agarchive": "https://www.agarchive.net/pages/devs/francisWolf.html"
-  },
   "sources": [
     {
       "platform": "windows",

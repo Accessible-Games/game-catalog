@@ -6,10 +6,16 @@
     "LWorks"
   ],
   "description": "Help Blind Bob on a daring walk around his treacherous neighborhood. Avoid crashing into poles, falling into sewers, and being run over by insane cyclists. Be careful to stay on the sidewalk though, for one misstep brings swift pain at the bumper of a speeding car or the teeth of the neighbor's terrifying dog.",
-  "links": {
-    "homepage": "http://l-works.net/blindedguide.php",
-    "agarchive": "https://www.agarchive.net/pages/devs/lworks.html"
-  },
+  "links": [
+    {
+      "url": "http://l-works.net/blindedguide.php",
+      "label": "Homepage"
+    },
+    {
+      "url": "https://www.agarchive.net/pages/devs/lworks.html",
+      "label": "Archived at agarchive"
+    }
+  ],
   "sources": [
     {
       "platform": "windows",

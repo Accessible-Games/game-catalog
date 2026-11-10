@@ -6,12 +6,13 @@
     "various authors"
   ],
   "description": "It's a beautiful day, and you're out boating with some friends... until something strikes the boat and you're knocked overboard. When you regain conciousness, you find yourself on a strange island - can you figure out what happened and find your friends before the secrets of the island lead you to your doom?\n\nThis game was released for both Windows and Mac.\n\nThe Mac version needs macOS 10.13 or earlier.",
-  "flags": [
-    "abandoned"
+  "unsupported": true,
+  "links": [
+    {
+      "url": "https://www.agarchive.net/pages/devs/misc.html",
+      "label": "Archived at agarchive"
+    }
   ],
-  "links": {
-    "agarchive": "https://www.agarchive.net/pages/devs/misc.html"
-  },
   "sources": [
     {
       "platform": "windows",

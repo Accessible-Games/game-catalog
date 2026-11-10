@@ -6,12 +6,13 @@
     "LWorks"
   ],
   "description": "It's this summer's hottest accessible game release...or rather, the rebirth of Liam's most famous fake game advertising bit. check out the beep commercial This was a movie in Judgement Day, which was accompanied by a fake beep option in the bonus games menu that resulted in you earning the beep trophy. Damien from x-sight rather amusingly brought this game to life with source code and all, but Liam never brought the game to life. I mean, think of the many hours and months it would take to code such a complex game. There's no way he'd get it done in time. *judgement day reference* Therefore, the game was never brought to life until Christmas in 2013, 8 years after the commercial! Nevertheless, it's here, and apart from the beep and the music, the sounds are exactly the same as in the commercial.",
-  "flags": [
-    "abandoned"
+  "unsupported": true,
+  "links": [
+    {
+      "url": "https://www.agarchive.net/pages/devs/lworks.html",
+      "label": "Archived at agarchive"
+    }
   ],
-  "links": {
-    "agarchive": "https://www.agarchive.net/pages/devs/lworks.html"
-  },
   "sources": [
     {
       "platform": "windows",

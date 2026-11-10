@@ -6,9 +6,12 @@
     "various authors"
   ],
   "description": "Please note that our version of Braillemon may be slightly out of date. If you can confirm this, please contact us.",
-  "links": {
-    "agarchive": "https://www.agarchive.net/pages/devs/misc.html"
-  },
+  "links": [
+    {
+      "url": "https://www.agarchive.net/pages/devs/misc.html",
+      "label": "Archived at agarchive"
+    }
+  ],
   "sources": [
     {
       "platform": "windows",

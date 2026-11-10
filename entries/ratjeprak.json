@@ -7,12 +7,13 @@
     "Sander Huiberts"
   ],
   "description": "Practise using the mouse: make your way through Professor Reijnhart's lab and squash the escaped mutant rats. In Dutch.\n\nOne of the experimental games made by university students and first hosted on audiogames.net.",
-  "flags": [
-    "abandoned"
+  "unsupported": true,
+  "links": [
+    {
+      "url": "https://www.agarchive.net/pages/devs/misc.html",
+      "label": "Archived at agarchive"
+    }
   ],
-  "links": {
-    "agarchive": "https://www.agarchive.net/pages/devs/misc.html"
-  },
   "sources": [
     {
       "label": "Mirror",

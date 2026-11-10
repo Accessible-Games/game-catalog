@@ -6,12 +6,13 @@
     "Sightless Wolf Entertainment"
   ],
   "description": "Reminiscent of games such as scrolling battles, this is a simple shooter. This beta version unlocks everything automatically.",
-  "flags": [
-    "abandoned"
+  "unsupported": true,
+  "links": [
+    {
+      "url": "https://www.agarchive.net/pages/devs/sightlessWolf.html",
+      "label": "Archived at agarchive"
+    }
   ],
-  "links": {
-    "agarchive": "https://www.agarchive.net/pages/devs/sightlessWolf.html"
-  },
   "sources": [
     {
       "platform": "windows",

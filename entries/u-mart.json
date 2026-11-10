@@ -6,9 +6,12 @@
     "Aprone"
   ],
   "description": "can you make your store the best? compete with other stores, manage your finances, and try to turn your small storefront into a shopping empire.",
-  "links": {
-    "agarchive": "https://www.agarchive.net/pages/devs/aprone.html"
-  },
+  "links": [
+    {
+      "url": "https://www.agarchive.net/pages/devs/aprone.html",
+      "label": "Archived at agarchive"
+    }
+  ],
   "sources": [
     {
       "label": "Developer site",

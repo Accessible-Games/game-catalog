@@ -6,12 +6,13 @@
     "various authors"
   ],
   "description": "Its a slot machine, and you don't even have to use real money!\n\nWe have very little information about this title. If you know who originally wrote it, please get in touch.",
-  "flags": [
-    "abandoned"
+  "unsupported": true,
+  "links": [
+    {
+      "url": "https://www.agarchive.net/pages/devs/misc.html",
+      "label": "Archived at agarchive"
+    }
   ],
-  "links": {
-    "agarchive": "https://www.agarchive.net/pages/devs/misc.html"
-  },
   "sources": [
     {
       "platform": "windows",

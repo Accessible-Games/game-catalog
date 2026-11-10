@@ -6,12 +6,13 @@
     "various authors"
   ],
   "description": "After a long night of drinking, you head home and are attacked by gun and chainsaw wielding maniacs. Armed with your trusty first world war revolver, you must shoot them when they attack you. Just be careful not to hit the cat!",
-  "flags": [
-    "abandoned"
+  "unsupported": true,
+  "links": [
+    {
+      "url": "https://www.agarchive.net/pages/devs/misc.html",
+      "label": "Archived at agarchive"
+    }
   ],
-  "links": {
-    "agarchive": "https://www.agarchive.net/pages/devs/misc.html"
-  },
   "sources": [
     {
       "platform": "windows",

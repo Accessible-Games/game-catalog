@@ -6,9 +6,12 @@
     "Mason Armstrong"
   ],
   "description": "Run along an endless platform, while doing your best to avoid customizable obstacles.",
-  "links": {
-    "agarchive": "https://www.agarchive.net/pages/devs/mason.html"
-  },
+  "links": [
+    {
+      "url": "https://www.agarchive.net/pages/devs/mason.html",
+      "label": "Archived at agarchive"
+    }
+  ],
   "sources": [
     {
       "platform": "windows",

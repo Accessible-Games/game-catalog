@@ -6,10 +6,16 @@
     "various authors"
   ],
   "description": "Just how many words can you type in 35 seconds? Find out in any of several game modes.",
-  "links": {
-    "homepage": "https://seediffusion.itch.io/typerspeed",
-    "agarchive": "https://www.agarchive.net/pages/devs/misc.html"
-  },
+  "links": [
+    {
+      "url": "https://seediffusion.itch.io/typerspeed",
+      "label": "Homepage"
+    },
+    {
+      "url": "https://www.agarchive.net/pages/devs/misc.html",
+      "label": "Archived at agarchive"
+    }
+  ],
   "sources": [
     {
       "platform": "windows",

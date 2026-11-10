@@ -5,9 +5,12 @@
   "developer": [
     "Freedom Games"
   ],
-  "links": {
-    "agarchive": "https://www.agarchive.net/pages/devs/freedom.html"
-  },
+  "links": [
+    {
+      "url": "https://www.agarchive.net/pages/devs/freedom.html",
+      "label": "Archived at agarchive"
+    }
+  ],
   "sources": [
     {
       "platform": "windows",

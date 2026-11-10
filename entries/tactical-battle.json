@@ -6,12 +6,13 @@
     "Ian Reed"
   ],
   "description": "Tactical Battle requires you to provide an email address before you can play. You only need do this once per computer, and once registered, can play offline without issues.",
-  "flags": [
-    "abandoned"
+  "unsupported": true,
+  "links": [
+    {
+      "url": "https://www.agarchive.net/pages/devs/IanReed.html",
+      "label": "Archived at agarchive"
+    }
   ],
-  "links": {
-    "agarchive": "https://www.agarchive.net/pages/devs/IanReed.html"
-  },
   "sources": [
     {
       "label": "Developer site",

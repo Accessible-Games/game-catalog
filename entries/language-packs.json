@@ -6,12 +6,13 @@
     "Playing in the Dark"
   ],
   "description": "This is an archive of all available language packs for Top Speed 3.",
-  "flags": [
-    "abandoned"
+  "unsupported": true,
+  "links": [
+    {
+      "url": "https://www.agarchive.net/pages/devs/pitd.html",
+      "label": "Archived at agarchive"
+    }
   ],
-  "links": {
-    "agarchive": "https://www.agarchive.net/pages/devs/pitd.html"
-  },
   "sources": [
     {
       "platform": "windows",

@@ -6,9 +6,12 @@
     "NS Studios"
   ],
   "description": "A side scroller in which the goal is to save the earth from aliens.",
-  "links": {
-    "agarchive": "https://www.agarchive.net/pages/devs/ns.html"
-  },
+  "links": [
+    {
+      "url": "https://www.agarchive.net/pages/devs/ns.html",
+      "label": "Archived at agarchive"
+    }
+  ],
   "sources": [
     {
       "label": "Developer site",

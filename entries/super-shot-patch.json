@@ -6,12 +6,13 @@
     "LWorks"
   ],
   "description": "Super Shot is a very addictive Bop-it style game.\n\nIt was originally commercial, but is now freeware.\n\nThis patch unlocks the full game.",
-  "flags": [
-    "abandoned"
+  "unsupported": true,
+  "links": [
+    {
+      "url": "https://www.agarchive.net/pages/devs/lworks.html",
+      "label": "Archived at agarchive"
+    }
   ],
-  "links": {
-    "agarchive": "https://www.agarchive.net/pages/devs/lworks.html"
-  },
   "sources": [
     {
       "platform": "windows",

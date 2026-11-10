@@ -6,9 +6,12 @@
     "Driftwood Entertainment"
   ],
   "description": "Makes Entombed speak through NVDA. After installing, choose System Access as the speech output mode in Entombed.\n\nNVDA works best in sleep mode (NVDA+Shift+S on desktop, NVDA+Shift+Z on laptop) while the Entombed window is active.",
-  "links": {
-    "agarchive": "https://www.agarchive.net/pages/devs/driftwood.html"
-  },
+  "links": [
+    {
+      "url": "https://www.agarchive.net/pages/devs/driftwood.html",
+      "label": "Archived at agarchive"
+    }
+  ],
   "sources": [
     {
       "platform": "windows",

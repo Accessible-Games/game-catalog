@@ -6,10 +6,16 @@
     "various authors"
   ],
   "description": "A highly atmospheric,exploration-based horror game. While on your way to work on the night shift, you find yourself taking an unexpected detour.\n\nNote that the game is originally written in Portuguese, as is the developer's website. The archive's package includes the language file needed to play the game in English.",
-  "links": {
-    "homepage": "http://www.blindgameplay.com/",
-    "agarchive": "https://www.agarchive.net/pages/devs/misc.html"
-  },
+  "links": [
+    {
+      "url": "http://www.blindgameplay.com/",
+      "label": "Homepage"
+    },
+    {
+      "url": "https://www.agarchive.net/pages/devs/misc.html",
+      "label": "Archived at agarchive"
+    }
+  ],
   "sources": [
     {
       "platform": "windows",

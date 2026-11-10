@@ -6,12 +6,13 @@
     "Richard De Steno"
   ],
   "description": "It's 1877. As the martial of Dodge City, it's finally time to hunt down the Desperado brothers and whipe them out for good!",
-  "flags": [
-    "abandoned"
+  "unsupported": true,
+  "links": [
+    {
+      "url": "https://www.agarchive.net/pages/devs/richardDeSteno.html",
+      "label": "Archived at agarchive"
+    }
   ],
-  "links": {
-    "agarchive": "https://www.agarchive.net/pages/devs/richardDeSteno.html"
-  },
   "sources": [
     {
       "platform": "windows",

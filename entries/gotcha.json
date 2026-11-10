@@ -6,12 +6,13 @@
     "Dan Z"
   ],
   "description": "A number of games written in basic for note takers. These are unlikely to run on traditional computers. To play them, see the ports below.\n\nA highly random dice game. Wander the board and handle random events from getting a job to robbing stores and taking hostages.",
-  "flags": [
-    "abandoned"
+  "unsupported": true,
+  "links": [
+    {
+      "url": "https://www.agarchive.net/pages/devs/danZ.html",
+      "label": "Archived at agarchive"
+    }
   ],
-  "links": {
-    "agarchive": "https://www.agarchive.net/pages/devs/danZ.html"
-  },
   "sources": [
     {
       "platform": "windows",

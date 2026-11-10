@@ -5,12 +5,13 @@
   "developer": [
     "X-Sight Interactive"
   ],
-  "flags": [
-    "abandoned"
+  "unsupported": true,
+  "links": [
+    {
+      "url": "https://www.agarchive.net/pages/devs/XSight.html",
+      "label": "Archived at agarchive"
+    }
   ],
-  "links": {
-    "agarchive": "https://www.agarchive.net/pages/devs/XSight.html"
-  },
   "sources": [
     {
       "platform": "windows",

@@ -5,14 +5,14 @@
   "developer": [
     "LWorks"
   ],
-  "description": "This is a concept demo.\n\nLiam has decided not to complete the game, but the concept demo remains available for archival purposes.",
-  "flags": [
-    "abandoned",
-    "beta"
+  "description": "This is a concept demo.\n\nLiam has decided not to complete the game, but the concept demo remains available for archival purposes.\n\nThis is a beta version.",
+  "unsupported": true,
+  "links": [
+    {
+      "url": "https://www.agarchive.net/pages/devs/lworks.html",
+      "label": "Archived at agarchive"
+    }
   ],
-  "links": {
-    "agarchive": "https://www.agarchive.net/pages/devs/lworks.html"
-  },
   "sources": [
     {
       "platform": "windows",

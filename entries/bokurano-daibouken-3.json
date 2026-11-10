@@ -5,10 +5,16 @@
   "developer": [
     "Nyanchan Games"
   ],
-  "links": {
-    "homepage": "http://www.nyanchangames.com/order/bk3translate.html",
-    "agarchive": "https://www.agarchive.net/pages/devs/nyanchan.html"
-  },
+  "links": [
+    {
+      "url": "http://www.nyanchangames.com/order/bk3translate.html",
+      "label": "Homepage"
+    },
+    {
+      "url": "https://www.agarchive.net/pages/devs/nyanchan.html",
+      "label": "Archived at agarchive"
+    }
+  ],
   "sources": [
     {
       "label": "Developer site",

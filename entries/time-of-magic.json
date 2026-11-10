@@ -6,10 +6,16 @@
     "GMA Games"
   ],
   "description": "If you've created or have any extra packs that aren't listed here, please get in touch. We would love to add more packs to this listing.\n\nWhere possible, we've included links to information and downloads directly from the author's website, as well as from the archive.",
-  "links": {
-    "homepage": "https://sites.google.com/site/blindjamesspencer/home/conflict/magic",
-    "agarchive": "https://www.agarchive.net/pages/devs/gma.html"
-  },
+  "links": [
+    {
+      "url": "https://sites.google.com/site/blindjamesspencer/home/conflict/magic",
+      "label": "Homepage"
+    },
+    {
+      "url": "https://www.agarchive.net/pages/devs/gma.html",
+      "label": "Archived at agarchive"
+    }
+  ],
   "sources": [
     {
       "platform": "windows",

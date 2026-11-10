@@ -6,12 +6,13 @@
     "MT Games"
   ],
   "description": "Hunt down three different types of eggs, while keeping the dog from burying them.",
-  "flags": [
-    "abandoned"
+  "unsupported": true,
+  "links": [
+    {
+      "url": "https://www.agarchive.net/pages/devs/mt.html",
+      "label": "Archived at agarchive"
+    }
   ],
-  "links": {
-    "agarchive": "https://www.agarchive.net/pages/devs/mt.html"
-  },
   "sources": [
     {
       "platform": "windows",

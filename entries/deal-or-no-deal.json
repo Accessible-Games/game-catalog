@@ -5,9 +5,12 @@
   "developer": [
     "Jage Meddaugh"
   ],
-  "links": {
-    "agarchive": "https://www.agarchive.net/pages/devs/jage.html"
-  },
+  "links": [
+    {
+      "url": "https://www.agarchive.net/pages/devs/jage.html",
+      "label": "Archived at agarchive"
+    }
+  ],
   "sources": [
     {
       "label": "Developer site",

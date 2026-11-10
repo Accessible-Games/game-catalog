@@ -6,9 +6,12 @@
     "Dragon Slayer Games"
   ],
   "description": "An audio rendition of the card game War.",
-  "links": {
-    "agarchive": "https://www.agarchive.net/pages/devs/dragonslayer.html"
-  },
+  "links": [
+    {
+      "url": "https://www.agarchive.net/pages/devs/dragonslayer.html",
+      "label": "Archived at agarchive"
+    }
+  ],
   "sources": [
     {
       "platform": "windows",

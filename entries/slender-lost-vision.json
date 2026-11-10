@@ -5,10 +5,16 @@
   "developer": [
     "Talon"
   ],
-  "links": {
-    "homepage": "https://iamtalon.me/slender/",
-    "agarchive": "https://www.agarchive.net/pages/devs/talon.html"
-  },
+  "links": [
+    {
+      "url": "https://iamtalon.me/slender/",
+      "label": "Homepage"
+    },
+    {
+      "url": "https://www.agarchive.net/pages/devs/talon.html",
+      "label": "Archived at agarchive"
+    }
+  ],
   "sources": [
     {
       "label": "Developer site",

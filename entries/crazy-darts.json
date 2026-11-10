@@ -6,12 +6,13 @@
     "BSC Games"
   ],
   "description": "Got a minute to kill? Take some rounds at this dartboard and see how high a score you can get!",
-  "flags": [
-    "abandoned"
+  "unsupported": true,
+  "links": [
+    {
+      "url": "https://www.agarchive.net/pages/devs/bsc.html",
+      "label": "Archived at agarchive"
+    }
   ],
-  "links": {
-    "agarchive": "https://www.agarchive.net/pages/devs/bsc.html"
-  },
   "sources": [
     {
       "platform": "windows",

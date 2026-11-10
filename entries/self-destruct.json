@@ -5,12 +5,13 @@
   "developer": [
     "XL Studios"
   ],
-  "flags": [
-    "abandoned"
+  "unsupported": true,
+  "links": [
+    {
+      "url": "https://www.agarchive.net/pages/devs/xl.html",
+      "label": "Archived at agarchive"
+    }
   ],
-  "links": {
-    "agarchive": "https://www.agarchive.net/pages/devs/xl.html"
-  },
   "sources": [
     {
       "platform": "windows",

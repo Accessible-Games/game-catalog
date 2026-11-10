@@ -6,12 +6,13 @@
     "LWorks"
   ],
   "description": "You were the lucky winner. You had to be caller number 9 and know the answer to the trivia question. It was easy really. Everyone should know that Bruce Banner was the alter ego of the incredible Hulk. You grew up watching the show and idolizing the Hulk. he got to smash things. How fun was that?After years of listening to kSmash every morning, finally the station had a contest you could sink your teeth in to. It wasn't tickets to see the Wobbly Brothers circus or concert tickets for Justine Woodcreek. No. It was a ticket to the tenth anual Smashathon.The Smashathon? You couldn't believe it. Normally the smashathon was limitted to professional smashers from around the country. Each contestant would be given a sledge hammer, and two minutes to do as much damage in the arena as possible. Objects like toy cars, telephones, priceless china would all be up for the smashing. who ever could cause the most damage would win a spot in the Smashathon hall of fame.You spent that weekend practicing in your garage. Everything was fair game: old refrigerators, your grand mother's priceless waterford crystal, and even Mrs. McRobinson's cat when it wandered too close. You made sure you had your smashing technique down pat.The day finally came, and you were ready. You would show everyone why you deserved a spot in the Smashathon hall of fame.This game was the result of a streamed coding venture, thus is a concept game as it was intended as a quick project to stream. Nevertheless, it is a fun game that Liam made such a big smash with...",
-  "flags": [
-    "abandoned"
+  "unsupported": true,
+  "links": [
+    {
+      "url": "https://www.agarchive.net/pages/devs/lworks.html",
+      "label": "Archived at agarchive"
+    }
   ],
-  "links": {
-    "agarchive": "https://www.agarchive.net/pages/devs/lworks.html"
-  },
   "sources": [
     {
       "platform": "windows",

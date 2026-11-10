@@ -6,9 +6,12 @@
     "Aprone"
   ],
   "description": "In this engineering prequel to Lunimals, test the robot arms used in the lunar domes by designing courses for them to follow in order to reach various goals.",
-  "links": {
-    "agarchive": "https://www.agarchive.net/pages/devs/aprone.html"
-  },
+  "links": [
+    {
+      "url": "https://www.agarchive.net/pages/devs/aprone.html",
+      "label": "Archived at agarchive"
+    }
+  ],
   "sources": [
     {
       "label": "Developer site",

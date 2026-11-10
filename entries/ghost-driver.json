@@ -6,12 +6,13 @@
     "D. Kamerman"
   ],
   "description": "You and your drunk friend meet hundreds of cars coming the wrong way. Take the wheel and dodge them, while your friend tries to get you drunk too.\n\nOne of the experimental games made by university students and first hosted on audiogames.net.",
-  "flags": [
-    "abandoned"
+  "unsupported": true,
+  "links": [
+    {
+      "url": "https://www.agarchive.net/pages/devs/misc.html",
+      "label": "Archived at agarchive"
+    }
   ],
-  "links": {
-    "agarchive": "https://www.agarchive.net/pages/devs/misc.html"
-  },
   "sources": [
     {
       "label": "Mirror",

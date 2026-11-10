@@ -6,12 +6,13 @@
     "Game Madness Interactive"
   ],
   "description": "This game has been compiled from its original source form.\n\nAs with other compiled titles, source code is located in the source directory, and the game can be run by executing cane power.exe.",
-  "flags": [
-    "abandoned"
+  "unsupported": true,
+  "links": [
+    {
+      "url": "https://www.agarchive.net/pages/devs/gmi.html",
+      "label": "Archived at agarchive"
+    }
   ],
-  "links": {
-    "agarchive": "https://www.agarchive.net/pages/devs/gmi.html"
-  },
   "sources": [
     {
       "platform": "windows",

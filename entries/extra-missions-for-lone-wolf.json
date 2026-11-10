@@ -6,9 +6,12 @@
     "GMA Games"
   ],
   "description": "Take command of a WWII submarine in this game that pits the player against varying types of enemy craft. Learn how to navigate around islands, use the sub's sonar to get through minefields and avoid those enemy craft if the submarine is spotted. The game comes prepackaged with eighteen missions and there are more that have been created by Lone Wolf's players over the years.\n\nThis archive contains 115 extra missions for Lone Wolf. Note that our version includes an additional 20 or so extra missions not part of GMA's extra mission download.",
-  "links": {
-    "agarchive": "https://www.agarchive.net/pages/devs/gma.html"
-  },
+  "links": [
+    {
+      "url": "https://www.agarchive.net/pages/devs/gma.html",
+      "label": "Archived at agarchive"
+    }
+  ],
   "sources": [
     {
       "label": "Developer site",

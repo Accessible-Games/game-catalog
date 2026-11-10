@@ -6,9 +6,12 @@
     "Mason Armstrong"
   ],
   "description": "Scrolling Battles is a side-scrolling arcade game where the player battles endless waves of enemies by moving, jumping, and attacking with an array of upgradeable weapons. As the high-intensity combat progresses across randomly generated levels, the player earns cash to strengthen their character and unlock additional customization options, mini-games, and creative tools to keep replayability frantic and fun.",
-  "links": {
-    "agarchive": "https://www.agarchive.net/pages/devs/mason.html"
-  },
+  "links": [
+    {
+      "url": "https://www.agarchive.net/pages/devs/mason.html",
+      "label": "Archived at agarchive"
+    }
+  ],
   "sources": [
     {
       "platform": "windows",

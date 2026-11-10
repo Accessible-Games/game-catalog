@@ -6,9 +6,12 @@
     "BSC Games"
   ],
   "description": "BSC Games' fix pack for Windows 10. Its own instructions are to run bscfix.exe once before installing the games, which installs the Visual Basic 5.0 runtime and the Windows Media Audio components. Game Chooser installs those two as this pack's dependencies. The pack's files (bscfix.exe, runner.exe and their sources) are kept in its folder; the games installed by Game Chooser don't need the runner, because their folders are writable without administrator rights.",
-  "links": {
-    "agarchive": "https://www.agarchive.net/pages/devs/bsc.html"
-  },
+  "links": [
+    {
+      "url": "https://www.agarchive.net/pages/devs/bsc.html",
+      "label": "Archived at agarchive"
+    }
+  ],
   "sources": [
     {
       "label": "Developer site",

@@ -7,9 +7,12 @@
   ],
   "description": "An accessible audio game where you hunt for Easter eggs",
   "version": "1.53",
-  "links": {
-    "homepage": "https://l-works.net"
-  },
+  "links": [
+    {
+      "url": "https://l-works.net",
+      "label": "Homepage"
+    }
+  ],
   "sources": [
     {
       "label": "Developer site",

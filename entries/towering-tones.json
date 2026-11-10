@@ -6,9 +6,12 @@
     "Jeqocon Games"
   ],
   "description": "Please note that we have compiled the game from its original source only form for ease of use. The source remains and is unmodified.",
-  "links": {
-    "agarchive": "https://www.agarchive.net/pages/devs/jeqocon.html"
-  },
+  "links": [
+    {
+      "url": "https://www.agarchive.net/pages/devs/jeqocon.html",
+      "label": "Archived at agarchive"
+    }
+  ],
   "sources": [
     {
       "platform": "windows",

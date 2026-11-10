@@ -5,12 +5,13 @@
   "developer": [
     "Sam Tupy"
   ],
-  "flags": [
-    "abandoned"
+  "unsupported": true,
+  "links": [
+    {
+      "url": "https://www.agarchive.net/pages/devs/samtupy.html",
+      "label": "Archived at agarchive"
+    }
   ],
-  "links": {
-    "agarchive": "https://www.agarchive.net/pages/devs/samtupy.html"
-  },
   "sources": [
     {
       "platform": "windows",

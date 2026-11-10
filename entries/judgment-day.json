@@ -6,12 +6,13 @@
     "LWorks"
   ],
   "description": "In 2014, it was announced that judgement day would be updated to become freeware. Now, this process is complete, and thus the game has officially been made freeware!",
-  "flags": [
-    "abandoned"
+  "unsupported": true,
+  "links": [
+    {
+      "url": "https://www.agarchive.net/pages/devs/lworks.html",
+      "label": "Archived at agarchive"
+    }
   ],
-  "links": {
-    "agarchive": "https://www.agarchive.net/pages/devs/lworks.html"
-  },
   "sources": [
     {
       "platform": "windows",

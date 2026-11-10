@@ -6,12 +6,13 @@
     "Richard De Steno"
   ],
   "description": "It's time to journey to the Red Planet... if you can find a way to survive the trip.",
-  "flags": [
-    "abandoned"
+  "unsupported": true,
+  "links": [
+    {
+      "url": "https://www.agarchive.net/pages/devs/richardDeSteno.html",
+      "label": "Archived at agarchive"
+    }
   ],
-  "links": {
-    "agarchive": "https://www.agarchive.net/pages/devs/richardDeSteno.html"
-  },
   "sources": [
     {
       "platform": "windows",

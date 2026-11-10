@@ -6,12 +6,13 @@
     "Francis Wolf"
   ],
   "description": "Minesweeper is based on the classic Microsoft game. The game has 3 levels, and you are on a grid with a set number of coordinates. You must clear areas that you think have no mines, but if you mark an area with a mine the game is over!",
-  "flags": [
-    "abandoned"
+  "unsupported": true,
+  "links": [
+    {
+      "url": "https://www.agarchive.net/pages/devs/francisWolf.html",
+      "label": "Archived at agarchive"
+    }
   ],
-  "links": {
-    "agarchive": "https://www.agarchive.net/pages/devs/francisWolf.html"
-  },
   "sources": [
     {
       "platform": "windows",

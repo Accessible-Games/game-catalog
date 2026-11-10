@@ -6,12 +6,13 @@
     "BSC Games"
   ],
   "description": "This is a virtual car stereo for your computer!",
-  "flags": [
-    "abandoned"
+  "unsupported": true,
+  "links": [
+    {
+      "url": "https://www.agarchive.net/pages/devs/bsc.html",
+      "label": "Archived at agarchive"
+    }
   ],
-  "links": {
-    "agarchive": "https://www.agarchive.net/pages/devs/bsc.html"
-  },
   "sources": [
     {
       "platform": "windows",

@@ -6,12 +6,13 @@
     "Phantom Creations"
   ],
   "description": "This is the end. You're trapped, unarmed, and the raiders are coming. Build up the walls of your fort and see how long you can keep them out, because as soon as a single wall falls, you're done for..",
-  "flags": [
-    "abandoned"
+  "unsupported": true,
+  "links": [
+    {
+      "url": "https://www.agarchive.net/pages/devs/phantomCreations.html",
+      "label": "Archived at agarchive"
+    }
   ],
-  "links": {
-    "agarchive": "https://www.agarchive.net/pages/devs/phantomCreations.html"
-  },
   "sources": [
     {
       "platform": "windows",

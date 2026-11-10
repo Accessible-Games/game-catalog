@@ -6,9 +6,12 @@
     "Morokuma"
   ],
   "description": "A linear RPG with the goal being to reach successive levels on a dungeon path.",
-  "links": {
-    "agarchive": "https://www.agarchive.net/pages/devs/morokuma.html"
-  },
+  "links": [
+    {
+      "url": "https://www.agarchive.net/pages/devs/morokuma.html",
+      "label": "Archived at agarchive"
+    }
+  ],
   "sources": [
     {
       "label": "Developer site",

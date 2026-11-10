@@ -6,12 +6,15 @@
     "Aprone"
   ],
   "description": "After a shipwreck you and your people are stuck on 1 island with the goal to survive and grow into a settlement. Buildings must be constructed, workers fed, and soldiers trained in this highly detailed asset management game.",
-  "flags": [
-    "multiplayer"
+  "tags": [
+    "Multiplayer"
   ],
-  "links": {
-    "agarchive": "https://www.agarchive.net/pages/devs/aprone.html"
-  },
+  "links": [
+    {
+      "url": "https://www.agarchive.net/pages/devs/aprone.html",
+      "label": "Archived at agarchive"
+    }
+  ],
   "sources": [
     {
       "label": "Developer site",

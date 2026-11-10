@@ -6,14 +6,19 @@
     "Draconis Entertainment"
   ],
   "description": "As sheep herder Busha Bob, shoot descending alien ships before they land using lasers, and battle through eight levels surrounded by dangerous billabongs avoiding damage to save Earth from the alien invasion!",
-  "flags": [
-    "demo",
-    "requires-registration"
-  ],
-  "links": {
-    "homepage": "http://dracoent.com/Windows/AlienOutback",
-    "agarchive": "https://www.agarchive.net/pages/devs/draconis.html"
+  "pricing": {
+    "model": "free-to-try"
   },
+  "links": [
+    {
+      "url": "http://dracoent.com/Windows/AlienOutback",
+      "label": "Homepage"
+    },
+    {
+      "url": "https://www.agarchive.net/pages/devs/draconis.html",
+      "label": "Archived at agarchive"
+    }
+  ],
   "sources": [
     {
       "label": "Developer site",

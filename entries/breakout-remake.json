@@ -6,9 +6,12 @@
     "various authors"
   ],
   "description": "This is a rework of the original game by PCS games for dos.\n\nIt contains both a clasic and modern set of sounds, though the rules remain the same",
-  "links": {
-    "agarchive": "https://www.agarchive.net/pages/devs/misc.html"
-  },
+  "links": [
+    {
+      "url": "https://www.agarchive.net/pages/devs/misc.html",
+      "label": "Archived at agarchive"
+    }
+  ],
   "sources": [
     {
       "platform": "windows",

@@ -6,9 +6,12 @@
     "GMA Games"
   ],
   "description": "Trek 2000 is similar to USA Game's Final Conflict and anyone who enjoyed that game should give this one a whirl (or vice versa). The player is put in command of four Federation starships and two starbases and must defend the Federation from enemy fleets.",
-  "links": {
-    "agarchive": "https://www.agarchive.net/pages/devs/gma.html"
-  },
+  "links": [
+    {
+      "url": "https://www.agarchive.net/pages/devs/gma.html",
+      "label": "Archived at agarchive"
+    }
+  ],
   "sources": [
     {
       "label": "Developer site",

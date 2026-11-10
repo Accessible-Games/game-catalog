@@ -6,14 +6,19 @@
     "GMA Games"
   ],
   "description": "Shades of Doom drops the player into a complex where an experiment has gone horribly wrong. Fight off mad scientists, mutant humans, dogs, birds and other creatures to shut down the experiment.",
-  "flags": [
-    "demo",
-    "requires-registration"
-  ],
-  "links": {
-    "homepage": "http://www.gmagames.com/sod.shtml",
-    "agarchive": "https://www.agarchive.net/pages/devs/gma.html"
+  "pricing": {
+    "model": "free-to-try"
   },
+  "links": [
+    {
+      "url": "http://www.gmagames.com/sod.shtml",
+      "label": "Homepage"
+    },
+    {
+      "url": "https://www.agarchive.net/pages/devs/gma.html",
+      "label": "Archived at agarchive"
+    }
+  ],
   "sources": [
     {
       "label": "Developer site",

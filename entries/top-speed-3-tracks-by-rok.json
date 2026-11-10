@@ -6,9 +6,12 @@
     "Playing in the Dark"
   ],
   "description": "A large collection of player-made tracks for Top Speed 3, gathered from several sources by Rok.",
-  "links": {
-    "agarchive": "https://www.agarchive.net/pages/devs/pitd.html"
-  },
+  "links": [
+    {
+      "url": "https://www.agarchive.net/pages/devs/pitd.html",
+      "label": "Archived at agarchive"
+    }
+  ],
   "sources": [
     {
       "label": "Mirror",

@@ -6,10 +6,16 @@
     "various authors"
   ],
   "description": "A small game about stroking cats!",
-  "links": {
-    "homepage": "http://tdprograms.ovh/games",
-    "agarchive": "https://www.agarchive.net/pages/devs/misc.html"
-  },
+  "links": [
+    {
+      "url": "http://tdprograms.ovh/games",
+      "label": "Homepage"
+    },
+    {
+      "url": "https://www.agarchive.net/pages/devs/misc.html",
+      "label": "Archived at agarchive"
+    }
+  ],
   "sources": [
     {
       "label": "Developer site",

@@ -6,9 +6,12 @@
     "Lighttech Interactive"
   ],
   "description": "This is a poem and walkthrough created by an enthusiastic user.",
-  "links": {
-    "agarchive": "https://www.agarchive.net/pages/devs/lighttech.html"
-  },
+  "links": [
+    {
+      "url": "https://www.agarchive.net/pages/devs/lighttech.html",
+      "label": "Archived at agarchive"
+    }
+  ],
   "sources": [
     {
       "platform": "windows",

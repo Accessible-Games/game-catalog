@@ -6,9 +6,12 @@
     "Lighttech Interactive"
   ],
   "description": "This package contains components required by some lighttech products.\n\nIf you are having difficulty playing their games or are noticing issues, this may be worth a shot.",
-  "links": {
-    "agarchive": "https://www.agarchive.net/pages/devs/lighttech.html"
-  },
+  "links": [
+    {
+      "url": "https://www.agarchive.net/pages/devs/lighttech.html",
+      "label": "Archived at agarchive"
+    }
+  ],
   "sources": [
     {
       "platform": "windows",

@@ -6,12 +6,13 @@
     "BrailleSoft"
   ],
   "description": "A small game built around factoring numbers. Can you beat the taxman?",
-  "flags": [
-    "abandoned"
+  "unsupported": true,
+  "links": [
+    {
+      "url": "https://www.agarchive.net/pages/devs/braillesoft.html",
+      "label": "Archived at agarchive"
+    }
   ],
-  "links": {
-    "agarchive": "https://www.agarchive.net/pages/devs/braillesoft.html"
-  },
   "sources": [
     {
       "platform": "windows",

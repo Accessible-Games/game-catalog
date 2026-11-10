@@ -6,9 +6,12 @@
     "Morokuma"
   ],
   "description": "A snakes and ladders style game, developed in conjunction with NyanChan Games. No longer hosted on Morokuma's website, but is still hosted on NyanChan Games.",
-  "links": {
-    "agarchive": "https://www.agarchive.net/pages/devs/morokuma.html"
-  },
+  "links": [
+    {
+      "url": "https://www.agarchive.net/pages/devs/morokuma.html",
+      "label": "Archived at agarchive"
+    }
+  ],
   "sources": [
     {
       "platform": "windows",

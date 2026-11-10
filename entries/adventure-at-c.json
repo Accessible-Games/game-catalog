@@ -6,10 +6,16 @@
     "VG Storm"
   ],
   "description": "Adventure at c: is VG Storm's first, and only free, title.\n\nWhen your computer becomes heavily infected, transform yourself into code and do battle with the infection yourself.\n\nThe game provides a custom stage creator, which has resulted in a large amount of community involvement. We are actively looking for adventure at c: stages, both old and new. If you have some and can share, please get in touch. The stages we have available will be packaged and listed below the game itself.",
-  "links": {
-    "homepage": "http://www.vgstorm.com/aac/",
-    "agarchive": "https://www.agarchive.net/pages/devs/vgstorm.html"
-  },
+  "links": [
+    {
+      "url": "http://www.vgstorm.com/aac/",
+      "label": "Homepage"
+    },
+    {
+      "url": "https://www.agarchive.net/pages/devs/vgstorm.html",
+      "label": "Archived at agarchive"
+    }
+  ],
   "sources": [
     {
       "label": "Developer site",

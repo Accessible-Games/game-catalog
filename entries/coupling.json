@@ -6,9 +6,12 @@
     "Jim Kitchen"
   ],
   "description": "Note that we have repackaged each game into a zip archive from its initial format of a self-extracting executable. The game's files are contained with a folder, so all you need do is extract the archive and each game will have its own folder.",
-  "links": {
-    "agarchive": "https://www.agarchive.net/pages/devs/kitchensinc.html"
-  },
+  "links": [
+    {
+      "url": "https://www.agarchive.net/pages/devs/kitchensinc.html",
+      "label": "Archived at agarchive"
+    }
+  ],
   "sources": [
     {
       "platform": "windows",

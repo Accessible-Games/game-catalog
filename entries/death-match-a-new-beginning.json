@@ -6,12 +6,13 @@
     "Reality Software"
   ],
   "description": "This was a multiplayer game set in the world of Death Match Project Alpha. It was originally released in client form to be played on a central server, but versions of that server were made available for download.\n\nThis package is widely considered to be unstable, including by the developer, and is entirely unsupported. When (not if) you encounter issues, you are on your own. For best results, a Linux system with significant system resources is recommended.",
-  "flags": [
-    "abandoned"
+  "unsupported": true,
+  "links": [
+    {
+      "url": "https://www.agarchive.net/pages/devs/realitySoftware.html",
+      "label": "Archived at agarchive"
+    }
   ],
-  "links": {
-    "agarchive": "https://www.agarchive.net/pages/devs/realitySoftware.html"
-  },
   "sources": [
     {
       "platform": "windows",

@@ -6,10 +6,16 @@
     "Nyanchan Games"
   ],
   "description": "Please note that the Mac version of this game will likely only run on OSX 10.13 and earlier.",
-  "links": {
-    "homepage": "https://www.nyanchangames.com/softs/ss2.html",
-    "agarchive": "https://www.agarchive.net/pages/devs/nyanchan.html"
-  },
+  "links": [
+    {
+      "url": "https://www.nyanchangames.com/softs/ss2.html",
+      "label": "Homepage"
+    },
+    {
+      "url": "https://www.agarchive.net/pages/devs/nyanchan.html",
+      "label": "Archived at agarchive"
+    }
+  ],
   "sources": [
     {
       "label": "Developer site",

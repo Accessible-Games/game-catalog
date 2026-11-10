@@ -5,12 +5,13 @@
   "developer": [
     "Dan Z"
   ],
-  "flags": [
-    "abandoned"
+  "unsupported": true,
+  "links": [
+    {
+      "url": "https://www.agarchive.net/pages/devs/danZ.html",
+      "label": "Archived at agarchive"
+    }
   ],
-  "links": {
-    "agarchive": "https://www.agarchive.net/pages/devs/danZ.html"
-  },
   "sources": [
     {
       "label": "Developer site",

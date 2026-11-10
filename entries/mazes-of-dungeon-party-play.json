@@ -6,9 +6,12 @@
     "Morokuma"
   ],
   "description": "This version of Mazes of Dungeon allows you to control a party of characters instead of just one.",
-  "links": {
-    "agarchive": "https://www.agarchive.net/pages/devs/morokuma.html"
-  },
+  "links": [
+    {
+      "url": "https://www.agarchive.net/pages/devs/morokuma.html",
+      "label": "Archived at agarchive"
+    }
+  ],
   "sources": [
     {
       "label": "Developer site",

@@ -6,12 +6,13 @@
     "LWorks"
   ],
   "description": "The aim is simple. The computer will randomly select a number from 1 to 10, and you'll have three shots at it. If you guess correctly, you win a prize, if you don't, you don't win a thing! So go to it in a couple variations:",
-  "flags": [
-    "abandoned"
+  "unsupported": true,
+  "links": [
+    {
+      "url": "https://www.agarchive.net/pages/devs/lworks.html",
+      "label": "Archived at agarchive"
+    }
   ],
-  "links": {
-    "agarchive": "https://www.agarchive.net/pages/devs/lworks.html"
-  },
   "sources": [
     {
       "platform": "windows",

@@ -6,12 +6,13 @@
     "Quentin C"
   ],
   "description": "This game was inspired by an Atari title called Lemmings./p>",
-  "flags": [
-    "abandoned"
+  "unsupported": true,
+  "links": [
+    {
+      "url": "https://www.agarchive.net/pages/devs/qc.html",
+      "label": "Archived at agarchive"
+    }
   ],
-  "links": {
-    "agarchive": "https://www.agarchive.net/pages/devs/qc.html"
-  },
   "sources": [
     {
       "platform": "windows",

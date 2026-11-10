@@ -6,12 +6,13 @@
     "Game Madness Interactive"
   ],
   "description": "This game was originally distributed in source form.\n\nIt has been compiled, and source moved to a separate directory.",
-  "flags": [
-    "abandoned"
+  "unsupported": true,
+  "links": [
+    {
+      "url": "https://www.agarchive.net/pages/devs/gmi.html",
+      "label": "Archived at agarchive"
+    }
   ],
-  "links": {
-    "agarchive": "https://www.agarchive.net/pages/devs/gmi.html"
-  },
   "sources": [
     {
       "platform": "windows",

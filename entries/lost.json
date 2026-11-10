@@ -6,12 +6,13 @@
     "Dan Z"
   ],
   "description": "A number of games written in basic for note takers. These are unlikely to run on traditional computers. To play them, see the ports below.\n\nThis is a dramatized port of the Great Escape with additional content and sound effects. Find your way out of a number of randomly changing mazes, while collecting gold coins and trying desperately to beat the clock.",
-  "flags": [
-    "abandoned"
+  "unsupported": true,
+  "links": [
+    {
+      "url": "https://www.agarchive.net/pages/devs/danZ.html",
+      "label": "Archived at agarchive"
+    }
   ],
-  "links": {
-    "agarchive": "https://www.agarchive.net/pages/devs/danZ.html"
-  },
   "sources": [
     {
       "platform": "windows",

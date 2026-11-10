@@ -6,12 +6,13 @@
     "Galaxy Laboratory"
   ],
   "description": "A set of minigames made in Text Game Maker, built around a small RPG. Includes a fishing game, a casino and a shooting game. No longer hosted on the developer's website.",
-  "flags": [
-    "abandoned"
+  "unsupported": true,
+  "links": [
+    {
+      "url": "https://www.agarchive.net/pages/devs/GalaxyLaboratory.html",
+      "label": "Archived at agarchive"
+    }
   ],
-  "links": {
-    "agarchive": "https://www.agarchive.net/pages/devs/GalaxyLaboratory.html"
-  },
   "sources": [
     {
       "label": "Mirror",

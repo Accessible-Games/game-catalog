@@ -5,12 +5,15 @@
   "developer": [
     "Pontes Games"
   ],
-  "flags": [
-    "multiplayer"
+  "tags": [
+    "Multiplayer"
   ],
-  "links": {
-    "agarchive": "https://www.agarchive.net/pages/devs/pontes.html"
-  },
+  "links": [
+    {
+      "url": "https://www.agarchive.net/pages/devs/pontes.html",
+      "label": "Archived at agarchive"
+    }
+  ],
   "sources": [
     {
       "label": "Developer site",

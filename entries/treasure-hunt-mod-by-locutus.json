@@ -5,9 +5,12 @@
   "developer": [
     "BPC Programs"
   ],
-  "links": {
-    "agarchive": "https://www.agarchive.net/pages/devs/bpc.html"
-  },
+  "links": [
+    {
+      "url": "https://www.agarchive.net/pages/devs/bpc.html",
+      "label": "Archived at agarchive"
+    }
+  ],
   "sources": [
     {
       "platform": "windows",

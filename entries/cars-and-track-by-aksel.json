@@ -6,9 +6,12 @@
     "Playing in the Dark"
   ],
   "description": "This is a track and five vehicles created by Aksel Christoffersen. For details on each item, see the content description file.",
-  "links": {
-    "agarchive": "https://www.agarchive.net/pages/devs/pitd.html"
-  },
+  "links": [
+    {
+      "url": "https://www.agarchive.net/pages/devs/pitd.html",
+      "label": "Archived at agarchive"
+    }
+  ],
   "sources": [
     {
       "platform": "windows",

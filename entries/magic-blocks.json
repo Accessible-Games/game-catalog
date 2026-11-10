@@ -6,13 +6,16 @@
     "Quentin C"
   ],
   "description": "This game was inspired and plays similar to tetras. According to the developer, it no longer functions under a windows 10 environment.",
-  "flags": [
-    "abandoned",
-    "multiplayer"
+  "tags": [
+    "Multiplayer"
   ],
-  "links": {
-    "agarchive": "https://www.agarchive.net/pages/devs/qc.html"
-  },
+  "unsupported": true,
+  "links": [
+    {
+      "url": "https://www.agarchive.net/pages/devs/qc.html",
+      "label": "Archived at agarchive"
+    }
+  ],
   "sources": [
     {
       "platform": "windows",

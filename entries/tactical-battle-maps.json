@@ -6,9 +6,12 @@
     "Ian Reed"
   ],
   "description": "Tactical Battle requires you to provide an email address before you can play. You only need do this once per computer, and once registered, can play offline without issues.\n\nBelow you can download our collection of map packs for Tactical Battle. If you're the author of a pack and would like us to include your work here, please let us know.",
-  "links": {
-    "agarchive": "https://www.agarchive.net/pages/devs/IanReed.html"
-  },
+  "links": [
+    {
+      "url": "https://www.agarchive.net/pages/devs/IanReed.html",
+      "label": "Archived at agarchive"
+    }
+  ],
   "sources": [
     {
       "platform": "windows",

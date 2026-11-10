@@ -6,12 +6,13 @@
     "Game Madness Interactive"
   ],
   "description": "Battle through endless enemies and hazards to escape after being kidnapped. Using an arsenal of weapons found in your shopping bag, you must navigate hazardous lab levels and defeat villainous bosses in this fast-paced side-scrolling action game.",
-  "flags": [
-    "abandoned"
+  "unsupported": true,
+  "links": [
+    {
+      "url": "https://www.agarchive.net/pages/devs/gmi.html",
+      "label": "Archived at agarchive"
+    }
   ],
-  "links": {
-    "agarchive": "https://www.agarchive.net/pages/devs/gmi.html"
-  },
   "sources": [
     {
       "platform": "windows",

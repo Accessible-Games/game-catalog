@@ -6,14 +6,19 @@
     "Draconis Entertainment"
   ],
   "description": "an improved version of the clasic game with more tables, more chaos, and more fun!",
-  "flags": [
-    "demo",
-    "requires-registration"
-  ],
-  "links": {
-    "homepage": "http://dracoent.com/Windows/ESPPinballXtreme",
-    "agarchive": "https://www.agarchive.net/pages/devs/draconis.html"
+  "pricing": {
+    "model": "free-to-try"
   },
+  "links": [
+    {
+      "url": "http://dracoent.com/Windows/ESPPinballXtreme",
+      "label": "Homepage"
+    },
+    {
+      "url": "https://www.agarchive.net/pages/devs/draconis.html",
+      "label": "Archived at agarchive"
+    }
+  ],
   "sources": [
     {
       "label": "Developer site",

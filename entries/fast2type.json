@@ -6,12 +6,13 @@
     "Quentin C"
   ],
   "description": "This was Quentin's first release, launched in 2007.",
-  "flags": [
-    "abandoned"
+  "unsupported": true,
+  "links": [
+    {
+      "url": "https://www.agarchive.net/pages/devs/qc.html",
+      "label": "Archived at agarchive"
+    }
   ],
-  "links": {
-    "agarchive": "https://www.agarchive.net/pages/devs/qc.html"
-  },
   "sources": [
     {
       "platform": "windows",

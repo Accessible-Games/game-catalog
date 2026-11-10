@@ -5,12 +5,13 @@
   "developer": [
     "Dreamtech games."
   ],
-  "flags": [
-    "abandoned"
+  "unsupported": true,
+  "links": [
+    {
+      "url": "https://www.agarchive.net/pages/devs/dreamtech.html",
+      "label": "Archived at agarchive"
+    }
   ],
-  "links": {
-    "agarchive": "https://www.agarchive.net/pages/devs/dreamtech.html"
-  },
   "sources": [
     {
       "platform": "windows",

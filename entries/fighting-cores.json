@@ -6,9 +6,12 @@
     "Galaxy Laboratory"
   ],
   "description": "A mech battling game. This game is self-voicing This game appears to be unsupported, as it has been in beta status for several years..",
-  "links": {
-    "agarchive": "https://www.agarchive.net/pages/devs/GalaxyLaboratory.html"
-  },
+  "links": [
+    {
+      "url": "https://www.agarchive.net/pages/devs/GalaxyLaboratory.html",
+      "label": "Archived at agarchive"
+    }
+  ],
   "sources": [
     {
       "label": "Developer site",

@@ -5,13 +5,17 @@
   "developer": [
     "Anatol Kamynin"
   ],
-  "flags": [
-    "abandoned"
+  "unsupported": true,
+  "links": [
+    {
+      "url": "http://www.tiflocomp.ru/games/ts/index.php?lang=en",
+      "label": "Homepage"
+    },
+    {
+      "url": "https://www.agarchive.net/pages/devs/technoshock.html",
+      "label": "Archived at agarchive"
+    }
   ],
-  "links": {
-    "homepage": "http://www.tiflocomp.ru/games/ts/index.php?lang=en",
-    "agarchive": "https://www.agarchive.net/pages/devs/technoshock.html"
-  },
   "sources": [
     {
       "platform": "windows",

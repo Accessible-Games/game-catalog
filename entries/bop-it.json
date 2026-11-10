@@ -6,9 +6,12 @@
     "Jim Kitchen"
   ],
   "description": "A Visual Basic 4 game. Its original setup's compressed files have been expanded into a plain archive: the game, its sounds, and the Visual Basic 4 run-time files it needs beside it.",
-  "links": {
-    "agarchive": "https://www.agarchive.net/pages/devs/kitchensinc.html"
-  },
+  "links": [
+    {
+      "url": "https://www.agarchive.net/pages/devs/kitchensinc.html",
+      "label": "Archived at agarchive"
+    }
+  ],
   "sources": [
     {
       "platform": "windows",

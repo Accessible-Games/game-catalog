@@ -6,12 +6,13 @@
     "BSC Games"
   ],
   "description": "You may need to install this package if older BSC games are having difficulty playing audio.\n\nThey should be unnecessary for most titles, however.",
-  "flags": [
-    "abandoned"
+  "unsupported": true,
+  "links": [
+    {
+      "url": "https://www.agarchive.net/pages/devs/bsc.html",
+      "label": "Archived at agarchive"
+    }
   ],
-  "links": {
-    "agarchive": "https://www.agarchive.net/pages/devs/bsc.html"
-  },
   "sources": [
     {
       "platform": "windows",

@@ -6,14 +6,19 @@
     "Draconis Entertainment"
   ],
   "description": "a collection of unique pinball tables packed into 1 game. each table has different mechanics and score tracking systems.",
-  "flags": [
-    "demo",
-    "requires-registration"
-  ],
-  "links": {
-    "homepage": "http://dracoent.com/Windows/ESPPinballClassic",
-    "agarchive": "https://www.agarchive.net/pages/devs/draconis.html"
+  "pricing": {
+    "model": "free-to-try"
   },
+  "links": [
+    {
+      "url": "http://dracoent.com/Windows/ESPPinballClassic",
+      "label": "Homepage"
+    },
+    {
+      "url": "https://www.agarchive.net/pages/devs/draconis.html",
+      "label": "Archived at agarchive"
+    }
+  ],
   "sources": [
     {
       "label": "Developer site",

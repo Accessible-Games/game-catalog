@@ -6,9 +6,12 @@
     "Sam Tupy"
   ],
   "description": "This game went through three versions, each of which added features and balanced the game. We currently host all three, but you will only be able to post scores with the latest. Also note that while we have not flagged the game as unsupported, you should always use the latest version of a product before filing support requests.",
-  "links": {
-    "agarchive": "https://www.agarchive.net/pages/devs/samtupy.html"
-  },
+  "links": [
+    {
+      "url": "https://www.agarchive.net/pages/devs/samtupy.html",
+      "label": "Archived at agarchive"
+    }
+  ],
   "sources": [
     {
       "platform": "windows",

@@ -6,9 +6,12 @@
     "Galaxy Laboratory"
   ],
   "description": "A fighting game using the characters from various japanese audiogames and RPGs.",
-  "links": {
-    "agarchive": "https://www.agarchive.net/pages/devs/GalaxyLaboratory.html"
-  },
+  "links": [
+    {
+      "url": "https://www.agarchive.net/pages/devs/GalaxyLaboratory.html",
+      "label": "Archived at agarchive"
+    }
+  ],
   "sources": [
     {
       "label": "Developer site",

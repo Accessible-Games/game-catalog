@@ -5,9 +5,12 @@
   "developer": [
     "Rocky Waters"
   ],
-  "links": {
-    "agarchive": "https://www.agarchive.net/pages/devs/rockyWaters.html"
-  },
+  "links": [
+    {
+      "url": "https://www.agarchive.net/pages/devs/rockyWaters.html",
+      "label": "Archived at agarchive"
+    }
+  ],
   "sources": [
     {
       "platform": "windows",

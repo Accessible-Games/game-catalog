@@ -5,9 +5,12 @@
   "developer": [
     "USA Games"
   ],
-  "links": {
-    "agarchive": "https://www.agarchive.net/pages/devs/usa.html"
-  },
+  "links": [
+    {
+      "url": "https://www.agarchive.net/pages/devs/usa.html",
+      "label": "Archived at agarchive"
+    }
+  ],
   "sources": [
     {
       "platform": "windows",

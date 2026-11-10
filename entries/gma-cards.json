@@ -6,9 +6,12 @@
     "GMA Games"
   ],
   "description": "This is a free game that contains several different card games for your enjoyment. IN this pack there are:\n\n7-Stack Solitaire, Accordion Solitaire, Poker Solitaire, Crib Solitaire, Casino Blackjack, King's Corner, Gin Rummy, Cribbage', and Spit.",
-  "links": {
-    "agarchive": "https://www.agarchive.net/pages/devs/gma.html"
-  },
+  "links": [
+    {
+      "url": "https://www.agarchive.net/pages/devs/gma.html",
+      "label": "Archived at agarchive"
+    }
+  ],
   "sources": [
     {
       "label": "Developer site",

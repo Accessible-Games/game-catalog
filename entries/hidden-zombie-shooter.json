@@ -5,13 +5,14 @@
   "developer": [
     "Talon"
   ],
-  "flags": [
-    "abandoned",
-    "beta"
+  "description": "This is a beta version.",
+  "unsupported": true,
+  "links": [
+    {
+      "url": "https://www.agarchive.net/pages/devs/talon.html",
+      "label": "Archived at agarchive"
+    }
   ],
-  "links": {
-    "agarchive": "https://www.agarchive.net/pages/devs/talon.html"
-  },
   "sources": [
     {
       "platform": "windows",

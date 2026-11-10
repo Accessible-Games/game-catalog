@@ -5,13 +5,16 @@
   "developer": [
     "TDL Games"
   ],
-  "flags": [
-    "abandoned",
-    "demo"
-  ],
-  "links": {
-    "agarchive": "https://www.agarchive.net/pages/devs/tdl.html"
+  "pricing": {
+    "model": "free-to-try"
   },
+  "unsupported": true,
+  "links": [
+    {
+      "url": "https://www.agarchive.net/pages/devs/tdl.html",
+      "label": "Archived at agarchive"
+    }
+  ],
   "sources": [
     {
       "platform": "windows",

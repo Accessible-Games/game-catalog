@@ -6,12 +6,12 @@
     "Driftwood Entertainment"
   ],
   "description": "Driftwood's major production is the dungeon-crawling RPG Entombed.\n\nThrown into the infamous dungeons for your crime(s), explore 25 levels of increasing difficulty to find a way out. Rescue allies who will join your party, take on quests, gather and sell hoards of loot from your defeated foes, and try to uncover some of the dungeon's mysteries while playing as one of many character classes.\n\nEntombed was originally commercial, and available downloads are to a demo. The developer has stated an intent to release it as freeware, but we are currently unaware of the steps required to register it. If you were able to do so, please let us know.\n\nAs of October 2025, all online infrastructure for the game appears to be unavailable. This includes accounts, registration, and the bazaar.\n\nThis patched executable registers the game on first run. No account is required. To use, replace the main game application with the patched version and play normally.\n\nThe patch does not work on version 1.02. Should the online infrastructure for registration become available again or the game return to commercial distribution it will be removed from the archive.",
-  "flags": [
-    "registration"
+  "links": [
+    {
+      "url": "https://www.agarchive.net/pages/devs/driftwood.html",
+      "label": "Archived at agarchive"
+    }
   ],
-  "links": {
-    "agarchive": "https://www.agarchive.net/pages/devs/driftwood.html"
-  },
   "sources": [
     {
       "platform": "windows",
@@ -26,9 +26,5 @@
   ],
   "extends": "entombed",
   "install_into": "entombed",
-  "required": true,
-  "approval": {
-    "note": "Creator approved distribution (confirmed by the catalog admin, 2026-11-03).",
-    "url": "https://www.agarchive.net/pages/devs/driftwood.html"
-  }
+  "required": true
 }

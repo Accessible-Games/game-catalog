@@ -6,9 +6,12 @@
     "LWorks"
   ],
   "description": "Play as Naughty McNaughterson sneaking into Santa's workshop to steal toys. Run around collecting toys and keys within time limits, avoiding angry elves and eventually Santa himself. Grab all the keys to trigger a finale chase by rocket-sled-driving Santa! Flee successfully through doors with your haul for a high score and unlock achievements in this Christmas adventure game.",
-  "links": {
-    "agarchive": "https://www.agarchive.net/pages/devs/lworks.html"
-  },
+  "links": [
+    {
+      "url": "https://www.agarchive.net/pages/devs/lworks.html",
+      "label": "Archived at agarchive"
+    }
+  ],
   "sources": [
     {
       "platform": "windows",

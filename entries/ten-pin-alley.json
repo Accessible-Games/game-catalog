@@ -5,13 +5,19 @@
   "developer": [
     "Draconis Entertainment"
   ],
-  "flags": [
-    "demo"
-  ],
-  "links": {
-    "homepage": "http://dracoent.com/Windows/TenPinAlley",
-    "agarchive": "https://www.agarchive.net/pages/devs/draconis.html"
+  "pricing": {
+    "model": "free-to-try"
   },
+  "links": [
+    {
+      "url": "http://dracoent.com/Windows/TenPinAlley",
+      "label": "Homepage"
+    },
+    {
+      "url": "https://www.agarchive.net/pages/devs/draconis.html",
+      "label": "Archived at agarchive"
+    }
+  ],
   "sources": [
     {
       "label": "Developer site",

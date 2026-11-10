@@ -6,10 +6,16 @@
     "various authors"
   ],
   "description": "As the weakest angel in the choir you rarely leave heaven, but when happiness is threatened in a small village, you have no choice but to act.",
-  "links": {
-    "homepage": "https://erion.cf/blog/2015/01/angelgift/",
-    "agarchive": "https://www.agarchive.net/pages/devs/misc.html"
-  },
+  "links": [
+    {
+      "url": "https://erion.cf/blog/2015/01/angelgift/",
+      "label": "Homepage"
+    },
+    {
+      "url": "https://www.agarchive.net/pages/devs/misc.html",
+      "label": "Archived at agarchive"
+    }
+  ],
   "sources": [
     {
       "platform": "windows",

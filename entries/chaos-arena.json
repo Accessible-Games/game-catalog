@@ -6,12 +6,13 @@
     "Sightless Wolf Entertainment"
   ],
   "description": "A small arcade sidescroller in which you have 2 minutes to collect as many items as you can.",
-  "flags": [
-    "abandoned"
+  "unsupported": true,
+  "links": [
+    {
+      "url": "https://www.agarchive.net/pages/devs/sightlessWolf.html",
+      "label": "Archived at agarchive"
+    }
   ],
-  "links": {
-    "agarchive": "https://www.agarchive.net/pages/devs/sightlessWolf.html"
-  },
   "sources": [
     {
       "platform": "windows",

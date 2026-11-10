@@ -6,12 +6,13 @@
     "Sightless Wolf Entertainment"
   ],
   "description": "Battle bots in this fast-paced sidescroller or capture them to fight for your alliance, as the world around you grows steadily more chaotic.",
-  "flags": [
-    "abandoned"
+  "unsupported": true,
+  "links": [
+    {
+      "url": "https://www.agarchive.net/pages/devs/sightlessWolf.html",
+      "label": "Archived at agarchive"
+    }
   ],
-  "links": {
-    "agarchive": "https://www.agarchive.net/pages/devs/sightlessWolf.html"
-  },
   "sources": [
     {
       "platform": "windows",

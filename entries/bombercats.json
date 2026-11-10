@@ -6,9 +6,12 @@
     "Oriol Gomez"
   ],
   "description": "You must select non-exploding cats to earn points. Presented with random cats that may explode, use arrows to pick one safely as the number increases. Avoiding booming felines adds to your running score over rounds, with a survival mode giving extra chances before reset.",
-  "links": {
-    "agarchive": "https://www.agarchive.net/pages/devs/oriolgomez.html"
-  },
+  "links": [
+    {
+      "url": "https://www.agarchive.net/pages/devs/oriolgomez.html",
+      "label": "Archived at agarchive"
+    }
+  ],
   "sources": [
     {
       "platform": "windows",

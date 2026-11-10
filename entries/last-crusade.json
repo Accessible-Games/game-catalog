@@ -5,13 +5,17 @@
   "developer": [
     "various authors"
   ],
-  "flags": [
-    "abandoned"
+  "unsupported": true,
+  "links": [
+    {
+      "url": "http://www.cs.unc.edu/Research/assist/et/projects/RPG/TheLastCrusade.htm",
+      "label": "Homepage"
+    },
+    {
+      "url": "https://www.agarchive.net/pages/devs/misc.html",
+      "label": "Archived at agarchive"
+    }
   ],
-  "links": {
-    "homepage": "http://www.cs.unc.edu/Research/assist/et/projects/RPG/TheLastCrusade.htm",
-    "agarchive": "https://www.agarchive.net/pages/devs/misc.html"
-  },
   "sources": [
     {
       "platform": "windows",

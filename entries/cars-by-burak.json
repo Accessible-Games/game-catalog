@@ -6,12 +6,13 @@
     "Playing in the Dark"
   ],
   "description": "This is a collection of vehicles, created by Burak.\n\nEach vehicle is contained within its own folder.",
-  "flags": [
-    "abandoned"
+  "unsupported": true,
+  "links": [
+    {
+      "url": "https://www.agarchive.net/pages/devs/pitd.html",
+      "label": "Archived at agarchive"
+    }
   ],
-  "links": {
-    "agarchive": "https://www.agarchive.net/pages/devs/pitd.html"
-  },
   "sources": [
     {
       "platform": "windows",

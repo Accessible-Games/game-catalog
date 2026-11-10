@@ -6,9 +6,12 @@
     "Dreamtech games."
   ],
   "description": "Take your newly bought battle copter to the skies of your living room and try to shoot down your friend!",
-  "links": {
-    "agarchive": "https://www.agarchive.net/pages/devs/dreamtech.html"
-  },
+  "links": [
+    {
+      "url": "https://www.agarchive.net/pages/devs/dreamtech.html",
+      "label": "Archived at agarchive"
+    }
+  ],
   "sources": [
     {
       "platform": "windows",

@@ -6,14 +6,19 @@
     "GMA Games"
   ],
   "description": "GMA Tank Commander drops the player into a superior enemy force's back yard in a technologically superior tank. Using various strategies and the tank's weapons, move through the six missions that encompass a truly awesome gaming experience.",
-  "flags": [
-    "demo",
-    "requires-registration"
-  ],
-  "links": {
-    "homepage": "http://www.gmagames.com/gtc1.shtml",
-    "agarchive": "https://www.agarchive.net/pages/devs/gma.html"
+  "pricing": {
+    "model": "free-to-try"
   },
+  "links": [
+    {
+      "url": "http://www.gmagames.com/gtc1.shtml",
+      "label": "Homepage"
+    },
+    {
+      "url": "https://www.agarchive.net/pages/devs/gma.html",
+      "label": "Archived at agarchive"
+    }
+  ],
   "sources": [
     {
       "label": "Developer site",

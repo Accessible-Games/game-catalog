@@ -5,12 +5,15 @@
   "developer": [
     "LWorks"
   ],
-  "flags": [
-    "requires-registration"
-  ],
-  "links": {
-    "agarchive": "https://www.agarchive.net/pages/devs/lworks.html"
+  "pricing": {
+    "model": "free-to-try"
   },
+  "links": [
+    {
+      "url": "https://www.agarchive.net/pages/devs/lworks.html",
+      "label": "Archived at agarchive"
+    }
+  ],
   "sources": [
     {
       "platform": "windows",

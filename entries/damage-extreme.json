@@ -6,12 +6,13 @@
     "Game Madness Interactive"
   ],
   "description": "It is the last stand of the United Nations. Defend your base against increasing waves of enemies, each of which requires a different weapon and strategy to defeat.\n\nDamage Extreme was originally distributed in a source only form. We have compiled the game, and moved the source to its own directory. A small typo in the main menu text was also fixed during compilation.",
-  "flags": [
-    "abandoned"
+  "unsupported": true,
+  "links": [
+    {
+      "url": "https://www.agarchive.net/pages/devs/gmi.html",
+      "label": "Archived at agarchive"
+    }
   ],
-  "links": {
-    "agarchive": "https://www.agarchive.net/pages/devs/gmi.html"
-  },
   "sources": [
     {
       "platform": "windows",

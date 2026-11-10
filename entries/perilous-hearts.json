@@ -5,13 +5,14 @@
   "developer": [
     "Blastbay Studios"
   ],
-  "flags": [
-    "abandoned",
-    "beta"
+  "description": "This is a beta version.",
+  "unsupported": true,
+  "links": [
+    {
+      "url": "https://www.agarchive.net/pages/devs/blastbay.html",
+      "label": "Archived at agarchive"
+    }
   ],
-  "links": {
-    "agarchive": "https://www.agarchive.net/pages/devs/blastbay.html"
-  },
   "sources": [
     {
       "platform": "windows",

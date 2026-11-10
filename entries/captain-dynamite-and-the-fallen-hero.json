@@ -5,15 +5,17 @@
   "developer": [
     "various authors"
   ],
-  "description": "In this concept demo of a rhythm game you take on the roles of the hero Captain Dynamite and his sidekick Guy Mighty. By matching rhythm and timing you challenge numerous villains, and perhaps even discover some dark secrets.\n\nThis is a demo version of the product. The full version has not been released, and we were unable to find any updated information about the developer. If you know something, please let us know so we can update this listing.",
-  "flags": [
-    "abandoned",
-    "demo",
-    "beta"
-  ],
-  "links": {
-    "agarchive": "https://www.agarchive.net/pages/devs/misc.html"
+  "description": "In this concept demo of a rhythm game you take on the roles of the hero Captain Dynamite and his sidekick Guy Mighty. By matching rhythm and timing you challenge numerous villains, and perhaps even discover some dark secrets.\n\nThis is a demo version of the product. The full version has not been released, and we were unable to find any updated information about the developer. If you know something, please let us know so we can update this listing.\n\nThis is a beta version.",
+  "pricing": {
+    "model": "free-to-try"
   },
+  "unsupported": true,
+  "links": [
+    {
+      "url": "https://www.agarchive.net/pages/devs/misc.html",
+      "label": "Archived at agarchive"
+    }
+  ],
   "sources": [
     {
       "platform": "windows",

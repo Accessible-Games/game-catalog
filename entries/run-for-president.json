@@ -6,12 +6,13 @@
     "Richard De Steno"
   ],
   "description": "You require 270 electoral votes to make it to the Oval Office. Have you got what it takes to campaign around the country, manage your finances, and answer questions from the reporters that follow you everywhere?",
-  "flags": [
-    "abandoned"
+  "unsupported": true,
+  "links": [
+    {
+      "url": "https://www.agarchive.net/pages/devs/richardDeSteno.html",
+      "label": "Archived at agarchive"
+    }
   ],
-  "links": {
-    "agarchive": "https://www.agarchive.net/pages/devs/richardDeSteno.html"
-  },
   "sources": [
     {
       "platform": "windows",

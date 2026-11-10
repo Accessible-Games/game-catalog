@@ -6,9 +6,12 @@
     "BPC Programs"
   ],
   "description": "In January of 2017, TDV was released as open source freeware.\n\nAs a result, we host several different files, listed below.\n\nThis archive contains only the compiled version of the game, without source.\n\nTo play, execute tdv.exe.",
-  "links": {
-    "agarchive": "https://www.agarchive.net/pages/devs/bpc.html"
-  },
+  "links": [
+    {
+      "url": "https://www.agarchive.net/pages/devs/bpc.html",
+      "label": "Archived at agarchive"
+    }
+  ],
   "sources": [
     {
       "platform": "windows",

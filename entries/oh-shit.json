@@ -6,9 +6,12 @@
     "various authors"
   ],
   "description": "This game, despite its title, does not contain any questionable content, and is a massively addictive arcade game.Run around, and avoid the rocks that will try to fall onto your head. But it doesn't stop there, where the game gets interesting is that the objects that were trying to destroy you become one of three things once they're on the ground; points, items, or pits. Survive as long as you can, pick up points, and avoid pits and exploding canons that will appear out of nowhere. Pick up superbonuses to gain invinsibility which will in turn destroy the canons, pit covers to cover the pits, and a speed bonus that can help or hinder you!",
-  "links": {
-    "agarchive": "https://www.agarchive.net/pages/devs/misc.html"
-  },
+  "links": [
+    {
+      "url": "https://www.agarchive.net/pages/devs/misc.html",
+      "label": "Archived at agarchive"
+    }
+  ],
   "sources": [
     {
       "platform": "windows",

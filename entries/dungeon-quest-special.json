@@ -6,9 +6,12 @@
     "Morokuma"
   ],
   "description": "Same as dungeon quest, but uses MP3 music instead of midi. Is no longer hosted on the developer's website.",
-  "links": {
-    "agarchive": "https://www.agarchive.net/pages/devs/morokuma.html"
-  },
+  "links": [
+    {
+      "url": "https://www.agarchive.net/pages/devs/morokuma.html",
+      "label": "Archived at agarchive"
+    }
+  ],
   "sources": [
     {
       "platform": "windows",

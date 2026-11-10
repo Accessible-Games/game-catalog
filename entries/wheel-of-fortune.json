@@ -6,12 +6,13 @@
     "Freedom Games"
   ],
   "description": "One of television's most popular game shows has now come to a computer near you. Get ready to have a great time playing Wheel of Fortune.",
-  "flags": [
-    "abandoned"
+  "unsupported": true,
+  "links": [
+    {
+      "url": "https://www.agarchive.net/pages/devs/freedom.html",
+      "label": "Archived at agarchive"
+    }
   ],
-  "links": {
-    "agarchive": "https://www.agarchive.net/pages/devs/freedom.html"
-  },
   "sources": [
     {
       "platform": "windows",

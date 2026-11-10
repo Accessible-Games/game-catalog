@@ -5,12 +5,13 @@
   "developer": [
     "PB Games"
   ],
-  "flags": [
-    "abandoned"
+  "unsupported": true,
+  "links": [
+    {
+      "url": "https://www.agarchive.net/pages/devs/pb.html",
+      "label": "Archived at agarchive"
+    }
   ],
-  "links": {
-    "agarchive": "https://www.agarchive.net/pages/devs/pb.html"
-  },
   "sources": [
     {
       "platform": "windows",

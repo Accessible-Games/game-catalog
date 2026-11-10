@@ -6,9 +6,12 @@
     "Talon"
   ],
   "description": "Note that this package contains both a client and server application.\n\nNote that this archive also includes a brief key summary for the map maker as well as the tutorial itself.",
-  "links": {
-    "agarchive": "https://www.agarchive.net/pages/devs/talon.html"
-  },
+  "links": [
+    {
+      "url": "https://www.agarchive.net/pages/devs/talon.html",
+      "label": "Archived at agarchive"
+    }
+  ],
   "sources": [
     {
       "platform": "windows",

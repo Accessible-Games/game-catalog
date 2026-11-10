@@ -6,10 +6,16 @@
     "Dr_Al_"
   ],
   "description": "A zombie apocalypse exploration game: pick from several starting classes, manage your resources, upgrade skills and equipment, and try to uncover the reason behind the plague. Written entirely in Windows batch script.",
-  "links": {
-    "homepage": "https://doctoral.weebly.com/batch-games.html",
-    "agarchive": "https://www.agarchive.net/pages/devs/misc.html"
-  },
+  "links": [
+    {
+      "url": "https://doctoral.weebly.com/batch-games.html",
+      "label": "Homepage"
+    },
+    {
+      "url": "https://www.agarchive.net/pages/devs/misc.html",
+      "label": "Archived at agarchive"
+    }
+  ],
   "sources": [
     {
       "label": "Mirror",

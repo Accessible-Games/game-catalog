@@ -6,12 +6,13 @@
     "Phantom Creations"
   ],
   "description": "Deng has an easy button. Can you help him get it directly in to the trash? It's not as easy as it seems, especially when the trash can moves out far enough that you must rely on audio calculations alone, and a pesky shield eventually appears, requiring even more calculations to avoid.",
-  "flags": [
-    "abandoned"
+  "unsupported": true,
+  "links": [
+    {
+      "url": "https://www.agarchive.net/pages/devs/phantomCreations.html",
+      "label": "Archived at agarchive"
+    }
   ],
-  "links": {
-    "agarchive": "https://www.agarchive.net/pages/devs/phantomCreations.html"
-  },
   "sources": [
     {
       "platform": "windows",

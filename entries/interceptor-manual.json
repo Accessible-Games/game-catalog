@@ -6,9 +6,12 @@
     "Valiant Galaxy Associates"
   ],
   "description": "An offline copy of the game's manual. Links inside it are unlikely to work.",
-  "links": {
-    "agarchive": "https://www.agarchive.net/pages/devs/vga.html"
-  },
+  "links": [
+    {
+      "url": "https://www.agarchive.net/pages/devs/vga.html",
+      "label": "Archived at agarchive"
+    }
+  ],
   "sources": [
     {
       "label": "Mirror",

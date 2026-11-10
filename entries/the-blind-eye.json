@@ -6,12 +6,13 @@
     "various authors"
   ],
   "description": "In a highly atmospheric audio world, walk around and hunt for instruments to create a band. Unlike many titles, this game makes use of an impressive degree of audio processing and echos. Pay attention to the reverberations of your footsteps to hellp you navigate.\n\nWe have received reports of issues running the game under Windows 10. In addition, the English version attempts to launch the developer's website on exit, which no longer exists and is currently a for-sale parking page.",
-  "flags": [
-    "abandoned"
+  "unsupported": true,
+  "links": [
+    {
+      "url": "https://www.agarchive.net/pages/devs/misc.html",
+      "label": "Archived at agarchive"
+    }
   ],
-  "links": {
-    "agarchive": "https://www.agarchive.net/pages/devs/misc.html"
-  },
   "sources": [
     {
       "platform": "windows",

@@ -5,9 +5,12 @@
   "developer": [
     "Jeqocon Games"
   ],
-  "links": {
-    "agarchive": "https://www.agarchive.net/pages/devs/jeqocon.html"
-  },
+  "links": [
+    {
+      "url": "https://www.agarchive.net/pages/devs/jeqocon.html",
+      "label": "Archived at agarchive"
+    }
+  ],
   "sources": [
     {
       "platform": "windows",

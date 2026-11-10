@@ -6,12 +6,13 @@
     "BrailleSoft"
   ],
   "description": "Fill in words to create an amusing story in this port of the household game.\n\nMadlibs needs .NET Framework 3.5. If Windows asks to download and install that feature the first time the game starts, choose to download and install it, then start the game again.",
-  "flags": [
-    "abandoned"
+  "unsupported": true,
+  "links": [
+    {
+      "url": "https://www.agarchive.net/pages/devs/braillesoft.html",
+      "label": "Archived at agarchive"
+    }
   ],
-  "links": {
-    "agarchive": "https://www.agarchive.net/pages/devs/braillesoft.html"
-  },
   "sources": [
     {
       "platform": "windows",

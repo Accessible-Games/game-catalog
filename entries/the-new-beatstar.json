@@ -6,9 +6,12 @@
     "Oriol Gomez"
   ],
   "description": "Test your rhythm skills against many unlockable music beats!\n\nThis is a complete rewrite of Beatstar Pro. There have been many changes made, including Windows and Mac versions, new minigames, the pack editor for creating new soundpacks now being integrated in the game, and many other improvements.\n\nPlease note that a large aspect of beatstar is user-created soundpacks. Some of these packs do contain explicit content, so use discretion when downloading.",
-  "links": {
-    "agarchive": "https://www.agarchive.net/pages/devs/oriolgomez.html"
-  },
+  "links": [
+    {
+      "url": "https://www.agarchive.net/pages/devs/oriolgomez.html",
+      "label": "Archived at agarchive"
+    }
+  ],
   "sources": [
     {
       "platform": "windows",
