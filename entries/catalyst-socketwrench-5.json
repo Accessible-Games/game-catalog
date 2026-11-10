@@ -1,0 +1,33 @@
+{
+  "id": "catalyst-socketwrench-5",
+  "kind": "runtime",
+  "title": "Catalyst SocketWrench 5 control",
+  "developer": [
+    "Catalyst Development Corporation"
+  ],
+  "description": "Catalyst's SocketWrench networking control (cswskax5.ocx, version 5.00.5030, signed by Catalyst Development Corporation), registered once for every game that needs it. GMA's games ship it unregistered and then stop with \"Component 'cswskax5.ocx' or one of its dependencies not correctly registered\".",
+  "sources": [
+    {
+      "label": "Mirror",
+      "url": "https://files.accessiblegames.net/files/f42afd9c79d6dae6eaf98cc3d31a03845adbeb31e43fd120efb46d95077eb5ce/cswskax5.ocx",
+      "platform": "windows",
+      "install": {
+        "method": "none"
+      },
+      "sha256": "f42afd9c79d6dae6eaf98cc3d31a03845adbeb31e43fd120efb46d95077eb5ce",
+      "size": 340040,
+      "steps": [
+        {
+          "action": "register",
+          "path": "cswskax5.ocx"
+        }
+      ]
+    }
+  ],
+  "detect": {
+    "registry": {
+      "hive": "HKCR",
+      "key": "CLSID\\{E1F7928E-07C2-4267-89A4-E7ECB0D8CF3D}\\InprocServer32"
+    }
+  }
+}
