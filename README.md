@@ -60,9 +60,8 @@ The schema in `schema/entry.schema.json` is authoritative. An entry file holds o
 - `sources`: required list with at least one source. The first is the most preferred.
 - `launch`: optional object keyed by platform (`windows`, `macos`, `linux`, `web`). Each value has a required `path`, relative to the install folder, and an optional `args`. When missing, the app finds the executable after install.
 - `dependencies`: optional list of entry ids that must be installed first, such as runtimes.
-- `extends`: optional entry id of the parent game, or null. Used by extras.
-- `install_into`: optional entry id whose install folder receives the files, or null. Usually the same as `extends`.
-- `required`: optional true or false. When true, an extra is installed automatically with its parent.
+- `extends`: list of the games an extra belongs to, as entry ids, with at least one id and no repeats. Write a single game as a one-item list, such as `["entombed"]`. One extra can belong to several games, such as a patch shared by a developer's whole series. Required on `extra` entries, allowed on `access-mod` entries and not allowed on any other kind. Each id must name an existing entry whose kind is `game`. The extra installs into the folder of whichever game it's added to.
+- `required`: optional true or false, only on `extra` entries. When true, the extra is installed automatically with each game it belongs to.
 - `detect`: optional hint for spotting a runtime that is already installed, so it is skipped. Either `{"file": "..."}`, present when that file exists (environment variables such as `%WINDIR%` are expanded), or `{"registry": {"hive": "...", "key": "...", "name": "..."}}`, present when that registry value exists. `hive` is one of `HKCR`, `HKLM`, `HKCU`. `name` is optional; without it the key's default value is checked.
 - `checkver`: optional rule for spotting new versions. Either `{"github": "owner/repo"}` or `{"url": "...", "regex": "..."}`.
 
