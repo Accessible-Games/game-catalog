@@ -6,6 +6,7 @@ import argparse
 import re
 import sys
 from dataclasses import dataclass
+from datetime import date
 from pathlib import Path
 from urllib.parse import urlsplit, urlunsplit
 
@@ -56,6 +57,42 @@ def _check_links(key: str, entry: dict, out: list[Problem]) -> None:
         if value in seen:
             out.append(Problem(key, f"links[{i}]: URL is listed more than once ({value})"))
         seen.add(value)
+
+
+_PRICED_MODELS_THAT_STOP_SELLING = ("free-to-try", "one-time", "subscription")
+
+
+def _check_pricing(key: str, entry: dict, out: list[Problem]) -> None:
+    pricing = entry.get("pricing")
+    if not isinstance(pricing, dict):
+        return
+    model = pricing.get("model")
+    if "price" in pricing and "currency" not in pricing:
+        out.append(Problem(key, "pricing: price needs a currency"))
+    if "currency" in pricing and "price" not in pricing:
+        out.append(Problem(key, "pricing: currency is only used with a price"))
+    if isinstance(model, str):  # a missing model is already a schema problem
+        if "price" in pricing and model in ("free", "free-with-purchases"):
+            out.append(Problem(key, f"pricing: price is not used with the {model} model"))
+        if "suggested" in pricing and model != "pay-what-you-want":
+            out.append(Problem(key, "pricing: suggested is only used with the pay-what-you-want model"))
+        if model == "subscription" and "period" not in pricing:
+            out.append(Problem(key, "pricing: period is required with the subscription model"))
+        if "period" in pricing and model != "subscription":
+            out.append(Problem(key, "pricing: period is only used with the subscription model"))
+        if "no_longer_sold" in pricing and model not in _PRICED_MODELS_THAT_STOP_SELLING:
+            out.append(Problem(key, "pricing: no_longer_sold is only used with the free-to-try, one-time "
+                                    "or subscription model"))
+    checked = pricing.get("checked")
+    if isinstance(checked, str) and re.fullmatch(r"[0-9]{4}-[0-9]{2}-[0-9]{2}", checked):
+        try:
+            date.fromisoformat(checked)
+        except ValueError:
+            out.append(Problem(key, f"pricing.checked: not a real date ({checked})"))
+    for name in ("url", "donate_url"):
+        value = pricing.get(name)
+        if isinstance(value, str) and not _is_web_url(value):
+            out.append(Problem(key, f"pricing.{name}: URL must be http or https with a host ({value})"))
 
 
 def _check_sources(key: str, entry: dict, out: list[Problem]) -> None:
@@ -150,6 +187,7 @@ def validate_entries(entries: dict[str, dict]) -> list[Problem]:
 
         _check_sources(key, entry, problems)
         _check_links(key, entry, problems)
+        _check_pricing(key, entry, problems)
 
     valid = {k: v for k, v in entries.items() if isinstance(v, dict)}
     for cycle in _find_cycles(valid):

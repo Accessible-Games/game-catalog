@@ -241,3 +241,74 @@ def test_links_must_not_repeat_a_url():
 def test_links_must_be_a_list_of_url_and_label(links):
     problems = validate_entries(catalog(make("a", links=links)))
     assert problems and all(p.message.startswith("schema: ") for p in problems)
+
+
+@pytest.mark.parametrize("pricing", [
+    {"model": "free"},
+    {"model": "free", "donate_url": "https://example.com/donate", "checked": "2026-11-09"},
+    {"model": "free-with-purchases", "url": "https://example.com/store"},
+    {"model": "free-to-try"},
+    {"model": "free-to-try", "price": 15, "currency": "USD", "no_longer_sold": True},
+    {"model": "pay-what-you-want", "price": 0, "suggested": 5, "currency": "EUR"},
+    {"model": "pay-what-you-want"},
+    {"model": "one-time", "price": 9.99, "currency": "GBP", "url": "https://example.com/buy",
+     "note": "Full version adds 12 levels"},
+    {"model": "one-time", "no_longer_sold": True},
+    {"model": "subscription", "period": "month"},
+    {"model": "subscription", "price": 30, "currency": "USD", "period": "year", "no_longer_sold": True},
+    {"model": "free", "checked": "2028-02-29"},
+])
+def test_pricing_combinations_allowed(pricing):
+    assert validate_entries(catalog(make("a", pricing=pricing))) == []
+
+
+@pytest.mark.parametrize("pricing, message", [
+    ({"model": "one-time", "price": 5}, "pricing: price needs a currency"),
+    ({"model": "free-to-try", "price": 0}, "pricing: price needs a currency"),
+    ({"model": "one-time", "currency": "USD"}, "pricing: currency is only used with a price"),
+    ({"model": "pay-what-you-want", "suggested": 5, "currency": "USD"},
+     "pricing: currency is only used with a price"),
+    ({"model": "free", "price": 0, "currency": "USD"}, "pricing: price is not used with the free model"),
+    ({"model": "free-with-purchases", "price": 2, "currency": "USD"},
+     "pricing: price is not used with the free-with-purchases model"),
+    ({"model": "one-time", "price": 5, "suggested": 8, "currency": "USD"},
+     "pricing: suggested is only used with the pay-what-you-want model"),
+    ({"model": "free", "suggested": 1}, "pricing: suggested is only used with the pay-what-you-want model"),
+    ({"model": "subscription", "price": 5, "currency": "USD"},
+     "pricing: period is required with the subscription model"),
+    ({"model": "subscription"}, "pricing: period is required with the subscription model"),
+    ({"model": "one-time", "period": "month"}, "pricing: period is only used with the subscription model"),
+    ({"model": "free", "period": "year"}, "pricing: period is only used with the subscription model"),
+    ({"model": "free", "no_longer_sold": True},
+     "pricing: no_longer_sold is only used with the free-to-try, one-time or subscription model"),
+    ({"model": "pay-what-you-want", "no_longer_sold": True},
+     "pricing: no_longer_sold is only used with the free-to-try, one-time or subscription model"),
+    ({"model": "free-with-purchases", "no_longer_sold": True},
+     "pricing: no_longer_sold is only used with the free-to-try, one-time or subscription model"),
+    ({"model": "free", "checked": "2026-02-30"}, "pricing.checked: not a real date (2026-02-30)"),
+    ({"model": "free", "checked": "2026-13-01"}, "pricing.checked: not a real date (2026-13-01)"),
+    ({"model": "one-time", "url": "mailto:sales@example.com"},
+     "pricing.url: URL must be http or https with a host (mailto:sales@example.com)"),
+    ({"model": "free", "donate_url": "/donate"},
+     "pricing.donate_url: URL must be http or https with a host (/donate)"),
+    ({"model": "free", "donate_url": "https:///donate"},
+     "pricing.donate_url: URL must be http or https with a host (https:///donate)"),
+])
+def test_pricing_rules(pricing, message):
+    assert msgs(validate_entries(catalog(make("a", pricing=pricing)))) == [message]
+
+
+def test_pricing_problems_are_all_reported():
+    pricing = {"model": "free", "price": 5, "suggested": 1, "period": "month"}
+    assert msgs(validate_entries(catalog(make("a", pricing=pricing)))) == [
+        "pricing: price needs a currency",
+        "pricing: price is not used with the free model",
+        "pricing: suggested is only used with the pay-what-you-want model",
+        "pricing: period is only used with the subscription model",
+    ]
+
+
+def test_pricing_schema_errors_skip_rules_that_need_a_model():
+    for pricing in ({"price": 5, "currency": "USD"}, {"suggested": 5, "period": "month", "no_longer_sold": True}):
+        problems = msgs(validate_entries(catalog(make("a", pricing=pricing))))
+        assert problems and all(m.startswith("schema: ") for m in problems), problems
