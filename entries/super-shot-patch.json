@@ -25,6 +25,7 @@
       "size": 87552
     }
   ],
-  "extends": "super-shot",
-  "install_into": "super-shot"
+  "extends": [
+    "super-shot"
+  ]
 }

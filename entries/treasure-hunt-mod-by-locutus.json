@@ -23,6 +23,7 @@
       "size": 99477278
     }
   ],
-  "extends": "treasure-hunt",
-  "install_into": "treasure-hunt"
+  "extends": [
+    "treasure-hunt"
+  ]
 }

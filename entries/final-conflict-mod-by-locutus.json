@@ -23,6 +23,7 @@
       "size": 33276331
     }
   ],
-  "extends": "star-treck-final-conflict",
-  "install_into": "star-treck-final-conflict"
+  "extends": [
+    "star-treck-final-conflict"
+  ]
 }

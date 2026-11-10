@@ -24,6 +24,7 @@
       "size": 12994
     }
   ],
-  "extends": "yellow-bonnet",
-  "install_into": "yellow-bonnet"
+  "extends": [
+    "yellow-bonnet"
+  ]
 }

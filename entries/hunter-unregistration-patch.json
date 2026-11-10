@@ -25,6 +25,7 @@
       "size": 283907
     }
   ],
-  "extends": "hunter",
-  "install_into": "hunter"
+  "extends": [
+    "hunter"
+  ]
 }

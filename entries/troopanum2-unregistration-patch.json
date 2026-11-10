@@ -25,6 +25,7 @@
       "size": 283912
     }
   ],
-  "extends": "troopanum2",
-  "install_into": "troopanum2"
+  "extends": [
+    "troopanum2"
+  ]
 }

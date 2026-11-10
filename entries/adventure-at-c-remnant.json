@@ -24,6 +24,7 @@
       "size": 246451965
     }
   ],
-  "extends": "adventure-at-c",
-  "install_into": "adventure-at-c"
+  "extends": [
+    "adventure-at-c"
+  ]
 }

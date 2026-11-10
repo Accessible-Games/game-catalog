@@ -28,6 +28,7 @@
       "size": 15050157
     }
   ],
-  "extends": "the-savage-gamut",
-  "install_into": "the-savage-gamut"
+  "extends": [
+    "the-savage-gamut"
+  ]
 }

@@ -25,6 +25,7 @@
       "size": 46171467
     }
   ],
-  "extends": "top-speed-3",
-  "install_into": "top-speed-3"
+  "extends": [
+    "top-speed-3"
+  ]
 }

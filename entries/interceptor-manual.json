@@ -24,6 +24,7 @@
       "size": 17524
     }
   ],
-  "extends": "interceptor",
-  "install_into": "interceptor"
+  "extends": [
+    "interceptor"
+  ]
 }

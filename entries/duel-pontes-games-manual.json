@@ -24,6 +24,7 @@
       "size": 5177
     }
   ],
-  "extends": "duel-pontes-games",
-  "install_into": "duel-pontes-games"
+  "extends": [
+    "duel-pontes-games"
+  ]
 }

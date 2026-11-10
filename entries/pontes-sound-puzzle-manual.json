@@ -24,6 +24,7 @@
       "size": 7778
     }
   ],
-  "extends": "pontes-sound-puzzle",
-  "install_into": "pontes-sound-puzzle"
+  "extends": [
+    "pontes-sound-puzzle"
+  ]
 }

@@ -47,6 +47,7 @@
       "size": 278209
     }
   ],
-  "extends": "cave-of-marvels",
-  "install_into": "cave-of-marvels"
+  "extends": [
+    "cave-of-marvels"
+  ]
 }

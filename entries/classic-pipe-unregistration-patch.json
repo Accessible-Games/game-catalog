@@ -25,6 +25,7 @@
       "size": 289333
     }
   ],
-  "extends": "classic-pipe",
-  "install_into": "classic-pipe"
+  "extends": [
+    "classic-pipe"
+  ]
 }

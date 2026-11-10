@@ -25,6 +25,7 @@
       "size": 88966746
     }
   ],
-  "extends": "the-road-to-rage",
-  "install_into": "the-road-to-rage"
+  "extends": [
+    "the-road-to-rage"
+  ]
 }

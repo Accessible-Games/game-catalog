@@ -25,6 +25,7 @@
       "size": 36123942
     }
   ],
-  "extends": "shades-of-doom",
-  "install_into": "shades-of-doom"
+  "extends": [
+    "shades-of-doom"
+  ]
 }

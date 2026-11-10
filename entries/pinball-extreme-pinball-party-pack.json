@@ -49,6 +49,7 @@
       "size": 44278032
     }
   ],
-  "extends": "pinball-extreme",
-  "install_into": "pinball-extreme"
+  "extends": [
+    "pinball-extreme"
+  ]
 }

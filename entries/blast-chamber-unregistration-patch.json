@@ -25,6 +25,7 @@
       "size": 283913
     }
   ],
-  "extends": "blast-chamber",
-  "install_into": "blast-chamber"
+  "extends": [
+    "blast-chamber"
+  ]
 }

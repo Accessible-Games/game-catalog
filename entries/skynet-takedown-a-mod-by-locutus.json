@@ -25,6 +25,7 @@
       "size": 103596541
     }
   ],
-  "extends": "technoshock",
-  "install_into": "technoshock"
+  "extends": [
+    "technoshock"
+  ]
 }

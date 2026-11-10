@@ -38,6 +38,7 @@
       "size": 23614040
     }
   ],
-  "extends": "sarah-and-the-castle-of-witchcraft-and-wizardry",
-  "install_into": "sarah-and-the-castle-of-witchcraft-and-wizardry"
+  "extends": [
+    "sarah-and-the-castle-of-witchcraft-and-wizardry"
+  ]
 }

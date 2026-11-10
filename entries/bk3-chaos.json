@@ -26,6 +26,7 @@
       "size": 526092
     }
   ],
-  "extends": "bokurano-daibouken-3",
-  "install_into": "bokurano-daibouken-3"
+  "extends": [
+    "bokurano-daibouken-3"
+  ]
 }

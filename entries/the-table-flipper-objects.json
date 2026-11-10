@@ -24,6 +24,7 @@
       "size": 14434323
     }
   ],
-  "extends": "the-table-flipper",
-  "install_into": "the-table-flipper"
+  "extends": [
+    "the-table-flipper"
+  ]
 }

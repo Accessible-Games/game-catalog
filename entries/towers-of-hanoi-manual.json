@@ -24,6 +24,7 @@
       "size": 2187
     }
   ],
-  "extends": "towers-of-hanoi",
-  "install_into": "towers-of-hanoi"
+  "extends": [
+    "towers-of-hanoi"
+  ]
 }

@@ -27,6 +27,7 @@
       "size": 309829
     }
   ],
-  "extends": "freedom-millionaire",
-  "install_into": "freedom-millionaire"
+  "extends": [
+    "freedom-millionaire"
+  ]
 }

@@ -25,6 +25,7 @@
       "size": 289339
     }
   ],
-  "extends": "word-strain-volume1",
-  "install_into": "word-strain-volume1"
+  "extends": [
+    "word-strain-volume1"
+  ]
 }

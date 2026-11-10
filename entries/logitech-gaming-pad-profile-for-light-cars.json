@@ -24,6 +24,7 @@
       "size": 1174
     }
   ],
-  "extends": "light-cars",
-  "install_into": "light-cars"
+  "extends": [
+    "light-cars"
+  ]
 }

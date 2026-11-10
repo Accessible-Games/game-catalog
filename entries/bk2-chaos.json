@@ -45,6 +45,7 @@
       "size": 381287
     }
   ],
-  "extends": "bokurano-daibouken-2",
-  "install_into": "bokurano-daibouken-2"
+  "extends": [
+    "bokurano-daibouken-2"
+  ]
 }

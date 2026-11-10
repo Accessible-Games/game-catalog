@@ -45,6 +45,7 @@
       "size": 75142
     }
   ],
-  "extends": "lone-wolf",
-  "install_into": "lone-wolf"
+  "extends": [
+    "lone-wolf"
+  ]
 }

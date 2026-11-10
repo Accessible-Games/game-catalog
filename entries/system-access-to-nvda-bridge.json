@@ -37,6 +37,7 @@
       ]
     }
   ],
-  "extends": "entombed",
-  "install_into": "entombed"
+  "extends": [
+    "entombed"
+  ]
 }

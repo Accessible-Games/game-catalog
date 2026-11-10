@@ -24,6 +24,7 @@
       "size": 4658
     }
   ],
-  "extends": "treasure-mania",
-  "install_into": "treasure-mania"
+  "extends": [
+    "treasure-mania"
+  ]
 }

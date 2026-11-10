@@ -24,7 +24,8 @@
       "size": 263918
     }
   ],
-  "extends": "entombed",
-  "install_into": "entombed",
+  "extends": [
+    "entombed"
+  ],
   "required": true
 }

@@ -43,6 +43,7 @@
       "size": 453873
     }
   ],
-  "extends": "the-maze-game",
-  "install_into": "the-maze-game"
+  "extends": [
+    "the-maze-game"
+  ]
 }
