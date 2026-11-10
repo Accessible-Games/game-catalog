@@ -22,7 +22,8 @@
           "type": "inno",
           "mode": "extract"
         }
-      }
+      },
+      "size": 42100406
     }
   ],
   "launch": {
