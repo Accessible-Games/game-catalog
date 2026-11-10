@@ -186,6 +186,15 @@ def validate_entries(entries: dict[str, dict]) -> list[Problem]:
             problems.append(Problem(key, "extra entries must set extends"))
         if "extends" in entry and kind not in ("extra", "access-mod"):
             problems.append(Problem(key, "extends is only allowed on extra or access-mod entries"))
+        if isinstance(extends, list) and len(set(p for p in extends if isinstance(p, str))) > 1:
+            shared_steps = sorted({
+                step.get("action") for source in entry.get("sources") or [] if isinstance(source, dict)
+                for step in source.get("steps") or []
+                if isinstance(step, dict) and step.get("action") in ("registry", "register")})
+            if shared_steps:
+                problems.append(Problem(
+                    key, f"an extra that belongs to more than one game can't use {' or '.join(shared_steps)} steps: "
+                         "uninstalling it from one game would undo them for the others"))
         if entry.get("required") is not None and kind != "extra":
             problems.append(Problem(key, "required is only allowed on extra entries"))
 

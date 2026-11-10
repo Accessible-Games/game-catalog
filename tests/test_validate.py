@@ -97,6 +97,21 @@ def test_extends_with_two_games():
     assert validate_entries(entries) == []
 
 
+def test_shared_extra_cannot_use_system_steps():
+    reg = {"action": "registry", "hive": "HKCU", "key": "Software\\X", "name": "", "type": "REG_SZ", "value": "1"}
+    com = {"action": "register", "path": "x.ocx"}
+    shared = with_source(make("x", "extra", extends=["g", "h"]), steps=[reg, com])
+    problems = validate_entries(catalog(make("g"), make("h"), shared))
+    assert msgs(problems) == [
+        "an extra that belongs to more than one game can't use register or registry steps: "
+        "uninstalling it from one game would undo them for the others"]
+    single = with_source(make("y", "extra", extends=["g"]), steps=[reg, com])
+    assert validate_entries(catalog(make("g"), single)) == []
+    copy_step = {"action": "copy", "from": "a", "to": "b"}
+    harmless = with_source(make("z", "extra", extends=["g", "h"]), steps=[copy_step])
+    assert validate_entries(catalog(make("g"), make("h"), harmless)) == []
+
+
 def test_extends_must_not_repeat():
     problems = validate_entries(catalog(make("g"), make("x", "extra", extends=["g", "g"])))
     assert len(problems) == 1
