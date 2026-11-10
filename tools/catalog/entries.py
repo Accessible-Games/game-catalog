@@ -10,8 +10,9 @@ ENTRY_SCHEMA_PATH = ROOT / "schema" / "entry.schema.json"
 
 ENTRY_KEY_ORDER: tuple[str, ...] = (
     "id", "kind", "title", "developer", "genres", "year", "description", "version",
-    "flags", "links", "sources", "launch", "dependencies", "extends", "install_into",
-    "required", "approval", "detect", "checkver",
+    "self_updating", "pricing", "tags", "languages", "contains", "unsupported", "warning",
+    "links", "sources", "launch", "dependencies", "extends", "install_into", "required",
+    "detect", "checkver",
 )
 
 

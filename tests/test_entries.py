@@ -42,3 +42,20 @@ def test_load_entries_bad_json(tmp_path):
     with pytest.raises(EntryLoadError) as exc:
         load_entries(tmp_path)
     assert exc.value.path == bad
+
+
+def test_key_order_follows_schema_v2():
+    assert ENTRY_KEY_ORDER == (
+        "id", "kind", "title", "developer", "genres", "year", "description", "version",
+        "self_updating", "pricing", "tags", "languages", "contains", "unsupported", "warning",
+        "links", "sources", "launch", "dependencies", "extends", "install_into", "required",
+        "detect", "checkver",
+    )
+    assert "flags" not in ENTRY_KEY_ORDER and "approval" not in ENTRY_KEY_ORDER
+
+
+def test_write_entry_places_new_fields(tmp_path):
+    entry = {"sources": [], "links": [], "pricing": {"model": "free"}, "tags": ["Idle"],
+             "title": "T", "kind": "game", "id": "x", "self_updating": True, "warning": "W."}
+    keys = list(json.loads(write_entry(tmp_path, entry).read_text(encoding="utf-8")))
+    assert keys == ["id", "kind", "title", "self_updating", "pricing", "tags", "warning", "links", "sources"]
