@@ -14,7 +14,7 @@ from pathlib import Path
 from catalog.entries import ROOT, EntryLoadError, load_entries
 from catalog.validate import validate_entries
 
-SCHEMA_VERSION = 1
+SCHEMA_VERSION = 2
 
 # Response headers for the Worker's static assets. The index is gzip bytes that clients unpack
 # themselves (not a Content-Encoding), and the meta file is what clients poll, so it stays fresh.

@@ -32,7 +32,7 @@ def catalog(*entries):
 
 def test_entries_sorted_and_complete():
     index = build_index(catalog(make("zeta"), make("alpha"), make("mid")), NOW)
-    assert index["schema_version"] == SCHEMA_VERSION == 1
+    assert index["schema_version"] == SCHEMA_VERSION == 2
     assert index["generated_at"] == NOW
     assert [e["id"] for e in index["entries"]] == ["alpha", "mid", "zeta"]
 
@@ -62,7 +62,7 @@ def test_meta_hash_matches(tmp_path):
     assert gz.name == "index.json.gz" and meta.name == "index-meta.json"
     m = json.loads(meta.read_text(encoding="utf-8"))
     assert m == {
-        "schema_version": 1,
+        "schema_version": 2,
         "generated_at": NOW,
         "entry_count": 1,
         "sha256": hashlib.sha256(gz.read_bytes()).hexdigest(),
@@ -124,3 +124,23 @@ def test_main_writes_three_files(tmp_path):
     out = tmp_path / "out"
     assert main(["--entries", str(entries), "--out", str(out), "--generated-at", NOW]) == 0
     assert sorted(p.name for p in out.iterdir()) == ["_headers", "index-meta.json", "index.json.gz"]
+
+
+def test_index_schema_requires_version_2():
+    index = build_index(catalog(make("a")), NOW)
+    validator = _index_validator()
+    for old in (1, 3, "2"):
+        bad = dict(index, schema_version=old)
+        with pytest.raises(jsonschema.ValidationError):
+            validator.validate(bad)
+
+
+def test_v2_fields_copied_as_written():
+    entry = make("a", genres=["Card", "Casino"], tags=["Multiplayer"], languages=["en", "es"],
+                 pricing={"model": "one-time", "price": 5, "currency": "USD", "url": "https://example.com/buy"},
+                 links=[{"url": "https://example.com/", "label": "Homepage"}], unsupported=True,
+                 self_updating=True, contains=["A", "B"], warning="Antivirus programs may flag it.")
+    entry["sources"][0].update(arch="x64", first_run_download_size=1024)
+    index = build_index(catalog(entry), NOW)
+    _index_validator().validate(index)
+    assert index["entries"] == [dict(entry, extras=[])]
