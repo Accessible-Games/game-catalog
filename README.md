@@ -45,13 +45,13 @@ The schema in `schema/entry.schema.json` is authoritative. An entry file holds o
 - `kind`: required. One of `game`, `extra`, `runtime`, `access-mod`. Access mods are reserved for later.
 - `title`: required. The display name.
 - `developer`: optional list of developer names.
-- `genres`: optional list of one to three genres, no repeats. The first is the main genre. Each is one of `Action`, `Adventure`, `Arcade`, `Board and dice`, `Card`, `Casino`, `Educational`, `Fighting`, `Interactive fiction`, `Music and rhythm`, `Platformer`, `Puzzle`, `Racing`, `Role-playing`, `Shooter`, `Simulation`, `Sports`, `Strategy`, `Trivia`, `Word`. Narrower kinds go in `tags`.
+- `genres`: optional list of one to three genres, no repeats. The first is the main genre. Each is one of `Action`, `Adventure`, `Arcade`, `Board and dice`, `Card`, `Casino`, `Educational`, `Fighting`, `Incremental`, `Interactive fiction`, `Music and rhythm`, `Platformer`, `Puzzle`, `Racing`, `Role-playing`, `Shooter`, `Simulation`, `Sports`, `Strategy`, `Trivia`, `Word`. Narrower kinds go in `tags`.
 - `year`: optional release year, from 1970 to 2100.
 - `description`: optional Markdown text. Things with no field of their own go here: a beta or early access release, a planned price change, a demo on one platform and the full game on another, port credits, speech or braille requirements, and rights notes.
 - `version`: optional version text of what the sources install.
 - `self_updating`: optional, `true` when the game updates itself. The app then doesn't treat a changed version or checksum as an update to install.
 - `pricing`: optional object saying what the game costs and how you pay. See Pricing fields. Leave it out when the price isn't recorded yet.
-- `tags`: optional list of narrower kinds of game and what it offers, no repeats. Each is one of `Multiplayer`, `Roguelike`, `Idle`, `Survival`, `Horror`. The list grows when a real game needs a new tag.
+- `tags`: optional list of narrower kinds of game and what it offers, no repeats. Each is one of `Multiplayer`, `Roguelike`, `Idle`, `Survival`, `Horror`, `Side-scroller`. The list grows when a real game needs a new tag.
 - `languages`: optional list of the languages the game can be played in, as two-letter ISO 639-1 codes such as `en`, `fr`, `ja`, `pt`. No repeats. Leave it out when not known.
 - `contains`: optional list of the titles of the games inside a collection or launcher, so search finds each one.
 - `unsupported`: optional, `true` when the developer no longer supports the game.

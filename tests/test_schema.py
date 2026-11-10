@@ -62,7 +62,7 @@ def test_rejects_removed_v1_fields(field):
 
 
 GENRES = ["Action", "Adventure", "Arcade", "Board and dice", "Card", "Casino", "Educational", "Fighting",
-          "Interactive fiction", "Music and rhythm", "Platformer", "Puzzle", "Racing", "Role-playing",
+          "Incremental", "Interactive fiction", "Music and rhythm", "Platformer", "Puzzle", "Racing", "Role-playing",
           "Shooter", "Simulation", "Sports", "Strategy", "Trivia", "Word"]
 
 
@@ -83,8 +83,8 @@ def test_rejects_bad_genres(genres):
 
 def test_tags():
     validate(make(tags=[]))
-    validate(make(tags=["Multiplayer", "Roguelike", "Idle", "Survival", "Horror"]))
-    for bad in (["Multiplayer", "Multiplayer"], ["multiplayer"], ["Co-op"]):
+    validate(make(tags=["Multiplayer", "Roguelike", "Idle", "Survival", "Horror", "Side-scroller"]))
+    for bad in (["Multiplayer", "Multiplayer"], ["multiplayer"], ["Co-op"], ["Sidescroller"]):
         with pytest.raises(jsonschema.ValidationError):
             validate(make(tags=bad))
 

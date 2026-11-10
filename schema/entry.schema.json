@@ -50,6 +50,7 @@
               "Casino",
               "Educational",
               "Fighting",
+              "Incremental",
               "Interactive fiction",
               "Music and rhythm",
               "Platformer",
@@ -91,7 +92,8 @@
               "Roguelike",
               "Idle",
               "Survival",
-              "Horror"
+              "Horror",
+              "Side-scroller"
             ]
           }
         },
