@@ -1,11 +1,11 @@
 {
   "id": "star-trek-the-next-generation",
-  "kind": "game",
+  "kind": "extra",
   "title": "Star Trek the Next Generation",
   "developer": [
     "GMA Games"
   ],
-  "description": "If you've created or have any extra packs that aren't listed here, please get in touch. We would love to add more packs to this listing.\n\nWhere possible, we've included links to information and downloads directly from the author's website, as well as from the archive.",
+  "description": "An add-on pack for Time of Conflict 2: Star Trek: The Next Generation units and sounds, reworked from the game's own Trek Space set so they also work on random maps.\n\nTo use it, copy the pack's YourUnitDefinitions, sounds and YourCustomMaps folders into your Time of Conflict data folder (by default Conflict 2.0 Data in your Documents folder). The game doesn't read them from its install folder.",
   "links": [
     {
       "url": "https://sites.google.com/site/blindjamesspencer/home/conflict/generation",
@@ -20,13 +20,15 @@
     {
       "platform": "windows",
       "install": {
-        "method": "zip",
-        "extract_dir": "Star Trek - The Next Generation"
+        "method": "zip"
       },
       "label": "Mirror",
       "url": "https://files.accessiblegames.net/files/23b824274a6cc03ed73def6003cad9e6a9c24a00a619ec6c3a84833575bf32e0/Star_Trek_-_The_Next_Generation.zip",
       "sha256": "23b824274a6cc03ed73def6003cad9e6a9c24a00a619ec6c3a84833575bf32e0",
       "size": 14305
     }
+  ],
+  "extends": [
+    "time-of-conflict"
   ]
 }
