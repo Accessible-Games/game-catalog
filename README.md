@@ -37,7 +37,7 @@ Developers and rights holders can ask for their files to be removed from the mir
 
 ## Entry field reference
 
-The schema in `schema/entry.schema.json` is authoritative. An entry file holds one JSON object with these fields. Unknown fields are rejected.
+The schema in `schema/entry.schema.json` is authoritative. An entry file holds one JSON object with these fields, written in this order. Unknown fields are rejected. Fields that are only ever `true` (`self_updating`, `unsupported`, `no_longer_sold`) are left out rather than set to false.
 
 ### Entry fields
 
@@ -45,43 +45,68 @@ The schema in `schema/entry.schema.json` is authoritative. An entry file holds o
 - `kind`: required. One of `game`, `extra`, `runtime`, `access-mod`. Access mods are reserved for later.
 - `title`: required. The display name.
 - `developer`: optional list of developer names.
-- `genres`: optional list of genre names.
+- `genres`: optional list of one to three genres, no repeats. The first is the main genre. Each is one of `Action`, `Adventure`, `Arcade`, `Board and dice`, `Card`, `Casino`, `Educational`, `Fighting`, `Interactive fiction`, `Music and rhythm`, `Platformer`, `Puzzle`, `Racing`, `Role-playing`, `Shooter`, `Simulation`, `Sports`, `Strategy`, `Trivia`, `Word`. Narrower kinds go in `tags`.
 - `year`: optional release year, from 1970 to 2100.
-- `description`: optional Markdown text.
-- `version`: optional version text.
-- `flags`: optional list of `abandoned`, `demo`, `beta`, `multiplayer`, `requires-registration`, `registration`. No repeats.
-- `links`: optional object. Keys are `homepage`, `purchase`, `audiogames_net` and `agarchive`, each a URL. The `agarchive` link is credit to a page only, never a download.
+- `description`: optional Markdown text. Things with no field of their own go here: a beta or early access release, a planned price change, a demo on one platform and the full game on another, port credits, speech or braille requirements, and rights notes.
+- `version`: optional version text of what the sources install.
+- `self_updating`: optional, `true` when the game updates itself. The app then doesn't treat a changed version or checksum as an update to install.
+- `pricing`: optional object saying what the game costs and how you pay. See Pricing fields. Leave it out when the price isn't recorded yet.
+- `tags`: optional list of narrower kinds of game and what it offers, no repeats. Each is one of `Multiplayer`, `Roguelike`, `Idle`, `Survival`, `Horror`. The list grows when a real game needs a new tag.
+- `languages`: optional list of the languages the game can be played in, as two-letter ISO 639-1 codes such as `en`, `fr`, `ja`, `pt`. No repeats. Leave it out when not known.
+- `contains`: optional list of the titles of the games inside a collection or launcher, so search finds each one.
+- `unsupported`: optional, `true` when the developer no longer supports the game.
+- `warning`: optional single sentence the install dialog shows before installing, such as a risk of an account ban or an antivirus false alarm.
+- `links`: optional list of web pages about the game, such as its homepage, AudioGames.net topic, agarchive credit page, community or source code. Never downloads. Players see them in the order listed. Each link has a required `url`, an http or https address, and an optional `label` that players see, such as `Homepage` or `Discord`. Without a label the app shows the site's name. The same URL can't be listed twice.
 - `sources`: required list with at least one source. The first is the most preferred.
 - `launch`: optional object keyed by platform (`windows`, `macos`, `linux`, `web`). Each value has a required `path`, relative to the install folder, and an optional `args`. When missing, the app finds the executable after install.
 - `dependencies`: optional list of entry ids that must be installed first, such as runtimes.
 - `extends`: optional entry id of the parent game, or null. Used by extras.
 - `install_into`: optional entry id whose install folder receives the files, or null. Usually the same as `extends`.
 - `required`: optional true or false. When true, an extra is installed automatically with its parent.
-- `approval`: optional object with a required `note` and an optional `url`. Records that the creator approved distribution.
-- `detect`: optional object with a hint for spotting an existing install, such as a file path for a runtime.
+- `detect`: optional hint for spotting a runtime that is already installed, so it is skipped. Either `{"file": "..."}`, present when that file exists (environment variables such as `%WINDIR%` are expanded), or `{"registry": {"hive": "...", "key": "...", "name": "..."}}`, present when that registry value exists. `hive` is one of `HKCR`, `HKLM`, `HKCU`. `name` is optional; without it the key's default value is checked.
 - `checkver`: optional rule for spotting new versions. Either `{"github": "owner/repo"}` or `{"url": "...", "regex": "..."}`.
 
-### Registration approval rule
+### Pricing fields
 
-An extra flagged `registration` (a registration patch or key generator) must have an `approval` note. These are only allowed for abandoned games, and only with the creator's approval. Set `required` to true on them so they install with the game.
+- `model`: required. How you pay. One of `free`, `free-to-try` (shareware, demos and timed trials), `pay-what-you-want`, `one-time` (buy once), `subscription`, `free-with-purchases` (free, with optional purchases).
+- `price`: optional amount, 0 or more. The unlock price for `free-to-try`, the minimum for `pay-what-you-want`, the price for `one-time`, or the price each period for `subscription`.
+- `suggested`: optional amount, 0 or more. The developer's suggested amount for `pay-what-you-want`.
+- `currency`: three-letter ISO 4217 code such as `USD`, `EUR` or `GBP`, for `price` and `suggested`. Required with `price`.
+- `period`: `month` or `year`. How often a subscription charges. Required with `subscription`.
+- `checked`: optional date the price was last confirmed, written `YYYY-MM-DD`.
+- `no_longer_sold`: optional, `true` when the full version can't be bought anymore.
+- `url`: optional page where you buy, subscribe or register. The install dialog links to it.
+- `donate_url`: optional page where you support the developer, usually of a free game.
+- `note`: optional short line in the developer's words for what the model can't say, such as `Full version adds 12 levels`.
+
+### Pricing rules
+
+- `price` and `currency` go together: set both or neither.
+- `price` isn't used with `free` or `free-with-purchases`.
+- `suggested` is only used with `pay-what-you-want`.
+- `period` is required with `subscription` and not used with any other model.
+- `no_longer_sold` is only used with `free-to-try`, `one-time` or `subscription`.
+- `url` and `donate_url` must be http or https addresses with a host.
 
 ### Source fields
 
 - `label`: required. Shown to the user, such as `Developer site` or `Mirror`.
-- `url`: required. A direct file download, or for a web game the playable address. Use percent-encoding for spaces and special characters. Landing pages belong in `links.homepage`.
+- `url`: required. A direct file download, or for a web game the playable address. Use percent-encoding for spaces and special characters. Landing pages belong in `links`.
 - `platform`: required. One of `windows`, `macos`, `linux`, `web`.
+- `arch`: optional processor the build runs on. One of `x64`, `x86`, `arm64`, `universal`. Leave it out when the build runs on any processor for its platform.
 - `install`: required. See below.
 - `size`: optional size in bytes.
+- `first_run_download_size`: optional number of bytes the game downloads the first time it starts, 0 or more, so the app can show the real total.
 - `sha256`: optional lowercase hex checksum. Required on mirror sources, where a mismatch is an error. On developer downloads you can leave both out: when a change is merged, the publish workflow downloads the file once and records them. If a pull request changes a download whose recorded values no longer match the file, the checks fail and show the right values.
-
-The app uses these values to verify what it installs and to notice updates. When the weekly link check reports that a developer's file changed and the new file is the one players should get, accept it with `uv run catalog-checksums --refresh --only ID` and open a pull request with the result.
 - `steps`: optional list of install steps, run in order after files are in place.
+
+The app uses `size` and `sha256` to verify what it installs and to notice updates. When the weekly link check reports that a developer's file changed and the new file is the one players should get, accept it with `uv run catalog-checksums --refresh --only ID` and open a pull request with the result.
 
 Web sources (platform `web`) and sources whose install method is `url` are never mirrored.
 
 ### Install fields
 
-- `method`: required. One of `zip`, `7z`, `installer`, `cab`, `none` (a single executable), `url` (a web game).
+- `method`: required. One of `zip`, `7z`, `installer`, `cab`, `tar` (a `.tar.gz`, `.tar.xz` or `.tar.bz2` file), `none` (a single executable, including a Linux AppImage), `url` (a web game).
 - `password`: optional password for an encrypted archive, or null.
 - `extract_dir`: optional folder inside the archive to use as the root.
 - `installer`: used when `method` is `installer`.
