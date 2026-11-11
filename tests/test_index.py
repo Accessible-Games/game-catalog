@@ -122,6 +122,16 @@ def test_index_validates_against_index_schema():
         validator.validate(bad)
 
 
+def test_persist_carried_into_the_index():
+    entries = catalog(make("g", persist=["Saves/", "*.sav"]), make("h", persist=[]), make("k"))
+    index = build_index(entries, NOW)
+    _index_validator().validate(index)
+    by_id = {e["id"]: e for e in index["entries"]}
+    assert by_id["g"]["persist"] == ["Saves/", "*.sav"]
+    assert by_id["h"]["persist"] == []  # checked, nothing to keep: kept apart from "not checked"
+    assert "persist" not in by_id["k"]
+
+
 def test_real_entries_validate_against_index_schema():
     from catalog.entries import load_entries
     _index_validator().validate(build_index(load_entries(ROOT / "entries"), NOW))

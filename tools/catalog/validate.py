@@ -59,6 +59,41 @@ def _check_links(key: str, entry: dict, out: list[Problem]) -> None:
         seen.add(value)
 
 
+_DRIVE = re.compile(r"^[A-Za-z]:")
+
+
+def _check_persist(key: str, entry: dict, out: list[Problem]) -> None:
+    """Patterns the app treats as player data (Game Chooser engine/safety.py matches_persist).
+
+    The app compares them lower-cased with backslashes turned into slashes, relative to the game's install folder,
+    so anything that leaves that folder, or two patterns that compare equal, is refused.
+    """
+    persist = entry.get("persist")
+    if persist is None:
+        return
+    if entry.get("kind") != "game":
+        out.append(Problem(key, "persist is only allowed on game entries (the app reads it from the game, "
+                                "and an extra's files are covered by its game's persist)"))
+    if not isinstance(persist, list):
+        return  # already a schema problem
+    seen: dict[str, int] = {}
+    for i, pattern in enumerate(persist):
+        if not isinstance(pattern, str) or not pattern:
+            continue  # already a schema problem
+        norm = pattern.replace("\\", "/").lower()
+        if norm.startswith("/") or _DRIVE.match(norm):
+            out.append(Problem(key, f"persist[{i}]: {pattern!r} must be relative to the game's install folder, "
+                                    "not an absolute path"))
+        if ".." in norm.split("/"):
+            out.append(Problem(key, f"persist[{i}]: {pattern!r} must not use .. to leave the game's install folder"))
+        if norm in seen:
+            j = seen[norm]
+            out.append(Problem(key, f"persist[{i}]: {pattern!r} is the same as persist[{j}] ({persist[j]!r}); "
+                                    "the app ignores case and treats \\ as /"))
+        else:
+            seen[norm] = i
+
+
 _PRICED_MODELS_THAT_STOP_SELLING = ("free-to-try", "one-time", "subscription")
 
 
@@ -213,6 +248,7 @@ def validate_entries(entries: dict[str, dict]) -> list[Problem]:
 
         _check_sources(key, entry, problems)
         _check_links(key, entry, problems)
+        _check_persist(key, entry, problems)
         _check_launch(key, entry, problems)
         _check_pricing(key, entry, problems)
 

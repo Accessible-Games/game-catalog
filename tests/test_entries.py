@@ -48,7 +48,7 @@ def test_key_order_follows_schema_v2():
     assert ENTRY_KEY_ORDER == (
         "id", "kind", "title", "developer", "genres", "year", "description", "version",
         "self_updating", "pricing", "tags", "languages", "contains", "unsupported", "warning",
-        "links", "sources", "launch", "dependencies", "extends", "required",
+        "links", "sources", "persist", "launch", "dependencies", "extends", "required",
         "detect", "checkver",
     )
     assert "flags" not in ENTRY_KEY_ORDER and "approval" not in ENTRY_KEY_ORDER

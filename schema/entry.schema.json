@@ -143,6 +143,13 @@
             "$ref": "#/$defs/source"
           }
         },
+        "persist": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          }
+        },
         "launch": {
           "type": "object",
           "propertyNames": {

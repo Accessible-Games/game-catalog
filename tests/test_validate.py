@@ -97,6 +97,45 @@ def test_extends_with_two_games():
     assert validate_entries(entries) == []
 
 
+def test_persist_accepted():
+    for persist in ([], ["Saves/"], ["Saves", "*.sav", "data/profile?.ini", "maps/[ab]*.map", "Saves\\Slot1/"]):
+        assert validate_entries(catalog(make("g", persist=persist))) == [], persist
+
+
+def test_persist_only_on_games():
+    entries = catalog(make("g"), make("x", "extra", extends=["g"], persist=["Saves/"]),
+                      make("rt", "runtime", persist=[]))
+    problems = validate_entries(entries)
+    assert sorted(p.entry_id for p in problems) == ["rt", "x"]
+    assert all(p.message.startswith("persist is only allowed on game entries") for p in problems)
+
+
+@pytest.mark.parametrize("pattern, words", [
+    ("/Saves/", "not an absolute path"),
+    ("\\Saves", "not an absolute path"),
+    ("C:/Games/Saves", "not an absolute path"),
+    ("c:Saves", "not an absolute path"),
+    ("../Saves", "must not use .."),
+    ("Saves/../../x", "must not use .."),
+    ("Saves\\..\\x", "must not use .."),
+])
+def test_persist_must_stay_in_the_game_folder(pattern, words):
+    problems = msgs(validate_entries(catalog(make("g", persist=[pattern]))))
+    assert len(problems) == 1 and words in problems[0] and problems[0].startswith("persist[0]:")
+
+
+def test_persist_rejects_the_same_path_twice():
+    for pair in (["Saves/", "Saves/"], ["Saves/", "saves/"], ["Saves\\", "Saves/"]):
+        problems = msgs(validate_entries(catalog(make("g", persist=pair))))
+        assert len(problems) == 1 and problems[0].startswith("persist[1]:") and "same as persist[0]" in problems[0]
+
+
+@pytest.mark.parametrize("persist", ["Saves/", [""], [3], {"a": 1}])
+def test_persist_shape(persist):
+    problems = msgs(validate_entries(catalog(make("g", persist=persist))))
+    assert problems and all(p.startswith("schema: persist") for p in problems)
+
+
 def test_shared_extra_cannot_use_system_steps():
     reg = {"action": "registry", "hive": "HKCU", "key": "Software\\X", "name": "", "type": "REG_SZ", "value": "1"}
     com = {"action": "register", "path": "x.ocx"}
