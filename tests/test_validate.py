@@ -124,6 +124,22 @@ def test_persist_must_stay_in_the_game_folder(pattern, words):
     assert len(problems) == 1 and words in problems[0] and problems[0].startswith("persist[0]:")
 
 
+@pytest.mark.parametrize("pattern, words", [
+    ("./Saves/", "starts with ./"),
+    (".\\Saves", "starts with ./"),
+    (" Saves/", "starts or ends with a space"),
+    ("Saves/ ", "starts or ends with a space"),
+    ("*.sav\t", "starts or ends with a space"),
+])
+def test_persist_rejects_patterns_the_app_never_matches(pattern, words):
+    problems = msgs(validate_entries(catalog(make("g", persist=[pattern]))))
+    assert len(problems) == 1 and words in problems[0] and "never match" in problems[0]
+
+
+def test_persist_allows_a_lone_star():
+    assert validate_entries(catalog(make("g", persist=["*"]))) == []
+
+
 def test_persist_rejects_the_same_path_twice():
     for pair in (["Saves/", "Saves/"], ["Saves/", "saves/"], ["Saves\\", "Saves/"]):
         problems = msgs(validate_entries(catalog(make("g", persist=pair))))

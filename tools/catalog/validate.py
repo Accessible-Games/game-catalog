@@ -81,6 +81,12 @@ def _check_persist(key: str, entry: dict, out: list[Problem]) -> None:
         if not isinstance(pattern, str) or not pattern:
             continue  # already a schema problem
         norm = pattern.replace("\\", "/").lower()
+        if pattern != pattern.strip():
+            out.append(Problem(key, f"persist[{i}]: {pattern!r} starts or ends with a space; the app would never "
+                                    "match it, so nothing would be protected"))
+        if norm.startswith("./"):
+            out.append(Problem(key, f"persist[{i}]: {pattern!r} starts with ./; the app would never match it, so "
+                                    "nothing would be protected. Write the path without ./"))
         if norm.startswith("/") or _DRIVE.match(norm):
             out.append(Problem(key, f"persist[{i}]: {pattern!r} must be relative to the game's install folder, "
                                     "not an absolute path"))
