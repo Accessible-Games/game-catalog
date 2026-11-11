@@ -28,6 +28,11 @@
       "size": 4067362
     }
   ],
+  "launch": {
+    "windows": {
+      "path": "GMADice.exe"
+    }
+  },
   "dependencies": [
     "directx7-for-visual-basic"
   ]

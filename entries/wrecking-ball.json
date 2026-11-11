@@ -28,6 +28,11 @@
       "size": 20046665
     }
   ],
+  "launch": {
+    "windows": {
+      "path": "Wrecking ball.exe"
+    }
+  },
   "dependencies": [
     "directx8-for-visual-basic"
   ]

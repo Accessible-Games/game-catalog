@@ -49,6 +49,11 @@
       "size": 39822008
     }
   ],
+  "launch": {
+    "windows": {
+      "path": "pmt.exe"
+    }
+  },
   "dependencies": [
     "directx7-for-visual-basic"
   ]

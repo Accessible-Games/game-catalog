@@ -25,5 +25,10 @@
       "sha256": "80ce16a885a81ec55774bd9f39d88a2f1f693c422d03822b0ae79f8a8b499f1d",
       "size": 687158
     }
-  ]
+  ],
+  "launch": {
+    "windows": {
+      "path": "blackjack.exe"
+    }
+  }
 }

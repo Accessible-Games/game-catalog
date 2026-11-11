@@ -29,5 +29,10 @@
       "sha256": "0f04d2a276db50dbf4c90bbece21e1f97cf5b450fdf0916206c17d32446435ce",
       "size": 18745351
     }
-  ]
+  ],
+  "launch": {
+    "windows": {
+      "path": "SonicZoom.exe"
+    }
+  }
 }

@@ -26,5 +26,10 @@
       "sha256": "c6444e83ccf996b82dd6edea2750ef703da189dced8e2f9da62eab86b704dcd4",
       "size": 10718970
     }
-  ]
+  ],
+  "launch": {
+    "windows": {
+      "path": "Pontes Escape.exe"
+    }
+  }
 }

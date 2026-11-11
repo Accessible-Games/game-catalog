@@ -25,6 +25,11 @@
       "size": 29389
     }
   ],
+  "launch": {
+    "windows": {
+      "path": "reaction.exe"
+    }
+  },
   "dependencies": [
     "directx8-for-visual-basic"
   ]

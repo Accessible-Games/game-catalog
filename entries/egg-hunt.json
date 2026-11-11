@@ -29,6 +29,11 @@
       "size": 6266637
     }
   ],
+  "launch": {
+    "windows": {
+      "path": "Egg Hunt.exe"
+    }
+  },
   "dependencies": [
     "directx8-for-visual-basic"
   ]

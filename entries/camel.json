@@ -25,5 +25,10 @@
       "sha256": "dbdb70131df03add488bcefe44141a797b0e0933e87515d4ed315d030dda3423",
       "size": 127953
     }
-  ]
+  ],
+  "launch": {
+    "windows": {
+      "path": "camel.exe"
+    }
+  }
 }

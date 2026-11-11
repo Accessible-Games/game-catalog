@@ -55,5 +55,10 @@
       "sha256": "51aea62f5a3ce3d22d2a9f005867e5a8142bb8b56112b428fb5257ba34252019",
       "size": 63861983
     }
-  ]
+  ],
+  "launch": {
+    "windows": {
+      "path": "DragonPong.exe"
+    }
+  }
 }

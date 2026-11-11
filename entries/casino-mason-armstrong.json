@@ -27,5 +27,10 @@
       "sha256": "60993f08feb818fdfeac8d760bd1cdbdcc7f41c500317bce17d84a19538221df",
       "size": 7205374
     }
-  ]
+  ],
+  "launch": {
+    "windows": {
+      "path": "casino.exe"
+    }
+  }
 }

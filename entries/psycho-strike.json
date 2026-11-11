@@ -47,5 +47,10 @@
       "sha256": "6a422538a35628d5bc080ded2194d01e5b2f4dc470b76263431a22c5c96f1b5c",
       "size": 110727434
     }
-  ]
+  ],
+  "launch": {
+    "windows": {
+      "path": "strike.exe"
+    }
+  }
 }

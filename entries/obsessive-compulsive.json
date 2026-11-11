@@ -22,5 +22,10 @@
       "sha256": "286faa4e07a97f64f2b5e834584ff4a3da2505114cb7f960f70613547fd19c33",
       "size": 11269420
     }
-  ]
+  ],
+  "launch": {
+    "windows": {
+      "path": "ObsessiveCompulsive.exe"
+    }
+  }
 }

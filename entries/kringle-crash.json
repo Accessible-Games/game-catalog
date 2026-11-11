@@ -45,5 +45,10 @@
       "sha256": "d51867d2c697b47822dd288a26c66c55f743398093bb13179618c001182908f0",
       "size": 11098677
     }
-  ]
+  ],
+  "launch": {
+    "windows": {
+      "path": "kringlecrash.exe"
+    }
+  }
 }

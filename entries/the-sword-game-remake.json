@@ -22,5 +22,10 @@
       "sha256": "a333123f9ca34205e51272ea7cdff0708840d9a7b50c4769fd52b92191d6b8d9",
       "size": 1478265
     }
-  ]
+  ],
+  "launch": {
+    "windows": {
+      "path": "sword.exe"
+    }
+  }
 }

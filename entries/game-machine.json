@@ -25,5 +25,10 @@
       "sha256": "803d67f0250ff5015b492539120f80ce2d969315863abe5a99c944cfbbd7471b",
       "size": 3197057
     }
-  ]
+  ],
+  "launch": {
+    "windows": {
+      "path": "gm.exe"
+    }
+  }
 }

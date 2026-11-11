@@ -24,5 +24,10 @@
       "sha256": "620f4ab89f28823d190e79e99d20d2839631af730f8af53412f0bd94f8efcca9",
       "size": 5561280
     }
-  ]
+  ],
+  "launch": {
+    "windows": {
+      "path": "Fast2Type.exe"
+    }
+  }
 }

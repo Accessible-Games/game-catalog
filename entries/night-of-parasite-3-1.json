@@ -28,5 +28,10 @@
       "sha256": "6a9befea19ce1f564e7dd69347c976193bec022010acbd944c35abab73758131",
       "size": 34164661
     }
-  ]
+  ],
+  "launch": {
+    "windows": {
+      "path": "Night of Parasite (3.1).exe"
+    }
+  }
 }

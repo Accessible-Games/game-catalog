@@ -27,5 +27,10 @@
       "sha256": "9b9aa4aea4519d71891c16588956214566980a750dca6f1cfb702e4b86df70d2",
       "size": 25845853
     }
-  ]
+  ],
+  "launch": {
+    "windows": {
+      "path": "stfc.exe"
+    }
+  }
 }

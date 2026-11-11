@@ -25,6 +25,11 @@
       "size": 388096
     }
   ],
+  "launch": {
+    "windows": {
+      "path": "starmule.exe"
+    }
+  },
   "dependencies": [
     "directx8-for-visual-basic"
   ]

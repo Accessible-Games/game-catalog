@@ -49,6 +49,11 @@
       "size": 51091076
     }
   ],
+  "launch": {
+    "windows": {
+      "path": "gtc.exe"
+    }
+  },
   "dependencies": [
     "directx8-for-visual-basic",
     "microsoft-internet-transfer-control"

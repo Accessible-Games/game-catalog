@@ -27,5 +27,10 @@
       "sha256": "37a07a6b3e63747fa26e845b24e6ff2e5ead704346d1728ce4df2b77bcfd3d24",
       "size": 141107181
     }
-  ]
+  ],
+  "launch": {
+    "windows": {
+      "path": "ag.exe"
+    }
+  }
 }

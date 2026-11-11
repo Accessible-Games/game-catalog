@@ -27,5 +27,10 @@
       "sha256": "37d4ada223af04f8f0dc5a3328fde2ba18499eb2187f46a3185a617a29eda150",
       "size": 13438926
     }
-  ]
+  ],
+  "launch": {
+    "windows": {
+      "path": "dm1.exe"
+    }
+  }
 }

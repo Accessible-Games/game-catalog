@@ -31,5 +31,10 @@
       "sha256": "46608daa10269fa8e5083109be5daca41aa5ec39c8d698e4817741a81e6a3c41",
       "size": 57005568
     }
-  ]
+  ],
+  "launch": {
+    "windows": {
+      "path": "sonic_invaders.exe"
+    }
+  }
 }

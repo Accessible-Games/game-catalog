@@ -47,5 +47,10 @@
       "sha256": "f9384208339fc75fbecb17ccbab7b08c2413e7251f33535b59b1463a88ebc602",
       "size": 323420975
     }
-  ]
+  ],
+  "launch": {
+    "windows": {
+      "path": "gate.exe"
+    }
+  }
 }

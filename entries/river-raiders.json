@@ -27,5 +27,10 @@
       "sha256": "77ed39be8c55a5103332c187c01dcee68b376fdbd7abb965af82379ddb352edc",
       "size": 18199220
     }
-  ]
+  ],
+  "launch": {
+    "windows": {
+      "path": "raid.exe"
+    }
+  }
 }

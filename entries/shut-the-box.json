@@ -26,5 +26,10 @@
       "sha256": "4ef072176b3dd51024ebe82ee0a7d4285ef2781c6c44dea64b08e570b8c19cd7",
       "size": 803685
     }
-  ]
+  ],
+  "launch": {
+    "windows": {
+      "path": "shutthebox.exe"
+    }
+  }
 }

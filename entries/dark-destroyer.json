@@ -27,5 +27,10 @@
       "sha256": "9ab8bf0244490e70daa9996dde5ce3a1a5201dff33a65bcacc016458a10fa49c",
       "size": 65958960
     }
-  ]
+  ],
+  "launch": {
+    "windows": {
+      "path": "darkdestroyer.exe"
+    }
+  }
 }

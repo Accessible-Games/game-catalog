@@ -25,6 +25,11 @@
       "size": 1217814
     }
   ],
+  "launch": {
+    "windows": {
+      "path": "casino.exe"
+    }
+  },
   "dependencies": [
     "directx8-for-visual-basic"
   ]

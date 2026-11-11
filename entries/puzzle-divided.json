@@ -33,6 +33,11 @@
       "size": 5800717
     }
   ],
+  "launch": {
+    "windows": {
+      "path": "PuzzleDivided.exe"
+    }
+  },
   "dependencies": [
     "directx7-for-visual-basic"
   ]

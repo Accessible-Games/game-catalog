@@ -26,5 +26,10 @@
       "sha256": "a5fe837a6c5bb9a20a0622906957b31eb9ad24d4bed84b990413ddbde17d1f19",
       "size": 12640842
     }
-  ]
+  ],
+  "launch": {
+    "windows": {
+      "path": "beadBrains.exe"
+    }
+  }
 }

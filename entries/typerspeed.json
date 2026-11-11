@@ -28,5 +28,10 @@
       "sha256": "a58ffc0928d186487604c6ca98bbc96c1a3315cc24bf29158ae8e61e5568000d",
       "size": 27785790
     }
-  ]
+  ],
+  "launch": {
+    "windows": {
+      "path": "typerspeed.exe"
+    }
+  }
 }

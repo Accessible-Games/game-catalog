@@ -24,5 +24,10 @@
       "sha256": "5688c78273c33198e763fec810ee26d4be755cf16b203883c832964e9b99a3de",
       "size": 26902296
     }
-  ]
+  ],
+  "launch": {
+    "windows": {
+      "path": "Extant.exe"
+    }
+  }
 }

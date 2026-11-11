@@ -27,5 +27,10 @@
       "sha256": "6f2da48ad4fb3f6d9ad61c3e38686b0c2098f62af8e0643b553518269cbe8c8c",
       "size": 776713
     }
-  ]
+  ],
+  "launch": {
+    "windows": {
+      "path": "The Fighting Game.exe"
+    }
+  }
 }

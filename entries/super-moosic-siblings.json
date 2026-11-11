@@ -29,5 +29,10 @@
       "sha256": "e33537670e622d94f53b094f72e227c4bca440985bca9e649a5afd4796d6e3dc",
       "size": 11010819
     }
-  ]
+  ],
+  "launch": {
+    "windows": {
+      "path": "Game Files/Main_Game_WindowsBinary/main.exe"
+    }
+  }
 }

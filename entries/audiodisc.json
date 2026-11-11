@@ -24,5 +24,10 @@
       "sha256": "769c0fcb99f6f3080df85b0c9c04726adeb023162b293e5b8220ae1ab9376378",
       "size": 6003236
     }
-  ]
+  ],
+  "launch": {
+    "windows": {
+      "path": "disco.exe"
+    }
+  }
 }

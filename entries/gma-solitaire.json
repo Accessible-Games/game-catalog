@@ -29,6 +29,11 @@
       "size": 2161568
     }
   ],
+  "launch": {
+    "windows": {
+      "path": "sol.exe"
+    }
+  },
   "dependencies": [
     "directx7-for-visual-basic"
   ]

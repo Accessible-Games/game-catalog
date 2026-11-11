@@ -25,6 +25,11 @@
       "size": 1161143
     }
   ],
+  "launch": {
+    "windows": {
+      "path": "battleship.exe"
+    }
+  },
   "dependencies": [
     "directx8-for-visual-basic"
   ]

@@ -28,6 +28,11 @@
       "size": 19154582
     }
   ],
+  "launch": {
+    "windows": {
+      "path": "gift.exe"
+    }
+  },
   "dependencies": [
     "microsoft-internet-transfer-control",
     "microsoft-winsock-control"

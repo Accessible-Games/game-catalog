@@ -33,6 +33,11 @@
       "size": 2642033
     }
   ],
+  "launch": {
+    "windows": {
+      "path": "Lunimals.exe"
+    }
+  },
   "dependencies": [
     "directx7-for-visual-basic"
   ]

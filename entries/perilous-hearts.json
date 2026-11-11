@@ -28,5 +28,10 @@
       "sha256": "5fcc284f3a7fc76cc9df9690026b0498afc4efa10858f291a1320806a9c0bbe3",
       "size": 22624101
     }
-  ]
+  ],
+  "launch": {
+    "windows": {
+      "path": "perilous_hearts.exe"
+    }
+  }
 }

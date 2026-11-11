@@ -28,6 +28,11 @@
       "size": 36295362
     }
   ],
+  "launch": {
+    "windows": {
+      "path": "The Savage Gamut/sgr.exe"
+    }
+  },
   "dependencies": [
     "directx8-for-visual-basic"
   ]

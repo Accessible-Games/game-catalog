@@ -23,5 +23,10 @@
       "sha256": "2094b56566bacffe38d8c721714952af5e601ec15fd16a05267cb9fac452905c",
       "size": 611715
     }
-  ]
+  ],
+  "launch": {
+    "windows": {
+      "path": "typing_tester.exe"
+    }
+  }
 }

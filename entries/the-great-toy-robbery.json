@@ -27,5 +27,10 @@
       "sha256": "2550d2f6bd2ca2af5a16c0c7172918a9d5fc704bef9c047a23513beabe2bdb72",
       "size": 39742633
     }
-  ]
+  ],
+  "launch": {
+    "windows": {
+      "path": "tgtr.exe"
+    }
+  }
 }

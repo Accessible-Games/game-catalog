@@ -24,5 +24,10 @@
       "sha256": "eab6d33977e163bffd34f025c0c321260b2eb56bf406923099821449d2adfea0",
       "size": 1685716
     }
-  ]
+  ],
+  "launch": {
+    "windows": {
+      "path": "war.exe"
+    }
+  }
 }

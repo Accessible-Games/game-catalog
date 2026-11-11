@@ -24,5 +24,10 @@
       "sha256": "a7181089d917bc7f7139d32756819e02029dcb9acd8e72361bc0d151f29821f2",
       "size": 126575
     }
-  ]
+  ],
+  "launch": {
+    "windows": {
+      "path": "blackjak.exe"
+    }
+  }
 }

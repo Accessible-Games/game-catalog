@@ -33,5 +33,10 @@
       "sha256": "5a3ece367688a0fafea0a9815672cccba9195b9fac428d88f9de77ca8624319f",
       "size": 4055391
     }
-  ]
+  ],
+  "launch": {
+    "windows": {
+      "path": "marinabreak.exe"
+    }
+  }
 }

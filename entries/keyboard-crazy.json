@@ -27,5 +27,10 @@
       "sha256": "b5fd37946c555e161f1240fee9a091b945237f919fd9dd4653e07f4c16c2b8f1",
       "size": 6305342
     }
-  ]
+  ],
+  "launch": {
+    "windows": {
+      "path": "keycraz.exe"
+    }
+  }
 }

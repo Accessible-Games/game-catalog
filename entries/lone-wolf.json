@@ -49,6 +49,11 @@
       "size": 3615288
     }
   ],
+  "launch": {
+    "windows": {
+      "path": "lw.exe"
+    }
+  },
   "dependencies": [
     "directx7-for-visual-basic"
   ]

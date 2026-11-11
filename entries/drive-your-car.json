@@ -24,5 +24,10 @@
       "sha256": "723bda1db7b05921ab1c8e393b5c2e0f64bcf561b80bdfa26bdb08fd7248eba5",
       "size": 6445141
     }
-  ]
+  ],
+  "launch": {
+    "windows": {
+      "path": "DYC.exe"
+    }
+  }
 }

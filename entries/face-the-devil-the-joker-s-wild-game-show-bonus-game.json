@@ -24,5 +24,10 @@
       "sha256": "124ec0c0f769038be4f2a99e02931e6c09585eaf4db37d8f021d82b5615a6b57",
       "size": 1811099
     }
-  ]
+  ],
+  "launch": {
+    "windows": {
+      "path": "tjw.exe"
+    }
+  }
 }

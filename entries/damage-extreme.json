@@ -25,5 +25,10 @@
       "sha256": "a0eb5f166edaaa68e60dbca104c7735533af77e0d9c951de3ef2a7952997f888",
       "size": 41329565
     }
-  ]
+  ],
+  "launch": {
+    "windows": {
+      "path": "extr.exe"
+    }
+  }
 }

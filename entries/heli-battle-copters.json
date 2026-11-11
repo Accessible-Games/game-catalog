@@ -25,6 +25,11 @@
       "size": 10089092
     }
   ],
+  "launch": {
+    "windows": {
+      "path": "HELI.exe"
+    }
+  },
   "dependencies": [
     "directx8-for-visual-basic"
   ]

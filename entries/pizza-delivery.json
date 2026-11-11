@@ -25,6 +25,11 @@
       "size": 9140385
     }
   ],
+  "launch": {
+    "windows": {
+      "path": "pizza.exe"
+    }
+  },
   "dependencies": [
     "directx8-for-visual-basic"
   ]

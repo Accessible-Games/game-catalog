@@ -25,6 +25,11 @@
       "size": 2242132
     }
   ],
+  "launch": {
+    "windows": {
+      "path": "homer.exe"
+    }
+  },
   "dependencies": [
     "directx8-for-visual-basic"
   ]

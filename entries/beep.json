@@ -24,5 +24,10 @@
       "sha256": "098a8221216d6e6de55a501349ec2991a0a046be1ac44701bf6f704ae8c065fe",
       "size": 1814281
     }
-  ]
+  ],
+  "launch": {
+    "windows": {
+      "path": "beep.exe"
+    }
+  }
 }

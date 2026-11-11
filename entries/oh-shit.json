@@ -24,5 +24,10 @@
       "sha256": "9e9aa0a82a0d7cec99404fab90d6d9dfa3eecab42bc5515f5f049ba9abaddf10",
       "size": 17061428
     }
-  ]
+  ],
+  "launch": {
+    "windows": {
+      "path": "OhShit.exe"
+    }
+  }
 }

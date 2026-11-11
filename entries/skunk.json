@@ -25,6 +25,11 @@
       "size": 184045
     }
   ],
+  "launch": {
+    "windows": {
+      "path": "skunk.exe"
+    }
+  },
   "dependencies": [
     "directx8-for-visual-basic"
   ]

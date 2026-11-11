@@ -33,6 +33,11 @@
       "size": 5123651
     }
   ],
+  "launch": {
+    "windows": {
+      "path": "Community Feud.exe"
+    }
+  },
   "dependencies": [
     "directx8-for-visual-basic",
     "microsoft-common-dialog-control"

@@ -25,6 +25,11 @@
       "size": 6071364
     }
   ],
+  "launch": {
+    "windows": {
+      "path": "coupling.exe"
+    }
+  },
   "dependencies": [
     "directx8-for-visual-basic"
   ]

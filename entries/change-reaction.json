@@ -47,5 +47,10 @@
       "sha256": "871377e137112be25a8a994027d505eb051ffd80d4d01a03d70fbe465384431b",
       "size": 12453945
     }
-  ]
+  ],
+  "launch": {
+    "windows": {
+      "path": "ChangeReactionGui.exe"
+    }
+  }
 }

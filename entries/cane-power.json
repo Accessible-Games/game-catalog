@@ -25,5 +25,10 @@
       "sha256": "1d08a5233e04f014ed46aa26bba2e7cf1787ccfe3d019a88103385dbeaafd859",
       "size": 13603923
     }
-  ]
+  ],
+  "launch": {
+    "windows": {
+      "path": "canepower.exe"
+    }
+  }
 }

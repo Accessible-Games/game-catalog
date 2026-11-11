@@ -52,5 +52,10 @@
       "sha256": "52dbb745b7ba113752e7e17763fd11f745d0517c14b7047dd9b92859b2c3a986",
       "size": 168012017
     }
-  ]
+  ],
+  "launch": {
+    "windows": {
+      "path": "mm.exe"
+    }
+  }
 }

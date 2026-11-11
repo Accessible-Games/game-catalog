@@ -25,5 +25,10 @@
       "sha256": "b69cd417742fb9b2e10ea3812e4f802316cb4e23e157588b9e8e6d500190e063",
       "size": 13827295
     }
-  ]
+  ],
+  "launch": {
+    "windows": {
+      "path": "fight.exe"
+    }
+  }
 }

@@ -24,6 +24,11 @@
       "size": 53185578
     }
   ],
+  "launch": {
+    "windows": {
+      "path": "heywire.exe"
+    }
+  },
   "dependencies": [
     "directx8-for-visual-basic"
   ]

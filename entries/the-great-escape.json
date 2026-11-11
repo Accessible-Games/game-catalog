@@ -27,5 +27,10 @@
       "sha256": "922be33d3a083572332106b510c18b5cf6c1eefc5e2e1c418e6f504d6c7ca69c",
       "size": 458916
     }
-  ]
+  ],
+  "launch": {
+    "windows": {
+      "path": "EscapeDesktop.exe"
+    }
+  }
 }

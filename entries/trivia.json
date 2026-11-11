@@ -25,6 +25,11 @@
       "size": 618558
     }
   ],
+  "launch": {
+    "windows": {
+      "path": "trivia.exe"
+    }
+  },
   "dependencies": [
     "directx8-for-visual-basic"
   ]

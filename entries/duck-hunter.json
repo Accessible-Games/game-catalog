@@ -24,6 +24,11 @@
       "size": 3112960
     }
   ],
+  "launch": {
+    "windows": {
+      "path": "duckhunter.exe"
+    }
+  },
   "dependencies": [
     "directx8-for-visual-basic"
   ]

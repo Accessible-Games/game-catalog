@@ -27,5 +27,10 @@
       "sha256": "7ba3ff88fc88b98e0b7bd96854d1d6483114dc57505ab8f8b4a65c645a3227df",
       "size": 9208418
     }
-  ]
+  ],
+  "launch": {
+    "windows": {
+      "path": "mortalmaze.exe"
+    }
+  }
 }

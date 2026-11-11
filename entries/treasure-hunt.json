@@ -28,5 +28,10 @@
       "sha256": "e1a3803a4c355aff6256754d59c54d508f3453dd3e68b1225e65bee67798438b",
       "size": 199856893
     }
-  ]
+  ],
+  "launch": {
+    "windows": {
+      "path": "bin/Debug/th.exe"
+    }
+  }
 }

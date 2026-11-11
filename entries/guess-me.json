@@ -27,5 +27,10 @@
       "sha256": "683f00591ce4bd51dd658347652ee5dc36618e046181629896c06b9bda050025",
       "size": 1112822
     }
-  ]
+  ],
+  "launch": {
+    "windows": {
+      "path": "GuessMe.exe"
+    }
+  }
 }

@@ -27,5 +27,10 @@
       "sha256": "4e77204fb3c4c3830f0f156ef4a3b8d7be62a93fd581ff07731a6ae633410c7f",
       "size": 205002647
     }
-  ]
+  ],
+  "launch": {
+    "windows": {
+      "path": "Tomb.exe"
+    }
+  }
 }

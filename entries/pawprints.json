@@ -33,6 +33,11 @@
       "size": 26569520
     }
   ],
+  "launch": {
+    "windows": {
+      "path": "PawPrints.exe"
+    }
+  },
   "dependencies": [
     "directx8-for-visual-basic",
     "microsoft-winsock-control",

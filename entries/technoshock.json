@@ -31,5 +31,10 @@
       "sha256": "dfaec6873e49076ab8629485affcd9d6bf77510b29a23fe212ac18b1f8956711",
       "size": 4088998
     }
-  ]
+  ],
+  "launch": {
+    "windows": {
+      "path": "ts.exe"
+    }
+  }
 }

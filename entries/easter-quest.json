@@ -28,5 +28,10 @@
       "sha256": "c1498454d2e26df7620d1959460f40ac2c425217b6b705cb4776aff2ec82c369",
       "size": 7112721
     }
-  ]
+  ],
+  "launch": {
+    "windows": {
+      "path": "easter.exe"
+    }
+  }
 }

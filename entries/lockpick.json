@@ -29,6 +29,11 @@
       "size": 7845137
     }
   ],
+  "launch": {
+    "windows": {
+      "path": "lockpick.exe"
+    }
+  },
   "dependencies": [
     "directx8-for-visual-basic"
   ]

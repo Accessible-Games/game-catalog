@@ -49,6 +49,11 @@
       "size": 44421861
     }
   ],
+  "launch": {
+    "windows": {
+      "path": "sod.exe"
+    }
+  },
   "dependencies": [
     "directx8-for-visual-basic",
     "catalyst-socketwrench-5"

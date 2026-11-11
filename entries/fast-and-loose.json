@@ -28,6 +28,11 @@
       "size": 413351
     }
   ],
+  "launch": {
+    "windows": {
+      "path": "fastandloose.exe"
+    }
+  },
   "dependencies": [
     "directx8-for-visual-basic"
   ]

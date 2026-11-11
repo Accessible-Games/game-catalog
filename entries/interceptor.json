@@ -47,5 +47,10 @@
       "sha256": "21773782131321982630fa5f849849cca8370242d6e3ff3a267f28d69d6b9206",
       "size": 170474766
     }
-  ]
+  ],
+  "launch": {
+    "windows": {
+      "path": "interceptor.exe"
+    }
+  }
 }

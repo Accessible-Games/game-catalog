@@ -27,5 +27,10 @@
       "sha256": "002df6db0fedf0ce9c91b4bf51e25321d1e7e0b7e06ba557b24656e55c22ff79",
       "size": 5233309
     }
-  ]
+  ],
+  "launch": {
+    "windows": {
+      "path": "dogcat.exe"
+    }
+  }
 }

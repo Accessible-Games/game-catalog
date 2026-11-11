@@ -29,5 +29,10 @@
       "sha256": "9429f2e8a614763fb71ac11a747e2eea069eb414b9280aeacd7a9222e05652ba",
       "size": 4960549
     }
-  ]
+  ],
+  "launch": {
+    "windows": {
+      "path": "slide.exe"
+    }
+  }
 }

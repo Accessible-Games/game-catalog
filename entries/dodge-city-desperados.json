@@ -24,5 +24,10 @@
       "sha256": "85a4758f917f7d156bedce195866c16cb199dba1d8135a50d786dabd479e56f7",
       "size": 2121656
     }
-  ]
+  ],
+  "launch": {
+    "windows": {
+      "path": "dcd20w.exe"
+    }
+  }
 }

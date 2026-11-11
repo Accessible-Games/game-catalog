@@ -27,5 +27,10 @@
       "sha256": "428031d46ecf15710853be3d3c2e1d9e170165dd7892a72430cc6f4b7a1b79bf",
       "size": 14302629
     }
-  ]
+  ],
+  "launch": {
+    "windows": {
+      "path": "darkness.exe"
+    }
+  }
 }

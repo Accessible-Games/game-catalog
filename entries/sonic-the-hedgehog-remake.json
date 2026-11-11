@@ -22,5 +22,10 @@
       "sha256": "9950c7ca7ee129b3592e7993e8339394d8b3c8ef2cc5434f0c006914aac60277",
       "size": 32307062
     }
-  ]
+  ],
+  "launch": {
+    "windows": {
+      "path": "sth.exe"
+    }
+  }
 }

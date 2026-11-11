@@ -24,5 +24,10 @@
       "sha256": "1a61b4dcd83fc44fa1bc10f19b657ec752e9d7c84e6049d8e92d8da4eb1c083b",
       "size": 11080226
     }
-  ]
+  ],
+  "launch": {
+    "windows": {
+      "path": "truckdriver.exe"
+    }
+  }
 }

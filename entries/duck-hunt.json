@@ -28,6 +28,11 @@
       "size": 1826116
     }
   ],
+  "launch": {
+    "windows": {
+      "path": "duckhunt.exe"
+    }
+  },
   "dependencies": [
     "directx8-for-visual-basic"
   ]

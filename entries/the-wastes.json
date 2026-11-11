@@ -24,5 +24,10 @@
       "sha256": "8c8ac7ba27b754b344c128626ed2541b01924ba2462eb2ada90a6ab028213796",
       "size": 64805522
     }
-  ]
+  ],
+  "launch": {
+    "windows": {
+      "path": "The Wastes.exe"
+    }
+  }
 }

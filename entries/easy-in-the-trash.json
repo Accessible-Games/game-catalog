@@ -25,5 +25,10 @@
       "sha256": "2ac2e340741b216850fccd4376f22f9e2c299df25971cdf5b4145b373a5937e7",
       "size": 4416329
     }
-  ]
+  ],
+  "launch": {
+    "windows": {
+      "path": "easy in the trash.exe"
+    }
+  }
 }

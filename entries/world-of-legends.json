@@ -24,5 +24,10 @@
       "sha256": "843d18be442ec02de6aebba55eb94ff04e2508afefa48ddc796ba18920d6d16e",
       "size": 601316
     }
-  ]
+  ],
+  "launch": {
+    "windows": {
+      "path": "World Of Legends.exe"
+    }
+  }
 }

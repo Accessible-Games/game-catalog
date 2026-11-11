@@ -24,5 +24,10 @@
       "sha256": "458dcb002abce8214e41e238bc68a3f548fd91078b03afd975496e99de40a09a",
       "size": 11682936
     }
-  ]
+  ],
+  "launch": {
+    "windows": {
+      "path": "reindeer.exe"
+    }
+  }
 }

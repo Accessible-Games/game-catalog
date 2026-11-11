@@ -25,5 +25,10 @@
       "sha256": "7ed7120fa80018eb3956fa252edb129d33aef2786053ea3a8bff4144b396772b",
       "size": 129643
     }
-  ]
+  ],
+  "launch": {
+    "windows": {
+      "path": "taxman.exe"
+    }
+  }
 }

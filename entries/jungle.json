@@ -46,5 +46,10 @@
       "sha256": "bfa796a469e1ac2dc56e4dcf845f72596f61eb9351d8e11e734fbe86833778e1",
       "size": 3077906
     }
-  ]
+  ],
+  "launch": {
+    "windows": {
+      "path": "jungle.exe"
+    }
+  }
 }

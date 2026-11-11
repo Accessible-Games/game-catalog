@@ -34,6 +34,11 @@
       "size": 7278093
     }
   ],
+  "launch": {
+    "windows": {
+      "path": "DynamicDeck.exe"
+    }
+  },
   "dependencies": [
     "directx8-for-visual-basic",
     "microsoft-winsock-control"

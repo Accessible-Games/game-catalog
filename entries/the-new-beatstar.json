@@ -23,5 +23,10 @@
       "sha256": "818be0cdc66e5cac6f86fa9df06312d41acce0f971098adab23963119e401e00",
       "size": 150165830
     }
-  ]
+  ],
+  "launch": {
+    "windows": {
+      "path": "beatstar.exe"
+    }
+  }
 }

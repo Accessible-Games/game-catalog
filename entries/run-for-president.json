@@ -24,5 +24,10 @@
       "sha256": "2fe279292c521872bdd64a6bee16c28b29af66622ee24f1c54ecff04f2da831b",
       "size": 4401733
     }
-  ]
+  ],
+  "launch": {
+    "windows": {
+      "path": "rfp41w.exe"
+    }
+  }
 }

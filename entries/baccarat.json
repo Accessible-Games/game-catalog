@@ -27,5 +27,10 @@
       "sha256": "fa4fe0b1fffb1acc6f0b86fdfef2cb7eb565ac467b9e2d085ade3d58345d49d6",
       "size": 410248
     }
-  ]
+  ],
+  "launch": {
+    "windows": {
+      "path": "Baccarat.exe"
+    }
+  }
 }

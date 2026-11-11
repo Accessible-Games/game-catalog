@@ -25,6 +25,11 @@
       "size": 9611035
     }
   ],
+  "launch": {
+    "windows": {
+      "path": "awesome.exe"
+    }
+  },
   "dependencies": [
     "directx8-for-visual-basic"
   ]

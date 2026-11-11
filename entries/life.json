@@ -25,6 +25,11 @@
       "size": 297103
     }
   ],
+  "launch": {
+    "windows": {
+      "path": "life.exe"
+    }
+  },
   "dependencies": [
     "directx8-for-visual-basic"
   ]

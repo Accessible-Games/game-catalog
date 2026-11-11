@@ -25,5 +25,10 @@
       "sha256": "e9f444f60a72ef1d8029e4648ec544ef29f2ff0e4d5cfb98518e45eac0108c0b",
       "size": 15534836
     }
-  ]
+  ],
+  "launch": {
+    "windows": {
+      "path": "ZST.exe"
+    }
+  }
 }

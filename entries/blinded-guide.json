@@ -31,5 +31,10 @@
       "sha256": "fc83e278c24c4412a1e62a774c7fad0339f50424b71c74ecede4829667c4be47",
       "size": 5944678
     }
-  ]
+  ],
+  "launch": {
+    "windows": {
+      "path": "BlindedGuide.exe"
+    }
+  }
 }

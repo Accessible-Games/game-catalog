@@ -25,5 +25,10 @@
       "sha256": "038c0a45d23d99bb7f6143e02abc6d698b8937310f1d0773c2e6f6436d41b8ec",
       "size": 14995397
     }
-  ]
+  ],
+  "launch": {
+    "windows": {
+      "path": "client/dmnb.exe"
+    }
+  }
 }

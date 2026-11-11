@@ -46,5 +46,10 @@
       "sha256": "8a8ae2b15bb490d6d8623cad0db3cfcb248f34396e2a0923704df02d3a1df720",
       "size": 4999240
     }
-  ]
+  ],
+  "launch": {
+    "windows": {
+      "path": "Tia Story.exe"
+    }
+  }
 }

@@ -33,6 +33,11 @@
       "size": 6936413
     }
   ],
+  "launch": {
+    "windows": {
+      "path": "TripleTriad.exe"
+    }
+  },
   "dependencies": [
     "directx8-for-visual-basic",
     "microsoft-winsock-control",

@@ -36,6 +36,11 @@
       "size": 180548779
     }
   ],
+  "launch": {
+    "windows": {
+      "path": "scw.exe"
+    }
+  },
   "dependencies": [
     "directx8-for-visual-basic",
     "microsoft-internet-transfer-control"

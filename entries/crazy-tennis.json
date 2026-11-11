@@ -27,5 +27,10 @@
       "sha256": "761807a37552c276f655d13e5c52b292454b9ea51e254b014cd0e1997eec5d4a",
       "size": 7142243
     }
-  ]
+  ],
+  "launch": {
+    "windows": {
+      "path": "crazytennis.exe"
+    }
+  }
 }

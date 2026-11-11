@@ -23,5 +23,10 @@
       "sha256": "533e896211658dbbbb3074561df54c9347d020b19551f9681c5baae9be3011c9",
       "size": 5905907
     }
-  ]
+  ],
+  "launch": {
+    "windows": {
+      "path": "tictactoe.exe"
+    }
+  }
 }

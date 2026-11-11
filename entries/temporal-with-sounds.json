@@ -22,5 +22,10 @@
       "sha256": "f82e5c9ca4c24c22494f512ed4ea7981736ea7a8e24a2266f5412018a6dc9d1f",
       "size": 2082542
     }
-  ]
+  ],
+  "launch": {
+    "windows": {
+      "path": "Temporal.exe"
+    }
+  }
 }

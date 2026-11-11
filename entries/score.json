@@ -24,5 +24,10 @@
       "sha256": "7ed7b1a5db1a3327411c0957d09b889833881e6231ed8d4735c48d3fb1fc0164",
       "size": 424493
     }
-  ]
+  ],
+  "launch": {
+    "windows": {
+      "path": "score.exe"
+    }
+  }
 }

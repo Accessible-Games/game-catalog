@@ -25,6 +25,11 @@
       "size": 690360
     }
   ],
+  "launch": {
+    "windows": {
+      "path": "fight.exe"
+    }
+  },
   "dependencies": [
     "directx7-for-visual-basic"
   ]

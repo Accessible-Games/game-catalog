@@ -22,5 +22,10 @@
       "sha256": "44eb057c5034ecd33c8d3995f0f7ac314a448a26a55bcea55de50473f99f95d4",
       "size": 4686885
     }
-  ]
+  ],
+  "launch": {
+    "windows": {
+      "path": "gameOfFloods.exe"
+    }
+  }
 }

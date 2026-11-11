@@ -29,6 +29,11 @@
       "size": 24304247
     }
   ],
+  "launch": {
+    "windows": {
+      "path": "dcit.exe"
+    }
+  },
   "dependencies": [
     "directx8-for-visual-basic",
     "microsoft-internet-transfer-control"

@@ -25,5 +25,10 @@
       "sha256": "a300a37f95792fb85ef780a4a20d337f056ca27dbc34d304b4ab05b15cf18d77",
       "size": 1004641
     }
-  ]
+  ],
+  "launch": {
+    "windows": {
+      "path": "smashathon.exe"
+    }
+  }
 }

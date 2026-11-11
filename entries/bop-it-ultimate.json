@@ -32,6 +32,11 @@
       "size": 48967827
     }
   ],
+  "launch": {
+    "windows": {
+      "path": "bop it ultimate.exe"
+    }
+  },
   "dependencies": [
     "com-audio-dependency",
     "directx8-for-visual-basic",

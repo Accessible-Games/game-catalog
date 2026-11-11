@@ -24,5 +24,10 @@
       "sha256": "c3fceddafd909c7d7ae38cb21ca99c4a0d837881b93b1004abc2a3c9a78f5fef",
       "size": 2476283
     }
-  ]
+  ],
+  "launch": {
+    "windows": {
+      "path": "mars31w.exe"
+    }
+  }
 }

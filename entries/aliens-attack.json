@@ -41,5 +41,10 @@
       "sha256": "a1859d00601f2b0c986228edc0232fe60bce99dbe9f7ad8cb577d2dd72de2981",
       "size": 7265619
     }
-  ]
+  ],
+  "launch": {
+    "windows": {
+      "path": "Aliens attack.exe"
+    }
+  }
 }

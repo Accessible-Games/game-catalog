@@ -23,5 +23,10 @@
       "sha256": "ff0b99f1ee840a7c5ef9119f679d08aaa4129122edefe6182c3c450a58560f00",
       "size": 8282314
     }
-  ]
+  ],
+  "launch": {
+    "windows": {
+      "path": "id.exe"
+    }
+  }
 }

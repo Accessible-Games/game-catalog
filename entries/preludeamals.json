@@ -34,6 +34,11 @@
       "size": 45335387
     }
   ],
+  "launch": {
+    "windows": {
+      "path": "Preludeamals.exe"
+    }
+  },
   "dependencies": [
     "directx8-for-visual-basic",
     "microsoft-internet-transfer-control",

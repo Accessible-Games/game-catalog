@@ -25,6 +25,11 @@
       "size": 506321
     }
   ],
+  "launch": {
+    "windows": {
+      "path": "ladders.exe"
+    }
+  },
   "dependencies": [
     "directx8-for-visual-basic",
     "directx7-for-visual-basic"

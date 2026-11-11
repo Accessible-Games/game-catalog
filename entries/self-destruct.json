@@ -27,5 +27,10 @@
       "sha256": "05a6edab88d39c38df1cfdee7e684f7fc303d8f24a2bce28cb85c747e192f2ea",
       "size": 40550560
     }
-  ]
+  ],
+  "launch": {
+    "windows": {
+      "path": "selfdest.exe"
+    }
+  }
 }

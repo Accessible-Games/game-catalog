@@ -27,5 +27,10 @@
       "sha256": "637b76f3146f35ccb57c2f68403bca2abe8c5db387e041b77a953e783ba0355f",
       "size": 806794
     }
-  ]
+  ],
+  "launch": {
+    "windows": {
+      "path": "skate.exe"
+    }
+  }
 }

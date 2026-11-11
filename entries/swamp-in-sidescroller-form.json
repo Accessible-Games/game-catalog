@@ -22,5 +22,10 @@
       "sha256": "8db31cc83420814f059ce45dc5905357a5c1d86af81da31370c93df5a006f88e",
       "size": 123263555
     }
-  ]
+  ],
+  "launch": {
+    "windows": {
+      "path": "2DSwamp.exe"
+    }
+  }
 }

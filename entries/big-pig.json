@@ -22,5 +22,10 @@
       "sha256": "6b9693f9749fc6d7990d3ecca480e52be511cc8c0de6fbba72660ce5967c0d44",
       "size": 4688141
     }
-  ]
+  ],
+  "launch": {
+    "windows": {
+      "path": "bigPig.exe"
+    }
+  }
 }

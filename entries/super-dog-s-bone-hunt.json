@@ -28,6 +28,11 @@
       "size": 21999086
     }
   ],
+  "launch": {
+    "windows": {
+      "path": "sbh.exe"
+    }
+  },
   "dependencies": [
     "directx8-for-visual-basic",
     "microsoft-internet-transfer-control"

@@ -25,5 +25,10 @@
       "sha256": "02c6c64ddef8d2538dba7c80936f0ca6b85303e7b400202ec40b2d16a7356f58",
       "size": 1507967
     }
-  ]
+  ],
+  "launch": {
+    "windows": {
+      "path": "gotcha.exe"
+    }
+  }
 }

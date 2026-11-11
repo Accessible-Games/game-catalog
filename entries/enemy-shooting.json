@@ -34,5 +34,10 @@
       "sha256": "f8baf96cb06b37bb44c512449b402cd4c45538977e38b09784dcf77d2bf4a345",
       "size": 11417286
     }
-  ]
+  ],
+  "launch": {
+    "windows": {
+      "path": "Enemy Shooting/play.exe"
+    }
+  }
 }

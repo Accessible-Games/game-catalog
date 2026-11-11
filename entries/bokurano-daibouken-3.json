@@ -36,5 +36,10 @@
       "sha256": "4267ebfe28272ec3682c02ebc7c8febbbf74b9601a6035443c260c738124c9cd",
       "size": 421819429
     }
-  ]
+  ],
+  "launch": {
+    "windows": {
+      "path": "play.exe"
+    }
+  }
 }

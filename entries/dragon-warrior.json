@@ -24,5 +24,10 @@
       "sha256": "6f3c451b7a4338b1b1e71a3ea37e68840f15a7aef791107877e356fb79cf4214",
       "size": 5570452
     }
-  ]
+  ],
+  "launch": {
+    "windows": {
+      "path": "dragonwarrior.exe"
+    }
+  }
 }

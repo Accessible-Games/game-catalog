@@ -23,5 +23,10 @@
       "sha256": "f16e198daa52db3dcbea941e22c429b0fb9679a21334bda14d7d7b0887af7cc8",
       "size": 85757521
     }
-  ]
+  ],
+  "launch": {
+    "windows": {
+      "path": "cc.exe"
+    }
+  }
 }

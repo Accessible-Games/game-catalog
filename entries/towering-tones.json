@@ -23,5 +23,10 @@
       "sha256": "9293f7eb42801077d80e0a5f98c3e74ca794188749bc981396fc138905ab5bc5",
       "size": 2914260
     }
-  ]
+  ],
+  "launch": {
+    "windows": {
+      "path": "towertone.exe"
+    }
+  }
 }

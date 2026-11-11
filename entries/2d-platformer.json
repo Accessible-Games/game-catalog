@@ -24,5 +24,10 @@
       "sha256": "479800bb8b7be6eb026e00f0ffc0e6c93db40c776116fe2067d8b5e9a650ea9d",
       "size": 241379560
     }
-  ]
+  ],
+  "launch": {
+    "windows": {
+      "path": "2d.exe"
+    }
+  }
 }

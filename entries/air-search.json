@@ -29,5 +29,10 @@
       "sha256": "f4bffacc044843e8ad8aa0c1d6cfab2bcfeb121beeb9244807b0b1bc242b7a1d",
       "size": 5523146
     }
-  ]
+  ],
+  "launch": {
+    "windows": {
+      "path": "AirSearch.exe"
+    }
+  }
 }

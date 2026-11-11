@@ -23,5 +23,10 @@
       "sha256": "34320588913a9fd05b1064f585a113bfe2b76b50e1994f810f3594a9e1ef9751",
       "size": 399849
     }
-  ]
+  ],
+  "launch": {
+    "windows": {
+      "path": "acbj31w.exe"
+    }
+  }
 }

@@ -23,5 +23,10 @@
       "sha256": "65bfa30ee05f7aa43cbd540982066c8cb8b06ee8d0a6371ce4b5147a27a5cb41",
       "size": 24019729
     }
-  ]
+  ],
+  "launch": {
+    "windows": {
+      "path": "smack.exe"
+    }
+  }
 }

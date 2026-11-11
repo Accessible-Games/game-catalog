@@ -40,5 +40,10 @@
       "sha256": "5fa1d1727e2e8f4d8ccf0e85d9653ba58196c2ad1979cafd8e3a137393342dba",
       "size": 4861861
     }
-  ]
+  ],
+  "launch": {
+    "windows": {
+      "path": "playmania.exe"
+    }
+  }
 }

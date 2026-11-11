@@ -27,5 +27,10 @@
       "sha256": "687fbf8be946da4b43c5567ee0fdbde5b748977a177a67fd903452b4dbcf4f1c",
       "size": 38962586
     }
-  ]
+  ],
+  "launch": {
+    "windows": {
+      "path": "snowboard.exe"
+    }
+  }
 }

@@ -25,5 +25,10 @@
       "sha256": "f8bcc230f0fe7f0acfa19832ef12ff2dfff90cf7bf763f5baa4a578b66803412",
       "size": 67839397
     }
-  ]
+  ],
+  "launch": {
+    "windows": {
+      "path": "The Road of Life.exe"
+    }
+  }
 }

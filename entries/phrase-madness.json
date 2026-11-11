@@ -26,5 +26,10 @@
       "sha256": "4db53083f02f77ebfbfc2fa673b170280b864fe8e47d11bf86fd1053aecad833",
       "size": 77132070
     }
-  ]
+  ],
+  "launch": {
+    "windows": {
+      "path": "phrase madness.exe"
+    }
+  }
 }

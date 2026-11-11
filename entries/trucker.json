@@ -25,6 +25,11 @@
       "size": 1347390
     }
   ],
+  "launch": {
+    "windows": {
+      "path": "trucker.exe"
+    }
+  },
   "dependencies": [
     "directx8-for-visual-basic"
   ]

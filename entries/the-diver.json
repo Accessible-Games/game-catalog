@@ -27,5 +27,10 @@
       "sha256": "2439a1fbfedc1f0118e1476a1772785c3fec9fc0d5bd287ad9217465bd27a574",
       "size": 3608403
     }
-  ]
+  ],
+  "launch": {
+    "windows": {
+      "path": "the diver.exe"
+    }
+  }
 }

@@ -28,5 +28,10 @@
       "sha256": "9e900332b99cc1efda222620aa1665bae6c6bac50b2fbd171b9f09d092b48e39",
       "size": 2820384
     }
-  ]
+  ],
+  "launch": {
+    "windows": {
+      "path": "mineracer.exe"
+    }
+  }
 }

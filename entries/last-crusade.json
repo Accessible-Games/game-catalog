@@ -29,6 +29,11 @@
       "size": 80590302
     }
   ],
+  "launch": {
+    "windows": {
+      "path": "LastCrusade.exe"
+    }
+  },
   "dependencies": [
     "microsoft-common-dialog-control",
     "microsoft-windows-common-controls"

@@ -27,5 +27,10 @@
       "sha256": "cc9841d913a7a067c5042167589dedf0e9645714e219096aaac984e2f576cc08",
       "size": 116215178
     }
-  ]
+  ],
+  "launch": {
+    "windows": {
+      "path": "Soulbound.exe"
+    }
+  }
 }

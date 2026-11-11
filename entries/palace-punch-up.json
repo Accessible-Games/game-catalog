@@ -31,5 +31,10 @@
       "sha256": "bf45a2913788d185cd52022a4d0095d605b34bd053f977149aaaf956235a2e59",
       "size": 5243833
     }
-  ]
+  ],
+  "launch": {
+    "windows": {
+      "path": "palace.exe"
+    }
+  }
 }

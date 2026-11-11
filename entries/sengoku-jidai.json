@@ -22,5 +22,10 @@
       "sha256": "3151c4d6e997838ba98aa2a3411b50112928e40edc7bac29228d81ee66766f52",
       "size": 34515296
     }
-  ]
+  ],
+  "launch": {
+    "windows": {
+      "path": "sj.exe"
+    }
+  }
 }

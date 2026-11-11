@@ -40,5 +40,10 @@
       "sha256": "ceaa31e1af0d98201340a68b0a5d82cdc50d2290926762e5d517910c48987d46",
       "size": 5460890
     }
-  ]
+  ],
+  "launch": {
+    "windows": {
+      "path": "PontesKickUps.exe"
+    }
+  }
 }

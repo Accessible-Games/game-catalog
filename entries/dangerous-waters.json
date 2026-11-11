@@ -24,5 +24,10 @@
       "sha256": "25c36b7645b35b865a06538a3d6ec80c31f77598a35b97a4a85c33b830ad2023",
       "size": 51512531
     }
-  ]
+  ],
+  "launch": {
+    "windows": {
+      "path": "dw.exe"
+    }
+  }
 }

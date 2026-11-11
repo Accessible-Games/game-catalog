@@ -26,5 +26,10 @@
       "sha256": "a54173bbb8ebc61842e38b0a511499e72ec1ffb498a6f182afac9779b8292e51",
       "size": 13110087
     }
-  ]
+  ],
+  "launch": {
+    "windows": {
+      "path": "SammyCenter.exe"
+    }
+  }
 }

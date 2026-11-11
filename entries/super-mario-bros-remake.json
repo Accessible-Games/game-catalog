@@ -22,5 +22,10 @@
       "sha256": "2f2773b060b4e8f495ae62f3e974a9ee24bd67f5f1f4152b19e73e64c5393202",
       "size": 16025763
     }
-  ]
+  ],
+  "launch": {
+    "windows": {
+      "path": "Mario.exe"
+    }
+  }
 }

@@ -23,5 +23,10 @@
       "sha256": "b8dc5f1187bc4e838f82998181f379769fd65769d3c5ed87f33ab56ed99de62b",
       "size": 1389611
     }
-  ]
+  ],
+  "launch": {
+    "windows": {
+      "path": "tzr11w.exe"
+    }
+  }
 }

@@ -47,5 +47,10 @@
       "sha256": "0ec9329f4a934ed8f42bfb97f6ddc9a8f90d07cfa8de1b2fd5f423c778637128",
       "size": 90847798
     }
-  ]
+  ],
+  "launch": {
+    "windows": {
+      "path": "ExpandingKnownSpace.exe"
+    }
+  }
 }

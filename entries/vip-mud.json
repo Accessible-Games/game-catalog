@@ -51,6 +51,11 @@
       "size": 8294065
     }
   ],
+  "launch": {
+    "windows": {
+      "path": "vipmud2.exe"
+    }
+  },
   "dependencies": [
     "directx8-for-visual-basic",
     "microsoft-rich-textbox-control",

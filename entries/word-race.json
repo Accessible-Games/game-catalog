@@ -27,5 +27,10 @@
       "sha256": "abf14ff343ba195ec32ef87c1391355f1189c6f3fb8157940e9dd722c791cabc",
       "size": 8823356
     }
-  ]
+  ],
+  "launch": {
+    "windows": {
+      "path": "wordrace.exe"
+    }
+  }
 }

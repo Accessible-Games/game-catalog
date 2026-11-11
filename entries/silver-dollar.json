@@ -47,5 +47,10 @@
       "sha256": "f93a916d27eaf10e9e469656fc20eda897267d8f87fe41f90263062e8110f860",
       "size": 20775254
     }
-  ]
+  ],
+  "launch": {
+    "windows": {
+      "path": "SilverDollarGui.exe"
+    }
+  }
 }

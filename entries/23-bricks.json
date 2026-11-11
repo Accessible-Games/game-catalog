@@ -24,5 +24,10 @@
       "sha256": "2dd8e70d27ac64ee2c84ceb5739601e60a909da28cd2cac50e6755f86bc60313",
       "size": 117330
     }
-  ]
+  ],
+  "launch": {
+    "windows": {
+      "path": "23bricks.exe"
+    }
+  }
 }

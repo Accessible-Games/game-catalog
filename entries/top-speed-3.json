@@ -45,5 +45,10 @@
       "sha256": "c090ec73d499c3d0261048041a8592be5c85a5df0a6a4cc0834a720875af30dd",
       "size": 24470002
     }
-  ]
+  ],
+  "launch": {
+    "windows": {
+      "path": "TopSpeed.exe"
+    }
+  }
 }

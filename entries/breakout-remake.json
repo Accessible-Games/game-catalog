@@ -23,5 +23,10 @@
       "sha256": "546c1910b7cce35e11808406a54357e1b5adf53b370b0c59dbcb8080981c8473",
       "size": 5357188
     }
-  ]
+  ],
+  "launch": {
+    "windows": {
+      "path": "breakout.exe"
+    }
+  }
 }

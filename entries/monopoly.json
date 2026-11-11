@@ -25,6 +25,11 @@
       "size": 1111955
     }
   ],
+  "launch": {
+    "windows": {
+      "path": "monopoly.exe"
+    }
+  },
   "dependencies": [
     "directx8-for-visual-basic"
   ]

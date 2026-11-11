@@ -44,5 +44,10 @@
       "sha256": "ffccb076cb31b30fc11367a48f977ef1417e02de37f3d79631355611b8aeb67d",
       "size": 63206774
     }
-  ]
+  ],
+  "launch": {
+    "windows": {
+      "path": "launch_traders_oks.exe"
+    }
+  }
 }

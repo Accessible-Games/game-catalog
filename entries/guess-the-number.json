@@ -29,6 +29,11 @@
       "size": 4020285
     }
   ],
+  "launch": {
+    "windows": {
+      "path": "Guess The Number.exe"
+    }
+  },
   "dependencies": [
     "directx8-for-visual-basic"
   ]

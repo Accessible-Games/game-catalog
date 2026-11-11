@@ -31,5 +31,10 @@
       "sha256": "221cb121712bc3b2e24374197dfc39014a534aed9677745ccab738a7dd186b80",
       "size": 111763879
     }
-  ]
+  ],
+  "launch": {
+    "windows": {
+      "path": "PFiles/Captain Dynamite and the Fallen Hero (Demo)/CaptainDynamite.exe"
+    }
+  }
 }

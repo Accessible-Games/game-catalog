@@ -50,5 +50,10 @@
       "sha256": "263c09c4507ef6b970f0ce8d549c750b13fa12019d92d9be5134963c6fb3ade9",
       "size": 22054556
     }
-  ]
+  ],
+  "launch": {
+    "windows": {
+      "path": "descent.exe"
+    }
+  }
 }

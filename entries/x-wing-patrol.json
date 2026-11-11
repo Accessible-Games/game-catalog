@@ -24,6 +24,11 @@
       "size": 10907428
     }
   ],
+  "launch": {
+    "windows": {
+      "path": "X-WingPatrol.exe"
+    }
+  },
   "dependencies": [
     "directx8-for-visual-basic"
   ]

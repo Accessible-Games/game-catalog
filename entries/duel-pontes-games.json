@@ -43,5 +43,10 @@
       "sha256": "868879907df5ced450319e3cb971977e61e176a1a095496d675b7b966fa0e0cc",
       "size": 8508813
     }
-  ]
+  ],
+  "launch": {
+    "windows": {
+      "path": "Pontes Duel.exe"
+    }
+  }
 }

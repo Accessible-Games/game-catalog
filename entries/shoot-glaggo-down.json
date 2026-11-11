@@ -25,5 +25,10 @@
       "sha256": "323b661a46a5ed14d8a8eabd6d00804c8bfaa81633271ecdc9b9360492ebea3e",
       "size": 15937975
     }
-  ]
+  ],
+  "launch": {
+    "windows": {
+      "path": "shoot glaggo down.exe"
+    }
+  }
 }

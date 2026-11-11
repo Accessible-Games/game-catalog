@@ -25,6 +25,11 @@
       "size": 15328246
     }
   ],
+  "launch": {
+    "windows": {
+      "path": "dungeon.exe"
+    }
+  },
   "dependencies": [
     "directx8-for-visual-basic"
   ]

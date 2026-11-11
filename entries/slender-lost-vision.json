@@ -49,5 +49,10 @@
       "sha256": "bd2f361f9c6c552a4fd43f1a7a3017daa33f24889e88e8f9dbc77258c00d815f",
       "size": 72303714
     }
-  ]
+  ],
+  "launch": {
+    "windows": {
+      "path": "slender.exe"
+    }
+  }
 }

@@ -25,6 +25,11 @@
       "size": 61450
     }
   ],
+  "launch": {
+    "windows": {
+      "path": "mastermind.exe"
+    }
+  },
   "dependencies": [
     "directx8-for-visual-basic"
   ]

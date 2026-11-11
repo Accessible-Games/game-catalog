@@ -27,5 +27,10 @@
       "sha256": "3c12eb22296ce49c1cc3eadfbfced757084c7c79a462927d5e907a23f42bee95",
       "size": 73059864
     }
-  ]
+  ],
+  "launch": {
+    "windows": {
+      "path": "1812 - Heart of Winter.exe"
+    }
+  }
 }

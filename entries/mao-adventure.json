@@ -37,5 +37,10 @@
       "sha256": "aef43696988105654ea7c9552e0204799edda17a7ed45fba7d105d0d395a56b7",
       "size": 15377805
     }
-  ]
+  ],
+  "launch": {
+    "windows": {
+      "path": "Mao adventure!.exe"
+    }
+  }
 }

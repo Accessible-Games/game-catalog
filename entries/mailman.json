@@ -24,5 +24,10 @@
       "sha256": "51fb25416a52360f7bdbc80d3a5770144fe052bbd3b1b9976c878f1d919ae927",
       "size": 40075249
     }
-  ]
+  ],
+  "launch": {
+    "windows": {
+      "path": "Mailman.exe"
+    }
+  }
 }

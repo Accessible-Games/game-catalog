@@ -27,5 +27,10 @@
       "sha256": "ccc3d942b0d1cbfee6b0b8337572a4bc7ccc0f1ecddea7a4d8dfd04acb4cbda8",
       "size": 4099642
     }
-  ]
+  ],
+  "launch": {
+    "windows": {
+      "path": "magicblocks.exe"
+    }
+  }
 }

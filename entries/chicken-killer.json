@@ -24,5 +24,10 @@
       "sha256": "b9f1581c59f68559e83b952f1c6ea69e43ec42471f0f416405fac45785cb58a8",
       "size": 1228502
     }
-  ]
+  ],
+  "launch": {
+    "windows": {
+      "path": "ChickenKiller.exe"
+    }
+  }
 }

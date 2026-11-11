@@ -29,6 +29,11 @@
       "size": 19793519
     }
   ],
+  "launch": {
+    "windows": {
+      "path": "supershot.exe"
+    }
+  },
   "dependencies": [
     "directx8-for-visual-basic",
     "microsoft-internet-transfer-control"

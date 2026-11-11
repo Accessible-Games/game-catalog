@@ -31,5 +31,10 @@
       "sha256": "b1777d38f9ac7ca7be5d58412fc7e04b2823355a9b3a4f63a2edacced5b4c74e",
       "size": 765296
     }
-  ]
+  ],
+  "launch": {
+    "windows": {
+      "path": "lwwords.exe"
+    }
+  }
 }

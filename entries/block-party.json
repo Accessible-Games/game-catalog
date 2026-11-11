@@ -26,5 +26,10 @@
       "sha256": "d59a611e2ba64ce01efaa1d26a95439a289f0971fbe11dba1c1347d89a25415c",
       "size": 9891550
     }
-  ]
+  ],
+  "launch": {
+    "windows": {
+      "path": "BlockParty.exe"
+    }
+  }
 }

@@ -25,6 +25,11 @@
       "size": 2720661
     }
   ],
+  "launch": {
+    "windows": {
+      "path": "tjs.exe"
+    }
+  },
   "dependencies": [
     "directx8-for-visual-basic"
   ]

@@ -22,5 +22,10 @@
       "sha256": "165e7934028789f7aead1eb384683ec57159437411c021255cc9c9fd3a639c0d",
       "size": 4687498
     }
-  ]
+  ],
+  "launch": {
+    "windows": {
+      "path": "rabbitAdventure.exe"
+    }
+  }
 }

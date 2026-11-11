@@ -26,5 +26,10 @@
       "sha256": "02d7bf9183adbaf29533b0d7bae6494e82808ea0dbe25b252947e21022375851",
       "size": 11814704
     }
-  ]
+  ],
+  "launch": {
+    "windows": {
+      "path": "Pontes Keyboard.exe"
+    }
+  }
 }

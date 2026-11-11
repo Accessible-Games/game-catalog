@@ -23,5 +23,10 @@
       "sha256": "f6194a14e021f4adf316a99114ed2aa96172fc10c5d10d5db873ae3faf12768a",
       "size": 10467861
     }
-  ]
+  ],
+  "launch": {
+    "windows": {
+      "path": "md5btl.exe"
+    }
+  }
 }

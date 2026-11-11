@@ -27,6 +27,11 @@
       "size": 26974696
     }
   ],
+  "launch": {
+    "windows": {
+      "path": "spaceyVadersV2.exe"
+    }
+  },
   "dependencies": [
     "directx8-for-visual-basic",
     "microsoft-internet-transfer-control",

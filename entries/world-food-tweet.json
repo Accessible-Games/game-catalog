@@ -24,5 +24,10 @@
       "sha256": "f6c1f29d35607a316fceec7e71d5a5b92a608b93ecacbdcacdc2bcc1bf11b3f0",
       "size": 8382384
     }
-  ]
+  ],
+  "launch": {
+    "windows": {
+      "path": "wft.exe"
+    }
+  }
 }

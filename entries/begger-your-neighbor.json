@@ -25,5 +25,10 @@
       "sha256": "eb6f287c3c023829bfe8121d9e165cdd1c0a1127ac056e7318517ac49175bb46",
       "size": 661305
     }
-  ]
+  ],
+  "launch": {
+    "windows": {
+      "path": "byn.exe"
+    }
+  }
 }

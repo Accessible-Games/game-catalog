@@ -24,5 +24,10 @@
       "sha256": "9cb32aeddaafb95c847fa32cfb0deb72b8d8be8f220c47daac05585896f32cd8",
       "size": 944547
     }
-  ]
+  ],
+  "launch": {
+    "windows": {
+      "path": "compduel.exe"
+    }
+  }
 }

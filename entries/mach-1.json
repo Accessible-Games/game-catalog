@@ -25,6 +25,11 @@
       "size": 10059411
     }
   ],
+  "launch": {
+    "windows": {
+      "path": "mach1tts.exe"
+    }
+  },
   "dependencies": [
     "directx8-for-visual-basic"
   ]

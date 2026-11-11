@@ -33,6 +33,11 @@
       "size": 1404673
     }
   ],
+  "launch": {
+    "windows": {
+      "path": "temporal.exe"
+    }
+  },
   "dependencies": [
     "directx7-for-visual-basic"
   ]

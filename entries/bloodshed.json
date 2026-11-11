@@ -43,5 +43,10 @@
       "sha256": "91abfd7c614037a62a34e2fd6d341b9ef68d4bc93e537de82eaa62a5285eeac4",
       "size": 4317170
     }
-  ]
+  ],
+  "launch": {
+    "windows": {
+      "path": "bloodshed.exe"
+    }
+  }
 }

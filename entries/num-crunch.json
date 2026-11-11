@@ -28,6 +28,11 @@
       "size": 20245243
     }
   ],
+  "launch": {
+    "windows": {
+      "path": "num-Crunch.exe"
+    }
+  },
   "dependencies": [
     "com-audio-dependency"
   ]

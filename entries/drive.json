@@ -29,5 +29,10 @@
       "sha256": "e692e4b221a8f0a53f95418120f26ba51bb3456c91ef98232884dd2f2e636d48",
       "size": 115360828
     }
-  ]
+  ],
+  "launch": {
+    "windows": {
+      "path": "Drive.exe"
+    }
+  }
 }

@@ -41,5 +41,10 @@
       "sha256": "67f0c2d678fad946716e379a6021ca6a0dcfd24688ede950b0228a17803d0277",
       "size": 1554811
     }
-  ]
+  ],
+  "launch": {
+    "windows": {
+      "path": "memory.exe"
+    }
+  }
 }

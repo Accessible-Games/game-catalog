@@ -25,5 +25,10 @@
       "sha256": "1e556c5648eee24a96bf993994ec8275ebd693f0198a3ebba6af88c07e82e60a",
       "size": 19100944
     }
-  ]
+  ],
+  "launch": {
+    "windows": {
+      "path": "chaos.exe"
+    }
+  }
 }

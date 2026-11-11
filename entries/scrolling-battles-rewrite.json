@@ -24,5 +24,10 @@
       "sha256": "1d8bde983dbf117da2bb3c787e46ebe120f5515d82249fe8c7bf40575689886e",
       "size": 8375296
     }
-  ]
+  ],
+  "launch": {
+    "windows": {
+      "path": "sb.exe"
+    }
+  }
 }

@@ -23,5 +23,10 @@
       "sha256": "d4856dd30d8dbc0cf104ab59dd0f1ffbcb60bf6632ef7ce94f60ceda80a69c9a",
       "size": 15202285
     }
-  ]
+  ],
+  "launch": {
+    "windows": {
+      "path": "runner.exe"
+    }
+  }
 }

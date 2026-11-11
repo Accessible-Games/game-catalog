@@ -27,5 +27,10 @@
       "sha256": "39348246f4b117a755f3b48565d361bc4959d625e1c926c2632cf7b28fea0458",
       "size": 1377950
     }
-  ]
+  ],
+  "launch": {
+    "windows": {
+      "path": "fartman.exe"
+    }
+  }
 }

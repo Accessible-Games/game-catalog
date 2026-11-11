@@ -28,5 +28,10 @@
       "sha256": "024f025f6ac5b286494bb02bde44dca663e28ecfeb1781d7dfa83a2301402cb3",
       "size": 6185650
     }
-  ]
+  ],
+  "launch": {
+    "windows": {
+      "path": "horseshoes.exe"
+    }
+  }
 }

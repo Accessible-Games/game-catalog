@@ -24,5 +24,10 @@
       "sha256": "66dc72fe8bb70b1a496175b70815764c8f5e47398bb740493d986ea3ee07da6e",
       "size": 7955289
     }
-  ]
+  ],
+  "launch": {
+    "windows": {
+      "path": "ttt.exe"
+    }
+  }
 }

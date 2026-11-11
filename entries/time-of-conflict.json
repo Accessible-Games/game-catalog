@@ -49,6 +49,11 @@
       "size": 24450699
     }
   ],
+  "launch": {
+    "windows": {
+      "path": "Conflict.exe"
+    }
+  },
   "dependencies": [
     "directx8-for-visual-basic",
     "microsoft-rich-textbox-control",

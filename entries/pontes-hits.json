@@ -40,5 +40,10 @@
       "sha256": "4b20fda5c21536567f5d42bf7b6520565331cb611b40319f028a7683c788e14b",
       "size": 17963566
     }
-  ]
+  ],
+  "launch": {
+    "windows": {
+      "path": "Pontes Hits.exe"
+    }
+  }
 }

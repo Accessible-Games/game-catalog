@@ -33,5 +33,10 @@
       "sha256": "f0aacd845c43916d880256b381d419d03698ae046005f193a620a152b822ad89",
       "size": 55733756
     }
-  ]
+  ],
+  "launch": {
+    "windows": {
+      "path": "drawPokerChallenge.exe"
+    }
+  }
 }

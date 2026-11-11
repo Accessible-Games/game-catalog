@@ -25,6 +25,11 @@
       "size": 510684
     }
   ],
+  "launch": {
+    "windows": {
+      "path": "hangman.exe"
+    }
+  },
   "dependencies": [
     "directx8-for-visual-basic"
   ]

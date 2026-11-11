@@ -28,6 +28,11 @@
       "size": 909593
     }
   ],
+  "launch": {
+    "windows": {
+      "path": "Othello.exe"
+    }
+  },
   "dependencies": [
     "microsoft-windows-common-controls"
   ]

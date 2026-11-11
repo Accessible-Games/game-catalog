@@ -28,5 +28,10 @@
       "sha256": "986441080eb269c21eceabfcb71903a7057cb0abf1d2460cff00afd5df09e5eb",
       "size": 37174920
     }
-  ]
+  ],
+  "launch": {
+    "windows": {
+      "path": "Game.exe"
+    }
+  }
 }

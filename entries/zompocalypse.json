@@ -28,5 +28,10 @@
       "sha256": "afe6a9548fd11581778187805d1617e3d36992fbf45de04cdc4a6657be3dcd13",
       "size": 17666228
     }
-  ]
+  ],
+  "launch": {
+    "windows": {
+      "path": "zompocalypse.exe"
+    }
+  }
 }

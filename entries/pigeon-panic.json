@@ -29,6 +29,11 @@
       "size": 5833350
     }
   ],
+  "launch": {
+    "windows": {
+      "path": "pigeonPanic.exe"
+    }
+  },
   "dependencies": [
     "directx8-for-visual-basic"
   ]

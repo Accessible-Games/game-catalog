@@ -47,5 +47,10 @@
       "sha256": "e9dca6aab6db033d2aa20a18b19a56b8ee805bce288c098b5536362ef4c5da92",
       "size": 54418895
     }
-  ]
+  ],
+  "launch": {
+    "windows": {
+      "path": "launch_yellowbonnet.exe"
+    }
+  }
 }

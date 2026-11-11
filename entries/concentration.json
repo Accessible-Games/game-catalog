@@ -25,6 +25,11 @@
       "size": 142355
     }
   ],
+  "launch": {
+    "windows": {
+      "path": "concentration.exe"
+    }
+  },
   "dependencies": [
     "directx8-for-visual-basic"
   ]

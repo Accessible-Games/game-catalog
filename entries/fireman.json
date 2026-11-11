@@ -24,5 +24,10 @@
       "sha256": "158ec6ec554bd8766db75ecfc826f3e39f8c8e5f352247716e7cdeb2da2c20fe",
       "size": 2631745
     }
-  ]
+  ],
+  "launch": {
+    "windows": {
+      "path": "fireman.exe"
+    }
+  }
 }

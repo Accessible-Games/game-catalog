@@ -27,5 +27,10 @@
       "sha256": "711546dbd90df5a8afd4760f79c9afb920150f91c1b3a3f8a00205e056f5d843",
       "size": 2184836
     }
-  ]
+  ],
+  "launch": {
+    "windows": {
+      "path": "Tower of Hanoi.exe"
+    }
+  }
 }

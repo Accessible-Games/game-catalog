@@ -34,5 +34,10 @@
       "sha256": "3ebea65d6aa430174a00f0e4d1f0f5a34f7d9e264c44f329ed0e0a55b4dea42d",
       "size": 17552991
     }
-  ]
+  ],
+  "launch": {
+    "windows": {
+      "path": "Tactical Battle.exe"
+    }
+  }
 }

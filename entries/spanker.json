@@ -25,6 +25,11 @@
       "size": 1691082
     }
   ],
+  "launch": {
+    "windows": {
+      "path": "spanker.exe"
+    }
+  },
   "dependencies": [
     "directx8-for-visual-basic"
   ]

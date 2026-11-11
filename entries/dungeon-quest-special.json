@@ -24,5 +24,10 @@
       "sha256": "3abb506580c96b567319ff84ed6535bef3122b478f7c6f472047f4ddae1f9b54",
       "size": 46425214
     }
-  ]
+  ],
+  "launch": {
+    "windows": {
+      "path": "txtgplay.exe"
+    }
+  }
 }

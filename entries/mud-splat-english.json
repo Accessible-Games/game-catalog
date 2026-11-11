@@ -28,5 +28,10 @@
       "sha256": "c538ec73610bb534ff4e7de0b2a8f3a777ccc2ee251d90589c3afd2a101eb73e",
       "size": 118276339
     }
-  ]
+  ],
+  "launch": {
+    "windows": {
+      "path": "blindstation.exe"
+    }
+  }
 }

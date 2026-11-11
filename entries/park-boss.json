@@ -31,5 +31,10 @@
       "sha256": "a2d10b4c9378f8ee46ae3e18fa38e13cba169b4b307f07beb4b099c37146af15",
       "size": 60984543
     }
-  ]
+  ],
+  "launch": {
+    "windows": {
+      "path": "pbMain.exe"
+    }
+  }
 }

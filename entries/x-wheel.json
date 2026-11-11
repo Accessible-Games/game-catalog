@@ -27,5 +27,10 @@
       "sha256": "f54a6a23cb603bd5540a0cbbd6f547f6e6ed9d40d03d8c1555386e5edbeaf58c",
       "size": 13529702
     }
-  ]
+  ],
+  "launch": {
+    "windows": {
+      "path": "x-wheel.exe"
+    }
+  }
 }

@@ -33,6 +33,11 @@
       "size": 10889172
     }
   ],
+  "launch": {
+    "windows": {
+      "path": "Daytona.exe"
+    }
+  },
   "dependencies": [
     "directx7-for-visual-basic"
   ]

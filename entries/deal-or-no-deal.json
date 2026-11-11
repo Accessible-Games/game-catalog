@@ -32,5 +32,10 @@
       "sha256": "83d40304ffbf6c47934302b62995bff03bc2c6ff56e9cd59ee7d5eae8ff9f196",
       "size": 20433018
     }
-  ]
+  ],
+  "launch": {
+    "windows": {
+      "path": "dond.exe"
+    }
+  }
 }

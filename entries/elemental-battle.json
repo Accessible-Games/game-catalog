@@ -24,5 +24,10 @@
       "sha256": "0adf43053b2fd4f07c2c3969d1185ee3eb63b93aba3c4e3f3e09590490d1af7a",
       "size": 4750372
     }
-  ]
+  ],
+  "launch": {
+    "windows": {
+      "path": "elementalbattle.exe"
+    }
+  }
 }

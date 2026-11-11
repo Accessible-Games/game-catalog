@@ -27,5 +27,10 @@
       "sha256": "101a222721c138afc955c4ade1dc49f0041fbe7c225c18a2c3202e5ae6a91fb8",
       "size": 48856340
     }
-  ]
+  ],
+  "launch": {
+    "windows": {
+      "path": "dragonVillage.exe"
+    }
+  }
 }

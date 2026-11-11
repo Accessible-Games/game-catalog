@@ -34,5 +34,10 @@
       "sha256": "5d73f56546e45b5b7c30791afa4b73e74a6919e6e0bbf9f2356d2c379a0e6d3b",
       "size": 11046018
     }
-  ]
+  ],
+  "launch": {
+    "windows": {
+      "path": "Run and Chomp.exe"
+    }
+  }
 }

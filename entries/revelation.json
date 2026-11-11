@@ -32,5 +32,10 @@
       "sha256": "21c27d390ecb6d457306cf519975ceea2d7ea7a2e91664172f2fc18236a8228f",
       "size": 2567577
     }
-  ]
+  ],
+  "launch": {
+    "windows": {
+      "path": "Revelation.exe"
+    }
+  }
 }

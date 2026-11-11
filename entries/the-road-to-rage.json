@@ -32,5 +32,10 @@
       "sha256": "2c76044d571c603918c1c48c6ff9c6342df70d00068ca7911decdae84eafd628",
       "size": 457984998
     }
-  ]
+  ],
+  "launch": {
+    "windows": {
+      "path": "trtr.exe"
+    }
+  }
 }

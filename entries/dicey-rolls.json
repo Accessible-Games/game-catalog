@@ -24,5 +24,10 @@
       "sha256": "1f9a3b75294cfb3a31b9489a69aa4d3648ae73693a893a431d82e94f6f1d97f3",
       "size": 599257
     }
-  ]
+  ],
+  "launch": {
+    "windows": {
+      "path": "dr10w.exe"
+    }
+  }
 }

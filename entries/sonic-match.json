@@ -28,6 +28,11 @@
       "size": 4740664
     }
   ],
+  "launch": {
+    "windows": {
+      "path": "sonicmatch.exe"
+    }
+  },
   "dependencies": [
     "directx8-for-visual-basic"
   ]

@@ -28,6 +28,11 @@
       "size": 4911563
     }
   ],
+  "launch": {
+    "windows": {
+      "path": "enemy attack.exe"
+    }
+  },
   "dependencies": [
     "directx8-for-visual-basic"
   ]

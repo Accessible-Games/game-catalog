@@ -25,6 +25,11 @@
       "size": 20893263
     }
   ],
+  "launch": {
+    "windows": {
+      "path": "stripwar.exe"
+    }
+  },
   "dependencies": [
     "directx8-for-visual-basic"
   ]

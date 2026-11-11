@@ -23,5 +23,10 @@
       "sha256": "5303d173a795d3c4407550a801012b219711b01cd7d70866def6b0a84bce4279",
       "size": 44174593
     }
-  ]
+  ],
+  "launch": {
+    "windows": {
+      "path": "BRAILLEMON1400.exe"
+    }
+  }
 }

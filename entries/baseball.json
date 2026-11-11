@@ -25,6 +25,11 @@
       "size": 5195807
     }
   ],
+  "launch": {
+    "windows": {
+      "path": "baseball.exe"
+    }
+  },
   "dependencies": [
     "directx8-for-visual-basic"
   ]

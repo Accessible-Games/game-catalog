@@ -25,6 +25,11 @@
       "size": 2765592
     }
   ],
+  "launch": {
+    "windows": {
+      "path": "guns.exe"
+    }
+  },
   "dependencies": [
     "directx8-for-visual-basic"
   ]

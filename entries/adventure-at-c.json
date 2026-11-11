@@ -37,5 +37,10 @@
       "sha256": "17ee2fdbc3dd963b700954d64dc182ce0c3d5a94ffe850855e322114eea75477",
       "size": 192061650
     }
-  ]
+  ],
+  "launch": {
+    "windows": {
+      "path": "aac.exe"
+    }
+  }
 }

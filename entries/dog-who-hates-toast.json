@@ -33,6 +33,11 @@
       "size": 1408933
     }
   ],
+  "launch": {
+    "windows": {
+      "path": "DogwhoHatesToast.exe"
+    }
+  },
   "dependencies": [
     "directx7-for-visual-basic"
   ]

@@ -25,5 +25,10 @@
       "sha256": "ea734a5bf3e7bd6b013cb43b63d6afa700260678bfed16e775a84dcefce5b807",
       "size": 8188383
     }
-  ]
+  ],
+  "launch": {
+    "windows": {
+      "path": "ff.exe"
+    }
+  }
 }

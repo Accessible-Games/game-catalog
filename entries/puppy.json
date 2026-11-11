@@ -25,6 +25,11 @@
       "size": 2271405
     }
   ],
+  "launch": {
+    "windows": {
+      "path": "puppy1.exe"
+    }
+  },
   "dependencies": [
     "directx8-for-visual-basic"
   ]
