@@ -98,7 +98,7 @@ The schema in `schema/entry.schema.json` is authoritative. An entry file holds o
 - `size`: optional size in bytes.
 - `first_run_download_size`: optional number of bytes the game downloads the first time it starts, 0 or more, so the app can show the real total.
 - `sha256`: optional lowercase hex checksum. Required on mirror sources, where a mismatch is an error. On developer downloads you can leave both out: when a change is merged, the publish workflow downloads the file once and records them. If a pull request changes a download whose recorded values no longer match the file, the checks fail and show the right values.
-- `steps`: optional list of install steps, run in order after files are in place.
+- `steps`: optional list of install steps, run once the source's files are unpacked or its installer has finished. See Steps for the order they run in.
 
 The app uses `size` and `sha256` to verify what it installs and to notice updates. When the weekly link check reports that a developer's file changed and the new file is the one players should get, accept it with `uv run catalog-checksums --refresh --only ID` and open a pull request with the result.
 
@@ -128,6 +128,8 @@ Steps come from a fixed list. They are never scripts. Paths are relative to the 
 - `registry`: sets a value. Needs `hive` (`HKCU` or `HKLM`), `key`, `name`, `type` (`REG_SZ` or `REG_DWORD`) and `value`.
 - `register`: registers a COM component (DLL or OCX). Needs `path`.
 - `run`: runs a file shipped with the game. Needs `path`, with optional `args`.
+
+The app runs the steps in two groups. The file steps (`copy`, `move`, `delete`) run first, in the order listed. The system steps (`registry`, `register`, `run`) run after them, in the order listed, so a registration points at the file's final place. List every file step before the first system step: a file step listed after a system step would still run before it, so the validator refuses that order.
 
 ## Where things are published
 

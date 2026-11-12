@@ -167,6 +167,81 @@ def test_shared_extra_cannot_use_system_steps():
     assert validate_entries(catalog(make("g"), make("h"), harmless)) == []
 
 
+STEP_ORDER_RULE = ("file steps (copy, move, delete) must come before system steps (registry, register, run), "
+                   "because the app runs every file step first")
+FILE_STEP_EXAMPLES = {
+    "copy": {"action": "copy", "from": "a", "to": "b"},
+    "move": {"action": "move", "from": "a", "to": "b"},
+    "delete": {"action": "delete", "path": "a"},
+}
+SYSTEM_STEP_EXAMPLES = {
+    "registry": {"action": "registry", "hive": "HKCU", "key": "Software\\X", "name": "", "type": "REG_SZ",
+                 "value": "1"},
+    "register": {"action": "register", "path": "x.ocx"},
+    "run": {"action": "run", "path": "setup.exe"},
+}
+
+
+@pytest.mark.parametrize("system", sorted(SYSTEM_STEP_EXAMPLES))
+@pytest.mark.parametrize("file", sorted(FILE_STEP_EXAMPLES))
+def test_file_step_after_system_step_is_refused(file, system):
+    steps = [SYSTEM_STEP_EXAMPLES[system], FILE_STEP_EXAMPLES[file]]
+    problems = validate_entries(catalog(with_source(make("g"), steps=steps)))
+    assert problems == [Problem("g", f"sources[0]: steps[1] ({file}) comes after steps[0] ({system}): "
+                                     + STEP_ORDER_RULE)]
+
+
+@pytest.mark.parametrize("steps", [
+    [],
+    ["copy", "move", "delete"],
+    ["registry", "register", "run"],
+    ["run", "register", "registry"],
+    ["delete", "copy", "move", "register", "registry", "run"],
+    ["copy", "run"],
+])
+def test_file_steps_before_system_steps_pass(steps):
+    examples = {**FILE_STEP_EXAMPLES, **SYSTEM_STEP_EXAMPLES}
+    entry = with_source(make("g"), steps=[examples[name] for name in steps])
+    assert validate_entries(catalog(entry)) == []
+
+
+def test_step_order_names_each_late_file_step_and_the_first_system_step():
+    steps = [FILE_STEP_EXAMPLES["copy"], SYSTEM_STEP_EXAMPLES["register"], FILE_STEP_EXAMPLES["delete"],
+             SYSTEM_STEP_EXAMPLES["run"], FILE_STEP_EXAMPLES["move"]]
+    problems = validate_entries(catalog(with_source(make("g"), steps=steps)))
+    assert msgs(problems) == [
+        "sources[0]: steps[2] (delete) comes after steps[1] (register): " + STEP_ORDER_RULE,
+        "sources[0]: steps[4] (move) comes after steps[1] (register): " + STEP_ORDER_RULE]
+
+
+def test_step_order_is_checked_in_every_source():
+    entry = make("g")
+    good = [FILE_STEP_EXAMPLES["copy"], SYSTEM_STEP_EXAMPLES["register"]]
+    bad = [SYSTEM_STEP_EXAMPLES["register"], FILE_STEP_EXAMPLES["copy"]]
+    entry["sources"][0]["steps"] = good
+    entry["sources"].append({**copy.deepcopy(entry["sources"][0]), "label": "Other",
+                             "url": "https://example.com/y.zip", "steps": bad})
+    assert msgs(validate_entries(catalog(entry))) == [
+        "sources[1]: steps[1] (copy) comes after steps[0] (register): " + STEP_ORDER_RULE]
+
+
+def test_step_order_applies_to_extras_and_runtimes():
+    bad = [SYSTEM_STEP_EXAMPLES["register"], FILE_STEP_EXAMPLES["move"]]
+    extra = with_source(make("x", "extra", extends=["g"]), steps=bad)
+    runtime = with_source(make("r", "runtime"), steps=bad)
+    problems = validate_entries(catalog(make("g"), extra, runtime))
+    message = "sources[0]: steps[1] (move) comes after steps[0] (register): " + STEP_ORDER_RULE
+    assert problems == [Problem("x", message), Problem("r", message)]
+
+
+def test_step_order_leaves_malformed_steps_to_the_schema():
+    steps = [SYSTEM_STEP_EXAMPLES["run"], "copy", {"action": "shred", "path": "a"}, {"from": "a", "to": "b"}]
+    problems = msgs(validate_entries(catalog(with_source(make("g"), steps=steps))))
+    assert problems and all(p.startswith("schema: sources/0/steps/") for p in problems)
+    problems = msgs(validate_entries(catalog(with_source(make("g"), steps="copy"))))
+    assert problems and all(p.startswith("schema: sources/0/steps") for p in problems)
+
+
 def test_extends_must_not_repeat():
     problems = validate_entries(catalog(make("g"), make("x", "extra", extends=["g", "g"])))
     assert len(problems) == 1

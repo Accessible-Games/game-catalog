@@ -149,11 +149,39 @@ def _check_launch(key: str, entry: dict, out: list[Problem]) -> None:
                  "it must end in .exe, .bat, .cmd, .html or .htm"))
 
 
+# The same two groups as Game Chooser's engine/steps.py (FILE_ACTIONS, SYSTEM_ACTIONS).
+FILE_STEPS = ("copy", "move", "delete")
+SYSTEM_STEPS = ("registry", "register", "run")
+
+
+def _check_step_order(key: str, where: str, source: dict, out: list[Problem]) -> None:
+    """File steps must be listed before system steps, because that is the order the app runs them in.
+
+    Game Chooser runs every copy, move and delete step first, in the order listed, and only then the registry,
+    register and run steps. A file step listed after a system step would therefore run before it, not after.
+    """
+    steps = source.get("steps")
+    if not isinstance(steps, list):
+        return  # missing, or already a schema problem
+    first_system: tuple[int, str] | None = None
+    for j, step in enumerate(steps):
+        action = step.get("action") if isinstance(step, dict) else None
+        if action in SYSTEM_STEPS:
+            if first_system is None:
+                first_system = (j, action)
+        elif action in FILE_STEPS and first_system is not None:
+            out.append(Problem(
+                key, f"{where}: steps[{j}] ({action}) comes after steps[{first_system[0]}] ({first_system[1]}): "
+                     "file steps (copy, move, delete) must come before system steps (registry, register, run), "
+                     "because the app runs every file step first"))
+
+
 def _check_sources(key: str, entry: dict, out: list[Problem]) -> None:
     for i, source in enumerate(entry.get("sources") or []):
         if not isinstance(source, dict):
             continue
         where = f"sources[{i}]"
+        _check_step_order(key, where, source, out)
         url = source.get("url")
         if isinstance(url, str):
             if not _is_web_url(url):
