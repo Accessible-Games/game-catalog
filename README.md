@@ -154,3 +154,16 @@ Install [uv](https://docs.astral.sh/uv/), then from the repository root:
 - `uv run catalog-prune --since REF` lists mirror files that entries referenced at commit `REF` and no longer reference. Add `--delete` to delete them.
 
 See `SETUP.md` for the one-time admin setup.
+
+## License
+
+The catalog data is licensed under the Creative Commons Attribution 4.0 International License (CC BY 4.0). The full text is in `LICENSE` and at https://creativecommons.org/licenses/by/4.0/.
+
+- Covered: the catalog data, meaning the entry files in `entries/` and the published index.
+- Not covered: the code of the tools in this repository, and the games themselves. The games, including the files on the mirror, belong to their developers.
+
+You may copy, share and adapt the catalog data, for any purpose, as long as you give credit. To give credit:
+
+- Name the source as "Game Catalog" and link to https://catalog.accessiblegames.net/.
+- Say that the data is licensed under CC BY 4.0, with a link to the license.
+- Say so if you changed the data.
