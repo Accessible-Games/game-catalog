@@ -27,5 +27,10 @@
       "sha256": "8be10bce605d1fd52247b8ac28bce2c498bedccb5eb6dd6b27c3f1f7a42b599d",
       "size": 13248373
     }
-  ]
+  ],
+  "launch": {
+    "windows": {
+      "path": "TOS-Demo.exe"
+    }
+  }
 }
