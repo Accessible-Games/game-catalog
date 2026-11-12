@@ -29,6 +29,17 @@
       },
       "sha256": "d349b1f171d2253c0b8981a8b9d4e5a929857eb7ef39a7ec96affa1b39835446",
       "size": 252879815
+    },
+    {
+      "platform": "windows",
+      "install": {
+        "method": "zip",
+        "extract_dir": "Three-D-Velocity-Binaries-8ca387d3a00bfaaf7283c499b398657a35cde8e5"
+      },
+      "label": "Mirror",
+      "url": "https://files.accessiblegames.net/files/d349b1f171d2253c0b8981a8b9d4e5a929857eb7ef39a7ec96affa1b39835446/Three-D-Velocity-Binaries-8ca387d3a00bfaaf7283c499b398657a35cde8e5.zip",
+      "sha256": "d349b1f171d2253c0b8981a8b9d4e5a929857eb7ef39a7ec96affa1b39835446",
+      "size": 252879815
     }
   ],
   "launch": {
