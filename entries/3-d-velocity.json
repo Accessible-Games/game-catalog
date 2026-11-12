@@ -5,8 +5,14 @@
   "developer": [
     "BPC Programs"
   ],
-  "description": "In January of 2017, TDV was released as open source freeware.\n\nAs a result, we host several different files, listed below.\n\nThis archive contains only the compiled version of the game, without source.\n\nTo play, execute tdv.exe.",
+  "description": "A fighter jet flight simulator for blind and visually impaired players. In January 2017 BPC Programs released it as open source freeware.",
+  "version": "2.44",
+  "unsupported": true,
   "links": [
+    {
+      "url": "https://github.com/munawarb/Three-D-Velocity",
+      "label": "Source code"
+    },
     {
       "url": "https://www.agarchive.net/pages/devs/bpc.html",
       "label": "Archived at agarchive"
@@ -14,15 +20,15 @@
   ],
   "sources": [
     {
+      "label": "Developer site",
+      "url": "https://github.com/munawarb/Three-D-Velocity-Binaries/archive/8ca387d3a00bfaaf7283c499b398657a35cde8e5.zip",
       "platform": "windows",
       "install": {
-        "method": "7z",
-        "extract_dir": "Three-D-Velocity-Binaries"
+        "method": "zip",
+        "extract_dir": "Three-D-Velocity-Binaries-8ca387d3a00bfaaf7283c499b398657a35cde8e5"
       },
-      "label": "Mirror",
-      "url": "https://files.accessiblegames.net/files/086509c8a914ae9b6d4d0904e08b1b34a61b239fa4bf2559b807707469f906db/tdv-compiled.7z",
-      "sha256": "086509c8a914ae9b6d4d0904e08b1b34a61b239fa4bf2559b807707469f906db",
-      "size": 200087033
+      "sha256": "d349b1f171d2253c0b8981a8b9d4e5a929857eb7ef39a7ec96affa1b39835446",
+      "size": 252879815
     }
   ],
   "launch": {
