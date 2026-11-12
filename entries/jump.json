@@ -23,5 +23,10 @@
       "sha256": "5014278056b9d79cd0fd00f17ab2129cd205667b9f9ceb13ed95ed57ac58c48d",
       "size": 546301
     }
-  ]
+  ],
+  "launch": {
+    "windows": {
+      "path": "jumpgame.hta"
+    }
+  }
 }

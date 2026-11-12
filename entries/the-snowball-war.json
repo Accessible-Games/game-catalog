@@ -27,5 +27,10 @@
       "sha256": "06d28ec5ec52da5d12bc9428741389484bd18462e4c06c86428aeeb0aa457303",
       "size": 3729255
     }
-  ]
+  ],
+  "launch": {
+    "windows": {
+      "path": "The snowball war.hta"
+    }
+  }
 }

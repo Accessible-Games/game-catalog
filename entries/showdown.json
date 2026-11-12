@@ -27,5 +27,10 @@
       "sha256": "3035920d6dd4a9851ca13cd76a590e1f979612e6990581941f631369162d77df",
       "size": 14950521
     }
-  ]
+  ],
+  "launch": {
+    "windows": {
+      "path": "showdown.hta"
+    }
+  }
 }

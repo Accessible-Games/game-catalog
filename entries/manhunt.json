@@ -27,5 +27,10 @@
       "sha256": "d1b3bbe04900e5f9befa654e762ccc487f89c472e10095f7b65680495d78a86b",
       "size": 1190029
     }
-  ]
+  ],
+  "launch": {
+    "windows": {
+      "path": "manhunt.hta"
+    }
+  }
 }

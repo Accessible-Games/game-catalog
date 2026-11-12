@@ -27,5 +27,10 @@
       "sha256": "ad76ed134593db1da13f26179a2f4179c0220be88b492f430daf2ec73d7ac446",
       "size": 8214735
     }
-  ]
+  ],
+  "launch": {
+    "windows": {
+      "path": "Space attack.hta"
+    }
+  }
 }

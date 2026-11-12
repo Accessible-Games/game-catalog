@@ -27,5 +27,10 @@
       "sha256": "a8e23538afc4be780ad7cc5f17bfae5c5d3efa4ae19e96098d61a72106defdca",
       "size": 6314446
     }
-  ]
+  ],
+  "launch": {
+    "windows": {
+      "path": "Snake.hta"
+    }
+  }
 }
