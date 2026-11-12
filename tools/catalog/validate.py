@@ -136,7 +136,7 @@ def _check_pricing(key: str, entry: dict, out: list[Problem]) -> None:
             out.append(Problem(key, f"pricing.{name}: URL must be http or https with a host ({value})"))
 
 
-WINDOWS_LAUNCH_SUFFIXES = (".exe", ".bat", ".cmd", ".html", ".htm")
+WINDOWS_LAUNCH_SUFFIXES = (".exe", ".bat", ".cmd", ".html", ".htm", ".hta")
 
 
 def _check_launch(key: str, entry: dict, out: list[Problem]) -> None:
@@ -146,7 +146,7 @@ def _check_launch(key: str, entry: dict, out: list[Problem]) -> None:
     if isinstance(path, str) and not path.lower().endswith(WINDOWS_LAUNCH_SUFFIXES):
         out.append(Problem(
             key, f"launch.windows.path {path!r} is not a file Game Chooser can start: "
-                 "it must end in .exe, .bat, .cmd, .html or .htm"))
+                 "it must end in .exe, .bat, .cmd, .html, .htm or .hta"))
 
 
 # The same two groups as Game Chooser's engine/steps.py (FILE_ACTIONS, SYSTEM_ACTIONS).

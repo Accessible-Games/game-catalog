@@ -497,13 +497,14 @@ def test_pricing_schema_errors_skip_rules_that_need_a_model():
         assert problems and all(m.startswith("schema: ") for m in problems), problems
 
 
-@pytest.mark.parametrize("path", ["index.html", "Start.HTM", "game.exe", "run.bat", "play.cmd", "bin/Game.EXE"])
+@pytest.mark.parametrize("path", ["index.html", "Start.HTM", "game.exe", "run.bat", "play.cmd", "bin/Game.EXE",
+                                  "game.hta", "Game.HTA", "sub/The snowball war.hta"])
 def test_windows_launch_path_with_allowed_suffix_is_valid(path):
     e = make("a", launch={"windows": {"path": path}})
     assert validate_entries(catalog(e)) == []
 
 
-@pytest.mark.parametrize("path", ["game.hta", "readme.txt", "game"])
+@pytest.mark.parametrize("path", ["game.hta.txt", "readme.txt", "game"])
 def test_windows_launch_path_with_other_suffix_is_a_problem(path):
     e = make("a", launch={"windows": {"path": path}})
     problems = msgs(validate_entries(catalog(e)))
