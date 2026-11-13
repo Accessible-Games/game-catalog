@@ -43,5 +43,10 @@
       "sha256": "2eb8c02e620fda936629c1b3309452fc1e1abc4250ef0af133bd111a7775d057",
       "size": 2081178
     }
-  ]
+  ],
+  "launch": {
+    "windows": {
+      "path": "MineSweeper.exe"
+    }
+  }
 }

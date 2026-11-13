@@ -43,5 +43,10 @@
       "sha256": "da5751a9d2472519812c1b251c3c47836d06225d1e1e48c92845c82f43594054",
       "size": 51415859
     }
-  ]
+  ],
+  "launch": {
+    "windows": {
+      "path": "world of war.exe"
+    }
+  }
 }

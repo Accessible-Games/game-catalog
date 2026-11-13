@@ -25,5 +25,10 @@
       "sha256": "299535407faff67eb197d1306b542179d2a2ced8670239a0e39ff255ebb245d1",
       "size": 25921511
     }
-  ]
+  ],
+  "launch": {
+    "windows": {
+      "path": "‚a‚Œ‚‚‚„‚™@‚r‚ƒ‚ˆ‚‚‚Œ/bloody school.exe"
+    }
+  }
 }

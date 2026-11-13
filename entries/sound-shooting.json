@@ -43,5 +43,10 @@
       "sha256": "bd980dbf67ec555c2775c1e3090eacc3d4519d232032f2a30f5d4d99bc92c9af",
       "size": 2707851
     }
-  ]
+  ],
+  "launch": {
+    "windows": {
+      "path": "missile.exe"
+    }
+  }
 }

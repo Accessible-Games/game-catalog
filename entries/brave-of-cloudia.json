@@ -44,5 +44,10 @@
       "sha256": "228bcaa8ed70f80d37370288183d17cbaa8033e54585e051a1a8dd6d81f35351",
       "size": 46592501
     }
-  ]
+  ],
+  "launch": {
+    "windows": {
+      "path": "Brave of cloudia(’†ŠÔƒÀ”Å)/Brave of cloudia.exe"
+    }
+  }
 }

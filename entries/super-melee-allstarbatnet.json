@@ -46,5 +46,10 @@
       "sha256": "5d0a4274e321d39e37940f5499ef610f66cf695c450f66afcfd287bbee2c95f6",
       "size": 63674683
     }
-  ]
+  ],
+  "launch": {
+    "windows": {
+      "path": "Œƒ—íIAllStarBatnet/Œƒ—íI‚`‚Œ‚Œ‚r‚”‚‚’‚a‚‚”‚Ž‚…‚”.exe"
+    }
+  }
 }

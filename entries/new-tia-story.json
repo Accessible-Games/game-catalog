@@ -44,5 +44,10 @@
       "sha256": "c99b16c5571a15f637d95533b8c8d5f147e20e06e01fba368da09805176430df",
       "size": 9682489
     }
-  ]
+  ],
+  "launch": {
+    "windows": {
+      "path": "V Tia Story/PlayNTS.exe"
+    }
+  }
 }

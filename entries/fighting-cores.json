@@ -46,5 +46,10 @@
       "sha256": "5f0cfc9fcf7e289fb6b6a410319b68c879cebc99cf7cc11c34dcbec664484755",
       "size": 44242848
     }
-  ]
+  ],
+  "launch": {
+    "windows": {
+      "path": " ‚e‚‰‚‡‚ˆ‚”‚‰‚Ž‚‡‚b‚‚’‚…‚“.exe"
+    }
+  }
 }

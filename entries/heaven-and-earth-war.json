@@ -44,5 +44,10 @@
       "sha256": "b3bf7aefd2ea437e340ce55325f4f9da45287c25aed685193489281ca0ad3ed8",
       "size": 9967892
     }
-  ]
+  ],
+  "launch": {
+    "windows": {
+      "path": "V “V’nãí/Play “V’nãí.exe"
+    }
+  }
 }

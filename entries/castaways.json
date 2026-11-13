@@ -47,6 +47,11 @@
       "size": 17676633
     }
   ],
+  "launch": {
+    "windows": {
+      "path": "Castaways.exe"
+    }
+  },
   "dependencies": [
     "microsoft-internet-transfer-control",
     "directx7-for-visual-basic",

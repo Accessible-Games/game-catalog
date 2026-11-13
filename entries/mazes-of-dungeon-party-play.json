@@ -46,5 +46,10 @@
       "sha256": "b146447a342be737792e987a3c077a89c3ac7b738e973e454862012e6ec98809",
       "size": 4844533
     }
-  ]
+  ],
+  "launch": {
+    "windows": {
+      "path": "Mazes of Dungeon PT.exe"
+    }
+  }
 }

@@ -44,5 +44,10 @@
       "sha256": "724ae330075d3c3c7e2d44722423c16f837f71cc6f65ccb51ebad38a2022afd3",
       "size": 1963075
     }
-  ]
+  ],
+  "launch": {
+    "windows": {
+      "path": "Dungeon Quest(VTXTGMˆÙF”Å)/txtgplay.exe"
+    }
+  }
 }

@@ -44,6 +44,11 @@
       "size": 2187339
     }
   ],
+  "launch": {
+    "windows": {
+      "path": "U-Mart.exe"
+    }
+  },
   "dependencies": [
     "directx8-for-visual-basic"
   ]

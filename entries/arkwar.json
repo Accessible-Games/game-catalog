@@ -24,5 +24,10 @@
       "sha256": "c6fcbefbf3a62777b91f9bd22d794ff18be34664958ca9050c8efbd46b2e8597",
       "size": 39346850
     }
-  ]
+  ],
+  "launch": {
+    "windows": {
+      "path": "ArkWar`íŠÍƒQ[ƒ€`/ play.exe"
+    }
+  }
 }

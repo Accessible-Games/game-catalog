@@ -61,5 +61,10 @@
       "sha256": "9dbdea392659af1e89dee452fa1c2d1daa30e8465794aa629a443a7ebf302e6b",
       "size": 466402312
     }
-  ]
+  ],
+  "launch": {
+    "windows": {
+      "path": "rpg.exe"
+    }
+  }
 }

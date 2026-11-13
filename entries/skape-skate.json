@@ -52,5 +52,10 @@
       "sha256": "2475aab12ce8db43d8d33002d7c677f407cca4b954368c0fb6b47c06c231f627",
       "size": 8892002
     }
-  ]
+  ],
+  "launch": {
+    "windows": {
+      "path": "scapeskate.exe"
+    }
+  }
 }
