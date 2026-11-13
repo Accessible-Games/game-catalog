@@ -16,16 +16,17 @@
     {
       "platform": "windows",
       "install": {
-        "method": "installer",
-        "installer": {
-          "type": "inno",
-          "mode": "extract"
-        }
+        "method": "zip"
       },
       "label": "Mirror",
-      "url": "https://files.accessiblegames.net/files/eeea6b8ecef58a6ad4aaa55ceba0832a72b335752d6bc472d998d2b986a8df5e/3D-Snake-Setup.exe",
-      "sha256": "eeea6b8ecef58a6ad4aaa55ceba0832a72b335752d6bc472d998d2b986a8df5e",
-      "size": 9103981
+      "url": "https://files.accessiblegames.net/files/f15bf3eea59522830a99f34399a6837aea54290ee331fa2c08ff062de0721a95/3-d_Snake_script_beside_hta.zip",
+      "sha256": "f15bf3eea59522830a99f34399a6837aea54290ee331fa2c08ff062de0721a95",
+      "size": 8574174
     }
-  ]
+  ],
+  "launch": {
+    "windows": {
+      "path": "3dsnake.hta"
+    }
+  }
 }
