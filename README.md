@@ -106,7 +106,6 @@ Web sources (platform `web`) and sources whose install method is `url` are never
 ### Install fields
 
 - `method`: required. One of `zip`, `7z`, `installer`, `cab`, `tar` (a `.tar.gz`, `.tar.xz` or `.tar.bz2` file), `none` (a single executable, including a Linux AppImage), `url` (a web game).
-- `password`: optional password for an encrypted archive, or null.
 - `extract_dir`: optional folder inside the archive to use as the root.
 - `installer`: used when `method` is `installer`.
 

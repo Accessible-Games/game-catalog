@@ -405,12 +405,6 @@
             "url"
           ]
         },
-        "password": {
-          "type": [
-            "string",
-            "null"
-          ]
-        },
         "extract_dir": {
           "type": "string"
         },

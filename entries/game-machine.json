@@ -17,13 +17,12 @@
       "platform": "windows",
       "install": {
         "method": "7z",
-        "password": "Game Machine",
         "extract_dir": "game machine"
       },
       "label": "Mirror",
-      "url": "https://files.accessiblegames.net/files/803d67f0250ff5015b492539120f80ce2d969315863abe5a99c944cfbbd7471b/game_machine.7z",
-      "sha256": "803d67f0250ff5015b492539120f80ce2d969315863abe5a99c944cfbbd7471b",
-      "size": 3197057
+      "url": "https://files.accessiblegames.net/files/d04f39c9e9d2771e531d0d5cbcc5eb4e051b655f23b611df4ac33fd1b2531ab6/game_machine.7z",
+      "sha256": "d04f39c9e9d2771e531d0d5cbcc5eb4e051b655f23b611df4ac33fd1b2531ab6",
+      "size": 3196824
     }
   ],
   "launch": {
