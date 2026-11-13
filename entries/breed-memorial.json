@@ -14,26 +14,6 @@
   ],
   "sources": [
     {
-      "label": "Developer site",
-      "url": "https://hirotaka2014.sakura.ne.jp/mh0406/game/mb104.exe",
-      "platform": "windows",
-      "install": {
-        "method": "7z"
-      },
-      "sha256": "9f332db2f5a3c379b971c227162b17015e5cf22bbcba106e4418bb63cb21175e",
-      "size": 1535184
-    },
-    {
-      "platform": "windows",
-      "install": {
-        "method": "7z"
-      },
-      "label": "Mirror",
-      "url": "https://files.accessiblegames.net/files/9f332db2f5a3c379b971c227162b17015e5cf22bbcba106e4418bb63cb21175e/mb104.exe",
-      "sha256": "9f332db2f5a3c379b971c227162b17015e5cf22bbcba106e4418bb63cb21175e",
-      "size": 1535184
-    },
-    {
       "platform": "windows",
       "install": {
         "method": "installer",
