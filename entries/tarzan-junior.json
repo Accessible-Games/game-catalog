@@ -16,16 +16,17 @@
     {
       "platform": "windows",
       "install": {
-        "method": "installer",
-        "installer": {
-          "type": "inno",
-          "mode": "extract"
-        }
+        "method": "zip"
       },
       "label": "Mirror",
-      "url": "https://files.accessiblegames.net/files/f8533b469872e8de21a9ab9aa65fdc32848fb643fa2fafa7ba4e5f777e4ea5da/Tarzan-Junior-Setup.exe",
-      "sha256": "f8533b469872e8de21a9ab9aa65fdc32848fb643fa2fafa7ba4e5f777e4ea5da",
-      "size": 114615482
+      "url": "https://files.accessiblegames.net/files/d2b8a766d5a9171c5ba71f8c9928ab33255ffb7bd2b0af8fce6c86a9d55d242b/Tarzan_Junior_script_beside_hta.zip",
+      "sha256": "d2b8a766d5a9171c5ba71f8c9928ab33255ffb7bd2b0af8fce6c86a9d55d242b",
+      "size": 112985857
     }
-  ]
+  ],
+  "launch": {
+    "windows": {
+      "path": "Tarzan junior.hta"
+    }
+  }
 }
