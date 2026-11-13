@@ -1,6 +1,6 @@
 {
   "id": "tactical-battle-maps",
-  "kind": "game",
+  "kind": "extra",
   "title": "Tactical Battle Maps",
   "developer": [
     "Ian Reed"
@@ -16,156 +16,243 @@
     {
       "platform": "windows",
       "install": {
-        "method": "7z",
-        "extract_dir": "age of warlords(Allan Thompson)"
+        "method": "7z"
       },
       "label": "Mirror",
       "url": "https://files.accessiblegames.net/files/440737a73ad6edeebc792a14c6124c1c6d71ac471778618115c366d919934621/age_of_warlords_Allan_Thompson.7z",
       "sha256": "440737a73ad6edeebc792a14c6124c1c6d71ac471778618115c366d919934621",
-      "size": 68290766
+      "size": 68290766,
+      "steps": [
+        {
+          "action": "move",
+          "from": "age of warlords(Allan Thompson)",
+          "to": "Data for TB/Map Packs/age of warlords(Allan Thompson)"
+        }
+      ]
     },
     {
       "platform": "windows",
       "install": {
-        "method": "7z",
-        "extract_dir": "Command and Conquer Red Alert"
+        "method": "7z"
       },
       "label": "Mirror",
       "url": "https://files.accessiblegames.net/files/99569d096f755301b552f284769b25f5817e42d423b3ae614e01b85e547350b2/Command_and_Conquer_Red_Alert.7z",
       "sha256": "99569d096f755301b552f284769b25f5817e42d423b3ae614e01b85e547350b2",
-      "size": 26566448
+      "size": 26566448,
+      "steps": [
+        {
+          "action": "move",
+          "from": "Command and Conquer Red Alert",
+          "to": "Data for TB/Map Packs/Command and Conquer Red Alert"
+        }
+      ]
     },
     {
       "platform": "windows",
       "install": {
-        "method": "7z",
-        "extract_dir": "Conquering Redwall Abbey(gameMadnessInteractive)"
+        "method": "7z"
       },
       "label": "Mirror",
       "url": "https://files.accessiblegames.net/files/df0c8b12bb63e9e9b57e3c39ff929f0f28da4ece849a17542f455919d0ce8886/Conquering_Redwall_Abbey_gameMadnessInteractive.7z",
       "sha256": "df0c8b12bb63e9e9b57e3c39ff929f0f28da4ece849a17542f455919d0ce8886",
-      "size": 10367917
+      "size": 10367917,
+      "steps": [
+        {
+          "action": "move",
+          "from": "Conquering Redwall Abbey(gameMadnessInteractive)",
+          "to": "Data for TB/Map Packs/Conquering Redwall Abbey(gameMadnessInteractive)"
+        }
+      ]
     },
     {
       "platform": "windows",
       "install": {
-        "method": "7z",
-        "extract_dir": "dungeon(Allan Thompson)"
+        "method": "7z"
       },
       "label": "Mirror",
       "url": "https://files.accessiblegames.net/files/a04fe31e7d617c3c093a547ff3463b3b5809e8f0bb0a2db3a8b63e19ed2a8cf4/dungeon_Allan_Thompson.7z",
       "sha256": "a04fe31e7d617c3c093a547ff3463b3b5809e8f0bb0a2db3a8b63e19ed2a8cf4",
-      "size": 25823950
+      "size": 25823950,
+      "steps": [
+        {
+          "action": "move",
+          "from": "dungeon(Allan Thompson)",
+          "to": "Data for TB/Map Packs/dungeon(Allan Thompson)"
+        }
+      ]
     },
     {
       "platform": "windows",
       "install": {
-        "method": "7z",
-        "extract_dir": "Getting started maps"
+        "method": "7z"
       },
       "label": "Mirror",
       "url": "https://files.accessiblegames.net/files/692cde82960c5d9c5027eb19a995aba40dc7e8894d38f002714ff06db2358950/Getting_started_maps.7z",
       "sha256": "692cde82960c5d9c5027eb19a995aba40dc7e8894d38f002714ff06db2358950",
-      "size": 26542729
+      "size": 26542729,
+      "steps": [
+        {
+          "action": "move",
+          "from": "Getting started maps",
+          "to": "Data for TB/Map Packs/Getting started maps"
+        }
+      ]
     },
     {
       "platform": "windows",
       "install": {
-        "method": "7z",
-        "extract_dir": "Items and Equipment"
+        "method": "7z"
       },
       "label": "Mirror",
       "url": "https://files.accessiblegames.net/files/838c1626100dcddf46157163e53bee16428ef02c5276364d611ca88b4c8dbaa7/Items_and_Equipment.7z",
       "sha256": "838c1626100dcddf46157163e53bee16428ef02c5276364d611ca88b4c8dbaa7",
-      "size": 6215914
+      "size": 6215914,
+      "steps": [
+        {
+          "action": "move",
+          "from": "Items and Equipment",
+          "to": "Data for TB/Map Packs/Items and Equipment"
+        }
+      ]
     },
     {
       "platform": "windows",
       "install": {
-        "method": "7z",
-        "extract_dir": "Kingdom at War"
+        "method": "7z"
       },
       "label": "Mirror",
       "url": "https://files.accessiblegames.net/files/955ecb8e79fb832f781bc3a329cc4b3cbfa7cdd784e95f99012fe4913f0ec299/Kingdom_at_War_Austen_Perry.7z",
       "sha256": "955ecb8e79fb832f781bc3a329cc4b3cbfa7cdd784e95f99012fe4913f0ec299",
-      "size": 37520932
+      "size": 37520932,
+      "steps": [
+        {
+          "action": "move",
+          "from": "Kingdom at War",
+          "to": "Data for TB/Map Packs/Kingdom at War"
+        }
+      ]
     },
     {
       "platform": "windows",
       "install": {
-        "method": "7z",
-        "extract_dir": "Kobold Dungeon (Allan Thompson)"
+        "method": "7z"
       },
       "label": "Mirror",
       "url": "https://files.accessiblegames.net/files/741e3b13200a4e5975494fbdf0589cc549cc610481476d8faff3b67d0eba3ec4/Kobold_Dungeon_Allan_Thompson.7z",
       "sha256": "741e3b13200a4e5975494fbdf0589cc549cc610481476d8faff3b67d0eba3ec4",
-      "size": 9143405
+      "size": 9143405,
+      "steps": [
+        {
+          "action": "move",
+          "from": "Kobold Dungeon (Allan Thompson)",
+          "to": "Data for TB/Map Packs/Kobold Dungeon (Allan Thompson)"
+        }
+      ]
     },
     {
       "platform": "windows",
       "install": {
-        "method": "7z",
-        "extract_dir": "rampage 2.0(Allan Thompson)"
+        "method": "7z"
       },
       "label": "Mirror",
       "url": "https://files.accessiblegames.net/files/4102982b117a37caedba8a76352ee624a5ed1bf62d35e0ae0535604f0340ba46/rampage_2.0_Allan_Thompson.7z",
       "sha256": "4102982b117a37caedba8a76352ee624a5ed1bf62d35e0ae0535604f0340ba46",
-      "size": 68579693
+      "size": 68579693,
+      "steps": [
+        {
+          "action": "move",
+          "from": "rampage 2.0(Allan Thompson)",
+          "to": "Data for TB/Map Packs/rampage 2.0(Allan Thompson)"
+        }
+      ]
     },
     {
       "platform": "windows",
       "install": {
-        "method": "7z",
-        "extract_dir": "star wars the clone wars between shadows and darkness(Allan Thompson)"
+        "method": "7z"
       },
       "label": "Mirror",
       "url": "https://files.accessiblegames.net/files/7819fe2f16c6ded0bd2ef2b5b7bb4d7002f141cb860ab1a725218b148156a10b/star_wars_the_clone_wars_between_shadows_and_darkness_Allan_Thompson.7z",
       "sha256": "7819fe2f16c6ded0bd2ef2b5b7bb4d7002f141cb860ab1a725218b148156a10b",
-      "size": 48445494
+      "size": 48445494,
+      "steps": [
+        {
+          "action": "move",
+          "from": "star wars the clone wars between shadows and darkness(Allan Thompson)",
+          "to": "Data for TB/Map Packs/star wars the clone wars between shadows and darkness(Allan Thompson)"
+        }
+      ]
     },
     {
       "platform": "windows",
       "install": {
-        "method": "7z",
-        "extract_dir": "starship battles basic(Allan Thompson)"
+        "method": "7z"
       },
       "label": "Mirror",
       "url": "https://files.accessiblegames.net/files/6ded3c76ace5da0406995618838b1c91479db2aa47da668c4143f4f68ac94e33/starship_battles_basic_Allan_Thompson.7z",
       "sha256": "6ded3c76ace5da0406995618838b1c91479db2aa47da668c4143f4f68ac94e33",
-      "size": 83567336
+      "size": 83567336,
+      "steps": [
+        {
+          "action": "move",
+          "from": "starship battles basic(Allan Thompson)",
+          "to": "Data for TB/Map Packs/starship battles basic(Allan Thompson)"
+        }
+      ]
     },
     {
       "platform": "windows",
       "install": {
-        "method": "7z",
-        "extract_dir": "tomb robber(gameMadnessInteractive)"
+        "method": "7z"
       },
       "label": "Mirror",
       "url": "https://files.accessiblegames.net/files/438e62ddf334b2cde7206b152c151f1ff9cceb253f4264a7da444e3bb61f23b2/tomb_robber_gameMadnessInteractive.7z",
       "sha256": "438e62ddf334b2cde7206b152c151f1ff9cceb253f4264a7da444e3bb61f23b2",
-      "size": 22563291
+      "size": 22563291,
+      "steps": [
+        {
+          "action": "move",
+          "from": "tomb robber(gameMadnessInteractive)",
+          "to": "Data for TB/Map Packs/tomb robber(gameMadnessInteractive)"
+        }
+      ]
     },
     {
       "platform": "windows",
       "install": {
-        "method": "7z",
-        "extract_dir": "tower defense(gameMadnessInteractive)"
+        "method": "7z"
       },
       "label": "Mirror",
       "url": "https://files.accessiblegames.net/files/d83710872cbf18662575c174d9cbcb1c9128573811b74261d4fa3c75803ae492/tower_defense_gameMadnessInteractive.7z",
       "sha256": "d83710872cbf18662575c174d9cbcb1c9128573811b74261d4fa3c75803ae492",
-      "size": 34094673
+      "size": 34094673,
+      "steps": [
+        {
+          "action": "move",
+          "from": "tower defense(gameMadnessInteractive)",
+          "to": "Data for TB/Map Packs/tower defense(gameMadnessInteractive)"
+        }
+      ]
     },
     {
       "platform": "windows",
       "install": {
-        "method": "7z",
-        "extract_dir": "zombie house(Allan Thompson)"
+        "method": "7z"
       },
       "label": "Mirror",
       "url": "https://files.accessiblegames.net/files/240223ad5e217e5f8a7f3d95cc129aad7c7a9b673012a6a8af898fb85e6cb8e5/zombie_house_Allan_Thompson.7z",
       "sha256": "240223ad5e217e5f8a7f3d95cc129aad7c7a9b673012a6a8af898fb85e6cb8e5",
-      "size": 21991328
+      "size": 21991328,
+      "steps": [
+        {
+          "action": "move",
+          "from": "zombie house(Allan Thompson)",
+          "to": "Data for TB/Map Packs/zombie house(Allan Thompson)"
+        }
+      ]
     }
+  ],
+  "extends": [
+    "tactical-battle"
   ]
 }
