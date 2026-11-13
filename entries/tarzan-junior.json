@@ -16,12 +16,16 @@
     {
       "platform": "windows",
       "install": {
-        "method": "7z"
+        "method": "installer",
+        "installer": {
+          "type": "inno",
+          "mode": "extract"
+        }
       },
       "label": "Mirror",
-      "url": "https://files.accessiblegames.net/files/00c9b739268c8b9fd740020aa5ca5343cccb2d3e32f375ce4e6086a6ed853a34/tarzan_junior_with_patch.7z",
-      "sha256": "00c9b739268c8b9fd740020aa5ca5343cccb2d3e32f375ce4e6086a6ed853a34",
-      "size": 114325926
+      "url": "https://files.accessiblegames.net/files/f8533b469872e8de21a9ab9aa65fdc32848fb643fa2fafa7ba4e5f777e4ea5da/Tarzan-Junior-Setup.exe",
+      "sha256": "f8533b469872e8de21a9ab9aa65fdc32848fb643fa2fafa7ba4e5f777e4ea5da",
+      "size": 114615482
     }
   ]
 }
