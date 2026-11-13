@@ -28,5 +28,10 @@
       "sha256": "0db1117ff9f7c8eba353bf32e50984d079fa52519338cd4305ffc9025c371cdb",
       "size": 90473110
     }
-  ]
+  ],
+  "launch": {
+    "windows": {
+      "path": "ss.exe"
+    }
+  }
 }

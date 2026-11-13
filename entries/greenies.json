@@ -24,5 +24,10 @@
       "sha256": "a8262abfba60ec7198039cf879e2fde4a0dbcf202c8cea92e4ed2802e52995c7",
       "size": 940195
     }
-  ]
+  ],
+  "launch": {
+    "windows": {
+      "path": "greenies.exe"
+    }
+  }
 }

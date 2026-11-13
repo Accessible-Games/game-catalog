@@ -26,6 +26,11 @@
       "size": 33926492
     }
   ],
+  "launch": {
+    "windows": {
+      "path": "TheBlindEye.exe"
+    }
+  },
   "dependencies": [
     "directx8-for-visual-basic",
     "directx7-for-visual-basic"

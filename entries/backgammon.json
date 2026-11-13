@@ -64,5 +64,10 @@
       "sha256": "c72110dc46ad614b344e831ceb3e9da6381d25e8705d46769d6d64cba074d906",
       "size": 14566426
     }
-  ]
+  ],
+  "launch": {
+    "windows": {
+      "path": "Pontes Backgammon.exe"
+    }
+  }
 }

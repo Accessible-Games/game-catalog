@@ -72,6 +72,11 @@
       "size": 1693317
     }
   ],
+  "launch": {
+    "windows": {
+      "path": "chainlink.exe"
+    }
+  },
   "dependencies": [
     "microsoft-internet-transfer-control"
   ]

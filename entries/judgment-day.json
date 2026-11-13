@@ -29,6 +29,11 @@
       "size": 105919814
     }
   ],
+  "launch": {
+    "windows": {
+      "path": "judgmentday.exe"
+    }
+  },
   "dependencies": [
     "directx8-for-visual-basic",
     "microsoft-internet-transfer-control"

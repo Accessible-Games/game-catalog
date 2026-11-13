@@ -26,5 +26,10 @@
       "sha256": "3a5c94935e848d993afbcfb3adb4b7decc462503027150ec4d44c27140698030",
       "size": 5954289
     }
-  ]
+  ],
+  "launch": {
+    "windows": {
+      "path": "PontesPong.exe"
+    }
+  }
 }

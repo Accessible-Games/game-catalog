@@ -72,6 +72,11 @@
       "size": 2933481
     }
   ],
+  "launch": {
+    "windows": {
+      "path": "search.exe"
+    }
+  },
   "dependencies": [
     "microsoft-internet-transfer-control",
     "microsoft-common-dialog-control"

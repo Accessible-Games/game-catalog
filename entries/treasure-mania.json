@@ -29,6 +29,11 @@
       "size": 47346944
     }
   ],
+  "launch": {
+    "windows": {
+      "path": "TreasureMania1.exe"
+    }
+  },
   "dependencies": [
     "com-audio-dependency",
     "microsoft-internet-transfer-control",

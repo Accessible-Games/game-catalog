@@ -30,5 +30,10 @@
       "sha256": "d7b4800f7e0404a8dc6ef1dfa42d6e79e36734611b5872cb648cc0c0417c52b8",
       "size": 32191164
     }
-  ]
+  ],
+  "launch": {
+    "windows": {
+      "path": "xhour.exe"
+    }
+  }
 }

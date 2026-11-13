@@ -56,6 +56,11 @@
       "size": 6212993
     }
   ],
+  "launch": {
+    "windows": {
+      "path": "GMACards.exe"
+    }
+  },
   "dependencies": [
     "directx7-for-visual-basic"
   ]

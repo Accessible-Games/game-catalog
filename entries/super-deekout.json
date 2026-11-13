@@ -72,6 +72,11 @@
       "size": 40940397
     }
   ],
+  "launch": {
+    "windows": {
+      "path": "super.exe"
+    }
+  },
   "dependencies": [
     "directx8-for-visual-basic",
     "microsoft-internet-transfer-control"

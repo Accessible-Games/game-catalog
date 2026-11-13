@@ -26,6 +26,11 @@
       "size": 1288722
     }
   ],
+  "launch": {
+    "windows": {
+      "path": "AudioWars.exe"
+    }
+  },
   "dependencies": [
     "microsoft-common-dialog-control"
   ]

@@ -29,6 +29,11 @@
       "size": 42911676
     }
   ],
+  "launch": {
+    "windows": {
+      "path": "lightCars.exe"
+    }
+  },
   "dependencies": [
     "com-audio-dependency",
     "microsoft-internet-transfer-control",
