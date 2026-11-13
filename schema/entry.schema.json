@@ -114,9 +114,6 @@
         "unsupported": {
           "const": true
         },
-        "warning": {
-          "type": "string"
-        },
         "links": {
           "type": "array",
           "items": {

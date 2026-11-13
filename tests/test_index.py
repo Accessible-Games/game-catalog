@@ -168,7 +168,7 @@ def test_v2_fields_copied_as_written():
     entry = make("a", genres=["Card", "Casino"], tags=["Multiplayer"], languages=["en", "es"],
                  pricing={"model": "one-time", "price": 5, "currency": "USD", "url": "https://example.com/buy"},
                  links=[{"url": "https://example.com/", "label": "Homepage"}], unsupported=True,
-                 self_updating=True, contains=["A", "B"], warning="Antivirus programs may flag it.")
+                 self_updating=True, contains=["A", "B"])
     entry["sources"][0].update(arch="x64", first_run_download_size=1024)
     index = build_index(catalog(entry), NOW)
     _index_validator().validate(index)

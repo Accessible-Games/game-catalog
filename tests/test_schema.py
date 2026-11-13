@@ -96,9 +96,9 @@ def test_languages():
             validate(make(languages=bad))
 
 
-def test_contains_and_warning_are_text():
-    validate(make(contains=["Game One", "Game Two"], warning="Some antivirus programs flag the installer."))
-    for bad in ({"contains": "Game One"}, {"contains": [1]}, {"warning": ["x"]}):
+def test_contains_is_text():
+    validate(make(contains=["Game One", "Game Two"]))
+    for bad in ({"contains": "Game One"}, {"contains": [1]}):
         with pytest.raises(jsonschema.ValidationError):
             validate(make(**bad))
 

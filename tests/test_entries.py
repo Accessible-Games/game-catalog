@@ -47,7 +47,7 @@ def test_load_entries_bad_json(tmp_path):
 def test_key_order_follows_schema_v2():
     assert ENTRY_KEY_ORDER == (
         "id", "kind", "title", "developer", "genres", "year", "description", "version",
-        "self_updating", "pricing", "tags", "languages", "contains", "unsupported", "warning",
+        "self_updating", "pricing", "tags", "languages", "contains", "unsupported",
         "links", "sources", "persist", "launch", "dependencies", "extends", "required",
         "detect", "checkver",
     )
@@ -56,6 +56,6 @@ def test_key_order_follows_schema_v2():
 
 def test_write_entry_places_new_fields(tmp_path):
     entry = {"sources": [], "links": [], "pricing": {"model": "free"}, "tags": ["Idle"],
-             "title": "T", "kind": "game", "id": "x", "self_updating": True, "warning": "W."}
+             "title": "T", "kind": "game", "id": "x", "self_updating": True}
     keys = list(json.loads(write_entry(tmp_path, entry).read_text(encoding="utf-8")))
-    assert keys == ["id", "kind", "title", "self_updating", "pricing", "tags", "warning", "links", "sources"]
+    assert keys == ["id", "kind", "title", "self_updating", "pricing", "tags", "links", "sources"]
