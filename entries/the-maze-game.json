@@ -27,5 +27,10 @@
       "sha256": "9ad25fe2d1199db4fb94376540d23c72f470339f4837453768b6039508e503dc",
       "size": 1713934
     }
-  ]
+  ],
+  "launch": {
+    "windows": {
+      "path": "MazeGame.exe"
+    }
+  }
 }

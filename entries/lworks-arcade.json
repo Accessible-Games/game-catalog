@@ -32,6 +32,11 @@
       "size": 742218
     }
   ],
+  "launch": {
+    "windows": {
+      "path": "lac.exe"
+    }
+  },
   "dependencies": [
     "directx8-for-visual-basic",
     "microsoft-rich-textbox-control"

@@ -38,5 +38,10 @@
       "sha256": "ef23b2eee9523152a539ed4a4c851c182b7a79175458b80c558c2052639115cd",
       "size": 148403905
     }
-  ]
+  ],
+  "launch": {
+    "windows": {
+      "path": "OperationBlackSquare.exe"
+    }
+  }
 }

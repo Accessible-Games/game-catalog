@@ -47,5 +47,10 @@
       "sha256": "1315e98ec1bb730069e6eb6a796b4bf0d921c190afd0036bd4acb9b54d3b81e4",
       "size": 116570228
     }
-  ]
+  ],
+  "launch": {
+    "windows": {
+      "path": "gamedata/breed memorial.exe"
+    }
+  }
 }

@@ -30,5 +30,10 @@
       "sha256": "bfcd7f9fc9975575f81340b1680aa3e5b6448df673f5c3bfb8fc6f7f7a810b86",
       "size": 16571038
     }
-  ]
+  ],
+  "launch": {
+    "windows": {
+      "path": "supertennis.exe"
+    }
+  }
 }

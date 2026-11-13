@@ -29,6 +29,11 @@
       "size": 61052967
     }
   ],
+  "launch": {
+    "windows": {
+      "path": "theHorseRacingGame.exe"
+    }
+  },
   "dependencies": [
     "com-audio-dependency"
   ]

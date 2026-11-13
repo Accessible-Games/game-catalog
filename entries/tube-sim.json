@@ -45,5 +45,10 @@
       "sha256": "dcdfddbfeb61ccbfc01e5535ea4076cafd005cc0815fd959b525bd5c44a13ef5",
       "size": 132397522
     }
-  ]
+  ],
+  "launch": {
+    "windows": {
+      "path": "tsMain.exe"
+    }
+  }
 }

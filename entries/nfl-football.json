@@ -25,6 +25,11 @@
       "size": 2788080
     }
   ],
+  "launch": {
+    "windows": {
+      "path": "football.exe"
+    }
+  },
   "dependencies": [
     "directx8-for-visual-basic"
   ]

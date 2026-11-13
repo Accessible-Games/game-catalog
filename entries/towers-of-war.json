@@ -23,6 +23,11 @@
       "size": 15044718
     }
   ],
+  "launch": {
+    "windows": {
+      "path": "TowersOfWar.exe"
+    }
+  },
   "dependencies": [
     "directx8-for-visual-basic",
     "microsoft-internet-transfer-control",
