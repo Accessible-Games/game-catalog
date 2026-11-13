@@ -37,12 +37,12 @@
       "platform": "windows",
       "install": {
         "method": "7z",
-        "extract_dir": "ŠÈ’P‚Å‚È‚¢–À˜HƒQ[ƒ€"
+        "extract_dir": "ŠÈ’PA–À˜HƒQ[ƒ€"
       },
       "label": "Mirror",
-      "url": "https://files.accessiblegames.net/files/eb67acd2d99029b5697df5b29d1a9ade4314f695426fcd9219f82359f697602f/maze.7z",
-      "sha256": "eb67acd2d99029b5697df5b29d1a9ade4314f695426fcd9219f82359f697602f",
-      "size": 1037426
+      "url": "https://files.accessiblegames.net/files/a735cc204859538f26599ffea4cc2ae7a1e8315a24f481c058cb48d4f6cdb5e6/x_maze.7z",
+      "sha256": "a735cc204859538f26599ffea4cc2ae7a1e8315a24f481c058cb48d4f6cdb5e6",
+      "size": 1055133
     }
   ],
   "launch": {
