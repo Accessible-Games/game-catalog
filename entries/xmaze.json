@@ -36,8 +36,7 @@
     {
       "platform": "windows",
       "install": {
-        "method": "7z",
-        "extract_dir": "ŠÈ’P‚Å‚È‚¢–À˜HƒQ[ƒ€"
+        "method": "7z"
       },
       "label": "Mirror",
       "url": "https://files.accessiblegames.net/files/eb67acd2d99029b5697df5b29d1a9ade4314f695426fcd9219f82359f697602f/maze.7z",

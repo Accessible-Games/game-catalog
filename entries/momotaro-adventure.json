@@ -36,8 +36,7 @@
     {
       "platform": "windows",
       "install": {
-        "method": "7z",
-        "extract_dir": "“‘¾˜Y–`Œ¯‹L"
+        "method": "7z"
       },
       "label": "Mirror",
       "url": "https://files.accessiblegames.net/files/92991472b4d7a3538988cb648346596effe231befad3153972ff9c9b1dc74518/momotaro_adventure.7z",
