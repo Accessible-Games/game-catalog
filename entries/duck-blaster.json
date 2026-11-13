@@ -16,16 +16,17 @@
     {
       "platform": "windows",
       "install": {
-        "method": "installer",
-        "installer": {
-          "type": "inno",
-          "mode": "extract"
-        }
+        "method": "zip"
       },
       "label": "Mirror",
-      "url": "https://files.accessiblegames.net/files/0c5811a27979dcb45a1a2b9e65511b628f0ed7164685b38e6e48a1b22fe1d7f5/duck_blaster_setup.exe",
-      "sha256": "0c5811a27979dcb45a1a2b9e65511b628f0ed7164685b38e6e48a1b22fe1d7f5",
-      "size": 12322836
+      "url": "https://files.accessiblegames.net/files/c68252106d0b597f732588e7605111861e2dc43055604ec786f83a0387fd77b4/Duck_Blaster_script_beside_hta.zip",
+      "sha256": "c68252106d0b597f732588e7605111861e2dc43055604ec786f83a0387fd77b4",
+      "size": 11679072
     }
-  ]
+  ],
+  "launch": {
+    "windows": {
+      "path": "duckblaster.hta"
+    }
+  }
 }
