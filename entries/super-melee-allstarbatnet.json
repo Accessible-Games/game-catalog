@@ -38,8 +38,7 @@
     {
       "platform": "windows",
       "install": {
-        "method": "7z",
-        "extract_dir": "Œƒ—íIAllStarBatnet"
+        "method": "7z"
       },
       "label": "Mirror",
       "url": "https://files.accessiblegames.net/files/5d0a4274e321d39e37940f5499ef610f66cf695c450f66afcfd287bbee2c95f6/super_melee.7z",

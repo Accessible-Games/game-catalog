@@ -36,8 +36,7 @@
     {
       "platform": "windows",
       "install": {
-        "method": "7z",
-        "extract_dir": "Dungeon Quest(VTXTGMˆÙF”Å)"
+        "method": "7z"
       },
       "label": "Mirror",
       "url": "https://files.accessiblegames.net/files/724ae330075d3c3c7e2d44722423c16f837f71cc6f65ccb51ebad38a2022afd3/dungeon_quest.7z",

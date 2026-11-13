@@ -36,8 +36,7 @@
     {
       "platform": "windows",
       "install": {
-        "method": "7z",
-        "extract_dir": "V “V’nãí"
+        "method": "7z"
       },
       "label": "Mirror",
       "url": "https://files.accessiblegames.net/files/b3bf7aefd2ea437e340ce55325f4f9da45287c25aed685193489281ca0ad3ed8/heaven_and_earth_war.7z",

@@ -36,8 +36,7 @@
     {
       "platform": "windows",
       "install": {
-        "method": "7z",
-        "extract_dir": "Tia Story úA"
+        "method": "7z"
       },
       "label": "Mirror",
       "url": "https://files.accessiblegames.net/files/c47115f96d67bd58cfd1fa5115d9d3230d3217f27971ba3786e377abb56a9cbd/tia_story2.7z",

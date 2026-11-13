@@ -36,8 +36,7 @@
     {
       "platform": "windows",
       "install": {
-        "method": "7z",
-        "extract_dir": "Brave of cloudia(’†ŠÔƒÀ”Å)"
+        "method": "7z"
       },
       "label": "Mirror",
       "url": "https://files.accessiblegames.net/files/228bcaa8ed70f80d37370288183d17cbaa8033e54585e051a1a8dd6d81f35351/brave_of_cloudia.7z",

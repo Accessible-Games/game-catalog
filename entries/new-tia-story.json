@@ -36,8 +36,7 @@
     {
       "platform": "windows",
       "install": {
-        "method": "7z",
-        "extract_dir": "V Tia Story"
+        "method": "7z"
       },
       "label": "Mirror",
       "url": "https://files.accessiblegames.net/files/c99b16c5571a15f637d95533b8c8d5f147e20e06e01fba368da09805176430df/new_tia_story.7z",
