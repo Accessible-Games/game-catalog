@@ -1,0 +1,37 @@
+{
+  "id": "tactical-battle-tomb-robber",
+  "kind": "extra",
+  "title": "Tomb Robber by gameMadnessInteractive",
+  "developer": [
+    "Ian Reed"
+  ],
+  "description": "A map pack for Tactical Battle made by gameMadnessInteractive.",
+  "links": [
+    {
+      "url": "https://www.agarchive.net/pages/devs/IanReed.html",
+      "label": "Archived at agarchive"
+    }
+  ],
+  "sources": [
+    {
+      "platform": "windows",
+      "install": {
+        "method": "7z"
+      },
+      "label": "Mirror",
+      "url": "https://files.accessiblegames.net/files/438e62ddf334b2cde7206b152c151f1ff9cceb253f4264a7da444e3bb61f23b2/tomb_robber_gameMadnessInteractive.7z",
+      "sha256": "438e62ddf334b2cde7206b152c151f1ff9cceb253f4264a7da444e3bb61f23b2",
+      "size": 22563291,
+      "steps": [
+        {
+          "action": "move",
+          "from": "tomb robber(gameMadnessInteractive)",
+          "to": "Data for TB/Map Packs/tomb robber(gameMadnessInteractive)"
+        }
+      ]
+    }
+  ],
+  "extends": [
+    "tactical-battle"
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "id": "tactical-battle-items-and-equipment",
+  "kind": "extra",
+  "title": "Items and Equipment",
+  "developer": [
+    "Ian Reed"
+  ],
+  "description": "A map pack for Tactical Battle.",
+  "links": [
+    {
+      "url": "https://www.agarchive.net/pages/devs/IanReed.html",
+      "label": "Archived at agarchive"
+    }
+  ],
+  "sources": [
+    {
+      "platform": "windows",
+      "install": {
+        "method": "7z"
+      },
+      "label": "Mirror",
+      "url": "https://files.accessiblegames.net/files/838c1626100dcddf46157163e53bee16428ef02c5276364d611ca88b4c8dbaa7/Items_and_Equipment.7z",
+      "sha256": "838c1626100dcddf46157163e53bee16428ef02c5276364d611ca88b4c8dbaa7",
+      "size": 6215914,
+      "steps": [
+        {
+          "action": "move",
+          "from": "Items and Equipment",
+          "to": "Data for TB/Map Packs/Items and Equipment"
+        }
+      ]
+    }
+  ],
+  "extends": [
+    "tactical-battle"
+  ]
+}

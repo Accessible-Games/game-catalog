@@ -1,0 +1,37 @@
+{
+  "id": "tactical-battle-tower-defense",
+  "kind": "extra",
+  "title": "Tower Defense by gameMadnessInteractive",
+  "developer": [
+    "Ian Reed"
+  ],
+  "description": "A map pack for Tactical Battle made by gameMadnessInteractive.",
+  "links": [
+    {
+      "url": "https://www.agarchive.net/pages/devs/IanReed.html",
+      "label": "Archived at agarchive"
+    }
+  ],
+  "sources": [
+    {
+      "platform": "windows",
+      "install": {
+        "method": "7z"
+      },
+      "label": "Mirror",
+      "url": "https://files.accessiblegames.net/files/d83710872cbf18662575c174d9cbcb1c9128573811b74261d4fa3c75803ae492/tower_defense_gameMadnessInteractive.7z",
+      "sha256": "d83710872cbf18662575c174d9cbcb1c9128573811b74261d4fa3c75803ae492",
+      "size": 34094673,
+      "steps": [
+        {
+          "action": "move",
+          "from": "tower defense(gameMadnessInteractive)",
+          "to": "Data for TB/Map Packs/tower defense(gameMadnessInteractive)"
+        }
+      ]
+    }
+  ],
+  "extends": [
+    "tactical-battle"
+  ]
+}

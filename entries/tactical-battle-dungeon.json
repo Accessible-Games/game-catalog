@@ -1,0 +1,37 @@
+{
+  "id": "tactical-battle-dungeon",
+  "kind": "extra",
+  "title": "Dungeon by Allan Thompson",
+  "developer": [
+    "Ian Reed"
+  ],
+  "description": "A map pack for Tactical Battle made by Allan Thompson.",
+  "links": [
+    {
+      "url": "https://www.agarchive.net/pages/devs/IanReed.html",
+      "label": "Archived at agarchive"
+    }
+  ],
+  "sources": [
+    {
+      "platform": "windows",
+      "install": {
+        "method": "7z"
+      },
+      "label": "Mirror",
+      "url": "https://files.accessiblegames.net/files/a04fe31e7d617c3c093a547ff3463b3b5809e8f0bb0a2db3a8b63e19ed2a8cf4/dungeon_Allan_Thompson.7z",
+      "sha256": "a04fe31e7d617c3c093a547ff3463b3b5809e8f0bb0a2db3a8b63e19ed2a8cf4",
+      "size": 25823950,
+      "steps": [
+        {
+          "action": "move",
+          "from": "dungeon(Allan Thompson)",
+          "to": "Data for TB/Map Packs/dungeon(Allan Thompson)"
+        }
+      ]
+    }
+  ],
+  "extends": [
+    "tactical-battle"
+  ]
+}

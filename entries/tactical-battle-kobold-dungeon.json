@@ -1,0 +1,37 @@
+{
+  "id": "tactical-battle-kobold-dungeon",
+  "kind": "extra",
+  "title": "Kobold Dungeon by Allan Thompson",
+  "developer": [
+    "Ian Reed"
+  ],
+  "description": "A map pack for Tactical Battle made by Allan Thompson.",
+  "links": [
+    {
+      "url": "https://www.agarchive.net/pages/devs/IanReed.html",
+      "label": "Archived at agarchive"
+    }
+  ],
+  "sources": [
+    {
+      "platform": "windows",
+      "install": {
+        "method": "7z"
+      },
+      "label": "Mirror",
+      "url": "https://files.accessiblegames.net/files/741e3b13200a4e5975494fbdf0589cc549cc610481476d8faff3b67d0eba3ec4/Kobold_Dungeon_Allan_Thompson.7z",
+      "sha256": "741e3b13200a4e5975494fbdf0589cc549cc610481476d8faff3b67d0eba3ec4",
+      "size": 9143405,
+      "steps": [
+        {
+          "action": "move",
+          "from": "Kobold Dungeon (Allan Thompson)",
+          "to": "Data for TB/Map Packs/Kobold Dungeon (Allan Thompson)"
+        }
+      ]
+    }
+  ],
+  "extends": [
+    "tactical-battle"
+  ]
+}

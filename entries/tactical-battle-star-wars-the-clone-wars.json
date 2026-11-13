@@ -1,0 +1,37 @@
+{
+  "id": "tactical-battle-star-wars-the-clone-wars",
+  "kind": "extra",
+  "title": "Star Wars The Clone Wars: Between Shadows and Darkness by Allan Thompson",
+  "developer": [
+    "Ian Reed"
+  ],
+  "description": "A map pack for Tactical Battle made by Allan Thompson.",
+  "links": [
+    {
+      "url": "https://www.agarchive.net/pages/devs/IanReed.html",
+      "label": "Archived at agarchive"
+    }
+  ],
+  "sources": [
+    {
+      "platform": "windows",
+      "install": {
+        "method": "7z"
+      },
+      "label": "Mirror",
+      "url": "https://files.accessiblegames.net/files/7819fe2f16c6ded0bd2ef2b5b7bb4d7002f141cb860ab1a725218b148156a10b/star_wars_the_clone_wars_between_shadows_and_darkness_Allan_Thompson.7z",
+      "sha256": "7819fe2f16c6ded0bd2ef2b5b7bb4d7002f141cb860ab1a725218b148156a10b",
+      "size": 48445494,
+      "steps": [
+        {
+          "action": "move",
+          "from": "star wars the clone wars between shadows and darkness(Allan Thompson)",
+          "to": "Data for TB/Map Packs/star wars the clone wars between shadows and darkness(Allan Thompson)"
+        }
+      ]
+    }
+  ],
+  "extends": [
+    "tactical-battle"
+  ]
+}

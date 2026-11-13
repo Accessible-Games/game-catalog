@@ -1,0 +1,37 @@
+{
+  "id": "tactical-battle-conquering-redwall-abbey",
+  "kind": "extra",
+  "title": "Conquering Redwall Abbey by gameMadnessInteractive",
+  "developer": [
+    "Ian Reed"
+  ],
+  "description": "A map pack for Tactical Battle made by gameMadnessInteractive.",
+  "links": [
+    {
+      "url": "https://www.agarchive.net/pages/devs/IanReed.html",
+      "label": "Archived at agarchive"
+    }
+  ],
+  "sources": [
+    {
+      "platform": "windows",
+      "install": {
+        "method": "7z"
+      },
+      "label": "Mirror",
+      "url": "https://files.accessiblegames.net/files/df0c8b12bb63e9e9b57e3c39ff929f0f28da4ece849a17542f455919d0ce8886/Conquering_Redwall_Abbey_gameMadnessInteractive.7z",
+      "sha256": "df0c8b12bb63e9e9b57e3c39ff929f0f28da4ece849a17542f455919d0ce8886",
+      "size": 10367917,
+      "steps": [
+        {
+          "action": "move",
+          "from": "Conquering Redwall Abbey(gameMadnessInteractive)",
+          "to": "Data for TB/Map Packs/Conquering Redwall Abbey(gameMadnessInteractive)"
+        }
+      ]
+    }
+  ],
+  "extends": [
+    "tactical-battle"
+  ]
+}

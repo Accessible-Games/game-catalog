@@ -1,0 +1,37 @@
+{
+  "id": "tactical-battle-rampage",
+  "kind": "extra",
+  "title": "Rampage 2.0 by Allan Thompson",
+  "developer": [
+    "Ian Reed"
+  ],
+  "description": "A map pack for Tactical Battle made by Allan Thompson.",
+  "links": [
+    {
+      "url": "https://www.agarchive.net/pages/devs/IanReed.html",
+      "label": "Archived at agarchive"
+    }
+  ],
+  "sources": [
+    {
+      "platform": "windows",
+      "install": {
+        "method": "7z"
+      },
+      "label": "Mirror",
+      "url": "https://files.accessiblegames.net/files/4102982b117a37caedba8a76352ee624a5ed1bf62d35e0ae0535604f0340ba46/rampage_2.0_Allan_Thompson.7z",
+      "sha256": "4102982b117a37caedba8a76352ee624a5ed1bf62d35e0ae0535604f0340ba46",
+      "size": 68579693,
+      "steps": [
+        {
+          "action": "move",
+          "from": "rampage 2.0(Allan Thompson)",
+          "to": "Data for TB/Map Packs/rampage 2.0(Allan Thompson)"
+        }
+      ]
+    }
+  ],
+  "extends": [
+    "tactical-battle"
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "id": "tactical-battle-getting-started-maps",
+  "kind": "extra",
+  "title": "Getting Started maps",
+  "developer": [
+    "Ian Reed"
+  ],
+  "description": "A map pack for Tactical Battle. The game's user guide says to start with these maps if you are new to Tactical Battle.",
+  "links": [
+    {
+      "url": "https://www.agarchive.net/pages/devs/IanReed.html",
+      "label": "Archived at agarchive"
+    }
+  ],
+  "sources": [
+    {
+      "platform": "windows",
+      "install": {
+        "method": "7z"
+      },
+      "label": "Mirror",
+      "url": "https://files.accessiblegames.net/files/692cde82960c5d9c5027eb19a995aba40dc7e8894d38f002714ff06db2358950/Getting_started_maps.7z",
+      "sha256": "692cde82960c5d9c5027eb19a995aba40dc7e8894d38f002714ff06db2358950",
+      "size": 26542729,
+      "steps": [
+        {
+          "action": "move",
+          "from": "Getting started maps",
+          "to": "Data for TB/Map Packs/Getting started maps"
+        }
+      ]
+    }
+  ],
+  "extends": [
+    "tactical-battle"
+  ]
+}

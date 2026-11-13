@@ -1,0 +1,37 @@
+{
+  "id": "tactical-battle-zombie-house",
+  "kind": "extra",
+  "title": "Zombie House by Allan Thompson",
+  "developer": [
+    "Ian Reed"
+  ],
+  "description": "A map pack for Tactical Battle made by Allan Thompson.",
+  "links": [
+    {
+      "url": "https://www.agarchive.net/pages/devs/IanReed.html",
+      "label": "Archived at agarchive"
+    }
+  ],
+  "sources": [
+    {
+      "platform": "windows",
+      "install": {
+        "method": "7z"
+      },
+      "label": "Mirror",
+      "url": "https://files.accessiblegames.net/files/240223ad5e217e5f8a7f3d95cc129aad7c7a9b673012a6a8af898fb85e6cb8e5/zombie_house_Allan_Thompson.7z",
+      "sha256": "240223ad5e217e5f8a7f3d95cc129aad7c7a9b673012a6a8af898fb85e6cb8e5",
+      "size": 21991328,
+      "steps": [
+        {
+          "action": "move",
+          "from": "zombie house(Allan Thompson)",
+          "to": "Data for TB/Map Packs/zombie house(Allan Thompson)"
+        }
+      ]
+    }
+  ],
+  "extends": [
+    "tactical-battle"
+  ]
+}

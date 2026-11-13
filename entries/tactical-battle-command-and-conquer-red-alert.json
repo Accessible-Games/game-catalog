@@ -1,0 +1,37 @@
+{
+  "id": "tactical-battle-command-and-conquer-red-alert",
+  "kind": "extra",
+  "title": "Command and Conquer Red Alert",
+  "developer": [
+    "Ian Reed"
+  ],
+  "description": "A map pack for Tactical Battle.",
+  "links": [
+    {
+      "url": "https://www.agarchive.net/pages/devs/IanReed.html",
+      "label": "Archived at agarchive"
+    }
+  ],
+  "sources": [
+    {
+      "platform": "windows",
+      "install": {
+        "method": "7z"
+      },
+      "label": "Mirror",
+      "url": "https://files.accessiblegames.net/files/99569d096f755301b552f284769b25f5817e42d423b3ae614e01b85e547350b2/Command_and_Conquer_Red_Alert.7z",
+      "sha256": "99569d096f755301b552f284769b25f5817e42d423b3ae614e01b85e547350b2",
+      "size": 26566448,
+      "steps": [
+        {
+          "action": "move",
+          "from": "Command and Conquer Red Alert",
+          "to": "Data for TB/Map Packs/Command and Conquer Red Alert"
+        }
+      ]
+    }
+  ],
+  "extends": [
+    "tactical-battle"
+  ]
+}

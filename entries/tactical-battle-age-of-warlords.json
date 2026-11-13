@@ -1,0 +1,37 @@
+{
+  "id": "tactical-battle-age-of-warlords",
+  "kind": "extra",
+  "title": "Age of Warlords by Allan Thompson",
+  "developer": [
+    "Ian Reed"
+  ],
+  "description": "A map pack for Tactical Battle made by Allan Thompson.",
+  "links": [
+    {
+      "url": "https://www.agarchive.net/pages/devs/IanReed.html",
+      "label": "Archived at agarchive"
+    }
+  ],
+  "sources": [
+    {
+      "platform": "windows",
+      "install": {
+        "method": "7z"
+      },
+      "label": "Mirror",
+      "url": "https://files.accessiblegames.net/files/440737a73ad6edeebc792a14c6124c1c6d71ac471778618115c366d919934621/age_of_warlords_Allan_Thompson.7z",
+      "sha256": "440737a73ad6edeebc792a14c6124c1c6d71ac471778618115c366d919934621",
+      "size": 68290766,
+      "steps": [
+        {
+          "action": "move",
+          "from": "age of warlords(Allan Thompson)",
+          "to": "Data for TB/Map Packs/age of warlords(Allan Thompson)"
+        }
+      ]
+    }
+  ],
+  "extends": [
+    "tactical-battle"
+  ]
+}

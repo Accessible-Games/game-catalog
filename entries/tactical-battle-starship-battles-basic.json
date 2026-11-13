@@ -1,0 +1,37 @@
+{
+  "id": "tactical-battle-starship-battles-basic",
+  "kind": "extra",
+  "title": "Starship Battles Basic by Allan Thompson",
+  "developer": [
+    "Ian Reed"
+  ],
+  "description": "A map pack for Tactical Battle made by Allan Thompson.",
+  "links": [
+    {
+      "url": "https://www.agarchive.net/pages/devs/IanReed.html",
+      "label": "Archived at agarchive"
+    }
+  ],
+  "sources": [
+    {
+      "platform": "windows",
+      "install": {
+        "method": "7z"
+      },
+      "label": "Mirror",
+      "url": "https://files.accessiblegames.net/files/6ded3c76ace5da0406995618838b1c91479db2aa47da668c4143f4f68ac94e33/starship_battles_basic_Allan_Thompson.7z",
+      "sha256": "6ded3c76ace5da0406995618838b1c91479db2aa47da668c4143f4f68ac94e33",
+      "size": 83567336,
+      "steps": [
+        {
+          "action": "move",
+          "from": "starship battles basic(Allan Thompson)",
+          "to": "Data for TB/Map Packs/starship battles basic(Allan Thompson)"
+        }
+      ]
+    }
+  ],
+  "extends": [
+    "tactical-battle"
+  ]
+}
