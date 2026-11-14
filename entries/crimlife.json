@@ -1,0 +1,36 @@
+{
+  "id": "crimlife",
+  "kind": "game",
+  "title": "CrimLife",
+  "developer": [
+    "Nasser"
+  ],
+  "genres": [
+    "Role-playing",
+    "Simulation"
+  ],
+  "tags": [
+    "Multiplayer"
+  ],
+  "description": "A free online text-based crime and mafia RPG. Commit crimes and build your respect, stats and reputation; join or create a gang, run patrols and fight rival gangs; own factories that produce goods every in-game day; trade on the Black Market; play casino games and bet on races; avoid jail and hospital and climb the leaderboards; and chat live with other players in the Plaza.\n\nMost of the game is menus, text and decisions with no reflex-based gameplay, so it works with screen readers. Some newer features, such as the car racing minigame, are more visual and still need accessibility work. Ads are optional; in-game coins can be used instead. Online only.",
+  "pricing": {
+    "model": "free",
+    "checked": "2026-11-13"
+  },
+  "links": [
+    {
+      "url": "https://forum.audiogames.net/topic/60542/crimlife-a-free-textbased-crime-rpg-now-on-android/",
+      "label": "AudioGames.net"
+    }
+  ],
+  "sources": [
+    {
+      "label": "Developer site",
+      "url": "https://crimlife-6ccd1.web.app/game/index.html",
+      "platform": "web",
+      "install": {
+        "method": "url"
+      }
+    }
+  ]
+}

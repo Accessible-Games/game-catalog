@@ -1,0 +1,44 @@
+{
+  "id": "applied-explosives",
+  "kind": "game",
+  "title": "Applied Explosives",
+  "developer": [
+    "Nathan Tech"
+  ],
+  "genres": [
+    "Puzzle"
+  ],
+  "version": "1.0",
+  "description": "A logic game about hidden hazards, careful deduction, and the occasional deeply regrettable press of the Enter key. Read the numbers, work out what's safe, flag what isn't.\n\nAcross 40 campaign assessments and 12 chapters you deal with classic clearance, timed challenges, unusual board shapes, limited equipment, survival scenarios, multi-layer fields and Perfect Logic puzzles. As the campaign goes on, things get stranger: hexagons, three-dimensional fields and experimental ordnance. No quick reactions are required.\n\nThe free demo is not time limited and includes the Quick Assessment and the first three chapters of the campaign. The full version unlocks the rest of the campaign and Custom Assessment.",
+  "pricing": {
+    "model": "free-to-try",
+    "url": "https://nathantech.net/products/purchase.php",
+    "checked": "2026-11-13"
+  },
+  "links": [
+    {
+      "url": "https://nathantech.net/products/games/appliedexplosives.php",
+      "label": "Homepage"
+    },
+    {
+      "url": "https://forum.audiogames.net/topic/60676/applied-explosives-the-day-mine-sweeper-exploded/",
+      "label": "AudioGames.net"
+    }
+  ],
+  "sources": [
+    {
+      "label": "Developer site",
+      "url": "https://nathantech.net/download.php?file=Applied%20Explosives%20v1.0%20setup.exe",
+      "platform": "windows",
+      "install": {
+        "method": "installer",
+        "installer": {
+          "type": "inno",
+          "mode": "extract"
+        }
+      },
+      "sha256": "d67c4a213593f86270ed73ad13ab806b54a9b5ab16f3f1b2d7e2f694560b66cd",
+      "size": 22088808
+    }
+  ]
+}

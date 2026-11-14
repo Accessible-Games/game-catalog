@@ -1,0 +1,56 @@
+{
+  "id": "tindrift",
+  "kind": "game",
+  "title": "Tindrift",
+  "developer": [
+    "birkinapps"
+  ],
+  "genres": [
+    "Strategy",
+    "Puzzle"
+  ],
+  "tags": [
+    "Roguelike"
+  ],
+  "year": 2026,
+  "description": "Tindrift is a turn-based tactics roguelike built on the same idea as 2048, with an army and enemies added.\n\nIf you know 2048: you swipe in a direction and every tile slides that way as far as it can. When two equal tiles slide into each other they merge into a bigger one. Tindrift works the same way, but the tiles are tin soldiers on a small square board (5 by 5 at first, up to 7 by 7 deeper down). Two soldiers of the same class and rank that slide into each other merge into one stronger soldier (rank 2 + rank 2 = rank 4). The difference is the enemies: they are called shadows, and they slide with every swipe too. When a soldier slides into a shadow they fight and both lose health. You destroy enough shadows to open the exit in a top corner, then slide a soldier onto it to climb to the next floor. There are no dice. Every enemy acts by rule, and nothing happens until you move.\n\nBetween floors you pick one of three blueprints (a lasting upgrade for the run) and spend scrap at a shop called the tinker station to heal, rank up or recruit soldiers of six classes. The campaign is 100 floors in five acts. There is also Endless Drift, a Daily Seed and 1v1 duels.\n\nThis is the free browser version, which needs no install. The game is also on iOS and Android; the forum post describes playing the iOS app with VoiceOver.",
+  "pricing": {
+    "model": "free",
+    "checked": "2026-11-13",
+    "note": "The browser version is free. The mobile apps are free with ads; a one-time Premium removes them."
+  },
+  "languages": [
+    "en",
+    "tr",
+    "de",
+    "es"
+  ],
+  "links": [
+    {
+      "url": "https://tindrift.birkinapps.com/about",
+      "label": "Homepage"
+    },
+    {
+      "url": "https://forum.audiogames.net/topic/60610/tindrift-slidemerge-tactics-game-for-voiceover-free/",
+      "label": "AudioGames.net"
+    },
+    {
+      "url": "https://apps.apple.com/app/id6789885889",
+      "label": "App Store"
+    },
+    {
+      "url": "https://play.google.com/store/apps/details?id=com.birkinapps.tindrift",
+      "label": "Google Play"
+    }
+  ],
+  "sources": [
+    {
+      "label": "Developer site",
+      "url": "https://tindrift.birkinapps.com/",
+      "platform": "web",
+      "install": {
+        "method": "url"
+      }
+    }
+  ]
+}

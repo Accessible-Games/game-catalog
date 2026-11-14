@@ -1,0 +1,51 @@
+{
+  "id": "blind-arena-tournament",
+  "kind": "game",
+  "title": "Blind Arena Tournament",
+  "genres": [
+    "Shooter",
+    "Action"
+  ],
+  "description": "An online audio first-person shooter for up to four players in a dark arena: footsteps, gunshots and radar pings in 3D around you. Every round is a different mode (team deathmatch, free for all, search and destroy, kill the leader and more), and every round earns tournament points towards monthly champions in each of eight trials and the Silent Crown.\n\nA JavaScript rewrite of the open-source Blind Arena Tournament, played in the browser; the Windows app runs the same site in a window. Headphones recommended; works with a screen reader. Online only; create an account to keep your stats and friends.",
+  "tags": [
+    "Multiplayer"
+  ],
+  "links": [
+    {
+      "url": "https://blindprogaming.com/arena/",
+      "label": "Homepage"
+    },
+    {
+      "url": "https://forum.audiogames.net/topic/60593/blind-arena-tournament-returns/",
+      "label": "AudioGames.net"
+    },
+    {
+      "url": "https://blindprogaming.com/arena/leaderboard.html",
+      "label": "Leaderboard"
+    }
+  ],
+  "sources": [
+    {
+      "label": "Developer site",
+      "url": "https://blindprogaming.com/arena/",
+      "platform": "web",
+      "install": {
+        "method": "url"
+      }
+    },
+    {
+      "label": "Developer site",
+      "url": "https://blindprogaming.com/arena/downloads/BlindArenaTournament-Setup.exe",
+      "platform": "windows",
+      "install": {
+        "method": "installer",
+        "installer": {
+          "type": "nsis",
+          "mode": "extract"
+        }
+      },
+      "sha256": "670eaebe3af9ef1e08bb8e014405855bb9f9c4c220eae2d2017c970b1b0a4274",
+      "size": 112082469
+    }
+  ]
+}

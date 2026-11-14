@@ -1,0 +1,64 @@
+{
+  "id": "world-command",
+  "kind": "game",
+  "title": "World Command",
+  "genres": [
+    "Strategy",
+    "Simulation"
+  ],
+  "tags": [
+    "Multiplayer"
+  ],
+  "description": "A grand strategy, war and nation management game, inspired by World Empire 2027. It is the year 2027 and you lead one of 123 nations of the world, each with its real population, economy, army, form of government, neighbours, natural resources and minerals. Time runs by itself; you can pause, speed up, or skip to the next month.\n\nSet taxes, spending and budgets; manage the central bank, debt, inflation, the stock market and the currency. Govern through domestic policies, laws, elections, a parliament and referendums. Build in 2429 provinces and states, and appoint governors. Produce soldiers, tanks, aircraft, warships, drones, missiles and nuclear warheads with each nation's real weapon models, and fight with fourteen kinds of attacks. Diplomacy, alliances, research, industry, prospecting and a commodity market, plus wonders, expeditions, pandemics, the World Cup and the space race. Five ways to win and seven starting scenarios.\n\nPlay alone against the computer, or create an account and play online with friends in rooms, with chat. A web version in the browser shares the same accounts and rooms, so sighted friends can play in the same world. There is a tutorial, and full manuals in English, Turkish and Russian come with the game. The game speaks through NVDA or JAWS, and updates itself.",
+  "version": "2.9.2",
+  "self_updating": true,
+  "languages": [
+    "en",
+    "tr",
+    "ru",
+    "de",
+    "es",
+    "fr",
+    "id"
+  ],
+  "links": [
+    {
+      "url": "https://hosting-ttserver.com.tr/world-command",
+      "label": "Homepage"
+    },
+    {
+      "url": "https://forum.audiogames.net/topic/60729/a-new-game/",
+      "label": "AudioGames.net"
+    }
+  ],
+  "sources": [
+    {
+      "label": "Developer site",
+      "url": "https://hosting-ttserver.com.tr/downloads/worldcommand/WorldCommand.zip",
+      "platform": "windows",
+      "install": {
+        "method": "zip",
+        "extract_dir": "WorldCommand"
+      },
+      "sha256": "bd03456133ae3bf46cb4539b02fcbebf3546920c684e5f71766962e9cf08b645",
+      "size": 37370527
+    },
+    {
+      "label": "Developer site",
+      "url": "https://hosting-ttserver.com.tr:8445/",
+      "platform": "web",
+      "install": {
+        "method": "url"
+      }
+    }
+  ],
+  "launch": {
+    "windows": {
+      "path": "WorldCommand.exe"
+    }
+  },
+  "checkver": {
+    "url": "https://hosting-ttserver.com.tr/world-command",
+    "regex": "<strong>Version:</strong>\\s*([0-9][0-9.]*)"
+  }
+}

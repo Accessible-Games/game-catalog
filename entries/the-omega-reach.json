@@ -1,0 +1,72 @@
+{
+  "id": "the-omega-reach",
+  "kind": "game",
+  "title": "THE OMEGA REACH",
+  "developer": [
+    "shiftBacktick"
+  ],
+  "genres": [
+    "Simulation",
+    "Adventure"
+  ],
+  "year": 2026,
+  "version": "1.3.1",
+  "description": "A point-and-click museum simulator (and dungeon crawler) where you are a musical genius. As curator of The Omega Conservatory you wield its reach, a telescopic hand that extends into the past: search distant galaxies, stars, planets and moons for instruments, play them freely in your gallery, or trade them for whatever the shopkeeper is offering.\n\nOriginally made for Games for Blind Gamers 5, with synthesized audio, haptics and screen reader support; you can drag your hand across the keyboard and hear the rooms and objects in three dimensions.\n\nThis is the demo. It has no time limits, and progress will carry into the full game, planned for Steam at a low price with free community copies on itch.io and the source code available.",
+  "pricing": {
+    "model": "free-to-try",
+    "url": "https://store.steampowered.com/app/4638520/THE_OMEGA_REACH/",
+    "checked": "2026-11-13"
+  },
+  "languages": [
+    "en"
+  ],
+  "links": [
+    {
+      "url": "https://shiftbacktick.itch.io/the-omega-reach",
+      "label": "Homepage"
+    },
+    {
+      "url": "https://forum.audiogames.net/topic/60558/the-omega-reach-intergalactic-instrument-collector-demo-released/",
+      "label": "AudioGames.net"
+    },
+    {
+      "url": "https://the-omega-reach.shiftbacktick.io/manual.html",
+      "label": "Manual"
+    },
+    {
+      "url": "https://shiftbacktick.io/the-omega-reach.html",
+      "label": "Development blog"
+    },
+    {
+      "url": "https://github.com/nicross/the-omega-reach",
+      "label": "Source code"
+    }
+  ],
+  "sources": [
+    {
+      "label": "Developer site",
+      "url": "https://github.com/nicross/the-omega-reach/releases/download/v1.3.1/the-omega-reach-win32-x64-demo.zip",
+      "platform": "windows",
+      "arch": "x64",
+      "install": {
+        "method": "zip"
+      },
+      "sha256": "cbe43769c83369418c1bc8df62e8a876fb90dc23d6cf96809b749091cb4e9dc0",
+      "size": 152983196
+    },
+    {
+      "label": "Developer site",
+      "url": "https://github.com/nicross/the-omega-reach/releases/download/v1.3.1/the-omega-reach-linux-x64-demo.zip",
+      "platform": "linux",
+      "arch": "x64",
+      "install": {
+        "method": "zip"
+      },
+      "sha256": "f2c613f31f7cff146e91ca8c856c6ad187c8a8e9990c69d496923a15ed58996a",
+      "size": 127495648
+    }
+  ],
+  "checkver": {
+    "github": "nicross/the-omega-reach"
+  }
+}

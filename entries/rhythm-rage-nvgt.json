@@ -1,0 +1,55 @@
+{
+  "id": "rhythm-rage-nvgt",
+  "kind": "game",
+  "title": "Rhythm Rage NVGT",
+  "developer": [
+    "tsatria03"
+  ],
+  "genres": [
+    "Music and rhythm"
+  ],
+  "description": "A conversion of Oriol Gomez's rhythm game Rhythm Rage to NVGT, made to be 100% faithful to the original. The level tool is ported as well (lt.exe), and the game is also built for the Mac.",
+  "version": "1.40",
+  "links": [
+    {
+      "url": "https://github.com/tsatria03/RhythmRage-NVGT",
+      "label": "Homepage"
+    },
+    {
+      "url": "https://forum.audiogames.net/topic/60326/introducing-rhythmrage-nvgt/",
+      "label": "AudioGames.net"
+    }
+  ],
+  "sources": [
+    {
+      "label": "Developer site",
+      "url": "https://github.com/tsatria03/RhythmRage-NVGT/releases/download/V1.40/RhythmRage_windows.zip",
+      "platform": "windows",
+      "install": {
+        "method": "zip",
+        "extract_dir": "rg"
+      },
+      "sha256": "8b516c34046e43dfb8003e93a37011aa89e32b704c71aba686f387d29cd29057",
+      "size": 234659538
+    },
+    {
+      "label": "Developer site",
+      "url": "https://github.com/tsatria03/RhythmRage-NVGT/releases/download/V1.40/RhythmRage_mac.zip",
+      "platform": "macos",
+      "install": {
+        "method": "zip",
+        "extract_dir": "rg.app"
+      },
+      "sha256": "9dbd69a8574d61f9c42e0ebc02c60d5aa0326000e4660012d31f0cd71b2f2963",
+      "size": 233557638
+    }
+  ],
+  "launch": {
+    "windows": {
+      "path": "rg.exe"
+    }
+  },
+  "checkver": {
+    "github": "tsatria03/RhythmRage-NVGT"
+  }
+}

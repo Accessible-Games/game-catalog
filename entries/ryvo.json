@@ -1,0 +1,49 @@
+{
+  "id": "ryvo",
+  "kind": "game",
+  "title": "Ryvo",
+  "developer": [
+    "Banana Finger"
+  ],
+  "genres": [
+    "Board and dice"
+  ],
+  "tags": [
+    "Multiplayer"
+  ],
+  "version": "1.0.41",
+  "description": "A social gaming platform that brings classic games together in one place, including dominoes, chess, backgammon and Ludo, so blind and sighted people can play, compete and connect. It is not a game only for the blind: the team worked with blind players to improve screen reader support.\n\nPlay with friends and other players, meet people in lounges and groups, chat and call, and track your profile, levels and statistics with rewards, coins, gifts and collectibles. An online platform.",
+  "contains": [
+    "Dominoes",
+    "Chess",
+    "Backgammon",
+    "Ludo"
+  ],
+  "links": [
+    {
+      "url": "https://bananafinger.com/",
+      "label": "Homepage"
+    },
+    {
+      "url": "https://forum.audiogames.net/topic/60690/ryvo-games-that-bring-us-together-android-windows-ios-coming-soon/",
+      "label": "AudioGames.net"
+    }
+  ],
+  "sources": [
+    {
+      "label": "Developer site",
+      "url": "https://bananafinger.com/downloads/ryvo/windows/Ryvo-1.0.41-Windows-x64-Setup.exe",
+      "platform": "windows",
+      "arch": "x64",
+      "install": {
+        "method": "installer",
+        "installer": {
+          "type": "inno",
+          "mode": "extract"
+        }
+      },
+      "sha256": "bcca84090bd099fb60f5a134d3934a7d2e281bd14e6eb526d07dd664425a26a5",
+      "size": 154751760
+    }
+  ]
+}

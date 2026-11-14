@@ -1,0 +1,46 @@
+{
+  "id": "codename-cygnus",
+  "kind": "game",
+  "title": "Codename Cygnus",
+  "developer": [
+    "tsatria03"
+  ],
+  "genres": [
+    "Interactive fiction",
+    "Adventure"
+  ],
+  "description": "Codename Cygnus is an interactive radio drama, first made by Reactive Studios (now Earplay) for the iPhone and iPad in 2013. You play a secret agent of the Cygnus agency, and each episode is a fully voiced spy story, with a full cast and its own music and sound. At every turn you choose what your agent does, such as charismatic or hostile, bold or secretive, and your choices shape your agent's personality and change how the story goes.\n\nThe original was played by voice. This unofficial port is made for the keyboard and your screen reader, and you can still speak your choices with optional speech recognition. All eight episodes of Mission 1 are here, from the Prologue to Signum Cygni, plus Holiday Party, with its timed choices; each episode carries on the choices and traits of the one before it. The port adds saving as you play, 16 achievements, a profile of your traits, a skip for parts you've already heard, and separate volumes.\n\nThe episodes' recordings (about 469 MB) download separately: the first time you open an episode, choose Download Mission 1. Headphones are highly recommended. The original app and its episode server are no longer available.",
+  "version": "26.10.19-1",
+  "links": [
+    {
+      "url": "https://github.com/tsatria03/CodenameCygnus-Windows",
+      "label": "Homepage"
+    },
+    {
+      "url": "https://forum.audiogames.net/topic/60668/codename-cygnus-a-windows-port-of-the-ios-interactive-radio-drama/",
+      "label": "AudioGames.net"
+    }
+  ],
+  "sources": [
+    {
+      "label": "Developer site",
+      "url": "https://github.com/tsatria03/CodenameCygnus-Windows/releases/download/V26.10.19-1/CodenameCygnus-Win-26.10.19-1.zip",
+      "platform": "windows",
+      "install": {
+        "method": "zip",
+        "extract_dir": "CodenameCygnus-Windows"
+      },
+      "sha256": "159a7cb983c4ca00b5428f24d7103da864e6790b3309685699a6c6c38ac6b6ef",
+      "size": 27162163,
+      "first_run_download_size": 491331636
+    }
+  ],
+  "launch": {
+    "windows": {
+      "path": "CodenameCygnus.exe"
+    }
+  },
+  "checkver": {
+    "github": "tsatria03/CodenameCygnus-Windows"
+  }
+}

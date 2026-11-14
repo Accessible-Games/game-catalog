@@ -1,0 +1,57 @@
+{
+  "id": "arcadelux",
+  "kind": "game",
+  "title": "Arcadelux",
+  "developer": [
+    "Riad Assoum"
+  ],
+  "genres": [
+    "Arcade",
+    "Music and rhythm",
+    "Puzzle"
+  ],
+  "year": 2026,
+  "description": "Arcadelux is a standalone audio arcade built with completely procedural audio: it contains no pre-recorded sound files. Every footstep, paddle bounce, laser blast, engine hum and piece of music is synthesized live, in binaural stereo with MIT KEMAR elevation filtering, so the download is small and the game runs well even on lower-end hardware.\n\nAt its first release it had 124 playable cabinets across eight themed worlds. Classic Corner rebuilds arcade classics for the ear (Snake, Pong, Breakout, Space Invaders, Asteroids, Joust, Berzerk); Rhythm Row has timing and groove drills; Neon Alley fast reflex and stereo-tracking games; Deep Space 3D orbital physics, flight and sonar; Puzzle Parlour deliberate puzzles where nothing moves until you do; Carnival Row sideshow games of nerve and timing; The Night Shift demanding solo operations like Switchboard, Plane Control and Lighthouse; and Sound Lab psychoacoustic ear training. You start with 21 cabinets unlocked and unlock the rest at the Prize Counter with coins earned by playing.\n\nThere are gems for beating your personal bests, a Daily Challenge with a shared global layout, 340 achievements and letter grades from D to S. Extra modes include Hardcore, Party, Boss Rush, Gauntlet, Marathon, World Tour, Mirror, a Spectator mode where an AI plays any unlocked cabinet, and a Practice Room. Five sound engines, eleven sound banks and procedurally generated music let you change how it sounds, and visual options help low-vision players and sighted companions.\n\nArcadelux speaks through Tolk (NVDA, JAWS and other screen readers), the NVDA controller or SAPI 5, and on first launch calibrates to your speech rate so announcements are never cut off. Gamepads work with no setup. It is in English, Arabic, French and Spanish.",
+  "version": "2.1.0",
+  "pricing": {
+    "model": "free",
+    "checked": "2026-11-13"
+  },
+  "languages": [
+    "en",
+    "ar",
+    "fr",
+    "es"
+  ],
+  "links": [
+    {
+      "url": "https://github.com/riadassoum/Arcadelux",
+      "label": "Homepage"
+    },
+    {
+      "url": "https://forum.audiogames.net/topic/60381/introducing-arcadelux-a-fully-synthesized-audio-arcade/",
+      "label": "AudioGames.net"
+    }
+  ],
+  "sources": [
+    {
+      "label": "Developer site",
+      "url": "https://github.com/riadassoum/Arcadelux/releases/download/v2.1.0/Arcadelux2.1.0.zip",
+      "platform": "windows",
+      "install": {
+        "method": "zip",
+        "extract_dir": "Arcadelux"
+      },
+      "sha256": "3a1413f91ed4c3877af23a3a0b08f4d93bb5fb637c7c41554ac6c94f299a0469",
+      "size": 148300513
+    }
+  ],
+  "launch": {
+    "windows": {
+      "path": "Arcadelux.exe"
+    }
+  },
+  "checkver": {
+    "github": "riadassoum/Arcadelux"
+  }
+}

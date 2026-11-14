@@ -1,0 +1,72 @@
+{
+  "id": "gameboard",
+  "kind": "game",
+  "title": "GameBoard",
+  "developer": [
+    "Muamal Aljanahi"
+  ],
+  "genres": [
+    "Board and dice",
+    "Card"
+  ],
+  "version": "1.0.2",
+  "description": "GameBoard is an audio-first multiplayer platform for classic card and board games, built to work with screen readers (NVDA, JAWS, VoiceOver). Create your own tables, join friends online in real time, chat in rooms with text and voice chat, or practise against computer opponents at several difficulty levels.\n\nGames include Uno, Baloot, Citadels, Dominoes, Snakes and Ladders, Chess, Mexican Train, Exploding Kittens, Ninety-Nine, Survival Arena, Duck Racing, Scopa, Age of Heroes, Farkle, Goalball, Ludo, Bear Chase, Monopoly and Mile by Mile.\n\nOnline play needs an account (username, email address and password). The Windows version is in beta; GameBoard is also an iPhone and iPad app.",
+  "tags": [
+    "Multiplayer"
+  ],
+  "contains": [
+    "Uno",
+    "Baloot",
+    "Citadels",
+    "Dominoes",
+    "Snakes and Ladders",
+    "Chess",
+    "Mexican Train",
+    "Exploding Kittens",
+    "Ninety-Nine",
+    "Survival Arena",
+    "Duck Racing",
+    "Scopa",
+    "Age of Heroes",
+    "Farkle",
+    "Goalball",
+    "Ludo",
+    "Bear Chase",
+    "Monopoly",
+    "Mile by Mile"
+  ],
+  "links": [
+    {
+      "url": "https://muamel1.github.io/GameBoard_doc/",
+      "label": "Homepage"
+    },
+    {
+      "url": "https://www.applevis.com/apps/ios/games/game-board",
+      "label": "AppleVis"
+    },
+    {
+      "url": "https://apps.apple.com/us/app/game-board/id6786885206",
+      "label": "App Store"
+    }
+  ],
+  "sources": [
+    {
+      "label": "Developer site",
+      "url": "https://github.com/muamel1/GameBoard_doc/releases/download/1.0.2/GameBoard-Windows.zip",
+      "platform": "windows",
+      "install": {
+        "method": "zip"
+      },
+      "sha256": "d180ed603f9edd321cbd7943f357ed740c69fff54532fa4b4df9281dc23c9836",
+      "size": 244962255
+    }
+  ],
+  "launch": {
+    "windows": {
+      "path": "GameBoard.exe"
+    }
+  },
+  "checkver": {
+    "github": "muamel1/GameBoard_doc"
+  }
+}

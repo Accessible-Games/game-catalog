@@ -1,0 +1,52 @@
+{
+  "id": "sortalis",
+  "kind": "game",
+  "title": "Sortalis",
+  "developer": [
+    "Schmoyer Games"
+  ],
+  "genres": [
+    "Board and dice",
+    "Strategy"
+  ],
+  "tags": [
+    "Roguelike",
+    "Multiplayer"
+  ],
+  "year": 2026,
+  "description": "A roguelike deckbuilder built on Farkle, the classic dice game of rolling big numbers. Your deck is six dice: spend the run making them stronger, then push your luck as far as you dare. Nearly 240 cards recut, enchant and supercharge your dice, and bosses with their own rules make sure you never get comfortable.\n\nMultiplayer draft: sit down at a table of eight with friends, with bots filling any empty seat, pick a card, pass the pack, then battle it out in a knockout bracket.\n\nThis is the free four-stage browser demo. The full game is on Steam, the App Store and Google Play.",
+  "languages": [
+    "en"
+  ],
+  "pricing": {
+    "model": "free-to-try",
+    "price": 9.99,
+    "currency": "USD",
+    "url": "https://store.steampowered.com/app/5142640/SORTALIS/",
+    "checked": "2026-11-13"
+  },
+  "links": [
+    {
+      "url": "https://playsortalis.com/",
+      "label": "Homepage"
+    },
+    {
+      "url": "https://forum.audiogames.net/topic/60644/sortalis/",
+      "label": "AudioGames.net"
+    },
+    {
+      "url": "https://discord.gg/4h95AFEfp5",
+      "label": "Discord"
+    }
+  ],
+  "sources": [
+    {
+      "label": "Developer site",
+      "url": "https://www.playsortalis.com/game",
+      "platform": "web",
+      "install": {
+        "method": "url"
+      }
+    }
+  ]
+}

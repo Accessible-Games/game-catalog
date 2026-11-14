@@ -1,0 +1,40 @@
+{
+  "id": "halloween-atari-audio-edition",
+  "kind": "game",
+  "title": "Halloween: Atari Audio Edition",
+  "developer": [
+    "Michael Barnes"
+  ],
+  "genres": [
+    "Action"
+  ],
+  "description": "Try to survive Halloween night in the 1983 Atari 2600 game, now with accessibility features. You control Laurie Strode through a two-story house, rescuing children and even getting the chance to fight off Michael Myers. Spatial sounds announce rooms, Michael and items; speech reads your status.\n\nThe player's manual is in the download.",
+  "version": "1.1",
+  "tags": [
+    "Horror"
+  ],
+  "links": [
+    {
+      "url": "https://forum.audiogames.net/topic/60632/halloween-1983-is-now-accessible/",
+      "label": "AudioGames.net"
+    }
+  ],
+  "sources": [
+    {
+      "label": "Developer site",
+      "url": "https://drive.google.com/uc?export=download&id=1efRTi1XP1zjc9IiGASJSWoxJhjn8cs98",
+      "platform": "windows",
+      "install": {
+        "method": "zip",
+        "extract_dir": "Halloween"
+      },
+      "sha256": "dfd5837e15cb659b92e82fc60b941619d0e36d078b17d83c876c504f58556e48",
+      "size": 4750666
+    }
+  ],
+  "launch": {
+    "windows": {
+      "path": "Halloween.exe"
+    }
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "id": "mindsight",
+  "kind": "game",
+  "title": "Mindsight",
+  "developer": [
+    "tsatria03"
+  ],
+  "genres": [
+    "Adventure",
+    "Interactive fiction"
+  ],
+  "description": "Mindsight is an interactive audio adventure told entirely through binaural recordings, first made by Luke Charman for the iPhone and iPad (it began as a research project at SAE Institute London in 2009). You play Ethan Lewis, a blind hero who, with his sidekick Alix, sets out to rescue his sister from the villain Dexter, solving puzzles all the way up to the roof of Dexter's tower. It plays like a radio drama mixed with a choose your own adventure book.\n\nThis unofficial port of the free app's last version, 1.0.2, is made for the keyboard and can be played entirely by ear: the four arrow keys (or W, A, S, D) are the swipes, and Escape, Enter or P pauses. Every word you hear is the original's own recording, so the game has no text to speech of its own. A short low buzz replaces the phone's vibration and tells you when a swipe counts. Your place is saved at the story's checkpoints. Headphones are needed. The original is no longer on the App Store.",
+  "version": "26.10.23-1",
+  "links": [
+    {
+      "url": "https://github.com/tsatria03/Mindsight-Windows",
+      "label": "Homepage"
+    },
+    {
+      "url": "https://forum.audiogames.net/topic/60718/mindsight-a-windows-port-of-the-ios-interactive-audio-adventure/",
+      "label": "AudioGames.net"
+    }
+  ],
+  "sources": [
+    {
+      "label": "Developer site",
+      "url": "https://github.com/tsatria03/Mindsight-Windows/releases/download/V26.10.23-1/Mindsight-Win-26.10.23-1.zip",
+      "platform": "windows",
+      "install": {
+        "method": "zip",
+        "extract_dir": "Mindsight-Windows"
+      },
+      "sha256": "98fb4cca26afa7a5d94fa31665336d8842e066df3271299e6d2cc0893bf493df",
+      "size": 100894639
+    }
+  ],
+  "launch": {
+    "windows": {
+      "path": "Mindsight.exe"
+    }
+  },
+  "checkver": {
+    "github": "tsatria03/Mindsight-Windows"
+  }
+}

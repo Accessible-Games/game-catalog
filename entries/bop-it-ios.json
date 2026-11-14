@@ -1,0 +1,44 @@
+{
+  "id": "bop-it-ios",
+  "kind": "game",
+  "title": "Bop It iOS",
+  "developer": [
+    "tunmi13productions"
+  ],
+  "genres": [
+    "Arcade"
+  ],
+  "description": "An accessible port of Bop It for iPhone (version 1.1.9, for iOS 3.0), an app once published by EA, made so that blind and low-vision players can play it with a keyboard and a screen reader. It is a faithful port, not a remake: the game rules, timing, speed-ups, scoring, menus, sounds and music follow the original, recovered from the original app itself. Everything the original showed on screen is spoken, and the game can be played with no screen at all. The game has its own built-in help.",
+  "version": "2",
+  "links": [
+    {
+      "url": "https://github.com/tunmi13productions/Bop-It-iOS",
+      "label": "Homepage"
+    },
+    {
+      "url": "https://forum.audiogames.net/topic/60481/bop-it-ios-a-windows-port-of-the-original-bop-it-game-for-ios/",
+      "label": "AudioGames.net"
+    }
+  ],
+  "sources": [
+    {
+      "label": "Developer site",
+      "url": "https://github.com/tunmi13productions/Bop-It-iOS/releases/download/2/BopIt-2.zip",
+      "platform": "windows",
+      "install": {
+        "method": "zip",
+        "extract_dir": "BopIt"
+      },
+      "sha256": "677b2ff423fbd4a384fd4801de24015dc3c5d3929e42a9fdce4f13cb19c69276",
+      "size": 65718371
+    }
+  ],
+  "launch": {
+    "windows": {
+      "path": "BopIt.exe"
+    }
+  },
+  "checkver": {
+    "github": "tunmi13productions/Bop-It-iOS"
+  }
+}

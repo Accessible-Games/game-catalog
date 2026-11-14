@@ -1,0 +1,41 @@
+{
+  "id": "space-cadet-access",
+  "kind": "game",
+  "title": "Space Cadet Access",
+  "developer": [
+    "Oriol Gomez"
+  ],
+  "genres": [
+    "Arcade"
+  ],
+  "year": 2026,
+  "description": "3D Pinball for Windows - Space Cadet, playable by ear with a screen reader. It plays audio cues for when a ball comes near the flippers, when the ball is ready to launch and more, makes all the menus accessible, allows event browsing with Ctrl+arrows, and announces all the in-game text. The ball is a tone that moves left and right with it, its pitch showing the height on the table.\n\nBuilt on the SpaceCadetPinball decompilation by k4zmu2a. 3D Pinball for Windows - Space Cadet is by Cinematronics and Microsoft.",
+  "pricing": {
+    "model": "free",
+    "checked": "2026-11-13",
+    "donate_url": "https://www.patreon.com/oriolgomez"
+  },
+  "links": [
+    {
+      "url": "https://www.patreon.com/oriolgomez/posts/pinball-every-173986544",
+      "label": "Homepage"
+    },
+    {
+      "url": "https://forum.audiogames.net/topic/60798/pinball-every-day-takes-all-the-pain-away/",
+      "label": "AudioGames.net"
+    }
+  ],
+  "sources": [
+    {
+      "label": "Developer site",
+      "url": "https://www.patreon.com/file?h=173986544&m=775681617",
+      "platform": "windows",
+      "install": {
+        "method": "zip",
+        "extract_dir": "SpaceCadetAccess"
+      },
+      "sha256": "625d6ef70da4e41dc35b19b03bc098a7a6464a6c2851820974b08b99c057b31e",
+      "size": 4267996
+    }
+  ]
+}

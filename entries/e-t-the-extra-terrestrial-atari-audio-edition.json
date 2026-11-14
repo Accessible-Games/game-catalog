@@ -1,0 +1,37 @@
+{
+  "id": "e-t-the-extra-terrestrial-atari-audio-edition",
+  "kind": "game",
+  "title": "E.T. The Extra-Terrestrial: Atari Audio Edition",
+  "developer": [
+    "Michael Barnes"
+  ],
+  "genres": [
+    "Adventure"
+  ],
+  "description": "Help E.T. find all three pieces of the phone, call the ship and return to the landing place to be picked up, in the 1982 Atari 2600 game with all its music, sounds and graphics, now with accessibility features for the blind.\n\nThere are three game modes: normal, with both the government agents and the scientist trying to catch E.T.; one with only the agents; and one with no enemies, good for beginners. Pit radar, directional pitch cues and speech guide you.\n\nThe player's manual is in the download.",
+  "version": "1.1",
+  "links": [
+    {
+      "url": "https://forum.audiogames.net/topic/60615/the-accessible-atari-2600s-et/",
+      "label": "AudioGames.net"
+    }
+  ],
+  "sources": [
+    {
+      "label": "Developer site",
+      "url": "https://drive.google.com/uc?export=download&id=12gn0bxq3ys2P43U6PpnbiEm0INK7SoI_",
+      "platform": "windows",
+      "install": {
+        "method": "zip",
+        "extract_dir": "E.T. The Extra-Terrestrial"
+      },
+      "sha256": "7bd5a9fcdca319cc87e4618d0dc6d429705d0ea5c2a7514c599f7d4ebb3420a4",
+      "size": 4766906
+    }
+  ],
+  "launch": {
+    "windows": {
+      "path": "E.T. The Extra-Terrestrial.exe"
+    }
+  }
+}

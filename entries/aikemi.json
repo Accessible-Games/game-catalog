@@ -1,0 +1,43 @@
+{
+  "id": "aikemi",
+  "kind": "game",
+  "title": "aikemi",
+  "genres": [
+    "Puzzle"
+  ],
+  "description": "An alchemy game: combine two elements and discover something new. Results are non-deterministic: a curated A.I. outputs the results, so there are no pre-defined recipes and no end to what you can find. Each element gets its own short description and sound effect.\n\n- Two game modes. Science is grounded: you start with basic elements in a primitive age and work your way up through the tech eras. Creative is more open and imaginative: discover unicorns and superheroes, for example.\n- Ghost hints: now and then a ghost appears with a \"woo\" sound, and challenges you to discover a certain element within a few attempts.\n- Catalysts: send Energy (Science) or Life (Creative) into a card waiting alone in the field, and its next combination becomes a three-way mix.\n- Anchors: in Creative mode, unlock and activate anchors over time to nudge discoveries in a certain direction, for instance \"Greek mythology\".\n- Leaderboards, achievements, and daily and weekly challenges.\n\nThe game is free, with no ads. Visitors get 10 combinations (tokens) a day, and registered users (also free) 20; registering also allows \"Lite play\", which doesn't save its results, when you run out. More tokens can be bought or earned. Needs an internet connection. The developer has tested it with NVDA on Windows, in English.",
+  "pricing": {
+    "model": "free-with-purchases",
+    "checked": "2026-11-13"
+  },
+  "languages": [
+    "en",
+    "da",
+    "de",
+    "es",
+    "fr",
+    "ja",
+    "pl",
+    "uk"
+  ],
+  "links": [
+    {
+      "url": "https://www.aikemi.eu/",
+      "label": "Homepage"
+    },
+    {
+      "url": "https://forum.audiogames.net/topic/60786/alchemy-browser-game-aikemi/",
+      "label": "AudioGames.net"
+    }
+  ],
+  "sources": [
+    {
+      "label": "Developer site",
+      "url": "https://www.aikemi.eu/",
+      "platform": "web",
+      "install": {
+        "method": "url"
+      }
+    }
+  ]
+}

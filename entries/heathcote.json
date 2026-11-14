@@ -1,0 +1,48 @@
+{
+  "id": "heathcote",
+  "kind": "game",
+  "title": "Heathcote",
+  "developer": [
+    "tsatria03"
+  ],
+  "genres": [
+    "Interactive fiction",
+    "Adventure"
+  ],
+  "tags": [
+    "Horror"
+  ],
+  "description": "Heathcote is an interactive audio adventure told through sound, first made by Fabulae Obscurae for the iPhone and iPad in 2015. You follow a TV presenter exploring an abandoned asylum, Heathcote, at night, while he's on the phone to his producer, and you choose what he does next. Your choices decide where he goes, what he finds, and how his night ends. The story was written by Ben Meares and Christian Francis.\n\nThis unofficial port of the app's last version, 1.01, is made for the keyboard and your screen reader. The story, choices, voices, music and ambience come straight from the original; every choice is played in the original's recorded voice, then read by your screen reader. The port adds saving as you play, a Tab key that tells you where you are, separate volumes, and fully configurable keys (F1). Headphones are highly recommended. The original is no longer on the App Store.",
+  "version": "26.10.22-1",
+  "links": [
+    {
+      "url": "https://github.com/tsatria03/Heathcote-Windows",
+      "label": "Homepage"
+    },
+    {
+      "url": "https://forum.audiogames.net/topic/60694/heathcote-a-windows-port-of-the-ios-interactive-horror-adventure/",
+      "label": "AudioGames.net"
+    }
+  ],
+  "sources": [
+    {
+      "label": "Developer site",
+      "url": "https://github.com/tsatria03/Heathcote-Windows/releases/download/V26.10.22-1/Heathcote-Win-26.10.22-1.zip",
+      "platform": "windows",
+      "install": {
+        "method": "zip",
+        "extract_dir": "Heathcote-Windows"
+      },
+      "sha256": "867166f5bb3ab1347b6d6132cdff3ee78ecf8ffcf051df8a44ab36b807a1b174",
+      "size": 180611437
+    }
+  ],
+  "launch": {
+    "windows": {
+      "path": "Heathcote.exe"
+    }
+  },
+  "checkver": {
+    "github": "tsatria03/Heathcote-Windows"
+  }
+}

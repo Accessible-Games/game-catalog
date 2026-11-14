@@ -1,0 +1,50 @@
+{
+  "id": "motif",
+  "kind": "game",
+  "title": "Motif",
+  "developer": [
+    "Mickael Bazoge"
+  ],
+  "genres": [
+    "Word",
+    "Puzzle"
+  ],
+  "year": 2026,
+  "description": "Find ten hidden words every day and aim for the highest score on the daily grid! Motif is a strategic word game that combines clever wordplay with match-3-inspired mechanics.\n\nSwap letters, spot words, and plan your next move. Swipe across words to clear them from the grid. Every move shapes what comes next, so choose wisely! Everyone starts with the same grid.\n\nThis is the browser version, which plays the daily grid in English or French. The iOS app, reviewed as accessible with VoiceOver on AppleVis, adds Ascension, Zen and other modes.",
+  "pricing": {
+    "model": "free",
+    "checked": "2026-11-13"
+  },
+  "languages": [
+    "en",
+    "fr"
+  ],
+  "links": [
+    {
+      "url": "https://motif-game.com/",
+      "label": "Homepage"
+    },
+    {
+      "url": "https://www.applevis.com/apps/ios/games/motif-word-challenge",
+      "label": "AppleVis"
+    },
+    {
+      "url": "https://apps.apple.com/app/id6800877986",
+      "label": "App Store"
+    },
+    {
+      "url": "https://www.reddit.com/r/PlayMotif/",
+      "label": "Reddit"
+    }
+  ],
+  "sources": [
+    {
+      "label": "Developer site",
+      "url": "https://motif-game.com/play/",
+      "platform": "web",
+      "install": {
+        "method": "url"
+      }
+    }
+  ]
+}

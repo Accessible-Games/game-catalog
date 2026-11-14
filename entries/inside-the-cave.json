@@ -1,0 +1,44 @@
+{
+  "id": "inside-the-cave",
+  "kind": "game",
+  "title": "Inside The Cave",
+  "developer": [
+    "tsatria03"
+  ],
+  "genres": [
+    "Arcade"
+  ],
+  "description": "Run through a dark cave with three lanes. When you hear a monster roar, move to another lane to get out of its way. Along the way, pick up coins and torches, and throw your torch to kill a monster or scare off a group of bats.\n\nInside The Cave was made in 2016 by Iago Barbosa, Juliana Barros and Victor Leal at BEPiD Recife for iOS, and is no longer on the App Store. This unofficial Windows port follows the original's rules, fixes some of its bugs, and adds three difficulties with their own speeds and best scores, a tutorial in a Windows voice, lifetime stats, a result screen, and positioned sound for each lane. All keys can be configured with F1.",
+  "version": "26.10.03-3",
+  "links": [
+    {
+      "url": "https://github.com/tsatria03/InsideTheCave-Windows",
+      "label": "Homepage"
+    },
+    {
+      "url": "https://forum.audiogames.net/topic/60512/inside-the-cave-a-windows-port-of-the-ios-audio-runner/",
+      "label": "AudioGames.net"
+    }
+  ],
+  "sources": [
+    {
+      "label": "Developer site",
+      "url": "https://github.com/tsatria03/InsideTheCave-Windows/releases/download/V26.10.03-3/InsideTheCave-Win-26.10.03-3.zip",
+      "platform": "windows",
+      "install": {
+        "method": "zip",
+        "extract_dir": "InsideTheCave-Windows"
+      },
+      "sha256": "0f4d546318d1906fb582ad47609d4260bd62a28f089c7a95863b1bd0a92d6826",
+      "size": 89132373
+    }
+  ],
+  "launch": {
+    "windows": {
+      "path": "InsideTheCave.exe"
+    }
+  },
+  "checkver": {
+    "github": "tsatria03/InsideTheCave-Windows"
+  }
+}

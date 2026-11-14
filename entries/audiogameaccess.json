@@ -1,0 +1,92 @@
+{
+  "id": "audiogameaccess",
+  "kind": "game",
+  "title": "AudioGameAccess",
+  "genres": [
+    "Card",
+    "Board and dice",
+    "Casino"
+  ],
+  "description": "A free collection of audio games built for blind and visually impaired players, played alone against bots or online with others, whatever device they use: skill games (archery, bowling, Feather Flight), card games (Crazy Eights, Golf, President, Ninety-nine, 1000 Miles and more), dice games (Farkle and a five-dice game with a score sheet), Parcheesi, word games, Sea Battle, and Metropolis, a city builder where you are the mayor. Blackjack, Texas Hold'em poker and bingo are on Windows and Mac. Every game has its own manual.\n\nOnline play needs a free account: open a table, invite friends or add bots, with text and voice chat, private messages, a friends list and leaderboards. Games can be saved and finished later with the same players. With headphones, sounds are placed around you in 3D. Works with NVDA and JAWS on Windows and VoiceOver on Mac. The game updates itself each time it starts.",
+  "self_updating": true,
+  "pricing": {
+    "model": "free",
+    "checked": "2026-11-13"
+  },
+  "tags": [
+    "Multiplayer"
+  ],
+  "languages": [
+    "en",
+    "fr",
+    "es",
+    "it",
+    "pt"
+  ],
+  "contains": [
+    "Archery",
+    "Bowling",
+    "Feather Flight",
+    "Tennis",
+    "Hunt",
+    "Uno",
+    "Crazy Eights",
+    "Golf",
+    "President",
+    "Ninety-nine",
+    "1000 Miles",
+    "I Doubt It",
+    "War",
+    "Yahtzee",
+    "Farkle",
+    "Parcheesi",
+    "Monopoly",
+    "Camembert Culture",
+    "Sea Battle",
+    "Hangman",
+    "Boggle",
+    "Four in a Row",
+    "One Word",
+    "Categories",
+    "Metropolis",
+    "Blackjack",
+    "Texas Hold'em",
+    "Bingo"
+  ],
+  "links": [
+    {
+      "url": "https://audiogameaccess.com/",
+      "label": "Homepage"
+    },
+    {
+      "url": "https://www.applevis.com/forum/ios-ipados-gaming/audiogameaccess-free-audio-games-iphone-ipad-mac-alone-or-online",
+      "label": "AppleVis"
+    }
+  ],
+  "sources": [
+    {
+      "label": "Developer site",
+      "url": "https://play.audiogameaccess.com/telechargement/windows/AudioGameAccess_Setup.exe",
+      "platform": "windows",
+      "install": {
+        "method": "installer",
+        "installer": {
+          "type": "inno",
+          "mode": "extract"
+        }
+      },
+      "sha256": "7f1fe5aa2a197ccb7fa195931fb3f8820c79ec5ad3f76c83f5fd983537f01e3a",
+      "size": 198835799
+    },
+    {
+      "label": "Developer site",
+      "url": "https://play.audiogameaccess.com/telechargement/mac/AudioGameAccess_Mac.zip",
+      "platform": "macos",
+      "install": {
+        "method": "zip"
+      },
+      "sha256": "a79f0ead3da41dd3fd7e3753684c03819e5b66a5b07a8e07b293a67c601bbefc",
+      "size": 211830563
+    }
+  ]
+}

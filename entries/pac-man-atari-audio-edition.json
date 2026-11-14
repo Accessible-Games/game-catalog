@@ -1,0 +1,37 @@
+{
+  "id": "pac-man-atari-audio-edition",
+  "kind": "game",
+  "title": "Pac-Man: Atari Audio Edition",
+  "developer": [
+    "Michael Barnes"
+  ],
+  "genres": [
+    "Arcade"
+  ],
+  "description": "Atari's 1982 Atari 2600 Pac-Man, made playable without sight. It runs the original game, with sounds that tell you where you and the ghosts are on the screen, and sounds for walls and the escape path. Speech reads the title screen's eight game variations, your score and lives.\n\nThe player's manual is in the download.",
+  "version": "1.1",
+  "links": [
+    {
+      "url": "https://forum.audiogames.net/topic/60641/ataris-pacman-has-return-with-accessibility/",
+      "label": "AudioGames.net"
+    }
+  ],
+  "sources": [
+    {
+      "label": "Developer site",
+      "url": "https://drive.google.com/uc?export=download&id=164vrkmN4E4RkDQezb6iimFL1PHXwyEqT",
+      "platform": "windows",
+      "install": {
+        "method": "zip",
+        "extract_dir": "Pac-Man"
+      },
+      "sha256": "e7eb37875c4fe09b00b32d761bcef6431379c5fe2ecaaeeec7657b92a3d78bb9",
+      "size": 4762674
+    }
+  ],
+  "launch": {
+    "windows": {
+      "path": "Pac-Man.exe"
+    }
+  }
+}

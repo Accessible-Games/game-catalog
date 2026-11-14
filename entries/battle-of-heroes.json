@@ -1,0 +1,38 @@
+{
+  "id": "battle-of-heroes",
+  "kind": "game",
+  "title": "Battle of Heroes",
+  "genres": [
+    "Fighting",
+    "Action"
+  ],
+  "tags": [
+    "Multiplayer"
+  ],
+  "year": 2026,
+  "description": "Battle of Heroes is a 3D fighting game you play by ear. Take your hero to the arena, fight duels, or practice against bots, and slash, freeze, smash and shock your way to victory.\n\nThe game speaks through your screen reader, so start it before the game. A tutorial (Practice against a bot, then The tutorial) teaches the whole game one step at a time, and Learn the sounds on the main menu plays every sound and says what it means. Every control can be changed, and F4 reads the current list.\n\nThe game is online: you make an account on the game's server, with a name and a password nobody can reset, before you play. The developer says all of its code was written with AI.",
+  "links": [
+    {
+      "url": "https://forum.audiogames.net/topic/60383/battle-of-heros-fighting-game-is-out/",
+      "label": "AudioGames.net"
+    }
+  ],
+  "sources": [
+    {
+      "label": "Developer site",
+      "url": "https://blindprogaming.com/battle_of_heros.zip",
+      "platform": "windows",
+      "install": {
+        "method": "zip",
+        "extract_dir": "battle of heros"
+      },
+      "sha256": "7542b7143d283437c4c27912f259233aab72e88be197c737b278015f21cb5a25",
+      "size": 46113072
+    }
+  ],
+  "launch": {
+    "windows": {
+      "path": "game.exe"
+    }
+  }
+}

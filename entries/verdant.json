@@ -1,0 +1,47 @@
+{
+  "id": "verdant",
+  "kind": "game",
+  "title": "Verdant",
+  "developer": [
+    "Shane Vincent"
+  ],
+  "genres": [
+    "Simulation"
+  ],
+  "year": 2026,
+  "description": "A life simulation. Live a whole life, cradle to grave, one year at a time. Choose a career, fall in love, raise a family, build a fortune, and leave a legacy for the next generation to inherit.\n\nA text-based game played in the browser. Choose the desktop or phone layout on the play page. Lives are saved in the browser. Free to play, with optional one-time purchases (expansions such as the Fame Pack, perks such as God Mode).",
+  "pricing": {
+    "model": "free-with-purchases",
+    "url": "https://verdantlifesim.com/shop.html",
+    "donate_url": "https://ko-fi.com/verdantlifesimulation",
+    "checked": "2026-11-13"
+  },
+  "links": [
+    {
+      "url": "https://verdantlifesim.com/",
+      "label": "Homepage"
+    },
+    {
+      "url": "https://forum.audiogames.net/topic/60778/verdant-free-textbased-life-simulation-game/",
+      "label": "AudioGames.net"
+    },
+    {
+      "url": "https://discord.gg/NJ5rTMJ9NN",
+      "label": "Discord"
+    },
+    {
+      "url": "https://www.reddit.com/r/Verdantlifesimulation",
+      "label": "Reddit"
+    }
+  ],
+  "sources": [
+    {
+      "label": "Developer site",
+      "url": "https://verdantlifesim.com/play",
+      "platform": "web",
+      "install": {
+        "method": "url"
+      }
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "id": "the-nightjar",
+  "kind": "game",
+  "title": "The Nightjar",
+  "developer": [
+    "Muhammad Hajjar"
+  ],
+  "genres": [
+    "Adventure"
+  ],
+  "description": "The Nightjar is Somethin' Else's audio-only sci-fi thriller: you are stranded on a pitch-black spaceship crawling with aliens, and Benedict Cumberbatch talks you through it level by level while you find your way out using nothing but your ears.\n\nThis unofficial Windows port is faithful to the original, with all 14 levels and both endings. It runs on the same engine as the first Papa Sangre: you walk by alternating your left and right foot (A and D), and step too fast and you trip; the arrow keys turn you. A controller works too, and every key and button can be changed from Settings. The port is open source.",
+  "version": "2026-09-28",
+  "self_updating": true,
+  "links": [
+    {
+      "url": "https://github.com/MuhammadHajjar/TheNightjar-Windows",
+      "label": "Homepage"
+    },
+    {
+      "url": "https://forum.audiogames.net/topic/60457/the-nightjar-windows-port-is-out/",
+      "label": "AudioGames.net"
+    }
+  ],
+  "sources": [
+    {
+      "label": "Developer site",
+      "url": "https://github.com/MuhammadHajjar/TheNightjar-Windows/releases/download/2026-09-28/TheNightjar-Windows.zip",
+      "platform": "windows",
+      "install": {
+        "method": "zip",
+        "extract_dir": "The Nightjar"
+      },
+      "sha256": "521afac2c3809592602f5f43d493b756c858a764c035b33d2ed337ff4fc2ed7e",
+      "size": 92733009
+    }
+  ],
+  "launch": {
+    "windows": {
+      "path": "The Nightjar.exe"
+    }
+  },
+  "checkver": {
+    "github": "MuhammadHajjar/TheNightjar-Windows"
+  }
+}

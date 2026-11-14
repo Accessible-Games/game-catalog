@@ -1,0 +1,78 @@
+{
+  "id": "among-us-audiogame",
+  "kind": "game",
+  "title": "Among Us Audiogame",
+  "description": "An unofficial, fan-made audio adaptation of Among Us, built from scratch for screen reader users. A group of players is on a ship. Most are crewmates trying to finish their tasks. One or more are impostors trying to kill everyone without being caught. When a body is found, or someone calls an emergency meeting, everyone talks it out and votes someone off the ship.\n\nEverything comes through your screen reader and positional 3D audio, and every task is a small audio minigame of its own.\n\n- Online matches for 3 to 15 players, public or private with an access code\n- Bots that do tasks, hunt as impostors, react to sabotage and vote\n- Built-in voice chat, plus text chat with full history\n- 18 optional special roles and modifiers\n- Sabotages, vents, security cameras, a radar, and a spectator mode\n- Practice mode for every task and repair, and an Explore the map mode\n- Two maps, including the Polar Base, and alternative modes: Tag, All wolves and Last man standing\n- Rankings, and an optional graphics mode so sighted friends can follow along\n\nOnline play needs an account, created with an email address. Windows is the main platform and updates itself; the Linux build is experimental and updates manually.",
+  "version": "1.16.0",
+  "self_updating": true,
+  "pricing": {
+    "model": "free",
+    "donate_url": "https://ko-fi.com/otaviols",
+    "checked": "2026-11-13"
+  },
+  "tags": [
+    "Multiplayer"
+  ],
+  "languages": [
+    "pt",
+    "en",
+    "es",
+    "tr",
+    "zh",
+    "it"
+  ],
+  "links": [
+    {
+      "url": "https://amongus.blindtabern.com/",
+      "label": "Homepage"
+    },
+    {
+      "url": "https://forum.audiogames.net/topic/60695/among-us-audiogame-10-is-out/",
+      "label": "AudioGames.net"
+    }
+  ],
+  "sources": [
+    {
+      "label": "Developer site",
+      "url": "https://amongus.blindtabern.com/AmongUs.zip",
+      "platform": "windows",
+      "install": {
+        "method": "zip"
+      },
+      "sha256": "3f3c788274959399b5a57265dcf3658e520fd92efefd645413e68de88ab55b72",
+      "size": 43686773
+    },
+    {
+      "label": "Developer site",
+      "url": "https://amongus.blindtabern.com/AmongUs-linux.tar.gz",
+      "platform": "linux",
+      "install": {
+        "method": "tar"
+      },
+      "sha256": "a4864a9c5a98b4d3cb08a5b2e27882b4e403e018cfa713f3ebe308459997eeac",
+      "size": 36479912
+    },
+    {
+      "label": "Developer site",
+      "url": "https://amongus.blindtabern.com/AmongUs-mac.iso",
+      "platform": "macos",
+      "install": {
+        "method": "7z"
+      },
+      "sha256": "41179e1926efbba83fe34f5cfe430db83a75b6b09defa0d6f0c2dd4bcdf0c489",
+      "size": 84205568
+    }
+  ],
+  "launch": {
+    "windows": {
+      "path": "AmongUs.exe"
+    },
+    "linux": {
+      "path": "AmongUs"
+    }
+  },
+  "checkver": {
+    "url": "https://amongus.blindtabern.com/version.json",
+    "regex": "\"version\":\\s*\"([^\"]+)\""
+  }
+}

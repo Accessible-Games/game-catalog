@@ -1,0 +1,48 @@
+{
+  "id": "honeywood",
+  "kind": "game",
+  "title": "Honeywood",
+  "developer": [
+    "GameYantra"
+  ],
+  "genres": [
+    "Board and dice",
+    "Strategy"
+  ],
+  "description": "Honeywood is a cozy, competitive property-strategy board game: build a woodland kingdom across a 24-region board, buy land, improve your holdings, collect rent and manage a changing economy. The first player to 1,000 Harmony Points wins, or the one still standing when an opponent goes bankrupt.\n\nRoll the dice and draw the turn's event card, then buy the region you land on, upgrade it through four levels, or pay rent to its owner. Seasons advance every 5 turns, inflation raises prices each year, the crown taxes rent from turn 30, and the King's Bank lends at 40% interest.\n\nPlay against the computer at Easy, Medium or Hard, or player against player as a pass-and-play match on one device. Games can be saved and resumed.\n\nThis is the free browser version on GameYantra's site; the game is also an iPhone and Android app.",
+  "pricing": {
+    "model": "free",
+    "checked": "2026-11-13"
+  },
+  "tags": [
+    "Multiplayer"
+  ],
+  "links": [
+    {
+      "url": "https://gameyantra.com/",
+      "label": "Homepage"
+    },
+    {
+      "url": "https://www.applevis.com/apps/ios/games/honeywood-kingdoms-kin",
+      "label": "AppleVis"
+    },
+    {
+      "url": "https://apps.apple.com/us/app/honeywood-kingdoms-kin/id6755677821",
+      "label": "App Store"
+    },
+    {
+      "url": "https://play.google.com/store/apps/details?id=com.gameyantra.honeywood",
+      "label": "Google Play"
+    }
+  ],
+  "sources": [
+    {
+      "label": "Developer site",
+      "url": "https://gameyantra.com/games/honeywood/",
+      "platform": "web",
+      "install": {
+        "method": "url"
+      }
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "id": "paperclip",
+  "kind": "game",
+  "title": "Paperclip",
+  "developer": [
+    "Pranav Bhaven Savla"
+  ],
+  "genres": [
+    "Puzzle"
+  ],
+  "year": 2026,
+  "description": "A daily trading puzzle inspired by Kyle MacDonald, who in 2005 traded a red paperclip up, one swap at a time, until he had a house.\n\nEvery day you start with the paperclip and a market of traders who each do one swap. Some want two things before they'll deal with you, some hand you two things back, and there's always a longer route that also works, so the first one you find usually isn't the best. Mondays are 5 trades, weekends are 7, and three stars means you found the shortest route without touching undo. Every trade also plays a note one step up a scale, so a good run sounds like you walking up to the prize.\n\nFree every day, no account needed. Playable with VoiceOver, NVDA or JAWS.",
+  "pricing": {
+    "model": "free-with-purchases",
+    "note": "A one-time US$1.99 unlock adds unlimited practice, Expert markets and the archive",
+    "checked": "2026-11-13"
+  },
+  "languages": [
+    "en"
+  ],
+  "links": [
+    {
+      "url": "https://forum.audiogames.net/topic/60674/paperclip-a-daily-trading-puzzle-you-play-in-the-browser/",
+      "label": "AudioGames.net"
+    },
+    {
+      "url": "https://pranavsavla.itch.io/paperclip",
+      "label": "itch.io"
+    }
+  ],
+  "sources": [
+    {
+      "label": "Developer site",
+      "url": "https://playpaperclip.app/",
+      "platform": "web",
+      "install": {
+        "method": "url"
+      }
+    }
+  ]
+}

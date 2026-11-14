@@ -1,0 +1,103 @@
+{
+  "id": "wicket-s",
+  "kind": "game",
+  "title": "Wicket's",
+  "developer": [
+    "Orinks"
+  ],
+  "genres": [
+    "Action",
+    "Puzzle"
+  ],
+  "description": "A collection of games you play by ear.\n\nPaddle toward distant chimes on a moonlit lake. Weave through traffic in a speeding sci-fi skimmer. Solve a secret sequence of bells, or grow a rooftop garden whose plants make music together.\n\nWicket's brings action games, puzzles, relaxing activities, and table games into one welcoming parlor. Built for blind and visually impaired players, it uses directional sound and screen-reader speech to tell you what's happening. Play with a keyboard or controller, with no need to see the screen.\n\n- **Lantern Lake:** Paddle a canoe toward lanterns you locate by their chimes. Each lantern adds another instrument to the music. Explore the shoreline and record discoveries in your journal, with no timer or way to fail.\n- **Neon Rail: Black Sky Run:** Pilot a skimmer along three lanes through Black Sky City. Listen for approaching traffic, dodge debris, shoot drones, and time your boost to break through blockades.\n- **Rooftop Garden:** Plant seeds, water dry soil, remove pests, and harvest what you grow. Each kind of plant contributes a different musical part.\n- **Belfry:** Deduce a secret sequence of four bells within ten guesses, without a time limit.\n- **Freewheel:** Ride a bicycle through city traffic, listening for the vehicles around you.\n- **Riverboat Dice:** Decide whether to roll again or bank your total before a 1 puts your gains at risk.\n- **Fireside Patience:** Klondike solitaire, with deals that can always be won.\n\nThere's more to explore: navigate a submarine by sonar, balance on a tightrope, land on distant moons, collect creatures for an aquarium, or answer birds by singing their songs back.\n\nThe optional story puts you in the role of a new keeper at a parlor that has been dark for twelve years. Complete an activity to light its lamp in the Long Hall and uncover more of the story, or head straight to Play. Interactive tutorials and sound checks teach the controls and cues. Daily, weekly and monthly challenges, personal bests, achievements, and seasonal games for holidays and special dates.",
+  "version": "1.6.0",
+  "pricing": {
+    "model": "free",
+    "checked": "2026-11-13"
+  },
+  "contains": [
+    "Lantern Lake",
+    "Neon Rail: Black Sky Run",
+    "Rooftop Garden",
+    "Belfry",
+    "Freewheel",
+    "Riverboat Dice",
+    "Fireside Patience",
+    "Harvest Feast",
+    "Signal Box",
+    "Winter Wonderland",
+    "Nevermore Manor",
+    "Tightrope",
+    "Soft Landing",
+    "Safecracker",
+    "Pantry Mouse",
+    "Sonar Dive",
+    "Basket Run",
+    "Tide Pools",
+    "Birdsong Trail",
+    "The Echo"
+  ],
+  "links": [
+    {
+      "url": "https://www.orinks.net/wickets",
+      "label": "Homepage"
+    },
+    {
+      "url": "https://forum.audiogames.net/topic/60772/happy-holidays-wickets-opens-its-doors-for-halloween-and-beyond/",
+      "label": "AudioGames.net"
+    },
+    {
+      "url": "https://github.com/orinks-games/wickets/releases",
+      "label": "Releases"
+    }
+  ],
+  "sources": [
+    {
+      "label": "Developer site",
+      "url": "https://github.com/orinks-games/wickets/releases/download/v1.6.0/wickets-1.6.0-windows-x64.zip",
+      "platform": "windows",
+      "install": {
+        "method": "zip",
+        "extract_dir": "wickets-1.6.0-windows-x64"
+      },
+      "sha256": "02fbe5f788c4773b747159d588f72a95aca59435993458b5a353c259983fcb6c",
+      "size": 250521177,
+      "arch": "x64"
+    },
+    {
+      "label": "Developer site",
+      "url": "https://github.com/orinks-games/wickets/releases/download/v1.6.0/wickets-1.6.0-macos-arm64.zip",
+      "platform": "macos",
+      "install": {
+        "method": "zip",
+        "extract_dir": "wickets-1.6.0-macos-arm64"
+      },
+      "sha256": "0d1de1f1a645a19794fa0a8cd1a1a7b544776c02cf605b4d2610ab285304119d",
+      "size": 248725532,
+      "arch": "arm64"
+    },
+    {
+      "label": "Developer site",
+      "url": "https://github.com/orinks-games/wickets/releases/download/v1.6.0/wickets-1.6.0-linux-x64.tar.gz",
+      "platform": "linux",
+      "install": {
+        "method": "tar",
+        "extract_dir": "wickets-1.6.0-linux-x64"
+      },
+      "sha256": "da7b2b649507ee9b57a4b18f1cf672cf2c9a73ecb3497fc14c89f8e50f393abe",
+      "size": 250826356,
+      "arch": "x64"
+    }
+  ],
+  "launch": {
+    "windows": {
+      "path": "wickets.exe"
+    },
+    "linux": {
+      "path": "wickets"
+    }
+  },
+  "checkver": {
+    "github": "orinks-games/wickets"
+  }
+}

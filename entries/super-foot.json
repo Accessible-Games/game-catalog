@@ -1,0 +1,36 @@
+{
+  "id": "super-foot",
+  "kind": "game",
+  "title": "Super Foot",
+  "genres": [
+    "Sports"
+  ],
+  "tags": [
+    "Multiplayer"
+  ],
+  "description": "A fully audio football game, played entirely by ear in the browser on a computer or phone, with nothing to install.\n\n- Full matches with live commentary, crowd atmosphere and sound effects\n- Simple keyboard controls; on a touchscreen you play with swipes and taps anywhere on the screen (gesture mode works best with the screen reader off)\n- Solo against the AI, or online against a friend: send them a link and the match starts, penalty shootouts included\n- Several competitions (Champions League, Euro, World Cup, CAN) with the real 2026-27 squads\n- Installable as an app from Chrome, and solo mode works offline\n- Fully playable in English and French (language button at the top of the page)",
+  "pricing": {
+    "model": "free",
+    "checked": "2026-11-13"
+  },
+  "languages": [
+    "en",
+    "fr"
+  ],
+  "links": [
+    {
+      "url": "https://forum.audiogames.net/topic/60731/super-foot-free-fully-audio-football-game-in-the-browser/",
+      "label": "AudioGames.net"
+    }
+  ],
+  "sources": [
+    {
+      "label": "Developer site",
+      "url": "https://super-foot-amis-7c92.surge.sh/",
+      "platform": "web",
+      "install": {
+        "method": "url"
+      }
+    }
+  ]
+}

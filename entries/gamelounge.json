@@ -1,0 +1,61 @@
+{
+  "id": "gamelounge",
+  "kind": "game",
+  "title": "GameLounge",
+  "developer": [
+    "Renova Games"
+  ],
+  "genres": [
+    "Card",
+    "Board and dice"
+  ],
+  "tags": [
+    "Multiplayer"
+  ],
+  "year": 2026,
+  "description": "GameLounge is an online multiplayer game platform from Renova Games, built to be played with a screen reader. You make a table or join one, pick a game and play, or sit at a table and watch. There are bots to fill a table or play when nobody else is online, text and voice chat, and a Hall of Fame with rankings per game.\n\nGames at launch included AudioDisco (a two-player duel with a disc, taking turns to attack and defend), Showdown (real-time paddle and ball for two), New Undead Assault (a new co-op version of Undead Assault against waves of zombies, up to 6 players), Hitster (place songs on your timeline by release year), Uno, Truco, Scopa, NinetyNine, Cards Against Humanity, Texas Hold'em Poker tournaments, Flip 7, Farkle and Greedy Cave. Hitster and Cards Against Humanity had no English decks yet.\n\nGameLounge is online only and needs an account, which is the same on Windows and Android. It is still early.",
+  "contains": [
+    "99",
+    "Audio Disco",
+    "Bingo",
+    "Blackjack",
+    "Cards Against Humanity",
+    "Cave of Greed",
+    "Chaos Bear",
+    "Counter-Attack",
+    "Duck Hunt",
+    "Farkle",
+    "Flip 7",
+    "Goose Game",
+    "Hitster",
+    "New Undead Assault",
+    "Poker Texas Hold'em",
+    "Scopa",
+    "Showdown",
+    "Truco",
+    "Uno"
+  ],
+  "links": [
+    {
+      "url": "https://renovagames.com/games/gamelounge",
+      "label": "Homepage"
+    },
+    {
+      "url": "https://forum.audiogames.net/topic/60429/gamelounge-a-new-game-platform-from-renova-games/",
+      "label": "AudioGames.net"
+    }
+  ],
+  "sources": [
+    {
+      "label": "Developer site",
+      "url": "https://www.renovagames.com/downloads/gl/GameLounge.zip",
+      "platform": "windows",
+      "install": {
+        "method": "zip",
+        "extract_dir": "GameLounge"
+      },
+      "sha256": "623116f437627137c9162c435169ce3c4edb4ec2a79157cd8d15f340d3af47b2",
+      "size": 183449373
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "id": "sixthsense",
+  "kind": "game",
+  "title": "SixthSense",
+  "developer": [
+    "tsatria03"
+  ],
+  "genres": [
+    "Shooter",
+    "Action"
+  ],
+  "description": "SixthSense is a 3D zombie shooter first released for iOS in 2012/2013; its developer appears to have been inactive for many years. This is a Windows port made to resemble the original game in its entirety.\n\nYou fire at the zombies around you by direction: Q at 10:30, W at 12 o'clock, E at 1:30, A at 9 o'clock and D at 3 o'clock. S reloads, Space shakes an animal zombie off you, Tab switches weapons and P pauses. Every key can be changed by pressing F1 anywhere in the game, and the rest of the keys are in the game's readme.\n\nThe port was made with help from Loh Boon Keat (lbk2907) and tunmi13.",
+  "version": "26.10.05-1",
+  "links": [
+    {
+      "url": "https://github.com/tsatria03/SixthSenseOriginal",
+      "label": "Homepage"
+    },
+    {
+      "url": "https://forum.audiogames.net/topic/60437/sixthsense-a-windows-port-of-the-3d-zombie-shooter/",
+      "label": "AudioGames.net"
+    }
+  ],
+  "sources": [
+    {
+      "label": "Developer site",
+      "url": "https://github.com/tsatria03/SixthSenseOriginal/releases/download/V26.10.05-1/SixthSense-Win-26.10.05-1.zip",
+      "platform": "windows",
+      "install": {
+        "method": "zip",
+        "extract_dir": "SixthSense-Windows"
+      },
+      "sha256": "3efc645e83e295d44f80a434585f31e1f67b903669f8341d70c391a55158e232",
+      "size": 108007165
+    }
+  ],
+  "launch": {
+    "windows": {
+      "path": "SixthSense.exe"
+    }
+  },
+  "checkver": {
+    "github": "tsatria03/SixthSenseOriginal"
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "id": "astonischika",
+  "kind": "game",
+  "title": "Astonischika",
+  "developer": [
+    "Josef Sejrek"
+  ],
+  "genres": [
+    "Role-playing",
+    "Strategy"
+  ],
+  "tags": [
+    "Roguelike"
+  ],
+  "year": 2026,
+  "version": "1.0.0",
+  "description": "Astonischika is a turn-based pixel role-playing game with a roguelite loop. Build a party from bold classes, climb a branching map and fight turn by turn against monsters, elites and bosses.\n\nEvery run is different: you choose your path across battles, rest sites, treasure, merchants and minigames. When your party falls, the city remains your permanent home — your heroes, their gold and their gear grow from run to run.\n\n- Build your party from a range of classes — warrior, mage, cleric, rogue, archer and more\n- Turn-based battles with skills, spells, elements and status effects\n- Branching map: battle, elite, boss, rest, treasure and merchant\n- Level-ups, attribute points, equipment and learnable spells\n- Minigames: shell game, dice, memory, coin flip and more\n- A permanent city hub — your progress stays after every run\n\nThis is the developer's Linux desktop version (an SDL2 build). The forum post reports on the iOS app's VoiceOver support; the game is also on iOS and Android, and on Windows through the Microsoft Store.",
+  "links": [
+    {
+      "url": "https://www.budbrain.de/budbrain-software/",
+      "label": "Homepage"
+    },
+    {
+      "url": "https://forum.audiogames.net/topic/60606/iosandroid-astonischika-turnbased-roguelite-rpg/",
+      "label": "AudioGames.net"
+    },
+    {
+      "url": "https://apps.apple.com/us/app/astonischika/id6782404570",
+      "label": "App Store"
+    },
+    {
+      "url": "https://play.google.com/store/apps/details?id=com.budbrain.astonischika",
+      "label": "Google Play"
+    }
+  ],
+  "sources": [
+    {
+      "label": "Developer site",
+      "url": "https://www.budbrain.de/appimage/astonischika-1.0.0-x86_64.AppImage",
+      "platform": "linux",
+      "arch": "x64",
+      "install": {
+        "method": "none"
+      },
+      "sha256": "22ee6d6be67d1a131c2990f4174976e2925cd8d7c96ce228b2b1caa514501ed6",
+      "size": 17267192
+    }
+  ],
+  "launch": {
+    "linux": {
+      "path": "astonischika-1.0.0-x86_64.AppImage"
+    }
+  }
+}

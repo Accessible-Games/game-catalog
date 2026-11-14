@@ -1,0 +1,44 @@
+{
+  "id": "soul-trapper",
+  "kind": "game",
+  "title": "Soul Trapper",
+  "developer": [
+    "AbdullaDubais"
+  ],
+  "genres": [
+    "Adventure"
+  ],
+  "description": "A Windows port of the classic iOS audio adventure game Soul Trapper. The original game and its audio experience were created by Realtime Associates; this unofficial port was made with the help of AI.\n\nThe game speaks through NVDA when available, with Windows speech voices as a fallback. Tab repeats the current instructions, F1 gives contextual help, and F5 and F9 save and load a manual checkpoint.",
+  "version": "1.1",
+  "links": [
+    {
+      "url": "https://github.com/AbdullaDubais/SoulTrapper-Windows",
+      "label": "Homepage"
+    },
+    {
+      "url": "https://forum.audiogames.net/topic/60502/soul-trapper-windows-port-is-out/",
+      "label": "AudioGames.net"
+    }
+  ],
+  "sources": [
+    {
+      "label": "Developer site",
+      "url": "https://github.com/AbdullaDubais/SoulTrapper-Windows/releases/download/v1.1/Soul-Trapper.zip",
+      "platform": "windows",
+      "install": {
+        "method": "zip",
+        "extract_dir": "Soul Trapper"
+      },
+      "sha256": "65c4babc15f8ac316fc1bc643a990ffe770dcc72bd85c86593bd7dc7b803958f",
+      "size": 257111460
+    }
+  ],
+  "launch": {
+    "windows": {
+      "path": "Soul Trapper.exe"
+    }
+  },
+  "checkver": {
+    "github": "AbdullaDubais/SoulTrapper-Windows"
+  }
+}

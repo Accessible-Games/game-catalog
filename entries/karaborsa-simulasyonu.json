@@ -1,0 +1,53 @@
+{
+  "id": "karaborsa-simulasyonu",
+  "kind": "game",
+  "title": "Karaborsa Simülasyonu",
+  "developer": [
+    "Muhammed"
+  ],
+  "genres": [
+    "Simulation",
+    "Strategy"
+  ],
+  "year": 2026,
+  "description": "Karaborsa Simülasyonu (\"Black Market Simulation\") is a fully fictional trading and business-management game built from the ground up to be played with a screen reader: every action is announced, every screen works from the keyboard, and nothing depends on seeing anything.\n\nYou start with a little cash and build it into an empire, or lose it all trying:\n\n- Buy and sell on a black market where prices shift daily, sometimes violently after a random event\n- Open front companies to launder your money and generate passive income\n- Invest in real estate and take out loans against land you own\n- Hire employees and manage a growing operation\n- Hire an informant to warn you before the police catch up with you\n- Bid in a live, real-time auction house against named competitors with their own budgets\n- Try your luck at a casino\n- A public leaderboard, a daily message system and an in-game support system\n- Play in Turkey, the US, the UK or Australia, each with its own cities\n\nF1 gives in-game help. The game was written in Turkish; its English text was translated with AI help. It is open source.",
+  "version": "8.8",
+  "languages": [
+    "tr",
+    "en"
+  ],
+  "links": [
+    {
+      "url": "https://muhammed-space.netlify.app/",
+      "label": "Homepage"
+    },
+    {
+      "url": "https://forum.audiogames.net/topic/60444/karaborsa-simuelasyonu-a-screenreader-friendly-black-market-business/",
+      "label": "AudioGames.net"
+    },
+    {
+      "url": "https://github.com/MUHAMMED4342/kara_borsa_oyun",
+      "label": "Source code"
+    }
+  ],
+  "sources": [
+    {
+      "label": "Developer site",
+      "url": "https://github.com/MUHAMMED4342/kara_borsa_oyun/releases/download/v8.8/KaraborsaSimulasyonu.exe",
+      "platform": "windows",
+      "install": {
+        "method": "none"
+      },
+      "sha256": "5e35e0a1a874f52023b5785574a58f196ac595102d043e56f0d16f1feecb8e31",
+      "size": 121659920
+    }
+  ],
+  "launch": {
+    "windows": {
+      "path": "KaraborsaSimulasyonu.exe"
+    }
+  },
+  "checkver": {
+    "github": "MUHAMMED4342/kara_borsa_oyun"
+  }
+}

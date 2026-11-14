@@ -1,0 +1,55 @@
+{
+  "id": "audio-defence-zombie-arena",
+  "kind": "game",
+  "title": "Audio Defence: Zombie Arena",
+  "developer": [
+    "Loh Boon Keat",
+    "Muhammad Hajjar"
+  ],
+  "genres": [
+    "Shooter",
+    "Action"
+  ],
+  "description": "Audio Defence: Zombie Arena, released by Somethin' Else for iOS in 2015, now runs on Windows with a keyboard, a controller and a screen reader. This is the whole game, not a level or two:\n\n- 30 challenges across four worlds: Training Arena, City Crossroad, Maya Ruin and Roman Theater\n- Endless mode, with the tarot cards that modify a run\n- The armory: weapons, upgrades, power-ups and your loadout\n- The Zombiepedia, with every enemy's own sound, and your statistics\n- All of the original's audio: the narration, the announcer, the zombies, the music\n\nTurn with the arrow keys, fire with Space and melee with either Ctrl key; every action can be rebound in Settings. The menus are spoken through NVDA or another screen reader if one is running, SAPI 5 otherwise. Headphones are essential: the whole game is 3D sound and nothing else.\n\nThe port was written against the game's own code, from the iOS binary, so the weapons, the enemies and the timing are the original's numbers; where it deliberately differs, the README lists each decision and why. The game itself (the audio, the writing, the design) is Somethin' Else's work. The game updates itself from inside the game.",
+  "version": "26.10.05-1",
+  "self_updating": true,
+  "languages": [
+    "en",
+    "ru"
+  ],
+  "links": [
+    {
+      "url": "https://github.com/lbk2907/AudioDefence",
+      "label": "Homepage"
+    },
+    {
+      "url": "https://forum.audiogames.net/topic/60377/back-from-the-dead-audio-defence-now-on-windows/",
+      "label": "AudioGames.net"
+    },
+    {
+      "url": "https://youtu.be/LSo4zf6i5lw",
+      "label": "Video"
+    }
+  ],
+  "sources": [
+    {
+      "label": "Developer site",
+      "url": "https://github.com/lbk2907/AudioDefence/releases/download/26.10.05-1/AudioDefence-Win-26.10.05-1.zip",
+      "platform": "windows",
+      "install": {
+        "method": "zip",
+        "extract_dir": "AudioDefence"
+      },
+      "sha256": "f0e4480b6287e30b2ccaf2102c42debbb0534e179f3b4fe7380c1751985b633d",
+      "size": 179272117
+    }
+  ],
+  "launch": {
+    "windows": {
+      "path": "AudioDefence.exe"
+    }
+  },
+  "checkver": {
+    "github": "lbk2907/AudioDefence"
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "id": "papa-sangre",
+  "kind": "game",
+  "title": "Papa Sangre",
+  "developer": [
+    "Muhammad Hajjar"
+  ],
+  "genres": [
+    "Adventure"
+  ],
+  "tags": [
+    "Horror",
+    "Survival"
+  ],
+  "description": "Papa Sangre is the 3D binaural, audio-only horror survival game first released on iOS by Somethin' Else, in which you find your way through a pitch-black underworld entirely by ear.\n\nThis unofficial Windows port aims to be faithful to the original in every detail: the mechanics, the exact map layouts and the gameplay. It also fixes some bugs that were in the original iOS releases. You walk by alternating your left and right foot (A and D) and turn with the arrow keys; a controller works too, and every key and button can be changed from Options. The port is open source.",
+  "version": "1.0.7",
+  "links": [
+    {
+      "url": "https://github.com/MuhammadHajjar/PapaSangre-Windows",
+      "label": "Homepage"
+    },
+    {
+      "url": "https://forum.audiogames.net/topic/60317/papasangre-windows-port-is-out/",
+      "label": "AudioGames.net"
+    }
+  ],
+  "sources": [
+    {
+      "label": "Developer site",
+      "url": "https://github.com/MuhammadHajjar/PapaSangre-Windows/releases/download/v1.0.7/PapaSangre-Windows-1.0.7.zip",
+      "platform": "windows",
+      "install": {
+        "method": "zip"
+      },
+      "sha256": "a2c3c6e98c52fd640f99512053718ab11a05613e940b4cad84f5b64904968766",
+      "size": 123064032
+    }
+  ],
+  "launch": {
+    "windows": {
+      "path": "Play Papa Sangre.exe"
+    }
+  },
+  "checkver": {
+    "github": "MuhammadHajjar/PapaSangre-Windows"
+  }
+}

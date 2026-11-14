@@ -1,0 +1,49 @@
+{
+  "id": "papa-sangre-ii",
+  "kind": "game",
+  "title": "Papa Sangre II",
+  "developer": [
+    "Muhammad Hajjar"
+  ],
+  "genres": [
+    "Adventure",
+    "Puzzle"
+  ],
+  "tags": [
+    "Horror"
+  ],
+  "description": "Papa Sangre II is the sequel in Somethin' Else's Papa Sangre series of audio-only iPhone horror games. It has many more mechanics than the first game, including a combat system, along with more puzzles and challenges.\n\nThis unofficial Windows port aims to be faithful to the original. You walk with your left and right foot (A and D), use your hands with Q and E (both together clap), and turn with the arrow keys; the game's phone actions have keys too: holding the phone upright or on its side, shaking it (Ctrl) and unplugging the headphones (U). A controller works as well, and every key and button can be changed from Settings. The port is open source.",
+  "version": "2026-09-29",
+  "self_updating": true,
+  "links": [
+    {
+      "url": "https://github.com/MuhammadHajjar/PapaSangreII-Windows",
+      "label": "Homepage"
+    },
+    {
+      "url": "https://forum.audiogames.net/topic/60432/papasangre-ii-windows-port-is-out/",
+      "label": "AudioGames.net"
+    }
+  ],
+  "sources": [
+    {
+      "label": "Developer site",
+      "url": "https://github.com/MuhammadHajjar/PapaSangreII-Windows/releases/download/2026-09-29/PapaSangreII-Windows.zip",
+      "platform": "windows",
+      "install": {
+        "method": "zip",
+        "extract_dir": "Papa Sangre II"
+      },
+      "sha256": "c6a138e4077835dafce1c1b79b4aad51eb21dfac62e144fc23b3f74201d07b7d",
+      "size": 144644055
+    }
+  ],
+  "launch": {
+    "windows": {
+      "path": "Play Papa Sangre II.exe"
+    }
+  },
+  "checkver": {
+    "github": "MuhammadHajjar/PapaSangreII-Windows"
+  }
+}
