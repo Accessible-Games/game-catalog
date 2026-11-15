@@ -90,6 +90,9 @@
     }
   ],
   "launch": {
+    "windows": {
+      "path": "AudioGameAccess.exe"
+    },
     "macos": {
       "path": "AudioGameAccess.app"
     }
