@@ -37,8 +37,7 @@
       "url": "https://github.com/tsatria03/RhythmRage-NVGT/releases/download/V1.40/RhythmRage_mac.zip",
       "platform": "macos",
       "install": {
-        "method": "zip",
-        "extract_dir": "rg.app"
+        "method": "zip"
       },
       "sha256": "9dbd69a8574d61f9c42e0ebc02c60d5aa0326000e4660012d31f0cd71b2f2963",
       "size": 233557638
@@ -47,6 +46,9 @@
   "launch": {
     "windows": {
       "path": "rg.exe"
+    },
+    "macos": {
+      "path": "rg.app"
     }
   },
   "checkver": {
