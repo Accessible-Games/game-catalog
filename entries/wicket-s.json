@@ -95,6 +95,9 @@
     },
     "linux": {
       "path": "wickets"
+    },
+    "macos": {
+      "path": "Wicket's.app"
     }
   },
   "checkver": {

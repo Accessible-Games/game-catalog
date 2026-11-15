@@ -39,6 +39,9 @@
   "launch": {
     "windows": {
       "path": "game.exe"
+    },
+    "macos": {
+      "path": "Game.app"
     }
   }
 }

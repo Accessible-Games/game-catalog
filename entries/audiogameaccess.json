@@ -88,5 +88,10 @@
       "sha256": "a79f0ead3da41dd3fd7e3753684c03819e5b66a5b07a8e07b293a67c601bbefc",
       "size": 211830563
     }
-  ]
+  ],
+  "launch": {
+    "macos": {
+      "path": "AudioGameAccess.app"
+    }
+  }
 }

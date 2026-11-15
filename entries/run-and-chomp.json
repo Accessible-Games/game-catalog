@@ -26,8 +26,7 @@
     {
       "platform": "macos",
       "install": {
-        "method": "zip",
-        "extract_dir": "Run and Chomp.app"
+        "method": "zip"
       },
       "label": "Mirror",
       "url": "https://files.accessiblegames.net/files/5d73f56546e45b5b7c30791afa4b73e74a6919e6e0bbf9f2356d2c379a0e6d3b/RunAndChomp-mac.zip",
@@ -38,6 +37,9 @@
   "launch": {
     "windows": {
       "path": "Run and Chomp.exe"
+    },
+    "macos": {
+      "path": "Run and Chomp.app"
     }
   }
 }
