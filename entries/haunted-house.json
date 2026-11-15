@@ -43,6 +43,7 @@
       "platform": "macos",
       "install": {
         "method": "zip",
+        "dmg": "haunted-house-mac64/haunted-house-mac64.dmg",
         "extract_dir": "haunted-house-mac64"
       },
       "label": "Mirror",
@@ -54,6 +55,9 @@
   "launch": {
     "windows": {
       "path": "game.exe"
+    },
+    "macos": {
+      "path": "haunted-house.app"
     }
   }
 }

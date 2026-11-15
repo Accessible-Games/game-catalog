@@ -176,6 +176,26 @@ def _check_step_order(key: str, where: str, source: dict, out: list[Problem]) ->
                      "because the app runs every file step first"))
 
 
+def _check_dmg(key: str, where: str, source: dict, install: dict, out: list[Problem]) -> None:
+    on_macos = source.get("platform") == "macos"
+    if install.get("method") == "dmg" and not on_macos:
+        out.append(Problem(key, f"{where}: install method 'dmg' is only allowed on macos sources"))
+    if "dmg" not in install:
+        return
+    if not on_macos:
+        out.append(Problem(key, f"{where}: install dmg is only allowed on macos sources"))
+    if install.get("method") not in ("zip", "7z", "tar"):
+        out.append(Problem(key, f"{where}: install dmg is only allowed when install method is 'zip', '7z' or 'tar'"))
+    path = install["dmg"]
+    if not isinstance(path, str):
+        return
+    if (path.startswith(("/", "\\")) or re.match(r"^[A-Za-z]:", path)
+            or ".." in re.split(r"[/\\]", path)):
+        out.append(Problem(key, f"{where}: install dmg must be a relative path inside the archive ({path})"))
+    if not path.lower().endswith(".dmg"):
+        out.append(Problem(key, f"{where}: install dmg must end in .dmg ({path})"))
+
+
 def _check_sources(key: str, entry: dict, out: list[Problem]) -> None:
     for i, source in enumerate(entry.get("sources") or []):
         if not isinstance(source, dict):
@@ -205,6 +225,8 @@ def _check_sources(key: str, entry: dict, out: list[Problem]) -> None:
         install = source.get("install")
         if isinstance(install, dict) and "installer" in install and install.get("method") != "installer":
             out.append(Problem(key, f"{where}: installer block is only allowed when install method is 'installer'"))
+        if isinstance(install, dict):
+            _check_dmg(key, where, source, install, out)
 
 
 def _find_cycles(entries: dict[str, dict]) -> list[list[str]]:

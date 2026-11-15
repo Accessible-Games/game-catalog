@@ -402,11 +402,17 @@
             "cab",
             "tar",
             "none",
-            "url"
-          ]
+            "url",
+            "dmg"
+          ],
+          "description": "How the app installs the source. dmg: the download is a macOS disk image (.dmg). The app mounts it read-only and copies its files."
         },
         "extract_dir": {
           "type": "string"
+        },
+        "dmg": {
+          "type": "string",
+          "description": "Path of a .dmg inside a zip, 7z or tar archive, relative to the archive root (the same base as extract_dir). After unpacking, the app opens that image, copies its files into the folder that holds the .dmg, and deletes the .dmg. extract_dir is applied after that."
         },
         "installer": {
           "type": "object",

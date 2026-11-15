@@ -311,6 +311,50 @@ def test_installer_block_only_for_installer_method():
     assert validate_entries(catalog(good)) == []
 
 
+def mac_source(**install):
+    entry = make("a")
+    entry["sources"][0]["platform"] = "macos"
+    entry["sources"][0]["install"] = {"method": "zip", **install}
+    return entry
+
+
+def test_dmg_method_only_on_macos():
+    good = mac_source(method="dmg")
+    assert validate_entries(catalog(good)) == []
+    bad = make("b")
+    bad["sources"][0]["install"] = {"method": "dmg"}
+    assert any("dmg" in m and "macos" in m for m in msgs(validate_entries(catalog(bad))))
+
+
+def test_dmg_field_only_on_macos():
+    assert validate_entries(catalog(mac_source(dmg="g/g.dmg"))) == []
+    bad = make("b")
+    bad["sources"][0]["install"] = {"method": "zip", "dmg": "g/g.dmg"}
+    assert any("dmg" in m and "macos" in m for m in msgs(validate_entries(catalog(bad))))
+
+
+@pytest.mark.parametrize("method", ["zip", "7z", "tar"])
+def test_dmg_field_allowed_with_archive_methods(method):
+    assert validate_entries(catalog(mac_source(method=method, dmg="g.dmg"))) == []
+
+
+@pytest.mark.parametrize("method", ["none", "dmg", "installer", "cab"])
+def test_dmg_field_rejected_with_other_methods(method):
+    problems = validate_entries(catalog(mac_source(method=method, dmg="g.dmg")))
+    assert any("zip" in m and "dmg" in m for m in msgs(problems))
+
+
+@pytest.mark.parametrize("path", ["/g.dmg", "\\g.dmg", "C:/g.dmg", "../g.dmg", "a/../g.dmg", "a\\..\\g.dmg"])
+def test_dmg_path_must_be_relative(path):
+    problems = validate_entries(catalog(mac_source(dmg=path)))
+    assert any("relative" in m for m in msgs(problems))
+
+
+def test_dmg_path_must_end_in_dmg():
+    assert any(".dmg" in m for m in msgs(validate_entries(catalog(mac_source(dmg="g/game.zip")))))
+    assert validate_entries(catalog(mac_source(dmg="g/GAME.DMG"))) == []
+
+
 def test_agarchive_source_rejected():
     for url in ("https://agarchive.net/games/x.7z", "https://www.agarchive.net/games/x.7z",
                 "https://AGArchive.net/games/x.7z", "https://agarchive.net./games/x.7z",

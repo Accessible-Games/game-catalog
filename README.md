@@ -105,8 +105,9 @@ Web sources (platform `web`) and sources whose install method is `url` are never
 
 ### Install fields
 
-- `method`: required. One of `zip`, `7z`, `installer`, `cab`, `tar` (a `.tar.gz`, `.tar.xz` or `.tar.bz2` file), `none` (a single executable, including a Linux AppImage), `url` (a web game).
+- `method`: required. One of `zip`, `7z`, `installer`, `cab`, `tar` (a `.tar.gz`, `.tar.xz` or `.tar.bz2` file), `none` (a single executable, including a Linux AppImage), `url` (a web game), `dmg` (a macOS disk image; the app mounts it read-only and copies its files).
 - `extract_dir`: optional folder inside the archive to use as the root.
+- `dmg`: optional path of a `.dmg` file inside a `zip`, `7z` or `tar` archive, relative to the archive root (the same base as `extract_dir`). Only for `macos` sources. After unpacking, the app opens that image, copies its files into the folder that holds the `.dmg`, and deletes the `.dmg`. The app applies `extract_dir` after that.
 - `installer`: used when `method` is `installer`.
 
 ### Installer fields
