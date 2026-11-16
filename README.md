@@ -56,6 +56,7 @@ The schema in `schema/entry.schema.json` is authoritative. An entry file holds o
 - `contains`: optional list of the titles of the games inside a collection or launcher, so search finds each one.
 - `unsupported`: optional, `true` when the developer no longer supports the game.
 - `links`: optional list of web pages about the game, such as its homepage, AudioGames.net topic, agarchive credit page, community or source code. Never downloads. Players see them in the order listed. Each link has a required `url`, an http or https address, and an optional `label` that players see, such as `Homepage` or `Discord`. Without a label the app shows the site's name. The same URL can't be listed twice.
+- `stores`: optional list, games only, of the stores the game is got from. See Store fields.
 - `sources`: list with at least one source. The first is the most preferred. An entry needs `sources`, `stores`, or both.
 - `persist`: optional list, games only, of files or folders in the install folder that always hold the player's own data, such as saves. Updates, repairs and adding extras never replace or remove them. Each item is a path relative to the install folder: end it with `/` for a folder and everything in it (`Saves/`), or name a file, which may use the wildcards `*`, `?` and `[...]` (`*.sav`). A name without wildcards also covers everything inside a folder of that name. Case doesn't matter, and `\` counts as `/`. Absolute paths, drive letters, `..` and two items that name the same path are refused, and so are items starting with `./` or with a space before or after them, because the app would never match them. An empty list, `[]`, means someone checked and the game keeps nothing of the player's in its folder; leave the field out when that hasn't been checked.
 - `launch`: optional object keyed by platform (`windows`, `macos`, `linux`, `web`). Each value has a required `path`, relative to the install folder, and an optional `args`. When missing, the app finds the executable after install. On Windows the path must end in `.exe`, `.bat`, `.cmd`, `.html`, `.htm` or `.hta`. A `.html` or `.htm` file opens in the player's web browser. A `.hta` file (an HTML Application) is a program, which the app runs in Windows' `mshta.exe`. The app never guesses a page or a `.hta`, so a game that starts from one must name it.
@@ -74,7 +75,7 @@ The schema in `schema/entry.schema.json` is authoritative. An entry file holds o
 - `period`: `month` or `year`. How often a subscription charges. Required with `subscription`.
 - `checked`: optional date the price was last confirmed, written `YYYY-MM-DD`.
 - `no_longer_sold`: optional, `true` when the full version can't be bought anymore.
-- `url`: optional page where you buy, subscribe or register. The install dialog links to it.
+- `url`: optional page where you buy, subscribe or register. The install dialog links to it. Not a store listing: those go in `stores`.
 - `donate_url`: optional page where you support the developer, usually of a free game.
 - `note`: optional short line in the developer's words for what the model can't say, such as `Full version adds 12 levels`.
 

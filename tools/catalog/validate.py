@@ -11,6 +11,7 @@ from pathlib import Path
 from urllib.parse import urlsplit, urlunsplit
 
 import jsonschema
+from urllib3.util import parse_url
 
 from catalog.config import MIRROR_BASE, is_forbidden_url
 from catalog.entries import ROOT, EntryLoadError, load_entries, load_schema
@@ -105,8 +106,9 @@ def _check_stores(key: str, entry: dict, out: list[Problem]) -> None:
         elif is_forbidden_url(url):
             out.append(Problem(key, f"{where}: agarchive addresses are forbidden ({url})"))
         else:
-            host = (urlsplit(url).hostname or "").rstrip(".")
-            if any(host == h or host.endswith("." + h) for h in _STEAM_HOSTS):
+            # both parsers, as is_forbidden_url does: they disagree on some encoded or malformed hosts
+            hosts = [(urlsplit(url).hostname or "").lower().rstrip("."), (parse_url(url).host or "").lower().rstrip(".")]
+            if any(h == s or h.endswith("." + s) for h in hosts for s in _STEAM_HOSTS):
                 out.append(Problem(
                     key, f'{where}: a Steam page is listed by its id, not its address: '
                          f'use store "steam" with app_id ({url})'))
@@ -351,6 +353,8 @@ def validate_entries(entries: dict[str, dict]) -> list[Problem]:
         for dep in entry.get("dependencies") or []:
             if dep not in entries:
                 problems.append(Problem(key, f"unknown dependency {dep!r}"))
+            elif isinstance(entries[dep], dict) and "sources" not in entries[dep]:
+                problems.append(Problem(key, f"dependency {dep!r} has no download (it is listed in stores only)"))
 
         extends = entry.get("extends")
         if isinstance(extends, list):  # any other shape is already a schema problem

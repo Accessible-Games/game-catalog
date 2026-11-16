@@ -64,6 +64,15 @@ def test_issue_forms_parse():
     assert "Title" in required and "Developer" in required
     assert "Direct download URL" in labels and "Direct download URL" not in required
     assert labels.index("Store pages") == labels.index("Direct download URL") + 1
+    download = next(i for i in submit["body"] if i.get("id") == "download")
+    assert download["attributes"]["description"] == (
+        "A link to the file itself, not a web page about it. For a web game, the address where it is played. "
+        "Leave it empty for a game that is only on a store.")
+    confirm = next(i for i in submit["body"] if i.get("id") == "direct")
+    assert confirm["attributes"]["options"] == [{
+        "label": "Each address above is what its box asks for: a direct file download, a web game's address, "
+                 "or the game's own store page",
+        "required": True}]
     assert (FORMS / "request-removal.yml").exists()
 
 
@@ -73,6 +82,8 @@ def test_readme_documents_stores():
     assert '"store": "steam"' in text and "app_id" in text and "demo_app_id" in text
     assert "It does not list games that cannot be installed" not in text
     assert "`sources`: required list" not in text
+    assert "`stores`: optional list, games only" in text
+    assert "Not a store listing: those go in `stores`." in text
     setup = (ROOT / "SETUP.md").read_text(encoding="utf-8")
     assert "An entry with only `stores` has no download, so nothing of it is mirrored." in setup
 

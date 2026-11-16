@@ -24,7 +24,7 @@ body:
     id: download
     attributes:
       label: Direct download URL
-      description: A link to the file itself, not a web page about it. Leave it empty for a game that is only on a store.
+      description: A link to the file itself, not a web page about it. For a web game, the address where it is played. Leave it empty for a game that is only on a store.
   - type: textarea
     id: stores
     attributes:
@@ -70,5 +70,5 @@ body:
     attributes:
       label: Confirmation
       options:
-        - label: "Each address above is what its box asks for: a direct file download, or the game's own store page"
+        - label: "Each address above is what its box asks for: a direct file download, a web game's address, or the game's own store page"
           required: true

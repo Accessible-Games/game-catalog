@@ -624,6 +624,9 @@ def test_extends_may_not_name_a_store_only_game():
     ([dict(ITCH, store="Help", url="https://help.steamcommunity.com/x")],          # a subdomain counts
      'stores[0]: a Steam page is listed by its id, not its address: use store "steam" with app_id '
      "(https://help.steamcommunity.com/x)"),
+    ([dict(ITCH, store="Encoded", url="https://store%2Esteampowered.com/app/1/")],
+     'stores[0]: a Steam page is listed by its id, not its address: use store "steam" with app_id '
+     "(https://store%2Esteampowered.com/app/1/)"),
     ([dict(STEAM, demo_app_id=1234560)], "stores[0]: demo_app_id is the same as app_id (1234560)"),
     ([dict(STEAM, app_id=1234560.0)], "stores[0]: app_id must be a whole number with no decimal point (1234560.0)"),
     ([dict(STEAM, demo_app_id=7.0)], "stores[0]: demo_app_id must be a whole number with no decimal point (7.0)"),
@@ -631,6 +634,13 @@ def test_extends_may_not_name_a_store_only_game():
 ])
 def test_stores_rules(stores, message):
     assert msgs(validate_entries(catalog(store_only("a", *stores)))) == [message]
+
+
+def test_a_dependency_must_have_a_download():
+    entries = catalog(store_only("s", STEAM), make("x", dependencies=["s"]))
+    problems = validate_entries(entries)
+    assert [(p.entry_id, p.message) for p in problems] == [
+        ("x", "dependency 's' has no download (it is listed in stores only)")]
 
 
 def test_stores_only_on_games():
