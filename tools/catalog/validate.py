@@ -262,6 +262,9 @@ def validate_entries(entries: dict[str, dict]) -> list[Problem]:
 
     for key, entry in entries.items():
         for err in validator.iter_errors(entry):
+            if err.validator == "anyOf" and not err.absolute_path:  # neither sources nor stores
+                problems.append(Problem(key, "needs a download (sources) or a store (stores); it has neither"))
+                continue
             path = "/".join(str(p) for p in err.absolute_path) or "(root)"
             problems.append(Problem(key, f"schema: {path}: {err.message}"))
         if not isinstance(entry, dict):
@@ -269,6 +272,11 @@ def validate_entries(entries: dict[str, dict]) -> list[Problem]:
 
         if entry.get("id") != key:
             problems.append(Problem(key, f"id {entry.get('id')!r} does not match filename {key}.json"))
+
+        if "sources" not in entry:
+            for field in ("launch", "dependencies", "detect", "checkver"):
+                if field in entry:
+                    problems.append(Problem(key, f"{field} describes a download, but the entry has no sources"))
 
         kind = entry.get("kind")
         for dep in entry.get("dependencies") or []:
@@ -286,6 +294,10 @@ def validate_entries(entries: dict[str, dict]) -> list[Problem]:
                     problems.append(Problem(
                         key, f"extends {parent!r}, which is not a game (its kind is {parent_kind!r}); "
                              "extends must name game entries"))
+                elif "sources" not in entries[parent]:
+                    problems.append(Problem(
+                        key, f"extends {parent!r}, which has no download (it is listed in stores only); "
+                             "extras and mods for store-only games are not supported yet"))
         if kind == "extra" and "extends" not in entry:
             problems.append(Problem(key, "extra entries must set extends"))
         if "extends" in entry and kind not in ("extra", "access-mod"):

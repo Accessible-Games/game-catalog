@@ -560,3 +560,44 @@ def test_windows_launch_path_with_other_suffix_is_a_problem(path):
 def test_launch_paths_on_other_platforms_are_not_checked():
     e = make("a", launch={"macos": {"path": "Game.app"}, "linux": {"path": "game"}})
     assert validate_entries(catalog(e)) == []
+
+
+STEAM = {"store": "steam", "app_id": 1234560, "platforms": ["windows"]}
+ITCH = {"store": "itch.io", "url": "https://dev.itch.io/game", "platforms": ["windows", "macos"]}
+
+
+def store_only(id_, *stores, **extra):
+    entry = make(id_, **extra)
+    del entry["sources"]
+    if stores:
+        entry["stores"] = [copy.deepcopy(s) for s in stores]
+    return entry
+
+
+def test_store_only_entry_is_valid():
+    assert validate_entries(catalog(store_only("a", STEAM, ITCH))) == []
+    assert validate_entries(catalog(make("a", stores=[STEAM]))) == []
+
+
+def test_neither_sources_nor_stores_gets_one_plain_message():
+    assert msgs(validate_entries(catalog(store_only("a")))) == [
+        "needs a download (sources) or a store (stores); it has neither"]
+
+
+@pytest.mark.parametrize("field, value", [
+    ("launch", {"windows": {"path": "game.exe"}}), ("dependencies", ["rt"]),
+    ("detect", {"file": "game.exe"}), ("checkver", {"github": "dev/game"}),
+])
+def test_download_fields_need_sources(field, value):
+    entries = catalog(make("rt", "runtime"), store_only("a", STEAM, **{field: value}))
+    assert msgs(validate_entries(entries)) == [f"{field} describes a download, but the entry has no sources"]
+    bare = catalog(make("rt", "runtime"), store_only("a", **{field: value}))   # neither sources nor stores
+    assert f"{field} describes a download, but the entry has no sources" in msgs(validate_entries(bare))
+
+
+def test_extends_may_not_name_a_store_only_game():
+    entries = catalog(make("g"), store_only("s", STEAM), make("x", "extra", extends=["g", "s"]))
+    problems = validate_entries(entries)
+    assert [p.entry_id for p in problems] == ["x"]
+    assert msgs(problems) == ["extends 's', which has no download (it is listed in stores only); "
+                              "extras and mods for store-only games are not supported yet"]
