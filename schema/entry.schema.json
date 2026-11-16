@@ -10,8 +10,7 @@
       "required": [
         "id",
         "kind",
-        "title",
-        "sources"
+        "title"
       ],
       "properties": {
         "id": {
@@ -133,6 +132,21 @@
             }
           }
         },
+        "stores": {
+          "description": "Where the game is sold or hosted outside the catalog: Steam by app id, any other store by URL. An entry needs sources or stores.",
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "oneOf": [
+              {
+                "$ref": "#/$defs/steam_store"
+              },
+              {
+                "$ref": "#/$defs/store"
+              }
+            ]
+          }
+        },
         "sources": {
           "type": "array",
           "minItems": 1,
@@ -150,12 +164,7 @@
         "launch": {
           "type": "object",
           "propertyNames": {
-            "enum": [
-              "windows",
-              "macos",
-              "linux",
-              "web"
-            ]
+            "$ref": "#/$defs/platform"
           },
           "additionalProperties": {
             "type": "object",
@@ -271,7 +280,19 @@
             }
           ]
         }
-      }
+      },
+      "anyOf": [
+        {
+          "required": [
+            "sources"
+          ]
+        },
+        {
+          "required": [
+            "stores"
+          ]
+        }
+      ]
     },
     "id": {
       "type": "string",
@@ -350,12 +371,7 @@
           "format": "uri"
         },
         "platform": {
-          "enum": [
-            "windows",
-            "macos",
-            "linux",
-            "web"
-          ]
+          "$ref": "#/$defs/platform"
         },
         "arch": {
           "enum": [
@@ -563,6 +579,69 @@
           }
         }
       ]
+    },
+    "platform": {
+      "enum": [
+        "windows",
+        "macos",
+        "linux",
+        "web"
+      ]
+    },
+    "store_platforms": {
+      "type": "array",
+      "minItems": 1,
+      "uniqueItems": true,
+      "items": {
+        "$ref": "#/$defs/platform"
+      }
+    },
+    "steam_store": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "store",
+        "app_id",
+        "platforms"
+      ],
+      "properties": {
+        "store": {
+          "const": "steam"
+        },
+        "app_id": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "demo_app_id": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "platforms": {
+          "$ref": "#/$defs/store_platforms"
+        }
+      }
+    },
+    "store": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "store",
+        "url",
+        "platforms"
+      ],
+      "properties": {
+        "store": {
+          "type": "string",
+          "minLength": 1
+        },
+        "url": {
+          "type": "string",
+          "format": "uri"
+        },
+        "platforms": {
+          "$ref": "#/$defs/store_platforms"
+        }
+      }
     }
   }
 }

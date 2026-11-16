@@ -31,6 +31,51 @@ def make(**changes):
     return entry
 
 
+STEAM = {"store": "steam", "app_id": 1234560, "demo_app_id": 1234570, "platforms": ["windows"]}
+ITCH = {"store": "itch.io", "url": "https://dev.itch.io/game", "platforms": ["windows", "macos"]}
+
+
+def store_only(*stores):
+    entry = make(stores=[copy.deepcopy(s) for s in stores])
+    del entry["sources"]
+    return entry
+
+
+def test_stores_shapes():
+    validate(store_only(STEAM, ITCH))            # no sources needed
+    validate(make(stores=[STEAM]))               # a download and a store together
+    validate(store_only({"store": "steam", "app_id": 1, "platforms": ["windows", "macos", "linux"]}))
+    for bad in (
+        [],                                                         # minItems
+        [{"store": "steam", "platforms": ["windows"]}],             # no app_id
+        [dict(STEAM, app_id=0)], [dict(STEAM, app_id="1234560")], [dict(STEAM, app_id=True)],
+        [dict(STEAM, demo_app_id=0)],
+        [dict(STEAM, url="https://store.steampowered.com/app/1234560/")],   # no URL on a Steam item
+        [{"store": "itch.io", "platforms": ["windows"]}],           # no url
+        [dict(ITCH, store="")], [dict(ITCH, platforms=[])], [dict(ITCH, platforms=["windows", "windows"])],
+        [dict(ITCH, platforms=["ios"])], [dict(ITCH, price=5)],     # unknown platform, unknown key
+        "itch.io", 3, ["itch.io"],
+    ):
+        with pytest.raises(jsonschema.ValidationError):
+            validate(make(stores=bad))
+
+
+def test_sources_or_stores_is_required():
+    entry = make()
+    del entry["sources"]
+    with pytest.raises(jsonschema.ValidationError):
+        validate(entry)
+    with pytest.raises(jsonschema.ValidationError):
+        validate(make(sources=[]))               # sources, when present, keeps minItems 1
+
+
+def test_one_platform_list():
+    schema = load_schema()
+    assert schema["$defs"]["platform"] == {"enum": ["windows", "macos", "linux", "web"]}
+    assert schema["$defs"]["source"]["properties"]["platform"] == {"$ref": "#/$defs/platform"}
+    assert schema["$defs"]["fields"]["properties"]["launch"]["propertyNames"] == {"$ref": "#/$defs/platform"}
+
+
 def test_seed_entries_valid():
     files = sorted((ROOT / "entries").glob("*.json"))
     assert files

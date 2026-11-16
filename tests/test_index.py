@@ -38,6 +38,18 @@ def test_entries_sorted_and_complete():
     assert [e["id"] for e in index["entries"]] == ["alpha", "mid", "zeta"]
 
 
+def test_store_only_entry_is_copied_and_fits_the_index_schema():
+    entry = make("a", stores=[{"store": "steam", "app_id": 1234560, "platforms": ["windows"]},
+                              {"store": "GOG", "url": "https://www.gog.com/game/a", "platforms": ["windows"]}])
+    del entry["sources"]
+    index = build_index(catalog(entry), NOW)
+    _index_validator().validate(index)
+    assert index["entries"] == [dict(entry, extras=[])]
+    with pytest.raises(jsonschema.ValidationError):   # the index schema inherits "sources or stores"
+        _index_validator().validate({"schema_version": 2, "generated_at": NOW,
+                                     "entries": [{"id": "b", "kind": "game", "title": "B", "extras": []}]})
+
+
 def test_extras_derived():
     entries = catalog(
         make("g"),
