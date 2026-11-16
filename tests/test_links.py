@@ -222,3 +222,13 @@ def test_check_entries_knows_which_entries_have_a_mirror_copy():
     responses.add(responses.HEAD, mirrored["sources"][1]["url"], status=200)
     checks = check_entries({"a": _entry("a", "https://a.test/a"), "b": mirrored}, session=requests.Session())
     assert {c.entry_id: c.has_mirror for c in checks} == {"a": False, "b": True}
+
+
+STORE_ONLY = {"id": "s", "kind": "game", "title": "S",
+              "stores": [{"store": "steam", "app_id": 1234560, "platforms": ["windows"]}]}
+
+
+@responses.activate
+def test_store_only_entry_has_nothing_to_check():
+    assert check_entries({"s": STORE_ONLY}, session=requests.Session()) == []
+    assert len(responses.calls) == 0

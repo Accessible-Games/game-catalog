@@ -122,3 +122,17 @@ def test_cli_check_fails_only_on_mismatch(tmp_path, capsys):
 def test_cli_refresh_needs_named_entries(tmp_path):
     with pytest.raises(SystemExit):
         main(["--entries", str(tmp_path), "--refresh"])
+
+
+STORE_ONLY = {"id": "s", "kind": "game", "title": "S",
+              "stores": [{"store": "steam", "app_id": 1234560, "platforms": ["windows"]}]}
+
+
+@responses.activate
+def test_store_only_entry_is_left_alone(tmp_path):
+    d = setup(tmp_path, STORE_ONLY)
+    before = (d / "s.json").read_bytes()
+    for mode in ("fill", "check"):
+        assert record_checksums(d, session=make_session(), mode=mode) == []
+    assert len(responses.calls) == 0
+    assert (d / "s.json").read_bytes() == before

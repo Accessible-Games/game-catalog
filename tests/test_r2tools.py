@@ -107,3 +107,13 @@ def test_prune_dry_run_lists_and_deletes_nothing(tmp_path, monkeypatch, capsys):
     assert run.calls == []
     assert prune_main(["--since", "HEAD", "--entries", str(entries), "--delete"]) == 0
     assert run.calls and run.calls[0][-2] == f"accessiblegames-files/{KEY}"
+
+
+STORE_ONLY = {"id": "s", "kind": "game", "title": "S",
+              "stores": [{"store": "steam", "app_id": 1234560, "platforms": ["windows"]}]}
+
+
+def test_store_only_entry_references_no_keys():
+    assert referenced_keys({"s": STORE_ONLY}) == set()
+    # an entry that drops its download releases its mirror file
+    assert orphaned_keys({"a": mirror_entry("a", KEY)}, {"a": STORE_ONLY}) == [KEY]

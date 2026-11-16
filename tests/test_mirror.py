@@ -17,6 +17,7 @@ from catalog.mirror import (
     mirror_entries,
     mirror_file,
     mirror_key,
+    mirror_keys,
     mirror_url,
     safe_filename,
     unmirrored_source_indexes,
@@ -346,3 +347,18 @@ def test_cli_mirrors_only_named_entries(tmp_path):
     # Mirroring is a manual, per-entry decision: there is no "mirror everything" run.
     with pytest.raises(SystemExit):
         main(["--entries", str(tmp_path), "--dry-run"])
+
+
+STORE_ONLY = {"id": "s", "kind": "game", "title": "S",
+              "stores": [{"store": "steam", "app_id": 1234560, "platforms": ["windows"]}]}
+
+
+@responses.activate
+def test_store_only_entry_is_not_mirrored(tmp_path):
+    assert unmirrored_source_indexes(STORE_ONLY) == []
+    assert mirror_keys({"s": STORE_ONLY}) == set()
+    d = tmp_path / "entries"
+    d.mkdir()
+    write_entry(d, STORE_ONLY)
+    assert mirror_entries(d, uploader=MemoryUploader(), session=make_session(), download_dir=tmp_path / "dl") == []
+    assert len(responses.calls) == 0
