@@ -1,0 +1,35 @@
+{
+  "id": "chaos-ride",
+  "kind": "game",
+  "title": "Chaos Ride",
+  "developer": [
+    "McOi Games"
+  ],
+  "genres": [
+    "Racing",
+    "Arcade"
+  ],
+  "description": "Chaos Ride is an audio game that puts your sanity to the test!\n\nAs you find yourself driving a bus with malfunctioning brakes, it's on you to survive. Dodge incoming vehicles in your lane, turn into new roads with things happening around you, race on the highways, and more!\n\nSighted players can play using graphics.",
+  "pricing": {
+    "model": "pay-what-you-want",
+    "price": 10,
+    "currency": "USD",
+    "checked": "2026-11-15"
+  },
+  "links": [
+    {
+      "url": "https://forum.audiogames.net/topic/60756/chaos-ride/",
+      "label": "AudioGames.net"
+    }
+  ],
+  "stores": [
+    {
+      "store": "itch.io",
+      "url": "https://mcoi-games.itch.io/chaos-ride",
+      "platforms": [
+        "windows",
+        "macos"
+      ]
+    }
+  ]
+}

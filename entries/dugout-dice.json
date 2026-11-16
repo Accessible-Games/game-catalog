@@ -1,0 +1,43 @@
+{
+  "id": "dugout-dice",
+  "kind": "game",
+  "title": "Dugout Dice",
+  "developer": [
+    "Clint Graves"
+  ],
+  "genres": [
+    "Board and dice",
+    "Sports"
+  ],
+  "year": 2026,
+  "description": "Roll dice. Build your lineup. Make the playoffs. Win a championship. Beat the target score before three outs to advance to the next inning. Win games, make the playoffs and win championships to unlock new players, Superfan boosts, cheat menus and more. Recruit players with special abilities, add Superfan boosts, and upgrade your dice. Discover powerful combinations, stack multipliers, and turn modest hits into massive payoffs with one-time consumables and clever bench management.\n\nTurn on screen reader accessibility in Settings > Accessibility in the main menu.",
+  "pricing": {
+    "model": "free-to-try",
+    "price": 5.99,
+    "currency": "USD",
+    "checked": "2026-11-15"
+  },
+  "tags": [
+    "Roguelike"
+  ],
+  "languages": [
+    "en"
+  ],
+  "links": [
+    {
+      "url": "https://forum.audiogames.net/topic/60760/dugout-dice/",
+      "label": "AudioGames.net"
+    }
+  ],
+  "stores": [
+    {
+      "store": "steam",
+      "app_id": 5054570,
+      "demo_app_id": 5273960,
+      "platforms": [
+        "windows",
+        "macos"
+      ]
+    }
+  ]
+}

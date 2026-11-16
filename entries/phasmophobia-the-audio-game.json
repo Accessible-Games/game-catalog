@@ -1,0 +1,40 @@
+{
+  "id": "phasmophobia-the-audio-game",
+  "kind": "game",
+  "title": "Phasmophobia the Audio Game",
+  "developer": [
+    "Other Eyes for Games"
+  ],
+  "genres": [
+    "Adventure"
+  ],
+  "description": "**Phasmophobia The Audio Game** is a single-player audiogame adaptation of Phasmophobia, bringing paranormal investigation and survival horror into a fully sound-driven experience.\n\nStep out of the truck, explore haunted locations, and gather evidence to identify the ghost before ending your contract. Listen for footsteps, moving doors, disturbed objects, and ghostly voices. Every investigation challenges you to understand what you hear, and recognize when it is time to hide.\n\nUse equipment such as the EMF reader, Spirit Box, thermometer, UV light, Ghost Writing Book, video camera, and D.O.T.S. projector. Visual clues are adapted into directional sounds and spoken information, allowing you to investigate without sight. Flashlights and room lighting provide an audio radar to help you locate walls, doors, and objects.\n\nThe game features 30 ghost types, 13 investigation maps, a training map, multiple difficulty levels, cursed possessions, and equipment upgrades. Microphone support lets you speak to compatible equipment and cursed objects; the Spirit Box also offers selectable questions for players who prefer to investigate without speaking.\n\nThis is an unofficial, offline fan project, not affiliated with or endorsed by Kinetic Games.",
+  "pricing": {
+    "model": "pay-what-you-want",
+    "price": 0,
+    "currency": "BRL",
+    "checked": "2026-11-15"
+  },
+  "tags": [
+    "Horror"
+  ],
+  "links": [
+    {
+      "url": "https://othereyesforgames.wordpress.com/phasmophobia-the-audio-game/",
+      "label": "Homepage"
+    },
+    {
+      "url": "https://forum.audiogames.net/topic/60775/phasmophobia-the-audio-game-paranormal-investigation/",
+      "label": "AudioGames.net"
+    }
+  ],
+  "stores": [
+    {
+      "store": "itch.io",
+      "url": "https://other-eyes-for-games.itch.io/phasmophobia-the-audio-game",
+      "platforms": [
+        "windows"
+      ]
+    }
+  ]
+}

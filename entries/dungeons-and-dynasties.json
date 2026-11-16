@@ -1,0 +1,37 @@
+{
+  "id": "dungeons-and-dynasties",
+  "kind": "game",
+  "title": "Dungeons and Dynasties",
+  "developer": [
+    "Bretticus82"
+  ],
+  "genres": [
+    "Strategy",
+    "Role-playing",
+    "Simulation"
+  ],
+  "description": "Dungeons and Dynasties is a free, single-player guild-management game, a blend of Darkest Dungeon, Football Manager-style sports management and the atmosphere of A Dark Room. You run an entire adventuring guild: send four heroes on delves for coin (battles play out automatically, and you can follow them), compete in trials every few days for renown and a place in the league table, and enter exhibitions and cups. Your heroes have quirks and flaws: a greedy one may put on cursed armour instead of carrying it home, a restless one may stop the party resting. Party members form bonds that affect their stats. Your guild has a hall, an armoury, a training ground, staff to hire and heroes to pay, and a patron; you can customise it at its founding or take up the history of one the game makes for you, while computer-controlled guilds climb the same leagues.\n\nEvents and tutorials appear at the top of the window; the rest is standard menus. Accessibility fixes go to the browser version first.",
+  "pricing": {
+    "model": "pay-what-you-want",
+    "price": 0,
+    "currency": "USD",
+    "checked": "2026-11-15"
+  },
+  "links": [
+    {
+      "url": "https://forum.audiogames.net/topic/60216/dungeons-and-dynasties-i-dont-know-how-to-describe-this-one/",
+      "label": "AudioGames.net"
+    }
+  ],
+  "stores": [
+    {
+      "store": "itch.io",
+      "url": "https://bretticus82.itch.io/dungeons-dynasties",
+      "platforms": [
+        "web",
+        "windows",
+        "linux"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "id": "forgotten-shore",
+  "kind": "game",
+  "title": "Forgotten Shore",
+  "developer": [
+    "Bilal1212"
+  ],
+  "genres": [
+    "Role-playing"
+  ],
+  "description": "A survival roguelike built from the ground up to be played with your eyes closed: keyboard-first and screen-reader-first. Works with NVDA and JAWS, and self-voices through SAPI without a screen reader.\n\nYou wake in chains on a frozen mountain road. Survive the night, then survive everything after it. Permadeath; your Aspect and Flaw emerge from how you play rather than a class you pick. Tactical combat on a real body model with wounds, blood, shock and lost functions; crafting, alchemy, soul-core progression and doctrines; generated places to hunt, explore and gather; markets, holdings, trials, achievements and optional online shared play. Three difficulties: Story, Standard and Nightmare.\n\nAn unofficial fan project inspired by the web novel Shadow Slave, not affiliated with its author or publisher; all writing, systems and audio are original.\n\nThis game is in development. A free demo for Windows is on its itch.io page.",
+  "pricing": {
+    "model": "free-to-try",
+    "price": 10,
+    "currency": "USD",
+    "checked": "2026-11-15"
+  },
+  "tags": [
+    "Roguelike",
+    "Survival"
+  ],
+  "links": [
+    {
+      "url": "https://forum.audiogames.net/topic/60506/forgotten-shore-a-deep-survival-roguelike-built-screenreaderfirst/",
+      "label": "AudioGames.net"
+    }
+  ],
+  "stores": [
+    {
+      "store": "itch.io",
+      "url": "https://bilal1212.itch.io/the-forgotten-shore",
+      "platforms": [
+        "windows"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "id": "audiospeed",
+  "kind": "game",
+  "title": "Audiospeed",
+  "developer": [
+    "IV Productions"
+  ],
+  "genres": [
+    "Racing"
+  ],
+  "year": 2026,
+  "description": "An audio racing game. In the far future, pilots race starships on orbital tracks, with high gravity, hyperspace acceleration and nebulae in the way. The track, your opponents and the hazards are placed in the stereo field, and a RoboNavigator voice calls out what's coming.\n\nSingle races and a full tournament across 7 tracks, 7 starships with different speed, maneuverability, armor, acceleration and RoboNavigator efficiency, 3 difficulty levels, and Video vs Audio: race a sighted friend on the same track. Fully playable without looking at the screen and without a screen reader; stereo headphones strongly recommended.\n\nThe game is in Early Access on Steam. Its free demo, with 3 starships and the first 2 tracks, is on Steam and itch.io.",
+  "pricing": {
+    "model": "free-to-try",
+    "price": 4.5,
+    "currency": "USD",
+    "checked": "2026-11-15"
+  },
+  "tags": [
+    "Multiplayer"
+  ],
+  "languages": [
+    "en",
+    "it",
+    "es",
+    "fr",
+    "de",
+    "ar",
+    "zh",
+    "ko",
+    "ja",
+    "ru",
+    "hi"
+  ],
+  "links": [
+    {
+      "url": "https://audiogamestore.itch.io/audiospeed",
+      "label": "Demo on itch.io"
+    },
+    {
+      "url": "https://forum.audiogames.net/topic/60648/audiospeed-starship-racing-by-ear-early-access-nov-11-demo-out/",
+      "label": "AudioGames.net"
+    }
+  ],
+  "stores": [
+    {
+      "store": "steam",
+      "app_id": 3669730,
+      "demo_app_id": 5213410,
+      "platforms": [
+        "windows"
+      ]
+    }
+  ]
+}

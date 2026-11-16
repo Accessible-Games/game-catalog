@@ -1,0 +1,41 @@
+{
+  "id": "beat-the-bluff",
+  "kind": "game",
+  "title": "Beat the Bluff",
+  "developer": [
+    "Unmbox Games"
+  ],
+  "genres": [
+    "Puzzle",
+    "Strategy"
+  ],
+  "description": "An audio-first casual puzzle-strategy game set in The Listening Club, a cozy town bar. Listen to short audio sequences, remember what you heard, detect what changed and spot patterns. In Bluff Rounds one player answers a question about the sequence and the other must decide: trust them or challenge them?\n\nPlay a solo campaign against Club members, a once-a-day Daily Challenge, or online 1v1 matches, public or private. Equip abilities such as Replay, Extra Time, Shield and Double Down before a match, and climb the daily and all-time leaderboards. Designed to be fully playable by blind and visually impaired players.",
+  "pricing": {
+    "model": "pay-what-you-want",
+    "price": 0,
+    "currency": "USD",
+    "checked": "2026-11-15"
+  },
+  "tags": [
+    "Multiplayer"
+  ],
+  "links": [
+    {
+      "url": "https://forum.audiogames.net/topic/60598/audio-puzzle-listen-to-audio-equip-abilities-compete-with-opponents/",
+      "label": "AudioGames.net"
+    },
+    {
+      "url": "https://discord.gg/RRrkPWHD4z",
+      "label": "Discord"
+    }
+  ],
+  "stores": [
+    {
+      "store": "itch.io",
+      "url": "https://unmboxgames.itch.io/beat-the-bluff",
+      "platforms": [
+        "windows"
+      ]
+    }
+  ]
+}

@@ -14,8 +14,7 @@
   "description": "A point-and-click museum simulator (and dungeon crawler) where you are a musical genius. As curator of The Omega Conservatory you wield its reach, a telescopic hand that extends into the past: search distant galaxies, stars, planets and moons for instruments, play them freely in your gallery, or trade them for whatever the shopkeeper is offering.\n\nOriginally made for Games for Blind Gamers 5, with synthesized audio, haptics and screen reader support; you can drag your hand across the keyboard and hear the rooms and objects in three dimensions.\n\nThis is the demo. It has no time limits, and progress will carry into the full game, planned for Steam at a low price with free community copies on itch.io and the source code available.",
   "pricing": {
     "model": "free-to-try",
-    "url": "https://store.steampowered.com/app/4638520/THE_OMEGA_REACH/",
-    "checked": "2026-11-13"
+    "checked": "2026-11-15"
   },
   "languages": [
     "en"
@@ -40,6 +39,17 @@
     {
       "url": "https://github.com/nicross/the-omega-reach",
       "label": "Source code"
+    }
+  ],
+  "stores": [
+    {
+      "store": "steam",
+      "app_id": 4638520,
+      "demo_app_id": 4766150,
+      "platforms": [
+        "windows",
+        "linux"
+      ]
     }
   ],
   "sources": [

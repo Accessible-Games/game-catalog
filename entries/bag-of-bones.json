@@ -1,0 +1,32 @@
+{
+  "id": "bag-of-bones",
+  "kind": "game",
+  "title": "Bag of bones",
+  "developer": [
+    "Sound Storm Entertainment"
+  ],
+  "genres": [
+    "Action"
+  ],
+  "description": "A Necromancer woke you up in your grave. Now you're a skeleton, and he thinks you're his servant. You're not. Fight your way through the 15 rooms of his crypt and smash him to dust. Your weapons? Your own bones!\n\nThe game has a built-in help: choose \"How to play\" in the main menu. \"Learn the sounds\" lets you hear every sound in the game.",
+  "pricing": {
+    "model": "free",
+    "checked": "2026-11-15"
+  },
+  "links": [
+    {
+      "url": "https://forum.audiogames.net/topic/60794/bag-of-bones-a-completely-different-halloween/",
+      "label": "AudioGames.net"
+    }
+  ],
+  "stores": [
+    {
+      "store": "itch.io",
+      "url": "https://sound-storm-entertainment.itch.io/bag-of-bones",
+      "platforms": [
+        "windows",
+        "macos"
+      ]
+    }
+  ]
+}
