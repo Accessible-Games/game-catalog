@@ -60,8 +60,21 @@ def test_issue_forms_parse():
         for item in submit["body"]
         if item.get("validations", {}).get("required")
     ]
-    assert "Direct download URL" in required
+    labels = [item["attributes"]["label"] for item in submit["body"] if "label" in item.get("attributes", {})]
+    assert "Title" in required and "Developer" in required
+    assert "Direct download URL" in labels and "Direct download URL" not in required
+    assert labels.index("Store pages") == labels.index("Direct download URL") + 1
     assert (FORMS / "request-removal.yml").exists()
+
+
+def test_readme_documents_stores():
+    text = (ROOT / "README.md").read_text(encoding="utf-8")
+    assert "### Store fields" in text
+    assert '"store": "steam"' in text and "app_id" in text and "demo_app_id" in text
+    assert "It does not list games that cannot be installed" not in text
+    assert "`sources`: required list" not in text
+    setup = (ROOT / "SETUP.md").read_text(encoding="utf-8")
+    assert "An entry with only `stores` has no download, so nothing of it is mirrored." in setup
 
 
 def test_readme_has_removal_policy():

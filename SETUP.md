@@ -88,7 +88,7 @@ The mirror is for preservation, not a copy of every catalog file. Entries normal
 
     gh workflow run mirror.yml -f entries="some-game another-game"
 
-The workflow downloads those entries' developer files, stores them on `files.accessiblegames.net`, and opens a pull request labelled `mirror` that adds a Mirror source to each entry. Review and merge it. Paid games are mirrored like any other entry: their download is the same free installer everyone gets before buying.
+The workflow downloads those entries' developer files, stores them on `files.accessiblegames.net`, and opens a pull request labelled `mirror` that adds a Mirror source to each entry. Review and merge it. Paid games are mirrored like any other entry: their download is the same free installer everyone gets before buying. An entry with only `stores` has no download, so nothing of it is mirrored.
 
 ## Mirror pull requests and the GITHUB_TOKEN
 

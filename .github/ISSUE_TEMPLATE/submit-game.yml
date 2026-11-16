@@ -5,7 +5,7 @@ body:
   - type: markdown
     attributes:
       value: |
-        Thanks for suggesting a game. The catalog only lists games that can be downloaded and launched, so we need a link straight to the file.
+        Thanks for suggesting a game. The catalog lists games that can be downloaded, played in a browser, or got from a store. Give a link straight to the file, or the game's store page.
   - type: input
     id: title
     attributes:
@@ -24,9 +24,12 @@ body:
     id: download
     attributes:
       label: Direct download URL
-      description: A link that downloads the game file itself (a zip, 7z, installer or exe), not a page about it. For a web game, the address where it is played.
-    validations:
-      required: true
+      description: A link to the file itself, not a web page about it. Leave it empty for a game that is only on a store.
+  - type: textarea
+    id: stores
+    attributes:
+      label: Store pages
+      description: The game's page on Steam, itch.io, GOG or another store. One address per line.
   - type: input
     id: homepage
     attributes:
@@ -67,5 +70,5 @@ body:
     attributes:
       label: Confirmation
       options:
-        - label: This is a direct file download, not a web page
+        - label: "Each address above is what its box asks for: a direct file download, or the game's own store page"
           required: true

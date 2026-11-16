@@ -8,7 +8,7 @@ A community catalog of accessible games for blind and low-vision players. Each g
 - Archives preserve the files but carry very little information about them.
 - Access mods for mainstream games need the same thing: a catalog of installable things, with dependencies, installed into places the player already has.
 
-The catalog only lists what can actually be downloaded and launched (or, for web games, opened). It does not list games that cannot be installed.
+The catalog lists games a player can get: a download Game Chooser installs, a web game it opens, or a store page (Steam, itch.io, GOG and others) where the game is bought or downloaded. A game with no download and no store page is not listed.
 
 Games shipped only as source code (for example Python scripts with no runnable build) are not accepted; the catalog provides games to run, it doesn't preserve them.
 
@@ -18,7 +18,7 @@ Games shipped only as source code (for example Python scripts with no runnable b
 
 Open a new issue and pick a form. The admin reviews each one and adds or changes the entry.
 
-- Submit a game: needs a title, developer and a direct download URL. A direct download is a link to the file itself, not a web page about it.
+- Submit a game: needs a title, a developer, and a direct download URL or a store page. A direct download is a link to the file itself, not a web page about it.
 - Suggest an update: a new version, a new download link, or a correction.
 - Report a problem: a broken download, or a game that will not install or launch.
 - Request removal: for developers and rights holders.
@@ -56,7 +56,7 @@ The schema in `schema/entry.schema.json` is authoritative. An entry file holds o
 - `contains`: optional list of the titles of the games inside a collection or launcher, so search finds each one.
 - `unsupported`: optional, `true` when the developer no longer supports the game.
 - `links`: optional list of web pages about the game, such as its homepage, AudioGames.net topic, agarchive credit page, community or source code. Never downloads. Players see them in the order listed. Each link has a required `url`, an http or https address, and an optional `label` that players see, such as `Homepage` or `Discord`. Without a label the app shows the site's name. The same URL can't be listed twice.
-- `sources`: required list with at least one source. The first is the most preferred.
+- `sources`: list with at least one source. The first is the most preferred. An entry needs `sources`, `stores`, or both.
 - `persist`: optional list, games only, of files or folders in the install folder that always hold the player's own data, such as saves. Updates, repairs and adding extras never replace or remove them. Each item is a path relative to the install folder: end it with `/` for a folder and everything in it (`Saves/`), or name a file, which may use the wildcards `*`, `?` and `[...]` (`*.sav`). A name without wildcards also covers everything inside a folder of that name. Case doesn't matter, and `\` counts as `/`. Absolute paths, drive letters, `..` and two items that name the same path are refused, and so are items starting with `./` or with a space before or after them, because the app would never match them. An empty list, `[]`, means someone checked and the game keeps nothing of the player's in its folder; leave the field out when that hasn't been checked.
 - `launch`: optional object keyed by platform (`windows`, `macos`, `linux`, `web`). Each value has a required `path`, relative to the install folder, and an optional `args`. When missing, the app finds the executable after install. On Windows the path must end in `.exe`, `.bat`, `.cmd`, `.html`, `.htm` or `.hta`. A `.html` or `.htm` file opens in the player's web browser. A `.hta` file (an HTML Application) is a program, which the app runs in Windows' `mshta.exe`. The app never guesses a page or a `.hta`, so a game that starts from one must name it.
 - `dependencies`: optional list of entry ids that must be installed first, such as runtimes.
@@ -103,6 +103,32 @@ The app uses `size` and `sha256` to verify what it installs and to notice update
 
 Web sources (platform `web`) and sources whose install method is `url` are never mirrored.
 
+### Store fields
+
+`stores` lists the stores a game is bought or downloaded from. It is only for `kind: "game"`. A page goes here when
+the game is bought there, or when it is the only place to get the game. A free game with a direct download keeps
+its store page in `links`.
+
+Steam is listed by its number, never by an address. Game Chooser builds every Steam address from it:
+
+    {"store": "steam", "app_id": 1234560, "demo_app_id": 1234570, "platforms": ["windows"]}
+
+- `app_id`: the full game's Steam id, the number in `store.steampowered.com/app/<number>/`.
+- `demo_app_id`: the demo's Steam id, when it has one. Leave it out otherwise.
+- `platforms`: the systems the store offers the game for (`windows`, `macos`, `linux`, `web`).
+
+Any other store is listed by its name and the game's page there:
+
+    {"store": "itch.io", "url": "https://dev.itch.io/game", "platforms": ["windows", "macos"]}
+
+- `store`: the name a player reads. Use these spellings: `itch.io`, `GOG`, `Ko-fi`.
+- `url`: the game's page on that store.
+- `platforms`: as above.
+
+An entry lists a store once, and a Steam id belongs to one entry. An entry with `stores` and no `sources` has
+no `launch`, `dependencies`, `detect` or `checkver`, and no extra can extend it yet.
+`pricing.url` stays for a purchase page that is not a store listing, such as a developer's own shop.
+
 ### Install fields
 
 - `method`: required. One of `zip`, `7z`, `installer`, `cab`, `tar` (a `.tar.gz`, `.tar.xz` or `.tar.bz2` file), `none` (a single executable, including a Linux AppImage), `url` (a web game), `dmg` (a macOS disk image; the app mounts it read-only and copies its files).
@@ -136,7 +162,7 @@ The app runs the steps in two groups. The file steps (`copy`, `move`, `delete`) 
 - Index metadata, a small file for cheap change checks: https://catalog.accessiblegames.net/index-meta.json
 - Mirror files: `https://files.accessiblegames.net/files/<sha256>/<file name>`. Mirror files are named by checksum and are never overwritten.
 
-Sources are listed with the developer's own site first and the mirror second, so developers keep their traffic and the mirror is the fallback. The mirror is for preservation, not a copy of every catalog file: most entries point only at the developer's download. The admin preserves files that are at risk of disappearing, such as abandoned freeware or a shaky developer site, by running the mirror workflow for those entries. Paid games are treated like any other entry, since their download is the free installer players use before buying.
+Sources are listed with the developer's own site first and the mirror second, so developers keep their traffic and the mirror is the fallback. The mirror is for preservation, not a copy of every catalog file: most entries point only at the developer's download. The admin preserves files that are at risk of disappearing, such as abandoned freeware or a shaky developer site, by running the mirror workflow for those entries. Paid games are treated like any other entry, since their download is the free installer players use before buying. A game sold only through a store has no download. Its entry lists the store in `stores`.
 
 The mirror workflow adds the new Mirror sources through a pull request labelled `mirror`. It opens that pull request with the built-in `GITHUB_TOKEN`, and GitHub does not start other workflows for it, so the automated checks do not run on mirror pull requests. For that reason `validate` is not a required check. See `SETUP.md` for ways around this.
 
