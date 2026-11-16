@@ -59,6 +59,75 @@ def _check_links(key: str, entry: dict, out: list[Problem]) -> None:
         seen.add(value)
 
 
+_STEAM_HOSTS = ("steampowered.com", "steamcommunity.com")
+
+
+def _check_stores(key: str, entry: dict, out: list[Problem]) -> None:
+    stores = entry.get("stores")
+    if not isinstance(stores, list):  # any other shape is already a schema problem
+        return
+    if entry.get("kind") != "game":
+        out.append(Problem(key, f"stores is only allowed on game entries (kind is {entry.get('kind')!r})"))
+        return
+    steam_seen = False
+    names: set[str] = set()
+    for i, item in enumerate(stores):
+        if not isinstance(item, dict) or not isinstance(item.get("store"), str):
+            continue
+        name = item["store"]
+        where = f"stores[{i}]"
+        if name == "steam" and "app_id" in item:
+            if steam_seen:
+                out.append(Problem(key, f"{where}: a second Steam item; an entry lists Steam once"))
+            steam_seen = True
+            for field in ("app_id", "demo_app_id"):
+                if isinstance(item.get(field), float):
+                    out.append(Problem(
+                        key, f"{where}: {field} must be a whole number with no decimal point ({item[field]!r})"))
+            if item.get("demo_app_id") == item["app_id"]:
+                out.append(Problem(key, f"{where}: demo_app_id is the same as app_id ({item['app_id']!r})"))
+            continue
+        if name.strip().lower() == "steam":
+            out.append(Problem(key, f'{where}: Steam is listed by its id: use store "steam" with app_id and no url'))
+            continue
+        if name != name.strip():
+            out.append(Problem(key, f"{where}: the store name has a space at its start or end ({name!r})"))
+        if name.strip().lower() in names:
+            out.append(Problem(key, f"{where}: the store {name!r} is listed twice"))
+        names.add(name.strip().lower())
+        url = item.get("url")
+        if not isinstance(url, str):
+            continue
+        if " " in url:
+            out.append(Problem(key, f"{where}: URL must not contain spaces ({url})"))
+        elif not _is_web_url(url):
+            out.append(Problem(key, f"{where}: URL must be http or https with a host ({url})"))
+        elif is_forbidden_url(url):
+            out.append(Problem(key, f"{where}: agarchive addresses are forbidden ({url})"))
+        else:
+            host = (urlsplit(url).hostname or "").rstrip(".")
+            if any(host == h or host.endswith("." + h) for h in _STEAM_HOSTS):
+                out.append(Problem(
+                    key, f'{where}: a Steam page is listed by its id, not its address: '
+                         f'use store "steam" with app_id ({url})'))
+
+
+def _steam_ids(entry: dict) -> list[int]:
+    stores = entry.get("stores")
+    if not isinstance(stores, list):
+        return []
+    return [v for item in stores if isinstance(item, dict) and item.get("store") == "steam"
+            for v in (item.get("app_id"), item.get("demo_app_id")) if type(v) is int]
+
+
+def _check_steam_ids(entries: dict[str, dict], out: list[Problem]) -> None:
+    first: dict[int, str] = {}
+    for key, entry in entries.items():
+        for n in _steam_ids(entry):
+            if first.setdefault(n, key) != key:
+                out.append(Problem(key, f"Steam id {n} is also listed by {first[n]!r}"))
+
+
 _DRIVE = re.compile(r"^[A-Za-z]:")
 
 
@@ -316,11 +385,13 @@ def validate_entries(entries: dict[str, dict]) -> list[Problem]:
 
         _check_sources(key, entry, problems)
         _check_links(key, entry, problems)
+        _check_stores(key, entry, problems)
         _check_persist(key, entry, problems)
         _check_launch(key, entry, problems)
         _check_pricing(key, entry, problems)
 
     valid = {k: v for k, v in entries.items() if isinstance(v, dict)}
+    _check_steam_ids(valid, problems)
     for cycle in _find_cycles(valid):
         problems.append(Problem(cycle[0], "dependency cycle: " + " -> ".join(cycle)))
     return problems

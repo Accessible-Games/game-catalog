@@ -601,3 +601,62 @@ def test_extends_may_not_name_a_store_only_game():
     assert [p.entry_id for p in problems] == ["x"]
     assert msgs(problems) == ["extends 's', which has no download (it is listed in stores only); "
                               "extras and mods for store-only games are not supported yet"]
+
+
+@pytest.mark.parametrize("stores, message", [
+    ([STEAM, dict(STEAM, app_id=7)], "stores[1]: a second Steam item; an entry lists Steam once"),
+    ([ITCH, dict(ITCH, store="Itch.io", url="https://dev.itch.io/other")],
+     "stores[1]: the store 'Itch.io' is listed twice"),
+    ([dict(ITCH, store="Steam")], 'stores[0]: Steam is listed by its id: use store "steam" with app_id and no url'),
+    ([dict(ITCH, store="steam")], 'stores[0]: Steam is listed by its id: use store "steam" with app_id and no url'),
+    ([dict(ITCH, url="ftp://dev.itch.io/game")],
+     "stores[0]: URL must be http or https with a host (ftp://dev.itch.io/game)"),
+    ([dict(ITCH, url="https://dev.itch.io/my game")],
+     "stores[0]: URL must not contain spaces (https://dev.itch.io/my game)"),
+    ([dict(ITCH, store="Archive", url="https://www.agarchive.net/games/x")],
+     "stores[0]: agarchive addresses are forbidden (https://www.agarchive.net/games/x)"),
+    ([dict(ITCH, store="Valve", url="HTTPS://Store.SteamPowered.com/app/1/")],
+     'stores[0]: a Steam page is listed by its id, not its address: use store "steam" with app_id '
+     "(HTTPS://Store.SteamPowered.com/app/1/)"),
+    ([dict(ITCH, store="Hub", url="https://steamcommunity.com/app/1")],
+     'stores[0]: a Steam page is listed by its id, not its address: use store "steam" with app_id '
+     "(https://steamcommunity.com/app/1)"),
+    ([dict(ITCH, store="Help", url="https://help.steamcommunity.com/x")],          # a subdomain counts
+     'stores[0]: a Steam page is listed by its id, not its address: use store "steam" with app_id '
+     "(https://help.steamcommunity.com/x)"),
+    ([dict(STEAM, demo_app_id=1234560)], "stores[0]: demo_app_id is the same as app_id (1234560)"),
+    ([dict(STEAM, app_id=1234560.0)], "stores[0]: app_id must be a whole number with no decimal point (1234560.0)"),
+    ([dict(STEAM, demo_app_id=7.0)], "stores[0]: demo_app_id must be a whole number with no decimal point (7.0)"),
+    ([dict(ITCH, store="itch.io ")], "stores[0]: the store name has a space at its start or end ('itch.io ')"),
+])
+def test_stores_rules(stores, message):
+    assert msgs(validate_entries(catalog(store_only("a", *stores)))) == [message]
+
+
+def test_stores_only_on_games():
+    entries = catalog(make("g"), make("x", "extra", extends=["g"], stores=[ITCH]))
+    assert msgs(validate_entries(entries)) == ["stores is only allowed on game entries (kind is 'extra')"]
+
+
+def test_a_steam_id_belongs_to_one_entry():
+    entries = catalog(store_only("a", dict(STEAM, demo_app_id=99)),
+                      store_only("b", dict(STEAM, app_id=99)),          # b's full game is a's demo
+                      store_only("c", dict(STEAM, app_id=5)))
+    problems = validate_entries(entries)
+    assert [(p.entry_id, p.message) for p in problems] == [("b", "Steam id 99 is also listed by 'a'")]
+
+
+@pytest.mark.parametrize("stores", [[], "itch.io", 3, ["itch.io"], [None], [{"store": 5, "url": 7, "platforms": 1}],
+                                    [dict(STEAM, app_id="1234560")], [dict(STEAM, app_id=True)]])
+def test_malformed_stores_are_schema_problems_and_never_raise(stores):
+    entry = make("a")                       # keeps its sources, so only the stores value is wrong
+    entry["stores"] = stores
+    problems = msgs(validate_entries(catalog(entry)))
+    assert problems and all(m.startswith("schema: ") for m in problems)
+
+
+def test_an_empty_stores_list_with_no_sources_is_a_schema_problem():
+    entry = store_only("a")
+    entry["stores"] = []
+    problems = msgs(validate_entries(catalog(entry)))
+    assert problems and all(m.startswith("schema: ") for m in problems)
